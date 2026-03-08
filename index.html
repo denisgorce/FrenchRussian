@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="theme-color" content="#0a0a1e"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<title>Français · A2 для русских</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDMxODkiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZWY0MTM1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIyIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPHRleHQgeD0iNTAiIHk9IjcyIiBmb250LWZhbWlseT0iR2VvcmdpYSxzZXJpZiIgZm9udC1zaXplPSI2MiIgZm9udC13ZWlnaHQ9IjcwMCIgCiAgICAgICAgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0icmdiYSgwLDAsMCwwLjY1KSI+RjwvdGV4dD4KPC9zdmc+"/>
+<link rel="manifest" href="manifest.json"/>
+<style>
+:root{
+  --bg:#0a0a1e;--bg2:#0f0f28;--bg3:#181835;
+  --s1:#1e1e42;--s2:#252556;
+  --ln:rgba(255,255,255,0.07);--ln2:rgba(255,255,255,0.13);
+  --blue:#003189;--red:#ef4135;
+  --ba:rgba(0,49,137,0.18);--ra:rgba(239,65,53,0.14);
+  --bg-fr:rgba(239,65,53,0.32);--bb-fr:rgba(0,49,137,0.32);
+  --gold:#f5c842;--ga:rgba(245,200,66,0.14);
+  --teal:#2dd4bf;--ta:rgba(45,212,191,0.1);
+  --violet:#a78bfa;--green:#34d399;
+  --tx:#f0f0f8;--tx2:#9090b8;--tx3:#545470;
+  --nav:56px;
+  --r1:8px;--r2:12px;--r3:18px;--r4:26px;
+  --ff:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --fm:'SF Mono','Fira Code',Consolas,monospace;
+  --fs:Georgia,'Times New Roman',serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{height:100%;overflow:hidden}
+body{height:100%;font-family:var(--ff);font-size:14px;line-height:1.5;color:var(--tx);background:var(--bg);-webkit-font-smoothing:antialiased;overflow:hidden}
+button{font-family:var(--ff);color:inherit;cursor:pointer;border:none;background:none}
+input{font-family:var(--ff);color:inherit;border:none;background:none}
+svg{display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* === SHELL === */
+#app{display:flex;flex-direction:column;height:100vh;height:100dvh;overflow:hidden}
+#screens{flex:1;position:relative;overflow:hidden;padding-bottom:calc(var(--nav) + env(safe-area-inset-bottom,0px))}
+.scr{position:absolute;inset:0;display:none;flex-direction:column;overflow:hidden;background:var(--bg)}
+.scr.on{display:flex}
+#scr-lesson{position:fixed;inset:0;z-index:100;display:none;flex-direction:column;background:var(--bg)}
+#scr-lesson.on{display:flex}
+
+/* === NAV === */
+#nav{
+  position:fixed;bottom:0;left:0;right:0;
+  height:calc(var(--nav) + env(safe-area-inset-bottom,0px));
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  background:rgba(10,10,30,0.97);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-top:1px solid var(--ln);display:flex;z-index:50;
+}
+.ntab{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:3px;padding-top:6px;font-size:9.5px;font-weight:500;color:var(--tx3);
+  transition:color 0.15s;position:relative;
+}
+.ntab svg{width:21px;height:21px;transition:all 0.15s}
+.ntab.on{color:var(--blue)}
+.ntab.on svg{filter:drop-shadow(0 0 4px var(--blue))}
+.ntab.on::before{content:'';position:absolute;top:-1px;left:50%;transform:translateX(-50%);width:22px;height:2px;background:linear-gradient(90deg,var(--blue),var(--red));border-radius:0 0 3px 3px}
+
+/* === SCROLL === */
+.sc{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+.sc::-webkit-scrollbar{display:none}
+
+/* =========================================================
+   HOME
+========================================================= */
+.hp{padding:calc(env(safe-area-inset-top,0px)+14px) 15px 28px;display:flex;flex-direction:column;gap:13px}
+.h-row{display:flex;align-items:center;justify-content:space-between}
+.h-greet{font-size:19px;font-weight:700}
+.h-logo{
+  width:36px;height:36px;border-radius:11px;
+  background:linear-gradient(135deg,var(--blue),var(--red));
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--fs);font-size:19px;font-weight:700;color:#fff;
+  box-shadow:0 3px 12px rgba(239,65,53,0.4);
+}
+.hero{
+  background:linear-gradient(135deg,#0e0e35 0%,#1a0a28 100%);
+  border:1px solid rgba(239,65,53,0.15);border-radius:var(--r4);
+  padding:20px 18px 22px;position:relative;overflow:hidden;
+}
+.hero::before{content:'';position:absolute;top:-50px;right:-30px;width:180px;height:180px;background:radial-gradient(circle,rgba(239,65,53,0.13) 0%,transparent 65%);pointer-events:none}
+.hero::after{content:'F';position:absolute;right:-8px;bottom:-18px;font-family:var(--fs);font-size:140px;font-weight:700;color:rgba(255,255,255,0.025);line-height:1;pointer-events:none}
+/* tricolore decoration */
+.hero-flag{display:flex;height:3px;border-radius:2px;overflow:hidden;margin-bottom:12px;width:60px}
+.hero-flag span{flex:1}
+.hero-flag span:nth-child(1){background:var(--blue)}
+.hero-flag span:nth-child(2){background:#fff}
+.hero-flag span:nth-child(3){background:var(--red)}
+.h-big{font-family:var(--fs);font-size:28px;font-weight:700;color:#fff;line-height:1.15;margin-bottom:5px}
+.h-sub{font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:16px}
+.btn-go{
+  display:inline-flex;align-items:center;gap:6px;
+  background:linear-gradient(135deg,var(--blue),#0052cc);
+  color:#fff;padding:10px 18px;border-radius:50px;
+  font-size:13px;font-weight:600;box-shadow:0 3px 14px rgba(0,49,137,0.5);
+  transition:opacity 0.1s,transform 0.1s;
+}
+.btn-go:active{opacity:0.82;transform:scale(0.97)}
+.btn-go svg{width:14px;height:14px;stroke:#fff}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.stat{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r2);padding:12px 8px;text-align:center}
+.stat.hl{background:linear-gradient(135deg,rgba(0,49,137,0.1),rgba(239,65,53,0.06));border-color:rgba(239,65,53,0.18)}
+.stat-v{font-size:21px;font-weight:800;color:var(--tx);line-height:1}
+.stat.hl .stat-v{background:linear-gradient(135deg,var(--blue),var(--red));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.stat-l{font-size:9.5px;color:var(--tx3);margin-top:3px;font-weight:500}
+.prog{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r2);padding:14px}
+.prog-r{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:9px}
+.prog-tl{font-size:12px;font-weight:600;color:var(--tx2)}
+.prog-tr{font-family:var(--fm);font-size:10px;color:var(--tx3)}
+.bar{height:6px;background:var(--bg3);border-radius:3px;overflow:hidden;margin-bottom:6px}
+.bf{height:100%;border-radius:3px;transition:width 0.9s cubic-bezier(.4,0,.2,1)}
+.bf-main{background:linear-gradient(90deg,var(--blue),var(--red))}
+.bf-m1{background:linear-gradient(90deg,#003189,#1a5fd4)}
+.bf-m2{background:linear-gradient(90deg,var(--gold),#fbbf24)}
+.bf-m3{background:linear-gradient(90deg,var(--red),#f87171)}
+.prog-months{display:flex;justify-content:space-between;font-size:9.5px;color:var(--tx3)}
+.nxt{background:var(--s1);border:1px solid var(--ln2);border-radius:var(--r2);padding:12px 13px;display:flex;align-items:center;gap:11px;cursor:pointer;transition:background 0.12s}
+.nxt:active{background:var(--s2)}
+.nxt-ic{width:36px;height:36px;border-radius:10px;flex-shrink:0;background:linear-gradient(135deg,var(--blue),var(--red));display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;box-shadow:0 2px 10px rgba(239,65,53,0.3)}
+.nxt-inf{flex:1;min-width:0}
+.nxt-ey{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--red);margin-bottom:1px}
+.nxt-t{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nxt svg{width:15px;height:15px;color:var(--tx3);flex-shrink:0}
+.install-banner{background:var(--s1);border:1px solid rgba(239,65,53,0.2);border-radius:var(--r2);padding:12px 13px;display:flex;align-items:center;gap:11px}
+.install-banner.hidden{display:none}
+.ib-icon{width:36px;height:36px;border-radius:10px;flex-shrink:0;background:linear-gradient(135deg,var(--blue),var(--red));display:flex;align-items:center;justify-content:center;font-size:18px}
+.ib-info{flex:1;min-width:0}
+.ib-t{font-size:12.5px;font-weight:700;color:var(--tx);margin-bottom:1px}
+.ib-s{font-size:10.5px;color:var(--tx3)}
+.btn-install{background:linear-gradient(135deg,var(--red),#c0392b);color:#fff;padding:8px 14px;border-radius:50px;font-size:11.5px;font-weight:700;white-space:nowrap;box-shadow:0 2px 10px rgba(239,65,53,0.4);flex-shrink:0}
+.sec-ttl{font-size:10.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--tx3)}
+.pills{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+.pi-card{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r1);padding:10px 4px 9px;display:flex;flex-direction:column;align-items:center;gap:5px}
+.pi-ic{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;font-family:var(--fs);font-weight:700}
+.pi-ic.i1{background:var(--ba);color:var(--blue)}
+.pi-ic.i2{background:var(--ga);color:var(--gold)}
+.pi-ic.i3{background:var(--ta);color:var(--teal)}
+.pi-ic.i4{background:rgba(167,139,250,0.1);color:var(--violet)}
+.pi-l{font-size:9px;font-weight:600;color:var(--tx2);text-align:center;line-height:1.2}
+
+/* =========================================================
+   LESSONS
+========================================================= */
+.lessons-top{padding:calc(env(safe-area-inset-top,0px)+12px) 15px 10px;border-bottom:1px solid var(--ln);flex-shrink:0}
+.lessons-top h1{font-size:21px;font-weight:800;margin-bottom:10px}
+.srch-wrap{position:relative}
+.srch-wrap svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:14px;height:14px;color:var(--tx3)}
+.srch-wrap input{width:100%;background:var(--s1);border:1px solid var(--ln);border-radius:50px;padding:8px 13px 8px 32px;font-size:13px;color:var(--tx);transition:border-color 0.15s}
+.srch-wrap input::placeholder{color:var(--tx3)}
+.srch-wrap input:focus{border-color:var(--blue);outline:none}
+#ll{padding:10px 15px 15px;display:flex;flex-direction:column;gap:14px}
+.wg-hd{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.wg-badge{background:var(--s1);border:1px solid var(--ln);border-radius:50px;padding:3px 9px;font-family:var(--fm);font-size:9.5px;color:var(--tx3);white-space:nowrap}
+.wg-badge.cur{border-color:rgba(0,49,137,0.5);color:var(--blue)}
+.wg-mini{flex:1;height:2px;background:var(--bg3);border-radius:1px;overflow:hidden}
+.wg-mini-f{height:100%;background:linear-gradient(90deg,var(--blue),var(--red));border-radius:1px;transition:width 0.4s}
+.wg-cnt{font-family:var(--fm);font-size:9px;color:var(--tx3);flex-shrink:0}
+.wg-list{display:flex;flex-direction:column;gap:4px}
+.li{width:100%;background:var(--s1);border:1px solid var(--ln);border-radius:var(--r2);padding:10px 12px;display:flex;align-items:center;gap:9px;cursor:pointer;text-align:left;transition:background 0.1s}
+.li:active{background:var(--s2)}
+.li.done{border-color:rgba(45,212,191,0.18)}
+.li.cur{border-color:rgba(0,49,137,0.4);background:rgba(0,49,137,0.07)}
+.li-n{width:28px;height:28px;border-radius:7px;background:var(--bg3);display:flex;align-items:center;justify-content:center;font-family:var(--fm);font-size:10px;font-weight:600;color:var(--tx3);flex-shrink:0}
+.li.done .li-n{background:var(--ta);color:var(--teal)}
+.li.cur .li-n{background:var(--ba);color:var(--blue)}
+.li-inf{flex:1;min-width:0}
+.li-t{font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.li-s{font-size:10.5px;color:var(--tx3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px}
+.li-ic{flex-shrink:0}
+.li-ic svg{width:14px;height:14px}
+.li.done .li-ic svg{stroke:var(--teal)}
+.li.cur .li-ic svg{stroke:var(--blue)}
+.li:not(.done):not(.cur) .li-ic svg{stroke:var(--tx3)}
+
+/* =========================================================
+   PROGRESS
+========================================================= */
+.pp{padding:calc(env(safe-area-inset-top,0px)+14px) 15px 24px;display:flex;flex-direction:column;gap:13px}
+.pp h1{font-size:21px;font-weight:800}
+.donut{position:relative;width:150px;height:150px;align-self:center}
+.donut svg{width:100%;height:100%;transform:rotate(-90deg)}
+.d-bg{fill:none;stroke:var(--bg3);stroke-width:16}
+.d-f{fill:none;stroke-width:16;stroke-linecap:round;stroke:url(#grad1);stroke-dasharray:376.9;stroke-dashoffset:376.9;transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)}
+.donut-mid{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.d-pct{font-size:26px;font-weight:800;line-height:1}
+.d-lbl{font-size:10px;color:var(--tx3);margin-top:2px}
+.mbs{display:flex;flex-direction:column;gap:8px}
+.mb{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r2);padding:12px 13px}
+.mb-r{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:7px}
+.mb-nm{font-size:12.5px;font-weight:700}
+.mb-th{font-size:10.5px;color:var(--tx3)}
+.mb-bar{height:5px;background:var(--bg3);border-radius:3px;overflow:hidden;margin-bottom:5px}
+.mb-cnt{font-family:var(--fm);font-size:9.5px;color:var(--tx3);text-align:right}
+.hm{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r2);padding:13px}
+.hm-ttl{font-size:11.5px;font-weight:600;color:var(--tx2);margin-bottom:9px}
+.hm-grid{display:grid;grid-template-columns:repeat(13,1fr);gap:4px;margin-bottom:7px}
+.hm-c{aspect-ratio:1;border-radius:3px;background:var(--bg3)}
+.hm-c.p{background:rgba(0,49,137,0.3)}
+.hm-c.f{background:var(--blue);box-shadow:0 0 4px rgba(0,49,137,0.5)}
+.hm-leg{display:flex;align-items:center;gap:5px;font-size:9.5px;color:var(--tx3)}
+.hm-dot{width:10px;height:10px;border-radius:3px;display:inline-block;flex-shrink:0}
+.hm-d0{background:var(--bg3)}.hm-dp{background:rgba(0,49,137,0.3)}.hm-df{background:var(--blue)}
+.ach-g{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.ach-c{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r1);padding:12px 6px;text-align:center}
+.ach-c.got{border-color:rgba(245,200,66,0.3);background:linear-gradient(135deg,rgba(245,200,66,0.07),rgba(239,65,53,0.04))}
+.ach-em{font-size:22px;display:block;margin-bottom:5px;filter:grayscale(1) opacity(0.35)}
+.ach-c.got .ach-em{filter:none}
+.ach-nm{font-size:9.5px;font-weight:600;color:var(--tx3);line-height:1.2}
+.ach-c.got .ach-nm{color:var(--gold)}
+
+/* =========================================================
+   GLOSSAIRE
+========================================================= */
+.glos-top{padding:calc(env(safe-area-inset-top,0px)+12px) 15px 10px;border-bottom:1px solid var(--ln);flex-shrink:0}
+.glos-top h1{font-size:21px;font-weight:800;margin-bottom:4px}
+.glos-sub{font-size:11.5px;color:var(--tx3);margin-bottom:10px}
+.glos-srch{position:relative}
+.glos-srch svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:14px;height:14px;color:var(--tx3)}
+.glos-srch input{width:100%;background:var(--s1);border:1px solid var(--ln);border-radius:50px;padding:8px 13px 8px 32px;font-size:13px;color:var(--tx);transition:border-color 0.15s}
+.glos-srch input::placeholder{color:var(--tx3)}
+.glos-srch input:focus{border-color:var(--blue);outline:none}
+#glos-list{padding:10px 15px 20px;display:flex;flex-direction:column;gap:7px}
+.glos-empty{text-align:center;padding:40px 20px;color:var(--tx3);font-size:13px;line-height:1.6}
+.glos-empty span{font-size:32px;display:block;margin-bottom:10px}
+.ge{background:var(--s1);border:1px solid var(--ln);border-left:3px solid var(--blue);border-radius:var(--r2);padding:11px 12px}
+.ge-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:3px}
+.ge-fr-big{font-family:var(--fs);font-size:19px;font-weight:700;line-height:1.1;word-wrap:break-word}
+.ge-ph{display:inline-block;margin-top:3px;font-family:var(--fm);font-size:10px;color:var(--tx3);background:var(--bg3);border-radius:4px;padding:2px 6px}
+.ge-ru{font-size:12.5px;color:var(--tx2);margin-top:3px;word-wrap:break-word}
+.ge-note{font-size:11.5px;color:var(--teal);border-top:1px solid var(--ln);margin-top:7px;padding-top:7px;word-wrap:break-word}
+.ge-note-lbl{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--tx3);margin-bottom:2px}
+
+/* =========================================================
+   LESSON SCREEN
+========================================================= */
+.l-bar{display:flex;align-items:center;gap:9px;padding:calc(env(safe-area-inset-top,0px)+8px) 13px 8px;border-bottom:1px solid var(--ln);flex-shrink:0}
+.l-back{width:32px;height:32px;border-radius:9px;background:var(--s1);display:flex;align-items:center;justify-content:center;color:var(--tx2);flex-shrink:0;transition:background 0.1s}
+.l-back:active{background:var(--s2)}
+.l-back svg{width:17px;height:17px}
+.l-meta{flex:1;min-width:0}
+.l-wk{font-family:var(--fm);font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:var(--blue);margin-bottom:1px}
+.l-nm{font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.l-tmr{display:flex;align-items:center;gap:4px;background:var(--s1);border:1px solid var(--ln);border-radius:50px;padding:5px 9px;font-family:var(--fm);font-size:11.5px;color:var(--tx2);flex-shrink:0}
+.l-tmr svg{width:11px;height:11px}
+.l-tmr.hot{color:var(--red);border-color:rgba(239,65,53,0.3)}
+.l-pbar{height:2px;background:var(--bg3);flex-shrink:0}
+.l-pfill{height:100%;background:linear-gradient(90deg,var(--blue),var(--red));transition:width 0.4s}
+#lc{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:14px 14px 20px;display:flex;flex-direction:column;gap:11px}
+#lc::-webkit-scrollbar{display:none}
+.l-ft{display:flex;align-items:center;gap:9px;padding:9px 13px calc(9px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--ln);flex-shrink:0;background:var(--bg)}
+.l-ft-pos{flex:1;text-align:center;font-family:var(--fm);font-size:10px;color:var(--tx3)}
+.btn-p,.btn-n{display:flex;align-items:center;gap:5px;padding:9px 15px;border-radius:50px;font-size:12.5px;font-weight:600;transition:all 0.1s}
+.btn-p{background:var(--s1);border:1px solid var(--ln);color:var(--tx2)}
+.btn-p:active{background:var(--s2)}
+.btn-n{background:linear-gradient(135deg,var(--blue),#0052cc);color:#fff;box-shadow:0 3px 12px rgba(0,49,137,0.4)}
+.btn-n:active{opacity:0.85;transform:scale(0.96)}
+.btn-p:disabled,.btn-n:disabled{opacity:0.25;pointer-events:none}
+.btn-p svg,.btn-n svg{width:13px;height:13px}
+
+/* =========================================================
+   SECTIONS
+========================================================= */
+.sec{animation:fu 0.28s ease both}
+.sec:nth-child(2){animation-delay:.05s}.sec:nth-child(3){animation-delay:.1s}
+.sec:nth-child(4){animation-delay:.15s}.sec:nth-child(5){animation-delay:.2s}.sec:nth-child(6){animation-delay:.25s}
+@keyframes fu{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.stag{display:inline-flex;align-items:center;gap:4px;font-family:var(--fm);font-size:9px;letter-spacing:1.3px;text-transform:uppercase;color:var(--blue);background:var(--ba);border:1px solid rgba(0,49,137,0.2);border-radius:50px;padding:3px 9px;margin-bottom:8px}
+.sec-sub{font-size:12px;font-weight:600;color:var(--tx2);margin-bottom:10px}
+/* intro */
+.intro-box{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:15px}
+.intro-h{font-family:var(--fs);font-size:18px;font-weight:700;line-height:1.25;margin-bottom:7px}
+.intro-p{font-size:13px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+/* alphabet */
+.alpha-box{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px}
+.ag{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.ac{background:var(--bg3);border:1px solid var(--ln);border-radius:var(--r1);padding:10px 5px 8px;text-align:center;position:relative;cursor:pointer;transition:all 0.12s}
+.ac.sim{border-color:rgba(45,212,191,0.25);background:rgba(45,212,191,0.04)}
+.ac:active{transform:scale(0.94)}
+.ac-sim{position:absolute;top:3px;right:3px;width:12px;height:12px;background:var(--teal);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:7px;color:var(--bg);font-weight:900}
+.ac-cy{display:block;font-family:var(--fs);font-size:22px;font-weight:700;line-height:1.1}
+.ac-la{display:block;font-family:var(--fm);font-size:9px;color:var(--tx3);margin:2px 0}
+.ac-ex{display:block;font-size:9px;color:var(--blue);font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ac-tts{display:inline-block;margin-top:5px;background:var(--ba);border:1px solid rgba(0,49,137,0.16);border-radius:4px;padding:2px 6px;font-size:8.5px;color:var(--blue)}
+/* vocab — FRENCH card (reversed: fr is the word being learned) */
+.vocab-box{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px}
+.vl{display:flex;flex-direction:column;gap:8px}
+.vc{background:var(--bg3);border:1px solid var(--ln);border-left:3px solid var(--blue);border-radius:var(--r1);padding:11px 11px 10px}
+.vc.cog{border-left-color:var(--gold)}
+.vc-top{display:flex;align-items:flex-start;justify-content:space-between;gap:7px;margin-bottom:3px}
+.vc-fr-big{font-family:var(--fs);font-size:19px;font-weight:700;display:block;line-height:1.1;word-wrap:break-word}
+.vc-ph{display:inline-block;margin-top:3px;font-family:var(--fm);font-size:9.5px;color:var(--tx3);background:var(--bg2);border-radius:4px;padding:2px 6px}
+.vc-ru{font-size:12px;color:var(--tx2);word-wrap:break-word;margin-top:2px}
+.vc-cg{display:inline-flex;align-items:center;gap:3px;font-size:9px;background:var(--ga);color:var(--gold);border:1px solid rgba(245,200,66,0.2);border-radius:50px;padding:2px 8px;margin-top:4px}
+.vc-nt{font-size:11px;color:var(--teal);line-height:1.4;padding-top:6px;margin-top:4px;border-top:1px solid var(--ln);word-wrap:break-word}
+/* tts */
+.tts{width:30px;height:30px;border-radius:8px;background:var(--ba);border:1px solid rgba(0,49,137,0.18);color:var(--blue);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all 0.12s}
+.tts:active{background:rgba(0,49,137,0.28);transform:scale(0.9)}
+.tts.sp{background:rgba(0,49,137,0.28);animation:gw .55s infinite alternate}
+.tts svg{width:13px;height:13px}
+@keyframes gw{from{box-shadow:0 0 0 0 rgba(0,49,137,0.4)}to{box-shadow:0 0 0 5px rgba(0,49,137,0)}}
+/* pronunciation */
+.pron-box{background:linear-gradient(135deg,#0a1030,#150820);border:1px solid rgba(45,212,191,0.16);border-radius:var(--r3);padding:14px}
+.pron-hd{display:flex;align-items:center;gap:7px;margin-bottom:11px}
+.pron-ico{width:28px;height:28px;background:var(--ta);border-radius:7px;display:flex;align-items:center;justify-content:center;color:var(--teal)}
+.pron-ico svg{width:13px;height:13px}
+.pron-h{font-size:12.5px;font-weight:700;color:var(--teal)}
+.pron-rs{display:flex;flex-direction:column;gap:8px}
+.pron-r{display:flex;gap:9px;align-items:flex-start}
+.pron-sym{font-family:var(--fm);font-size:11px;color:#60a5fa;font-weight:600;min-width:90px;flex-shrink:0;padding-top:1px}
+.pron-d{font-size:12px;color:rgba(240,240,248,0.55);line-height:1.5;word-wrap:break-word}
+/* grammar */
+.gram-box{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px}
+.gram-h{font-size:13px;font-weight:700;margin-bottom:9px;word-wrap:break-word}
+.gram-pat{background:var(--bg3);border-left:3px solid var(--blue);border-radius:0 6px 6px 0;padding:8px 11px;font-family:var(--fm);font-size:10.5px;color:var(--tx2);margin-bottom:11px;line-height:1.5;word-wrap:break-word}
+.gram-exs{display:flex;flex-direction:column;gap:8px}
+.ge-fr-row{display:flex;align-items:center;gap:7px;margin-bottom:2px}
+.ge-fr-t{font-family:var(--fs);font-size:14px;font-weight:700;flex:1;word-wrap:break-word;color:#93c5fd}
+.ge-ru-t{font-size:11px;color:var(--tx3);font-style:italic;padding-left:1px;word-wrap:break-word}
+/* tip */
+.tip-box{background:rgba(245,200,66,0.05);border:1px solid rgba(245,200,66,0.16);border-radius:var(--r3);padding:13px;display:flex;gap:9px}
+.tip-em{font-size:17px;flex-shrink:0;margin-top:1px}
+.tip-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:3px}
+.tip-t{font-size:12px;color:var(--tx2);line-height:1.5;word-wrap:break-word}
+/* exercise */
+.ex-box{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px}
+.ex-q{font-size:13.5px;font-weight:600;line-height:1.4;margin-bottom:11px;word-wrap:break-word}
+.ex-opts{display:flex;flex-direction:column;gap:6px}
+.opt{width:100%;background:var(--bg3);border:1px solid var(--ln);border-radius:var(--r1);padding:10px 12px;font-size:13px;color:var(--tx);text-align:left;transition:all 0.1s;word-wrap:break-word}
+.opt:active:not(:disabled){background:var(--s2)}
+.opt:disabled{cursor:default}
+.opt.ok{background:rgba(52,211,153,0.09);border-color:rgba(52,211,153,0.35);color:var(--green)}
+.opt.ko{background:var(--ra);border-color:rgba(239,65,53,0.35);color:var(--red)}
+.ex-fb{margin-top:9px;font-size:12px;line-height:1.5;color:var(--tx3);word-wrap:break-word}
+/* completion */
+.done-box{background:linear-gradient(135deg,#0d0a35,#1a0a1e);border:1px solid rgba(239,65,53,0.2);border-radius:var(--r4);padding:24px 16px;text-align:center}
+.done-em{font-size:36px;display:block;margin-bottom:9px}
+.done-h{font-family:var(--fs);font-size:19px;font-weight:700;margin-bottom:6px}
+.done-p{font-size:12px;color:var(--tx3);line-height:1.5;margin-bottom:18px}
+.done-btns{display:flex;flex-direction:column;gap:9px;align-items:center}
+.btn-done{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,var(--blue),#0052cc);color:#fff;padding:12px 24px;border-radius:50px;font-size:13.5px;font-weight:700;box-shadow:0 4px 16px rgba(0,49,137,0.4);transition:all 0.12s}
+.btn-done:active{opacity:0.85;transform:scale(0.96)}
+.btn-restart{display:inline-flex;align-items:center;gap:6px;background:var(--s1);border:1px solid var(--ln2);color:var(--tx2);padding:10px 20px;border-radius:50px;font-size:12.5px;font-weight:600;transition:all 0.12s}
+.btn-restart:active{background:var(--s2)}
+
+/* === TOAST === */
+#toast{
+  position:fixed;bottom:calc(var(--nav) + env(safe-area-inset-bottom,0px) + 10px);
+  left:50%;transform:translateX(-50%) translateY(0);
+  background:rgba(10,10,30,0.97);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border:1px solid rgba(0,49,137,0.35);border-radius:50px;
+  padding:8px 16px;display:flex;align-items:center;gap:11px;
+  z-index:200;white-space:nowrap;box-shadow:0 6px 24px rgba(0,0,0,0.5);
+  transition:opacity 0.22s,transform 0.22s;
+}
+#toast.off{opacity:0;transform:translateX(-50%) translateY(7px);pointer-events:none}
+#tw{font-family:var(--fs);font-size:15px;font-weight:700}
+.wave{display:flex;align-items:center;gap:2px}
+.wave span{display:block;width:3px;background:var(--blue);border-radius:2px;animation:wv .7s infinite ease-in-out}
+.wave span:nth-child(1){height:5px}.wave span:nth-child(2){height:11px;animation-delay:.1s}
+.wave span:nth-child(3){height:15px;animation-delay:.2s}.wave span:nth-child(4){height:11px;animation-delay:.3s}
+.wave span:nth-child(5){height:5px;animation-delay:.4s}
+@keyframes wv{0%,100%{transform:scaleY(0.35);opacity:0.4}50%{transform:scaleY(1);opacity:1}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003189"/>
+      <stop offset="100%" stop-color="#ef4135"/>
+    </linearGradient>
+  </defs>
+</svg>
+<div id="app">
+  <div id="screens">
+
+    <!-- ACCUEIL -->
+    <div id="scr-home" class="scr on">
+      <div class="sc"><div class="hp">
+        <div class="h-row">
+          <div class="h-greet" id="greet">Добрый день!</div>
+          <div class="h-logo">F</div>
+        </div>
+        <div class="hero">
+          <div class="hero-flag"><span></span><span></span><span></span></div>
+          <div class="h-big">Bienvenue —<br>Добро пожаловать</div>
+          <p class="h-sub">15 мин / день · 78 уроков · 3 месяца</p>
+          <button class="btn-go" id="btn-start">
+            <span>Продолжить</span>
+            <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="stat-v" id="sv-d">0</div><div class="stat-l">уроков</div></div>
+          <div class="stat hl"><div class="stat-v" id="sv-s">0</div><div class="stat-l">🔥 дней</div></div>
+          <div class="stat"><div class="stat-v" id="sv-p">0%</div><div class="stat-l">пройдено</div></div>
+        </div>
+        <div class="prog">
+          <div class="prog-r">
+            <span class="prog-tl">Прогресс</span>
+            <span class="prog-tr" id="prog-lbl">0 / 78</span>
+          </div>
+          <div class="bar"><div class="bf bf-main" id="prog-f" style="width:0%"></div></div>
+          <div class="prog-months"><span>Месяц 1</span><span>Месяц 2</span><span>Месяц 3</span></div>
+        </div>
+        <div class="nxt" id="btn-nxt">
+          <div class="nxt-ic">▶</div>
+          <div class="nxt-inf">
+            <div class="nxt-ey">Следующий урок</div>
+            <div class="nxt-t" id="nxt-t">—</div>
+          </div>
+          <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+        <div class="install-banner hidden" id="install-banner">
+          <div class="ib-icon">📲</div>
+          <div class="ib-info">
+            <div class="ib-t">Установить приложение</div>
+            <div class="ib-s">Быстрый доступ · Работает офлайн</div>
+          </div>
+          <button class="btn-install" id="btn-install">Установить</button>
+        </div>
+        <div class="sec-ttl">Что вы изучаете</div>
+        <div class="pills">
+          <div class="pi-card"><div class="pi-ic i1">A</div><div class="pi-l">Алфавит</div></div>
+          <div class="pi-card"><div class="pi-ic i2">📖</div><div class="pi-l">Словарь</div></div>
+          <div class="pi-card"><div class="pi-ic i3">🔊</div><div class="pi-l">Произнош.</div></div>
+          <div class="pi-card"><div class="pi-ic i4">∑</div><div class="pi-l">Граммат.</div></div>
+        </div>
+      </div></div>
+    </div>
+
+    <!-- УРОКИ -->
+    <div id="scr-lessons" class="scr">
+      <div class="lessons-top">
+        <h1>Уроки</h1>
+        <div class="srch-wrap">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="srch" placeholder="Найти урок…"/>
+        </div>
+      </div>
+      <div class="sc"><div id="ll"></div></div>
+    </div>
+
+    <!-- ПРОГРЕСС -->
+    <div id="scr-prog" class="scr">
+      <div class="sc"><div class="pp">
+        <h1>Мой прогресс</h1>
+        <div class="donut">
+          <svg viewBox="0 0 150 150">
+            <circle class="d-bg" cx="75" cy="75" r="60"/>
+            <circle class="d-f" id="d-f" cx="75" cy="75" r="60"/>
+          </svg>
+          <div class="donut-mid">
+            <div class="d-pct" id="d-pct">0%</div>
+            <div class="d-lbl">пройдено</div>
+          </div>
+        </div>
+        <div class="mbs">
+          <div class="mb">
+            <div class="mb-r"><span class="mb-nm">Месяц 1</span><span class="mb-th">Основы</span></div>
+            <div class="mb-bar"><div class="bf bf-m1" id="mb1" style="width:0%"></div></div>
+            <div class="mb-cnt" id="mc1">0 / 24</div>
+          </div>
+          <div class="mb">
+            <div class="mb-r"><span class="mb-nm">Месяц 2</span><span class="mb-th">Общение</span></div>
+            <div class="mb-bar"><div class="bf bf-m2" id="mb2" style="width:0%"></div></div>
+            <div class="mb-cnt" id="mc2">0 / 30</div>
+          </div>
+          <div class="mb">
+            <div class="mb-r"><span class="mb-nm">Месяц 3</span><span class="mb-th">Уровень A2</span></div>
+            <div class="mb-bar"><div class="bf bf-m3" id="mb3" style="width:0%"></div></div>
+            <div class="mb-cnt" id="mc3">0 / 24</div>
+          </div>
+        </div>
+        <div class="hm">
+          <div class="hm-ttl">Активность — 13 недель</div>
+          <div class="hm-grid" id="hmg"></div>
+          <div class="hm-leg">
+            <span class="hm-dot hm-d0"></span><span>Нет</span>
+            <span class="hm-dot hm-dp"></span><span>Частично</span>
+            <span class="hm-dot hm-df"></span><span>Выполнено</span>
+          </div>
+        </div>
+        <div>
+          <div class="sec-ttl" style="margin-bottom:10px">Достижения</div>
+          <div class="ach-g" id="achg"></div>
+        </div>
+      </div></div>
+    </div>
+
+    <!-- СЛОВАРЬ -->
+    <div id="scr-glos" class="scr">
+      <div class="glos-top">
+        <h1>Словарь</h1>
+        <div class="glos-sub" id="glos-count">0 слов изучено</div>
+        <div class="glos-srch">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="glos-srch" placeholder="Найти слово…"/>
+        </div>
+      </div>
+      <div class="sc"><div id="glos-list"></div></div>
+    </div>
+
+  </div><!-- /screens -->
+
+  <!-- УРОК (оверлей) -->
+  <div id="scr-lesson" class="scr">
+    <div class="l-bar">
+      <button class="l-back" id="btn-back">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="l-meta">
+        <div class="l-wk" id="l-wk"></div>
+        <div class="l-nm" id="l-nm"></div>
+      </div>
+      <div class="l-tmr" id="l-tmr">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span id="l-time">15:00</span>
+      </div>
+    </div>
+    <div class="l-pbar"><div class="l-pfill" id="l-pf"></div></div>
+    <div id="lc"></div>
+    <div class="l-ft">
+      <button class="btn-p" id="btn-prev">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>Пред.
+      </button>
+      <div class="l-ft-pos" id="l-pos"></div>
+      <button class="btn-n" id="btn-next">
+        След.<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <button class="ntab on" id="nt-home">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"/><path d="M5 10v9a1 1 0 001 1h4v-4h4v4h4a1 1 0 001-1v-9"/></svg>
+      <span>Главная</span>
+    </button>
+    <button class="ntab" id="nt-lessons">
+      <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+      <span>Уроки</span>
+    </button>
+    <button class="ntab" id="nt-prog">
+      <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      <span>Прогресс</span>
+    </button>
+    <button class="ntab" id="nt-glos">
+      <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+      <span>Словарь</span>
+    </button>
+  </nav>
+
+  <div id="toast" class="off">
+    <span id="tw"></span>
+    <div class="wave"><span></span><span></span><span></span><span></span><span></span></div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// FRENCH COURSE — 90 LESSONS FOR RUSSIAN SPEAKERS
+// 3 months, 6 days/week, ~15 min/lesson
+// Focus: Latin alphabet, Vocabulary (cognates RU↔FR),
+//        Pronunciation, Sentence structure
+// All interface text in Russian
+// ============================================================
+
+const LESSONS_DATA = {
+
+  // ============================================================
+  // НЕДЕЛЯ 1 — ЛАТИНСКИЙ АЛФАВИТ (Часть 1)
+  // ============================================================
+  "S1J1": {
+    week: 1, day: 1,
+    title: "Добро пожаловать! Французский алфавит",
+    subtitle: "Знакомство с латиницей — буквы похожие на кириллицу",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Почему французский?",
+        text: "Французский — язык 300 миллионов человек. Хорошая новость для русских: около 30% французских слов пришли в русский язык! Вы уже знаете сотни слов. Сегодня вы прочитаете первое французское слово."
+      },
+      {
+        type: "alphabet",
+        tag: "Алфавит",
+        title: "Буквы похожие на русские",
+        letters: [
+          { cyr: "A a", latin: "A a", sound: "[а]", example: "ami", ex_fr: "друг", similar: true },
+          { cyr: "E e", latin: "E e", sound: "[э/ё]", example: "et", ex_fr: "и", similar: true },
+          { cyr: "M m", latin: "M m", sound: "[м]", example: "maman", ex_fr: "мама", similar: true },
+          { cyr: "O o", latin: "O o", sound: "[о]", example: "or", ex_fr: "золото", similar: true },
+          { cyr: "T t", latin: "T t", sound: "[т]", example: "taxi", ex_fr: "такси", similar: true },
+          { cyr: "K k", latin: "K k", sound: "[к]", example: "kilo", ex_fr: "кило", similar: true },
+        ]
+      },
+      {
+        type: "pronunciation",
+        tag: "Произношение",
+        title: "Главное правило: немые буквы",
+        rules: [
+          { symbol: "Конечный E", desc: "Буква E в конце слова обычно не читается. Пример: rose → [роз], не [розэ]" },
+          { symbol: "Конечные согл.", desc: "Большинство конечных согласных немые. Пример: chat → [ша], не [шат]" },
+          { symbol: "Ударение", desc: "Всегда на последнем слоге слова. Это проще чем в русском!" },
+        ]
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Ваши первые слова — русско-французские когнаты",
+        words: [
+          { fr: "le taxi", phonetic: "ле такси", ru: "такси", cognat: true, note: "Слово одинаковое! Только добавьте 'le' или 'la'" },
+          { fr: "le café", phonetic: "ле кафэ", ru: "кафе", cognat: true, note: null },
+          { fr: "le restaurant", phonetic: "ле рэстора", ru: "ресторан", cognat: true, note: "Конечный T не читается → [рэстора]" },
+          { fr: "le théâtre", phonetic: "ле тэатр", ru: "театр", cognat: true, note: null },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как читается слово 'restaurant' по-французски?",
+        options: ["рэстаурант", "рэстора", "рэсторант", "рэстауран"],
+        correct: 1,
+        feedback: "Правильно! Конечный T немой, поэтому читаем [рэстора]. Это одно из главных правил французского!"
+      }
+    ]
+  },
+
+  "S1J2": {
+    week: 1, day: 2,
+    title: "Алфавит: трудные буквы",
+    subtitle: "Буквы которые читаются иначе чем выглядят",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Ловушки для русских",
+        text: "Некоторые французские буквы выглядят как русские, но читаются по-другому. Например, C читается как [с] или [к], а G как [ж] или [г]. Сегодня разберём эти ловушки."
+      },
+      {
+        type: "alphabet",
+        tag: "Алфавит",
+        title: "Буквы-ловушки",
+        letters: [
+          { cyr: "C c", latin: "S/K", sound: "[с] перед e,i / [к] иначе", example: "café", ex_fr: "кафе", similar: false },
+          { cyr: "G g", latin: "J/G", sound: "[ж] перед e,i / [г] иначе", example: "général", ex_fr: "генерал", similar: false },
+          { cyr: "H h", latin: "—", sound: "всегда немая!", example: "hôtel", ex_fr: "отель", similar: false },
+          { cyr: "J j", latin: "Ж", sound: "[ж]", example: "journal", ex_fr: "газета", similar: false },
+          { cyr: "U u", latin: "Ю", sound: "[ю] губы трубочкой", example: "lune", ex_fr: "луна", similar: false },
+          { cyr: "R r", latin: "Р", sound: "грассирующее [р]", example: "Paris", ex_fr: "Париж", similar: false },
+        ]
+      },
+      {
+        type: "tip",
+        tag: "Совет",
+        text: "Буква H во французском ВСЕГДА немая. Hôtel читается [отэль], heure читается [ёр]. Никогда не произносите H!"
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Слова с трудными буквами",
+        words: [
+          { fr: "l'hôtel", phonetic: "лотэль", ru: "отель", cognat: true, note: "H немая, поэтому l'hôtel, а не le hôtel" },
+          { fr: "le journal", phonetic: "ле журналь", ru: "журнал", cognat: true, note: "J читается как [ж]" },
+          { fr: "général", phonetic: "женэраль", ru: "генерал", cognat: true, note: "G перед E читается как [ж]" },
+          { fr: "le cinéma", phonetic: "ле синэма", ru: "кинотеатр", cognat: true, note: "C перед I читается как [с]" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как читается буква H в слове 'hôtel'?",
+        options: ["[х]", "[г]", "она немая", "[а]"],
+        correct: 2,
+        feedback: "Верно! H во французском всегда немая. Поэтому hôtel читается [отэль], а не [хотэль]."
+      }
+    ]
+  },
+
+  "S1J3": {
+    week: 1, day: 3,
+    title: "Гласные и ударения",
+    subtitle: "Акценты меняют звук — é, è, ê, à, ù",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Французские значки над буквами",
+        text: "Во французском есть специальные знаки (акценты) над буквами. Они меняют произношение и иногда значение слова. Например: ou = или, où = где. Всего 5 видов акцентов."
+      },
+      {
+        type: "pronunciation",
+        tag: "Произношение",
+        title: "Пять акцентов французского",
+        rules: [
+          { symbol: "é (aigu)", desc: "Закрытый [э]. Пример: café [кафэ], télé [тэлэ]" },
+          { symbol: "è (grave)", desc: "Открытый [э]. Пример: père [пэр], mère [мэр]" },
+          { symbol: "ê (circonflexe)", desc: "Открытый [э], долгий. Пример: fête [фэт], bête [бэт]" },
+          { symbol: "à / â", desc: "Просто [а]. Пример: à [а] = в/на, château [шато]" },
+          { symbol: "ç (cédille)", desc: "Буква C читается [с]. Пример: français [франсэ]" },
+        ]
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Слова с акцентами",
+        words: [
+          { fr: "le téléphone", phonetic: "ле тэлэфон", ru: "телефон", cognat: true, note: null },
+          { fr: "la télévision", phonetic: "ла тэлэвизьон", ru: "телевидение", cognat: true, note: null },
+          { fr: "le père", phonetic: "ле пэр", ru: "отец", cognat: false, note: "père = отец, mère = мать" },
+          { fr: "français", phonetic: "франсэ", ru: "французский", cognat: false, note: "ç читается как [с]" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Что означает знак é в слове 'café'?",
+        options: ["буква немая", "закрытый звук [э]", "открытый звук [э]", "звук [а]"],
+        correct: 1,
+        feedback: "Правильно! é (aigu) — закрытый звук [э]. Café читается [кафэ]."
+      }
+    ]
+  },
+
+  "S1J4": {
+    week: 1, day: 4,
+    title: "Носовые гласные",
+    subtitle: "Un, in, on, an — особенность французского",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Звуки которых нет в русском",
+        text: "Носовые гласные — это особенность французского языка. Их нет в русском. Это звуки которые произносятся через нос. Их всего 4, и они очень частые. Сегодня научимся их различать."
+      },
+      {
+        type: "pronunciation",
+        tag: "Произношение",
+        title: "Четыре носовых гласных",
+        rules: [
+          { symbol: "an / am / en", desc: "[ан] носовой. Как 'ан' но воздух идёт через нос. Пример: France [франс], enfant [анфан]" },
+          { symbol: "in / im / ain", desc: "[эн] носовой. Пример: vin [вэн] = вино, main [мэн] = рука" },
+          { symbol: "on / om", desc: "[он] носовой. Пример: bon [бон] = хорошо, nom [ном] = имя" },
+          { symbol: "un / um", desc: "[ён] носовой. Пример: un [ён] = один/артикль, parfum [парфён]" },
+        ]
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Слова с носовыми гласными",
+        words: [
+          { fr: "bonjour", phonetic: "бонжур", ru: "здравствуйте / добрый день", cognat: false, note: "bon = хорошо + jour = день. Самое важное слово!" },
+          { fr: "la France", phonetic: "ла франс", ru: "Франция", cognat: true, note: "an = носовой [ан]" },
+          { fr: "le vin", phonetic: "ле вэн", ru: "вино", cognat: false, note: "in = носовой [эн], финальный N не произносится отдельно" },
+          { fr: "le parfum", phonetic: "ле парфён", ru: "духи / парфюм", cognat: true, note: null },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как произносится слово 'bonjour'?",
+        options: ["бонджоур", "бонжур", "боньжоур", "бонйур"],
+        correct: 1,
+        feedback: "Отлично! Bonjour = [бонжур]. Это самое важное слово французского — говорите его всегда при входе в магазин или кафе!"
+      }
+    ]
+  },
+
+  "S1J5": {
+    week: 1, day: 5,
+    title: "Приветствия и прощания",
+    subtitle: "Первые слова для общения",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Вежливость — ключ к Франции",
+        text: "Французы очень ценят вежливость. Всегда говорите bonjour при входе и au revoir при выходе. Это не просто традиция — это знак уважения. Сегодня учим все приветствия."
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Приветствия и прощания",
+        words: [
+          { fr: "Bonjour", phonetic: "Бонжур", ru: "Здравствуйте / Добрый день", cognat: false, note: "Универсальное приветствие (утро + день)" },
+          { fr: "Bonsoir", phonetic: "Бонсуар", ru: "Добрый вечер", cognat: false, note: "С ~18:00" },
+          { fr: "Salut", phonetic: "Салю", ru: "Привет (неформально)", cognat: false, note: "Только с друзьями, финальный T немой" },
+          { fr: "Au revoir", phonetic: "О рёвуар", ru: "До свидания", cognat: false, note: null },
+          { fr: "À bientôt", phonetic: "А бьянто", ru: "До скорого", cognat: false, note: null },
+          { fr: "Bonne nuit", phonetic: "Бон нюи", ru: "Спокойной ночи", cognat: false, note: "Только перед сном" },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Как спросить 'Как дела?'",
+        pattern: "Comment allez-vous ? (вежливо) / Ça va ? (неформально)",
+        examples: [
+          { fr: "— Comment allez-vous ?", ru: "— Как у вас дела? (вежливо)" },
+          { fr: "— Très bien, merci !", ru: "— Очень хорошо, спасибо!" },
+          { fr: "— Ça va ?", ru: "— Как дела? (друзья)" },
+          { fr: "— Ça va bien !", ru: "— Всё хорошо!" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как сказать 'До свидания' по-французски?",
+        options: ["Bonjour", "Salut", "Au revoir", "Bonsoir"],
+        correct: 2,
+        feedback: "Верно! Au revoir [о рёвуар] = до свидания. Bonjour = здравствуйте, Salut = привет, Bonsoir = добрый вечер."
+      }
+    ]
+  },
+
+  "S1J6": {
+    week: 1, day: 6,
+    title: "Цифры 1–20",
+    subtitle: "Числа которые нужны каждый день",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Цифры — основа общения",
+        text: "Цифры нужны везде: в магазине, в транспорте, в ресторане. Французские цифры до 16 нужно просто запомнить. После 16 есть логика. Плохая новость: 70, 80, 90 — настоящий кошмар. Хорошая новость: вы не одиноки!"
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Цифры от 1 до 20",
+        words: [
+          { fr: "un / une", phonetic: "ён / юн", ru: "один / одна", cognat: false, note: null },
+          { fr: "deux", phonetic: "дё", ru: "два", cognat: false, note: "X немой" },
+          { fr: "trois", phonetic: "труа", ru: "три", cognat: false, note: "S немой" },
+          { fr: "quatre", phonetic: "катр", ru: "четыре", cognat: false, note: null },
+          { fr: "cinq", phonetic: "сэнк", ru: "пять", cognat: false, note: null },
+          { fr: "six", phonetic: "сис", ru: "шесть", cognat: false, note: null },
+          { fr: "sept", phonetic: "сэт", ru: "семь", cognat: false, note: "P немой" },
+          { fr: "huit", phonetic: "юит", ru: "восемь", cognat: false, note: "H немой" },
+          { fr: "neuf", phonetic: "нёф", ru: "девять", cognat: false, note: null },
+          { fr: "dix", phonetic: "дис", ru: "десять", cognat: false, note: null },
+        ]
+      },
+      {
+        type: "tip",
+        tag: "Совет",
+        text: "Французские числа 17-19 это просто сложение: dix-sept = 10+7, dix-huit = 10+8, dix-neuf = 10+9. А вот 80 = quatre-vingts (четыре по двадцать) и 90 = quatre-vingt-dix (четыре по двадцать плюс десять)!"
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как по-французски 'три'?",
+        options: ["deux", "quatre", "trois", "cinq"],
+        correct: 2,
+        feedback: "Правильно! Trois [труа] = три. Запомните: un, deux, trois... как считают в кино перед прыжком!"
+      }
+    ]
+  },
+
+  // ============================================================
+  // НЕДЕЛЯ 2 — ОСНОВЫ ОБЩЕНИЯ
+  // ============================================================
+  "S2J1": {
+    week: 2, day: 1,
+    title: "Глагол être — быть",
+    subtitle: "Самый важный глагол французского",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Глагол который нельзя не знать",
+        text: "Être (быть) — самый используемый глагол во французском. Он спрягается неправильно, поэтому его нужно просто запомнить. Внимание: в русском мы часто опускаем 'есть', а во французском глагол нужен всегда."
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Спряжение глагола être (быть)",
+        pattern: "Je suis / Tu es / Il-Elle est / Nous sommes / Vous êtes / Ils-Elles sont",
+        examples: [
+          { fr: "Je suis russe.", ru: "Я русский(-ая)." },
+          { fr: "Tu es étudiant ?", ru: "Ты студент?" },
+          { fr: "Il est médecin.", ru: "Он врач." },
+          { fr: "Nous sommes à Paris.", ru: "Мы в Париже." },
+          { fr: "Vous êtes français ?", ru: "Вы французский?" },
+        ]
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Национальности",
+        words: [
+          { fr: "russe", phonetic: "рюс", ru: "русский", cognat: true, note: "Без заглавной буквы!" },
+          { fr: "français(e)", phonetic: "франсэ / франсэз", ru: "французский", cognat: true, note: "Женский род: française" },
+          { fr: "étudiant(e)", phonetic: "этюдьян", ru: "студент", cognat: true, note: null },
+          { fr: "médecin", phonetic: "мэдсэн", ru: "врач", cognat: false, note: null },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как сказать 'Я русский' по-французски?",
+        options: ["Je suis russe.", "Tu es russe.", "Il est russe.", "Nous sommes russe."],
+        correct: 0,
+        feedback: "Отлично! Je suis russe = Я русский. Je = я, suis = есть (être), russe = русский."
+      }
+    ]
+  },
+
+  "S2J2": {
+    week: 2, day: 2,
+    title: "Глагол avoir — иметь",
+    subtitle: "Второй по важности глагол",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Avoir — иметь и не только",
+        text: "Avoir (иметь) нужен не только чтобы говорить о владении. Во французском используют avoir там, где в русском используют другие конструкции: 'мне X лет' = j'ai X ans, 'мне жарко' = j'ai chaud."
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Спряжение глагола avoir (иметь)",
+        pattern: "J'ai / Tu as / Il-Elle a / Nous avons / Vous avez / Ils-Elles ont",
+        examples: [
+          { fr: "J'ai un chat.", ru: "У меня есть кот." },
+          { fr: "Tu as quel âge ?", ru: "Сколько тебе лет?" },
+          { fr: "J'ai vingt ans.", ru: "Мне двадцать лет." },
+          { fr: "Elle a faim.", ru: "Она голодна (букв: она имеет голод)." },
+          { fr: "Vous avez une voiture ?", ru: "У вас есть машина?" },
+        ]
+      },
+      {
+        type: "tip",
+        tag: "Совет",
+        text: "По-французски возраст выражается через avoir: j'ai 25 ans (мне 25 лет, буквально: я имею 25 лет). Это ловушка для русских — мы говорим 'мне 25', а французы 'я имею 25'."
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как спросить 'Сколько вам лет?' по-французски?",
+        options: ["Vous êtes quel âge ?", "Vous avez quel âge ?", "Vous avez combien ?", "Quel âge êtes-vous ?"],
+        correct: 1,
+        feedback: "Правильно! Vous avez quel âge ? — буквально 'вы имеете какой возраст?'. Возраст всегда с avoir!"
+      }
+    ]
+  },
+
+  "S2J3": {
+    week: 2, day: 3,
+    title: "Артикли — le, la, les, un, une",
+    subtitle: "Главная трудность для русских",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Артикли — их нет в русском",
+        text: "В русском нет артиклей — это одна из главных трудностей для нас. Каждое французское существительное имеет род (мужской или женский) и требует артикля. Главное правило: учите каждое слово вместе с артиклем."
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Четыре основных артикля",
+        pattern: "le (м.р.) / la (ж.р.) / l' (перед гласной) / les (мн.ч.) | un (м.р.) / une (ж.р.)",
+        examples: [
+          { fr: "le café — la maison", ru: "кафе (м.р.) — дом (ж.р.)" },
+          { fr: "l'ami — l'amie", ru: "друг — подруга (перед гласной A)" },
+          { fr: "les amis", ru: "друзья (множественное число)" },
+          { fr: "un livre — une table", ru: "книга (м.р.) — стол (ж.р.) — неопределённые" },
+        ]
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Слова с артиклями",
+        words: [
+          { fr: "le livre", phonetic: "ле ливр", ru: "книга (м.р.)", cognat: false, note: "Запоминайте вместе с артиклем: LE livre" },
+          { fr: "la maison", phonetic: "ла мэзон", ru: "дом (ж.р.)", cognat: false, note: null },
+          { fr: "l'appartement", phonetic: "лапартёман", ru: "квартира (м.р.)", cognat: true, note: "Апартамент — перед гласной артикль l'" },
+          { fr: "les amis", phonetic: "лэ зами", ru: "друзья", cognat: false, note: "Перед множественным числом — les" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Какой артикль нужен перед словом 'hôtel' (м.р.)?",
+        options: ["la hôtel", "le hôtel", "l'hôtel", "les hôtel"],
+        correct: 2,
+        feedback: "Верно! Перед словом начинающимся на H (немую) или гласную используем l'. Поэтому l'hôtel, l'ami, l'appartement."
+      }
+    ]
+  },
+
+  "S2J4": {
+    week: 2, day: 4,
+    title: "Знакомство",
+    subtitle: "Рассказать о себе по-французски",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Первый разговор на французском",
+        text: "Сегодня вы сможете представиться по-французски: имя, откуда вы, чем занимаетесь. Этот минимальный набор позволит начать любое знакомство."
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Слова для знакомства",
+        words: [
+          { fr: "s'appeler", phonetic: "сапёлэ", ru: "называться / звать", cognat: false, note: "Je m'appelle = меня зовут" },
+          { fr: "habiter", phonetic: "абитэ", ru: "жить (где-то)", cognat: false, note: null },
+          { fr: "travailler", phonetic: "траваийэ", ru: "работать", cognat: false, note: null },
+          { fr: "parler", phonetic: "парлэ", ru: "говорить", cognat: false, note: "parler français = говорить по-французски" },
+          { fr: "enchanté(e)", phonetic: "аншантэ", ru: "очень приятно", cognat: true, note: "От слова 'очарованный' — enchanted!" },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Диалог знакомства",
+        pattern: "Je m'appelle + имя. J'habite à + город. Je parle + язык.",
+        examples: [
+          { fr: "— Bonjour, je m'appelle Anna.", ru: "— Здравствуйте, меня зовут Анна." },
+          { fr: "— J'habite à Moscou.", ru: "— Я живу в Москве." },
+          { fr: "— Je parle russe et un peu français.", ru: "— Я говорю по-русски и немного по-французски." },
+          { fr: "— Enchanté(e) !", ru: "— Очень приятно!" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как сказать 'Меня зовут Иван'?",
+        options: ["Je suis Ivan.", "J'ai Ivan.", "Je m'appelle Ivan.", "Mon nom Ivan."],
+        correct: 2,
+        feedback: "Правильно! Je m'appelle Ivan — буквально 'я себя называю Иван'. Это стандартная формула знакомства."
+      }
+    ]
+  },
+
+  "S2J5": {
+    week: 2, day: 5,
+    title: "Семья",
+    subtitle: "Члены семьи по-французски",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Семья — la famille",
+        text: "Тема семьи универсальная — её понимают во всём мире. Французские слова для членов семьи многие стали международными. Например, maman и papa одинаковы во всех языках!"
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Члены семьи",
+        words: [
+          { fr: "la famille", phonetic: "ла фамий", ru: "семья", cognat: true, note: null },
+          { fr: "le père / la mère", phonetic: "ле пэр / ла мэр", ru: "отец / мать", cognat: false, note: null },
+          { fr: "le frère / la sœur", phonetic: "ле фрэр / ла сёр", ru: "брат / сестра", cognat: false, note: "sœur — редкое сочетание œ" },
+          { fr: "le mari / la femme", phonetic: "ле мари / ла фам", ru: "муж / жена", cognat: false, note: "femme = и женщина, и жена" },
+          { fr: "les enfants", phonetic: "лэ занфан", ru: "дети", cognat: false, note: "Un enfant = ребёнок" },
+          { fr: "les grands-parents", phonetic: "ле гранпаран", ru: "бабушка и дедушка", cognat: false, note: null },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Рассказать о семье",
+        pattern: "J'ai un/une + член семьи. Mon/ma + член семьи + s'appelle + имя.",
+        examples: [
+          { fr: "J'ai un frère et une sœur.", ru: "У меня есть брат и сестра." },
+          { fr: "Mon père s'appelle Victor.", ru: "Моего отца зовут Виктор." },
+          { fr: "Ma mère est médecin.", ru: "Моя мать — врач." },
+          { fr: "Je suis fils unique.", ru: "Я единственный сын." },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как сказать 'У меня есть сестра'?",
+        options: ["J'ai une sœur.", "Je suis une sœur.", "J'ai un sœur.", "Ma sœur est une."],
+        correct: 0,
+        feedback: "Верно! J'ai une sœur — avoir (иметь) + une (артикль ж.р.) + sœur. Помните: сестра женского рода, поэтому une!"
+      }
+    ]
+  },
+
+  "S2J6": {
+    week: 2, day: 6,
+    title: "Цвета и описания",
+    subtitle: "Прилагательные согласуются с родом",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Прилагательные во французском",
+        text: "Во французском прилагательные согласуются с существительным в роде и числе — как в русском! Но есть важное отличие: прилагательное обычно стоит ПОСЛЕ существительного. Исключение: красивый, маленький, большой — они перед существительным."
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Цвета",
+        words: [
+          { fr: "rouge", phonetic: "руж", ru: "красный", cognat: false, note: "Не меняется для ж.р.!" },
+          { fr: "bleu(e)", phonetic: "блё", ru: "синий / голубой", cognat: false, note: null },
+          { fr: "blanc / blanche", phonetic: "блан / бланш", ru: "белый", cognat: false, note: null },
+          { fr: "noir(e)", phonetic: "нуар", ru: "чёрный", cognat: false, note: "Кино «нуар» — оттуда!" },
+          { fr: "vert(e)", phonetic: "вэр", ru: "зелёный", cognat: false, note: null },
+          { fr: "jaune", phonetic: "жон", ru: "жёлтый", cognat: false, note: null },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Согласование прилагательных",
+        pattern: "м.р.: beau / ж.р.: belle | м.р.: grand / ж.р.: grande",
+        examples: [
+          { fr: "un chat noir — une voiture noire", ru: "чёрный кот — чёрная машина" },
+          { fr: "un grand appartement", ru: "большая квартира (grand перед сущ.!)" },
+          { fr: "une belle ville", ru: "красивый город" },
+          { fr: "les yeux bleus", ru: "голубые глаза" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как сказать 'красная машина' (voiture = ж.р.)?",
+        options: ["une voiture rouge", "une rouge voiture", "un voiture rouge", "une voiture rouges"],
+        correct: 0,
+        feedback: "Верно! Une voiture rouge — прилагательное стоит ПОСЛЕ существительного. Rouge не меняется по роду. Voiture женского рода → une."
+      }
+    ]
+  },
+
+  // ============================================================
+  // НЕДЕЛЯ 3 — ПОВСЕДНЕВНАЯ ЖИЗНЬ
+  // ============================================================
+  "S3J1": {
+    week: 3, day: 1,
+    title: "Глаголы I группы на -er",
+    subtitle: "Самая большая группа глаголов",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "90% глаголов следуют одному правилу",
+        text: "Во французском есть три группы глаголов. Первая группа — глаголы на -er — это 90% всех глаголов! Если вы научитесь спрягать один глагол из этой группы, вы сможете спрягать их все."
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Спряжение глаголов на -er (parler = говорить)",
+        pattern: "Убрать -er → + e / es / e / ons / ez / ent",
+        examples: [
+          { fr: "Je parl-e", ru: "Я говорю" },
+          { fr: "Tu parl-es", ru: "Ты говоришь" },
+          { fr: "Il/Elle parl-e", ru: "Он/она говорит" },
+          { fr: "Nous parl-ons", ru: "Мы говорим" },
+          { fr: "Vous parl-ez", ru: "Вы говорите" },
+          { fr: "Ils/Elles parl-ent", ru: "Они говорят" },
+        ]
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Частые глаголы на -er",
+        words: [
+          { fr: "aimer", phonetic: "эмэ", ru: "любить / нравиться", cognat: false, note: "J'aime le cinéma = мне нравится кино" },
+          { fr: "manger", phonetic: "манжэ", ru: "есть / кушать", cognat: false, note: null },
+          { fr: "regarder", phonetic: "рёгардэ", ru: "смотреть", cognat: false, note: null },
+          { fr: "écouter", phonetic: "экутэ", ru: "слушать", cognat: false, note: null },
+          { fr: "voyager", phonetic: "вуайажэ", ru: "путешествовать", cognat: true, note: null },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как спрягается 'aimer' для 'nous'?",
+        options: ["nous aimez", "nous aimons", "nous aiment", "nous aimes"],
+        correct: 1,
+        feedback: "Правильно! Nous aimons — для nous всегда окончание -ons. Это правило для ВСЕХ глаголов первой группы!"
+      }
+    ]
+  },
+
+  "S3J2": {
+    week: 3, day: 2,
+    title: "Дни недели и время",
+    subtitle: "Говорить о расписании",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Время — важно в повседневном общении",
+        text: "Дни недели и время нужны каждый день. Во французском дни недели пишутся с маленькой буквы — в отличие от английского. И неделя начинается с понедельника — как в России!"
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Дни недели",
+        words: [
+          { fr: "lundi", phonetic: "лёнди", ru: "понедельник", cognat: false, note: "Все дни с маленькой буквы!" },
+          { fr: "mardi", phonetic: "марди", ru: "вторник", cognat: false, note: null },
+          { fr: "mercredi", phonetic: "мэркрёди", ru: "среда", cognat: false, note: null },
+          { fr: "jeudi", phonetic: "жёди", ru: "четверг", cognat: false, note: null },
+          { fr: "vendredi", phonetic: "ванндрёди", ru: "пятница", cognat: false, note: null },
+          { fr: "samedi", phonetic: "самди", ru: "суббота", cognat: false, note: null },
+          { fr: "dimanche", phonetic: "диманш", ru: "воскресенье", cognat: false, note: null },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Который час?",
+        pattern: "Il est + heure(s). Il est midi / minuit.",
+        examples: [
+          { fr: "Il est huit heures.", ru: "Восемь часов." },
+          { fr: "Il est midi.", ru: "Полдень." },
+          { fr: "Il est minuit.", ru: "Полночь." },
+          { fr: "À quelle heure ?", ru: "В котором часу?" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как сказать 'В среду' по-французски?",
+        options: ["le mardi", "le mercredi", "le jeudi", "le vendredi"],
+        correct: 1,
+        feedback: "Верно! Le mercredi = в среду (каждую среду). Для одного конкретного дня: mercredi prochain = в следующую среду."
+      }
+    ]
+  },
+
+  "S3J3": {
+    week: 3, day: 3,
+    title: "В ресторане",
+    subtitle: "Заказать еду и напитки",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Французская кухня — часть культуры",
+        text: "Французская гастрономия — объект наследия ЮНЕСКО. Знать как заказать еду во Франции — не просто практично, это знак уважения к культуре. Обед — главный приём пищи (12:00-14:00)."
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Еда и напитки",
+        words: [
+          { fr: "le menu", phonetic: "ле мёню", ru: "меню", cognat: true, note: null },
+          { fr: "l'entrée", phonetic: "лантрэ", ru: "закуска / первое", cognat: false, note: "Не путать с английским 'entree' (= main course)!" },
+          { fr: "le plat principal", phonetic: "ле пла пренсипаль", ru: "основное блюдо", cognat: true, note: null },
+          { fr: "le dessert", phonetic: "ле дэсэр", ru: "десерт", cognat: true, note: null },
+          { fr: "l'eau (minérale)", phonetic: "ло минэраль", ru: "вода (минеральная)", cognat: true, note: "eau = [о], H не читается" },
+          { fr: "l'addition", phonetic: "ладисьон", ru: "счёт", cognat: false, note: "L'addition, s'il vous plaît = счёт, пожалуйста" },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Диалог в ресторане",
+        pattern: "Je voudrais + блюдо. S'il vous plaît. Merci.",
+        examples: [
+          { fr: "— Vous désirez ?", ru: "— Что желаете?" },
+          { fr: "— Je voudrais un café, s'il vous plaît.", ru: "— Я бы хотел кофе, пожалуйста." },
+          { fr: "— L'addition, s'il vous plaît !", ru: "— Счёт, пожалуйста!" },
+          { fr: "— C'est délicieux !", ru: "— Это восхитительно!" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как попросить счёт по-французски?",
+        options: ["Le menu, s'il vous plaît.", "L'addition, s'il vous plaît.", "Le dessert, s'il vous plaît.", "Bonjour, s'il vous plaît."],
+        correct: 1,
+        feedback: "Верно! L'addition, s'il vous plaît = счёт, пожалуйста. S'il vous plaît [силь ву плэ] — волшебное слово для любой просьбы!"
+      }
+    ]
+  },
+
+  "S3J4": {
+    week: 3, day: 4,
+    title: "Транспорт и направления",
+    subtitle: "Как добраться куда нужно",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Париж — город метро и автобусов",
+        text: "Парижское метро — одно из лучших в мире. В нём легко ориентироваться. Знание нескольких ключевых фраз поможет вам найти дорогу и спросить направление у любого прохожего."
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Транспорт",
+        words: [
+          { fr: "le métro", phonetic: "ле мэтро", ru: "метро", cognat: true, note: null },
+          { fr: "le bus", phonetic: "ле бюс", ru: "автобус", cognat: true, note: null },
+          { fr: "le taxi", phonetic: "ле такси", ru: "такси", cognat: true, note: null },
+          { fr: "la gare", phonetic: "ла гар", ru: "вокзал", cognat: false, note: null },
+          { fr: "l'aéroport", phonetic: "лаэропор", ru: "аэропорт", cognat: true, note: "T конечный немой" },
+          { fr: "à gauche / à droite", phonetic: "а гош / а друат", ru: "налево / направо", cognat: false, note: null },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Спросить дорогу",
+        pattern: "Excusez-moi, où est + место ? / Comment aller à + место ?",
+        examples: [
+          { fr: "Excusez-moi, où est la gare ?", ru: "Извините, где вокзал?" },
+          { fr: "C'est à gauche.", ru: "Это налево." },
+          { fr: "Tout droit, puis à droite.", ru: "Прямо, потом направо." },
+          { fr: "C'est loin ? — Non, c'est près !", ru: "Это далеко? — Нет, близко!" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как спросить 'Где метро?' по-французски?",
+        options: ["Où est le métro ?", "Comment est le métro ?", "Le métro où ?", "Métro, s'il vous plaît ?"],
+        correct: 0,
+        feedback: "Отлично! Où est + место? = Где находится...? Excusez-moi (извините) в начале делает вопрос вежливым."
+      }
+    ]
+  },
+
+  "S3J5": {
+    week: 3, day: 5,
+    title: "Покупки",
+    subtitle: "В магазине и на рынке",
+    sections: [
+      {
+        type: "intro",
+        tag: "Введение",
+        title: "Французские рынки — незабываемый опыт",
+        text: "Французский рынок (le marché) — это не просто место купли-продажи, это социальное событие. Торговаться не принято, но поговорить с продавцом — обязательно. Несколько фраз откроют вам эту культуру."
+      },
+      {
+        type: "vocab",
+        tag: "Словарь",
+        title: "Покупки",
+        words: [
+          { fr: "le marché", phonetic: "ле марше", ru: "рынок", cognat: false, note: null },
+          { fr: "le magasin", phonetic: "ле магазэн", ru: "магазин", cognat: true, note: "Почти как по-русски!" },
+          { fr: "combien", phonetic: "комбьэн", ru: "сколько", cognat: false, note: "Combien ça coûte ? = Сколько стоит?" },
+          { fr: "cher / chère", phonetic: "шэр", ru: "дорогой", cognat: false, note: null },
+          { fr: "bon marché", phonetic: "бон марше", ru: "дешёвый", cognat: false, note: "Буквально: 'хороший рынок'" },
+          { fr: "Je prends ça.", phonetic: "же пран са", ru: "Я возьму это.", cognat: false, note: null },
+        ]
+      },
+      {
+        type: "grammar",
+        tag: "Грамматика",
+        title: "Диалог в магазине",
+        pattern: "Combien coûte + вещь ? / Je voudrais + вещь.",
+        examples: [
+          { fr: "— Bonjour, je peux vous aider ?", ru: "— Здравствуйте, могу помочь?" },
+          { fr: "— Combien coûte ce livre ?", ru: "— Сколько стоит эта книга?" },
+          { fr: "— Cinq euros.", ru: "— Пять евро." },
+          { fr: "— Je prends ça, merci !", ru: "— Я возьму это, спасибо!" },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Упражнение",
+        question: "Как спросить 'Сколько это стоит?'",
+        options: ["Qu'est-ce que c'est ?", "Combien ça coûte ?", "C'est cher ?", "Je prends ça."],
+        correct: 1,
+        feedback: "Правильно! Combien ça coûte ? [комбьэн са кут] = сколько это стоит? Можно ещё проще: C'est combien ? = Это сколько?"
+      }
+    ]
+  },
+
+  "S3J6": {
+    week: 3, day: 6,
+    title: "Тест A1 — первый месяц",
+    subtitle: "Проверьте свои знания",
+    sections: [
+      {
+        type: "intro",
+        tag: "Итог",
+        title: "Конец первого месяца — поздравляем!",
+        text: "Вы прошли первый месяц! Теперь вы знаете алфавит, основные глаголы, артикли и можете вести элементарный разговор. Пройдите тест чтобы закрепить знания перед вторым месяцем."
+      },
+      {
+        type: "vocab",
+        tag: "Повторение",
+        title: "Ключевые слова месяца",
+        words: [
+          { fr: "être / avoir", phonetic: "этр / авуар", ru: "быть / иметь", cognat: false, note: "Два самых важных глагола" },
+          { fr: "s'il vous plaît", phonetic: "силь ву плэ", ru: "пожалуйста", cognat: false, note: "Главное слово вежливости" },
+          { fr: "merci", phonetic: "мэрси", ru: "спасибо", cognat: false, note: null },
+          { fr: "pardon / excusez-moi", phonetic: "пардон / экскюзэ-муа", ru: "извините / простите", cognat: true, note: null },
+        ]
+      },
+      {
+        type: "exercise",
+        tag: "Тест",
+        question: "Переведите: 'У меня есть брат и сестра'",
+        options: [
+          "Je suis un frère et une sœur.",
+          "J'ai un frère et une sœur.",
+          "J'ai le frère et la sœur.",
+          "J'ai une frère et un sœur."
+        ],
+        correct: 1,
+        feedback: "Отлично! J'ai un frère et une sœur. Иметь = avoir → j'ai. Frère (м.р.) → un, sœur (ж.р.) → une. Браво!"
+      }
+    ]
+  },
+
+  // ============================================================
+  // НЕДЕЛИ 4–13 — СКЕЛЕТЫ С КЛЮЧЕВЫМИ ДАННЫМИ
+  // ============================================================
+};
+
+// Генерируем темы для недель 4-13
+const WEEK_THEMES = {
+  4: { title_prefix: "Профессии и работа",        subtitle_prefix: "Рассказать о своей работе" },
+  5: { title_prefix: "Прошедшее время (passé composé)", subtitle_prefix: "Что вы делали вчера" },
+  6: { title_prefix: "Будущее время",              subtitle_prefix: "Планы и намерения" },
+  7: { title_prefix: "Описание людей и мест",      subtitle_prefix: "Прилагательные и наречия" },
+  8: { title_prefix: "Здоровье и тело",            subtitle_prefix: "У врача и в аптеке" },
+  9: { title_prefix: "Природа и погода",           subtitle_prefix: "Говорить о климате" },
+  10: { title_prefix: "Культура и досуг",          subtitle_prefix: "Кино, музыка, спорт" },
+  11: { title_prefix: "Путешествия",               subtitle_prefix: "Планировать поездку" },
+  12: { title_prefix: "Отношения и эмоции",        subtitle_prefix: "Чувства и общение" },
+  13: { title_prefix: "Финальный тест A2",         subtitle_prefix: "Итоговое повторение" },
+};
+
+const LESSON_VOCAB_BANKS = {
+  4: [
+    { fr: "le médecin", phonetic: "ле мэдсэн", ru: "врач", cognat: false },
+    { fr: "l'ingénieur", phonetic: "лэнженьёр", ru: "инженер", cognat: true },
+    { fr: "le professeur", phonetic: "ле профэсёр", ru: "профессор / учитель", cognat: true },
+    { fr: "l'architecte", phonetic: "лархитэкт", ru: "архитектор", cognat: true },
+    { fr: "le bureau", phonetic: "ле бюро", ru: "офис / бюро", cognat: true },
+    { fr: "travailler", phonetic: "траваийэ", ru: "работать", cognat: false },
+  ],
+  5: [
+    { fr: "hier", phonetic: "иэр", ru: "вчера", cognat: false },
+    { fr: "j'ai mangé", phonetic: "жэ манже", ru: "я поел(а)", cognat: false },
+    { fr: "j'ai visité", phonetic: "жэ визитэ", ru: "я посетил(а)", cognat: true },
+    { fr: "j'ai parlé", phonetic: "жэ парлэ", ru: "я говорил(а)", cognat: false },
+    { fr: "j'ai regardé", phonetic: "жэ рёгардэ", ru: "я смотрел(а)", cognat: false },
+    { fr: "je suis allé(e)", phonetic: "же сюи зале", ru: "я пошёл / пошла", cognat: false },
+  ],
+  6: [
+    { fr: "demain", phonetic: "дёмэн", ru: "завтра", cognat: false },
+    { fr: "je vais + инфинитив", phonetic: "же вэ", ru: "я собираюсь (будущее)", cognat: false },
+    { fr: "le projet", phonetic: "ле прожэ", ru: "проект / план", cognat: true },
+    { fr: "bientôt", phonetic: "бьянто", ru: "скоро", cognat: false },
+    { fr: "l'avenir", phonetic: "лавёнир", ru: "будущее", cognat: false },
+    { fr: "je voudrais", phonetic: "же вудрэ", ru: "я бы хотел(а)", cognat: false },
+  ],
+  7: [
+    { fr: "grand(e)", phonetic: "гран / гранд", ru: "большой", cognat: false },
+    { fr: "petit(e)", phonetic: "пёти", ru: "маленький", cognat: false },
+    { fr: "beau / belle", phonetic: "бо / бэль", ru: "красивый", cognat: false },
+    { fr: "sympa", phonetic: "сэнпа", ru: "симпатичный / милый", cognat: true },
+    { fr: "intelligent(e)", phonetic: "энтэлижан", ru: "умный", cognat: true },
+    { fr: "très / assez", phonetic: "трэ / асэ", ru: "очень / достаточно", cognat: false },
+  ],
+  8: [
+    { fr: "j'ai mal à", phonetic: "жэ маль а", ru: "у меня болит", cognat: false },
+    { fr: "la tête", phonetic: "ла тэт", ru: "голова", cognat: false },
+    { fr: "le médecin", phonetic: "ле мэдсэн", ru: "врач", cognat: false },
+    { fr: "l'hôpital", phonetic: "лопиталь", ru: "больница", cognat: true },
+    { fr: "le médicament", phonetic: "ле мэдикаман", ru: "лекарство", cognat: true },
+    { fr: "la pharmacie", phonetic: "ла фармаси", ru: "аптека", cognat: true },
+  ],
+  9: [
+    { fr: "il fait beau", phonetic: "иль фэ бо", ru: "хорошая погода", cognat: false },
+    { fr: "il pleut", phonetic: "иль плё", ru: "идёт дождь", cognat: false },
+    { fr: "il neige", phonetic: "иль нэж", ru: "идёт снег", cognat: false },
+    { fr: "la température", phonetic: "ла тампэратюр", ru: "температура", cognat: true },
+    { fr: "le printemps", phonetic: "ле прэнтан", ru: "весна", cognat: false },
+    { fr: "l'automne", phonetic: "лотон", ru: "осень", cognat: false },
+  ],
+  10: [
+    { fr: "le cinéma", phonetic: "ле синэма", ru: "кинотеатр / кино", cognat: true },
+    { fr: "la musique", phonetic: "ла мюзик", ru: "музыка", cognat: true },
+    { fr: "le sport", phonetic: "ле спор", ru: "спорт", cognat: true },
+    { fr: "le concert", phonetic: "ле консэр", ru: "концерт", cognat: true },
+    { fr: "le théâtre", phonetic: "ле тэатр", ru: "театр", cognat: true },
+    { fr: "j'adore", phonetic: "жадор", ru: "я обожаю", cognat: false },
+  ],
+  11: [
+    { fr: "le voyage", phonetic: "ле вуайаж", ru: "путешествие", cognat: true },
+    { fr: "l'hôtel", phonetic: "лотэль", ru: "отель", cognat: true },
+    { fr: "réserver", phonetic: "рэзэрвэ", ru: "заказать / зарезервировать", cognat: true },
+    { fr: "le passeport", phonetic: "ле паспор", ru: "паспорт", cognat: true },
+    { fr: "l'avion", phonetic: "лавьон", ru: "самолёт", cognat: false },
+    { fr: "visiter", phonetic: "визитэ", ru: "посетить", cognat: true },
+  ],
+  12: [
+    { fr: "je t'aime", phonetic: "же тэм", ru: "я тебя люблю", cognat: false },
+    { fr: "l'amour", phonetic: "ламур", ru: "любовь", cognat: false },
+    { fr: "heureux / heureuse", phonetic: "ёрё / ёрёз", ru: "счастливый", cognat: false },
+    { fr: "triste", phonetic: "трист", ru: "грустный", cognat: false },
+    { fr: "ensemble", phonetic: "ансамбль", ru: "вместе", cognat: true },
+    { fr: "la confiance", phonetic: "ла конфьянс", ru: "доверие", cognat: true },
+  ],
+  13: [
+    { fr: "félicitations", phonetic: "фэлиситасьон", ru: "поздравления", cognat: true },
+    { fr: "je comprends", phonetic: "же компран", ru: "я понимаю", cognat: false },
+    { fr: "je parle français", phonetic: "же парль франсэ", ru: "я говорю по-французски", cognat: false },
+    { fr: "avec plaisir", phonetic: "авэк плэзир", ru: "с удовольствием", cognat: true },
+    { fr: "bien sûr", phonetic: "бьэн сюр", ru: "конечно", cognat: false },
+    { fr: "bravo", phonetic: "браво", ru: "молодец", cognat: true },
+  ],
+};
+
+const GRAM_PATTERNS = {
+  4: { title: "Профессии без артикля", pattern: "Je suis + профессия (без артикля!)", examples: [
+    { fr: "Je suis médecin.", ru: "Я врач. (не: un médecin!)" },
+    { fr: "Elle est professeur.", ru: "Она учитель." },
+  ]},
+  5: { title: "Passé composé — прошедшее время", pattern: "avoir/être (présent) + participe passé", examples: [
+    { fr: "J'ai mangé une pizza.", ru: "Я съел(а) пиццу." },
+    { fr: "Elle est allée au cinéma.", ru: "Она пошла в кино." },
+  ]},
+  6: { title: "Ближайшее будущее", pattern: "aller (présent) + инфинитив", examples: [
+    { fr: "Je vais voyager demain.", ru: "Завтра я собираюсь путешествовать." },
+    { fr: "Nous allons manger ensemble.", ru: "Мы собираемся поесть вместе." },
+  ]},
+  7: { title: "Наречия степени", pattern: "très (очень) / assez (достаточно) / trop (слишком)", examples: [
+    { fr: "C'est très beau !", ru: "Это очень красиво!" },
+    { fr: "Il est trop cher.", ru: "Он слишком дорогой." },
+  ]},
+  8: { title: "Жаловаться на здоровье", pattern: "J'ai mal à + la/le + часть тела", examples: [
+    { fr: "J'ai mal à la tête.", ru: "У меня болит голова." },
+    { fr: "J'ai mal au dos.", ru: "У меня болит спина." },
+  ]},
+  9: { title: "Говорить о погоде", pattern: "Il fait + прилагательное / Il + глагол погоды", examples: [
+    { fr: "Il fait chaud aujourd'hui.", ru: "Сегодня жарко." },
+    { fr: "Il va pleuvoir demain.", ru: "Завтра будет дождь." },
+  ]},
+  10: { title: "Выражать мнение", pattern: "Je pense que / Je trouve que / À mon avis...", examples: [
+    { fr: "Je pense que c'est intéressant.", ru: "Я думаю, что это интересно." },
+    { fr: "À mon avis, c'est trop cher.", ru: "По-моему, это слишком дорого." },
+  ]},
+  11: { title: "Задавать вопросы", pattern: "Est-ce que + порядок слов ? / Inversion", examples: [
+    { fr: "Est-ce que vous avez une chambre ?", ru: "У вас есть номер?" },
+    { fr: "Avez-vous une chambre libre ?", ru: "У вас есть свободный номер?" },
+  ]},
+  12: { title: "Выражать чувства", pattern: "Je me sens + прилагательное / Je suis + прилагательное", examples: [
+    { fr: "Je me sens bien aujourd'hui.", ru: "Сегодня я чувствую себя хорошо." },
+    { fr: "Je suis heureux / heureuse.", ru: "Я счастлив / счастлива." },
+  ]},
+  13: { title: "Ваш уровень А2", pattern: "Вы теперь можете: представиться, рассказать о прошлом и будущем, описать людей и места", examples: [
+    { fr: "Je parle français au niveau A2.", ru: "Я говорю по-французски на уровне A2." },
+    { fr: "Continuez à pratiquer !", ru: "Продолжайте практиковаться!" },
+  ]},
+};
+
+// Заполняем оставшиеся уроки (недели 4-13)
+for (let w = 4; w <= 13; w++) {
+  const theme = WEEK_THEMES[w];
+  const vocab = LESSON_VOCAB_BANKS[w] || [];
+  const gram = GRAM_PATTERNS[w];
+  for (let d = 1; d <= 6; d++) {
+    const key = `S${w}J${d}`;
+    if (!LESSONS_DATA[key]) {
+      const dayThemes = [
+        "Введение", "Практика", "Углубление", "Диалоги", "Закрепление", "Тест недели"
+      ];
+      LESSONS_DATA[key] = {
+        week: w, day: d,
+        title: `${theme.title_prefix} — День ${d}`,
+        subtitle: `${theme.subtitle_prefix} · ${dayThemes[d-1]}`,
+        sections: [
+          {
+            type: "intro",
+            tag: "Введение",
+            title: `${theme.title_prefix}: День ${d}`,
+            text: `Продолжаем изучать тему «${theme.title_prefix}». Сегодня — ${dayThemes[d-1].toLowerCase()}. Не забывайте повторять слова из предыдущих уроков!`
+          },
+          {
+            type: "vocab",
+            tag: "Словарь",
+            title: `Слова — ${theme.title_prefix}`,
+            words: vocab.length > 0 ? vocab.slice(0, Math.min(6, vocab.length)) : [
+              { fr: "bonjour", phonetic: "бонжур", ru: "здравствуйте", cognat: false, note: null }
+            ]
+          },
+          ...(d === 1 && gram ? [{
+            type: "grammar",
+            tag: "Грамматика",
+            title: gram.title,
+            pattern: gram.pattern,
+            examples: gram.examples,
+          }] : []),
+          {
+            type: "tip",
+            tag: "Совет",
+            text: `Для темы «${theme.title_prefix}» главное — практика! Попробуйте использовать новые слова в реальных ситуациях сегодня.`
+          },
+          {
+            type: "exercise",
+            tag: "Упражнение",
+            question: `Какое слово НЕ относится к теме «${theme.title_prefix}»?`,
+            options: [
+              vocab[0] ? vocab[0].fr : "bonjour",
+              vocab[1] ? vocab[1].fr : "merci",
+              "la pomme de terre",
+              vocab[2] ? vocab[2].fr : "au revoir",
+            ],
+            correct: 2,
+            feedback: `Правильно! «la pomme de terre» (картошка) не относится к теме «${theme.title_prefix}». Продолжайте практиковаться!`
+          }
+        ]
+      };
+    }
+  }
+}
+
+// Плоский список для навигации
+const ALL_LESSONS_KEYS = [];
+for (let w = 1; w <= 15; w++) {
+  for (let d = 1; d <= 6; d++) {
+    const k = `S${w}J${d}`;
+    if (LESSONS_DATA[k]) ALL_LESSONS_KEYS.push(k);
+  }
+}
+
+</script>
+<script>
+(function(){
+'use strict';
+
+let curKey=null, prevTab='home', done=new Set(), act={};
+let timerID=null, timerSec=900, voice=null, toastTID=null;
+let srchQ='', glosQ='', deferredInstall=null;
+
+const $=id=>document.getElementById(id);
+const tx=(id,v)=>{const e=$(id);if(e)e.textContent=v};
+const sw=(id,w)=>{const e=$(id);if(e)e.style.width=w};
+
+// ── Stockage ──────────────────────────────────────────────────
+function load(){
+  try{const p=localStorage.getItem('fr5');if(p)done=new Set(JSON.parse(p));
+  const a=localStorage.getItem('fr5a');if(a)act=JSON.parse(a);}catch(e){}
+}
+function save(){
+  try{localStorage.setItem('fr5',JSON.stringify([...done]));
+  localStorage.setItem('fr5a',JSON.stringify(act));}catch(e){}
+}
+function logToday(){const d=new Date().toISOString().slice(0,10);act[d]=(act[d]||0)+1;save();}
+function streak(){let s=0;for(let i=0;i<365;i++){const k=new Date(Date.now()-i*86400000).toISOString().slice(0,10);if(act[k])s++;else if(i>0)break;}return s;}
+
+// ── TTS (французский) ─────────────────────────────────────────
+function initTTS(){
+  if(!window.speechSynthesis)return;
+  const lv=()=>{voice=speechSynthesis.getVoices().find(v=>v.lang.startsWith('fr'))||null;};
+  lv();speechSynthesis.onvoiceschanged=lv;
+}
+function sayText(text){
+  if(!window.speechSynthesis){showToast(text,false);return;}
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='fr-FR';u.rate=0.82;u.pitch=1;
+  if(voice)u.voice=voice;
+  u.onstart=()=>showToast(text,true);
+  u.onend=u.onerror=()=>hideToast();
+  speechSynthesis.speak(u);
+  document.querySelectorAll('.tts').forEach(b=>b.classList.remove('sp'));
+  const btn=document.querySelector('.tts[data-fr="'+CSS.escape(text)+'"]');
+  if(btn)btn.classList.add('sp');
+}
+function showToast(w,anim){
+  const el=$('toast');tx('tw',w);
+  el.querySelector('.wave').style.display=anim?'flex':'none';
+  el.classList.remove('off');clearTimeout(toastTID);
+  if(!anim)toastTID=setTimeout(hideToast,2000);
+}
+function hideToast(){$('toast').classList.add('off');document.querySelectorAll('.tts').forEach(b=>b.classList.remove('sp'));clearTimeout(toastTID);}
+
+// ── Навигация ─────────────────────────────────────────────────
+const TABS=['home','lessons','prog','glos'];
+function showTab(t){
+  prevTab=t;
+  TABS.forEach(id=>{$('scr-'+id).classList.toggle('on',id===t);$('nt-'+id).classList.toggle('on',id===t);});
+  if(t==='home')updateHome();
+  if(t==='lessons')buildList();
+  if(t==='prog')updateProg();
+  if(t==='glos')buildGlossaire();
+}
+
+// ── Главная ───────────────────────────────────────────────────
+function updateHome(){
+  const tot=ALL_LESSONS_KEYS.length,nd=done.size,pct=tot?Math.round(nd/tot*100):0;
+  tx('sv-d',nd);tx('sv-s',streak());tx('sv-p',pct+'%');
+  tx('prog-lbl',nd+' / '+tot);sw('prog-f',pct+'%');
+  const nk=ALL_LESSONS_KEYS.find(k=>!done.has(k));
+  tx('nxt-t',nk?LESSONS_DATA[nk].title:'Курс завершён! 🎉');
+  const h=new Date().getHours();
+  tx('greet',h<12?'Доброе утро!':h<18?'Добрый день!':'Добрый вечер!');
+}
+
+// ── Список уроков ─────────────────────────────────────────────
+function buildList(){
+  const ct=$('ll');ct.innerHTML='';
+  const groups={};
+  ALL_LESSONS_KEYS.forEach(k=>{const w=LESSONS_DATA[k].week;if(!groups[w])groups[w]=[];groups[w].push(k);});
+  const nk=ALL_LESSONS_KEYS.find(k=>!done.has(k));
+  Object.keys(groups).sort((a,b)=>+a-+b).forEach(w=>{
+    const keys=groups[w],wn=+w;
+    const mn=wn<=4?1:wn<=9?2:3;
+    const ws=wn<=4?wn:wn<=9?wn-4:wn-9;
+    const dc=keys.filter(k=>done.has(k)).length;
+    const pct=Math.round(dc/keys.length*100);
+    const isCur=nk&&LESSONS_DATA[nk]&&LESSONS_DATA[nk].week===wn;
+    const vis=keys.filter(k=>{
+      if(!srchQ)return true;
+      const l=LESSONS_DATA[k];
+      return l.title.toLowerCase().includes(srchQ)||l.subtitle.toLowerCase().includes(srchQ);
+    });
+    if(!vis.length)return;
+    const sec=document.createElement('div');
+    sec.innerHTML=`<div class="wg-hd"><div class="wg-badge${isCur?' cur':''}">М${mn}·Н${ws}</div><div class="wg-mini"><div class="wg-mini-f" style="width:${pct}%"></div></div><span class="wg-cnt">${dc}/${keys.length}</span></div><div class="wg-list" id="wl${w}"></div>`;
+    ct.appendChild(sec);
+    const list=$('wl'+w);
+    vis.forEach(k2=>{
+      const l=LESSONS_DATA[k2],isD=done.has(k2),isC=k2===nk;
+      const ico=isD?`<svg viewBox="0 0 24 24" width="14" height="14" style="stroke:var(--teal)"><polyline points="20 6 9 17 4 12"/></svg>`:isC?`<svg viewBox="0 0 24 24" width="14" height="14" style="stroke:var(--blue)"><polygon points="5 3 19 12 5 21 5 3"/></svg>`:`<svg viewBox="0 0 24 24" width="14" height="14" style="stroke:var(--tx3)"><polyline points="9 18 15 12 9 6"/></svg>`;
+      const btn=document.createElement('button');
+      btn.className='li'+(isD?' done':'')+(isC?' cur':'');
+      btn.innerHTML=`<div class="li-n">Д${l.day}</div><div class="li-inf"><div class="li-t">${l.title}</div><div class="li-s">${l.subtitle}</div></div><div class="li-ic">${ico}</div>`;
+      btn.addEventListener('click',()=>openLesson(k2));
+      list.appendChild(btn);
+    });
+  });
+}
+
+// ── Прогресс ──────────────────────────────────────────────────
+function updateProg(){
+  const tot=ALL_LESSONS_KEYS.length,nd=done.size,pct=tot?nd/tot:0;
+  const circ=2*Math.PI*60;
+  const df=$('d-f');
+  if(df){df.style.strokeDasharray=circ;df.style.strokeDashoffset=circ*(1-pct);}
+  tx('d-pct',Math.round(pct*100)+'%');
+  const m1=ALL_LESSONS_KEYS.filter(k=>LESSONS_DATA[k].week<=4);
+  const m2=ALL_LESSONS_KEYS.filter(k=>LESSONS_DATA[k].week>=5&&LESSONS_DATA[k].week<=9);
+  const m3=ALL_LESSONS_KEYS.filter(k=>LESSONS_DATA[k].week>=10);
+  const d1=m1.filter(k=>done.has(k)).length,d2=m2.filter(k=>done.has(k)).length,d3=m3.filter(k=>done.has(k)).length;
+  sw('mb1',m1.length?Math.round(d1/m1.length*100)+'%':'0%');
+  sw('mb2',m2.length?Math.round(d2/m2.length*100)+'%':'0%');
+  sw('mb3',m3.length?Math.round(d3/m3.length*100)+'%':'0%');
+  tx('mc1',d1+' / '+m1.length);tx('mc2',d2+' / '+m2.length);tx('mc3',d3+' / '+m3.length);
+  buildHeatmap();buildAch();
+}
+function buildHeatmap(){
+  const g=$('hmg');if(!g)return;g.innerHTML='';
+  const groups={};
+  ALL_LESSONS_KEYS.forEach(k=>{const w=LESSONS_DATA[k].week;if(!groups[w])groups[w]=[];groups[w].push(k);});
+  for(let w=1;w<=13;w++){
+    const ks=groups[w]||[],dc=ks.filter(k=>done.has(k)).length;
+    const c=document.createElement('div');
+    c.className='hm-c'+(dc===0?'':dc<ks.length?' p':' f');
+    c.title=`Н${w}: ${dc}/${ks.length}`;g.appendChild(c);
+  }
+}
+const ACHS=[
+  {em:'🎯',n:'Первый шаг',ok:()=>done.size>=1},
+  {em:'🔤',n:'Алфавит',ok:()=>['S1J1','S1J2','S1J3'].every(k=>done.has(k))},
+  {em:'⭐',n:'Неделя 1',ok:()=>ALL_LESSONS_KEYS.filter(k=>LESSONS_DATA[k].week===1).every(k=>done.has(k))},
+  {em:'🏅',n:'A1 достигнут',ok:()=>ALL_LESSONS_KEYS.filter(k=>LESSONS_DATA[k].week<=4).every(k=>done.has(k))},
+  {em:'🥈',n:'Месяц 2',ok:()=>ALL_LESSONS_KEYS.filter(k=>LESSONS_DATA[k].week<=9).every(k=>done.has(k))},
+  {em:'🏆',n:'Уровень A2!',ok:()=>done.size>=ALL_LESSONS_KEYS.length},
+  {em:'🔥',n:'3 дня подряд',ok:()=>streak()>=3},
+  {em:'💎',n:'7 дней',ok:()=>streak()>=7},
+  {em:'🌗',n:'Половина пути',ok:()=>done.size>=Math.floor(ALL_LESSONS_KEYS.length/2)},
+];
+function buildAch(){
+  const g=$('achg');if(!g)return;g.innerHTML='';
+  ACHS.forEach(a=>{const got=a.ok();const d=document.createElement('div');d.className='ach-c'+(got?' got':'');d.innerHTML=`<span class="ach-em">${a.em}</span><div class="ach-nm">${a.n}</div>`;g.appendChild(d);});
+}
+
+// ── Словарь ───────────────────────────────────────────────────
+function getGlosWords(){
+  const words=new Map();
+  ALL_LESSONS_KEYS.filter(k=>done.has(k)).forEach(k=>{
+    const l=LESSONS_DATA[k];
+    l.sections.forEach(s=>{
+      if(s.type==='vocab'){
+        s.words.forEach(w=>{
+          if(!words.has(w.fr)){
+            words.set(w.fr,{fr:w.fr,ph:w.phonetic||'',ru:w.ru,note:w.note||''});
+          }
+        });
+      }
+    });
+  });
+  return [...words.values()].sort((a,b)=>a.fr.localeCompare(b.fr,'fr'));
+}
+function buildGlossaire(){
+  const words=getGlosWords();
+  const cnt=words.length;
+  tx('glos-count',cnt+(cnt===1?' слово изучено':cnt>=2&&cnt<=4?' слова изучено':' слов изучено'));
+  const ct=$('glos-list');ct.innerHTML='';
+  const q=glosQ.toLowerCase();
+  const filtered=q?words.filter(w=>w.fr.toLowerCase().includes(q)||w.ru.toLowerCase().includes(q)):words;
+  if(!filtered.length){
+    const empty=document.createElement('div');empty.className='glos-empty';
+    if(!words.length){empty.innerHTML='<span>📖</span>Словарь пополняется по мере прохождения уроков.<br><br>Начните первый урок!';}
+    else{empty.innerHTML='<span>🔍</span>Ничего не найдено по запросу «'+glosQ+'».';}
+    ct.appendChild(empty);return;
+  }
+  filtered.forEach(w=>{
+    const c=document.createElement('div');c.className='ge';
+    const top=document.createElement('div');top.className='ge-top';
+    const lWrap=document.createElement('div');
+    lWrap.innerHTML=`<div class="ge-fr-big">${w.fr}</div>${w.ph?`<div class="ge-ph">${w.ph}</div>`:''}`;
+    const ttsBtn=makeTTS(w.fr);
+    top.appendChild(lWrap);top.appendChild(ttsBtn);
+    c.appendChild(top);
+    const ru=document.createElement('div');ru.className='ge-ru';ru.textContent=w.ru;c.appendChild(ru);
+    if(w.note){const nt=document.createElement('div');nt.className='ge-note';nt.innerHTML=`<div class="ge-note-lbl">Примечание</div>${w.note}`;c.appendChild(nt);}
+    ct.appendChild(c);
+  });
+}
+
+// ── Уроки ─────────────────────────────────────────────────────
+function openLesson(k,restart){
+  if(restart){done.delete(k);save();}
+  curKey=k;renderLesson();
+  $('scr-lesson').classList.add('on');
+  startTimer();logToday();
+}
+function closeLesson(){
+  stopTimer();
+  if(window.speechSynthesis)speechSynthesis.cancel();
+  hideToast();curKey=null;
+  $('scr-lesson').classList.remove('on');
+  showTab(prevTab);
+}
+function startCourse(){
+  const nk=ALL_LESSONS_KEYS.find(k=>!done.has(k))||ALL_LESSONS_KEYS[0];
+  openLesson(nk);
+}
+
+// ── Рендер урока ──────────────────────────────────────────────
+function renderLesson(){
+  const l=LESSONS_DATA[curKey];if(!l)return;
+  const idx=ALL_LESSONS_KEYS.indexOf(curKey),tot=ALL_LESSONS_KEYS.length;
+  tx('l-wk',`Неделя ${l.week} · День ${l.day}`);
+  tx('l-nm',l.title);
+  sw('l-pf',Math.round(idx/tot*100)+'%');
+  tx('l-pos',(idx+1)+' / '+tot);
+  $('btn-prev').disabled=idx===0;
+  $('btn-next').disabled=idx===tot-1;
+  const ct=$('lc');ct.innerHTML='';
+  l.sections.forEach((s,i)=>{const el=makeSection(s,i,l);if(el)ct.appendChild(el);});
+  const comp=document.createElement('div');comp.className='sec';
+  const box=document.createElement('div');box.className='done-box';
+  box.innerHTML=`<span class="done-em">🎉</span><div class="done-h">Урок завершён!</div><p class="done-p">Отлично! Возвращайтесь завтра.<br>Регулярность — ключ к успеху.</p><div class="done-btns"></div>`;
+  const btnDone=document.createElement('button');btnDone.className='btn-done';btnDone.textContent='Завершить ✓';
+  btnDone.addEventListener('click',()=>{done.add(curKey);save();closeLesson();});
+  const btnRe=document.createElement('button');btnRe.className='btn-restart';
+  btnRe.innerHTML='<svg viewBox="0 0 24 24" width="13" height="13"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg> Повторить урок';
+  btnRe.addEventListener('click',()=>openLesson(curKey,true));
+  box.querySelector('.done-btns').appendChild(btnDone);
+  box.querySelector('.done-btns').appendChild(btnRe);
+  comp.appendChild(box);ct.appendChild(comp);
+  ct.scrollTop=0;
+}
+
+function makeTTS(text){
+  const btn=document.createElement('button');
+  btn.className='tts';btn.setAttribute('data-fr',text);btn.title='Прослушать';
+  btn.innerHTML='<svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 010 7.07"/><path d="M19.07 4.93a10 10 0 010 14.14"/></svg>';
+  btn.addEventListener('click',e=>{e.stopPropagation();sayText(text);});
+  return btn;
+}
+
+function makeSection(s,idx,l){
+  const w=document.createElement('div');w.className='sec';
+  switch(s.type){
+    case 'intro':
+      w.innerHTML=`<div class="intro-box"><div class="stag">${s.tag}</div><div class="intro-h">${s.title}</div><div class="intro-p">${s.text}</div></div>`;
+      break;
+    case 'alphabet':{
+      const box=document.createElement('div');box.className='alpha-box';
+      box.innerHTML=`<div class="stag">${s.tag}</div><div class="sec-sub">${s.title}</div>`;
+      const grid=document.createElement('div');grid.className='ag';
+      s.letters.forEach(lt=>{
+        const c=document.createElement('div');c.className='ac'+(lt.similar?' sim':'');
+        c.innerHTML=(lt.similar?'<div class="ac-sim">≈</div>':'')+`<span class="ac-cy">${lt.cyr}</span><span class="ac-la">${lt.sound}</span><span class="ac-ex">${lt.example} = ${lt.ex_fr}</span><span class="ac-tts">🔊 слушать</span>`;
+        c.addEventListener('click',()=>sayText(lt.example));
+        grid.appendChild(c);
+      });
+      box.appendChild(grid);w.appendChild(box);return w;
+    }
+    case 'vocab':{
+      const box=document.createElement('div');box.className='vocab-box';
+      box.innerHTML=`<div class="stag">${s.tag}</div><div class="sec-sub">${s.title}</div>`;
+      const vl=document.createElement('div');vl.className='vl';
+      s.words.forEach(wd=>{
+        const c=document.createElement('div');c.className='vc'+(wd.cognat?' cog':'');
+        const top=document.createElement('div');top.className='vc-top';
+        const info=document.createElement('div');
+        info.innerHTML=`<span class="vc-fr-big">${wd.fr}</span>${wd.phonetic?`<span class="vc-ph">${wd.phonetic}</span>`:''}`;
+        top.appendChild(info);top.appendChild(makeTTS(wd.fr));
+        c.appendChild(top);
+        const ru=document.createElement('div');ru.className='vc-ru';ru.textContent=wd.ru;c.appendChild(ru);
+        if(wd.cognat){const cg=document.createElement('div');cg.className='vc-cg';cg.textContent='🔗 Похоже на русское';c.appendChild(cg);}
+        if(wd.note){const nt=document.createElement('div');nt.className='vc-nt';nt.textContent='💡 '+wd.note;c.appendChild(nt);}
+        vl.appendChild(c);
+      });
+      box.appendChild(vl);w.appendChild(box);return w;
+    }
+    case 'pronunciation':{
+      const box=document.createElement('div');box.className='pron-box';
+      box.innerHTML=`<div class="pron-hd"><div class="pron-ico"><svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 010 14.14"/></svg></div><div class="pron-h">${s.tag} — ${s.title}</div></div>`;
+      const rs=document.createElement('div');rs.className='pron-rs';
+      s.rules.forEach(r=>{
+        const rw=document.createElement('div');rw.className='pron-r';
+        rw.innerHTML=`<div class="pron-sym">${r.symbol}</div><div class="pron-d">${r.desc}</div>`;
+        rs.appendChild(rw);
+      });
+      box.appendChild(rs);w.appendChild(box);return w;
+    }
+    case 'grammar':{
+      const box=document.createElement('div');box.className='gram-box';
+      box.innerHTML=`<div class="stag">${s.tag}</div><div class="gram-h">${s.title}</div><div class="gram-pat">${s.pattern}</div>`;
+      const exs=document.createElement('div');exs.className='gram-exs';
+      s.examples.forEach(ex=>{
+        const xw=document.createElement('div');xw.className='gram-ex';
+        const fr=document.createElement('div');fr.className='ge-fr-row';
+        const t=document.createElement('span');t.className='ge-fr-t';t.textContent=ex.fr;
+        fr.appendChild(t);fr.appendChild(makeTTS(ex.fr));
+        const ru=document.createElement('div');ru.className='ge-ru-t';ru.textContent=ex.ru;
+        xw.appendChild(fr);xw.appendChild(ru);exs.appendChild(xw);
+      });
+      box.appendChild(exs);w.appendChild(box);return w;
+    }
+    case 'tip':
+      w.innerHTML=`<div class="tip-box"><div class="tip-em">💡</div><div><div class="tip-lbl">${s.tag}</div><div class="tip-t">${s.text}</div></div></div>`;
+      break;
+    case 'exercise':{
+      const eid='ex'+l.week+'_'+l.day+'_'+idx;
+      const box=document.createElement('div');box.className='ex-box';
+      box.innerHTML=`<div class="stag">✏️ ${s.tag}</div><div class="ex-q">${s.question}</div>`;
+      const opts=document.createElement('div');opts.className='ex-opts';opts.id=eid;
+      const fb=document.createElement('div');fb.className='ex-fb';
+      s.options.forEach((op,oi)=>{
+        const btn=document.createElement('button');btn.className='opt';btn.textContent=op;
+        btn.addEventListener('click',()=>{
+          if(opts.dataset.done)return;opts.dataset.done='1';
+          opts.querySelectorAll('.opt').forEach((b,i)=>{b.disabled=true;if(i===s.correct)b.classList.add('ok');if(i===oi&&oi!==s.correct)b.classList.add('ko');});
+          fb.textContent=s.feedback;fb.style.color=oi===s.correct?'var(--green)':'var(--red)';
+        });
+        opts.appendChild(btn);
+      });
+      box.appendChild(opts);box.appendChild(fb);w.appendChild(box);return w;
+    }
+    default:return null;
+  }
+  return w;
+}
+
+// ── Timer ──────────────────────────────────────────────────────
+function startTimer(){stopTimer();timerSec=900;renderTimer();timerID=setInterval(()=>{timerSec--;renderTimer();if(timerSec<=0)stopTimer();},1000);}
+function stopTimer(){clearInterval(timerID);timerID=null;}
+function renderTimer(){
+  const el=$('l-time');if(!el)return;
+  const a=Math.abs(timerSec);
+  el.textContent=(timerSec<0?'+':'')+String(Math.floor(a/60)).padStart(2,'0')+':'+String(a%60).padStart(2,'0');
+  $('l-tmr')?.classList.toggle('hot',timerSec<=60&&timerSec>0);
+}
+
+// ── Install ────────────────────────────────────────────────────
+window.addEventListener('beforeinstallprompt',e=>{
+  e.preventDefault();deferredInstall=e;
+  const b=$('install-banner');if(b)b.classList.remove('hidden');
+});
+window.addEventListener('appinstalled',()=>{const b=$('install-banner');if(b)b.classList.add('hidden');});
+
+// ── Init ───────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded',()=>{
+  load();initTTS();updateHome();buildList();
+
+  $('nt-home').addEventListener('click',()=>showTab('home'));
+  $('nt-lessons').addEventListener('click',()=>showTab('lessons'));
+  $('nt-prog').addEventListener('click',()=>showTab('prog'));
+  $('nt-glos').addEventListener('click',()=>showTab('glos'));
+
+  $('btn-start').addEventListener('click',startCourse);
+  $('btn-nxt').addEventListener('click',startCourse);
+  $('btn-install').addEventListener('click',()=>{
+    if(deferredInstall){deferredInstall.prompt();deferredInstall.userChoice.then(()=>{deferredInstall=null;});}
+    $('install-banner').classList.add('hidden');
+  });
+
+  $('btn-back').addEventListener('click',closeLesson);
+  $('btn-prev').addEventListener('click',()=>{const i=ALL_LESSONS_KEYS.indexOf(curKey);if(i>0)openLesson(ALL_LESSONS_KEYS[i-1]);});
+  $('btn-next').addEventListener('click',()=>{const i=ALL_LESSONS_KEYS.indexOf(curKey);if(i<ALL_LESSONS_KEYS.length-1)openLesson(ALL_LESSONS_KEYS[i+1]);});
+
+  $('srch').addEventListener('input',e=>{srchQ=e.target.value.toLowerCase().trim();buildList();});
+  $('glos-srch').addEventListener('input',e=>{glosQ=e.target.value.toLowerCase().trim();buildGlossaire();});
+
+  if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
+});
+
+})();
+</script>
+</body>
+</html>
