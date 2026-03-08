@@ -347,6 +347,105 @@ svg{display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:
 .btn-restart{display:inline-flex;align-items:center;gap:6px;background:var(--s1);border:1px solid var(--ln2);color:var(--tx2);padding:10px 20px;border-radius:50px;font-size:12.5px;font-weight:600;transition:all 0.12s}
 .btn-restart:active{background:var(--s2)}
 
+/* =========================================================
+   NOUVELLES SECTIONS — Bio, Fait historique, Anecdote, Expression, Destination
+========================================================= */
+/* Bio */
+.bio-box{background:linear-gradient(135deg,rgba(0,49,137,0.08),rgba(239,65,53,0.05));border:1px solid rgba(0,49,137,0.22);border-radius:var(--r3);padding:14px;position:relative;overflow:hidden}
+.bio-box::after{content:'👤';position:absolute;right:10px;top:10px;font-size:26px;opacity:0.18}
+.bio-head{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.bio-avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--red));display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;border:2px solid rgba(0,49,137,0.3)}
+.bio-name{font-family:var(--fs);font-size:15px;font-weight:700;color:var(--tx);line-height:1.2}
+.bio-dates{font-family:var(--fm);font-size:9.5px;color:var(--tx3);margin-top:1px}
+.bio-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.bio-quote{margin-top:9px;padding:8px 11px;background:rgba(0,49,137,0.1);border-left:3px solid var(--blue);border-radius:0 6px 6px 0;font-family:var(--fs);font-size:12px;color:#93c5fd;font-style:italic;word-wrap:break-word}
+/* Fait historique */
+.hist-box{background:linear-gradient(135deg,rgba(245,200,66,0.06),rgba(245,200,66,0.02));border:1px solid rgba(245,200,66,0.2);border-radius:var(--r3);padding:14px}
+.hist-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.hist-ico{width:32px;height:32px;background:var(--ga);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.hist-date{font-family:var(--fm);font-size:11px;font-weight:700;color:var(--gold)}
+.hist-title{font-size:13px;font-weight:700;color:var(--tx);margin-bottom:7px}
+.hist-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.hist-link{margin-top:7px;display:inline-flex;align-items:center;gap:4px;font-size:10.5px;color:var(--gold);background:var(--ga);border:1px solid rgba(245,200,66,0.18);border-radius:50px;padding:3px 10px}
+/* Anecdote */
+.anec-box{background:rgba(167,139,250,0.05);border:1px solid rgba(167,139,250,0.2);border-radius:var(--r3);padding:14px}
+.anec-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.anec-ico{width:32px;height:32px;background:rgba(167,139,250,0.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.anec-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--violet);font-weight:700}
+.anec-title{font-size:13px;font-weight:700;color:var(--tx);margin-bottom:6px}
+.anec-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.anec-warn{margin-top:8px;padding:7px 11px;background:rgba(239,65,53,0.07);border:1px solid rgba(239,65,53,0.18);border-radius:8px;font-size:11px;color:#fca5a5;display:flex;gap:6px;align-items:flex-start}
+/* Expression */
+.expr-box{background:rgba(45,212,191,0.05);border:1px solid rgba(45,212,191,0.2);border-radius:var(--r3);padding:14px}
+.expr-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
+.expr-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--teal);font-weight:700}
+.expr-phrase{font-family:var(--fs);font-size:18px;font-weight:700;color:var(--teal);margin-bottom:5px;word-wrap:break-word}
+.expr-phonetic{font-family:var(--fm);font-size:10px;color:var(--tx3);background:var(--bg3);border-radius:4px;padding:2px 7px;display:inline-block;margin-bottom:7px}
+.expr-meaning{font-size:12.5px;color:var(--tx2);margin-bottom:6px;word-wrap:break-word}
+.expr-usage{font-size:11.5px;color:rgba(45,212,191,0.7);line-height:1.5;word-wrap:break-word}
+/* Destination */
+.dest-box{background:linear-gradient(135deg,rgba(52,211,153,0.06),rgba(0,49,137,0.06));border:1px solid rgba(52,211,153,0.18);border-radius:var(--r3);padding:14px;position:relative;overflow:hidden}
+.dest-box::before{content:'✈';position:absolute;right:12px;top:10px;font-size:28px;opacity:0.15}
+.dest-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.dest-ico{width:32px;height:32px;background:rgba(52,211,153,0.1);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.dest-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--green);font-weight:700}
+.dest-city{font-family:var(--fs);font-size:16px;font-weight:700;color:var(--tx);margin-bottom:4px}
+.dest-region{font-size:10.5px;color:var(--tx3);margin-bottom:7px;font-family:var(--fm)}
+.dest-text{font-size:12.5px;color:var(--tx2);line-height:1.6;word-wrap:break-word}
+.dest-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.dest-tag{background:rgba(52,211,153,0.1);border:1px solid rgba(52,211,153,0.18);border-radius:50px;padding:2px 9px;font-size:10px;color:var(--green)}
+
+/* =========================================================
+   TEST DE NIVEAU — Page d'accueil
+========================================================= */
+.test-banner{background:linear-gradient(135deg,rgba(0,49,137,0.12),rgba(239,65,53,0.08));border:1px solid rgba(0,49,137,0.28);border-radius:var(--r3);padding:15px 14px;cursor:pointer;transition:all 0.14s;position:relative;overflow:hidden}
+.test-banner::after{content:'🎯';position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:26px;opacity:0.25}
+.test-banner:active{transform:scale(0.98)}
+.test-banner-lbl{font-family:var(--fm);font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:var(--blue);font-weight:700;margin-bottom:4px}
+.test-banner-title{font-size:14.5px;font-weight:700;color:var(--tx);margin-bottom:2px}
+.test-banner-sub{font-size:11px;color:var(--tx3)}
+.test-banner-last{font-family:var(--fm);font-size:10px;color:var(--gold);margin-top:5px}
+/* Test screen overlay */
+#scr-test{position:fixed;inset:0;z-index:150;display:none;flex-direction:column;background:var(--bg)}
+#scr-test.on{display:flex}
+.test-bar{display:flex;align-items:center;gap:9px;padding:calc(env(safe-area-inset-top,0px)+8px) 13px 8px;border-bottom:1px solid var(--ln);flex-shrink:0}
+.test-bar-title{flex:1;font-size:14px;font-weight:700}
+.test-qnum{font-family:var(--fm);font-size:10px;color:var(--tx3)}
+#test-pbar{height:3px;background:var(--bg3);flex-shrink:0}
+#test-pfill{height:100%;background:linear-gradient(90deg,var(--blue),var(--red));transition:width 0.4s}
+#test-content{flex:1;overflow-y:auto;padding:16px 15px 20px;display:flex;flex-direction:column;gap:13px}
+.tq-box{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:16px}
+.tq-cat{font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--blue);margin-bottom:6px}
+.tq-q{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:13px;word-wrap:break-word}
+.tq-opts{display:flex;flex-direction:column;gap:7px}
+.tq-opt{width:100%;background:var(--bg3);border:1px solid var(--ln);border-radius:var(--r2);padding:11px 13px;font-size:13px;color:var(--tx);text-align:left;transition:all 0.1s;word-wrap:break-word}
+.tq-opt:active:not(:disabled){background:var(--s2)}
+.tq-opt:disabled{cursor:default}
+.tq-opt.tok{background:rgba(52,211,153,0.09);border-color:rgba(52,211,153,0.4);color:var(--green)}
+.tq-opt.tko{background:var(--ra);border-color:rgba(239,65,53,0.4);color:var(--red)}
+.tq-fb{margin-top:9px;font-size:11.5px;line-height:1.5;color:var(--tx3)}
+.test-nav{padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--ln);flex-shrink:0;display:flex;justify-content:flex-end}
+.btn-test-next{background:linear-gradient(135deg,var(--blue),#0052cc);color:#fff;padding:11px 22px;border-radius:50px;font-size:13px;font-weight:700;box-shadow:0 3px 12px rgba(0,49,137,0.4);transition:all 0.1s}
+.btn-test-next:active{opacity:0.85;transform:scale(0.96)}
+.btn-test-next:disabled{opacity:0.3;pointer-events:none}
+/* Test results */
+.test-result{display:flex;flex-direction:column;gap:14px;padding:16px 15px 30px}
+.test-score-box{background:linear-gradient(135deg,#0e0e35,#1a0a28);border:1px solid rgba(239,65,53,0.18);border-radius:var(--r4);padding:24px 16px;text-align:center}
+.test-score-em{font-size:44px;display:block;margin-bottom:8px}
+.test-score-pct{font-size:46px;font-weight:800;line-height:1;background:linear-gradient(135deg,var(--blue),var(--red));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:4px}
+.test-score-lbl{font-size:12px;color:var(--tx3)}
+.test-lvl-badge{display:inline-block;margin-top:10px;padding:6px 18px;border-radius:50px;font-size:14px;font-weight:700;background:linear-gradient(135deg,var(--blue),var(--red));color:#fff}
+.test-advice{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px}
+.test-advice-h{font-size:13px;font-weight:700;margin-bottom:7px}
+.test-advice-t{font-size:12.5px;color:var(--tx2);line-height:1.6}
+.test-bars{background:var(--s1);border:1px solid var(--ln);border-radius:var(--r3);padding:14px;display:flex;flex-direction:column;gap:10px}
+.test-cat-row{display:flex;flex-direction:column;gap:4px}
+.test-cat-hd{display:flex;justify-content:space-between;font-size:11.5px;color:var(--tx2)}
+.test-cat-bar{height:5px;background:var(--bg3);border-radius:3px;overflow:hidden}
+.test-cat-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--blue),var(--red))}
+.btn-retake{display:block;width:100%;background:linear-gradient(135deg,var(--blue),#0052cc);color:#fff;padding:13px;border-radius:50px;font-size:14px;font-weight:700;text-align:center;box-shadow:0 4px 16px rgba(0,49,137,0.4);transition:all 0.12s}
+.btn-retake:active{opacity:0.85;transform:scale(0.97)}
+
 /* === TOAST === */
 #toast{
   position:fixed;bottom:calc(var(--nav) + env(safe-area-inset-bottom,0px) + 10px);
@@ -423,6 +522,12 @@ svg{display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:
             <div class="ib-s">Быстрый доступ · Работает офлайн</div>
           </div>
           <button class="btn-install" id="btn-install">Установить</button>
+        </div>
+        <div class="test-banner" id="btn-open-test">
+          <div class="test-banner-lbl">📝 Тест на уровень</div>
+          <div class="test-banner-title">Проверьте ваш уровень французского</div>
+          <div class="test-banner-sub">20 вопросов · ~5 минут · результат сразу</div>
+          <div class="test-banner-last" id="test-last-score"></div>
         </div>
         <div class="sec-ttl">Что вы изучаете</div>
         <div class="pills">
@@ -536,6 +641,22 @@ svg{display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:
     </div>
   </div>
 
+  <!-- TEST DE NIVEAU (overlay) -->
+  <div id="scr-test" class="scr">
+    <div class="test-bar">
+      <button class="l-back" id="btn-test-close">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="test-bar-title">Тест на уровень — Français</div>
+      <div class="test-qnum" id="test-qnum">1 / 20</div>
+    </div>
+    <div id="test-pbar"><div id="test-pfill" style="width:5%"></div></div>
+    <div id="test-content"></div>
+    <div class="test-nav">
+      <button class="btn-test-next" id="btn-test-next" disabled>Следующий →</button>
+    </div>
+  </div>
+
   <!-- NAV -->
   <nav id="nav">
     <button class="ntab on" id="nt-home">
@@ -622,6 +743,47 @@ const LESSONS_DATA = {
         ]
       },
       {
+        type: "bio",
+        tag: "Personnage célèbre",
+        name: "Victor Hugo",
+        emoji: "✍️",
+        dates: "1802–1885",
+        text: "Величайший французский писатель эпохи романтизма. Автор романов «Отверженные» и «Собор Парижской Богоматери», известных каждому русскому читателю. Гюго также был депутатом, защищал бедных и выступал против смертной казни.",
+        quote: "La vie, c'est la fleur dont l'amour est le miel. — Жизнь — это цветок, а любовь — его мёд."
+      },
+      {
+        type: "hist",
+        tag: "Fait historique",
+        date: "🗓 842 год н.э.",
+        title: "Рождение французского языка",
+        text: "Французский язык официально появился в 842 году, когда внуки Карла Великого подписали Страсбургские клятвы — первый письменный документ на старофранцузском. До этого все писали на латыни. Сегодня французский — официальный язык 29 государств и международный язык дипломатии.",
+        link: "Страсбургские клятвы — первый текст на старофранцузском"
+      },
+      {
+        type: "anec",
+        tag: "Anecdote culturelle",
+        title: "Bonjour — обязательный ритуал",
+        text: "Во Франции считается крайне невежливым войти в магазин, кафе или любое заведение, не поздоровавшись. «Bonjour» — это обязательный ритуал вежливости. Если вы молча подойдёте к кассе, продавец может сказать: «Bonjour !» — с укоризненным тоном.",
+        warning: "Не говорить «Bonjour» при входе — серьёзная грубость во Франции!"
+      },
+      {
+        type: "expr",
+        tag: "Expression du jour",
+        phrase: "Ça va ?",
+        phonetic: "[са ва]",
+        meaning: "Как дела? / Всё нормально?",
+        usage: "Универсальная формула. Ответ: «Ça va, merci !» (Всё хорошо, спасибо!). Используется между знакомыми неформально. Официально лучше: «Comment allez-vous ?»"
+      },
+      {
+        type: "dest",
+        tag: "Destination à visiter",
+        emoji: "🗼",
+        city: "Париж — Paris",
+        region: "Île-de-France · Столица Франции",
+        text: "Начните с Парижа! Эйфелева башня, Лувр, Монмартр, кафе на каждом углу. Лучшее время для посещения — май и сентябрь: меньше туристов, приятная погода. Не забудьте прогуляться вдоль Сены вечером.",
+        tags: ["Культура", "Гастрономия", "Архитектура", "Музеи", "Романтика"]
+      },
+      {
         type: "exercise",
         tag: "Упражнение",
         question: "Как читается слово 'restaurant' по-французски?",
@@ -679,6 +841,47 @@ const LESSONS_DATA = {
         options: ["[х]", "[г]", "она немая", "[а]"],
         correct: 2,
         feedback: "Верно! H во французском всегда немая. Поэтому hôtel читается [отэль], а не [хотэль]."
+      },
+      {
+        type: "bio",
+        tag: "Personnage célèbre",
+        name: "Molière (Jean-Baptiste Poquelin)",
+        emoji: "🎭",
+        dates: "1622–1673",
+        text: "Великий французский комедиограф, актёр и режиссёр. Основатель классической французской комедии. Его пьесы «Тартюф», «Мещанин во дворянстве», «Скупой» до сих пор идут на сценах мира. Мольер умер прямо на сцене во время исполнения пьесы «Мнимый больной».",
+        quote: "Il faut manger pour vivre et non pas vivre pour manger. — Нужно есть, чтобы жить, а не жить, чтобы есть."
+      },
+      {
+        type: "hist",
+        tag: "Fait historique",
+        date: "🗓 1789 год",
+        title: "Великая французская революция",
+        text: "В 1789 году французский народ совершил революцию, свергнув монархию. Девиз «Liberté, Égalité, Fraternité» (Свобода, Равенство, Братство) стал символом не только Франции, но и всего мира. Революция изменила карту Европы и вдохновила русских декабристов.",
+        link: "Déclaration des droits de l'homme — 1789"
+      },
+      {
+        type: "anec",
+        tag: "Anecdote culturelle",
+        title: "Никогда не режьте салат ножом!",
+        text: "За французским столом существует негласное правило: салат нельзя резать ножом — это считается дурным тоном. Листья нужно складывать вилкой. Также никогда не кладите хлеб на тарелку — он должен лежать прямо на скатерти рядом с ней.",
+        warning: "Хлеб на тарелке и нарезание салата ножом — taboo за французским столом."
+      },
+      {
+        type: "expr",
+        tag: "Expression du jour",
+        phrase: "C'est la vie !",
+        phonetic: "[сэ ла ви]",
+        meaning: "Такова жизнь! / Ничего не поделаешь!",
+        usage: "Выражение смирения и философского принятия ситуации. Используется, когда что-то пошло не по плану. Это выражение понимают во всём мире благодаря его распространению через кино."
+      },
+      {
+        type: "dest",
+        tag: "Destination à visiter",
+        emoji: "🏰",
+        city: "Версаль — Versailles",
+        region: "Île-de-France · 20 км от Парижа",
+        text: "Дворцово-парковый ансамбль Версаля — один из самых грандиозных в мире. Дворец, зеркальный зал, бесконечные сады. Сюда легко добраться из Парижа за 40 минут на поезде RER C. Приходите утром, чтобы избежать очередей.",
+        tags: ["История", "Архитектура", "Сады", "Музей", "Однодневная поездка"]
       }
     ]
   },
@@ -1560,11 +1763,86 @@ const GRAM_PATTERNS = {
   ]},
 };
 
+// Données culturelles pour les leçons générées (semaines 4-13)
+const CULTURAL_DATA = {
+  4: {
+    bio: { name:"Édith Piaf", emoji:"🎤", dates:"1915–1963", text:"Национальный символ Франции, «воробышек» французской эстрады. Дочь улицы, она стала мировой звездой. Её песня «Non, je ne regrette rien» знакома во всём мире. В СССР её обожали." , quote:"Non, je ne regrette rien. — Нет, я ни о чём не жалею."},
+    hist: { date:"🗓 1804", title:"Наполеон — Emperor de France", text:"В 1804 году Наполеон Бонапарт провозгласил себя императором Франции. Корсиканец по происхождению, он создал Французский гражданский кодекс, действующий до сих пор. Его поход на Москву в 1812 году закончился катастрофой и стал символом одержимости властью."},
+    anec: { title:"Никогда не приходите вовремя на ужин!", text:"Во Франции приглашение на ужин в 20:00 означает, что вы должны прийти в 20:15–20:30. Прийти точно в срок считается невежливым — хозяйка ещё не готова. Это называют 'le quart d'heure de politesse' (четверть часа вежливости).", warning:"Приходить точно по времени на ужин во Франции считается неловким!"},
+    expr: { phrase:"Bon appétit !", phonetic:"[бон апэти]", meaning:"Приятного аппетита!", usage:"Произносится перед началом еды. Во Франции это обязательная фраза за столом. В отличие от Англии, где это считается старомодным, во Франции «Bon appétit» — признак хорошего воспитания."},
+    dest: { emoji:"🍷", city:"Бордо — Bordeaux", region:"Nouvelle-Aquitaine · юго-запад Франции", text:"Мировая столица вина! Бордо — красивый портовый город с великолепной архитектурой XVIII века и бесконечными виноградниками вокруг. Посетите Cité du Vin — музей вина.", tags:["Вино","Архитектура","Гастрономия","ЮНЕСКО"]}
+  },
+  5: {
+    bio: { name:"Marie Curie", emoji:"⚗️", dates:"1867–1934", text:"Единственный учёный в мире, получивший Нобелевские премии в двух разных науках — физике (1903) и химии (1911). Польского происхождения, она получила образование в Париже и открыла полоний и радий. Пионер в области радиоактивности.", quote:"Rien dans la vie n'est à craindre, tout est à comprendre. — В жизни не нужно ничего бояться, нужно всё понимать."},
+    hist: { date:"🗓 1889", title:"Эйфелева башня — символ эпохи", text:"Построена к Всемирной выставке 1889 года как временная конструкция. Многие парижане ненавидели её, называя «железной уродиной». Сегодня это самая посещаемая платная достопримечательность мира — 7 миллионов человек в год."},
+    anec: { title:"Поцелуй в щёку: одна или три?", text:"Во Франции при встрече принято делать bisous (поцелуи в щёку). Но количество варьируется по регионам: в Париже — два, на юге — три или четыре! Это часто приводит к неловким ситуациям, когда один уже отступает, а другой ещё тянется.", warning:"В Париже — два поцелуя, на юге — три. Уточните у местных!"},
+    expr: { phrase:"Je n'ai pas le moral.", phonetic:"[же нэ па ле мораль]", meaning:"Мне грустно / Я не в духе.", usage:"Буквально «у меня нет морального духа». Используется когда плохое настроение или что-то не получается. Синоним: «Je suis déprimé(e)» — я подавлен(а)."},
+    dest: { emoji:"🏖️", city:"Ницца — Nice", region:"Côte d'Azur · Французская Ривьера", text:"Жемчужина Лазурного берега! Тёплое море, красивая набережная Promenade des Anglais, старый город с цветными домами. Ницца — пятый по величине город Франции и один из самых посещаемых курортов Европы.", tags:["Море","Культура","Гастрономия","Набережная","Климат"]}
+  },
+  6: {
+    bio: { name:"Coco Chanel", emoji:"👗", dates:"1883–1971", text:"Революционер моды, создавшая образ современной женщины. Она освободила женщин от корсетов, ввела брюки в женскую моду и создала легендарный аромат Chanel N°5. Её простой стиль «маленькое чёрное платье» изменил мировую моду навсегда.", quote:"La mode se démode, le style jamais. — Мода устаревает, стиль — никогда."},
+    hist: { date:"🗓 1944", title:"Освобождение Парижа", text:"25 августа 1944 года Париж был освобождён от немецкой оккупации. Де Голль прошёл по Елисейским полям под оглушительные аплодисменты. Французское Сопротивление сыграло ключевую роль в победе. Эта дата — одна из самых важных в современной истории Франции."},
+    anec: { title:"Вино за обедом — это нормально!", text:"Во Франции вино за обеденным столом — это культурная норма, а не повод для беспокойства. Французы пьют вино умеренно и получают удовольствие от вкуса. Отказываться от предложенного вина не обязательно, но «Non merci» скажут спокойно.", warning:"Говорить, что французское вино 'слишком слабое' или заказывать пиво вместо вина в ресторанной зоне — дурной тон."},
+    expr: { phrase:"Il ne faut pas pousser mémère dans les orties !", phonetic:"[иль нё фо па пуссэ мэмэр дан лэ ортти]", meaning:"Не переусердствуй! / Не заходи слишком далеко!", usage:"Буквально «не нужно пихать бабушку в крапиву». Народное выражение, используется когда кто-то превышает допустимые границы или просит слишком много."},
+    dest: { emoji:"🦋", city:"Прованс — Provence", region:"Южная Франция · регион", text:"Лавандовые поля, старинные деревушки, рынки с сырами и оливками. Лучшее время — июнь-июль, когда цветёт лаванда. Особенно красивы Горд, Лез-Бо-де-Прованс и Авиньон с папским дворцом.", tags:["Природа","Лаванда","Деревушки","Гастрономия","Авиньон"]}
+  },
+  7: {
+    bio: { name:"Albert Camus", emoji:"📚", dates:"1913–1960", text:"Французский писатель, философ и лауреат Нобелевской премии по литературе (1957). Его роман «Посторонний» (L'Étranger) — один из ключевых текстов XX века. Основатель философии абсурда, он верил в жизнь несмотря ни на что.", quote:"Le seul vrai problème philosophique est le suicide. — Есть только одна подлинная философская проблема — самоубийство."},
+    hist: { date:"🗓 1968", title:"Май 1968 — революция молодёжи", text:"В мае 1968 года Париж захлестнули студенческие волнения, переросшие в массовые забастовки по всей Франции. Это событие изменило французское общество: были реформированы университеты, трудовое законодательство и отношения между поколениями."},
+    anec: { title:"Сыр после основного — перед десертом!", text:"Во французском ресторане сыр подают не перед едой и не с закусками, а между основным блюдом и десертом. Это строгий порядок французской трапезы. Сырная тарелка — целое искусство, и её выбор занимает столько же времени, сколько выбор вина.", warning:"Просить сыр в начале ужина во Франции — признак незнания традиций."},
+    expr: { phrase:"C'est du chinois !", phonetic:"[сэ дю шинуа]", meaning:"Это китайская грамота! / Ничего не понятно!", usage:"Французский эквивалент русского «это всё для меня китайская грамота». Используется, когда что-то совершенно непонятно. Аналог в русском: «тёмный лес»."},
+    dest: { emoji:"🌊", city:"Бретань — Bretagne", region:"Северо-западная Франция", text:"Суровое атлантическое побережье, средневековые замки, загадочные мегалиты Карнака и лучшие в мире блины-галеты. Бретань — это совсем другая Франция, с кельтскими корнями и особым языком.", tags:["Мегалиты","Замки","Море","Блины","Культура"]}
+  },
+  8: {
+    bio: { name:"Louis Pasteur", emoji:"🔬", dates:"1822–1895", text:"Учёный, изменивший медицину. Он открыл микробную теорию болезней, создал вакцины от бешенства и куриной холеры, изобрёл пастеризацию (названную в его честь). Без Пастера современная медицина была бы невозможна.", quote:"Le hasard ne favorise que les esprits préparés. — Случай благоприятствует лишь подготовленным умам."},
+    hist: { date:"🗓 1431", title:"Жанна д'Арк — национальная героиня", text:"В 1431 году была сожжена на костре 19-летняя крестьянка Жанна д'Арк, возглавившая французскую армию против англичан. Через 25 лет её реабилитировали, в 1920 году канонизировали. Сегодня она — символ Франции, любви к Родине и самопожертвования."},
+    anec: { title:"Не говорите о деньгах за столом!", text:"Обсуждение зарплаты, цен или финансов за обеденным столом во Франции — табу. Это считается вульгарным и невежливым. Французы могут обсудить политику, философию или даже любовь, но деньги — это личное.", warning:"Спрашивать французов об их зарплате или сколько стоит их квартира — очень грубо!"},
+    expr: { phrase:"Avoir le cafard.", phonetic:"[авуар ле кафар]", meaning:"Быть в меланхолии / Упасть духом.", usage:"Буквально «иметь таракана». Метафора для состояния уныния или депрессии. Происходит из французских колониальных войск в Северной Африке (cafard = таракан на арабском)."},
+    dest: { emoji:"🏔️", city:"Шамони — Chamonix", region:"Альпы · Haute-Savoie", text:"У подножья Монблана — высочайшей вершины Альп! Зимой — горные лыжи мирового класса, летом — треккинг с видами на ледники. Из Женевы сюда можно добраться за 1,5 часа. Город-мечта для любителей гор.", tags:["Горы","Лыжи","Монблан","Природа","Треккинг"]}
+  },
+  9: {
+    bio: { name:"Charles de Gaulle", emoji:"🎖️", dates:"1890–1970", text:"Генерал, освободитель Франции и первый президент Пятой Республики. Во время Второй мировой войны он из Лондона призвал французов к сопротивлению. Его слова «La France a perdu une bataille, mais la France n'a pas perdu la guerre» вошли в историю.", quote:"La France est la lumière du monde. — Франция — это свет всего мира."},
+    hist: { date:"🗓 1905", title:"Закон об отделении церкви от государства", text:"В 1905 году Франция приняла закон о laïcité — строгом отделении религии от государства. Это один из столпов французской идентичности. Никаких религиозных символов в государственных учреждениях. Этот принцип сегодня вызывает споры о хиджабах в школах."},
+    anec: { title:"Два часа на обед — это серьёзно!", text:"Во Франции обеденный перерыв — это священное время. С 12:00 до 14:00 многие магазины закрываются! Обед — это событие, а не просто дозаправка. В ресторанах «меню дня» (menu du jour) — два-три блюда за разумную цену.", warning:"Пытаться поторопить официанта во время обеда — грубость. Еда требует времени!"},
+    expr: { phrase:"Mettre son grain de sel.", phonetic:"[мэтр сон грэн де сэль]", meaning:"Лезть не в своё дело / Вставить свои пять копеек.", usage:"Буквально «добавить свою щепотку соли». Используется когда кто-то вмешивается в разговор или дело, которое его не касается."},
+    dest: { emoji:"🏙️", city:"Лион — Lyon", region:"Auvergne-Rhône-Alpes · 2-й город Франции", text:"Гастрономическая столица Франции! Лион — родина множества легендарных блюд (quenelles, saucisson, poulet de Bresse). Красивый исторический центр, занесённый в список ЮНЕСКО. Здесь изобрели кино (братья Люмьер родом из Лиона)!", tags:["Гастрономия","Кино","ЮНЕСКО","История","Шелк"]}
+  },
+  10: {
+    bio: { name:"Simone de Beauvoir", emoji:"👩‍💼", dates:"1908–1986", text:"Философ, писательница и феминистка. Её книга «Второй пол» (Le Deuxième Sexe, 1949) стала фундаментом феминизма XX века. Многолетняя спутница Жан-Поль Сартра, она жила по своим убеждениям — независимо, свободно и без компромиссов.", quote:"On ne naît pas femme, on le devient. — Женщиной не рождаются, женщиной становятся."},
+    hist: { date:"🗓 1998", title:"Франция — Чемпион мира по футболу", text:"12 июля 1998 года Франция впервые стала чемпионом мира по футболу, победив Бразилию 3:0 в финале в Сен-Дени. Зинедин Зидан забил два гола. Эта победа объединила нацию и стала символом многонациональной «Франции блёз-блан-руж»."},
+    anec: { title:"Бисер перед свиньями — не говорите, что вам не нравится вино!", text:"Если хозяин дома предлагает вам вино из его погреба с гордостью — никогда не говорите, что вы не любите вино или что оно вам не нравится. Это личная обида. Скажите «C'est intéressant» или «C'est différent» — нейтрально и вежливо.", warning:"Критиковать предложенное хозяином вино — серьёзное нарушение этикета."},
+    expr: { phrase:"Avoir d'autres chats à fouetter.", phonetic:"[авуар д'отр ша а фуэтэ]", meaning:"Иметь более важные дела. / Не до того!", usage:"Буквально «у меня есть другие кошки, которых нужно хлестать». Означает, что у вас есть более важные заботы. Используется чтобы вежливо отказаться от мелкого поручения."},
+    dest: { emoji:"🌿", city:"Перигор — Périgord", region:"Nouvelle-Aquitaine · юго-запад", text:"Земля фуа-гра, трюфелей и средневековых замков. Долина Дордони — одна из самых красивых во Франции. Пещера Ласко с наскальными рисунками возрастом 17 000 лет находится именно здесь.", tags:["Трюфели","Замки","Пещеры","Гастрономия","Природа"]}
+  },
+  11: {
+    bio: { name:"Gustave Eiffel", emoji:"🗼", dates:"1832–1923", text:"Инженер, чьё имя стало синонимом Парижа. Он построил Эйфелеву башню к выставке 1889 года всего за 2 года и 2 месяца — невероятный инженерный подвиг. До этого он участвовал в строительстве Статуи Свободы в Нью-Йорке (он сделал её металлический каркас).", quote:"Je dois être jaloux de cette tour. — Я должен завидовать этой башне."},
+    hist: { date:"🗓 1962", title:"Елисейский договор — дружба с Германией", text:"В 1963 году Франция и Германия подписали Élysée Treaty — договор о дружбе и сотрудничестве. Два злейших врага XX века стали самыми близкими партнёрами. Эта дружба стала фундаментом Европейского союза."},
+    anec: { title:"Всегда берите корзину хлеба!", text:"В большинстве французских ресторанов хлеб (la corbeille de pain) подают бесплатно по первому запросу. Это не означает, что обед будет дешёвым — просто так принято. Но просить хлеб несколько раз подряд считается нормальным.", warning:"Заказывать хлеб как основное блюдо или складывать его в сумочку — дурной тон."},
+    expr: { phrase:"Vouloir le beurre et l'argent du beurre.", phonetic:"[вулуар ле бёр э лярjon дю бёр]", meaning:"Хотеть и рыбку съесть и на ёлку влезть.", usage:"Буквально «хотеть масло и деньги за масло». Говорится о человеке, который хочет получить всё сразу, не идя ни на какие компромиссы."},
+    dest: { emoji:"⛵", city:"Сен-Мало — Saint-Malo", region:"Bretagne · побережье Ла-Манша", text:"Укреплённый портовый город на берегу Ла-Манша. Старый город окружён крепостными стенами — по ним можно гулять с потрясающим видом на море. Когда-то родина корсаров, сегодня — одно из самых красивых мест Бретани.", tags:["Море","Крепость","История","Бретань","Корсары"]}
+  },
+  12: {
+    bio: { name:"Jean-Paul Sartre", emoji:"🎓", dates:"1905–1980", text:"Философ, писатель, драматург. Отец французского экзистенциализма — философии, утверждающей, что «существование предшествует сущности» и что человек абсолютно свободен. Отказался от Нобелевской премии по литературе (1964), заявив, что не хочет становиться «институтом».", quote:"L'existence précède l'essence. — Существование предшествует сущности."},
+    hist: { date:"🗓 1974", title:"Жискар д'Эстен снижает возраст голосования до 18 лет", text:"В 1974 году президент Жискар д'Эстен снизил возраст голосования с 21 до 18 лет. Это же решение легализовало контрацепцию и право на аборт. Франция стала одной из первых стран, давших молодёжи полные гражданские права."},
+    anec: { title:"Туфли важнее пальто!", text:"Французы, особенно парижане, оценивают незнакомцев по обуви. «Хорошая обувь выдаёт хорошего человека» — неписаное правило. Дорогое пальто с дешёвой обувью считается провалом стиля. Инвестируйте в обувь!", warning:"Появиться на деловой встрече в потрёпанных ботинках во Франции — признак небрежности."},
+    expr: { phrase:"Tomber dans les pommes.", phonetic:"[томбэ дан лэ пом]", meaning:"Упасть в обморок.",usage:"Буквально «упасть в яблоки». Никто не знает точного происхождения, но выражение используется с XIX века. «Elle est tombée dans les pommes tellement il était beau» — она упала в обморок, такой он был красивый."},
+    dest: { emoji:"🏛️", city:"Страсбург — Strasbourg", region:"Alsace · граница с Германией", text:"Столица Эльзаса — уникального региона с французско-немецкой культурой. Потрясающий готический собор, старый квартал La Petite France, рождественские ярмарки (лучшие во Франции!). Здесь расположен Европейский парламент.", tags:["Архитектура","Рождество","Европа","Эльзас","Собор"]}
+  },
+  13: {
+    bio: { name:"Auguste Renoir", emoji:"🎨", dates:"1841–1919", text:"Один из основателей импрессионизма. Его картины полны радости, тепла и любви к жизни. «Бал в Мулен де ла Галетт», «Завтрак гребцов» — шедевры, хранящиеся в лучших музеях мира. Несмотря на тяжёлый артрит в старости, он продолжал писать, привязывая кисть к руке.", quote:"La douleur passe, la beauté reste. — Боль проходит, красота остаётся."},
+    hist: { date:"🗓 2024", title:"Олимпийские игры в Париже", text:"В 2024 году Париж принял летние Олимпийские игры — впервые с 1900 и 1924 годов! Церемония открытия прошла прямо на Сене. Это стало грандиозным праздником для всей страны и показало красоту Парижа всему миру."},
+    anec: { title:"Никогда не называйте гарсона!", text:"В французских ресторанах официанта называют «Monsieur» или «Madame» — никогда «garçon» (слуга). Это слово сегодня считается унизительным. Чтобы подозвать официанта, просто поднимите руку или встретьтесь с ним взглядом.", warning:"Кричать «Garçon !» в парижском ресторане — верный способ испортить вечер."},
+    expr: { phrase:"Je parle français !", phonetic:"[же парль франсэ]", meaning:"Я говорю по-французски!",usage:"Поздравляем! Вы завершили курс и теперь действительно можете говорить это с гордостью. «Un peu» (немного), «assez bien» (достаточно хорошо) — добавьте по вкусу."},
+    dest: { emoji:"🌺", city:"Реюньон — La Réunion", region:"Французский заморский остров · Индийский океан", text:"Вулканический остров в Индийском океане — французская территория! Действующий вулкан Питон-де-ла-Фурнез, тропические леса, пляжи с чёрным и белым песком. Здесь говорят по-французски и платят евро — а вокруг тропический рай!", tags:["Тропики","Вулкан","Океан","Экзотика","Природа"]}
+  }
+};
+
 // Заполняем оставшиеся уроки (недели 4-13)
 for (let w = 4; w <= 13; w++) {
   const theme = WEEK_THEMES[w];
   const vocab = LESSON_VOCAB_BANKS[w] || [];
   const gram = GRAM_PATTERNS[w];
+  const cult = CULTURAL_DATA[w] || {};
   for (let d = 1; d <= 6; d++) {
     const key = `S${w}J${d}`;
     if (!LESSONS_DATA[key]) {
@@ -1582,6 +1860,7 @@ for (let w = 4; w <= 13; w++) {
             title: `${theme.title_prefix}: День ${d}`,
             text: `Продолжаем изучать тему «${theme.title_prefix}». Сегодня — ${dayThemes[d-1].toLowerCase()}. Не забывайте повторять слова из предыдущих уроков!`
           },
+          ...(d === 1 && cult.bio ? [{type:"bio", tag:"Personnage célèbre", ...cult.bio}] : []),
           {
             type: "vocab",
             tag: "Словарь",
@@ -1597,11 +1876,15 @@ for (let w = 4; w <= 13; w++) {
             pattern: gram.pattern,
             examples: gram.examples,
           }] : []),
+          ...(d === 2 && cult.hist ? [{type:"hist", tag:"Fait historique", ...cult.hist}] : []),
           {
             type: "tip",
             tag: "Совет",
             text: `Для темы «${theme.title_prefix}» главное — практика! Попробуйте использовать новые слова в реальных ситуациях сегодня.`
           },
+          ...(d === 3 && cult.anec ? [{type:"anec", tag:"Anecdote culturelle", ...cult.anec}] : []),
+          ...(d === 4 && cult.expr ? [{type:"expr", tag:"Expression du jour", ...cult.expr}] : []),
+          ...(d === 5 && cult.dest ? [{type:"dest", tag:"Destination à visiter", ...cult.dest}] : []),
           {
             type: "exercise",
             tag: "Упражнение",
@@ -1687,7 +1970,7 @@ const TABS=['home','lessons','prog','glos'];
 function showTab(t){
   prevTab=t;
   TABS.forEach(id=>{$('scr-'+id).classList.toggle('on',id===t);$('nt-'+id).classList.toggle('on',id===t);});
-  if(t==='home')updateHome();
+  if(t==='home'){updateHome();updateTestLastScore();}
   if(t==='lessons')buildList();
   if(t==='prog')updateProg();
   if(t==='glos')buildGlossaire();
@@ -1961,6 +2244,68 @@ function makeSection(s,idx,l){
       });
       box.appendChild(opts);box.appendChild(fb);w.appendChild(box);return w;
     }
+    case 'bio':{
+      w.innerHTML=`<div class="bio-box">
+        <div class="stag">👤 ${s.tag||'Personnage célèbre'}</div>
+        <div class="bio-head">
+          <div class="bio-avatar">${s.emoji||'🎭'}</div>
+          <div><div class="bio-name">${s.name}</div><div class="bio-dates">${s.dates}</div></div>
+        </div>
+        <div class="bio-text">${s.text}</div>
+        ${s.quote?`<div class="bio-quote">« ${s.quote} »</div>`:''}
+      </div>`;
+      break;
+    }
+    case 'hist':{
+      w.innerHTML=`<div class="hist-box">
+        <div class="stag">📜 ${s.tag||'Fait historique'}</div>
+        <div class="hist-head">
+          <div class="hist-ico">🏛️</div>
+          <div class="hist-date">${s.date}</div>
+        </div>
+        <div class="hist-title">${s.title}</div>
+        <div class="hist-text">${s.text}</div>
+        ${s.link?`<div class="hist-link">📌 ${s.link}</div>`:''}
+      </div>`;
+      break;
+    }
+    case 'anec':{
+      w.innerHTML=`<div class="anec-box">
+        <div class="stag">🎭 ${s.tag||'Anecdote culturelle'}</div>
+        <div class="anec-head">
+          <div class="anec-ico">💬</div>
+          <div class="anec-lbl">Coutumes & Savoir-vivre</div>
+        </div>
+        <div class="anec-title">${s.title}</div>
+        <div class="anec-text">${s.text}</div>
+        ${s.warning?`<div class="anec-warn">⚠️ <span>${s.warning}</span></div>`:''}
+      </div>`;
+      break;
+    }
+    case 'expr':{
+      const exprTTS=makeTTS(s.phrase);
+      const eb=document.createElement('div');
+      eb.className='expr-box';
+      eb.innerHTML=`<div class="stag">💬 ${s.tag||'Expression du jour'}</div>
+        <div class="expr-head"><div class="expr-phrase">${s.phrase}</div></div>
+        <div class="expr-phonetic">${s.phonetic||''}</div>
+        <div class="expr-meaning">${s.meaning}</div>
+        <div class="expr-usage">${s.usage}</div>`;
+      eb.querySelector('.expr-head').appendChild(exprTTS);
+      w.appendChild(eb);return w;
+    }
+    case 'dest':{
+      w.innerHTML=`<div class="dest-box">
+        <div class="stag">✈️ ${s.tag||'Destination à visiter'}</div>
+        <div class="dest-head">
+          <div class="dest-ico">${s.emoji||'🗺️'}</div>
+          <div><div class="dest-city">${s.city}</div><div class="dest-region">${s.region}</div></div>
+        </div>
+        <div class="dest-text">${s.text}</div>
+        <div class="dest-tags">${(s.tags||[]).map(t=>`<span class="dest-tag">${t}</span>`).join('')}</div>
+      </div>`;
+      break;
+    }
     default:return null;
   }
   return w;
@@ -1985,7 +2330,7 @@ window.addEventListener('appinstalled',()=>{const b=$('install-banner');if(b)b.c
 
 // ── Init ───────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded',()=>{
-  load();initTTS();updateHome();buildList();
+  load();initTTS();updateHome();buildList();updateTestLastScore();
 
   $('nt-home').addEventListener('click',()=>showTab('home'));
   $('nt-lessons').addEventListener('click',()=>showTab('lessons'));
@@ -2006,8 +2351,122 @@ document.addEventListener('DOMContentLoaded',()=>{
   $('srch').addEventListener('input',e=>{srchQ=e.target.value.toLowerCase().trim();buildList();});
   $('glos-srch').addEventListener('input',e=>{glosQ=e.target.value.toLowerCase().trim();buildGlossaire();});
 
+  $('btn-open-test').addEventListener('click',openTest);
+  $('btn-test-close').addEventListener('click',closeTest);
+  $('btn-test-next').addEventListener('click',testNext);
+
   if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
 });
+
+// ── Test de niveau ────────────────────────────────────────────
+const TEST_BANK_FR = [
+  // Alphabet & Pronunciation
+  {cat:'Prononciation',q:'Comment se prononce le mot "restaurant" en français ?',opts:['рэстаурант','рэстора','рэстоРАНТ','рэстаурен'],correct:1,fb:'Le T final est muet → [рэстора]. La plupart des consonnes finales ne se prononcent pas !'},
+  {cat:'Prononciation',q:'Que signifie l\'accent é (aigu) comme dans "café" ?',opts:['La lettre est muette','Son fermé [э]','Son ouvert [э]','Son [а]'],correct:1,fb:'é (aigu) = son fermé [э]. Café se lit [кафэ].'},
+  {cat:'Prononciation',q:'Comment se prononce le H dans "hôtel" ?',opts:['[х]','[г]','Il est muet','[а]'],correct:2,fb:'H est TOUJOURS muet en français. Hôtel = [отэль].'},
+  {cat:'Prononciation',q:'Quel son représente "on" dans "bonjour" ?',opts:['[он] nasal','[о] normal','[ан] nasal','[эн] nasal'],correct:0,fb:'ON = son nasal [он]. Le N n\'est pas prononcé séparément.'},
+  {cat:'Prononciation',q:'Où tombe l\'accent tonique en français ?',opts:['Sur la 1ère syllabe','Variable comme en russe','Toujours sur la dernière syllabe','Sur la syllabe la plus longue'],correct:2,fb:'En français, l\'accent est TOUJOURS sur la dernière syllabe du mot.'},
+  // Vocabulary
+  {cat:'Vocabulaire',q:'Que signifie "bonjour" ?',opts:['Bonne nuit','Au revoir','Bonjour / Bonsoir','S\'il vous plaît'],correct:2,fb:'Bonjour = доброе утро/день. À utiliser en entrant dans tout commerce !'},
+  {cat:'Vocabulaire',q:'Quel est le féminin de "le café" ?',opts:['la café','l\'café','le café reste masculin','la cafée'],correct:2,fb:'Café est masculin : LE café. En français, il faut mémoriser le genre de chaque mot.'},
+  {cat:'Vocabulaire',q:'Que veut dire "enchanté(e)" ?',opts:['Enchanted / magique','Très bien','Très heureux/heureuse de vous rencontrer','D\'accord'],correct:2,fb:'Enchanté(e) = очень приятно. Du mot "enchanter" = charmer.'},
+  {cat:'Vocabulaire',q:'Comment dit-on "la famille" ?',opts:['le famille','la familia','la famille','les famille'],correct:2,fb:'La famille → ж.р. Famille vient du latin familia.'},
+  {cat:'Vocabulaire',q:'Que signifie "hier" ?',opts:['ici','vite','hier','maintenant'],correct:2,fb:'Hier = вчера. Demain = завтра. Aujourd\'hui = сегодня.'},
+  {cat:'Vocabulaire',q:'Quel mot est un cognat franco-russe ?',opts:['chat','chien','théâtre','maison'],correct:2,fb:'Théâtre / театр — un cognat parfait entre français et russe !'},
+  {cat:'Vocabulaire',q:'Que signifie "je voudrais" ?',opts:['Je veux absolument','Je devrais','Je voudrais (poli)','J\'ai voulu'],correct:2,fb:'Je voudrais = я бы хотел(а). C\'est le conditionnel — plus poli que "je veux".'},
+  // Grammar
+  {cat:'Grammaire',q:'Quel article utilise-t-on avant "hôtel" (m.) ?',opts:['la hôtel','le hôtel','l\'hôtel','les hôtel'],correct:2,fb:'Devant une voyelle ou H muet → l\'. Donc : l\'hôtel, l\'ami, l\'appartement.'},
+  {cat:'Grammaire',q:'Comment conjugue-t-on "avoir" à la 1ère personne ?',opts:['je as','j\'ai','j\'ave','je avez'],correct:1,fb:'J\'ai = у меня есть. Avoir est irrégulier et très important !'},
+  {cat:'Grammaire',q:'Comment dit-on "Nous mangeons" (manger = -er) ?',opts:['nous mangez','nous manges','nous mangeons','nous mangent'],correct:2,fb:'Pour "nous" + verbe en -er → -ons. Particularité : manger garde le E → mangeons.'},
+  {cat:'Grammaire',q:'Quelle est la structure du futur proche en français ?',opts:['avoir + infinitif','aller + infinitif','être + infinitif','infinitif + -rai'],correct:1,fb:'Futur proche = aller (présent) + infinitif. Ex: Je vais voyager demain.'},
+  {cat:'Grammaire',q:'Comment exprime-t-on l\'âge en français ?',opts:['Je suis 25 ans','J\'ai 25 ans','Je fais 25 ans','Mes années sont 25'],correct:1,fb:'J\'ai 25 ans — littéralement "j\'ai 25 ans". En russe, on dit "мне 25", en français "j\'ai 25".'},
+  {cat:'Grammaire',q:'Où se place l\'adjectif en français en général ?',opts:['Toujours avant le nom','Toujours après le nom','Généralement après le nom','Avant le verbe'],correct:2,fb:'En règle générale, l\'adjectif se place APRÈS le nom : un chat noir, une voiture rouge.'},
+  {cat:'Grammaire',q:'Qu\'est-ce que le passé composé ?',opts:['avoir/être + participe passé','imparfait de l\'auxiliaire','infinitif passé','verbe + -ais'],correct:0,fb:'Passé composé = auxiliaire (avoir ou être) + participe passé. Ex: J\'ai mangé. Elle est allée.'},
+  {cat:'Grammaire',q:'Comment dit-on "Je m\'appelle Marie" ?',opts:['Je suis Marie','J\'ai Marie','Je m\'appelle Marie','Mon nom est Marie appeler'],correct:2,fb:'Je m\'appelle = меня зовут. Littéralement "je me nomme" (verbe pronominal s\'appeler).'},
+];
+
+let testQuestions=[], testCurrent=0, testAnswers=[], testAnswered=false;
+
+function shuffleArr(arr){return [...arr].sort(()=>Math.random()-0.5);}
+
+function openTest(){
+  testQuestions=shuffleArr(TEST_BANK_FR).slice(0,20);
+  testCurrent=0; testAnswers=[]; testAnswered=false;
+  $('scr-test').classList.add('on');
+  renderTestQ();
+  $('test-content').scrollTop=0;
+}
+function closeTest(){
+  $('scr-test').classList.remove('on');
+}
+function renderTestQ(){
+  if(testCurrent>=testQuestions.length){renderTestResult();return;}
+  const q=testQuestions[testCurrent];
+  const ct=$('test-content');ct.innerHTML='';
+  testAnswered=false;
+  $('btn-test-next').disabled=true;
+  $('test-qnum').textContent=(testCurrent+1)+' / '+testQuestions.length;
+  $('test-pfill').style.width=Math.round((testCurrent/testQuestions.length)*100)+'%';
+  const box=document.createElement('div');box.className='tq-box';
+  const fb=document.createElement('div');fb.className='tq-fb';
+  box.innerHTML=`<div class="tq-cat">${q.cat}</div><div class="tq-q">${q.q}</div>`;
+  const opts=document.createElement('div');opts.className='tq-opts';
+  q.opts.forEach((op,oi)=>{
+    const btn=document.createElement('button');btn.className='tq-opt';btn.textContent=op;
+    btn.addEventListener('click',()=>{
+      if(testAnswered)return;testAnswered=true;
+      const correct=oi===q.correct;
+      testAnswers.push({cat:q.cat,correct});
+      opts.querySelectorAll('.tq-opt').forEach((b,i)=>{b.disabled=true;if(i===q.correct)b.classList.add('tok');if(i===oi&&!correct)b.classList.add('tko');});
+      fb.textContent=q.fb;fb.style.color=correct?'var(--green)':'var(--red)';
+      $('btn-test-next').disabled=false;
+    });
+    opts.appendChild(btn);
+  });
+  box.appendChild(opts);box.appendChild(fb);ct.appendChild(box);
+}
+function testNext(){
+  testCurrent++;
+  renderTestQ();
+  $('test-content').scrollTop=0;
+}
+function renderTestResult(){
+  $('test-pfill').style.width='100%';
+  $('test-qnum').textContent='Résultat';
+  $('btn-test-next').style.display='none';
+  const total=testAnswers.length,correct=testAnswers.filter(a=>a.correct).length;
+  const pct=Math.round(correct/total*100);
+  let lvl,em,advice;
+  if(pct<30){lvl='Débutant A0';em='🌱';advice='Commencez par les premières leçons sur l\'alphabet et la prononciation. Vous ferez des progrès rapides !'}
+  else if(pct<50){lvl='Faux débutant A1';em='📗';advice='Vous avez quelques notions. Révisez l\'alphabet, les salutations et le vocabulaire de base.'}
+  else if(pct<70){lvl='Niveau A1+';em='⭐';advice='Bon niveau ! Concentrez-vous sur la grammaire et enrichissez votre vocabulaire.'}
+  else if(pct<85){lvl='Niveau A2';em='🏅';advice='Excellent ! Vous maîtrisez les bases. Travaillez les temps du passé et les expressions idiomatiques.'}
+  else{lvl='Niveau B1+';em='🏆';advice='Bravo ! Votre niveau est avancé. Ce cours vous aidera à consolider et approfondir vos connaissances.'}
+  // Category breakdown
+  const cats={};testAnswers.forEach(a=>{if(!cats[a.cat])cats[a.cat]={t:0,c:0};cats[a.cat].t++;if(a.correct)cats[a.cat].c++;});
+  let catsHTML='';Object.entries(cats).forEach(([cat,v])=>{const p=Math.round(v.c/v.t*100);catsHTML+=`<div class="test-cat-row"><div class="test-cat-hd"><span>${cat}</span><span>${v.c}/${v.t}</span></div><div class="test-cat-bar"><div class="test-cat-fill" style="width:${p}%"></div></div></div>`;});
+  // Save score
+  try{localStorage.setItem('fr5test',JSON.stringify({pct,lvl,date:new Date().toLocaleDateString('ru')}));}catch(e){}
+  updateTestLastScore();
+  const ct=$('test-content');ct.innerHTML='';
+  const res=document.createElement('div');res.className='test-result';
+  res.innerHTML=`
+    <div class="test-score-box">
+      <span class="test-score-em">${em}</span>
+      <div class="test-score-pct">${pct}%</div>
+      <div class="test-score-lbl">${correct} правильных из ${total}</div>
+      <div class="test-lvl-badge">${lvl}</div>
+    </div>
+    <div class="test-advice"><div class="test-advice-h">Рекомендации</div><div class="test-advice-t">${advice}</div></div>
+    <div class="test-bars"><div style="font-size:11.5px;font-weight:700;margin-bottom:6px;color:var(--tx2)">По темам</div>${catsHTML}</div>
+    <button class="btn-retake" id="btn-retake">🔄 Пройти тест снова</button>
+  `;
+  ct.appendChild(res);
+  ct.querySelector('#btn-retake').addEventListener('click',()=>{$('btn-test-next').style.display='';openTest();});
+}
+function updateTestLastScore(){
+  try{const s=JSON.parse(localStorage.getItem('fr5test'));if(s&&$('test-last-score'))$('test-last-score').textContent='Последний результат: '+s.pct+'% — '+s.lvl+' ('+s.date+')';}catch(e){}
+}
 
 })();
 </script>
