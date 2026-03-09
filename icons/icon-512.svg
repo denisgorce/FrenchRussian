@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="#080D24"/>
+  <!-- Gold ring -->
+  <rect width="496" height="496" x="8" y="8" rx="92" fill="none" stroke="#C9A84C" stroke-width="14"/>
+  <!-- Inner glow ring -->
+  <rect width="468" height="468" x="22" y="22" rx="80" fill="none" stroke="#C9A84C" stroke-width="3" opacity="0.3"/>
+  <!-- Cyrillic Р -->
+  <text x="256" y="360"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="310"
+        font-weight="700"
+        fill="#C9A84C"
+        text-anchor="middle">Р</text>
+</svg>
