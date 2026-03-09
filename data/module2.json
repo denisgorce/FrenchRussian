@@ -1,0 +1,736 @@
+{
+  "module": 2,
+  "titleFr": "La Vie Quotidienne",
+  "titleRu": "Повседневная жизнь",
+  "description": "Le logement, les transports, les commerces, la ville et les activités du quotidien.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Le Logement",
+      "titleRu": "Жильё",
+      "level": "A1",
+      "grammar": {
+        "title": "Le logement et le cas prépositionnel",
+        "titleRu": "Жильё и предложный падеж",
+        "intro": "Pour parler de son logement, on a besoin du cas prépositionnel — le 6e cas russe, utilisé après les prépositions «в» (dans) et «на» (sur/à). C'est l'un des cas les plus simples et les plus utiles : il exprime le lieu où l'on se trouve.",
+        "sections": [
+          {
+            "title": "Le cas prépositionnel — règles de base",
+            "content": "Masculin et neutre : + -е (ou -и pour les mots en -ий/-ие)\nFéminin en -а/-я : → -е\nFéminin en -ь : → -и\n\nEx:\nдом (maison, m.) → в доме (dans la maison)\nкомната (chambre, f.) → в комнате (dans la chambre)\nквартира (appartement, f.) → в квартире (dans l'appartement)"
+          },
+          {
+            "title": "Types de logement",
+            "content": "квартира — appartement\nдом — maison / immeuble\nкомната — chambre / pièce\nобщежитие — résidence universitaire / foyer\nдача — datcha (maison de campagne)\nотель / гостиница — hôtel\nхостел — auberge de jeunesse"
+          },
+          {
+            "title": "Les pièces de la maison",
+            "content": "гостиная — salon\nкухня — cuisine\nспальня — chambre à coucher\nванная — salle de bain\nтуалет — toilettes\nкоридор — couloir\nбалкон — balcon\nподъезд — hall d'entrée / cage d'escalier"
+          },
+          {
+            "title": "Expressions utiles",
+            "content": "Я живу в квартире. — J'habite dans un appartement.\nМоя квартира на третьем этаже. — Mon appartement est au troisième étage.\nСколько комнат в квартире? — Combien de pièces dans l'appartement ?\nЯ снимаю комнату. — Je loue une chambre.\nЯ ищу квартиру. — Je cherche un appartement."
+          }
+        ],
+        "rule": "💡 Le prépositionnel ne s'utilise qu'avec des prépositions (в, на, о/об, при). Jamais seul. Retenez : в + prépositionnel = où l'on EST. в + accusatif = où l'on VA."
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire du logement — essentiel pour se présenter et parler de sa vie quotidienne.",
+        "note": "⚠️ «Квартира» (appartement) — le «кв» initial peut sembler difficile : prononcez «kv» en un seul souffle, comme dans «kvadrat».",
+        "words": [
+          { "fr": "квартира", "ru_pron": "kvartíra", "meaning": "l'appartement" },
+          { "fr": "дом", "ru_pron": "dom", "meaning": "la maison / l'immeuble" },
+          { "fr": "комната", "ru_pron": "kómnata", "meaning": "la chambre / la pièce" },
+          { "fr": "кухня", "ru_pron": "koúkhnia", "meaning": "la cuisine" },
+          { "fr": "гостиная", "ru_pron": "gastínaya", "meaning": "le salon" },
+          { "fr": "ванная", "ru_pron": "vánnaya", "meaning": "la salle de bain" },
+          { "fr": "этаж", "ru_pron": "étaj", "meaning": "l'étage" },
+          { "fr": "дача", "ru_pron": "dátcha", "meaning": "la datcha (maison de campagne)" },
+          { "fr": "сосед", "ru_pron": "sasyed", "meaning": "le voisin" },
+          { "fr": "ключ", "ru_pron": "klioutch", "meaning": "la clé" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "квартира", "gender": "f", "ru": "l'appartement", "ru_pron": "kvartíra", "example_fr": "Я живу в квартире.", "example_ru": "J'habite dans un appartement.", "level": "A1" },
+        { "fr": "дом", "gender": "m", "ru": "la maison / l'immeuble", "ru_pron": "dom", "example_fr": "Мой дом большой.", "example_ru": "Ma maison est grande.", "level": "A1" },
+        { "fr": "комната", "gender": "f", "ru": "la chambre / la pièce", "ru_pron": "kómnata", "example_fr": "В квартире три комнаты.", "example_ru": "Dans l'appartement il y a trois pièces.", "level": "A1" },
+        { "fr": "кухня", "gender": "f", "ru": "la cuisine", "ru_pron": "koúkhnia", "example_fr": "Мы обедаем на кухне.", "example_ru": "Nous déjeunons dans la cuisine.", "level": "A1" },
+        { "fr": "этаж", "gender": "m", "ru": "l'étage", "ru_pron": "étaj", "example_fr": "Я живу на пятом этаже.", "example_ru": "J'habite au cinquième étage.", "level": "A1" },
+        { "fr": "дача", "gender": "f", "ru": "la datcha (maison de campagne)", "ru_pron": "dátcha", "example_fr": "Летом мы едем на дачу.", "example_ru": "En été, nous allons à la datcha.", "level": "A1" },
+        { "fr": "снимать", "gender": null, "ru": "louer (en tant que locataire)", "ru_pron": "snimát'", "example_fr": "Я снимаю квартиру.", "example_ru": "Je loue un appartement.", "level": "A1" },
+        { "fr": "сосед", "gender": "m", "ru": "le voisin", "ru_pron": "sasyed", "example_fr": "Мой сосед очень шумный.", "example_ru": "Mon voisin est très bruyant.", "level": "A1" },
+        { "fr": "ключ", "gender": "m", "ru": "la clé", "ru_pron": "klioutch", "example_fr": "Где мой ключ?", "example_ru": "Où est ma clé ?", "level": "A1" },
+        { "fr": "адрес", "gender": "m", "ru": "l'adresse", "ru_pron": "ádres", "example_fr": "Какой у вас адрес?", "example_ru": "Quelle est votre adresse ?", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "балкон", "fr_pron": "balkón", "ru": "balcon", "ru_pron": "balcon", "note": "«Балкон» = balcon. Emprunt direct au français ou à l'italien. Presque tous les immeubles soviétiques ont un balcon — souvent transformé en débarras !" },
+        { "fr": "гараж", "fr_pron": "garáj", "ru": "garage", "ru_pron": "garage", "note": "«Гараж» vient du français «garage». En Russie, les garages individuels en béton forment parfois des villages entiers de «garazhi» en banlieue." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhaïl Boulgakov (1891–1940)", "subtitle": "Auteur du Maître et Marguerite", "content": "Mikhaïl Boulgakov est l'auteur du roman culte «Le Maître et Marguerite» (Мастер и Маргарита), écrit en secret sous Staline et publié seulement en 1966. L'appartement n°50 de Moscou, où se déroule une partie de l'action, est devenu un lieu de pèlerinage. Dans le roman, le diable visite Moscou et révèle la corruption et la médiocrité de la société soviétique à travers une série de scènes hilarantes et terrifiantes. Le logement y est central : les Moscovites se battent pour obtenir des appartements." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La kommunalka — l'appartement communautaire soviétique", "content": "Sous Staline, les grandes appartements bourgeois furent divisés et attribués à plusieurs familles : naquit la «kommunalka» (коммунальная квартира). Chaque famille occupait une pièce, partageant cuisine, salle de bain et toilettes avec 3 à 10 autres familles. Des millions de Soviétiques vécurent ainsi jusqu'aux années 1960-70. Khrouchtchev lança la construction massive de petits immeubles standardisés («khrouchtchevki») pour loger chaque famille séparément. Ces immeubles de 5 étages sont encore omniprésents dans les villes russes." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La datcha — une institution nationale", "content": "La datcha (дача) est la maison de campagne russe — petite parcelle avec cabane ou villa selon les moyens. C'est une institution : le vendredi soir, les villes se vident, tout le monde «part à la datcha». On y fait pousser tomates, concombres et pommes de terre. On y fait le barbecue (шашлык), on se baigne dans la rivière, on fait des conserves pour l'hiver. La datcha n'est pas un luxe — c'est une nécessité psychologique pour de nombreux Russes !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "В гостях хорошо, а дома лучше.", "pronunciation": "V gastiakh kharachó, a dóma loutché", "translation": "On est bien chez les autres, mais mieux chez soi.", "usage": "Proverbe qui reflète l'attachement profond des Russes à leur foyer. Équivalent de «les voyages c'est bien, mais chez soi c'est mieux». Parfait pour conclure une visite.", "example": "— Как тебе в Париже? — Красиво! Но в гостях хорошо, а дома лучше. (C'est beau Paris ! — Mais on est mieux chez soi.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Les «staliniennes»", "subtitle": "Сталинские высотки — les sept sœurs", "content": "Les «sept sœurs» (семь сестёр) sont sept gratte-ciel staliniens construits entre 1947 et 1957 à Moscou. Leur style néo-gothique et baroque soviétique est unique au monde. Le plus célèbre : l'université MGU sur les Monts des Moineaux. Ces immeubles abritaient appartements de luxe pour l'élite soviétique, ministères et hôtels. Aujourd'hui encore, habiter dans une «stalinienne» est un signe de prestige à Moscou." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «j'habite dans un appartement» en russe ?", "opts": ["Я живу квартира.", "Я живу в квартире.", "Я живу на квартиру.", "Мне квартира."], "ans": 1, "exp": "«Я живу в квартире» = j'habite dans un appartement. В + prépositionnel : квартира → квартире." },
+        { "q": "Qu'est-ce qu'une «datcha» ?", "opts": ["Un appartement communautaire soviétique", "Une maison de campagne russe", "Un immeuble de l'ère Khrouchtchev", "Un hôtel de luxe"], "ans": 1, "exp": "La datcha (дача) est la maison de campagne russe. Institution nationale : jardinage, barbecue, nature — le week-end des Russes !" },
+        { "q": "Comment dit-on «je loue un appartement» en russe ?", "opts": ["Я покупаю квартиру.", "Я строю квартиру.", "Я снимаю квартиру.", "Я продаю квартиру."], "ans": 2, "exp": "«Я снимаю квартиру» = je loue un appartement. Снимать = louer (côté locataire)." },
+        { "q": "Qu'était une «kommunalka» en URSS ?", "opts": ["Un appartement de luxe pour l'élite", "Un appartement partagé entre plusieurs familles", "Une résidence universitaire", "Un immeuble neuf des années 60"], "ans": 1, "exp": "La kommunalka (коммунальная квартира) était un grand appartement divisé entre plusieurs familles partageant cuisine et salle de bain. Réalité de millions de Soviétiques." },
+        { "q": "Comment dit-on «la clé» en russe ?", "opts": ["замок", "дверь", "ключ", "окно"], "ans": 2, "exp": "«Ключ» = la clé. «Замок» = le verrou/la serrure, «дверь» = la porte, «окно» = la fenêtre." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Les Transports",
+      "titleRu": "Транспорт",
+      "level": "A1",
+      "grammar": {
+        "title": "Les transports et les prépositions de mouvement",
+        "titleRu": "Транспорт и предлоги движения",
+        "intro": "En russe, le mouvement (aller quelque part) utilise des prépositions différentes de la position (être quelque part). La distinction «в/на + accusatif» (direction) vs «в/на + prépositionnel» (lieu) est fondamentale. De plus, le russe a deux verbes «aller» selon le mode de déplacement !",
+        "sections": [
+          {
+            "title": "Deux verbes «aller» en russe",
+            "content": "Идти / Ходить — aller à pied (une direction / habituellement)\nЕхать / Ездить — aller en véhicule (une direction / habituellement)\n\nEx:\nЯ иду в метро. — Je vais (maintenant) au métro à pied.\nЯ еду на автобусе. — Je vais en bus (maintenant).\nЯ хожу на работу пешком. — Je vais habituellement au travail à pied.\nЯ езжу в Москву каждый год. — Je vais à Moscou chaque année."
+          },
+          {
+            "title": "Les moyens de transport",
+            "content": "метро — métro\nавтобус — bus\nтрамвай — tramway\nтроллейбус — trolleybus\nтакси — taxi\nпоезд — train\nсамолёт — avion\nмашина / автомобиль — voiture\nвелосипед — vélo\nмотоцикл — moto"
+          },
+          {
+            "title": "Prépositions de transport",
+            "content": "Sur / dans quel moyen : «на» + prépositionnel\nна метро — en métro\nна автобусе — en bus\nна поезде — en train\nна машине — en voiture\nна велосипеде — à vélo\n\nException : «в» pour les transports fermés :\nв такси — dans le taxi\nв самолёте — dans l'avion"
+          },
+          {
+            "title": "Acheter un billet",
+            "content": "Один билет до [ville], пожалуйста. — Un billet pour [ville], s'il vous plaît.\nТуда и обратно. — Aller-retour.\nТолько туда. — Aller simple.\nС какого пути? — De quel quai ?\nКогда следующий поезд? — Quand est le prochain train ?\nСколько стоит билет? — Combien coûte le billet ?"
+          }
+        ],
+        "rule": "💡 Moyen mnémotechnique : «НА транспорте» (sur le transport) = на + prépositionnel. Direction «В/НА + accusatif» = où on VA. Lieu «В/НА + prépositionnel» = où on EST."
+      },
+      "pronunciation": {
+        "intro": "Les transports — vocabulaire indispensable pour voyager en Russie !",
+        "note": "⚠️ «Троллейбус» (trolleybus) — ne pas oublier le «й» au milieu : trol-LEÏÏ-bous. Le trolleybus est encore très présent dans les villes russes !",
+        "words": [
+          { "fr": "метро", "ru_pron": "métró", "meaning": "le métro" },
+          { "fr": "автобус", "ru_pron": "avtóbous", "meaning": "le bus" },
+          { "fr": "поезд", "ru_pron": "póyezd", "meaning": "le train" },
+          { "fr": "самолёт", "ru_pron": "samalyót", "meaning": "l'avion" },
+          { "fr": "такси", "ru_pron": "taksí", "meaning": "le taxi" },
+          { "fr": "машина", "ru_pron": "machína", "meaning": "la voiture" },
+          { "fr": "билет", "ru_pron": "bilyét", "meaning": "le billet" },
+          { "fr": "вокзал", "ru_pron": "vagzál", "meaning": "la gare" },
+          { "fr": "аэропорт", "ru_pron": "aérapórt", "meaning": "l'aéroport" },
+          { "fr": "остановка", "ru_pron": "astanóvka", "meaning": "l'arrêt (bus/tram)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "метро", "gender": "n", "ru": "le métro", "ru_pron": "métró", "example_fr": "Я еду на метро.", "example_ru": "Je prends le métro.", "level": "A1" },
+        { "fr": "поезд", "gender": "m", "ru": "le train", "ru_pron": "póyezd", "example_fr": "Поезд опаздывает.", "example_ru": "Le train est en retard.", "level": "A1" },
+        { "fr": "билет", "gender": "m", "ru": "le billet / le ticket", "ru_pron": "bilyét", "example_fr": "Один билет, пожалуйста.", "example_ru": "Un billet, s'il vous plaît.", "level": "A1" },
+        { "fr": "вокзал", "gender": "m", "ru": "la gare (grande ligne)", "ru_pron": "vagzál", "example_fr": "Где вокзал?", "example_ru": "Où est la gare ?", "level": "A1" },
+        { "fr": "аэропорт", "gender": "m", "ru": "l'aéroport", "ru_pron": "aérapórt", "example_fr": "Такси до аэропорта.", "example_ru": "Un taxi jusqu'à l'aéroport.", "level": "A1" },
+        { "fr": "остановка", "gender": "f", "ru": "l'arrêt (bus/tram)", "ru_pron": "astanóvka", "example_fr": "Следующая остановка.", "example_ru": "Le prochain arrêt.", "level": "A1" },
+        { "fr": "пробка", "gender": "f", "ru": "l'embouteillage", "ru_pron": "próbka", "example_fr": "В Москве страшные пробки.", "example_ru": "À Moscou les embouteillages sont terribles.", "meaning_double": "пробка = embouteillage ET пробка = bouchon (de bouteille)", "level": "A1" },
+        { "fr": "пешком", "gender": null, "ru": "à pied", "ru_pron": "péchkóm", "example_fr": "Я иду пешком.", "example_ru": "Je vais à pied.", "level": "A1" },
+        { "fr": "пересадка", "gender": "f", "ru": "la correspondance / le transfert", "ru_pron": "pirisátka", "example_fr": "Есть пересадка в Москве.", "example_ru": "Il y a une correspondance à Moscou.", "level": "A1" },
+        { "fr": "опаздывать", "gender": null, "ru": "être en retard", "ru_pron": "apázdyvat'", "example_fr": "Я опаздываю!", "example_ru": "Je suis en retard !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "такси", "fr_pron": "taksí", "ru": "taxi", "ru_pron": "taxi", "note": "«Такси» = taxi. Mot international d'origine anglaise (taxicab). Identique dans toutes les langues !" },
+        { "fr": "аэропорт", "fr_pron": "aérapórt", "ru": "aéroport", "ru_pron": "aéroport", "note": "«Аэропорт» = aéroport. Même étymologie grecque (аэро = air, порт = port). L'aéroport Cheremetievo de Moscou est l'un des plus grands d'Europe." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Pavel Melnikov (1804–1880)", "subtitle": "Père des chemins de fer russes", "content": "Pavel Petrovitch Melnikov fut le premier ministre des Voies de communication en Russie et le grand architecte du réseau ferroviaire russe. Il supervisa la construction du premier chemin de fer Saint-Pétersbourg–Moscou (650 km, 1851). Anecdote : pour tracer la ligne droite entre les deux capitales, Nicolas Ier aurait posé une règle sur la carte et tracé un trait — la ligne est encore (presque) parfaitement droite aujourd'hui !" },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le métro de Moscou — un musée souterrain", "content": "Ouvert en 1935, le métro de Moscou est l'un des plus beaux au monde. Staline voulait des «palais pour le peuple» : marbre, lustres en cristal, mosaïques, sculptures dorées. Les stations Komsomolskaïa, Novoslobodskaya, Mayakovskaya sont de véritables œuvres d'art. Le réseau transporte 7 millions de passagers par jour — plus que le métro de Paris. Un billet à prix unique permet de voyager sans limite sur tout le réseau." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les embouteillages de Moscou — un sport national", "content": "Moscou détient régulièrement le record mondial des embouteillages (пробки). Les Moscovites passent en moyenne 210 heures par an dans les bouchons — soit presque 9 jours ! La plupart des foyers aisés ont deux voitures «parce que Moscou». L'application Yandex.Maps (équivalent russe de Google Maps) est une obsession nationale pour trouver les itinéraires sans pробки. Conséquence : les taxis et le métro sont souvent plus rapides que la voiture !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Вы выходите на следующей?", "pronunciation": "Vy vykhadítié na sledouyoûtcheï", "translation": "Vous descendez au prochain arrêt ?", "usage": "Phrase indispensable dans le métro et le bus bondés en Russie. Si on est au fond, on doit faire passer les gens. Réponse : «Да» (oui) ou «Нет, проходите» (non, passez).", "example": "— Вы выходите на следующей? — Да, выхожу! (Vous descendez ? — Oui, je descends !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le Transsibérien", "subtitle": "Транссибирская магистраль — 9 289 km", "content": "Le Transsibérien est le voyage en train le plus légendaire au monde : 9 289 km de Moscou à Vladivostok, 7 jours, 8 fuseaux horaires, traversée de la Sibérie entière. En chemin : la Volga, les Monts Oural, la plaine sibérienne, le lac Baïkal (vue imprenable !), la taïga. Les compartiments (купе) permettent de dormir, manger et rencontrer des Russes de toutes conditions. Meilleure saison : mai-septembre pour la lumière et les paysages verdoyants." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je prends le métro» en russe ?", "opts": ["Я хожу метро.", "Я еду на метро.", "Я иду в метро.", "Я на метро еду."], "ans": 1, "exp": "«Я еду на метро» = je prends le métro. Еду (je vais en véhicule) + на метро (en métro, prépositionnel)." },
+        { "q": "Que signifie «пробка» dans un contexte urbain ?", "opts": ["Un ticket de transport", "Un bouchon de bouteille seulement", "Un embouteillage", "Un arrêt de bus"], "ans": 2, "exp": "«Пробка» = embouteillage (et aussi bouchon de bouteille !). «В Москве страшные пробки» = à Moscou les embouteillages sont terribles." },
+        { "q": "Quelle est la différence entre «идти» et «ехать» ?", "opts": ["Идти = aller vite, ехать = aller lentement", "Идти = aller à pied, ехать = aller en véhicule", "Идти = aller et revenir, ехать = aller seulement", "Aucune différence"], "ans": 1, "exp": "«Идти» = aller à pied. «Ехать» = aller en véhicule (voiture, train, métro...). Cette distinction est fondamentale en russe !" },
+        { "q": "Comment demande-t-on un aller-retour en russe ?", "opts": ["Только туда.", "Туда и обратно.", "Два билета.", "Туда-сюда."], "ans": 1, "exp": "«Туда и обратно» = aller-retour (littéralement «là-bas et en retour»). «Только туда» = aller simple." },
+        { "q": "En quelle année le métro de Moscou a-t-il ouvert ?", "opts": ["1917", "1925", "1935", "1955"], "ans": 2, "exp": "Le métro de Moscou a ouvert en 1935. Staline voulait en faire des «palais pour le peuple» — résultat : certaines stations sont de véritables musées souterrains." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Les Commerces et les Courses",
+      "titleRu": "Магазины и покупки",
+      "level": "A1",
+      "grammar": {
+        "title": "Faire ses courses — l'accusatif en pratique",
+        "titleRu": "Покупки и аккузатив",
+        "intro": "Faire ses courses est l'occasion idéale de pratiquer l'accusatif — le cas de l'objet direct. Ce qu'on achète, ce qu'on veut, ce qu'on cherche : tout cela se met à l'accusatif. Rappel : pour les noms inanimés masculins, l'accusatif = le nominatif. Pour les féminins en -а, on change en -у.",
+        "sections": [
+          {
+            "title": "Types de commerces",
+            "content": "магазин — magasin (général)\nсупермаркет — supermarché\nрынок — marché\nаптека — pharmacie\nбулочная — boulangerie\nмясная лавка — boucherie\nкнижный магазин — librairie\nунивермаг — grand magasin\nкиоск — kiosque\nбанкомат — distributeur de billets"
+          },
+          {
+            "title": "Demander et acheter",
+            "content": "Я хочу купить... — Je veux acheter...\nПокажите мне, пожалуйста... — Montrez-moi, s'il vous plaît...\nЕсть ли у вас...? — Avez-vous...?\nСколько стоит? — Combien ça coûte ?\nМожно попробовать? — Puis-je goûter / essayer ?\nЯ возьму это. — Je prends ça.\nУ вас есть сдача? — Avez-vous de la monnaie ?"
+          },
+          {
+            "title": "Les quantités",
+            "content": "килограмм (кг) — kilogramme\nграмм (г) — gramme\nлитр — litre\nпачка — paquet\nбутылка — bouteille\nбанка — boîte / bocal\nкусок — morceau\nдесяток — dizaine (d'œufs)\n\nEx: Один килограмм яблок, пожалуйста. (Un kilo de pommes, svp.)"
+          }
+        ],
+        "rule": "💡 Au marché ou en magasin : «Дайте мне, пожалуйста + accusatif» (Donnez-moi, s'il vous plaît...) est la formule magique. Simple, poli, efficace partout en Russie."
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire des courses — pour survivre dans un supermarché russe !",
+        "note": "⚠️ «Сдача» (monnaie rendue) — attention au «ч» = tch. Et «чек» (reçu) ne se prononce pas «chèque» mais «tchek».",
+        "words": [
+          { "fr": "магазин", "ru_pron": "magazín", "meaning": "le magasin" },
+          { "fr": "рынок", "ru_pron": "rýnak", "meaning": "le marché" },
+          { "fr": "аптека", "ru_pron": "aptéka", "meaning": "la pharmacie" },
+          { "fr": "касса", "ru_pron": "kása", "meaning": "la caisse" },
+          { "fr": "чек", "ru_pron": "tchék", "meaning": "le reçu / le ticket de caisse" },
+          { "fr": "сдача", "ru_pron": "sdátcha", "meaning": "la monnaie rendue" },
+          { "fr": "цена", "ru_pron": "tsiná", "meaning": "le prix" },
+          { "fr": "скидка", "ru_pron": "skídka", "meaning": "la réduction / le rabais" },
+          { "fr": "очередь", "ru_pron": "ótchired'", "meaning": "la queue / la file d'attente" },
+          { "fr": "пакет", "ru_pron": "pakét", "meaning": "le sac plastique" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "покупать", "gender": null, "ru": "acheter", "ru_pron": "pakoupát'", "example_fr": "Я покупаю хлеб.", "example_ru": "J'achète du pain.", "level": "A1" },
+        { "fr": "продавать", "gender": null, "ru": "vendre", "ru_pron": "pradavát'", "example_fr": "Он продаёт рыбу на рынке.", "example_ru": "Il vend du poisson au marché.", "level": "A1" },
+        { "fr": "цена", "gender": "f", "ru": "le prix", "ru_pron": "tsiná", "example_fr": "Какая цена?", "example_ru": "Quel est le prix ?", "level": "A1" },
+        { "fr": "скидка", "gender": "f", "ru": "la réduction / le rabais", "ru_pron": "skídka", "example_fr": "Есть скидка?", "example_ru": "Il y a une réduction ?", "level": "A1" },
+        { "fr": "дорого", "gender": null, "ru": "cher (c'est cher)", "ru_pron": "dóraga", "example_fr": "Это слишком дорого.", "example_ru": "C'est trop cher.", "level": "A1" },
+        { "fr": "дёшево", "gender": null, "ru": "pas cher / bon marché", "ru_pron": "dyóchiva", "example_fr": "Здесь дёшево!", "example_ru": "C'est bon marché ici !", "level": "A1" },
+        { "fr": "очередь", "gender": "f", "ru": "la queue / la file d'attente", "ru_pron": "ótchired'", "example_fr": "Здесь большая очередь.", "example_ru": "Il y a une longue queue ici.", "level": "A1" },
+        { "fr": "касса", "gender": "f", "ru": "la caisse", "ru_pron": "kása", "example_fr": "Где касса?", "example_ru": "Où est la caisse ?", "level": "A1" },
+        { "fr": "сдача", "gender": "f", "ru": "la monnaie rendue", "ru_pron": "sdátcha", "example_fr": "Возьмите сдачу.", "example_ru": "Gardez la monnaie.", "level": "A1" },
+        { "fr": "бесплатно", "gender": null, "ru": "gratuitement / c'est gratuit", "ru_pron": "bisplátna", "example_fr": "Это бесплатно?", "example_ru": "C'est gratuit ?", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "супермаркет", "fr_pron": "soupiermárkit", "ru": "supermarché", "ru_pron": "supermarché", "note": "«Супермаркет» = supermarché. Emprunt direct à l'anglais. Les chaînes russes Magnit et Pyatyorochka ressemblent à des supermarchés discount européens." },
+        { "fr": "банкомат", "fr_pron": "bankamat", "ru": "distributeur de billets / bancomat", "ru_pron": "bancomat", "note": "«Банкомат» = distributeur automatique de billets. Du mot italien «bancomat». En Russie, les paiements sans contact (par téléphone) sont très répandus." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Pavel Tretiakov (1832–1898)", "subtitle": "Fondateur de la galerie Tretiakov", "content": "Pavel Tretiakov, marchand et mécène moscovite, consacra sa fortune à acheter des œuvres d'art russe. En 1892, il offrit sa collection à la ville de Moscou : naquit la galerie Tretiakov (Третьяковская галерея), le plus grand musée d'art russe au monde. Plus de 180 000 œuvres. Tretiakov est l'exemple parfait du marchand-philanthrope russe du XIXe siècle, qui enrichit le pays en finançant ses artistes." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le marché Deribasivska et les marchés russes", "content": "Depuis l'époque médiévale, les marchés (рынки) sont au cœur de la vie russe. Le marché de Novgorod était au Moyen Âge l'un des plus importants d'Europe. Sous les Soviétiques, les marchés collectifs (колхозные рынки) étaient les seuls endroits où l'on pouvait acheter légumes, fruits et produits frais à des prix non-contrôlés par l'État. Aujourd'hui, les marchés restent populaires : on y trouve produits frais, vêtements bon marché et atmosphère authentique." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La culture de la queue (очередь) en Russie", "content": "La queue est une institution russe héritée de l'ère soviétique, quand les pénuries obligeaient à faire la queue pour tout. Les Russes se mettent instinctivement en file en demandant «Кто последний?» (Qui est le dernier ?). Répondre «Я!» (Moi !) réserve votre place — vous pouvez même repartir et revenir ! Tenter de doubler une queue est l'une des rares choses qui peut provoquer une vive réaction d'indignation chez les Russes habituellement réservés envers les étrangers." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Кто последний?", "pronunciation": "Kto paslyédny", "translation": "Qui est le dernier ? (dans la queue)", "usage": "Phrase rituelle pour rejoindre une queue en Russie. On répond «Я» (moi) pour signaler qu'on est le dernier. Système d'honneur — pas besoin de rester physiquement dans la file.", "example": "— Кто последний? — Я, но я на минутку отойду. (Qui est dernier ? — Moi, mais je m'absente une minute.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le marché Izmailovo, Moscou", "subtitle": "Вернисаж в Измайлово — souvenirs et antiquités", "content": "Le marché Izmailovo (Вернисаж) à Moscou est le grand marché aux souvenirs et antiquités de la capitale. Dans un décor de forteresse en bois reconstituée, des centaines de vendeurs proposent matriochkas, icônes, samovars, vaisselle soviétique, chapeaux en fourrure, châles Pavlov Possad... C'est LE lieu pour les achats authentiques, loin des boutiques touristiques standard. Ouvert le week-end. Marchandage bienvenu !" }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «c'est trop cher» en russe ?", "opts": ["Это слишком дёшево.", "Это слишком дорого.", "Это бесплатно.", "Это нормально."], "ans": 1, "exp": "«Это слишком дорого» = c'est trop cher. «Дорого» = cher. «Слишком» = trop." },
+        { "q": "«Кто последний?» est une phrase utilisée pour :", "opts": ["Demander le prix", "Rejoindre une queue", "Demander la caisse", "Chercher le manager"], "ans": 1, "exp": "«Кто последний?» (qui est le dernier ?) est la façon russe de rejoindre une file d'attente. On répond «Я» (moi) pour indiquer qu'on est dernier." },
+        { "q": "Comment dit-on «je prends ça» en russe ?", "opts": ["Я хочу это.", "Я вижу это.", "Я возьму это.", "Мне нравится это."], "ans": 2, "exp": "«Я возьму это» = je prends ça / je vais prendre ça. Взять (prendre) au futur simple." },
+        { "q": "Qu'est-ce qu'une «аптека» ?", "opts": ["Une boulangerie", "Une pharmacie", "Une librairie", "Un kiosque à journaux"], "ans": 1, "exp": "«Аптека» = pharmacie. Mot d'origine grecque «apotheke» — même étymologie que l'anglais «apothecary»." },
+        { "q": "Comment exprime-t-on «c'est gratuit» en russe ?", "opts": ["Это дёшево.", "Это бесплатно.", "Это даром.", "Это ноль рублей."], "ans": 1, "exp": "«Это бесплатно» = c'est gratuit. Бесплатно vient de «без» (sans) + «плата» (paiement)." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Le Corps et la Santé",
+      "titleRu": "Тело и здоровье",
+      "level": "A1",
+      "grammar": {
+        "title": "Le corps humain et exprimer la douleur",
+        "titleRu": "Тело и боль",
+        "intro": "Pour parler de santé, on a besoin d'un nouveau tour de phrase russe : «у меня болит + partie du corps au nominatif» (j'ai mal à...). C'est différent du français ! Le russe dit littéralement «chez moi ça fait mal» — pas «j'ai mal».",
+        "sections": [
+          {
+            "title": "Les parties du corps",
+            "content": "голова — tête\nволосы — cheveux\nглаза (pl.) / глаз — yeux / œil\nухо / уши — oreille / oreilles\nнос — nez\nрот — bouche\nзубы / зуб — dents / dent\nшея — cou\nплечо / плечи — épaule / épaules\nрука / руки — bras-main / bras-mains\nнога / ноги — jambe-pied / jambes\nспина — dos\nжелудок — estomac\nсердце — cœur"
+          },
+          {
+            "title": "Exprimer la douleur",
+            "content": "У меня болит голова. — J'ai mal à la tête.\nУ меня болит живот. — J'ai mal au ventre.\nУ меня болят зубы. — J'ai mal aux dents.\nУ меня болит горло. — J'ai mal à la gorge.\n\nStructure : У меня болит (sing.) / болят (pl.) + partie du corps\n\nQuestions utiles :\nЧто у вас болит? — Où avez-vous mal ?\nКак вы себя чувствуете? — Comment vous sentez-vous ?\nМне плохо. — Je ne me sens pas bien."
+          },
+          {
+            "title": "Chez le médecin",
+            "content": "Мне нужен врач. — J'ai besoin d'un médecin.\nВызовите скорую! — Appelez une ambulance !\nЯ простудился / простудилась. — J'ai attrapé froid.\nУ меня температура. — J'ai de la fièvre.\nУ меня аллергия на... — J'ai une allergie à...\nЯ принимаю лекарство. — Je prends un médicament."
+          }
+        ],
+        "rule": "💡 Différence clé : «У меня болит» (j'ai mal, quelque chose fait mal) vs «Мне плохо» (je me sens mal, malaise général). La nuance est importante chez le médecin !"
+      },
+      "pronunciation": {
+        "intro": "Le corps humain — vocabulaire indispensable en cas de problème de santé à l'étranger.",
+        "note": "⚠️ «Желудок» (estomac) — prononcez «ji-LOU-dak». «Сердце» (cœur) — le «д» est muet : prononcez «SYÉR-tsé».",
+        "words": [
+          { "fr": "голова", "ru_pron": "galavá", "meaning": "la tête" },
+          { "fr": "глаза", "ru_pron": "glazá", "meaning": "les yeux" },
+          { "fr": "нос", "ru_pron": "nos", "meaning": "le nez" },
+          { "fr": "рот", "ru_pron": "rot", "meaning": "la bouche" },
+          { "fr": "рука", "ru_pron": "rouká", "meaning": "le bras / la main" },
+          { "fr": "нога", "ru_pron": "nagá", "meaning": "la jambe / le pied" },
+          { "fr": "спина", "ru_pron": "spiná", "meaning": "le dos" },
+          { "fr": "сердце", "ru_pron": "syértsé", "meaning": "le cœur" },
+          { "fr": "температура", "ru_pron": "tiempiratoúra", "meaning": "la fièvre / la température" },
+          { "fr": "скорая", "ru_pron": "skóraya", "meaning": "l'ambulance (скорая помощь)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "болеть", "gender": null, "ru": "avoir mal / être malade", "ru_pron": "balyét'", "example_fr": "У меня болит голова.", "example_ru": "J'ai mal à la tête.", "level": "A1" },
+        { "fr": "врач", "gender": "m", "ru": "le médecin", "ru_pron": "vratch", "example_fr": "Мне нужен врач.", "example_ru": "J'ai besoin d'un médecin.", "level": "A1" },
+        { "fr": "больница", "gender": "f", "ru": "l'hôpital", "ru_pron": "bol'nítsa", "example_fr": "Он в больнице.", "example_ru": "Il est à l'hôpital.", "level": "A1" },
+        { "fr": "лекарство", "gender": "n", "ru": "le médicament", "ru_pron": "likarstva", "example_fr": "Принимайте это лекарство.", "example_ru": "Prenez ce médicament.", "level": "A1" },
+        { "fr": "аллергия", "gender": "f", "ru": "l'allergie", "ru_pron": "alerguía", "example_fr": "У меня аллергия на орехи.", "example_ru": "J'ai une allergie aux noix.", "level": "A1" },
+        { "fr": "температура", "gender": "f", "ru": "la fièvre / la température", "ru_pron": "tiempiratoúra", "example_fr": "У меня высокая температура.", "example_ru": "J'ai une forte fièvre.", "level": "A1" },
+        { "fr": "простуда", "gender": "f", "ru": "le rhume / refroidissement", "ru_pron": "prastoúda", "example_fr": "У меня простуда.", "example_ru": "J'ai un rhume.", "level": "A1" },
+        { "fr": "здоровье", "gender": "n", "ru": "la santé", "ru_pron": "zdaROV'yé", "example_fr": "Береги здоровье!", "example_ru": "Prends soin de ta santé !", "level": "A1" },
+        { "fr": "чувствовать себя", "gender": null, "ru": "se sentir", "ru_pron": "tchoustvavat' sibya", "example_fr": "Как вы себя чувствуете?", "example_ru": "Comment vous sentez-vous ?", "level": "A1" },
+        { "fr": "скорая помощь", "gender": "f", "ru": "l'ambulance (aide urgente)", "ru_pron": "skóraya pómochtch'", "example_fr": "Вызовите скорую помощь!", "example_ru": "Appelez une ambulance !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "аллергия", "fr_pron": "alerguía", "ru": "allergie", "ru_pron": "allergie", "note": "«Аллергия» = allergie. Terme médical d'origine grecque international. Même sens exact." },
+        { "fr": "температура", "fr_pron": "tiempiratoúra", "ru": "température / fièvre", "ru_pron": "température", "note": "«Температура» = température, mais en contexte médical russe il signifie souvent «fièvre». «У меня температура» = j'ai de la fièvre (même si la température normale aussi s'appelle так)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Pirogov (1810–1881)", "subtitle": "Père de la chirurgie de guerre russe", "content": "Nikolaï Pirogov est le plus grand chirurgien russe du XIXe siècle. Il fut le premier à utiliser l'éther comme anesthésique en chirurgie de guerre (1847), le premier à opérer sous anesthésie sur le champ de bataille. Il inventa le plâtre en chirurgie osseuse. Son atlas anatomique révolutionna la médecine mondiale. Héros de la guerre de Crimée (1853-56), il soigna des milliers de soldats blessés. Son visage figure sur un billet de banque ukrainien." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le numéro d'urgence en Russie : 103", "content": "En Russie, le numéro d'urgence médicale est le 103 (скорая помощь). Le 112 est le numéro d'urgence général européen, également disponible. La скорая помощь (aide urgente) est gratuite pour tous. Sous l'ère soviétique, la médecine était entièrement gratuite — aujourd'hui, le système public coexiste avec des cliniques privées. Pour les touristes étrangers, une assurance voyage est fortement recommandée." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le banya — soin du corps à la russe", "content": "Le banya (баня) est le bain de vapeur russe traditionnel — cousin du sauna finlandais mais plus humide et plus chaud. On y va entre amis, on se bat avec des branches de bouleau (веник) pour stimuler la circulation, puis on plonge dans l'eau froide ou la neige ! Le banya est considéré comme un remède universel en Russie : rhume, fatigue, stress... Proverbe : «В бане помоешься — заново родишься» (Après le banya, on renaît). C'est aussi un lieu de socialisation intense." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Будьте здоровы !", "pronunciation": "Boud'tiè zdaROvy", "translation": "Soyez en bonne santé ! / À vos souhaits !", "usage": "Se dit quand quelqu'un éternue — équivalent du «à vos souhaits» français. Également utilisé comme souhait général de bonne santé, notamment lors de toasts. On peut répondre «Спасибо!».", "example": "— Апчхи! — Будьте здоровы! — Спасибо! (Atchoum ! — À vos souhaits ! — Merci !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Sotchi — Station balnéaire de la mer Noire", "subtitle": "Сочи — Черноморский курорт", "content": "Sotchi est la principale station balnéaire de Russie sur la mer Noire, avec un microclimat subtropical unique. Plages, palmiers, montagnes du Caucase à portée de regard. La ville accueillit les Jeux olympiques d'hiver 2014. La station de ski de Rosa Khutor (2014) est désormais accessible depuis la mer en 30 minutes. Thérapie : combinaison de soleil, mer, air de montagne et источники (sources minérales) — une tradition depuis le XIXe siècle." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «j'ai mal à la tête» en russe ?", "opts": ["Я болею голову.", "У меня болит голова.", "Мне болит голова.", "Я имею боль голова."], "ans": 1, "exp": "«У меня болит голова» = j'ai mal à la tête. Structure : у меня + болит + partie du corps (nominatif)." },
+        { "q": "Quel est le numéro d'urgence médicale en Russie ?", "opts": ["101", "102", "103", "112"], "ans": 2, "exp": "Le 103 est le numéro de la скорая помощь (ambulance). Le 112 fonctionne aussi. Le 101 = pompiers, 102 = police." },
+        { "q": "Qu'est-ce que le «banya» ?", "opts": ["Un médicament traditionnel russe", "Un bain de vapeur / sauna russe", "Un massage aux huiles", "Une cure thermale", "Un bain de vapeur / sauna russe"], "ans": 1, "exp": "Le banya (баня) est le bain de vapeur russe, très chaud et humide. On se bat avec des branches de bouleau (веник). Remède universel selon les Russes !" },
+        { "q": "Comment dit-on «j'ai de la fièvre» en russe ?", "opts": ["Мне жарко.", "У меня температура.", "Я болен.", "У меня простуда."], "ans": 1, "exp": "«У меня температура» = j'ai de la fièvre. Температура = température/fièvre. «Мне жарко» = j'ai chaud (sensation)." },
+        { "q": "Que dit-on quand quelqu'un éternue en Russie ?", "opts": ["Пожалуйста!", "Спасибо!", "Будьте здоровы!", "Извините!"], "ans": 2, "exp": "«Будьте здоровы» (soyez en bonne santé !) est l'équivalent du «à vos souhaits» français après un éternuement." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Vêtements",
+      "titleRu": "Одежда",
+      "level": "A1",
+      "grammar": {
+        "title": "Les vêtements et les verbes «mettre» / «porter»",
+        "titleRu": "Одежда и глаголы",
+        "intro": "En russe, «mettre» (enfiler un vêtement) et «porter» (avoir sur soi) sont deux verbes distincts — une subtilité que le français simplifie. De plus, nous allons découvrir les verbes réfléchis russes, qui se forment avec le suffixe -ся.",
+        "sections": [
+          {
+            "title": "Les vêtements principaux",
+            "content": "рубашка — chemise\nфутболка — t-shirt\nджинсы — jean\nбрюки — pantalon\nюбка — jupe\nплатье — robe\nпальто — manteau\nкуртка — veste / blouson\nсвитер — pull\nпиджак — veste de costume\nботинки — chaussures montantes\nтуфли — chaussures (habillées)\nсапоги — bottes\nшапка — bonnet / chapeau\nперчатки — gants\nшарф — écharpe"
+          },
+          {
+            "title": "Mettre vs Porter",
+            "content": "Надевать / надеть — mettre (enfiler un vêtement)\nНосить — porter (avoir sur soi habituellement)\nОдеваться — s'habiller\nРаздеваться — se déshabiller\n\nEx:\nЯ надеваю куртку. — Je mets ma veste (maintenant).\nЯ ношу джинсы. — Je porte (habituellement) un jean.\nОна хорошо одета. — Elle est bien habillée."
+          },
+          {
+            "title": "Shopping de vêtements",
+            "content": "Какой у вас размер? — Quelle est votre taille ?\nМожно примерить? — Puis-je essayer ?\nЭто мне мало / велико. — C'est trop petit / trop grand pour moi.\nЕсть другой цвет? — Avez-vous une autre couleur ?\nМне подходит. — Ça me va / ça me convient.\nЯ возьму. — Je le/la prends."
+          }
+        ],
+        "rule": "💡 Rappel des couleurs : красный (rouge), синий (bleu foncé), зелёный (vert), белый (blanc), чёрный (noir), серый (gris). Les adjectifs s'accordent avec le vêtement : белая рубашка (chemise blanche, f.), белый свитер (pull blanc, m.)."
+      },
+      "pronunciation": {
+        "intro": "Les vêtements russes — beaucoup d'emprunts à d'autres langues, donc faciles à reconnaître !",
+        "note": "⚠️ «Пальто» (manteau) est neutre et INVARIABLE — il ne change pas selon les cas. Un des rares mots russes invariables, emprunté du français «paletot».",
+        "words": [
+          { "fr": "рубашка", "ru_pron": "roubáchka", "meaning": "la chemise" },
+          { "fr": "джинсы", "ru_pron": "djínsy", "meaning": "le jean" },
+          { "fr": "платье", "ru_pron": "plátié", "meaning": "la robe" },
+          { "fr": "пальто", "ru_pron": "pal'tó", "meaning": "le manteau" },
+          { "fr": "куртка", "ru_pron": "koúrtka", "meaning": "la veste / le blouson" },
+          { "fr": "шапка", "ru_pron": "châpka", "meaning": "le bonnet / le chapeau" },
+          { "fr": "сапоги", "ru_pron": "sapagí", "meaning": "les bottes" },
+          { "fr": "размер", "ru_pron": "razmyer", "meaning": "la taille (vêtements)" },
+          { "fr": "примерить", "ru_pron": "primyérit'", "meaning": "essayer (un vêtement)" },
+          { "fr": "одеваться", "ru_pron": "adivátsa", "meaning": "s'habiller" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "одежда", "gender": "f", "ru": "les vêtements / l'habillement", "ru_pron": "adéjda", "example_fr": "Здесь продаётся одежда.", "example_ru": "On vend des vêtements ici.", "level": "A1" },
+        { "fr": "платье", "gender": "n", "ru": "la robe", "ru_pron": "plátié", "example_fr": "Красивое платье!", "example_ru": "Belle robe !", "level": "A1" },
+        { "fr": "пальто", "gender": "n", "ru": "le manteau", "ru_pron": "pal'tó", "example_fr": "Зимой нужно пальто.", "example_ru": "En hiver il faut un manteau.", "level": "A1" },
+        { "fr": "шапка", "gender": "f", "ru": "le bonnet / le chapeau", "ru_pron": "châpka", "example_fr": "В Москве нужна шапка зимой.", "example_ru": "À Moscou il faut un bonnet en hiver.", "level": "A1" },
+        { "fr": "размер", "gender": "m", "ru": "la taille (vêtements/pointure)", "ru_pron": "razmyer", "example_fr": "Какой у вас размер?", "example_ru": "Quelle est votre taille ?", "level": "A1" },
+        { "fr": "носить", "gender": null, "ru": "porter (habituellement)", "ru_pron": "nasít'", "example_fr": "Она носит очки.", "example_ru": "Elle porte des lunettes.", "level": "A1" },
+        { "fr": "надевать", "gender": null, "ru": "mettre (enfiler un vêtement)", "ru_pron": "nadivát'", "example_fr": "Надень шапку, холодно!", "example_ru": "Mets ton bonnet, il fait froid !", "level": "A1" },
+        { "fr": "модный", "gender": "adj m", "ru": "à la mode / tendance", "ru_pron": "módny", "example_fr": "Это очень модно сейчас.", "example_ru": "C'est très à la mode en ce moment.", "level": "A1" },
+        { "fr": "удобный", "gender": "adj m", "ru": "confortable / pratique", "ru_pron": "oudóbny", "example_fr": "Эта обувь удобная.", "example_ru": "Ces chaussures sont confortables.", "level": "A1" },
+        { "fr": "примерочная", "gender": "f", "ru": "la cabine d'essayage", "ru_pron": "primyérotchnaya", "example_fr": "Где примерочная?", "example_ru": "Où est la cabine d'essayage ?", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "пальто", "fr_pron": "pal'tó", "ru": "paletot / manteau", "ru_pron": "paletot", "note": "«Пальто» vient directement du français «paletot» ! C'est l'un des nombreux mots vestimentaires que le russe a empruntés au français au XVIIIe siècle." },
+        { "fr": "шарф", "fr_pron": "charf", "ru": "écharpe", "ru_pron": "écharpe", "note": "«Шарф» vient de l'allemand «Schal», lui-même venant du français «écharpe». Un bel exemple de voyage linguistique !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Coco Chanel et la Russie", "subtitle": "L'influence russe sur la mode française", "content": "Coco Chanel fut profondément influencée par l'esthétique russe. Après la Révolution de 1917, de nombreux nobles russes émigrèrent à Paris, apportant broderies, fourrures et bijoux. Chanel s'inspira des blouses russes (rоубашки), des tissus orthodoxes et de la couleur noire (couleur de deuil russe qu'elle rendit élégante). Elle collabora avec le grand-duc Dimitri Romanov. Son parfum Chanel N°5 (1921) fut créé par le parfumeur russe Ernest Beaux." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La chapka — symbole de la Russie dans le monde", "content": "La chapka (шапка-ушанка, «bonnet à oreilles») est l'accessoire le plus associé à la Russie dans le monde. Fabriquée en fourrure (vrai ou synthétique), avec deux rabats qui protègent les oreilles, elle est portée par l'armée, la police et les civils depuis le XVIIe siècle. En Sibérie, elle est une nécessité vitale par -40°C. Elle est aujourd'hui le souvenir numéro un acheté par les touristes à Moscou !" },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Оденься теплее !» — la bataille du manteau", "content": "En Russie, il existe une institution sacrée : les grand-mères (et mères) qui ordonnent de «s'habiller chaudement». «Оденься теплее !» (habille-toi plus chaudement !) est l'une des phrases les plus entendues de l'enfance russe. Porter un manteau en septembre même s'il fait 15°C, mettre une шапка dès octobre — refuser est considéré comme de la témérité. Les étrangers en jean et t-shirt par 5°C reçoivent souvent des regards inquiets !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Это мне идёт?", "pronunciation": "Éta mnyé idyót", "translation": "Ça me va ? / Ça me sied ?", "usage": "La question clé en cabine d'essayage ! «Идти» (aller) s'utilise pour dire qu'un vêtement convient à quelqu'un. Réponse positive : «Да, очень идёт!» (Oui, ça te va très bien !).", "example": "— Это мне идёт? — Да, очень идёт! Бери! (Ça me va ? — Oui, très bien ! Prends-le !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Ivanovo — la ville du textile", "subtitle": "Иваново — город невест и тканей", "content": "Ivanovo (250 km au nord-est de Moscou) est la capitale historique du textile russe. Au XIXe siècle, ses usines produisaient les deux tiers des tissus de l'Empire russe. Elle est aussi appelée «la ville des fiancées» (город невест) car les usines employaient majoritairement des femmes. Aujourd'hui, le marché textile d'Ivanovo attire des acheteurs de toute la Russie pour ses tissus et linge de maison à prix imbattables." }
+      },
+      "quiz": [
+        { "q": "D'où vient le mot russe «пальто» (manteau) ?", "opts": ["De l'anglais «coat»", "Du français «paletot»", "De l'allemand «Mantel»", "De l'arabe"], "ans": 1, "exp": "«Пальто» vient du français «paletot» ! La mode française avait une grande influence sur la noblesse russe au XVIIIe-XIXe siècle." },
+        { "q": "Quelle est la différence entre «надевать» et «носить» ?", "opts": ["Aucune différence", "Надевать = mettre maintenant, носить = porter habituellement", "Надевать = porter, носить = enlever", "Надевать pour femmes, носить pour hommes"], "ans": 1, "exp": "«Надевать» = mettre (enfiler un vêtement) — action ponctuelle. «Носить» = porter habituellement — état permanent." },
+        { "q": "Comment demande-t-on «puis-je essayer» en magasin ?", "opts": ["Я возьму это.", "Можно примерить?", "Есть скидка?", "Это мне идёт?"], "ans": 1, "exp": "«Можно примерить?» = puis-je essayer ? Можно = on peut / il est permis. Примерить = essayer (un vêtement)." },
+        { "q": "Que signifie «это мне идёт» ?", "opts": ["C'est pour moi", "Ça me va bien (un vêtement)", "Je le prends", "C'est trop petit"], "ans": 1, "exp": "«Это мне идёт» = ça me va bien. Le verbe идти (aller) s'utilise pour dire qu'un vêtement convient à quelqu'un." },
+        { "q": "Quel accessoire russe est le plus connu dans le monde ?", "opts": ["Les bottes en fourrure", "La chapka (шапка-ушанка)", "Le kokochnik (coiffe traditionnelle)", "La ceinture brodée"], "ans": 1, "exp": "La chapka (шапка-ушанка, bonnet à oreilles) est le symbole vestimentaire russe le plus reconnu dans le monde. Indispensable par grand froid !" }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "La Ville et les Directions",
+      "titleRu": "Город и направления",
+      "level": "A1",
+      "grammar": {
+        "title": "S'orienter dans la ville — les directions",
+        "titleRu": "Ориентирование в городе",
+        "intro": "Se repérer et donner des directions en russe nécessite la maîtrise de quelques prépositions et de l'impératif des verbes de mouvement. Bonne nouvelle : les structures sont assez simples et les Russes sont en général très serviables pour indiquer leur chemin.",
+        "sections": [
+          {
+            "title": "Lieux de la ville",
+            "content": "площадь — place (publique)\nулица — rue\nперекрёсток — carrefour\nпарк — parc\nбанк — banque\nпочта — poste\nполиция — police\nмузей — musée\nцерковь — église\nсобор — cathédrale\nресторан — restaurant\nгостиница — hôtel\nбольница — hôpital"
+          },
+          {
+            "title": "Demander son chemin",
+            "content": "Извините, где...? — Excusez-moi, où est... ?\nКак пройти до...? — Comment aller jusqu'à... ?\nЭто далеко? — C'est loin ?\nЭто близко? — C'est près ?\nСколько минут пешком? — C'est à combien de minutes à pied ?"
+          },
+          {
+            "title": "Donner des directions",
+            "content": "Идите прямо. — Allez tout droit.\nПовернитe направо. — Tournez à droite.\nПовернитe налево. — Tournez à gauche.\nПерейдите улицу. — Traversez la rue.\nЭто рядом. — C'est à côté.\nЭто напротив. — C'est en face.\nНа углу. — Au coin de la rue.\nВозле / около — près de / à côté de"
+          }
+        ],
+        "rule": "💡 Les quatre points cardinaux russes : север (nord), юг (sud), восток (est), запад (ouest). Памятка : «СЮ-ЗВ» — Север, Юг, Запад, Восток. Comme en français mais dans un autre ordre !"
+      },
+      "pronunciation": {
+        "intro": "Directions et lieux de la ville — pour ne plus jamais être perdu à Moscou ou Saint-Pétersbourg !",
+        "note": "⚠️ «Направо» (à droite) et «налево» (à gauche) : ces mots se prononcent d'un seul trait, pas deux mots séparés.",
+        "words": [
+          { "fr": "улица", "ru_pron": "oúlitsa", "meaning": "la rue" },
+          { "fr": "площадь", "ru_pron": "plótchat'", "meaning": "la place (publique)" },
+          { "fr": "прямо", "ru_pron": "priáma", "meaning": "tout droit" },
+          { "fr": "направо", "ru_pron": "napráva", "meaning": "à droite" },
+          { "fr": "налево", "ru_pron": "naléva", "meaning": "à gauche" },
+          { "fr": "далеко", "ru_pron": "daliKÓ", "meaning": "loin" },
+          { "fr": "близко", "ru_pron": "blízka", "meaning": "près / proche" },
+          { "fr": "перекрёсток", "ru_pron": "pirikryóstok", "meaning": "le carrefour" },
+          { "fr": "рядом", "ru_pron": "riádam", "meaning": "à côté / tout près" },
+          { "fr": "напротив", "ru_pron": "naprótiv", "meaning": "en face" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "улица", "gender": "f", "ru": "la rue", "ru_pron": "oúlitsa", "example_fr": "Я живу на этой улице.", "example_ru": "J'habite dans cette rue.", "level": "A1" },
+        { "fr": "площадь", "gender": "f", "ru": "la place (publique)", "ru_pron": "plótchat'", "example_fr": "Красная площадь — центр Москвы.", "example_ru": "La Place Rouge est le centre de Moscou.", "level": "A1" },
+        { "fr": "музей", "gender": "m", "ru": "le musée", "ru_pron": "mouzyéï", "example_fr": "Эрмитаж — известный музей.", "example_ru": "L'Ermitage est un musée célèbre.", "level": "A1" },
+        { "fr": "почта", "gender": "f", "ru": "la poste", "ru_pron": "póchta", "example_fr": "Где ближайшая почта?", "example_ru": "Où est la poste la plus proche ?", "level": "A1" },
+        { "fr": "прямо", "gender": null, "ru": "tout droit", "ru_pron": "priáma", "example_fr": "Идите прямо.", "example_ru": "Allez tout droit.", "level": "A1" },
+        { "fr": "направо", "gender": null, "ru": "à droite", "ru_pron": "napráva", "example_fr": "Поверните направо.", "example_ru": "Tournez à droite.", "level": "A1" },
+        { "fr": "налево", "gender": null, "ru": "à gauche", "ru_pron": "naléva", "example_fr": "Поверните налево.", "example_ru": "Tournez à gauche.", "level": "A1" },
+        { "fr": "далеко", "gender": null, "ru": "loin", "ru_pron": "daliKÓ", "example_fr": "Вокзал далеко?", "example_ru": "La gare est loin ?", "level": "A1" },
+        { "fr": "рядом", "gender": null, "ru": "à côté / tout près", "ru_pron": "riádam", "example_fr": "Аптека рядом.", "example_ru": "La pharmacie est juste à côté.", "level": "A1" },
+        { "fr": "карта", "gender": "f", "ru": "la carte (géographique)", "ru_pron": "kárta", "example_fr": "Есть ли у вас карта города?", "example_ru": "Avez-vous un plan de la ville ?", "meaning_double": "карта = carte géographique ET карта bancaire = carte bancaire", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "музей", "fr_pron": "mouzyéï", "ru": "musée", "ru_pron": "musée", "note": "«Музей» = musée. Même étymologie grecque «Mouseion» (temple des Muses). La Russie est un pays de musées exceptionnels : Ermitage, Tretiakov, Pouchkine..." },
+        { "fr": "полиция", "fr_pron": "polítsia", "ru": "police", "ru_pron": "police", "note": "«Полиция» = police. Même étymologie grecque «polis» (cité). Avant 2011, la police russe s'appelait «милиция» (milice) — terme soviétique." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Andreï Sakharov (1921–1989)", "subtitle": "Physicien et défenseur des droits de l'homme", "content": "Andreï Sakharov fut le «père de la bombe à hydrogène soviétique» puis l'un des plus grands défenseurs des droits de l'homme en URSS. Après avoir contribué au programme nucléaire soviétique, il publia un manifeste pour la liberté et la démocratie (1968) et fut exilé à Gorki. Prix Nobel de la Paix 1975. La place Sakharov à Moscou (проспект Сахарова) porte son nom — lieu historique de manifestations." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Moscou et ses «cercles» — la structure en anneaux", "content": "Moscou est organisée en anneaux concentriques rayonnant depuis le Kremlin. Le premier anneau : le Boulevard Ring (Бульварное кольцо). Le second : le Garden Ring (Садовое кольцо). Le troisième anneau et enfin le МКАД (périphérique). Cette organisation radiale est unique en Europe. Le métro suit la même logique : lignes radiales + 2 lignes circulaires (la célèbre Кольцевая ligne et la nouvelle БКЛ). Se repérer à Moscou demande du temps mais la logique est une fois comprise !" },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les noms de rue soviétiques et post-soviétiques", "content": "Après 1991, des centaines de rues russes ont retrouvé leurs noms historiques tsaristes, remplaçant les noms soviétiques. Exemples à Moscou : rue Gorki → rue Tverskaïa, place de la Révolution → place Voskressenskaya... Mais certains noms soviétiques persistent. Résultat : les GPS anciens et les vieux habitants utilisent parfois des noms différents des panneaux actuels ! Demander son chemin peut donc créer une légère confusion générationnelle." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Вы не скажете, как пройти до...?", "pronunciation": "Vy nie skajétié, kak praïtí da...", "translation": "Pourriez-vous me dire comment aller à... ?", "usage": "Formule polie pour demander son chemin — plus élaborée et courtoise que le simple «Где...?». Le double négatif «не скажете» (ne direz-vous pas ?) est une forme de politesse russe typique.", "example": "— Вы не скажете, как пройти до Красной площади? — Идите прямо, потом направо. (Pourriez-vous me dire comment aller à la Place Rouge ? — Allez tout droit puis tournez à droite.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — La perspective Nevski", "subtitle": "Невский проспект — главная улица", "content": "La Perspective Nevski (Невский проспект) est l'artère principale de Saint-Pétersbourg — 4,5 km du monastère Alexandre-Nevski jusqu'à l'Amirauté. Dostoïevski, Gogol et Pouchkine l'ont immortalisée dans leurs œuvres. Sur cette avenue : la cathédrale de Kazan, le musée russe, la maison Singer, les canaux et ponts dessinés par des architectes italiens et français. La nuit, sous les réverbères, Nevski est d'une beauté romantique incomparable." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «tournez à droite» en russe ?", "opts": ["Идите прямо.", "Повернитe налево.", "Повернитe направо.", "Перейдите улицу."], "ans": 2, "exp": "«Поверните направо» = tournez à droite. Направо = à droite. Налево = à gauche. Прямо = tout droit." },
+        { "q": "Que signifie «рядом» ?", "opts": ["Loin", "En face", "À côté / tout près", "Au coin"], "ans": 2, "exp": "«Рядом» = à côté, tout près. «Аптека рядом» = la pharmacie est juste à côté. Très pratique pour indiquer une proximité !" },
+        { "q": "Comment s'appelle le grand anneau circulaire (périphérique) de Moscou ?", "opts": ["Садовое кольцо", "Бульварное кольцо", "МКАД", "Третье кольцо"], "ans": 2, "exp": "Le МКАД (Московская Кольцевая Автомобильная Дорога) est le périphérique de Moscou. La ville est organisée en anneaux concentriques depuis le Kremlin." },
+        { "q": "Quelle est la formule polie pour demander son chemin ?", "opts": ["Где?", "Куда?", "Вы не скажете, как пройти до...?", "Покажите карту."], "ans": 2, "exp": "«Вы не скажете, как пройти до...?» est la formule polie standard. Plus courtoise que le simple «Где?» (où ?)." },
+        { "q": "Comment le russe dit-il «carte» pour deux objets différents ?", "opts": ["Карта pour tout", "Карта (géo) et карта (bancaire) — même mot !", "Карта (géo) et чек (bancaire)", "Plan pour géo et карта pour bancaire"], "ans": 1, "exp": "«Карта» signifie carte géographique ET carte bancaire ! Contexte = clé. «Карта города» = plan de la ville. «Банковская карта» = carte bancaire." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Loisirs et les Hobbies",
+      "titleRu": "Хобби и досуг",
+      "level": "A1",
+      "grammar": {
+        "title": "Exprimer ses goûts — «aimer» en russe",
+        "titleRu": "Выражение вкусов и интересов",
+        "intro": "En russe, il existe deux façons principales d'exprimer ses goûts : «любить» (aimer profondément, de manière durable) et «нравиться» (plaire, apprécier — construction inverse au français !). Cette distinction est importante et très utilisée.",
+        "sections": [
+          {
+            "title": "Любить — aimer de manière durable",
+            "content": "Я люблю... — J'aime...\nЯ не люблю... — Je n'aime pas...\nОн любит... — Il aime...\nМы любим... — Nous aimons...\n\nEx:\nЯ люблю музыку. — J'aime la musique.\nЯ люблю читать. — J'aime lire.\nОна любит путешествовать. — Elle aime voyager."
+          },
+          {
+            "title": "Нравиться — plaire (construction inverse !)",
+            "content": "Structure : (à qui, datif) нравится (ce qui plaît)\n\nМне нравится этот фильм. — J'aime ce film. (Litt: Ce film me plaît.)\nТебе нравится музыка? — Tu aimes la musique ?\nЕму нравятся книги. — Il aime les livres. (pluriel → нравятся)\n\nDatifs des pronoms :\nмне (à moi), тебе (à toi), ему/ей (à lui/elle)\nнам (à nous), вам (à vous), им (à eux)"
+          },
+          {
+            "title": "Les loisirs courants",
+            "content": "читать — lire\nслушать музыку — écouter de la musique\nсмотреть фильмы — regarder des films\nиграть в футбол — jouer au football\nиграть на гитаре — jouer de la guitare\nпутешествовать — voyager\nфотографировать — photographier\nготовить — cuisiner\nрисовать — dessiner\nзаниматься спортом — faire du sport"
+          }
+        ],
+        "rule": "💡 Différence clé : «Я люблю кино» (j'aime le cinéma en général) vs «Мне нравится этот фильм» (j'aime ce film en particulier). Любить = sentiment profond et durable. Нравиться = appréciation contextuelle."
+      },
+      "pronunciation": {
+        "intro": "Loisirs et verbes d'activité — pour parler de ce qu'on fait et ce qu'on aime !",
+        "note": "⚠️ «Нравиться» — prononcez «NRÁV-itsa» (l'accent est sur la première syllabe). C'est un mot crucial et souvent mal prononcé.",
+        "words": [
+          { "fr": "читать", "ru_pron": "tchitát'", "meaning": "lire" },
+          { "fr": "слушать", "ru_pron": "slóuchat'", "meaning": "écouter" },
+          { "fr": "смотреть", "ru_pron": "smatryet'", "meaning": "regarder / voir" },
+          { "fr": "играть", "ru_pron": "igrát'", "meaning": "jouer" },
+          { "fr": "путешествовать", "ru_pron": "poutiéchestvavat'", "meaning": "voyager" },
+          { "fr": "готовить", "ru_pron": "gatóvit'", "meaning": "cuisiner / préparer" },
+          { "fr": "рисовать", "ru_pron": "risavát'", "meaning": "dessiner" },
+          { "fr": "нравиться", "ru_pron": "NRÁvitsa", "meaning": "plaire / aimer (construction inverse)" },
+          { "fr": "хобби", "ru_pron": "khóbi", "meaning": "le hobby / le loisir" },
+          { "fr": "свободное время", "ru_pron": "svabódnoié vrémia", "meaning": "le temps libre" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "любить", "gender": null, "ru": "aimer (durablement)", "ru_pron": "lyoubit'", "example_fr": "Я люблю русскую музыку.", "example_ru": "J'aime la musique russe.", "level": "A1" },
+        { "fr": "нравиться", "gender": null, "ru": "plaire / aimer (contextuel)", "ru_pron": "NRÁvitsa", "example_fr": "Мне нравится этот фильм.", "example_ru": "J'aime ce film. (Litt. : Ce film me plaît.)", "level": "A1" },
+        { "fr": "спорт", "gender": "m", "ru": "le sport", "ru_pron": "sport", "example_fr": "Я занимаюсь спортом.", "example_ru": "Je fais du sport.", "level": "A1" },
+        { "fr": "музыка", "gender": "f", "ru": "la musique", "ru_pron": "móuzyka", "example_fr": "Я слушаю музыку.", "example_ru": "J'écoute de la musique.", "level": "A1" },
+        { "fr": "кино", "gender": "n", "ru": "le cinéma / le film", "ru_pron": "kinó", "example_fr": "Давай пойдём в кино!", "example_ru": "Allons au cinéma !", "level": "A1" },
+        { "fr": "книга", "gender": "f", "ru": "le livre", "ru_pron": "KNíga", "example_fr": "Я читаю интересную книгу.", "example_ru": "Je lis un livre intéressant.", "level": "A1" },
+        { "fr": "путешествие", "gender": "n", "ru": "le voyage", "ru_pron": "poutiéchestvié", "example_fr": "Я люблю путешествия.", "example_ru": "J'aime les voyages.", "level": "A1" },
+        { "fr": "фотография", "gender": "f", "ru": "la photographie / la photo", "ru_pron": "fataguráfia", "example_fr": "Я увлекаюсь фотографией.", "example_ru": "Je suis passionné(e) de photographie.", "level": "A1" },
+        { "fr": "готовить", "gender": null, "ru": "cuisiner / préparer", "ru_pron": "gatóvit'", "example_fr": "Она хорошо готовит.", "example_ru": "Elle cuisine bien.", "level": "A1" },
+        { "fr": "увлечение", "gender": "n", "ru": "la passion / le centre d'intérêt", "ru_pron": "ouvlitchénié", "example_fr": "Моё увлечение — музыка.", "example_ru": "Ma passion c'est la musique.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "спорт", "fr_pron": "sport", "ru": "sport", "ru_pron": "sport", "note": "«Спорт» = sport. Emprunt à l'anglais. Les Russes sont passionnés de sport : football, hockey sur glace, athlétisme, échecs (considéré comme sport !)." },
+        { "fr": "кино", "fr_pron": "kinó", "ru": "cinéma / ciné", "ru_pron": "ciné", "note": "«Кино» vient du grec «kinéma» (mouvement) — même étymologie que «cinéma». En russe populaire, on dit «кино» pour film ET pour cinéma (lieu)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Piotr Tchaïkovski (1840–1893)", "subtitle": "Compositeur du Lac des Cygnes et Casse-Noisette", "content": "Piotr Ilitch Tchaïkovski est le compositeur russe le plus célèbre dans le monde. Ses ballets (Lac des Cygnes, Belle au Bois Dormant, Casse-Noisette) sont joués partout chaque année. Ses symphonies, concertos pour piano et son opéra Eugène Onéguine sont des chefs-d'œuvre. Personnalité tourmentée, il mourut mystérieusement à 53 ans — empoisonnement volontaire ou choléra, le débat dure encore. Son festival annuel à Klin (sa maison-musée) attire des milliers de musiciens du monde entier." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les échecs en Russie — un sport national", "content": "Les Russes et Soviétiques ont dominé les échecs mondiaux pendant des décennies. De Botvinnik à Kasparov en passant par Karpov, les champions du monde soviétiques/russes ont régné sur ce «sport cérébral». L'URSS considérait les échecs comme un outil de propagande (montrer la supériorité intellectuelle soviétique) et finançait massivement la formation. Aujourd'hui, les échecs sont enseignés à l'école dans plusieurs régions russes. «Шахматы» (les échecs) est un mot d'origine arabe : «shah mat» = le roi est mort." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La culture du «dacha weekend» et des champignons", "content": "Un loisir typiquement russe : ramasser des champignons (собирать грибы) en forêt. Chaque automne, des millions de Russes partent à la datcha pour «охотиться за грибами» (chasser les champignons). Cèpes, girolles, bolets — les forêts russes sont généreuses. C'est à la fois un loisir, une passion et presque une science populaire. Faire la distinction entre champignons comestibles et toxiques est une compétence transmise de génération en génération. Les confitures et conserves complètent le rituel automnal." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Давай сходим в кино!", "pronunciation": "Davaï skhadím v kinó", "translation": "Allons au cinéma ! / Et si on allait au ciné ?", "usage": "«Давай + verbe au passé court» est la façon russe de proposer une activité ensemble — équivalent du «et si on + imparfait» français. Давай = allez / allons / et si on...", "example": "— Давай сходим в кино сегодня? — Отличная идея! (Et si on allait au ciné ce soir ? — Excellente idée !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Sotchi — Rosa Khutor", "subtitle": "Роза Хутор — ski et mer Noire", "content": "Rosa Khutor (Роза Хутор) est la station de ski construite pour les JO de Sotchi 2014 dans les montagnes du Caucase. À 2 320 m d'altitude, avec 102 km de pistes et une vue sur la mer Noire par temps clair. Ce qui est unique : vous pouvez skier le matin et vous baigner dans la mer en après-midi (30 min de téléphérique + voiture). La station reste ouverte en été pour la randonnée et le VTT. Infrastructure olympique de haute qualité." }
+      },
+      "quiz": [
+        { "q": "Quelle est la différence entre «я люблю» et «мне нравится» ?", "opts": ["Aucune différence", "Люблю = goût profond et durable, нравится = appréciation contextuelle", "Люблю pour les personnes, нравится pour les choses", "Люблю = pluriel, нравится = singulier"], "ans": 1, "exp": "«Я люблю музыку» = j'aime la musique (en général, durablement). «Мне нравится эта песня» = j'aime cette chanson (en particulier). Subtilité importante !" },
+        { "q": "Comment dit-on «j'aime ce film» en russe (avec нравиться) ?", "opts": ["Я люблю этот фильм.", "Мне нравится этот фильм.", "Этот фильм мне любит.", "Я нравлюсь этому фильму."], "ans": 1, "exp": "«Мне нравится этот фильм» = j'aime ce film. Construction : (datif) нравится + (sujet nominatif). Littéralement «ce film me plaît»." },
+        { "q": "Comment propose-t-on une activité en russe ?", "opts": ["Хочешь кино?", "Давай сходим в кино!", "Мы идём в кино?", "Кино — хорошо."], "ans": 1, "exp": "«Давай сходим в кино !» = et si on allait au cinéma ? «Давай + infinitif/passé court» est la formule pour proposer une activité." },
+        { "q": "Les échecs en Russie sont considérés comme :", "opts": ["Un jeu de salon peu sérieux", "Un sport national financé historiquement par l'État", "Un jeu importé récemment d'Occident", "Uniquement un jeu pour enfants"], "ans": 1, "exp": "Les échecs (шахматы) sont un sport national russe. L'URSS finançait massivement les champions comme outil de prestige. Les champions du monde soviétiques/russes ont dominé pendant des décennies." },
+        { "q": "Comment dit-on «je fais du sport» en russe ?", "opts": ["Я играю спорт.", "Я делаю спорт.", "Я занимаюсь спортом.", "Я хожу на спорт."], "ans": 2, "exp": "«Я занимаюсь спортом» = je fais du sport. Le verbe «заниматься» (s'adonner à, pratiquer) + instrumental est la formule standard pour les activités." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Le Téléphone et Internet",
+      "titleRu": "Телефон и интернет",
+      "level": "A1",
+      "grammar": {
+        "title": "Téléphone, internet et le futur simple",
+        "titleRu": "Телефон и будущее время",
+        "intro": "Le vocabulaire numérique russe est en grande partie emprunté à l'anglais — bonne nouvelle ! De plus, cette leçon introduit le futur simple russe, formé à partir du verbe быть (être) + infinitif pour les verbes imperfectifs.",
+        "sections": [
+          {
+            "title": "Le futur simple — formation",
+            "content": "Futur de быть + infinitif du verbe (imperfectif) :\nбуду, будешь, будет, будем, будете, будут\n\nЯ буду читать. — Je lirai / Je vais lire.\nТы будешь звонить? — Tu appelleras ?\nОн будет работать. — Il travaillera.\nМы будем смотреть фильм. — Nous regarderons un film.\n\nAlternative : verbe perfectif conjugué au présent = futur !\nЯ прочитаю книгу. — Je lirai le livre (et le finirai)."
+          },
+          {
+            "title": "Vocabulaire téléphonique",
+            "content": "Позвонить — appeler\nОтветить — répondre\nПеrezвонить — rappeler\nПодождите у телефона. — Attendez en ligne.\nАлло? — Allô ?\nКто говорит? — Qui est à l'appareil ?\nОн/она сейчас недоступен(на). — Il/elle n'est pas disponible.\nОставьте сообщение. — Laissez un message."
+          },
+          {
+            "title": "Vocabulaire internet et réseaux",
+            "content": "интернет — internet\nсайт — site (web)\nпочта / имейл — email\nпароль — mot de passe\nскачать — télécharger\nотправить — envoyer\nсообщение — message\nссылка — lien\nприложение — application\nвидеозвонок — appel vidéo"
+          }
+        ],
+        "rule": "💡 En Russie, les applications de messagerie les plus utilisées sont Telegram (très dominant), VKontakte (VK — réseau social russe) et WhatsApp. Telegram est indispensable pour communiquer avec des Russes aujourd'hui."
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire numérique — beaucoup de mots internationaux reconnaissables !",
+        "note": "⚠️ «Сайт» (site web) — se prononce exactement comme l'anglais «site». Nombreux anglicismes dans le vocabulaire numérique russe.",
+        "words": [
+          { "fr": "телефон", "ru_pron": "tilifyón", "meaning": "le téléphone" },
+          { "fr": "интернет", "ru_pron": "intirnyét", "meaning": "internet" },
+          { "fr": "сообщение", "ru_pron": "saapchtchénié", "meaning": "le message" },
+          { "fr": "звонить", "ru_pron": "zvanít'", "meaning": "appeler / sonner" },
+          { "fr": "скачать", "ru_pron": "skatcját'", "meaning": "télécharger" },
+          { "fr": "пароль", "ru_pron": "paról'", "meaning": "le mot de passe" },
+          { "fr": "ссылка", "ru_pron": "ssylka", "meaning": "le lien" },
+          { "fr": "приложение", "ru_pron": "prilajenié", "meaning": "l'application" },
+          { "fr": "зарядка", "ru_pron": "zaryátka", "meaning": "le chargeur / la charge" },
+          { "fr": "Wi-Fi", "ru_pron": "vaï-faï", "meaning": "le Wi-Fi" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "звонить", "gender": null, "ru": "appeler (téléphoner)", "ru_pron": "zvanít'", "example_fr": "Я позвоню тебе завтра.", "example_ru": "Je t'appellerai demain.", "level": "A1" },
+        { "fr": "сообщение", "gender": "n", "ru": "le message", "ru_pron": "saapchtchénié", "example_fr": "Отправьте мне сообщение.", "example_ru": "Envoyez-moi un message.", "level": "A1" },
+        { "fr": "электронная почта", "gender": "f", "ru": "l'e-mail / le courrier électronique", "ru_pron": "éliktrónnaya póchta", "example_fr": "Какой у вас имейл?", "example_ru": "Quel est votre e-mail ?", "level": "A1" },
+        { "fr": "пароль", "gender": "m", "ru": "le mot de passe", "ru_pron": "paról'", "example_fr": "Я забыл пароль.", "example_ru": "J'ai oublié mon mot de passe.", "level": "A1" },
+        { "fr": "скачать", "gender": null, "ru": "télécharger", "ru_pron": "skatcját'", "example_fr": "Скачайте приложение.", "example_ru": "Téléchargez l'application.", "level": "A1" },
+        { "fr": "Wi-Fi", "gender": "m", "ru": "le Wi-Fi", "ru_pron": "vaï-faï", "example_fr": "Есть ли здесь Wi-Fi?", "example_ru": "Y a-t-il du Wi-Fi ici ?", "level": "A1" },
+        { "fr": "зарядка", "gender": "f", "ru": "le chargeur / la charge", "ru_pron": "zaryátka", "example_fr": "У меня нет зарядки.", "example_ru": "Je n'ai pas de chargeur.", "meaning_double": "зарядка = chargeur ET зарядка = exercice matinal (gymnastique)", "level": "A1" },
+        { "fr": "фотография", "gender": "f", "ru": "la photo", "ru_pron": "fataguráfia", "example_fr": "Сделайте фотографию!", "example_ru": "Prenez une photo !", "level": "A1" },
+        { "fr": "приложение", "gender": "n", "ru": "l'application (app)", "ru_pron": "prilajenié", "example_fr": "Скачайте это приложение.", "example_ru": "Téléchargez cette application.", "level": "A1" },
+        { "fr": "батарея", "gender": "f", "ru": "la batterie", "ru_pron": "batariéya", "example_fr": "Батарея почти разряжена.", "example_ru": "La batterie est presque vide.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "интернет", "fr_pron": "intirnyét", "ru": "internet", "ru_pron": "internet", "note": "«Интернет» = internet. Mot international — identique dans toutes les langues. La Russie a développé ses propres équivalents (Яндекс pour Google, ВКонтакте pour Facebook)." },
+        { "fr": "пароль", "fr_pron": "paról'", "ru": "mot de passe / parole", "ru_pron": "parole", "note": "«Пароль» vient du français «parole» (anciennement «mot de passe» militaire). Ce mot militaire est devenu universel à l'ère numérique !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Pavel Dourov (né en 1984)", "subtitle": "Fondateur de VKontakte et Telegram", "content": "Pavel Dourov est le «Mark Zuckerberg russe». Il fonda VKontakte (ВКонтакте / VK) en 2006 — le Facebook russe avec 100 millions d'utilisateurs. Sous pression du Kremlin pour livrer des données d'utilisateurs, il refusa et fut forcé de quitter la Russie en 2014. Il fonda ensuite Telegram en exil — aujourd'hui l'une des applications de messagerie les plus utilisées au monde, réputée pour son chiffrement et sa résistance à la censure." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Yandex — le Google russe", "content": "Yandex (Яндекс) fut fondé en 1997 et est devenu le moteur de recherche dominant en Russie (plus de 60% de parts de marché, devant Google). Il propose cartographie, taxi (Yandex.Taxi), livraison de nourriture, cloud, assistant vocal Alice... Un écosystème tech complet. Le nom «Яндекс» vient de «Yet ANother inDEXer» avec une sonorité russe. Il fut longtemps coté au Nasdaq — preuve de sa reconnaissance internationale." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La culture du selfie et les poses russes", "content": "Les Russes sont parmi les plus grands producteurs de selfies au monde. La ville de Moscou a même installé des «selfie zones» officielles dans les parcs. Particulièrement notable : les selfies extrêmes de Kirill Oreshkin (sur des gratte-ciel sans protection) ont fait le tour du monde. VKontakte (VK) est le réseau social dominant — les jeunes Russes partagent massivement photos et musiques. Règle non écrite : ne jamais publier de photo d'une personne sans sa permission !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Есть ли здесь Wi-Fi? Какой пароль?", "pronunciation": "Yést' li zdyes' vaï-faï ? Kakoï paról'", "translation": "Y a-t-il du Wi-Fi ici ? Quel est le mot de passe ?", "usage": "La question la plus universelle du XXIe siècle ! En Russie, le Wi-Fi gratuit est très répandu dans les cafés, métros et espaces publics. Demander le mot de passe au serveur est tout à fait normal.", "example": "— Есть ли здесь Wi-Fi? — Да, пароль: RussiaCafe123. (Y a-t-il du Wi-Fi ? — Oui, le mot de passe : RussiaCafe123.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Innopolis — la Silicon Valley russe", "subtitle": "Иннополис — технологический город", "content": "Innopolis (Иннополис) est une ville-technopole construite de toutes pièces depuis 2012 près de Kazan, en Tatarstan. Conçue pour accueillir une université tech et des entreprises numériques, avec 5 000 habitants en majorité des ingénieurs et étudiants. Architecture moderne, voitures autonomes testées dans les rues, tout entièrement connecté. Symbole de l'ambition de la Russie de développer sa Silicon Valley nationale. Expérience unique et futuriste." }
+      },
+      "quiz": [
+        { "q": "Comment forme-t-on le futur simple en russe (verbe imperfectif) ?", "opts": ["Verbe au présent + «завтра»", "Быть au futur + infinitif", "Verbe + окончание -л", "Добавить «буду» après le verbe"], "ans": 1, "exp": "Le futur imperfectif = быть au futur (буду, будешь...) + infinitif. Ex: «Я буду читать» (je lirai / je vais lire)." },
+        { "q": "Que signifie «зарядка» dans deux contextes différents ?", "opts": ["Message et notification", "Chargeur/charge ET exercice matinal", "Wi-Fi et internet", "Application et site web"], "ans": 1, "exp": "«Зарядка» = chargeur de téléphone / charge (batterie) ET exercice de gym matinal ! Два значения — deux sens selon le contexte." },
+        { "q": "Quelle application de messagerie domine en Russie aujourd'hui ?", "opts": ["WhatsApp", "Facebook Messenger", "Telegram", "Signal"], "ans": 2, "exp": "Telegram est l'application dominante en Russie, fondée par le Russe Pavel Dourov après avoir quitté VKontakte sous pression politique. Réputé pour son chiffrement." },
+        { "q": "D'où vient le mot russe «пароль» (mot de passe) ?", "opts": ["De l'anglais «password»", "Du français «parole»", "De l'allemand «Kennwort»", "Du latin «verbum»"], "ans": 1, "exp": "«Пароль» vient du français «parole» — terme militaire pour «mot de passe». La France a contribué de nombreux mots au russe, y compris dans le domaine militaire." },
+        { "q": "Quel est l'équivalent russe de Google ?", "opts": ["Mail.ru", "Rambler", "Yandex (Яндекс)", "Sputnik"], "ans": 2, "exp": "Yandex (Яндекс) est le moteur de recherche dominant en Russie avec plus de 60% de parts de marché. Il propose aussi des cartes, taxi, livraison — un vrai écosystème numérique." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "La Météo et les Saisons",
+      "titleRu": "Погода и времена года",
+      "level": "A1",
+      "grammar": {
+        "title": "La météo et les expressions impersonnelles",
+        "titleRu": "Погода и безличные выражения",
+        "intro": "La météo en russe utilise beaucoup de constructions impersonnelles — c'est-à-dire sans sujet explicite. «Il fait chaud» en russe = «тепло» (chaud, comme adverbe). Ces constructions courtes et directes sont très caractéristiques du russe.",
+        "sections": [
+          {
+            "title": "Les quatre saisons",
+            "content": "весна — le printemps → весной (au printemps)\nлето — l'été → летом (en été)\nосень — l'automne → осенью (en automne)\nзима — l'hiver → зимой (en hiver)\n\nEx:\nЛетом я езжу на дачу. — En été je vais à la datcha.\nЗимой в Москве очень холодно. — En hiver à Moscou il fait très froid."
+          },
+          {
+            "title": "Expressions météo impersonnelles",
+            "content": "Тепло. — Il fait chaud (agréablement).\nЖарко. — Il fait très chaud / chaud étouffant.\nХолодно. — Il fait froid.\nПрохладно. — Il fait frais.\nСолнечно. — Il y a du soleil.\nОблачно. — Il y a des nuages / nuageux.\nДождливо. — Il y a de la pluie / pluvieux.\nВетрено. — Il y a du vent / venteux.\nМорозно. — Il gèle / il fait un froid glacial."
+          },
+          {
+            "title": "Le temps qu'il fait",
+            "content": "Идёт дождь. — Il pleut. (Litt: La pluie marche.)\nИдёт снег. — Il neige. (Litt: La neige marche.)\nСветит солнце. — Le soleil brille.\nДует ветер. — Le vent souffle.\nГрянул гром. — Il y a eu un coup de tonnerre.\nКакая погода сегодня? — Quel temps fait-il aujourd'hui ?\nКакой прогноз погоды? — Quelle est la météo ?"
+          }
+        ],
+        "rule": "💡 En russe, «идти» (aller/marcher) s'utilise pour la pluie et la neige : «идёт дождь» (il pleut), «идёт снег» (il neige). Littéralement «la pluie / la neige marche» — image poétique !"
+      },
+      "pronunciation": {
+        "intro": "La météo — sujet de conversation universel en Russie, surtout avec ses extrêmes climatiques !",
+        "note": "⚠️ «Мороз» (gel intense, froid glacial) — prononcez «maROZ». Ce mot est très différent du simple «холодно» (il fait froid) : мороз implique un froid intense, en dessous de -10°C.",
+        "words": [
+          { "fr": "погода", "ru_pron": "pagóda", "meaning": "le temps / la météo" },
+          { "fr": "солнце", "ru_pron": "sóntse", "meaning": "le soleil" },
+          { "fr": "дождь", "ru_pron": "dojd'", "meaning": "la pluie" },
+          { "fr": "снег", "ru_pron": "snyek", "meaning": "la neige" },
+          { "fr": "ветер", "ru_pron": "vyétiér", "meaning": "le vent" },
+          { "fr": "мороз", "ru_pron": "maróz", "meaning": "le gel intense / le grand froid" },
+          { "fr": "тепло", "ru_pron": "tiepló", "meaning": "il fait chaud (agréable)" },
+          { "fr": "холодно", "ru_pron": "khóladna", "meaning": "il fait froid" },
+          { "fr": "зима", "ru_pron": "zimá", "meaning": "l'hiver" },
+          { "fr": "лето", "ru_pron": "lyéta", "meaning": "l'été" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "погода", "gender": "f", "ru": "le temps (météo)", "ru_pron": "pagóda", "example_fr": "Какая сегодня погода?", "example_ru": "Quel temps fait-il aujourd'hui ?", "level": "A1" },
+        { "fr": "зима", "gender": "f", "ru": "l'hiver", "ru_pron": "zimá", "example_fr": "Русская зима очень суровая.", "example_ru": "L'hiver russe est très rigoureux.", "level": "A1" },
+        { "fr": "лето", "gender": "n", "ru": "l'été", "ru_pron": "lyéta", "example_fr": "Летом в Москве тепло.", "example_ru": "En été à Moscou il fait chaud.", "level": "A1" },
+        { "fr": "снег", "gender": "m", "ru": "la neige", "ru_pron": "snyek", "example_fr": "Идёт снег.", "example_ru": "Il neige.", "level": "A1" },
+        { "fr": "дождь", "gender": "m", "ru": "la pluie", "ru_pron": "dojd'", "example_fr": "Идёт дождь.", "example_ru": "Il pleut.", "level": "A1" },
+        { "fr": "мороз", "gender": "m", "ru": "le gel intense / le grand froid", "ru_pron": "maróz", "example_fr": "На улице сильный мороз.", "example_ru": "Dehors il fait un froid glacial.", "level": "A1" },
+        { "fr": "градус", "gender": "m", "ru": "le degré (température)", "ru_pron": "grádous", "example_fr": "Сегодня минус двадцать градусов.", "example_ru": "Aujourd'hui il fait moins vingt degrés.", "level": "A1" },
+        { "fr": "прогноз", "gender": "m", "ru": "la prévision / le pronostic", "ru_pron": "pragnóz", "example_fr": "Какой прогноз погоды на завтра?", "example_ru": "Quelle est la météo pour demain ?", "level": "A1" },
+        { "fr": "одеться потеплее", "gender": null, "ru": "s'habiller plus chaudement", "ru_pron": "adyétsa patiplée", "example_fr": "Оденься потеплее, там мороз!", "example_ru": "Habille-toi plus chaudement, il gèle dehors !", "level": "A1" },
+        { "fr": "гроза", "gender": "f", "ru": "l'orage", "ru_pron": "grazá", "example_fr": "Будет гроза.", "example_ru": "Il va y avoir un orage.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "климат", "fr_pron": "klímat", "ru": "climat", "ru_pron": "climat", "note": "«Климат» = climat. Même étymologie grecque «klima» (inclinaison de la terre). La Russie est le pays des extrêmes climatiques : de -71°C en Yakoutie à +45°C dans les steppes." },
+        { "fr": "градус", "fr_pron": "grádous", "ru": "degré (température)", "ru_pron": "degré / gradus", "note": "«Градус» vient du latin «gradus» (pas, degré). Même étymologie que le français «degré». Utilisé pour la température et les angles en russe." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Alexander Voeïkov (1842–1916)", "subtitle": "Père de la climatologie russe", "content": "Alexander Ivanovich Voeïkov fut le fondateur de la climatologie scientifique russe. Son œuvre majeure «Climates of the Earth» (1884) est une référence mondiale. Il fut le premier à étudier scientifiquement la neige comme composante climatique, et à comprendre le rôle des champs de neige dans le bilan énergétique de la planète. Il créa le premier réseau d'observations météorologiques en Russie. L'Institut géophysique principal de Saint-Pétersbourg porte son nom." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "«Général Hiver» — la météo russe dans l'histoire militaire", "content": "Le froid russe a changé le cours de l'histoire à plusieurs reprises. Napoléon perdit 400 000 hommes lors de la retraite de Moscou en 1812 — en grande partie à cause du froid. Hitler répéta l'erreur en 1941-42 : les soldats allemands n'étaient pas équipés pour -40°C. Le «Général Hiver» (Генерал Мороз) est devenu une expression historique pour désigner le froid comme arme de guerre involontaire. Les Russes sont fiers de cette particularité climatique défensive." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La neige à Moscou — 145 jours par an", "content": "Moscou reçoit en moyenne 145 jours de neige par an. La ville déploie une armée de 55 000 travailleurs et 14 000 machines pour déneiger. Résultat : Moscou est l'une des villes les plus propres en hiver malgré des chutes de neige massives. La neige est considérée comme normale — jamais une excuse pour rater le travail ! Particularité russe : «чёрный лёд» (verglas invisible) est plus redouté que la neige abondante. Et en mars, quand la neige fond, les «сосульки» (stalactites de glace) tombent des toits — danger réel !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Мороз и солнце — день чудесный!", "pronunciation": "Maróz i sóntse — dyen' tchoudiésny", "translation": "Le gel et le soleil — quelle journée merveilleuse !", "usage": "Premier vers du poème «Matin d'hiver» de Pouchkine (1829). Cette phrase est citée par tous les Russes lors d'un beau jour d'hiver ensoleillé mais glacial. Connaître cette citation, c'est toucher le cœur des Russes !", "example": "— Мороз и солнце — день чудесный! — О, вы знаете Пушкина! (Le gel et le soleil — quelle journée ! — Oh, vous connaissez Pouchkine !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Yakourtie — le pôle du froid", "subtitle": "Якутия — полюс холода", "content": "La Yakoutie (Якутия) en Sibérie est la région habitée la plus froide du monde. Oïmiakon y a enregistré -71,2°C en 1926 — record mondial absolu. Pourtant, des villages y sont habités en permanence ! En été, la même région atteint +35°C — amplitude de 100°C sur l'année ! Les habitants de Yakoutsk (capitale) vivent normalement par -50°C : voitures chauffées 24h/24, vêtements fourrure obligatoires, arbres qui craquent de froid. Expérience unique pour les amateurs d'extrêmes." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «il neige» en russe ?", "opts": ["Снежно.", "Идёт снег.", "Снег идти.", "Падает снег только."], "ans": 1, "exp": "«Идёт снег» = il neige. Le russe dit littéralement «la neige marche» — avec le verbe идти (aller/marcher). Même construction pour «идёт дождь» (il pleut)." },
+        { "q": "Quelle est la différence entre «тепло» et «жарко» ?", "opts": ["Aucune différence", "Тепло = chaud agréable, жарко = très chaud / étouffant", "Тепло = été, жарко = hiver", "Тепло pour l'intérieur, жарко pour l'extérieur"], "ans": 1, "exp": "«Тепло» = il fait chaud agréablement (environ 20-25°C). «Жарко» = il fait très chaud, étouffant (30°C+). Nuance de confort." },
+        { "q": "Que signifie l'expression «Генерал Мороз» ?", "opts": ["Un général célèbre de l'armée russe", "Le froid hivernal comme facteur historique de défense", "Le nom d'un film russe", "Un surnom affectueux pour Дед Мороз"], "ans": 1, "exp": "«Генерал Мороз» (Général Hiver) désigne le froid russe qui a contribué à la défaite de Napoléon (1812) et de Hitler (1941). Expression historique bien connue." },
+        { "q": "Comment dit-on «en hiver» en russe ?", "opts": ["в зиме", "зимой", "на зиму", "зима"], "ans": 1, "exp": "«Зимой» = en hiver. Les saisons s'expriment à l'instrumental en russe : зимой (hiver), летом (été), весной (printemps), осенью (automne)." },
+        { "q": "Quel poète russe a écrit «Мороз и солнце — день чудесный» ?", "opts": ["Tolstoï", "Tchekhov", "Pouchkine", "Lermontov"], "ans": 2, "exp": "Ces vers viennent de «Matin d'hiver» de Pouchkine (1829). C'est l'un des poèmes les plus cités par les Russes lors d'un beau jour d'hiver glacial et ensoleillé." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 2",
+      "titleRu": "Итоговый урок Модуля 2",
+      "level": "A1",
+      "grammar": {
+        "title": "Révision complète du Module 2",
+        "titleRu": "Повторение второго модуля",
+        "intro": "Félicitations — vous terminez le Module 2 ! Vous maîtrisez maintenant le vocabulaire de la vie quotidienne : logement, transports, commerces, corps, vêtements, ville, loisirs, téléphone et météo. Révisons les points grammaticaux essentiels.",
+        "sections": [
+          {
+            "title": "✅ Récapitulatif grammatical du Module 2",
+            "content": "✅ Le cas prépositionnel (в доме, в квартире, на кухне)\n✅ Les verbes aller : идти (à pied) / ехать (en véhicule)\n✅ L'accusatif en pratique (acheter, mettre un vêtement)\n✅ Exprimer la douleur : у меня болит...\n✅ Любить vs нравиться — deux façons d'aimer\n✅ Le futur simple : буду + infinitif\n✅ Les constructions impersonnelles météo (холодно, тепло...)\n✅ Идёт дождь / снег — il pleut / il neige\n✅ Les saisons au cas instrumental (зимой, летом...)"
+          },
+          {
+            "title": "Phrases essentielles du Module 2",
+            "content": "Я живу в квартире на пятом этаже. — J'habite dans un appartement au 5e étage.\nЯ еду на метро / на автобусе. — Je prends le métro / le bus.\nСколько стоит? Это слишком дорого. — Combien ça coûte ? C'est trop cher.\nУ меня болит голова. — J'ai mal à la tête.\nМне нравится русская музыка. — J'aime la musique russe.\nЯ буду звонить тебе завтра. — Je t'appellerai demain.\nИдёт снег, холодно! — Il neige, il fait froid !\nЕсть ли здесь Wi-Fi? — Y a-t-il du Wi-Fi ici ?"
+          },
+          {
+            "title": "Vocabulaire clé à mémoriser",
+            "content": "Logement : квартира, комната, дача, этаж, ключ\nTransports : метро, поезд, билет, пробка, пешком\nCommerces : магазин, рынок, цена, скидка, очередь\nSanté : болеть, врач, больница, аллергия, скорая\nVêtements : платье, пальто, шапка, размер, носить\nVille : улица, площадь, прямо, направо, рядом\nLoisirs : любить, нравиться, кино, спорт, хобби\nTech : звонить, сообщение, пароль, Wi-Fi, скачать\nMétéo : погода, снег, дождь, мороз, зимой / летом"
+          }
+        ],
+        "rule": "🏆 Vous avez maintenant les outils pour survivre et communiquer en Russie au quotidien ! Le Module 3 vous emmènera dans les restaurants, cafés et sorties culturelles. Поехали !"
+      },
+      "pronunciation": {
+        "intro": "Révision des phrases clés du Module 2 — entraînez-vous à les prononcer avec fluidité.",
+        "note": "",
+        "words": [
+          { "fr": "Я живу в квартире на третьем этаже.", "ru_pron": "Ya jivoú v kvartíre na tryétiem étaje", "meaning": "J'habite dans un appartement au 3e étage." },
+          { "fr": "Я еду на метро, там пробки.", "ru_pron": "Ya yédou na métró, tam próbki", "meaning": "Je prends le métro, il y a des embouteillages." },
+          { "fr": "Сколько стоит? Это слишком дорого.", "ru_pron": "Skól'ka stóit ? Éta slíchkam dóraga", "meaning": "Combien ça coûte ? C'est trop cher." },
+          { "fr": "У меня болит голова.", "ru_pron": "U minyá balít galavá", "meaning": "J'ai mal à la tête." },
+          { "fr": "Мне нравится этот город.", "ru_pron": "Mnyé NRávitsia étot górat", "meaning": "J'aime cette ville." },
+          { "fr": "Повернитe направо, потом прямо.", "ru_pron": "Paviernítiè napráva, patóm priáma", "meaning": "Tournez à droite, puis tout droit." },
+          { "fr": "Идёт снег, оденься потеплее!", "ru_pron": "Idyót snyek, adyénssia patiplée", "meaning": "Il neige, habille-toi plus chaudement !" },
+          { "fr": "Я буду звонить тебе завтра.", "ru_pron": "Ya boudou zvanít' tibé závtra", "meaning": "Je t'appellerai demain." },
+          { "fr": "Есть ли здесь Wi-Fi? Какой пароль?", "ru_pron": "Yést' li zdyes' vaï-faï ? Kakoï paról'", "meaning": "Y a-t-il du Wi-Fi ? Quel est le mot de passe ?" },
+          { "fr": "Спасибо за урок! Продолжаем!", "ru_pron": "Spasíba za ourok ! Pradaljaïm !", "meaning": "Merci pour la leçon ! Continuons !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "повторять", "gender": null, "ru": "répéter / réviser", "ru_pron": "pavtariyát'", "example_fr": "Нужно повторять каждый день.", "example_ru": "Il faut réviser chaque jour.", "level": "A1" },
+        { "fr": "запоминать", "gender": null, "ru": "mémoriser / retenir", "ru_pron": "zapaMinat'", "example_fr": "Запоминайте новые слова!", "example_ru": "Mémorisez les nouveaux mots !", "level": "A1" },
+        { "fr": "практиковать", "gender": null, "ru": "pratiquer", "ru_pron": "praktikavat'", "example_fr": "Практикуйте каждый день.", "example_ru": "Pratiquez chaque jour.", "level": "A1" },
+        { "fr": "прогресс", "gender": "m", "ru": "le progrès", "ru_pron": "praguéss", "example_fr": "У вас хороший прогресс!", "example_ru": "Vous faites de bons progrès !", "level": "A1" },
+        { "fr": "словарный запас", "gender": "m", "ru": "le vocabulaire (stock de mots)", "ru_pron": "slavárny zapás", "example_fr": "Увеличивайте словарный запас.", "example_ru": "Enrichissez votre vocabulaire.", "level": "A1" },
+        { "fr": "грамматика", "gender": "f", "ru": "la grammaire", "ru_pron": "gramátika", "example_fr": "Русская грамматика сложная.", "example_ru": "La grammaire russe est complexe.", "level": "A1" },
+        { "fr": "ошибка", "gender": "f", "ru": "l'erreur / la faute", "ru_pron": "achíbka", "example_fr": "Не бойтесь ошибок!", "example_ru": "N'ayez pas peur des erreurs !", "level": "A1" },
+        { "fr": "следующий", "gender": "adj m", "ru": "prochain / suivant", "ru_pron": "slyédouichtchy", "example_fr": "Следующий модуль интереснее.", "example_ru": "Le prochain module est plus intéressant.", "level": "A1" },
+        { "fr": "успех", "gender": "m", "ru": "le succès / la réussite", "ru_pron": "ouspiékh", "example_fr": "Желаю вам успеха!", "example_ru": "Je vous souhaite du succès !", "level": "A1" },
+        { "fr": "молодец", "gender": null, "ru": "bravo ! bien joué !", "ru_pron": "maladyéts", "example_fr": "Молодец! Модуль 2 завершён!", "example_ru": "Bravo ! Module 2 terminé !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "грамматика", "fr_pron": "gramátika", "ru": "grammaire", "ru_pron": "grammaire", "note": "«Грамматика» = grammaire. Même étymologie grecque «grammatike». La grammaire russe est réputée difficile mais ses règles sont régulières !" },
+        { "fr": "прогресс", "fr_pron": "praguéss", "ru": "progrès", "ru_pron": "progrès", "note": "«Прогресс» = progrès. Mot latin international. Vous en faites beaucoup depuis le début de ce cours !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Marina Tsvetaeva (1892–1941)", "subtitle": "Poétesse de la vie quotidienne et de l'exil", "content": "Marina Tsvetaeva est l'une des grandes poétesses russes du XXe siècle. Elle a su transformer les moments les plus ordinaires de la vie quotidienne (faire la vaisselle, les marchés, les rues de Moscou) en poésie bouleversante. Exilée après la Révolution, elle retourna en URSS en 1939 et, isolée, incomprise, se suicida en 1941 à Elabouga. Ses carnets décrivent minutieusement la vie quotidienne soviétique. Elle est aujourd'hui considérée comme aussi grande que Pasternak et Akhmatova." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La vie quotidienne soviétique — défis et ingéniosité", "content": "La vie quotidienne en URSS était marquée par les pénuries. Les citoyens faisaient la queue pour tout : pain, viande, chaussures... Ils développèrent un art de la «débrouillardise» (смекалка). Les blats (блат) — relations, piston — permettaient d'obtenir ce qu'on ne trouvait pas dans les magasins. Le marché noir florissait. Paradoxe soviétique : logement et transports quasi gratuits, mais pénuries constantes de biens de consommation. Cette expérience collective explique certains comportements des Russes actuels." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Русское авось» — la confiance au destin", "content": "«Авось» est un mot intraduisible russe — une sorte de «peut-être bien, et tant pis». «На авось» = se fier au hasard, improviser, espérer que ça marchera. «Авось пронесёт !» = espérons que ça passe ! Cette attitude face à l'incertitude quotidienne est une vraie philosophie de vie russe, façonnée par des siècles d'imprévisibilité climatique, politique et économique. Ni fatalisme, ni optimisme naïf — plutôt une confiance tranquille dans l'improvisation." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Ничего не поделаешь !", "pronunciation": "Nitchivó nie podiélayich", "translation": "On n'y peut rien ! / C'est ainsi !", "usage": "Expression de résignation philosophique face à une situation qu'on ne peut pas changer. Proche du «c'est la vie» ou «on n'y peut rien». Très représentative de l'attitude russe face aux aléas du quotidien.", "example": "— Опять пробки! — Ничего не поделаешь, это Москва... (Encore des embouteillages ! — On n'y peut rien, c'est Moscou...)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Irkoutsk — Porte du Baïkal", "subtitle": "Иркутск — ворота Байкала", "content": "Irkoutsk (Иркутск, 5 200 km à l'est de Moscou) est la capitale de la Sibérie orientale et la porte d'accès au lac Baïkal. Ville d'une richesse architecturale surprenante : maisons en bois sculptées du XIXe siècle, décors de la période «Or de la Sibérie». L'université locale est l'une des plus réputées de Russie. De là, le Baïkal est à 70 km. En hiver, la glace bleue du Baïkal, transparente sur 40 m de profondeur, est l'un des spectacles naturels les plus envoûtants au monde." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «il y a des embouteillages» en russe ?", "opts": ["Здесь дорого.", "Там пробки.", "Идёт машина.", "Нет транспорта."], "ans": 1, "exp": "«Там пробки» = il y a des embouteillages (là-bas). Пробки = embouteillages (pluriel de пробка). Phrase quotidienne indispensable à Moscou !" },
+        { "q": "Que signifie «авось» en russe ?", "opts": ["Jamais", "Certainement", "Peut-être bien / on verra (confiance au destin)", "Toujours"], "ans": 2, "exp": "«Авось» est intraduisible — une confiance tranquille dans le hasard. «На авось» = se fier à l'improvisation. Philosophie quotidienne russe." },
+        { "q": "Comment dit-on «n'ayez pas peur des erreurs» en russe ?", "opts": ["Не говорите ошибки.", "Не бойтесь ошибок!", "Ошибки — плохо.", "Не делайте ошибок."], "ans": 1, "exp": "«Не бойтесь ошибок !» = n'ayez pas peur des erreurs ! Бояться = avoir peur (+ génitif). Excellent conseil pour apprendre une langue !" },
+        { "q": "Comment se forment les saisons à l'instrumental en russe ?", "opts": ["в зиме, в лете", "зимой, летом, весной, осенью", "на зиму, на лето", "в зиму, в лето"], "ans": 1, "exp": "Les saisons au cas instrumental : зимой (en hiver), летом (en été), весной (au printemps), осенью (en automne). Ces formes s'apprennent par cœur !" },
+        { "q": "Que souhaitez-vous à quelqu'un qui commence quelque chose de nouveau ?", "opts": ["Ничего не поделаешь!", "До свидания!", "Желаю успеха!", "Ничего страшного!"], "ans": 2, "exp": "«Желаю успеха!» = je vous souhaite du succès ! Желать = souhaiter (+ génitif). Pour encourager, on dit aussi «Удачи!» (bonne chance !) ou «Молодец!» (bravo !)." }
+      ]
+    }
+  ]
+}
