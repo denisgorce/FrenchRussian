@@ -1,0 +1,732 @@
+{
+  "module": 3,
+  "titleFr": "Sorties et Culture",
+  "titleRu": "Выходы и культура",
+  "description": "Les restaurants, cafés, théâtres, musées, fêtes et sorties culturelles — tout pour vivre la Russie de l'intérieur.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Au Restaurant",
+      "titleRu": "В ресторане",
+      "level": "A1",
+      "grammar": {
+        "title": "Commander au restaurant — le cas génitif",
+        "titleRu": "Заказ и родительный падеж",
+        "intro": "Le génitif est le cas russe le plus fréquent — on l'utilise dans des dizaines de constructions. Au restaurant, il est indispensable pour exprimer la quantité («un verre de», «une portion de»), la négation («pas de...»), et pour exprimer ce qu'on n'a pas («у меня нет + génitif»).",
+        "sections": [
+          {
+            "title": "Formation du génitif singulier",
+            "content": "Masculin (consonne) : + -а → стол → стола (de la table)\nMasculin (-й/-ь) : → -я → чай → чая (du thé)\nFéminin (-а) : → -ы → вода → воды (de l'eau)\nFéminin (-я/-ь) : → -и → неделя → недели\nNeutre (-о) : → -а → вино → вина (du vin)\nNeutre (-е) : → -я → море → моря\n\nRègle orthographique : après г, к, х, ж, ш, щ, ч — jamais «ы», toujours «и»."
+          },
+          {
+            "title": "Génitif partitif — les quantités",
+            "content": "стакан воды — un verre d'eau\nчашка кофе — une tasse de café\nбутылка вина — une bouteille de vin\nкусок хлеба — un morceau de pain\nпорция супа — une portion de soupe\ntарелка борща — une assiette de bortsch\nграмм сыра — un gramme de fromage\n\nDemander : Принесите мне стакан воды, пожалуйста."
+          },
+          {
+            "title": "Génitif de négation",
+            "content": "Нет + génitif = il n'y a pas de...\n\nУ нас нет рыбы сегодня. — Nous n'avons pas de poisson aujourd'hui.\nЗдесь нет меню на французском. — Il n'y a pas de menu en français.\nНет свободных столиков. — Il n'y a pas de tables libres.\n\nNégatif personnel : У меня нет... — Je n'ai pas de...\nУ меня нет денег. — Je n'ai pas d'argent."
+          },
+          {
+            "title": "Phrases clés au restaurant",
+            "content": "Столик на двоих, пожалуйста. — Une table pour deux, s'il vous plaît.\nМожно меню? — Le menu, s'il vous plaît ?\nЯ готов(а) заказать. — Je suis prêt(e) à commander.\nЧто вы рекомендуете? — Que recommandez-vous ?\nПринесите счёт, пожалуйста. — L'addition, s'il vous plaît.\nЭто было вкусно! — C'était délicieux !"
+          }
+        ],
+        "rule": "💡 Moyen mnémotechnique pour le génitif : si vous pouvez dire «de + nom» en français, c'est le génitif russe. «Un verre DE vin» = стакан вина. «La maison DE mon ami» = дом моего друга."
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire du restaurant — pour commander comme un(e) vrai(e) Russe !",
+        "note": "⚠️ «Борщ» — le signe mou final (ь) adoucit le «щ» déjà doux. Prononcez «BORCHTCH'» — un son typiquement russe que les francophones ont du mal à reproduire.",
+        "words": [
+          { "fr": "ресторан", "ru_pron": "ristarán", "meaning": "le restaurant" },
+          { "fr": "меню", "ru_pron": "minyoú", "meaning": "le menu / la carte" },
+          { "fr": "официант", "ru_pron": "afitsiánt", "meaning": "le serveur" },
+          { "fr": "счёт", "ru_pron": "chtchyót", "meaning": "l'addition / le compte" },
+          { "fr": "борщ", "ru_pron": "borchtch'", "meaning": "le bortsch (soupe de betterave)" },
+          { "fr": "заказывать", "ru_pron": "zakázyvat'", "meaning": "commander" },
+          { "fr": "вкусно", "ru_pron": "fkoúsna", "meaning": "c'est délicieux" },
+          { "fr": "столик", "ru_pron": "stólik", "meaning": "la petite table" },
+          { "fr": "чаевые", "ru_pron": "tchaïvýe", "meaning": "le pourboire" },
+          { "fr": "бронировать", "ru_pron": "brónirovat'", "meaning": "réserver" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "заказывать", "gender": null, "ru": "commander (au restaurant)", "ru_pron": "zakázyvat'", "example_fr": "Я готов заказывать.", "example_ru": "Je suis prêt à commander.", "level": "A1" },
+        { "fr": "меню", "gender": "n", "ru": "le menu / la carte", "ru_pron": "minyoú", "example_fr": "Можно посмотреть меню?", "example_ru": "Puis-je voir le menu ?", "level": "A1" },
+        { "fr": "счёт", "gender": "m", "ru": "l'addition / le compte", "ru_pron": "chtchyót", "example_fr": "Принесите счёт, пожалуйста.", "example_ru": "L'addition, s'il vous plaît.", "level": "A1" },
+        { "fr": "вкусный", "gender": "adj m", "ru": "délicieux / savoureux", "ru_pron": "fkoúsny", "example_fr": "Это очень вкусно!", "example_ru": "C'est très délicieux !", "level": "A1" },
+        { "fr": "официант", "gender": "m", "ru": "le serveur", "ru_pron": "afitsiánt", "example_fr": "Официант, пожалуйста!", "example_ru": "Garçon, s'il vous plaît !", "level": "A1" },
+        { "fr": "порция", "gender": "f", "ru": "la portion / la part", "ru_pron": "pórtsia", "example_fr": "Одну порцию борща.", "example_ru": "Une portion de bortsch.", "level": "A1" },
+        { "fr": "чаевые", "gender": "pl", "ru": "le pourboire", "ru_pron": "tchaïvýe", "example_fr": "Оставить чаевые?", "example_ru": "Laisser un pourboire ?", "level": "A1" },
+        { "fr": "аллергия на", "gender": "f", "ru": "allergie à", "ru_pron": "alerguía na", "example_fr": "У меня аллергия на орехи.", "example_ru": "J'ai une allergie aux noix.", "level": "A1" },
+        { "fr": "рекомендовать", "gender": null, "ru": "recommander", "ru_pron": "rikimindat'", "example_fr": "Что вы рекомендуете?", "example_ru": "Que recommandez-vous ?", "level": "A1" },
+        { "fr": "столик", "gender": "m", "ru": "la table (au restaurant)", "ru_pron": "stólik", "example_fr": "Столик на двоих, пожалуйста.", "example_ru": "Une table pour deux, s'il vous plaît.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "ресторан", "fr_pron": "ristarán", "ru": "restaurant", "ru_pron": "restaurant", "note": "«Ресторан» = restaurant. Emprunt direct au français. Les restaurants français sont très appréciés en Russie depuis le XVIIIe siècle — la cuisine française était la référence de l'aristocratie russe." },
+        { "fr": "меню", "fr_pron": "minyoú", "ru": "menu", "ru_pron": "menu", "note": "«Меню» = menu. Mot français adopté tel quel, invariable en russe (ne change pas selon les cas). Les menus russes proposent souvent un «бизнес-ланч» (business lunch) très populaire à midi." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Gogol (1809–1852)", "subtitle": "Auteur des Âmes mortes et du Révizor", "content": "Nikolaï Gogol est l'un des plus grands écrivains russes. Son œuvre mêle humour féroce, critique sociale et mysticisme ukraino-russe. «Les Âmes mortes» (Мёртвые души) décrivent un escroc qui achète des serfs morts pour la fiscalité — satire brillante de la bureaucratie russe. Le héros de son roman «Le Manteau» (Шинель) est un fonctionnaire pitoyable dont le manteau volé brise la vie. Gogol aimait passionnément la gastronomie — ses lettres regorgent de descriptions de repas ukrainiens. Il mourut d'avoir trop jeûné par ascétisme religieux." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La cuisine soviétique et le «Livre du goût savoureux et sain»", "content": "En 1939, Staline fit publier «Le Livre de la cuisine savoureuse et saine» (Книга о вкусной и здоровой пище) — un pavé luxueux décrivant une abondance culinaire que la plupart des Soviétiques ne pouvaient pas se permettre. Paradoxe de propagande : des recettes élaborées dans un pays de pénuries. Ce livre, réédité des dizaines de fois, est devenu un classique. Aujourd'hui, il se trouve dans de nombreuses cuisines russes comme objet de nostalgie." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le pourboire en Russie — évolution des usages", "content": "Historiquement, le pourboire (чаевые, littéralement «argent pour le thé») n'était pas une pratique soviétique — dans un système égalitaire, on ne «payait pas» les serveurs en plus. Depuis les années 1990, la pratique s'est imposée : 10-15% est aujourd'hui standard dans les restaurants. Mais beaucoup de restaurants ajoutent désormais le service automatiquement (обслуживание включено). Vérifiez l'addition ! Le terme «чаевые» (argent du thé) vient de l'époque tsariste où on laissait de quoi offrir le thé au personnel." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Приятного аппетита!", "pronunciation": "Priyátnava apitíta", "translation": "Bon appétit !", "usage": "Le «bon appétit» russe. On dit «Приятного аппетита!» avant de commencer à manger. Réponse possible : «Спасибо, и вам тоже!» (Merci, à vous aussi !). On peut aussi dire simplement «Приятного!» entre amis.", "example": "— Ваш борщ. Приятного аппетита! — Спасибо, очень вкусно выглядит! (Votre bortsch. Bon appétit ! — Merci, ça a l'air délicieux !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Le marché Danilov", "subtitle": "Даниловский рынок — гастрономический рай", "content": "Le marché Danilov (Даниловский рынок) à Moscou est le marché gastronomique le plus branché de la capitale. Réhabilité en 2016, il mêle étals de producteurs locaux, restaurants de cuisine du monde, fromageries, boulangeries artisanales et bars à vin. Les week-ends, il se transforme en festival culinaire. C'est l'endroit idéal pour goûter la street food moscovite moderne — de la soupe de raviolis sibériens (пельмени) aux interprétations contemporaines de la cuisine géorgienne." }
+      },
+      "quiz": [
+        { "q": "Comment exprime-t-on «un verre d'eau» en russe ?", "opts": ["стакан вода", "стакан воды", "стакан водой", "стакан в воде"], "ans": 1, "exp": "«Стакан воды» = un verre d'eau. La quantité + génitif : вода → воды (génitif singulier féminin). Le génitif partitif exprime «de quelque chose»." },
+        { "q": "Comment dit-on «il n'y a pas de table libre» ?", "opts": ["Нет стол свободный.", "Нет свободных столиков.", "Столик нет.", "Здесь нет место."], "ans": 1, "exp": "«Нет свободных столиков» = il n'y a pas de table libre. Нет + génitif pluriel. Свободных столиков = génitif pluriel de «свободный столик»." },
+        { "q": "Que signifie «чаевые» littéralement ?", "opts": ["La monnaie", "L'argent pour le thé (pourboire)", "La taxe de service", "Le prix du repas"], "ans": 1, "exp": "«Чаевые» = pourboire, littéralement «argent pour le thé». Vient de l'époque tsariste où on laissait de quoi offrir le thé au personnel de service." },
+        { "q": "Comment demander l'addition en russe ?", "opts": ["Дайте деньги!", "Принесите счёт, пожалуйста.", "Я хочу платить.", "Сколько я должен?"], "ans": 1, "exp": "«Принесите счёт, пожалуйста» = apportez l'addition, s'il vous plaît. Принесите = apportez (impératif). Счёт = addition/compte." },
+        { "q": "D'où vient la passion de la cuisine française en Russie ?", "opts": ["Du commerce soviétique", "De l'aristocratie russe du XVIIIe siècle", "Des années 1990", "Des films de cinéma"], "ans": 1, "exp": "La cuisine française était la référence de l'aristocratie russe dès le XVIIIe siècle. Le français était la langue de la cour impériale — et la cuisine française, celle des grandes tables. Héritage qui dure encore." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Les Boissons et le Café Russe",
+      "titleRu": "Напитки и кафе",
+      "level": "A1",
+      "grammar": {
+        "title": "Les boissons et le génitif pluriel",
+        "titleRu": "Напитки и родительный падеж множественного числа",
+        "intro": "Le génitif pluriel est l'un des points les plus complexes de la grammaire russe — mais aussi l'un des plus utiles. Il s'utilise après les chiffres (5, 6, 7...), après «много/мало» (beaucoup/peu) et dans de nombreuses expressions de quantité.",
+        "sections": [
+          {
+            "title": "Génitif pluriel — principales règles",
+            "content": "Masculin (consonne) : + -ов → стакан → стаканов\nMasculin (-й) : → -ев → чай → чаёв\nMasculin (-ь) : → -ей → учитель → учителей\nFéminin (-а) : enlever -а → вода → вод\nFéminin (-я) : → -й → неделя → недель\nFéminin (-ь) : → -ей → ночь → ночей\nNeutre (-о) : enlever -о → слово → слов\nNeutre (-е) : enlever -е → море → морей\n\n⚠️ Nombreuses exceptions — à apprendre progressivement."
+          },
+          {
+            "title": "Chiffres et génitif",
+            "content": "1 — nominatif : один стакан\n2, 3, 4 — génitif singulier : два стакана\n5, 6... — génitif pluriel : пять стаканов\nmного / мало — génitif pluriel : много стаканов\n\nEx au café :\nДве чашки кофе. — Deux tasses de café.\nПять сортов чая. — Cinq sortes de thé.\nМного людей. — Beaucoup de gens."
+          },
+          {
+            "title": "Boissons russes essentielles",
+            "content": "чай — thé\nкофе — café (invariable !)\nвода — eau\nсок — jus\nкефир — kéfir\nкомпот — compote (boisson)\nквас — kvass (boisson fermentée au pain)\nморс — jus de baies\nминеральная вода — eau minérale\nгазированная / негазированная — gazeuse / plate"
+          }
+        ],
+        "rule": "💡 «Кофе» (café) est invariable en russe moderne — il ne change jamais quelle que soit sa fonction dans la phrase. Et il est grammaticalement masculin (une tasse de café = чашка кофе)."
+      },
+      "pronunciation": {
+        "intro": "Les boissons russes — du traditionnel au moderne !",
+        "note": "⚠️ «Квас» — prononcez «kvas» avec un «a» bref. C'est une boisson fermentée à base de pain de seigle, légèrement alcoolisée, rafraîchissante et très populaire en été.",
+        "words": [
+          { "fr": "чай", "ru_pron": "tchaï", "meaning": "le thé" },
+          { "fr": "кофе", "ru_pron": "kófé", "meaning": "le café" },
+          { "fr": "квас", "ru_pron": "kvas", "meaning": "le kvass (boisson fermentée au pain)" },
+          { "fr": "кефир", "ru_pron": "kiefír", "meaning": "le kéfir" },
+          { "fr": "морс", "ru_pron": "mors", "meaning": "le jus de baies (boisson)" },
+          { "fr": "компот", "ru_pron": "kompót", "meaning": "la compote (boisson)" },
+          { "fr": "газировка", "ru_pron": "gaziróvka", "meaning": "la boisson gazeuse" },
+          { "fr": "самовар", "ru_pron": "samaváR", "meaning": "le samovar" },
+          { "fr": "сахар", "ru_pron": "sákhar", "meaning": "le sucre" },
+          { "fr": "молоко", "ru_pron": "malakó", "meaning": "le lait" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "чай", "gender": "m", "ru": "le thé", "ru_pron": "tchaï", "example_fr": "Два стакана чая, пожалуйста.", "example_ru": "Deux verres de thé, s'il vous plaît.", "level": "A1" },
+        { "fr": "кофе", "gender": "m (inv.)", "ru": "le café", "ru_pron": "kófé", "example_fr": "Чашка кофе с молоком.", "example_ru": "Une tasse de café au lait.", "level": "A1" },
+        { "fr": "квас", "gender": "m", "ru": "le kvass", "ru_pron": "kvas", "example_fr": "Летом я пью квас.", "example_ru": "En été je bois du kvass.", "level": "A1" },
+        { "fr": "кефир", "gender": "m", "ru": "le kéfir", "ru_pron": "kiefír", "example_fr": "Кефир полезен для здоровья.", "example_ru": "Le kéfir est bon pour la santé.", "level": "A1" },
+        { "fr": "морс", "gender": "m", "ru": "le jus de baies", "ru_pron": "mors", "example_fr": "Клюквенный морс очень вкусный.", "example_ru": "Le jus de canneberge est délicieux.", "level": "A1" },
+        { "fr": "самовар", "gender": "m", "ru": "le samovar", "ru_pron": "samaváR", "example_fr": "Чай из самовара особенный.", "example_ru": "Le thé du samovar est spécial.", "level": "A1" },
+        { "fr": "газированная", "gender": "adj f", "ru": "gazeuse (eau/boisson)", "ru_pron": "gaziróvannaya", "example_fr": "Газированная или негазированная?", "example_ru": "Gazeuse ou plate ?", "level": "A1" },
+        { "fr": "выпить", "gender": null, "ru": "boire (une fois, perfectif)", "ru_pron": "výpit'", "example_fr": "Хотите выпить кофе?", "example_ru": "Voulez-vous boire un café ?", "level": "A1" },
+        { "fr": "заварить", "gender": null, "ru": "infuser / préparer (le thé)", "ru_pron": "zavarít'", "example_fr": "Я заварю чай.", "example_ru": "Je vais préparer le thé.", "level": "A1" },
+        { "fr": "горячий", "gender": "adj m", "ru": "chaud (brûlant)", "ru_pron": "gariátchy", "example_fr": "Осторожно, горячий!", "example_ru": "Attention, c'est chaud !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "кофе", "fr_pron": "kófé", "ru": "café (boisson)", "ru_pron": "café", "note": "«Кофе» vient du turc «kahve», lui-même de l'arabe «qahwa». Le café est arrivé en Russie sous Pierre le Grand au début du XVIIIe siècle. Aujourd'hui les coffee-shops sont partout en Russie." },
+        { "fr": "компот", "fr_pron": "kompót", "ru": "compote (boisson)", "ru_pron": "compote", "note": "«Компот» vient du français «compote» — mais en Russie c'est avant tout une boisson : fruits cuits dans l'eau sucrée, servis froids. Incontournable dans la cantine soviétique !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Pierre le Grand (1672–1725)", "subtitle": "Tsar modernisateur et introducteur du café", "content": "Pierre le Grand est le tsar qui a ouvert la Russie à l'Europe. Parmi ses nombreuses innovations : il introduisit le café en Russie après avoir voyagé en Hollande et en Angleterre. Il obligea la noblesse à fréquenter des «assemblées» (réunions mixtes avec les femmes) où l'on servait thé, café et alcool. Cette révolution sociale fut difficile à accepter dans une Russie traditionnelle. Pierre interdit aussi aux boyards de porter la barbe — symbole de son westernisation forcée." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La culture du thé en Russie — le samovar et le prikuska", "content": "La Russie est l'une des plus grandes nations consommatrices de thé au monde. Le thé arriva au XVIIe siècle via la Mongolie et la Chine par la «Route du thé». Le samovar (самовар = «qui se fait bouillir lui-même») est le symbole de l'hospitalité russe — une urne en métal qui garde l'eau chaude pour des heures. La tradition du «prikuska» (пrikуска) = boire le thé en mordant le sucre (plutôt qu'en le faisant fondre dedans). Certains Russes boivent encore le thé dans un verre avec un porte-verre en métal (подстаканник)." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le kvass — boisson nationale estivale", "content": "Le kvass (квас) est la boisson russe estivale par excellence. Légèrement fermenté à partir de pain de seigle (1-2% d'alcool), il est rafraîchissant, légèrement acide et sucré. Autrefois vendu dans des tonneaux jaunes dans les rues par des «kvasniki». Aujourd'hui les grandes marques (Ochakovo, Nikola) dominent les rayons — avec le slogan «Никола» (Nikola) qui joue sur «не кола» (pas-cola) ! Le kvass maison fait un come-back chez les amateurs d'authenticité." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Чай или кофе?", "pronunciation": "Tchaï íli kófé", "translation": "Thé ou café ?", "usage": "La première question posée à tout invité en Russie. Refuser est possible mais rare — le thé ou le café symbolise l'hospitalité. Accepter renforce la relation. On peut répondre «Чай, пожалуйста, с лимоном» (thé avec citron — très russe).", "example": "— Чай или кофе? — Чай, пожалуйста, с лимоном и сахаром. (Thé ou café ? — Du thé s'il vous plaît, avec citron et sucre.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Les cafés Coffeemania et Zoom", "subtitle": "Кофейная культура Москвы", "content": "Moscou est devenue l'une des capitales mondiales du café de spécialité. Des quartiers entiers sont dominés par des coffee-shops indépendants : Kuznetsky Most, Patriarch's Ponds, Chistye Prudy. La chaîne Coffeemania est une institution moscovite depuis les années 2000. Depuis 2022, les grandes chaînes internationales ont quitté la Russie — remplacées par des concepts russes souvent de haute qualité : beans russes, baristas formés en Europe. Le café de spécialité y est devenu un art sérieux." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «deux tasses de café» en russe ?", "opts": ["два кофе", "две чашки кофе", "двух кофе", "два стакана кофе"], "ans": 1, "exp": "«Две чашки кофе» = deux tasses de café. Две (féminin de два) + чашки (génitif singulier de чашка) + кофе (invariable). Le café ne change jamais de forme !" },
+        { "q": "Qu'est-ce que le «квас» ?", "opts": ["Un thé russe aux épices", "Une boisson fermentée au pain de seigle", "Un jus de fruits mélangés", "Une vodka légère"], "ans": 1, "exp": "Le kvass (квас) est une boisson traditionnelle russe légèrement fermentée à base de pain de seigle. Peu alcoolisé, rafraîchissant, très populaire en été." },
+        { "q": "Comment dit-on «gazeuse ou plate» en russe ?", "opts": ["Горячая или холодная?", "Газированная или негазированная?", "Сладкая или несладкая?", "Большая или маленькая?"], "ans": 1, "exp": "«Газированная или негазированная?» = gazeuse ou plate ? Газированная = avec gaz (газ). Негазированная = sans gaz (не = préfixe négatif)." },
+        { "q": "Quel est le symbole de l'hospitalité russe liée au thé ?", "opts": ["La théière en porcelaine", "Le samovar", "La tasse en cristal", "Le porte-verre en argent"], "ans": 1, "exp": "Le samovar (самовар = qui se fait bouillir lui-même) est le symbole de l'hospitalité russe. Urne en métal qui maintient l'eau chaude des heures — au cœur de la vie sociale russe." },
+        { "q": "Quand le café est-il arrivé en Russie ?", "opts": ["Au Moyen Âge via les marchands arabes", "Au XVIIIe siècle sous Pierre le Grand", "Au XIXe siècle via la France", "Au XXe siècle à l'époque soviétique"], "ans": 1, "exp": "Pierre le Grand introduisit le café en Russie après ses voyages en Europe occidentale. Il obligea la noblesse à fréquenter des assemblées où l'on servait café et thé — révolution sociale majeure." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "La Cuisine Russe",
+      "titleRu": "Русская кухня",
+      "level": "A1",
+      "grammar": {
+        "title": "La cuisine et les verbes perfectifs / imperfectifs",
+        "titleRu": "Кухня и вид глагола",
+        "intro": "Le système des verbes perfectifs et imperfectifs est l'une des particularités fondamentales du russe. Chaque action peut être vue sous deux angles : le processus (imperfectif) ou la complétion (perfectif). C'est une vision du temps radicalement différente du français.",
+        "sections": [
+          {
+            "title": "Perfectif vs Imperfectif — principe de base",
+            "content": "Imperfectif — l'action en cours, habituelle, ou sans résultat précis :\nЯ готовлю. — Je cuisine (en ce moment) / Je cuisne (habituellement).\nЯ читал. — Je lisais / Je lisais habituellement.\n\nPerfectif — l'action complète, avec résultat :\nЯ приготовил. — J'ai cuisiné (et c'est fini / prêt).\nЯ прочитал. — J'ai lu (le livre en entier).\n\nRègle clé : le perfectif n'a PAS de présent. Au présent, seul l'imperfectif existe."
+          },
+          {
+            "title": "Paires perfectif / imperfectif de cuisine",
+            "content": "готовить / приготовить — cuisiner / avoir cuisiné\nварить / сварить — cuire à l'eau / avoir cuit\nжарить / пожарить — frire / avoir frit\nпечь / испечь — cuire au four / avoir cuit\nрезать / нарезать — couper / avoir coupé\nдобавить / добавлять — ajouter / avoir ajouté"
+          },
+          {
+            "title": "Les plats russes emblématiques",
+            "content": "борщ — bortsch (soupe betterave)\nщи — chtchi (soupe au chou)\nпельмени — pelmeni (raviolis sibériens)\nvareники — varéniki (raviolis ukrainiens)\nблины — blinis\nсолянка — solianka (soupe épicée à la viande)\nпирожки — pirochki (chaussons farcis)\nоливье — salade Olivier (salade russe)\nсельдь под шубой — hareng sous manteau (salade)\nкаша — porridge / bouillie de céréales"
+          }
+        ],
+        "rule": "💡 Astuce pour mémoriser : l'imperfectif = le film (on voit le processus). Le perfectif = la photo (on voit le résultat fini). «Готовить» = filmer quelqu'un qui cuisine. «Приготовить» = la photo du plat terminé."
+      },
+      "pronunciation": {
+        "intro": "Les plats russes — un voyage culinaire incontournable !",
+        "note": "⚠️ «Щи» — prononcez «chtchi» (le son щ est un «tch» adouci et allongé). C'est l'une des soupes russes les plus anciennes — et l'un des sons les plus difficiles pour les francophones.",
+        "words": [
+          { "fr": "борщ", "ru_pron": "borchtch'", "meaning": "le bortsch (soupe de betterave)" },
+          { "fr": "щи", "ru_pron": "chtchi", "meaning": "le chtchi (soupe au chou)" },
+          { "fr": "пельмени", "ru_pron": "piel'myéni", "meaning": "les pelmeni (raviolis sibériens)" },
+          { "fr": "блины", "ru_pron": "bliny", "meaning": "les blinis (crêpes russes)" },
+          { "fr": "каша", "ru_pron": "kâcha", "meaning": "le porridge / la bouillie de céréales" },
+          { "fr": "пирожки", "ru_pron": "pirach'kí", "meaning": "les pirochki (chaussons farcis)" },
+          { "fr": "солянка", "ru_pron": "soliánka", "meaning": "la solianka (soupe épicée)" },
+          { "fr": "vareники", "ru_pron": "varéniki", "meaning": "les varéniki (raviolis farcis)" },
+          { "fr": "оливье", "ru_pron": "alivyé", "meaning": "la salade Olivier" },
+          { "fr": "икра", "ru_pron": "ikrá", "meaning": "le caviar / les œufs de poisson" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "готовить", "gender": null, "ru": "cuisiner / préparer", "ru_pron": "gatóvit'", "example_fr": "Она умеет готовить борщ.", "example_ru": "Elle sait faire du bortsch.", "level": "A1" },
+        { "fr": "рецепт", "gender": "m", "ru": "la recette", "ru_pron": "ritsept", "example_fr": "Дайте мне рецепт!", "example_ru": "Donnez-moi la recette !", "level": "A1" },
+        { "fr": "ингредиент", "gender": "m", "ru": "l'ingrédient", "ru_pron": "ingridiént", "example_fr": "Какие нужны ингредиенты?", "example_ru": "Quels ingrédients faut-il ?", "level": "A1" },
+        { "fr": "варить", "gender": null, "ru": "cuire à l'eau / bouillir", "ru_pron": "varít'", "example_fr": "Варите пельмени 5 минут.", "example_ru": "Faites cuire les pelmeni 5 minutes.", "level": "A1" },
+        { "fr": "жарить", "gender": null, "ru": "frire / faire revenir", "ru_pron": "jarít'", "example_fr": "Жарьте лук до золотистого.", "example_ru": "Faites revenir l'oignon jusqu'à doré.", "level": "A1" },
+        { "fr": "соль", "gender": "f", "ru": "le sel", "ru_pron": "sol'", "example_fr": "Добавьте соль по вкусу.", "example_ru": "Ajoutez du sel selon votre goût.", "level": "A1" },
+        { "fr": "масло", "gender": "n", "ru": "le beurre / l'huile", "ru_pron": "másla", "example_fr": "Со сливочным маслом вкуснее.", "example_ru": "Avec du beurre c'est plus délicieux.", "level": "A1" },
+        { "fr": "мясо", "gender": "n", "ru": "la viande", "ru_pron": "miása", "example_fr": "Борщ с мясом очень сытный.", "example_ru": "Le bortsch avec viande est très nourrissant.", "level": "A1" },
+        { "fr": "свекла", "gender": "f", "ru": "la betterave", "ru_pron": "svyókla", "example_fr": "Борщ готовится со свеклой.", "example_ru": "Le bortsch est fait avec de la betterave.", "level": "A1" },
+        { "fr": "блин", "gender": "m", "ru": "le blini / la crêpe russe", "ru_pron": "blin", "example_fr": "Блины со сметаной — объедение!", "example_ru": "Des blinis à la crème aigre — un régal !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "рецепт", "fr_pron": "ritsept", "ru": "recette / prescription", "ru_pron": "recette", "note": "«Рецепт» = recette de cuisine ET ordonnance médicale — exactement comme le français! Du latin «receptum» (chose reçue). Un rецепт médical s'obtient chez le врач." },
+        { "fr": "ингредиент", "fr_pron": "ingridiént", "ru": "ingrédient", "ru_pron": "ingrédient", "note": "«Ингредиент» = ingrédient. Emprunt du latin via l'anglais ou le français. Terme culinaire international utilisé dans les recettes russes modernes." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Lucien Olivier (vers 1838–1883)", "subtitle": "Chef français créateur de la salade Olivier", "content": "La célèbre «salade Olivier» (салат Оливье), incontournable sur toutes les tables russes du Nouvel An, fut créée par un chef belge/français, Lucien Olivier, au restaurant «L'Ermitage» à Moscou dans les années 1860. Sa recette originale (truffe, langue de veau, caviar, caille) fut perdue avec sa mort. Les Soviétiques la simplificèrent avec pommes de terre, carottes, petits pois, mayonnaise et mortadelle (doctorskaïa). Cette version soviétique est aujourd'hui «la» salade russe universelle." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les pelmeni — raviolis conquérants de Sibérie", "content": "Les pelmeni (пельмени) sont originaires des peuples finno-ougriens de l'Oural. Leur nom vient de l'ougriens «pel'nyan'» = oreille de pain. Les Cosaques les adoptèrent lors de la conquête de la Sibérie au XVIe siècle — parfaits pour les grands froids car ils se conservent congelés des mois. Garnis de viande hachée (bœuf+porc+oignon), ils se servent avec beurre, crème aigre (сметана) ou dans un bouillon. Aujourd'hui emblème de la cuisine sibérienne et du confort alimentaire russe." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La Maslenitsa — la fête des crêpes", "content": "La Maslenitsa (Масленица) est la fête russe des crêpes — l'équivalent du Mardi Gras. Pendant une semaine avant le Carême orthodoxe (7 semaines avant Pâques), on mange des blinis en abondance pour célébrer la fin de l'hiver. Les blinis ronds comme le soleil symbolisent le retour de la chaleur. On brûle une effigie de l'hiver (чучело). Le dicton : «Не жизнь, а масленица!» (Ce n'est pas la vie, c'est la Maslenitsa !) = expression d'un bonheur intense." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Первое, второе и компот!", "pronunciation": "Pyérvoyé, vtoróyé i kompót", "translation": "L'entrée, le plat et la compote !", "usage": "Formule humoristique qui décrit le repas soviétique type à la cantine : «первое» (premier plat = soupe), «второе» (deuxième plat = plat chaud), «компот» (dessert liquide). Évoque avec nostalgie ou ironie l'époque soviétique. On l'utilise pour dire «le menu complet».", "example": "— Что берёшь? — Как всегда: первое, второе и компот! (Tu prends quoi ? — Comme toujours : soupe, plat et compote !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Iekaterinbourg — Capitale des pelmeni", "subtitle": "Екатеринбург — столица пельменей", "content": "Iekaterinbourg, au pied de l'Oural, se targue d'être la capitale mondiale des pelmeni. La ville accueille un festival annuel des pelmeni et abrite le «Musée des pelmeni» (Музей пельменей) — lieu mi-sérieux mi-humoristique qui retrace l'histoire de ce plat et propose des dégustations de dizaines de variétés (aux champignons, aux baies, au fromage, au caviar...). Expérience unique et délicieuse." }
+      },
+      "quiz": [
+        { "q": "Quelle est la différence entre «готовить» et «приготовить» ?", "opts": ["Aucune différence", "Готовить = cuisiner (processus), приготовить = avoir fini de cuisiner", "Готовить = cuisiner simple, приготовить = cuisiner bien", "Готовить pour femmes, приготовить pour hommes"], "ans": 1, "exp": "«Готовить» (imperfectif) = cuisiner, le processus. «Приготовить» (perfectif) = avoir cuisiné, l'action complète avec résultat. Distinction fondamentale du système verbal russe." },
+        { "q": "D'où viennent les pelmeni ?", "opts": ["De Moscou, créés par les tsars", "Des peuples finno-ougriens de l'Oural, adoptés par les Cosaques en Sibérie", "De la cuisine chinoise importée via la Route de la Soie", "De Saint-Pétersbourg au XVIIIe siècle"], "ans": 1, "exp": "Les pelmeni viennent des peuples finno-ougriens de l'Oural. Les Cosaques les adoptèrent lors de la conquête de la Sibérie — parfaits pour les grands froids car ils se conservent congelés." },
+        { "q": "Qu'est-ce que la Maslenitsa ?", "opts": ["La fête de Pâques orthodoxe", "La fête des crêpes / carnaval avant le Carême", "Le festival de la soupe borsch", "La fête nationale de la cuisine russe"], "ans": 1, "exp": "La Maslenitsa est la fête russe des crêpes, équivalent du Mardi Gras. Pendant une semaine avant le Carême orthodoxe, on mange des blinis pour célébrer la fin de l'hiver." },
+        { "q": "Qui a inventé la salade Olivier ?", "opts": ["Un chef soviétique anonyme", "Un chef belge/français nommé Lucien Olivier, à Moscou", "Le tsar Nicolas II", "Une cuisinière sibérienne du XVIIIe siècle"], "ans": 1, "exp": "La salade Olivier fut créée par Lucien Olivier, chef belge/français au restaurant L'Ermitage à Moscou dans les années 1860. Les Soviétiques simplifièrent la recette avec les ingrédients disponibles." },
+        { "q": "Comment dit-on «faites cuire à l'eau» en russe ?", "opts": ["Жарьте", "Пеките", "Варите", "Режьте"], "ans": 2, "exp": "«Варите» = faites cuire à l'eau (bouillir). Варить = cuire dans l'eau. Жарить = frire. Печь = cuire au four. Резать = couper." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Au Théâtre et à l'Opéra",
+      "titleRu": "В театре и опере",
+      "level": "A1",
+      "grammar": {
+        "title": "Le comparatif des adjectifs",
+        "titleRu": "Сравнительная степень прилагательных",
+        "intro": "Comparer des spectacles, des performances, des places — l'occasion idéale d'apprendre le comparatif en russe ! Le comparatif est remarquablement simple en russe : une seule forme invariable pour tous les genres et nombres.",
+        "sections": [
+          {
+            "title": "Formation du comparatif simple (forme courte)",
+            "content": "Règle générale : racine de l'adjectif + -ее (-ей en langage familier)\n\nкрасивый → красивее (plus beau)\nинтересный → интереснее (plus intéressant)\nудобный → удобнее (plus confortable)\nдорогой → дороже (irrég.)\nхороший → лучше (meilleur — irrégulier !)\nплохой → хуже (pire — irrégulier !)\nмаленький → меньше (plus petit — irrégulier)\nбольшой → больше (plus grand — irrégulier)"
+          },
+          {
+            "title": "Utilisation du comparatif",
+            "content": "Le comparatif est invariable — ne s'accorde pas !\n\nЭтот спектакль интереснее. — Ce spectacle est plus intéressant.\nБольшой театр лучше. — Le Bolchoï est meilleur.\n\nComparaison avec «чем» (que) :\nЭта пьеса интереснее, чем балет. — Cette pièce est plus intéressante que le ballet.\nОпера дороже, чем кино. — L'opéra est plus cher que le cinéma.\n\nSuperlatif simple : самый + adjectif (au nominatif)\nСамый известный театр — Le théâtre le plus connu."
+          },
+          {
+            "title": "Au théâtre — vocabulaire essentiel",
+            "content": "билет в театр — billet de théâtre\nбалкон / партер — balcon / parterre\nместо — place (assise)\nантракт — entracte\nаплодисменты — applaudissements\nзавеса — rideau (de scène)\nспектакль — spectacle\nпьеса — pièce (de théâtre)\nрежиссёр — metteur en scène\nпремьера — première"
+          }
+        ],
+        "rule": "💡 Les irréguliers essentiels à mémoriser : хороший → лучше (meilleur), плохой → хуже (pire), большой → больше (plus grand), маленький → меньше (plus petit). Ces quatre sont ultra-fréquents !"
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire du théâtre et de l'opéra — pour vivre la grande culture russe !",
+        "note": "⚠️ «Спектакль» — prononcez «spikTÁKL'» avec l'accent sur la deuxième syllabe et le signe mou final. «Антракт» = entracte, du français — prononcez «anTRÁKT».",
+        "words": [
+          { "fr": "театр", "ru_pron": "tiátr", "meaning": "le théâtre" },
+          { "fr": "опера", "ru_pron": "ópira", "meaning": "l'opéra" },
+          { "fr": "балет", "ru_pron": "balét", "meaning": "le ballet" },
+          { "fr": "спектакль", "ru_pron": "spikTÁKL'", "meaning": "le spectacle" },
+          { "fr": "антракт", "ru_pron": "anTRÁKT", "meaning": "l'entracte" },
+          { "fr": "партер", "ru_pron": "parTÉR", "meaning": "le parterre" },
+          { "fr": "место", "ru_pron": "myésta", "meaning": "la place (assise)" },
+          { "fr": "аплодисменты", "ru_pron": "apladisMYÉNTY", "meaning": "les applaudissements" },
+          { "fr": "премьера", "ru_pron": "primYÉra", "meaning": "la première" },
+          { "fr": "занавес", "ru_pron": "zánavis", "meaning": "le rideau de scène" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "театр", "gender": "m", "ru": "le théâtre", "ru_pron": "tiátr", "example_fr": "Большой театр — знаменитый.", "example_ru": "Le Bolchoï est célèbre.", "level": "A1" },
+        { "fr": "спектакль", "gender": "m", "ru": "le spectacle / la représentation", "ru_pron": "spikTÁKL'", "example_fr": "Спектакль начинается в 19:00.", "example_ru": "Le spectacle commence à 19h.", "level": "A1" },
+        { "fr": "место", "gender": "n", "ru": "la place / le siège", "ru_pron": "myésta", "example_fr": "Ряд 5, место 12.", "example_ru": "Rangée 5, place 12.", "level": "A1" },
+        { "fr": "ряд", "gender": "m", "ru": "la rangée", "ru_pron": "ryad", "example_fr": "Мы в третьем ряду.", "example_ru": "Nous sommes au troisième rang.", "level": "A1" },
+        { "fr": "антракт", "gender": "m", "ru": "l'entracte", "ru_pron": "anTRÁKT", "example_fr": "Во время антракта пьют шампанское.", "example_ru": "Pendant l'entracte on boit du champagne.", "level": "A1" },
+        { "fr": "аплодировать", "gender": null, "ru": "applaudir", "ru_pron": "apladiROvat'", "example_fr": "Все аплодировали стоя.", "example_ru": "Tout le monde a applaudi debout.", "level": "A1" },
+        { "fr": "режиссёр", "gender": "m", "ru": "le metteur en scène / le réalisateur", "ru_pron": "rijisYÓR", "example_fr": "Кто режиссёр этого спектакля?", "example_ru": "Qui est le metteur en scène ?", "level": "A1" },
+        { "fr": "программа", "gender": "f", "ru": "le programme", "ru_pron": "pragRÁMa", "example_fr": "Купите программу спектакля.", "example_ru": "Achetez le programme du spectacle.", "level": "A1" },
+        { "fr": "гардероб", "gender": "m", "ru": "le vestiaire", "ru_pron": "gardiROB", "example_fr": "Сдайте пальто в гардероб.", "example_ru": "Déposez votre manteau au vestiaire.", "level": "A1" },
+        { "fr": "бинокль", "gender": "m", "ru": "les jumelles (de théâtre)", "ru_pron": "biNÓKL'", "example_fr": "Взять бинокль на балкон.", "example_ru": "Prendre des jumelles pour le balcon.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "антракт", "fr_pron": "anTRÁKT", "ru": "entracte", "ru_pron": "entracte", "note": "«Антракт» vient directement du français «entracte». La tradition du champagne à l'entracte au Bolchoï est une institution — le buffet y est aussi célèbre que les spectacles !" },
+        { "fr": "балет", "fr_pron": "balét", "ru": "ballet", "ru_pron": "ballet", "note": "«Балет» vient de l'italien «balletto» via le français. La Russie est devenue la première nation mondiale du ballet grâce aux tsars qui financèrent massivement cet art — le Bolchoï et le Mariinsky en sont les temples." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Constantin Stanislavski (1863–1938)", "subtitle": "Fondateur du Théâtre d'Art de Moscou", "content": "Constantin Stanislavski a révolutionné l'art du théâtre mondial. Sa méthode — «le Système Stanislavski» — demande à l'acteur de vivre réellement les émotions de son personnage plutôt que de les simuler. Co-fondateur du Théâtre d'Art de Moscou (МХТ) en 1898 avec Nemirovitch-Dantchenko, il y créa les premières pièces de Tchekhov (La Mouette, Les Trois Sœurs). Sa méthode influença le théâtre et le cinéma mondiaux — Lee Strasberg l'adapta en «Méthode» hollywoodienne." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le Bolchoï — histoire d'un temple de l'art", "content": "Le Théâtre Bolchoï (Большой театр = Grand Théâtre) est le plus célèbre théâtre de Russie. Fondé en 1776, incendié plusieurs fois, reconstruit en 1856 dans sa forme actuelle. Il a accueilli les premières mondiales de Tchaïkovski (Lac des Cygnes, 1877), Rachmaninov, Prokofiev. Sous Staline, le Bolchoï était une vitrine du prestige soviétique — les spectacles étaient de fastueux spectacles de masse. Fermé pour restauration 2005-2011, il a retrouvé sa splendeur d'origine. Une place en parterre : 150-500€ aujourd'hui." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le champagne à l'entracte — tradition absolue", "content": "Au Bolchoï, au Mariinsky et dans tous les grands théâtres russes, boire du champagne à l'entracte est une tradition quasi-obligatoire. Le buffet du Bolchoï est aussi célèbre que ses spectacles : champagne soviétique (Советское Шампанское), sandwichs au caviar, feuilletés. Les Russes s'y retrouvent, commentent le premier acte, partagent des impressions. Aux époques soviétiques, le Советское Шампанское était accessible à tous — tradition maintenue symboliquement." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Какое у вас место?", "pronunciation": "Kakóyé ou vas myésta", "translation": "Quelle est votre place ?", "usage": "Question essentielle dans un théâtre ou cinéma russe. Souvent posée par l'ouvreuse (билетёрша) qui vérifie les billets. Votre réponse : «Ряд пять, место двенадцать» (Rangée cinq, place douze).", "example": "— Какое у вас место? — Ряд три, место семь. — Проходите, пожалуйста. (Votre place ? — Rangée 3, siège 7. — Passez, je vous prie.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — Le Théâtre Mariinsky", "subtitle": "Мариинский театр — колыбель балета", "content": "Le Mariinsky (Мариинский театр) de Saint-Pétersbourg est l'autre grand temple du ballet et de l'opéra russes. Bâti en 1860, il a formé Nijinski, Pavlova, Noureev, Barychnikov — les plus grands danseurs de l'histoire. Sa salle en vert et or est l'une des plus belles du monde. Un Mariinsky II moderne a ouvert en 2013 à côté. Le chef Valery Gergiev dirige l'ensemble depuis des décennies avec un dynamisme légendaire. Voir un ballet au Mariinsky est une expérience inoubliable." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «ce spectacle est plus intéressant» en russe ?", "opts": ["Этот спектакль более интересный.", "Этот спектакль интересный больше.", "Этот спектакль интереснее.", "Интересный этот спектакль."], "ans": 2, "exp": "«Этот спектакль интереснее» = ce spectacle est plus intéressant. Le comparatif court (интереснее) est invariable — ne s'accorde ni en genre ni en nombre." },
+        { "q": "Quel est le comparatif de «хороший» (bon) ?", "opts": ["хорошее", "болеехороший", "лучше", "наилучший"], "ans": 2, "exp": "«Лучше» = meilleur/mieux. C'est un comparatif irrégulier — à mémoriser absolument ! De même : плохой → хуже (pire), большой → больше, маленький → меньше." },
+        { "q": "Qui a fondé le Théâtre d'Art de Moscou et révolutionné la méthode d'acting ?", "opts": ["Tchaïkovski", "Tchékhov", "Stanislavski", "Dostoïevski"], "ans": 2, "exp": "Constantin Stanislavski co-fonda le Théâtre d'Art de Moscou en 1898. Sa méthode demandant à l'acteur de vivre réellement ses émotions influença tout le théâtre et le cinéma mondiaux." },
+        { "q": "Que fait-on traditionnellement à l'entracte dans les grands théâtres russes ?", "opts": ["On sort fumer", "On boit du champagne au buffet", "On change de place", "On rencontre les artistes"], "ans": 1, "exp": "Boire du champagne à l'entracte est une tradition incontournable dans les grands théâtres russes. Le buffet du Bolchoï est aussi célèbre que ses spectacles !" },
+        { "q": "Comment dit-on «le vestiaire» en russe ?", "opts": ["гардероб", "антракт", "партер", "балкон"], "ans": 0, "exp": "«Гардероб» = le vestiaire. Mot d'origine française (garde-robe). Dans les théâtres russes, laisser son manteau au vestiaire est obligatoire — on ne peut pas rester habillé en hiver dans la salle." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Musées et Expositions",
+      "titleRu": "Музеи и выставки",
+      "level": "A1",
+      "grammar": {
+        "title": "Exprimer son opinion et ses impressions",
+        "titleRu": "Выражение мнения и впечатлений",
+        "intro": "Visiter un musée, donner son avis sur une exposition, exprimer admiration ou déception — les musées russes sont parmi les plus riches au monde. Cette leçon introduit les constructions pour exprimer son opinion en russe, avec une nouveauté : le datif d'opinion.",
+        "sections": [
+          {
+            "title": "Exprimer son opinion",
+            "content": "По-моему... — À mon avis...\nЯ думаю, что... — Je pense que...\nЯ считаю, что... — Je considère que...\nМне кажется, что... — Il me semble que...\nПо-моему мнению... — Selon mon opinion...\n\nAccord / désaccord :\nЯ согласен / согласна. — Je suis d'accord.\nЯ не согласен / не согласна. — Je ne suis pas d'accord.\nВозможно. — C'est possible.\nВряд ли. — C'est peu probable."
+          },
+          {
+            "title": "Donner ses impressions",
+            "content": "Меня впечатлило... — J'ai été impressionné(e) par...\nМне понравилось... — J'ai aimé... (passé, datif)\nМне не понравилось... — Je n'ai pas aimé...\nЭто потрясающе! — C'est époustouflant !\nЭто скучно. — C'est ennuyeux.\nКакой шедевр! — Quel chef-d'œuvre !\nЯ не ожидал(а). — Je ne m'y attendais pas."
+          },
+          {
+            "title": "Vocabulaire des musées",
+            "content": "экспонат — l'exposition / la pièce exposée\nкартина — le tableau\nскульптура — la sculpture\nэкскурсия — la visite guidée\nгид — le guide\nаудиогид — l'audioguide\nвход / выход — entrée / sortie\nбесплатный вход — entrée gratuite\nфотосъёмка разрешена — la photographie est autorisée\nне трогать! — ne touchez pas !"
+          }
+        ],
+        "rule": "💡 «Мне понравилось» vs «Я полюбил(а)» : мне понравилось = j'ai aimé (réaction affective immédiate). Я полюбил(а) = je me suis pris d'affection (sentiment plus profond). Au musée, utilisez «мне понравилось»."
+      },
+      "pronunciation": {
+        "intro": "Musées et expositions — le vocabulaire de l'amateur d'art en Russie.",
+        "note": "⚠️ «Шедевр» (chef-d'œuvre) vient directement du français «chef-d'œuvre» ! Prononcez «chiDEVR». Mot entré en russe au XIXe siècle avec l'influence culturelle française.",
+        "words": [
+          { "fr": "музей", "ru_pron": "mouZYEY", "meaning": "le musée" },
+          { "fr": "выставка", "ru_pron": "výstavka", "meaning": "l'exposition" },
+          { "fr": "картина", "ru_pron": "karTÍna", "meaning": "le tableau / la peinture" },
+          { "fr": "шедевр", "ru_pron": "chiDYEVR", "meaning": "le chef-d'œuvre" },
+          { "fr": "экскурсия", "ru_pron": "ikskóursiya", "meaning": "la visite guidée / l'excursion" },
+          { "fr": "гид", "ru_pron": "guid", "meaning": "le guide" },
+          { "fr": "экспонат", "ru_pron": "ekspanÁT", "meaning": "la pièce exposée" },
+          { "fr": "вход", "ru_pron": "fkhod", "meaning": "l'entrée" },
+          { "fr": "галерея", "ru_pron": "galirEYa", "meaning": "la galerie" },
+          { "fr": "живопись", "ru_pron": "jívapis'", "meaning": "la peinture (art)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "выставка", "gender": "f", "ru": "l'exposition", "ru_pron": "výstavka", "example_fr": "В музее сейчас интересная выставка.", "example_ru": "Il y a une exposition intéressante au musée.", "level": "A1" },
+        { "fr": "картина", "gender": "f", "ru": "le tableau / la peinture", "ru_pron": "karTÍna", "example_fr": "Эта картина очень красивая.", "example_ru": "Ce tableau est très beau.", "level": "A1" },
+        { "fr": "экскурсия", "gender": "f", "ru": "la visite guidée / l'excursion", "ru_pron": "ikskóursiya", "example_fr": "Запишитесь на экскурсию.", "example_ru": "Inscrivez-vous à la visite guidée.", "level": "A1" },
+        { "fr": "шедевр", "gender": "m", "ru": "le chef-d'œuvre", "ru_pron": "chiDYEVR", "example_fr": "Это настоящий шедевр!", "example_ru": "C'est un vrai chef-d'œuvre !", "level": "A1" },
+        { "fr": "по-моему", "gender": null, "ru": "à mon avis", "ru_pron": "pa-mOyimou", "example_fr": "По-моему, это лучший музей.", "example_ru": "À mon avis, c'est le meilleur musée.", "level": "A1" },
+        { "fr": "потрясающий", "gender": "adj m", "ru": "époustouflant / renversant", "ru_pron": "patriasáiouchtchy", "example_fr": "Эрмитаж — потрясающий музей!", "example_ru": "L'Ermitage est un musée époustouflant !", "level": "A1" },
+        { "fr": "скучный", "gender": "adj m", "ru": "ennuyeux", "ru_pron": "skóuchny", "example_fr": "Эта лекция скучная.", "example_ru": "Cette conférence est ennuyeuse.", "level": "A1" },
+        { "fr": "понравиться", "gender": null, "ru": "plaire / avoir plu", "ru_pron": "ponRÁvitsa", "example_fr": "Мне очень понравился музей.", "example_ru": "J'ai beaucoup aimé le musée.", "level": "A1" },
+        { "fr": "не трогать", "gender": null, "ru": "ne pas toucher", "ru_pron": "nie TROgat'", "example_fr": "Не трогать экспонаты!", "example_ru": "Ne touchez pas aux pièces exposées !", "level": "A1" },
+        { "fr": "живопись", "gender": "f", "ru": "la peinture (art)", "ru_pron": "jívapis'", "example_fr": "Русская живопись XIXe века — великолепна.", "example_ru": "La peinture russe du XIXe siècle est magnifique.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "шедевр", "fr_pron": "chiDYEVR", "ru": "chef-d'œuvre", "ru_pron": "chef-d'œuvre", "note": "«Шедевр» vient directement du français «chef-d'œuvre» ! Emprunté au XIXe siècle avec l'esthétique française. En russe, il s'utilise aussi de manière ironique et hyperbolique pour tout ce qui est exceptionnel." },
+        { "fr": "галерея", "fr_pron": "galirEYa", "ru": "galerie (d'art)", "ru_pron": "galerie", "note": "«Галерея» = galerie. Même étymologie italienne «galleria». La galerie Tretiakov (Третьяковская галерея) à Moscou est la galerie d'art russe la plus importante au monde." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Ilya Répine (1844–1930)", "subtitle": "Le plus grand peintre réaliste russe", "content": "Ilya Répine est considéré comme le maître du réalisme russe. Ses toiles les plus célèbres : «Les Bateliers de la Volga» (1873) — des hommes qui tirent des bateaux contre le courant, symbole de l'exploitation du peuple. «Ivan le Terrible et son fils Ivan» (1885) — scène d'une violence bouleversante. «Les Cosaques zaporogues» (1891). Ses tableaux sont au cœur de la galerie Tretiakov. Répine passa ses dernières années en Finlande (alors russe) et refusa de rentrer en URSS." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'Ermitage — le plus grand musée du monde", "content": "L'Ermitage (Эрмитаж) de Saint-Pétersbourg est l'un des plus grands musées du monde avec 3 millions d'objets — dont on ne peut en exposer que 5%. Fondé en 1764 par Catherine la Grande, il occupe 5 bâtiments dont le Palais d'Hiver (résidence des tsars). Ses collections : Rembrandt, Léonard de Vinci, Raphaël, Michel-Ange, Picasso, Matisse. Curiosité : 50 chats vivent dans les caves de l'Ermitage et chassent les souris — tradition depuis Pierre le Grand !" },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les 50 chats de l'Ermitage", "content": "L'Ermitage abrite officiellement une colonie de 50 chats (hermitazhnye koshki) qui vivent dans les caves et sous-sols du musée. Tradition fondée par Pierre le Grand pour protéger les collections des souris et rats. Les chats ont leur propre budget, leur vétérinaire, et sont des célébrités : chaque chat a un nom, une fiche et des admirateurs parmi les visiteurs. Une fois par an, une «journée des chats» leur permet de se promener dans les grandes salles. Ils ont même leurs propres comptes Instagram !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Мне очень понравилось!", "pronunciation": "Mnyé ótchen' ponRÁvilas'", "translation": "J'ai vraiment aimé / J'ai adoré !", "usage": "La phrase parfaite pour exprimer son enthousiasme après une visite. Мне понравилось (j'ai aimé) + очень (très/vraiment). Variante plus intense : «Это произвело на меня огромное впечатление!» (Ça m'a fait une immense impression !)", "example": "— Ну как музей? — Мне очень понравилось! Особенно картины Репина. (Alors le musée ? — J'ai adoré ! Surtout les tableaux de Répine.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — L'Ermitage", "subtitle": "Эрмитаж — один из крупнейших музеев мира", "content": "L'Ermitage mérite plusieurs jours de visite. Conseil pratique : choisissez 3-4 salles à voir absolument (Rembrandts, impressionnistes français, antiquités grecques) plutôt que d'essayer tout voir. Le vendredi soir, le musée reste ouvert jusqu'à 21h — ambiance unique dans les salles moins bondées. Entrée gratuite le premier jeudi de chaque mois. La file d'attente peut être longue — arrivez à l'ouverture (10h30) ou achetez en ligne." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «à mon avis» en russe ?", "opts": ["Я думаю", "Мне кажется", "По-моему", "Я считаю"], "ans": 2, "exp": "«По-моему» = à mon avis. Expression courte et très utilisée. Les autres options sont aussi correctes mais plus longues : «мне кажется» (il me semble), «я думаю» (je pense)." },
+        { "q": "Combien d'œuvres l'Ermitage possède-t-il ?", "opts": ["300 000", "1 million", "3 millions", "10 millions"], "ans": 2, "exp": "L'Ermitage possède 3 millions d'objets — dont seulement 5% peuvent être exposés simultanément. C'est l'un des plus grands musées du monde." },
+        { "q": "Quelle particularité unique possède l'Ermitage ?", "opts": ["Des gardes en costume tsariste", "50 chats qui vivent dans ses caves", "Une bibliothèque secrète souterraine", "Des visites nocturnes en bateau"], "ans": 1, "exp": "L'Ermitage abrite officiellement 50 chats qui chassent les souris dans les caves. Tradition depuis Pierre le Grand, avec budget propre et vétérinaire attitré !" },
+        { "q": "D'où vient le mot russe «шедевр» (chef-d'œuvre) ?", "opts": ["De l'allemand «Meisterwerk»", "Du français «chef-d'œuvre»", "Du latin «opus magnum»", "De l'anglais «masterpiece»"], "ans": 1, "exp": "«Шедевр» vient directement du français «chef-d'œuvre» ! Emprunté au XIXe siècle avec l'influence culturelle française en Russie." },
+        { "q": "Comment exprime-t-on «j'ai aimé» après une visite en russe ?", "opts": ["Я любил.", "Мне понравилось.", "Я нравился.", "Мне любилось."], "ans": 1, "exp": "«Мне понравилось» = j'ai aimé (passé). Construction avec datif : мне (à moi) + понравилось (a plu). «Мне очень понравилось !» = j'ai vraiment adoré !" }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Inviter et Accepter / Refuser",
+      "titleRu": "Приглашение и ответ",
+      "level": "A1",
+      "grammar": {
+        "title": "Les invitations — l'impératif et les formules de politesse",
+        "titleRu": "Приглашения и вежливость",
+        "intro": "Inviter quelqu'un, accepter avec plaisir ou décliner poliment — des situations quotidiennes qui requièrent des formules précises en russe. L'impératif russe est indispensable pour les invitations, et il existe des niveaux de politesse importants à connaître.",
+        "sections": [
+          {
+            "title": "Formation de l'impératif",
+            "content": "À partir du radical du présent :\n\nSi le radical finit par voyelle : + й (→ vous : +йте)\nпить → пей / пейте (bois / buvez)\nиди → иди / идите (va / allez)\n\nSi le radical finit par consonne : + и /-ь (/+ите/-ьте)\nчитай → читай / читайте\nговори → говори / говорите\nпойдём ! — Allons-y ! (impératif collectif)\n\nFormes irrégulières utiles :\nбудь / будьте — sois / soyez\nдай / дайте — donne / donnez"
+          },
+          {
+            "title": "Inviter quelqu'un",
+            "content": "Приходи(те) к нам в гости! — Viens (venez) chez nous !\nПошли в кино! — Allons au cinéma !\nДавай(те) встретимся! — Retrouvons-nous !\nЯ приглашаю тебя на... — Je t'invite à...\nХочешь пойти...? — Tu veux aller... ?\nМожем встретиться...? — Peut-on se retrouver... ?\nКогда ты свободен/свободна? — Quand es-tu libre ?"
+          },
+          {
+            "title": "Accepter et refuser",
+            "content": "Accepter :\nС удовольствием! — Avec plaisir !\nОтлично! Договорились! — Parfait ! C'est entendu !\nЯ приду. — Je viendrai.\nЖду с нетерпением! — J'ai hâte !\n\nRefuser poliment :\nК сожалению, не могу. — Malheureusement, je ne peux pas.\nВ другой раз, может быть. — Une autre fois, peut-être.\nЯ занят(а). — Je suis occupé(e).\nУ меня другие планы. — J'ai d'autres projets."
+          }
+        ],
+        "rule": "💡 «Договорились!» (c'est entendu !) est l'une des expressions les plus utilisées en russe pour confirmer un accord. Littéralement : «nous avons convenu». Indispensable pour confirmer tout rendez-vous !"
+      },
+      "pronunciation": {
+        "intro": "Invitations et formules sociales — pour une vie sociale épanouie en Russie !",
+        "note": "⚠️ «Договорились» — long mais important ! «da-ga-va-RÍ-lis'» — l'accent est sur la 4e syllabe. C'est le mot clé pour confirmer tout rendez-vous en Russie.",
+        "words": [
+          { "fr": "приглашение", "ru_pron": "priglachénié", "meaning": "l'invitation" },
+          { "fr": "встреча", "ru_pron": "vstryétcha", "meaning": "la rencontre / le rendez-vous" },
+          { "fr": "договорились", "ru_pron": "dagavaRÍlis'", "meaning": "c'est entendu / d'accord" },
+          { "fr": "с удовольствием", "ru_pron": "s oudaVÓL'stviem", "meaning": "avec plaisir" },
+          { "fr": "к сожалению", "ru_pron": "k sajal'éniou", "meaning": "malheureusement" },
+          { "fr": "занят", "ru_pron": "ZÁniat", "meaning": "occupé (m.)" },
+          { "fr": "свободен", "ru_pron": "svabódin", "meaning": "libre / disponible (m.)" },
+          { "fr": "пригласить", "ru_pron": "priglasít'", "meaning": "inviter (perfectif)" },
+          { "fr": "приходи", "ru_pron": "prikhaDÍ", "meaning": "viens ! (impératif)" },
+          { "fr": "жду", "ru_pron": "jdou", "meaning": "j'attends / j'ai hâte" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "приглашать", "gender": null, "ru": "inviter", "ru_pron": "priglachát'", "example_fr": "Я приглашаю вас на ужин.", "example_ru": "Je vous invite à dîner.", "level": "A1" },
+        { "fr": "встреча", "gender": "f", "ru": "la rencontre / le rendez-vous", "ru_pron": "vstryétcha", "example_fr": "Когда наша встреча?", "example_ru": "Quand est notre rendez-vous ?", "level": "A1" },
+        { "fr": "договориться", "gender": null, "ru": "se mettre d'accord / convenir", "ru_pron": "dagavaRÍtsa", "example_fr": "Договорились на пятницу!", "example_ru": "C'est convenu pour vendredi !", "level": "A1" },
+        { "fr": "свободный", "gender": "adj m", "ru": "libre / disponible", "ru_pron": "svabódny", "example_fr": "Ты свободен в субботу?", "example_ru": "Tu es libre samedi ?", "level": "A1" },
+        { "fr": "занятый", "gender": "adj m", "ru": "occupé / pris", "ru_pron": "ZÁniety", "example_fr": "Я занят сегодня.", "example_ru": "Je suis occupé aujourd'hui.", "level": "A1" },
+        { "fr": "к сожалению", "gender": null, "ru": "malheureusement", "ru_pron": "k sajal'éniou", "example_fr": "К сожалению, не могу прийти.", "example_ru": "Malheureusement, je ne peux pas venir.", "level": "A1" },
+        { "fr": "с удовольствием", "gender": null, "ru": "avec plaisir", "ru_pron": "s oudaVÓL'stviem", "example_fr": "С удовольствием приду!", "example_ru": "Je viendrai avec plaisir !", "level": "A1" },
+        { "fr": "опоздать", "gender": null, "ru": "être en retard (perfectif)", "ru_pron": "apazdát'", "example_fr": "Прости, я немного опоздал.", "example_ru": "Excuse-moi, je suis un peu en retard.", "level": "A1" },
+        { "fr": "ждать", "gender": null, "ru": "attendre", "ru_pron": "jdat'", "example_fr": "Я буду ждать тебя.", "example_ru": "Je t'attendrai.", "level": "A1" },
+        { "fr": "отмечать", "gender": null, "ru": "célébrer / fêter", "ru_pron": "atmitchát'", "example_fr": "Мы отмечаем день рождения!", "example_ru": "Nous fêtons l'anniversaire !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "пикник", "fr_pron": "pikNÍK", "ru": "pique-nique", "ru_pron": "pique-nique", "note": "«Пикник» = pique-nique. Emprunt direct au français. Les piques-niques sont très populaires en Russie dans les parcs urbains et les espaces naturels, surtout au printemps et en été." },
+        { "fr": "вечеринка", "fr_pron": "vitchirínka", "ru": "soirée / fête", "ru_pron": "soirée", "note": "«Вечеринка» (petite soirée) vient de «вечер» (soir). Les soirées russes sont connues pour leur générosité en nourriture et en boissons — l'hospitalité russe s'exprime pleinement." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anton Tchekhov (1860–1904)", "subtitle": "Maître de la nouvelle et de la vie sociale", "content": "Anton Tchekhov est le maître incontesté de la nouvelle russe et l'un des plus grands auteurs de pièces de théâtre. Son œuvre dépeint avec ironie tendre et précision chirurgicale la vie sociale russe : les invitations, les dîners, les réunions familiales, les malentendus et les solitudes. «La Mouette», «Les Trois Sœurs», «La Cerisaie» sont jouées dans le monde entier. Tchekhov était aussi médecin — «la médecine est ma femme légale, la littérature ma maîtresse», disait-il." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'hospitalité russe — une vertu sacrée", "content": "L'hospitalité (гостеприимство) est une valeur fondamentale de la culture russe, héritée des traditions slaves et orthodoxes. L'invité est sacré — «Гость в дом — Бог в дом» (un invité dans la maison, c'est Dieu dans la maison). On pose toujours plus à manger que nécessaire — laisser une table vide est honteux. Refuser de manger chez l'hôte peut être vécu comme une offense. Les cadeaux en visitant : toujours apporter quelque chose (fleurs, gâteau, bouteille)." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Придёт или нет?» — la ponctualité russe", "content": "La ponctualité en Russie est une question culturelle subtile. Dans le monde professionnel, être à l'heure est important. Pour les soirées et fêtes, arriver 15-30 minutes en retard est souvent considéré comme poli — arriver pile à l'heure peut gêner l'hôte encore en préparation ! Mais faire attendre quelqu'un plus de 30 minutes sans prévenir est mal vu. La formule «Я немного опоздаю» (je serai un peu en retard) accompagnée d'un message Telegram est la norme courtoise." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Заходи(те) в гости!", "pronunciation": "Zakhadí(tié) v gósti", "translation": "Passe(z) nous voir ! / Viens nous rendre visite !",  "usage": "Invitation chaleureuse et ouverte typiquement russe. «В гости» = chez des amis / en visite. On peut répondre «С удовольствием!» (avec plaisir). Note : si l'invitation est sincère, on fixe une date. Si vague, c'est une politesse.", "example": "— Заходи в гости, когда будешь в Москве! — С удовольствием, спасибо! (Passe nous voir quand tu seras à Moscou ! — Avec plaisir, merci !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Les parcs Gorki et Sokolniki", "subtitle": "Парк Горького и Сокольники — московский досуг", "content": "Le parc Gorki (Парк Горького) et le parc Sokolniki sont les grands espaces de loisirs moscovites. En été : concerts gratuits, pique-niques, sports, cafés en plein air et événements culturels. En hiver : patinoires, marchés de Noël, promenades dans la neige. Le parc Gorki fut rénové en 2011 et est devenu un modèle de parc urbain moderne. Les week-ends, les Moscovites s'y retrouvent en famille et entre amis — parfait pour observer la vie sociale russe." }
+      },
+      "quiz": [
+        { "q": "Comment accepte-t-on poliment une invitation en russe ?", "opts": ["Нет, спасибо.", "С удовольствием!", "Может быть.", "Я занят(а)."], "ans": 1, "exp": "«С удовольствием !» = avec plaisir ! C'est la réponse positive standard à une invitation. On peut ajouter «Договорились!» (c'est entendu !) pour confirmer." },
+        { "q": "Que signifie «Договорились» ?", "opts": ["J'ai oublié", "C'est entendu / nous nous sommes mis d'accord", "Peut-être", "Je ne peux pas"], "ans": 1, "exp": "«Договорились» = c'est entendu / nous nous sommes mis d'accord. Vient du verbe договориться (se mettre d'accord). Indispensable pour confirmer tout rendez-vous !" },
+        { "q": "Que signifie «Гость в дом — Бог в дом» ?", "opts": ["Les invités doivent travailler pour leur repas", "Un invité dans la maison c'est comme Dieu", "Les invités ne restent pas longtemps", "Il faut inviter les voisins"], "ans": 1, "exp": "«Гость в дом — Бог в дом» = un invité dans la maison c'est Dieu dans la maison. Proverbe qui résume l'importance de l'hospitalité dans la culture russe." },
+        { "q": "Comment décline-t-on poliment une invitation en russe ?", "opts": ["Нет!", "Я не хочу.", "К сожалению, не могу.", "Это невозможно."], "ans": 2, "exp": "«К сожалению, не могу» = malheureusement, je ne peux pas. К сожалению = malheureusement (littéralement : à mon regret). Formule polie standard pour décliner." },
+        { "q": "Quelle est la norme de ponctualité pour une soirée en Russie ?", "opts": ["Arriver exactement à l'heure fixée", "Arriver 15-30 minutes en retard est souvent acceptable", "Arriver une heure en avance pour aider l'hôte", "Arriver 2 heures en retard est normal"], "ans": 1, "exp": "Pour les soirées russes, arriver 15-30 minutes en retard est souvent toléré — voire attendu. Arriver pile à l'heure peut gêner l'hôte encore en préparation !" }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Fêtes Russes",
+      "titleRu": "Русские праздники",
+      "level": "A1",
+      "grammar": {
+        "title": "Les fêtes et les expressions temporelles",
+        "titleRu": "Праздники и временны́е выражения",
+        "intro": "Les fêtes russes sont l'occasion d'enrichir son vocabulaire des expressions temporelles : quand, depuis quand, pendant combien de temps. Cette leçon introduit des nuances temporelles essentielles et le vocabulaire festif.",
+        "sections": [
+          {
+            "title": "Expressions temporelles clés",
+            "content": "Quand (ponctuel) : когда — Когда праздник? (Quand est la fête ?)\nDepuis quand : с + génitif — с января (depuis janvier)\nJusqu'à : до + génitif — до января (jusqu'à janvier)\nPendant : в течение + génitif — в течение недели (pendant une semaine)\nDans X temps : через + accusatif — через неделю (dans une semaine)\nIl y a X temps : X + назад — неделю назад (il y a une semaine)\n\nExpressions courantes :\nна прошлой неделе — la semaine dernière\nна следующей неделе — la semaine prochaine\nпозавчера — avant-hier\nпослезавтра — après-demain"
+          },
+          {
+            "title": "Les grandes fêtes russes",
+            "content": "Новый год (1er janvier) — le Nouvel An [fête principale !]\nРождество (7 janvier) — Noël orthodoxe\nСтарый Новый год (14 janvier) — l'Ancien Nouvel An (calendrier julien)\n23 февраля — Jour des Défenseurs de la Patrie (fête des hommes)\n8 марта — Journée internationale des Femmes (fête des femmes)\nМасленица — la Maslenitsa (crêpes, fin hiver)\nПасха — Pâques orthodoxe\n1 мая — Fête du Travail\n9 мая — Jour de la Victoire (fin de la 2e Guerre mondiale)\n12 июня — Jour de la Russie"
+          },
+          {
+            "title": "Souhaits et toasts",
+            "content": "С Новым Годом! — Bonne Année !\nС Рождеством! — Joyeux Noël !\nС праздником! — Bonne fête ! (universel)\nЗа здоровье! — À votre santé ! (toast)\nСчастья, здоровья, удачи! — Bonheur, santé, chance !\nС днём рождения! — Joyeux anniversaire !\nМногая лета! — Longue vie ! (formule traditionnelle)\nЗа тебя! — À toi ! (toast personnel)"
+          }
+        ],
+        "rule": "💡 En Russie, le Nouvel An (Новый год) est LA fête principale — bien plus que Noël. On fait le sapin, les cadeaux, le réveillon en famille le 31 décembre. Le Père Noël russe s'appelle Дед Мороз (Grand-père Froid) et sa petite-fille Снегурочка (Fille des Neiges) l'accompagne."
+      },
+      "pronunciation": {
+        "intro": "Fêtes et souhaits — pour célébrer avec les Russes comme un(e) local(e) !",
+        "note": "⚠️ «Пасха» (Pâques) — prononcez «PÁSkha». La Pâques orthodoxe est la fête religieuse la plus importante de l'année. Le salut de Pâques : «Христос Воскресе!» (Christ est ressuscité) — réponse : «Воистину Воскресе!»",
+        "words": [
+          { "fr": "праздник", "ru_pron": "PRÁZnik", "meaning": "la fête / le jour férié" },
+          { "fr": "Новый год", "ru_pron": "NOvy god", "meaning": "le Nouvel An" },
+          { "fr": "Рождество", "ru_pron": "rajdisTVO", "meaning": "Noël (orthodoxe, 7 janvier)" },
+          { "fr": "Пасха", "ru_pron": "PÁSkha", "meaning": "Pâques (orthodoxe)" },
+          { "fr": "Дед Мороз", "ru_pron": "Died MaROZ", "meaning": "le Père Noël russe (Grand-père Froid)" },
+          { "fr": "поздравлять", "ru_pron": "pazdravLÁT'", "meaning": "féliciter / souhaiter" },
+          { "fr": "тост", "ru_pron": "tost", "meaning": "le toast" },
+          { "fr": "подарок", "ru_pron": "padárak", "meaning": "le cadeau" },
+          { "fr": "ёлка", "ru_pron": "YÓLka", "meaning": "le sapin de Noël / d'An" },
+          { "fr": "фейерверк", "ru_pron": "fiyerVYERK", "meaning": "le feu d'artifice" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "праздник", "gender": "m", "ru": "la fête / le jour férié", "ru_pron": "PRÁZnik", "example_fr": "Сегодня праздник!", "example_ru": "C'est la fête aujourd'hui !", "level": "A1" },
+        { "fr": "поздравлять", "gender": null, "ru": "féliciter / souhaiter", "ru_pron": "pazdravLÁT'", "example_fr": "Поздравляю с днём рождения!", "example_ru": "Joyeux anniversaire ! (félicitations)", "level": "A1" },
+        { "fr": "подарок", "gender": "m", "ru": "le cadeau", "ru_pron": "padárak", "example_fr": "Какой красивый подарок!", "example_ru": "Quel beau cadeau !", "level": "A1" },
+        { "fr": "ёлка", "gender": "f", "ru": "le sapin (de Noël/Nouvel An)", "ru_pron": "YÓLka", "example_fr": "Украсим ёлку вместе!", "example_ru": "Décorons le sapin ensemble !", "level": "A1" },
+        { "fr": "тост", "gender": "m", "ru": "le toast", "ru_pron": "tost", "example_fr": "Давайте произнесём тост!", "example_ru": "Portons un toast !", "level": "A1" },
+        { "fr": "Дед Мороз", "gender": "m", "ru": "le Père Noël russe", "ru_pron": "Died MaROZ", "example_fr": "Дед Мороз пришёл с подарками.", "example_ru": "Le Grand-père Froid est venu avec des cadeaux.", "level": "A1" },
+        { "fr": "загадывать желание", "gender": null, "ru": "faire un vœu", "ru_pron": "zagádyvat' jelánié", "example_fr": "Загадай желание в полночь!", "example_ru": "Fais un vœu à minuit !", "level": "A1" },
+        { "fr": "фейерверк", "gender": "m", "ru": "le feu d'artifice", "ru_pron": "fiyerVYERK", "example_fr": "На Новый год — фейерверк!", "example_ru": "Pour le Nouvel An — des feux d'artifice !", "level": "A1" },
+        { "fr": "шампанское", "gender": "n", "ru": "le champagne", "ru_pron": "chaMPÁNskoé", "example_fr": "Шампанское на Новый год — обязательно!", "example_ru": "Le champagne pour le Nouvel An — obligatoire !", "level": "A1" },
+        { "fr": "за здоровье", "gender": null, "ru": "à la santé (toast)", "ru_pron": "za zdaROV'yé", "example_fr": "За здоровье всех!", "example_ru": "À la santé de tous !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "шампанское", "fr_pron": "chaMPÁNskoé", "ru": "champagne", "ru_pron": "champagne", "note": "«Шампанское» vient de la région de Champagne. Le «Советское Шампанское» (Champagne Soviétique) fut créé en 1937 par Staline pour que tous les Soviétiques puissent célébrer — produit en millions de bouteilles. Encore très vendu aujourd'hui." },
+        { "fr": "фейерверк", "fr_pron": "fiyerVYERK", "ru": "feu d'artifice", "ru_pron": "feu d'artifice", "note": "«Фейерверк» vient de l'allemand «Feuerwerk» (feu + œuvre). Moscou est célèbre pour ses feux d'artifice monumentaux du 9 mai (Jour de la Victoire) — les plus grands de Russie." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Rimski-Korsakov (1844–1908)", "subtitle": "Compositeur de Snegourotchka et Shéhérazade", "content": "Nikolaï Rimski-Korsakov est l'un des plus grands compositeurs russes du XIXe siècle. Son opéra «Snegourotchka» (Снегурочка, 1882) met en scène la Fille des Neiges — personnage mythique russe qui accompagne Ded Moroz et incarne la magie de l'hiver. Son orchestration brillante influença Debussy et Ravel. Il était aussi professeur : Prokofiev et Stravinski furent ses élèves. Son «Shéhérazade» et son «Vol du bourdon» restent parmi les pièces orchestrales les plus connues au monde." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le 9 mai — Jour de la Victoire, fête nationale sacrée", "content": "Le 9 mai (День Победы) commémore la capitulation de l'Allemagne nazie en 1945. C'est LA fête nationale la plus importante et la plus émotionnelle en Russie. L'URSS perdit 27 millions de personnes dans cette guerre — presque chaque famille russe est touchée. Le défilé militaire sur la Place Rouge à Moscou est télévisé dans tout le pays. Le «Ruban de Saint-Georges» (оранжево-чёрная лента) est porté fièrement. Le mouvement «Régiment Immortel» (Бессмертный полк) — défiler avec les photos de ses ancêtres morts à la guerre — rassemble des millions de personnes." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le Nouvel An russe — plus grand que Noël", "content": "En Russie, le Nouvel An (Новый год) éclipse totalement Noël. Héritage soviétique : Noël fut interdit par les Soviétiques en 1929, le sapin et les cadeaux furent rattachés au Nouvel An laïc. Après 1991, Noël orthodoxe (le 7 janvier) est redevenu officiel, mais les traditions (sapin, cadeaux, Дед Мороз) sont restées attachées au 1er janvier. Résultat : les Russes fêtent le 31 décembre ET le 7 janvier ET le «Vieux Nouvel An» du 14 janvier (ancien calendrier julien) — une période de fêtes de deux semaines !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "С Новым Годом! Счастья, здоровья, удачи!", "pronunciation": "S NOvym GOdom ! SHTchásTya, zdaROV'ya, oudátchi !", "translation": "Bonne Année ! Bonheur, santé, chance !", "usage": "Le vœu du Nouvel An russe standard. La triade «счастья, здоровья, удачи» (bonheur, santé, chance) est une formule quasi-rituelle. On l'envoie par SMS et en carte. On dit aussi «С наступающим!» dans les jours qui précèdent le 31.", "example": "— С Новым Годом! — И тебя тоже! Счастья и здоровья! (Bonne Année ! — Toi aussi ! Bonheur et santé !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Veliky Oustioug — Résidence de Ded Moroz", "subtitle": "Великий Устюг — родина Деда Мороза", "content": "La ville de Veliky Oustioug (nord de la Russie) est officiellement la «patrie de Дед Мороз». Depuis 1998, une résidence officielle du Père Noël russe y a été construite : parc, musée, ateliers, bureau de poste qui répond aux lettres des enfants. En décembre, les familles russes s'y rendent en pèlerinage. Дед Мороз «vit» dans sa grande maison forestière, reçoit les visiteurs et distribue des cadeaux. Alternative authentique et touristique à la résidence du Père Noël lapone." }
+      },
+      "quiz": [
+        { "q": "Quelle est la fête principale en Russie — plus importante que Noël ?", "opts": ["Пасха (Pâques)", "Новый год (Nouvel An)", "9 мая (Jour de la Victoire)", "Масленица"], "ans": 1, "exp": "Le Nouvel An (Новый год) est LA fête principale russe. Héritage soviétique : Noël fut interdit en 1929, les traditions (sapin, cadeaux, Ded Moroz) furent rattachées au 1er janvier laïc." },
+        { "q": "Quand est célébré Noël orthodoxe en Russie ?", "opts": ["25 décembre", "31 décembre", "7 janvier", "14 janvier"], "ans": 2, "exp": "Le Noël orthodoxe russe est le 7 janvier (calendrier julien). Les Russes fêtent donc aussi le «Vieux Nouvel An» le 14 janvier — une période de fêtes de deux semaines !" },
+        { "q": "Pourquoi le 9 mai est-il une fête si importante en Russie ?", "opts": ["C'est l'anniversaire de la fondation de la Russie", "C'est la capitulation de l'Allemagne nazie en 1945 — 27 millions de morts soviétiques", "C'est la fête nationale depuis la Révolution de 1917", "C'est le jour de naissance de Lénine"], "ans": 1, "exp": "Le 9 mai commémore la victoire sur l'Allemagne nazie en 1945. L'URSS perdit 27 millions de personnes — presque chaque famille russe est touchée. Fête la plus émotionnelle de l'année." },
+        { "q": "Comment dit-on «à votre santé» (toast) en russe ?", "opts": ["С праздником!", "За здоровье!", "Приятного аппетита!", "С Новым Годом!"], "ans": 1, "exp": "«За здоровье!» = à votre/ta santé ! Le toast russe classique. On peut aussi dire simplement «За!» (à!). Les toasts russes sont souvent longs et élaborés lors des grandes occasions." },
+        { "q": "Comment s'appelle la petite-fille de Ded Moroz ?", "opts": ["Баба Яга", "Снегурочка", "Матрёшка", "Зимушка"], "ans": 1, "exp": "Снегурочка (Snegourotchka = Fille des Neiges) est la petite-fille de Ded Moroz. Elle l'accompagne lors des fêtes de Nouvel An et distribue des cadeaux aux enfants. Héroïne d'un opéra de Rimski-Korsakov." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "La Conversation de Café",
+      "titleRu": "Разговор в кафе",
+      "level": "A2",
+      "grammar": {
+        "title": "Small talk et connecteurs de discours",
+        "titleRu": "Разговорная речь и связующие слова",
+        "intro": "La conversation informelle — «small talk» — est un art dans toutes les cultures. En russe, les connecteurs de discours permettent de structurer sa pensée, d'enchaîner les idées et de paraître naturel. Cette leçon passe du niveau A1 au A2.",
+        "sections": [
+          {
+            "title": "Connecteurs essentiels",
+            "content": "Et, aussi :\nи — et\nтоже — aussi (affirmatif)\nтакже — également\n\nMais, cependant :\nно — mais\nзато — mais en revanche\nоднако — cependant\n\nDonc, alors :\nзначит — donc / ça veut dire\nитак — donc / ainsi\nтак что — donc (conséquence)\n\nD'abord, ensuite :\nсначала — d'abord\nпотом / затем — ensuite\nнаконец — enfin\n\nParce que, car :\nпотому что — parce que\nтак как — vu que / puisque"
+          },
+          {
+            "title": "Engager et maintenir la conversation",
+            "content": "Кстати... — À propos...\nКак ни странно... — Aussi étrange que cela paraisse...\nПо правде говоря... — À vrai dire...\nМежду нами... — Entre nous...\nЯ слышал(а), что... — J'ai entendu que...\nГоворят, что... — On dit que...\nИнтересно, что... — Il est intéressant que...\nНа самом деле... — En réalité / En fait..."
+          },
+          {
+            "title": "Réactions à la conversation",
+            "content": "Правда? — Vraiment ?\nНеужели? — C'est vrai ? / Pas possible !\nЯсно. — Je vois / D'accord.\nПонятно. — Je comprends / C'est clair.\nКонечно! — Bien sûr !\nВот именно! — Exactement ! C'est ça !\nОказывается... — Il s'avère que...\nВот это да! — Ça alors ! (surprise)"
+          }
+        ],
+        "rule": "💡 «Кстати» (à propos) est l'un des mots les plus utilisés dans la conversation russe. Il introduit une digression, une remarque, ou un changement de sujet — très naturel et très fréquent. À utiliser sans modération pour paraître naturel !"
+      },
+      "pronunciation": {
+        "intro": "Connecteurs de conversation — pour parler russe naturellement et fluidement.",
+        "note": "⚠️ «Конечно» (bien sûr) — prononcez «kaNYECHna» (pas «konYECHno» !). La lettre «ч» se prononce «ch» dans ce mot — une des rares exceptions notables.",
+        "words": [
+          { "fr": "кстати", "ru_pron": "KSTAti", "meaning": "à propos / soit dit en passant" },
+          { "fr": "конечно", "ru_pron": "kaNYECHna", "meaning": "bien sûr / évidemment" },
+          { "fr": "значит", "ru_pron": "ZNÁtchit", "meaning": "donc / ça veut dire" },
+          { "fr": "оказывается", "ru_pron": "aKÁzyvaietsia", "meaning": "il s'avère que" },
+          { "fr": "на самом деле", "ru_pron": "na sámam DYElie", "meaning": "en fait / en réalité" },
+          { "fr": "вот именно", "ru_pron": "vot ÍMenno", "meaning": "exactement ! c'est ça !" },
+          { "fr": "неужели", "ru_pron": "nioujÉLi", "meaning": "vraiment ? / pas possible !" },
+          { "fr": "между прочим", "ru_pron": "MYEJdou PROtchim", "meaning": "soit dit en passant / d'ailleurs" },
+          { "fr": "по правде говоря", "ru_pron": "pa PRÁVdié gavaRÍa", "meaning": "à vrai dire" },
+          { "fr": "не так ли", "ru_pron": "nie tak li", "meaning": "n'est-ce pas ?" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "кстати", "gender": null, "ru": "à propos / soit dit en passant", "ru_pron": "KSTAti", "example_fr": "Кстати, ты знаешь эту песню?", "example_ru": "À propos, tu connais cette chanson ?", "level": "A2" },
+        { "fr": "конечно", "gender": null, "ru": "bien sûr / évidemment", "ru_pron": "kaNYECHna", "example_fr": "Конечно, я согласен!", "example_ru": "Bien sûr, je suis d'accord !", "level": "A1" },
+        { "fr": "значит", "gender": null, "ru": "donc / ça veut dire", "ru_pron": "ZNÁtchit", "example_fr": "Значит, ты не придёшь?", "example_ru": "Donc tu ne viendras pas ?", "level": "A2" },
+        { "fr": "оказывается", "gender": null, "ru": "il s'avère que / apparemment", "ru_pron": "aKÁzyvaietsia", "example_fr": "Оказывается, он был прав.", "example_ru": "Il s'avère qu'il avait raison.", "level": "A2" },
+        { "fr": "на самом деле", "gender": null, "ru": "en fait / en réalité", "ru_pron": "na sámam DYElie", "example_fr": "На самом деле это легко.", "example_ru": "En fait c'est facile.", "level": "A2" },
+        { "fr": "зато", "gender": null, "ru": "mais en revanche / en compensation", "ru_pron": "zaTÓ", "example_fr": "Дорого, зато вкусно!", "example_ru": "C'est cher, mais en revanche c'est délicieux !", "level": "A2" },
+        { "fr": "потому что", "gender": null, "ru": "parce que", "ru_pron": "patamoú tchto", "example_fr": "Я здесь, потому что хочу учиться.", "example_ru": "Je suis ici parce que je veux apprendre.", "level": "A1" },
+        { "fr": "хотя", "gender": null, "ru": "bien que / quoique", "ru_pron": "khotIÁ", "example_fr": "Хотя холодно, я пойду.", "example_ru": "Bien qu'il fasse froid, j'irai.", "level": "A2" },
+        { "fr": "вместо того чтобы", "gender": null, "ru": "au lieu de", "ru_pron": "vmyésta tavó tchtoby", "example_fr": "Вместо кино — театр.", "example_ru": "Au lieu du cinéma — le théâtre.", "level": "A2" },
+        { "fr": "несмотря на", "gender": null, "ru": "malgré / en dépit de", "ru_pron": "nismaTRIÁ na", "example_fr": "Несмотря на дождь, мы пошли.", "example_ru": "Malgré la pluie, nous sommes partis.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "однако", "fr_pron": "adNÁka", "ru": "cependant / toutefois", "ru_pron": "cependant", "note": "«Однако» = cependant. Ce mot d'origine slave est devenu une expression familière russe : «Однако!» tout seul = «Quand même !» ou «Ça alors !». Expression de surprise teintée d'ironie." },
+        { "fr": "конечно", "fr_pron": "kaNYECHna", "ru": "bien sûr (étymologie : fin, terminus)", "ru_pron": "bien sûr", "note": "«Конечно» vient de «конец» (fin) — littéralement «c'est la fin de la discussion». Devenu «bien sûr / évidemment». Attention : prononcez «kaNYECHna» pas «konYECHno» !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhail Zoshchenko (1894–1958)", "subtitle": "Maître de l'humour et du langage populaire", "content": "Mikhail Zoshchenko est le plus grand humoriste de la littérature soviétique. Ses nouvelles courtes capturent avec génie le langage et les préoccupations du petit peuple soviétique : files d'attente, problèmes de logement, bureaucratie, conversations de café. Son style imite le parler populaire avec maladresses délibérées et répétitions comiques. Ses personnages ne parlent pas «bien» — et c'est tout l'art de Zoshchenko. Persécuté sous Staline en 1946, il mourut dans la misère, mais resta adulé du peuple." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les cafés littéraires russes — une tradition d'or", "content": "La tradition des cafés littéraires et philosophiques est importante en Russie. Au XIXe siècle, les cafés de Saint-Pétersbourg et Moscou étaient des foyers intellectuels. Au début du XXe siècle, les poètes futuristes (Maïakovski) et acméistes (Akhmatova) se retrouvaient au «Café des Poètes» (Кафе Поэтов) à Moscou. Aujourd'hui, une nouvelle vague de cafés intellectuels avec lectures, débats, soirées poésie existe à Moscou et Saint-Pétersbourg — tradition bien vivante." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Душевный разговор» — la conversation profonde russe", "content": "Les Russes ont la réputation d'aller très vite au cœur des sujets dans les conversations. Oubliez le small talk superficiel de 5 minutes : au café, un Russe vous demandera rapidement vos pensées sur le sens de la vie, la politique, l'amour, Dostoïevski. Ce style de conversation profonde et directe s'appelle «душевный разговор» (conversation de l'âme). Les Russes considèrent les conversations superficielles comme une perte de temps. «Говорить по душам» (parler à cœur ouvert) est un idéal social." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Кстати, ты читал Достоевского?", "pronunciation": "KSTAti, ty tchitál Dastayéfskava", "translation": "À propos, tu as lu Dostoïevski ?", "usage": "Exemple parfait du «кстати» pour introduire un sujet profond dans la conversation. Les Russes passent naturellement des sujets pratiques aux sujets philosophiques. Répondre «Да, конечно!» ou «Нет, а что?» (Non, et alors ?) ouvre une longue conversation intéressante.", "example": "— Кстати, ты читал Достоевского? — Да, «Преступление и наказание». Гениально! (À propos, tu as lu Dostoïevski ? — Oui, Crime et Châtiment. Génial !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — les cafés du centre historique", "subtitle": "Кофейни Петербурга — литературная атмосфера", "content": "Saint-Pétersbourg possède les cafés les plus atmosphériques de Russie. Le café «Достоевский» près du lieu où vécut l'écrivain, les cafés de la rue Rubinstein (Рубинштейна), la librairie-café Dom Knigi (Дом Книги)... L'atmosphère littéraire est palpable dans chaque coin. En hiver, avec la neige et les réverbères, s'asseoir dans un café de Saint-Pétersbourg avec un livre de Dostoïevski et un thé — expérience unique au monde." }
+      },
+      "quiz": [
+        { "q": "Comment se prononce «конечно» ?", "opts": ["ko-NECH-no", "ka-NYECH-na", "ko-NECK-no", "co-NESH-no"], "ans": 1, "exp": "«Конечно» se prononce «kaNYECHna» — la lettre «ч» se prononce «ch» dans ce mot (exception). C'est l'une des prononciations irrégulières les plus importantes à mémoriser." },
+        { "q": "Comment exprime-t-on «en fait» en russe ?", "opts": ["Кстати", "На самом деле", "Значит", "Однако"], "ans": 1, "exp": "«На самом деле» = en fait / en réalité. Expression très courante pour corriger une perception ou révéler la vérité derrière les apparences." },
+        { "q": "Qu'est-ce qu'un «душевный разговор» ?", "opts": ["Une dispute animée", "Une conversation superficielle", "Une conversation profonde et sincère", "Un monologue littéraire"], "ans": 2, "exp": "«Душевный разговор» = conversation profonde, de l'âme (душа = âme). Les Russes sont réputés pour aller rapidement aux sujets profonds — vie, sens, amour, philosophie — plutôt que rester en surface." },
+        { "q": "Comment dit-on «mais en revanche» en russe ?", "opts": ["Однако", "Хотя", "Зато", "Но"], "ans": 2, "exp": "«Зато» = mais en revanche / mais au moins. Introduit une compensation positive : «Дорого, зато вкусно!» (cher, mais en revanche délicieux). Plus positif que le simple «но» (mais)." },
+        { "q": "Comment introduit-on une remarque incidente en conversation russe ?", "opts": ["Значит", "Оказывается", "Кстати", "На самом деле"], "ans": 2, "exp": "«Кстати» = à propos / soit dit en passant. C'est le connecteur de digression le plus utilisé en russe conversationnel — pour introduire une remarque, changer de sujet ou ajouter une information." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Les Sorties Sportives",
+      "titleRu": "Спортивные события",
+      "level": "A2",
+      "grammar": {
+        "title": "Le sport et les verbes de mouvement préfixés",
+        "titleRu": "Спорт и приставочные глаголы движения",
+        "intro": "Le sport est l'occasion idéale d'approfondir les verbes de mouvement — l'une des spécificités les plus riches (et complexes) de la grammaire russe. Les préfixes changent le sens des verbes de base и(й)ти et ехать de manière très précise.",
+        "sections": [
+          {
+            "title": "Verbes de mouvement préfixés — principaux",
+            "content": "Base : идти (aller à pied) / ехать (aller en véhicule)\n\nПрийти / приехать — arriver (à pied / en véhicule)\nУйти / уехать — partir, s'en aller\nВойти / въехать — entrer\nВыйти / выехать — sortir\nЗайти / заехать — passer (quelque part en chemin)\nПерейти / переехать — traverser / déménager\nПодойти / подъехать — s'approcher\nОтойти / отъехать — s'éloigner"
+          },
+          {
+            "title": "Vocabulaire sportif",
+            "content": "футбол — football\nхоккей — hockey (sur glace)\nтеннис — tennis\nбаскетбол — basket-ball\nплавание — natation\nлыжи — ski\nкаток — patinoire\nстадион — stade\nспортзал / зал — salle de sport\nтренировка — entraînement\nматч — match\nбосс — coach (familier)\nсчёт — score"
+          },
+          {
+            "title": "Parler d'un match",
+            "content": "Кто победил? — Qui a gagné ?\nСо счётом... — Sur le score de...\nНичья. — Match nul.\nГол! — But !\nОфсайд. — Hors-jeu.\nПенальти. — Pénalty.\nЭто нечестно! — C'est injuste !\nСудья слепой! — L'arbitre est aveugle !\nКак сыграли? — Comment ont-ils joué ?"
+          }
+        ],
+        "rule": "💡 Le sport le plus populaire en Russie est le hockey sur glace — au même niveau que le football. La rivalité URSS/Canada lors des Championnats du monde est une des grandes épopées sportives du XXe siècle. «Шайба!» (rondelle !) est le cri des fans de hockey."
+      },
+      "pronunciation": {
+        "intro": "Sports et stades — pour vivre l'ambiance sportive russe !",
+        "note": "⚠️ «Хоккей» — prononcez «khaKYEY» (le «х» = kh aspiré + deux syllabes). «Каток» (patinoire) — un lieu culte en hiver russe, les patinoires en plein air se multiplient de décembre à mars.",
+        "words": [
+          { "fr": "хоккей", "ru_pron": "khaKYEY", "meaning": "le hockey (sur glace)" },
+          { "fr": "стадион", "ru_pron": "stadiON", "meaning": "le stade" },
+          { "fr": "тренировка", "ru_pron": "treniROVka", "meaning": "l'entraînement" },
+          { "fr": "матч", "ru_pron": "match", "meaning": "le match" },
+          { "fr": "счёт", "ru_pron": "chtchyot", "meaning": "le score / le compte" },
+          { "fr": "победить", "ru_pron": "pobiDÍT'", "meaning": "gagner / vaincre (perfectif)" },
+          { "fr": "проиграть", "ru_pron": "praigRÁT'", "meaning": "perdre (perfectif)" },
+          { "fr": "каток", "ru_pron": "kaTOK", "meaning": "la patinoire" },
+          { "fr": "болельщик", "ru_pron": "balYEL'chtchik", "meaning": "le supporter / le fan" },
+          { "fr": "ничья", "ru_pron": "nitchYÁ", "meaning": "le match nul" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "тренировка", "gender": "f", "ru": "l'entraînement", "ru_pron": "treniROVka", "example_fr": "У меня тренировка в 7 утра.", "example_ru": "J'ai un entraînement à 7h du matin.", "level": "A1" },
+        { "fr": "победить", "gender": null, "ru": "gagner / vaincre (perfectif)", "ru_pron": "pobiDÍT'", "example_fr": "Наша команда победила!", "example_ru": "Notre équipe a gagné !", "level": "A1" },
+        { "fr": "проиграть", "gender": null, "ru": "perdre (perfectif)", "ru_pron": "praigRÁT'", "example_fr": "К сожалению, мы проиграли.", "example_ru": "Malheureusement, nous avons perdu.", "level": "A1" },
+        { "fr": "команда", "gender": "f", "ru": "l'équipe", "ru_pron": "kaMÁNda", "example_fr": "За какую команду ты болеешь?", "example_ru": "Pour quelle équipe tu supportes ?", "level": "A1" },
+        { "fr": "болельщик", "gender": "m", "ru": "le supporter / le fan", "ru_pron": "balYEL'chtchik", "example_fr": "Я болельщик «Спартака».", "example_ru": "Je suis supporter du Spartak.", "level": "A1" },
+        { "fr": "ничья", "gender": "f", "ru": "le match nul", "ru_pron": "nitchYÁ", "example_fr": "Опять ничья — скучно!", "example_ru": "Encore un match nul — ennuyeux !", "level": "A1" },
+        { "fr": "гол", "gender": "m", "ru": "le but (football)", "ru_pron": "gol", "example_fr": "Гол!! Мы выиграли!", "example_ru": "But !! Nous avons gagné !", "level": "A1" },
+        { "fr": "каток", "gender": "m", "ru": "la patinoire", "ru_pron": "kaTOK", "example_fr": "Пойдём на каток?", "example_ru": "On va à la patinoire ?", "level": "A1" },
+        { "fr": "лыжи", "gender": "pl", "ru": "les skis / le ski", "ru_pron": "lýji", "example_fr": "Я катаюсь на лыжах.", "example_ru": "Je fais du ski.", "level": "A1" },
+        { "fr": "чемпионат", "gender": "m", "ru": "le championnat", "ru_pron": "tchimpiaNÁT", "example_fr": "Чемпионат мира по хоккею.", "example_ru": "Le Championnat du monde de hockey.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "стадион", "fr_pron": "stadiON", "ru": "stade", "ru_pron": "stade", "note": "«Стадион» = stade. Même étymologie grecque «stadion» (unité de mesure puis piste de course). La Russie a accueilli la Coupe du monde de football en 2018 — de nombreux stades modernes construits pour l'occasion." },
+        { "fr": "матч", "fr_pron": "match", "ru": "match", "ru_pron": "match", "note": "«Матч» vient de l'anglais «match». La plupart des termes sportifs russes sont des anglicismes : гол (goal), офсайд (offside), пенальти (penalty), тайм (time = mi-temps)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Lev Yachine (1929–1990)", "subtitle": "Le meilleur gardien de but de l'histoire", "content": "Lev Yachine est le seul gardien de but à avoir remporté le Ballon d'Or (1963). Surnommé «la Panthère noire» pour ses vêtements entièrement noirs et ses réflexes fulgurants, il joua toute sa carrière au Dynamo Moscou (1950-1970). Il para 150 pénaltys en carrière et participa à 3 Coupes du monde. Il est considéré comme le plus grand gardien de l'histoire du football mondial. Sa statue trône devant le stade du Dynamo à Moscou." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le hockey sur glace — la fierté soviétique", "content": "Le hockey sur glace (хоккей) est devenu en URSS une machine de guerre sportive. Les équipes soviétiques dominèrent les Championnats du monde de 1954 à 1990, remportant 22 titres. La «Série du siècle» de 1972 contre le Canada est la confrontation sportive la plus dramatique du XXe siècle — l'URSS et le Canada au coude à coude sur 8 matchs. La victoire canadienne au dernier match (Bobbie Clarke, Paul Henderson) est entrée dans la légende sportive des deux pays." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le Spartak vs le CSKA — le derby de Moscou", "content": "Le derby entre le Spartak Moscou (Спартак) et le CSKA Moscou (ЦСКА, club de l'armée) est la rivalité footballistique la plus intense de Russie. Spartak = club du peuple, populaire, aux couleurs rouge et blanc. CSKA = club de l'armée, supporters plus conservateurs. Pendant l'ère soviétique, Spartak représentait une forme de résistance culturelle (soutenu par des commerçants, pas par une institution d'État). La passion des fans («болельщики») dépasse parfois les limites lors de ces rencontres." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Как сыграли наши?", "pronunciation": "Kak sygráli náchi", "translation": "Comment ont joué les nôtres ?", "usage": "Question rituelle du fan de sport russe. «Наши» (les nôtres) désigne l'équipe nationale ou le club favori — sentiment d'appartenance très fort. Réponse : «Победили 3:1!» (Ils ont gagné 3-1 !) ou «Проиграли, увы...» (Ils ont perdu, hélas...)", "example": "— Как сыграли наши? — Победили! 2 ноль! — Ура! (Comment ont joué les nôtres ? — Victoire ! 2-0 ! — Hourra !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Sotchi — Parc Olympique", "subtitle": "Олимпийский парк Сочи — наследие 2014", "content": "Le parc olympique de Sotchi, construit pour les JO d'hiver de 2014, est resté un site de spectacles et d'événements sportifs de premier plan. Le stade Fisht accueille des matchs de football. L'anneau de glace — arena de hockey — tient des concerts et compétitions. La piste de bobsleigh et de biathlon à Krasnaya Polyana est ouverte aux touristes. Un téléphérique monte jusqu'aux pistes de ski. Le site entier peut se visiter à pied en une journée — architecture futuriste face à la mer." }
+      },
+      "quiz": [
+        { "q": "Quel sport est aussi populaire que le football en Russie ?", "opts": ["Le basketball", "Le hockey sur glace", "La lutte", "L'athlétisme"], "ans": 1, "exp": "Le hockey sur glace (хоккей) est au moins aussi populaire que le football en Russie. Les équipes soviétiques dominèrent les Championnats du monde pendant des décennies." },
+        { "q": "Qui est Lev Yachine ?", "opts": ["Le meilleur attaquant soviétique", "Le seul gardien de but à avoir remporté le Ballon d'Or", "L'entraîneur de l'équipe d'URSS aux JO 1980", "Le fondateur du club Spartak Moscou"], "ans": 1, "exp": "Lev Yachine est le seul gardien de but de l'histoire du football à avoir remporté le Ballon d'Or (1963). Surnommé «la Panthère noire», il joua toute sa carrière au Dynamo Moscou." },
+        { "q": "Comment dit-on «notre équipe a gagné» en russe ?", "opts": ["Наша команда проиграла.", "Наша команда победила!", "Ничья наша команда.", "Команда наша выигрывает."], "ans": 1, "exp": "«Наша команда победила» = notre équipe a gagné. Победить (perfectif) = gagner, vaincre. Проиграть = perdre." },
+        { "q": "Que signifie «болельщик» ?", "opts": ["Le joueur professionnel", "Le médecin de l'équipe", "Le supporter / le fan", "L'arbitre"], "ans": 2, "exp": "«Болельщик» = supporter / fan de sport. Vient de «болеть» qui signifie à la fois «être malade» et «supporter une équipe» — être si passionné qu'on en souffre !" },
+        { "q": "Comment dit-on «match nul» en russe ?", "opts": ["победа", "гол", "ничья", "офсайд"], "ans": 2, "exp": "«Ничья» = match nul. Vient de «ничего» (rien). Un match nul = ni gagnant ni perdant = rien de décidé. «Опять ничья!» = encore un match nul !" }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 3",
+      "titleRu": "Итоговый урок Модуля 3",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète du Module 3",
+        "titleRu": "Повторение третьего модуля",
+        "intro": "Bravo — Module 3 terminé ! Vous pouvez maintenant sortir, commander au restaurant, visiter des musées, aller au théâtre, inviter des amis, célébrer les fêtes russes, converser naturellement et suivre un match de sport en russe ! Révisons les points clés.",
+        "sections": [
+          {
+            "title": "✅ Récapitulatif grammatical du Module 3",
+            "content": "✅ Le génitif singulier — quantités, négation, possession\n✅ Le génitif pluriel — chiffres 5+, много/мало\n✅ Perfectif vs imperfectif — processus vs résultat achevé\n✅ Le comparatif — forme courte invariable (-ее, irréguliers)\n✅ L'impératif — formation et usages (invitations, ordres polis)\n✅ Les connecteurs de discours — кстати, значит, зато, однако...\n✅ Les verbes de mouvement préfixés — при-, у-, в-, вы-, за-..."
+          },
+          {
+            "title": "Phrases essentielles du Module 3",
+            "content": "Столик на двоих, пожалуйста. — Une table pour deux.\nЧашка кофе с молоком. — Une tasse de café au lait.\nЭто было вкусно! Принесите счёт. — C'était délicieux ! L'addition.\nЯ готов заказать. — Je suis prêt à commander.\nМне очень понравилось! — J'ai vraiment adoré !\nЭтот спектакль интереснее. — Ce spectacle est plus intéressant.\nС удовольствием! Договорились! — Avec plaisir ! C'est entendu !\nКстати, ты знаешь...? — À propos, tu savais que... ?\nНаша команда победила! — Notre équipe a gagné !\nС Новым Годом! Счастья и здоровья! — Bonne Année ! Bonheur et santé !"
+          },
+          {
+            "title": "Concepts culturels clés du Module 3",
+            "content": "🍽️ Cuisine : борщ, щи, пельмени, блины, оливье — les classiques\n☕ Café : самовар, квас, чай с лимоном — la culture du thé\n🎭 Théâtre : Bolchoï, Mariinsky, Stanislavski, champagne à l'entracte\n🖼️ Musées : Ermitage (3M œuvres, 50 chats !), Tretiakov, Répine\n🎉 Fêtes : Новый год (principal), 9 мая (sacré), Масленица\n💬 Conversation : душевный разговор, кстати, конечно\n⚽ Sport : хоккей et футбол, Yachine, Spartak vs CSKA"
+          }
+        ],
+        "rule": "🏆 Vous atteignez maintenant le niveau A2 ! Vous pouvez mener des conversations simples mais complètes en russe. Le Module 4 vous emmènera vers le travail, les études et la vie professionnelle. Вперёд! (En avant !)"
+      },
+      "pronunciation": {
+        "intro": "Révision des expressions clés du Module 3 — à mémoriser et pratiquer à voix haute !",
+        "note": "",
+        "words": [
+          { "fr": "Принесите счёт, пожалуйста!", "ru_pron": "Prinisítié chtchyót, pajálusta", "meaning": "L'addition, s'il vous plaît !" },
+          { "fr": "Это было очень вкусно!", "ru_pron": "Éta byla ótchen' fkóusna", "meaning": "C'était vraiment délicieux !" },
+          { "fr": "Этот спектакль лучше.", "ru_pron": "État spikTÁKL' lóutché", "meaning": "Ce spectacle est meilleur." },
+          { "fr": "Мне очень понравилось!", "ru_pron": "Mnyé ótchen' ponRÁvilas'", "meaning": "J'ai vraiment adoré !" },
+          { "fr": "Договорились на пятницу!", "ru_pron": "Dagavariliss na PÁTnitsu", "meaning": "C'est convenu pour vendredi !" },
+          { "fr": "С удовольствием приду!", "ru_pron": "S oudaVÓL'stviem priDÓU", "meaning": "Je viendrai avec plaisir !" },
+          { "fr": "С Новым Годом! Счастья!", "ru_pron": "S NOvym GOdam ! SHTCHÁSTya !", "meaning": "Bonne Année ! Bonheur !" },
+          { "fr": "Кстати, ты знаешь это?", "ru_pron": "KSTAti, ty ZNÁyich éta", "meaning": "À propos, tu savais ça ?" },
+          { "fr": "Наша команда победила!", "ru_pron": "NAcha kaMÁNda pabiDÍla", "meaning": "Notre équipe a gagné !" },
+          { "fr": "Вперёд! Продолжаем!", "ru_pron": "VpiRYOT ! Pradaljaïm !", "meaning": "En avant ! Continuons !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "совершенствовать", "gender": null, "ru": "perfectionner", "ru_pron": "savierchéNSTvavat'", "example_fr": "Совершенствуйте русский каждый день.", "example_ru": "Perfectionnez votre russe chaque jour.", "level": "A2" },
+        { "fr": "бегло", "gender": null, "ru": "couramment / avec aisance", "ru_pron": "byéGLa", "example_fr": "Я хочу говорить бегло.", "example_ru": "Je veux parler couramment.", "level": "A2" },
+        { "fr": "произношение", "gender": null, "ru": "la prononciation", "ru_pron": "praiznaChénié", "example_fr": "Ваше произношение улучшается.", "example_ru": "Votre prononciation s'améliore.", "level": "A2" },
+        { "fr": "понимать", "gender": null, "ru": "comprendre", "ru_pron": "paniMÁT'", "example_fr": "Теперь я понимаю лучше.", "example_ru": "Maintenant je comprends mieux.", "level": "A1" },
+        { "fr": "объяснять", "gender": null, "ru": "expliquer", "ru_pron": "ab'iasNÁT'", "example_fr": "Объясните ещё раз, пожалуйста.", "example_ru": "Expliquez encore une fois, s'il vous plaît.", "level": "A1" },
+        { "fr": "выучить", "gender": null, "ru": "apprendre (par cœur, perfectif)", "ru_pron": "výoutchit'", "example_fr": "Я выучил 100 слов!", "example_ru": "J'ai appris 100 mots !", "level": "A2" },
+        { "fr": "свободно", "gender": null, "ru": "librement / couramment", "ru_pron": "svaBODna", "example_fr": "Говорить свободно — моя цель.", "example_ru": "Parler couramment — mon objectif.", "level": "A2" },
+        { "fr": "цель", "gender": "f", "ru": "l'objectif / le but", "ru_pron": "tsel'", "example_fr": "Моя цель — говорить по-русски.", "example_ru": "Mon objectif — parler russe.", "level": "A2" },
+        { "fr": "терпение", "gender": "n", "ru": "la patience", "ru_pron": "tyerPYEnié", "example_fr": "Терпение — ключ к успеху.", "example_ru": "La patience est la clé du succès.", "level": "A2" },
+        { "fr": "вперёд", "gender": null, "ru": "en avant !", "ru_pron": "vpiRYOT", "example_fr": "Вперёд к модулю 4!", "example_ru": "En avant vers le module 4 !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "произношение", "fr_pron": "praiznaChénié", "ru": "prononciation", "ru_pron": "prononciation", "note": "«Произношение» = prononciation. Du verbe «произносить» (prononcer). Votre prononciation russe s'améliore à chaque leçon — les sons difficiles (щ, ы, ъ) demandent de la pratique mais viennent naturellement !" },
+        { "fr": "терпение", "fr_pron": "tyerPYEnié", "ru": "patience / persévérance", "ru_pron": "patience", "note": "«Терпение» = patience. Proverbe russe : «Терпение и труд всё перетрут» (La patience et le travail viennent à bout de tout). L'équivalent du «vouloir c'est pouvoir» russe !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anna Akhmatova (1889–1966)", "subtitle": "Poétesse et mémoire de la Russie souffrante", "content": "Anna Akhmatova est la plus grande poétesse russe du XXe siècle. Son cycle «Requiem» (1935-40) — écrit en secret, mémorisé par ses amies, jamais couché sur papier de peur d'une perquisition — est un témoignage déchirant des purges staliniennes. Son fils fut arrêté, son mari fusillé. Elle resta en Russie, refusant l'exil, comme un devoir de mémoire. Ses vers sur Leningrad assiégée, sur la souffrance et l'amour sont d'une beauté et d'une force incomparables." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La culture russe dans le monde — un rayonnement unique", "content": "La Russie est l'une des grandes puissances culturelles mondiales. En littérature : Tolstoï, Dostoïevski, Tchekhov, Pouchkine. En musique : Tchaïkovski, Rachmaninov, Prokofiev, Chostakovitch. En danse : le ballet russe, Diaghilev, Nijinski. En cinéma : Eisenstein, Tarkovski. En théâtre : Stanislavski. Ces noms sont connus et respectés partout dans le monde. Apprendre le russe, c'est accéder directement à l'une des plus grandes civilisations culturelles de l'humanité." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Культурная программа» — la culture comme devoir", "content": "En Russie, avoir une «programme culturelle» (культурная программа) lors d'un séjour ou d'un week-end est presque une obligation sociale. Aller au théâtre, visiter des musées, assister à des concerts — c'est ce que font les gens «bien». Un Russe qui rentre d'un week-end à Saint-Pétersbourg sans avoir visité l'Ermitage ou le Mariinsky sera regardé avec incompréhension. La culture n'est pas un luxe optionnel — c'est une composante essentielle de l'identité russe." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Век живи — век учись!", "pronunciation": "Vyek jiví — vyek outchís'", "translation": "Toute la vie est une école ! / On apprend tout au long de la vie !", "usage": "Proverbe russe célèbre — équivalent du «on apprend à tout âge» français. Лitt. : «Vis un siècle — apprends un siècle». Parfait pour encourager à continuer l'apprentissage du russe !", "example": "— Иногда я устаю учить русский. — Век живи, век учись! Продолжай! (Parfois je me fatigue d'apprendre le russe. — On apprend toute la vie ! Continue !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le «Cercle d'Or» — villes médiévales russes", "subtitle": "Золотое кольцо — сердце Древней Руси", "content": "Le «Cercle d'Or» (Золотое кольцо) est un circuit de villes médiévales au nord-est de Moscou : Sergiyev Possad, Yaroslavl, Rostov Veliky, Suzdal, Vladimir. Ces villes aux églises dorées, kremlin blancs et monastères anciens sont le cœur de la Russie historique. Suzdal (moins de 10 000 habitants !) est l'une des meilleures villes médiévales conservées au monde — comme un musée en plein air. Facilement accessible en train depuis Moscou. Meilleure saison : été ou hiver enneigé." }
+      },
+      "quiz": [
+        { "q": "Qu'est-ce qu'une «культурная программа» en Russie ?", "opts": ["Un cours de langue", "Un programme d'activités culturelles (théâtre, musées, concerts)", "Une émission de télévision éducative", "Un document officiel sur la culture"], "ans": 1, "exp": "La «культурная программа» = le programme culturel d'un séjour (théâtre, musées, concerts). En Russie, avoir un programme culturel est presque une obligation sociale — la culture est une composante de l'identité." },
+        { "q": "Que signifie le proverbe «Век живи — век учись» ?", "opts": ["La vie est trop courte pour étudier", "On apprend tout au long de la vie", "Il faut apprendre vite quand on est jeune", "L'école dure toute la vie"], "ans": 1, "exp": "«Век живи — век учись» = toute la vie est une école. Littéralement «vis un siècle, apprends un siècle». Équivalent russe de «on apprend à tout âge»." },
+        { "q": "Comment dit-on «notre équipe a gagné» en russe ?", "opts": ["Наша команда проиграла.", "Наша команда победила.", "Команда ничья наша.", "Мы в ничью."], "ans": 1, "exp": "«Наша команда победила» = notre équipe a gagné. Победить (perfectif) = gagner, vaincre. On peut aussi dire «Мы победили !» (Nous avons gagné !)." },
+        { "q": "Quelle est la particularité des 50 chats de l'Ermitage ?", "opts": ["Ils accueillent les visiteurs à l'entrée", "Ils vivent dans les caves et chassent les souris depuis Pierre le Grand", "Ils sont des copies de chats égyptiens antiques", "Ils sont exposés dans une salle spéciale"], "ans": 1, "exp": "Les 50 chats de l'Ermitage vivent dans les caves et sous-sols du musée, chassant les souris. Tradition fondée par Pierre le Grand. Ils ont leur propre budget, vétérinaire et admirateurs !" },
+        { "q": "Que signifie «говорить бегло» en russe ?", "opts": ["Parler vite et fort", "Parler couramment avec aisance", "Parler en courant", "Parler avec un accent"], "ans": 1, "exp": "«Говорить бегло» = parler couramment / avec aisance. Бегло vient de «бег» (course) — parler avec fluidité, comme si les mots «couraient». L'objectif de tout apprenant !" }
+      ]
+    }
+  ]
+}
