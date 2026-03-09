@@ -1,0 +1,740 @@
+{
+  "module": 1,
+  "titleFr": "Les Fondamentaux",
+  "titleRu": "Основы русского",
+  "description": "L'alphabet cyrillique, les premiers sons, les mots essentiels et les phrases de base.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "L'Alphabet Cyrillique",
+      "titleRu": "Кириллица",
+      "level": "A1",
+      "grammar": {
+        "title": "L'alphabet cyrillique — 33 lettres",
+        "titleRu": "Кириллический алфавит",
+        "intro": "Le russe s'écrit en alphabet cyrillique, inventé au IXe siècle par les moines Cyrille et Méthode. Il contient 33 lettres. Bonne nouvelle pour les francophones : plusieurs lettres ressemblent aux nôtres, d'autres sont de faux amis et quelques-unes sont totalement inédites !",
+        "sections": [
+          {
+            "title": "Lettres familières (mêmes formes, mêmes sons)",
+            "content": "А а → «a» comme dans «chat»\nЕ е → «yé» comme dans «yes»\nК к → «k» comme dans «képi»\nМ м → «m» comme dans «mère»\nО о → «o» comme dans «or»\nТ т → «t» comme dans «table»"
+          },
+          {
+            "title": "⚠️ Les faux amis cyrilliques — ATTENTION !",
+            "content": "В в → se lit «V» (pas «B») : Волга = Volga\nН н → se lit «N» (pas «H») : нет = nyet (non)\nР р → se lit «R» roulé (pas «P») : Россия = Rassiya\nС с → se lit «S» (pas «C») : сыр = sir (fromage)\nУ у → se lit «OU» (pas «U») : ул. = oul. (rue)\nХ х → se lit «KH» guttural : хлеб = khleb (pain)\nЬ ь → signe mou (adoucit la consonne précédente)"
+          },
+          {
+            "title": "Lettres uniquement cyrilliques",
+            "content": "Б б → «b»\nГ г → «g» dur (comme dans «gare»)\nД д → «d»\nЖ ж → «j» de «jeu» (jamais comme en anglais)\nЗ з → «z»\nИ и → «i» bref\nЙ й → «y» semi-voyelle (comme dans «yeux»)\nЛ л → «l»\nП п → «p»\nФ ф → «f»\nЦ ц → «ts» comme dans «tsar»\nЧ ч → «tch» comme dans «tchèque»\nШ ш → «ch» dur (bouche en avant)\nЩ щ → «chtch» (plus doux)\nЭ э → «é» ouvert\nЮ ю → «you»\nЯ я → «ya»"
+          },
+          {
+            "title": "Les signes muets",
+            "content": "Ъ ъ — signe dur : séparateur entre consonnes et voyelles\nЬ ь — signe mou : adoucit la consonne qui précède\nCes deux signes ne se prononcent pas seuls !"
+          }
+        ],
+        "rule": "💡 Astuce : commencez par les lettres familières, mémorisez les 6 faux amis (В Н Р С У Х), puis attaquez les nouvelles. En 2 semaines, vous lirez le cyrillique couramment !"
+      },
+      "pronunciation": {
+        "intro": "Entraînez votre oreille ! Appuyez sur 🔊 pour entendre le mot en russe. La transcription phonétique en français vous guidera.",
+        "note": "⚠️ La transcription est approximative. Le russe a des sons que le français ne possède pas — écoutez et répétez !",
+        "words": [
+          { "fr": "Россия", "ru_pron": "Rassiya", "meaning": "La Russie" },
+          { "fr": "Москва", "ru_pron": "Maskvá", "meaning": "Moscou" },
+          { "fr": "да", "ru_pron": "da", "meaning": "oui" },
+          { "fr": "нет", "ru_pron": "nyét", "meaning": "non" },
+          { "fr": "Привет", "ru_pron": "Priviét", "meaning": "Salut (informel)" },
+          { "fr": "хлеб", "ru_pron": "khlyéb", "meaning": "le pain (son 'kh' guttural)" },
+          { "fr": "сыр", "ru_pron": "syr", "meaning": "le fromage" },
+          { "fr": "чай", "ru_pron": "tchaï", "meaning": "le thé" },
+          { "fr": "спасибо", "ru_pron": "spasíba", "meaning": "merci" },
+          { "fr": "водка", "ru_pron": "vódka", "meaning": "la vodka" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "алфавит", "gender": "m", "ru": "l'alphabet", "ru_pron": "alfavít", "example_fr": "Русский алфавит имеет 33 буквы.", "example_ru": "L'alphabet russe a 33 lettres.", "level": "A1" },
+        { "fr": "буква", "gender": "f", "ru": "la lettre (de l'alphabet)", "ru_pron": "búkva", "example_fr": "Какая это буква?", "example_ru": "Quelle est cette lettre ?", "level": "A1" },
+        { "fr": "слово", "gender": "n", "ru": "le mot", "ru_pron": "slóva", "example_fr": "Это новое слово.", "example_ru": "C'est un nouveau mot.", "level": "A1" },
+        { "fr": "звук", "gender": "m", "ru": "le son", "ru_pron": "zvuk", "example_fr": "Этот звук трудный.", "example_ru": "Ce son est difficile.", "level": "A1" },
+        { "fr": "язык", "gender": "m", "ru": "la langue / la langue (organe)", "ru_pron": "yazýk", "example_fr": "Русский язык красивый.", "example_ru": "La langue russe est belle.", "meaning_double": "язык = langue (idiome) ET язык = langue (dans la bouche)", "level": "A1" },
+        { "fr": "читать", "gender": null, "ru": "lire", "ru_pron": "tchitát'", "example_fr": "Я читаю по-русски.", "example_ru": "Je lis en russe.", "level": "A1" },
+        { "fr": "писать", "gender": null, "ru": "écrire", "ru_pron": "pisát'", "example_fr": "Я пишу букву А.", "example_ru": "J'écris la lettre A.", "level": "A1" },
+        { "fr": "произносить", "gender": null, "ru": "prononcer", "ru_pron": "praiznaçit'", "example_fr": "Как это произносить?", "example_ru": "Comment prononcer ça ?", "level": "A1" },
+        { "fr": "кириллица", "gender": "f", "ru": "l'alphabet cyrillique", "ru_pron": "kiríllitsa", "example_fr": "Кириллица — красивый алфавит.", "example_ru": "Le cyrillique est un bel alphabet.", "level": "A1" },
+        { "fr": "ударение", "gender": "n", "ru": "l'accent tonique", "ru_pron": "oudarénié", "example_fr": "Ударение очень важно.", "example_ru": "L'accent tonique est très important.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "алфавит", "fr_pron": "alfavít", "ru": "alphabet", "ru_pron": "alphabet", "note": "Russe «алфавит» et français «alphabet» viennent tous deux du grec, via les lettres alpha et bêta. Facile à retenir !" },
+        { "fr": "театр", "fr_pron": "téatr", "ru": "théâtre", "ru_pron": "téatr", "note": "Russe «театр» = français «théâtre». Même origine grecque. La prononciation est presque identique !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Saint Cyrille (826–869)", "subtitle": "Inventeur de l'alphabet cyrillique", "content": "Le moine Constantin (connu sous le nom de Cyrille) créa l'alphabet glagolitique au IXe siècle pour transcrire les langues slaves. Ses disciples développèrent ensuite le cyrillique à partir de l'alphabet grec. Cyrille mourut à Rome en 869. Avec son frère Méthode, il est vénéré comme «l'apôtre des Slaves». La fête de l'alphabet est célébrée le 24 mai en Russie et Bulgarie." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le cyrillique — 1 000 ans d'histoire écrite", "content": "L'alphabet cyrillique est utilisé depuis le Xe siècle. Pierre le Grand le réforma en 1708 pour le moderniser. La Révolution soviétique de 1917 l'simplifia encore (suppression de 4 lettres obsolètes). Aujourd'hui, plus de 250 millions de personnes l'utilisent, dont les Russes, Bulgares, Serbes, Ukrainiens et Kazakhs." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le cyrillique dans la vie quotidienne", "content": "Si vous voyez РЕСТОРАН sur une devanture à Moscou, vous pouvez le lire : Р-Е-С-Т-О-Р-А-Н = RESTORAN (restaurant) ! Le cyrillique est phonétique : chaque lettre correspond à un son fixe, sans les exceptions du français. Avantage : une fois l'alphabet appris, vous lisez tout à voix haute correctement. КАФЕ = kafé, ТАКСИ = taksi, БАНК = bank..." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Добро пожаловать !", "pronunciation": "Dabró pajalávat'", "translation": "Bienvenue !", "usage": "Expression d'accueil utilisée dans les magasins, hôtels, chez soi. Mot à mot : «accueillez avec bonté». Vous l'entendrez souvent à votre arrivée en Russie.", "example": "— Добро пожаловать в Россию ! (Bienvenue en Russie !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — La Place Rouge", "subtitle": "Красная площадь — Cœur de la Russie", "content": "La Place Rouge (Красная площадь) est le cœur de Moscou et de toute la Russie. Le nom «Красная» signifiait autrefois «belle» en vieux russe — aujourd'hui il signifie «rouge». Autour : le Kremlin (centre du pouvoir), la cathédrale Saint-Basile (1561, à bulbes multicolores), le mausolée de Lénine et le grand magasin GUM. Classée au patrimoine mondial de l'UNESCO." }
+      },
+      "quiz": [
+        { "q": "Quelle lettre cyrillique se prononce «V» (et non «B») ?", "opts": ["Б", "В", "Ь", "Ъ"], "ans": 1, "exp": "В se prononce «V». C'est le faux ami le plus courant ! «Вода» se prononce «voda» (eau) et non «boda»." },
+        { "q": "Que signifie «Я» en russe ?", "opts": ["Il / Elle", "Vous", "Je", "Nous"], "ans": 2, "exp": "«Я» signifie «je». C'est la dernière lettre de l'alphabet cyrillique, mais le pronom le plus utilisé !" },
+        { "q": "La lettre cyrillique «Н» se prononce comment ?", "opts": ["H comme en français", "N comme dans «nuage»", "Ch comme dans «chat»", "R comme dans «rose»"], "ans": 1, "exp": "«Н» se prononce «N». Faux ami ! «Нет» = nyet (non)." },
+        { "q": "Combien de lettres compte l'alphabet cyrillique russe ?", "opts": ["26", "30", "33", "36"], "ans": 2, "exp": "L'alphabet cyrillique russe compte 33 lettres (contre 26 pour l'alphabet latin)." },
+        { "q": "Qui a inventé l'alphabet cyrillique ?", "opts": ["Pierre le Grand", "Ivan le Terrible", "Les moines Cyrille et Méthode", "Pouchkine"], "ans": 2, "exp": "Les moines Cyrille et Méthode créèrent l'alphabet au IXe siècle pour transcrire les langues slaves. C'est en l'honneur de Cyrille qu'on parle de «cyrillique»." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Salutations et politesse",
+      "titleRu": "Приветствия и вежливость",
+      "level": "A1",
+      "grammar": {
+        "title": "Formules de salutation et de politesse",
+        "titleRu": "Приветствия",
+        "intro": "En russe, comme en français, il existe un registre formel et informel. La distinction «ты» (tu) / «вы» (vous) est fondamentale. On vouvoie les inconnus, les personnes âgées et les supérieurs hiérarchiques. Se tromper n'est pas dramatique — les Russes apprécient toute tentative de parler leur langue !",
+        "sections": [
+          {
+            "title": "Salutations selon l'heure",
+            "content": "Доброе утро ! — Bonjour (matin)\nДобрый день ! — Bonjour (après-midi)\nДобрый вечер ! — Bonsoir\nСпокойной ночи ! — Bonne nuit"
+          },
+          {
+            "title": "Salutations universelles",
+            "content": "Здравствуйте ! [Zdrástvouïté] — Bonjour / Bonsoir (formel)\nПривет ! [Priviét] — Salut ! (informel)\nДо свидания ! [Da svidánia] — Au revoir (formel)\nПока ! [Paká] — À plus / Salut (informel)\nДо скорого ! [Da skórova] — À bientôt"
+          },
+          {
+            "title": "Phrases de politesse essentielles",
+            "content": "Пожалуйста [Pajálusta] — S'il vous plaît / De rien\nСпасибо [Spasíba] — Merci\nБольшое спасибо [Bal'choïé spasíba] — Merci beaucoup\nИзвините [Izvinitiè] — Excusez-moi / Pardon (formel)\nПростите [Prastitiè] — Pardon / Je suis désolé(e)"
+          },
+          {
+            "title": "Comment allez-vous ?",
+            "content": "Как дела ? [Kak dilá] — Comment ça va ? (informel)\nКак вы поживаете ? [Kak vy pajivaiétié] — Comment allez-vous ? (formel)\nХорошо [Kharachó] — Bien\nОчень хорошо — Très bien\nНормально [Narmálna] — Ça va / Pas mal\nПлохо [Plókha] — Mal / Pas bien"
+          }
+        ],
+        "rule": "💡 «Пожалуйста» a deux sens : 1) S'il vous plaît (avant une demande) 2) De rien (réponse à «спасибо»). Contexte = tout !"
+      },
+      "pronunciation": {
+        "intro": "Répétez ces mots essentiels jusqu'à ce qu'ils deviennent automatiques. Appuyez sur 🔊 pour écouter.",
+        "note": "⚠️ En russe, les voyelles non-accentuées se réduisent : «о» non accentué se prononce «a». Ex: Москва = Masvká.",
+        "words": [
+          { "fr": "Здравствуйте", "ru_pron": "Zdrástvouïté", "meaning": "Bonjour (formel)" },
+          { "fr": "Привет", "ru_pron": "Priviét", "meaning": "Salut (informel)" },
+          { "fr": "Спасибо", "ru_pron": "Spasíba", "meaning": "Merci" },
+          { "fr": "Пожалуйста", "ru_pron": "Pajálusta", "meaning": "S'il vous plaît / De rien" },
+          { "fr": "Извините", "ru_pron": "Izvinitiè", "meaning": "Excusez-moi" },
+          { "fr": "До свидания", "ru_pron": "Da svidánia", "meaning": "Au revoir" },
+          { "fr": "Как дела?", "ru_pron": "Kak dilá", "meaning": "Comment ça va ?" },
+          { "fr": "Хорошо", "ru_pron": "Kharachó", "meaning": "Bien / D'accord" },
+          { "fr": "Нормально", "ru_pron": "Narmálna", "meaning": "Ça va, pas mal" },
+          { "fr": "Пока", "ru_pron": "Paká", "meaning": "À plus ! (informel)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "здравствуйте", "gender": null, "ru": "bonjour (formel)", "ru_pron": "Zdrástvouïté", "example_fr": "Здравствуйте, как вы поживаете?", "example_ru": "Bonjour, comment allez-vous ?", "level": "A1" },
+        { "fr": "привет", "gender": null, "ru": "salut (informel)", "ru_pron": "Priviét", "example_fr": "Привет, как дела?", "example_ru": "Salut, comment ça va ?", "level": "A1" },
+        { "fr": "спасибо", "gender": null, "ru": "merci", "ru_pron": "Spasíba", "example_fr": "Большое спасибо!", "example_ru": "Merci beaucoup !", "level": "A1" },
+        { "fr": "пожалуйста", "gender": null, "ru": "s'il vous plaît / de rien", "ru_pron": "Pajálusta", "example_fr": "Дайте, пожалуйста, меню.", "example_ru": "Donnez-moi le menu, s'il vous plaît.", "meaning_double": "пожалуйста = s'il vous plaît (demande) ET de rien (réponse à merci)", "level": "A1" },
+        { "fr": "до свидания", "gender": null, "ru": "au revoir", "ru_pron": "Da svidánia", "example_fr": "До свидания и до скорого!", "example_ru": "Au revoir et à bientôt !", "level": "A1" },
+        { "fr": "извините", "gender": null, "ru": "excusez-moi / pardon", "ru_pron": "Izvinitiè", "example_fr": "Извините, где метро?", "example_ru": "Excusez-moi, où est le métro ?", "level": "A1" },
+        { "fr": "хорошо", "gender": null, "ru": "bien / d'accord / OK", "ru_pron": "Kharachó", "example_fr": "Всё хорошо!", "example_ru": "Tout va bien !", "level": "A1" },
+        { "fr": "да", "gender": null, "ru": "oui", "ru_pron": "da", "example_fr": "Да, я понимаю.", "example_ru": "Oui, je comprends.", "level": "A1" },
+        { "fr": "нет", "gender": null, "ru": "non", "ru_pron": "nyét", "example_fr": "Нет, спасибо.", "example_ru": "Non, merci.", "level": "A1" },
+        { "fr": "пожалуйста", "gender": null, "ru": "de rien / je vous en prie", "ru_pron": "Pajálusta", "example_fr": "— Спасибо! — Пожалуйста!", "example_ru": "— Merci ! — De rien !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "нет", "fr_pron": "nyét", "ru": "niet (non)", "ru_pron": "nyét", "note": "«Нет» est entré dans le français populaire sous la forme «niet» ! Vous connaissez déjà ce mot russe sans le savoir." },
+        { "fr": "пока", "fr_pron": "paká", "ru": "pour l'instant / au revoir (informel)", "ru_pron": "paká", "note": "«Пока» signifie à la fois «pour l'instant» et «au revoir» informel — comme «ciao» en italien qui a deux sens aussi." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anton Tchekhov (1860–1904)", "subtitle": "Maître de la nouvelle et du théâtre russe", "content": "Anton Tchekhov est l'un des plus grands auteurs de nouvelles de tous les temps. Médecin de formation, il écrivit plus de 200 nouvelles et des pièces devenues classiques : La Mouette, Oncle Vania, Les Trois Sœurs, La Cerisaie. Son style : sobriété, humour mélancolique, vérité humaine. Citation célèbre : «La médecine est ma femme légitime, la littérature ma maîtresse»." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La culture du thé en Russie", "content": "Le thé (чай) est arrivé en Russie au XVIIe siècle depuis la Chine. Le samovar (самовар), bouilloire traditionnelle en cuivre, est devenu le symbole de l'hospitalité russe. On boit le thé dans des verres (стакан) avec des porte-verres en métal (подстаканник). Le thé noir, très fort, avec du sucre ou de la confiture est la tradition. Offrir du thé à un invité est une règle absolue de politesse." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le rituel du baise-main et des poignées de main", "content": "En Russie, on serre toujours la main en se saluant — les hommes entre eux systématiquement. Les femmes peuvent se faire la bise (1, 2 ou 3 fois selon les régions). Règle importante : ne jamais serrer la main sur un seuil de porte — cela porterait malheur ! On entre d'abord, puis on serre la main. Les Russes appellent souvent par le prénom + patronyme pour le respect formel." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Ничего страшного !", "pronunciation": "Nitchivó stráchnava", "translation": "Ce n'est pas grave ! / Pas de problème !", "usage": "Littéralement : «rien de terrible». Expression très utilisée pour rassurer quelqu'un qui s'excuse ou qui a fait une petite erreur. L'équivalent russe du français «c'est pas grave !»", "example": "— Извините, я опоздал. — Ничего страшного! (Excusez-moi, je suis en retard. — Ce n'est pas grave !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — La Venise du Nord", "subtitle": "Санкт-Петербург — культурная столица", "content": "Fondée par Pierre le Grand en 1703, Saint-Pétersbourg est la capitale culturelle de la Russie. À voir : le musée de l'Ermitage (3 millions d'œuvres !), la Perspective Nevski (avenue principale), la cathédrale Saint-Isaac, les Nuits Blanches (juin-juillet où le soleil ne se couche presque pas). La ville compte plus de 300 palais et musées et 700 ponts." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «bonjour» de façon formelle en russe ?", "opts": ["Привет", "Пока", "Здравствуйте", "Спасибо"], "ans": 2, "exp": "«Здравствуйте» est le salut formel. «Привет» est informel (réservé aux amis et à la famille)." },
+        { "q": "«Пожалуйста» peut signifier :", "opts": ["Seulement «s'il vous plaît»", "S'il vous plaît ET de rien", "Seulement «merci»", "Au revoir ET bonjour"], "ans": 1, "exp": "«Пожалуйста» a deux sens : s'il vous plaît (avant une demande) et de rien (réponse à спасибо)." },
+        { "q": "Que répond-on à «Спасибо» ?", "opts": ["Привет", "До свидания", "Пожалуйста", "Хорошо"], "ans": 2, "exp": "«Пожалуйста» est la réponse standard à «Спасибо» (merci), signifiant «de rien»." },
+        { "q": "Comment dit-on «comment ça va ?» en russe (informel) ?", "opts": ["Как вы поживаете?", "Как дела?", "Кто ты?", "Что это?"], "ans": 1, "exp": "«Как дела?» (kak dilá) est l'équivalent informel de «comment ça va ?». «Как вы поживаете?» est la version formelle." },
+        { "q": "Quelle règle de politesse est importante en Russie lors d'une poignée de main ?", "opts": ["Toujours serrer sur le seuil de la porte", "Ne jamais serrer la main", "Entrer d'abord, serrer la main ensuite", "Serrer la main uniquement le matin"], "ans": 2, "exp": "En Russie, on ne serre jamais la main sur le seuil — cela porte malheur. On entre d'abord, puis on salue." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Les Chiffres 0–20",
+      "titleRu": "Числа 0–20",
+      "level": "A1",
+      "grammar": {
+        "title": "Les chiffres et la règle des cas",
+        "titleRu": "Числа и падежи",
+        "intro": "Les chiffres russes sont réguliers et faciles à apprendre de 0 à 20. Bonne nouvelle : ils ne changent pas selon le genre (contrairement à «un/une» en français). Attention cependant : en russe, le chiffre influence le cas du nom qui suit !",
+        "sections": [
+          {
+            "title": "0 à 10",
+            "content": "0 — ноль [nol']\n1 — один [adín] (m) / одна [adná] (f) / одно [adnó] (n)\n2 — два [dva] (m/n) / две [dvyé] (f)\n3 — три [tri]\n4 — четыре [tchetyré]\n5 — пять [pyat']\n6 — шесть [chést']\n7 — семь [syém']\n8 — восемь [vósiém']\n9 — девять [dyévyat']\n10 — десять [dyésyat']"
+          },
+          {
+            "title": "11 à 20",
+            "content": "11 — одиннадцать [adínnadtsat']\n12 — двенадцать [dvináttsat']\n13 — тринадцать [trinátsat']\n14 — четырнадцать [tchetyrnadtsat']\n15 — пятнадцать [pyatnadtsat']\n16 — шестнадцать [chéstnatsat']\n17 — семнадцать [siémnatsat']\n18 — восемнадцать [vasiémnatsat']\n19 — девятнадцать [divyatnatsat']\n20 — двадцать [dvádtsat']"
+          },
+          {
+            "title": "⚠️ La règle des cas avec les chiffres",
+            "content": "1 → Nominatif singulier : один рубль (un rouble)\n2, 3, 4 → Génitif singulier : два рубля (deux roubles)\n5 à 20 → Génitif pluriel : пять рублей (cinq roubles)\nCette règle paraît complexe — ne vous inquiétez pas, elle devient automatique avec la pratique !"
+          }
+        ],
+        "rule": "💡 Pour compter simplement au départ, retenez : 1 = один/одна, 2 = два/две, puis ноль à десять. Les Russes seront ravis de vous entendre compter !"
+      },
+      "pronunciation": {
+        "intro": "Répétez les chiffres jusqu'à 10 — c'est la base de tout ! Le signe ['] signifie que la consonne précédente est adoucie.",
+        "note": "⚠️ Attention à пять, шесть, семь, восемь, девять — ils ont un signe mou (ь) qui adoucit la consonne finale.",
+        "words": [
+          { "fr": "один", "ru_pron": "adín", "meaning": "un (masculin)" },
+          { "fr": "два", "ru_pron": "dva", "meaning": "deux" },
+          { "fr": "три", "ru_pron": "tri", "meaning": "trois" },
+          { "fr": "четыре", "ru_pron": "tchetyré", "meaning": "quatre" },
+          { "fr": "пять", "ru_pron": "pyat'", "meaning": "cinq" },
+          { "fr": "шесть", "ru_pron": "chést'", "meaning": "six" },
+          { "fr": "семь", "ru_pron": "syém'", "meaning": "sept" },
+          { "fr": "восемь", "ru_pron": "vósiém'", "meaning": "huit" },
+          { "fr": "девять", "ru_pron": "dyévyat'", "meaning": "neuf" },
+          { "fr": "десять", "ru_pron": "dyésyat'", "meaning": "dix" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "ноль", "gender": "m", "ru": "zéro", "ru_pron": "nol'", "example_fr": "Температура ноль градусов.", "example_ru": "La température est de zéro degré.", "level": "A1" },
+        { "fr": "один", "gender": "m", "ru": "un (masc.)", "ru_pron": "adín", "example_fr": "Один кофе, пожалуйста.", "example_ru": "Un café, s'il vous plaît.", "level": "A1" },
+        { "fr": "два", "gender": "m/n", "ru": "deux", "ru_pron": "dva", "example_fr": "Два билета, пожалуйста.", "example_ru": "Deux billets, s'il vous plaît.", "level": "A1" },
+        { "fr": "пять", "gender": null, "ru": "cinq", "ru_pron": "pyat'", "example_fr": "Мне пять лет.", "example_ru": "J'ai cinq ans.", "level": "A1" },
+        { "fr": "десять", "gender": null, "ru": "dix", "ru_pron": "dyésyat'", "example_fr": "Десять минут.", "example_ru": "Dix minutes.", "level": "A1" },
+        { "fr": "двадцать", "gender": null, "ru": "vingt", "ru_pron": "dvádtsat'", "example_fr": "Двадцать рублей.", "example_ru": "Vingt roubles.", "level": "A1" },
+        { "fr": "сколько", "gender": null, "ru": "combien", "ru_pron": "skól'ka", "example_fr": "Сколько это стоит?", "example_ru": "Combien ça coûte ?", "level": "A1" },
+        { "fr": "рубль", "gender": "m", "ru": "le rouble (monnaie russe)", "ru_pron": "roubl'", "example_fr": "Сто рублей.", "example_ru": "Cent roubles.", "level": "A1" },
+        { "fr": "раз", "gender": "m", "ru": "une fois / fois", "ru_pron": "raz", "example_fr": "Один раз.", "example_ru": "Une seule fois.", "level": "A1" },
+        { "fr": "число", "gender": "n", "ru": "le nombre / la date", "ru_pron": "tchisló", "example_fr": "Какое сегодня число?", "example_ru": "Quelle est la date aujourd'hui ?", "meaning_double": "число = nombre/chiffre ET число = date du mois", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "миллион", "fr_pron": "millión", "ru": "million", "ru_pron": "millión", "note": "«Миллион» est identique au français «million». Même origine, même prononciation presque. Вы миллионер ? (Êtes-vous millionnaire ?)" },
+        { "fr": "процент", "fr_pron": "protsént", "ru": "pour cent / pourcent", "ru_pron": "protsent", "note": "«Процент» vient du latin «pro centum» — exactement comme le français «pour cent». Très utile pour les prix et statistiques !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Sophie Kowalewski (1850–1891)", "subtitle": "Première femme docteure en mathématiques", "content": "Sofia Kovalevskaya (Ковалевская) fut la première femme à obtenir un doctorat en mathématiques (1874, Göttingen). Elle contribua à l'analyse, la mécanique et l'astronomie. Comme les femmes ne pouvaient pas étudier en Russie, elle contracta un mariage fictif pour partir étudier en Europe. Elle devint professeure à Stockholm en 1883. Elle déclara : «Il est impossible d'être mathématicien sans avoir l'âme d'un poète»." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le rouble — plus de 600 ans d'histoire", "content": "Le rouble (рубль) est l'une des plus anciennes monnaies du monde, mentionné dès le XIIIe siècle. Son nom vient du verbe «рубить» (couper) — car on coupait des lingots d'argent. Le kopek (копейка) est la subdivision : 100 kopeks = 1 rouble. La pièce de 1 kopek montre le cavalier Saint-Georges terrassant le dragon — emblème de Moscou." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les superstitions autour des chiffres en Russie", "content": "Le 13 est moins tabou en Russie qu'en Occident. En revanche, le chiffre 3 est sacré (la Trinité orthodoxe, le «три» dans tous les contes russes). On offre des fleurs en nombre IMPAIR (3, 5, 7...) — les nombres pairs sont pour les enterrements ! Donc jamais de 2, 4, 6, 8 fleurs pour un cadeau. Cette règle est appliquée scrupuleusement." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Семь раз отмерь, один раз отрежь.", "pronunciation": "Syém' raz atméri, adín raz atrézh'", "translation": "Mesure sept fois, coupe une seule fois.", "usage": "Proverbe russe équivalent à «Tournez sept fois votre langue avant de parler» ou «Réfléchissez avant d'agir». Très utilisé dans la vie quotidienne pour conseiller la prudence.", "example": "— Семь раз отмерь, один раз отрежь — советовала бабушка. (Mesure sept fois, coupe une — conseillait grand-mère.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Kazan — Tatarstan", "subtitle": "Казань — entre Europe et Asie", "content": "Kazan, capitale du Tatarstan, est à 800 km à l'est de Moscou. Ville millénaire au carrefour des cultures russe et tatare, elle abrite le Kremlin de Kazan (UNESCO), une cathédrale orthodoxe et une mosquée Kul Sharif côte à côte. Animée, universitaire et cosmopolite, Kazan est une des villes les plus jeunes et les plus dynamiques de Russie. Excellente introduction à la diversité culturelle russe." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «trois» en russe ?", "opts": ["два", "четыре", "три", "пять"], "ans": 2, "exp": "«Три» = trois. Retenez : один, два, три (un, deux, trois) — le début est similaire à d'autres langues slaves !" },
+        { "q": "Quelle est la règle pour les fleurs en cadeau en Russie ?", "opts": ["Toujours en nombre pair", "Toujours en nombre impair", "Toujours 12 fleurs", "Peu importe le nombre"], "ans": 1, "exp": "En Russie, on offre les fleurs en nombre impair (3, 5, 7, 9...). Les fleurs en nombre pair sont réservées aux enterrements." },
+        { "q": "Comment dit-on «un café» en russe (masculin) ?", "opts": ["одна кофе", "один кофе", "одно кофе", "два кофе"], "ans": 1, "exp": "«Один кофе» = un café. Кофе est masculin en russe (exception mémorable !), donc «один» (masc.)." },
+        { "q": "Que signifie «Сколько это стоит ?»", "opts": ["Où est-ce ?", "Combien ça coûte ?", "Qu'est-ce que c'est ?", "Comment dit-on ça ?"], "ans": 1, "exp": "«Сколько это стоит ?» = combien ça coûte ? Très utile dans les commerces et au marché !" },
+        { "q": "Comment s'appelle la monnaie russe ?", "opts": ["Le kopek", "Le hryvnia", "Le rouble", "Le zloty"], "ans": 2, "exp": "La monnaie russe est le rouble (рубль). 1 rouble = 100 kopeks (копейки)." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Les Couleurs et les Adjectifs",
+      "titleRu": "Цвета и прилагательные",
+      "level": "A1",
+      "grammar": {
+        "title": "Les adjectifs russes et l'accord en genre",
+        "titleRu": "Прилагательные и род",
+        "intro": "En russe, les adjectifs s'accordent en genre, en nombre et en cas avec le nom qu'ils qualifient — comme en français pour le genre et le nombre. Les terminaisons changent, mais les règles sont régulières. Commençons par les couleurs, le vocabulaire le plus concret !",
+        "sections": [
+          {
+            "title": "Les terminaisons des adjectifs selon le genre",
+            "content": "Masculin : -ый / -ий / -ой\nFéminin : -ая / -яя\nNeutre : -ое / -ее\nPluriel : -ые / -ие\n\nEx: красный (rouge m.) / красная (rouge f.) / красное (rouge n.) / красные (rouge pl.)"
+          },
+          {
+            "title": "Les couleurs principales",
+            "content": "красный / красная — rouge\nсиний / синяя — bleu foncé\nголубой / голубая — bleu clair / ciel\nзелёный / зелёная — vert\nжёлтый / жёлтая — jaune\nоранжевый / оранжевая — orange\nбелый / белая — blanc\nчёрный / чёрная — noir\nсерый / серая — gris\nкоричневый / коричневая — marron\nрозовый / розовая — rose\nфиолетовый / фиолетовая — violet"
+          },
+          {
+            "title": "Anecdote linguistique : rouge = beau !",
+            "content": "En vieux russe, «красный» signifiait «beau, magnifique» ! C'est pourquoi :\n🏛 Красная площадь = la «Belle Place» (Place Rouge)\n💃 Красная девица = une belle jeune fille\nAujourd'hui, красный = rouge uniquement, mais l'étymologie explique le nom de la Place Rouge !"
+          }
+        ],
+        "rule": "💡 Pour les débutants : utilisez la forme masculine par défaut (-ый), puis ajoutez -ая pour féminin, -ое pour neutre. Vous serez compris même avec des erreurs !"
+      },
+      "pronunciation": {
+        "intro": "Prononcez chaque couleur en l'associant mentalement à un objet de cette couleur. La mémoire visuelle aide !",
+        "note": "⚠️ Notez que «ё» se prononce toujours «yo» — зелёный = zilyóny, чёрный = tchórny.",
+        "words": [
+          { "fr": "красный", "ru_pron": "krásny", "meaning": "rouge" },
+          { "fr": "синий", "ru_pron": "síny", "meaning": "bleu foncé" },
+          { "fr": "зелёный", "ru_pron": "zilyóny", "meaning": "vert" },
+          { "fr": "жёлтый", "ru_pron": "zhólty", "meaning": "jaune" },
+          { "fr": "белый", "ru_pron": "byély", "meaning": "blanc" },
+          { "fr": "чёрный", "ru_pron": "tchórny", "meaning": "noir" },
+          { "fr": "серый", "ru_pron": "syéry", "meaning": "gris" },
+          { "fr": "розовый", "ru_pron": "rózavy", "meaning": "rose" },
+          { "fr": "оранжевый", "ru_pron": "arànjevy", "meaning": "orange" },
+          { "fr": "голубой", "ru_pron": "galoubóï", "meaning": "bleu clair / ciel" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "красный", "gender": "adj m", "ru": "rouge", "ru_pron": "krásny", "example_fr": "Красный флаг.", "example_ru": "Le drapeau rouge.", "level": "A1" },
+        { "fr": "синий", "gender": "adj m", "ru": "bleu foncé", "ru_pron": "síny", "example_fr": "Синее небо.", "example_ru": "Le ciel bleu.", "level": "A1" },
+        { "fr": "зелёный", "gender": "adj m", "ru": "vert", "ru_pron": "zilyóny", "example_fr": "Зелёный лес.", "example_ru": "La forêt verte.", "level": "A1" },
+        { "fr": "белый", "gender": "adj m", "ru": "blanc", "ru_pron": "byély", "example_fr": "Белый снег.", "example_ru": "La neige blanche.", "level": "A1" },
+        { "fr": "чёрный", "gender": "adj m", "ru": "noir", "ru_pron": "tchórny", "example_fr": "Чёрный кот.", "example_ru": "Le chat noir.", "level": "A1" },
+        { "fr": "большой", "gender": "adj m", "ru": "grand / gros", "ru_pron": "bal'choï", "example_fr": "Большой город.", "example_ru": "Une grande ville.", "level": "A1" },
+        { "fr": "маленький", "gender": "adj m", "ru": "petit", "ru_pron": "málin'ky", "example_fr": "Маленький ребёнок.", "example_ru": "Un petit enfant.", "level": "A1" },
+        { "fr": "красивый", "gender": "adj m", "ru": "beau / joli", "ru_pron": "krasívy", "example_fr": "Красивый город.", "example_ru": "Une belle ville.", "level": "A1" },
+        { "fr": "новый", "gender": "adj m", "ru": "nouveau / neuf", "ru_pron": "nóvy", "example_fr": "Новый год.", "example_ru": "Le Nouvel An.", "level": "A1" },
+        { "fr": "старый", "gender": "adj m", "ru": "vieux / ancien", "ru_pron": "stáry", "example_fr": "Старый город.", "example_ru": "La vieille ville.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "оранжевый", "fr_pron": "aránjevy", "ru": "orange", "ru_pron": "orange", "note": "«Оранжевый» vient du français «orange» ! La Russie a emprunté ce mot car il n'existait pas de terme slave pour cette couleur." },
+        { "fr": "фиолетовый", "fr_pron": "fialyétavy", "ru": "violet(te)", "ru_pron": "violet", "note": "«Фиолетовый» vient de l'italien «viola» (violette). Le français «violet» et le russe ont la même origine latine." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Wassily Kandinsky (1866–1944)", "subtitle": "Père de la peinture abstraite", "content": "Wassily Kandinsky (Кандинский) est né à Moscou. Juriste de formation, il abandonna tout pour la peinture à 30 ans. Il est considéré comme le père de l'art abstrait. Fasciné par la relation entre couleurs et émotions, il écrivit «Du Spirituel dans l'art» (1911). Il enseigna au Bauhaus en Allemagne. Pour Kandinsky, chaque couleur avait une sonorité musicale : le bleu = le son d'un orgue, le rouge = la trompette..." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le drapeau russe — blanc, bleu, rouge", "content": "Le drapeau russe (триколор) est blanc, bleu, rouge — comme le drapeau français mais dans un autre ordre ! Il fut créé par Pierre le Grand au XVIIe siècle en s'inspirant des drapeaux néerlandais et français. Blanc = noblesse, bleu = honnêteté, rouge = courage. Pendant l'ère soviétique, le drapeau URSS était rouge avec la faucille et le marteau." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le «bleu russe» — une subtilité unique", "content": "Le russe est l'une des rares langues à avoir DEUX mots pour le bleu : «синий» (bleu foncé) et «голубой» (bleu clair). Les locuteurs russes perçoivent ces deux nuances comme des couleurs totalement différentes — des études cognitives montrent qu'ils distinguent les teintes bleues plus rapidement que les anglophones !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Не всё то золото, что блестит.", "pronunciation": "Nie vsyo to zólota, chto blistít", "translation": "Tout ce qui brille n'est pas or.", "usage": "Proverbe russe équivalent au français «l'habit ne fait pas le moine». Utilisé pour mettre en garde contre les apparences trompeuses.", "example": "— Какой красивый телефон! — Не всё то золото, что блестит... (Quel beau téléphone ! — Tout ce qui brille n'est pas or...)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "L'Anneau d'Or (Золотое кольцо)", "subtitle": "Villes médiévales aux dômes dorés", "content": "L'Anneau d'Or (Золотое кольцо) est un circuit de villes médiévales autour de Moscou : Sergiev Possad, Souzdal, Vladimir, Iaroslavl... Ces villes aux monastères et cathédrales aux dômes dorés (!) constituent le cœur spirituel de la Russie orthodoxe. Souzdal est un musée à ciel ouvert presque intact depuis le Moyen Âge. Idéal pour comprendre la Russie profonde, loin des métropoles." }
+      },
+      "quiz": [
+        { "q": "Que signifie «Красная площадь» (Place Rouge) littéralement en vieux russe ?", "opts": ["Place Rouge", "Place Belle / Magnifique", "Grande Place", "Place Centrale"], "ans": 1, "exp": "En vieux russe, «красный» signifiait «beau, magnifique». La Place Rouge = la «Belle Place». Aujourd'hui красный = rouge." },
+        { "q": "Comment dit-on «grand» en russe ?", "opts": ["маленький", "красивый", "большой", "новый"], "ans": 2, "exp": "«Большой» = grand. Le célèbre théâtre Bolchoï de Moscou signifie littéralement «Grand Théâtre» !" },
+        { "q": "Quelle est la terminaison féminine des adjectifs russes ?", "opts": ["-ый", "-ое", "-ая", "-ие"], "ans": 2, "exp": "Les adjectifs féminins se terminent en -ая (ou -яя). Ex: красный (m.) → красная (f.)." },
+        { "q": "Le russe a combien de mots pour dire «bleu» ?", "opts": ["1", "2", "3", "4"], "ans": 1, "exp": "Le russe a 2 mots pour «bleu» : синий (bleu foncé) et голубой (bleu clair). C'est unique parmi les langues !" },
+        { "q": "D'où vient le mot russe «оранжевый» (orange) ?", "opts": ["De l'anglais", "Du chinois", "Du français «orange»", "Du latin"], "ans": 2, "exp": "«Оранжевый» est un emprunt direct au français «orange» ! Le russe a emprunté beaucoup de mots au français au XVIIIe siècle." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Pronoms et le Verbe «Être»",
+      "titleRu": "Местоимения и глагол быть",
+      "level": "A1",
+      "grammar": {
+        "title": "Les pronoms personnels russes et l'absence de «être» au présent",
+        "titleRu": "Личные местоимения",
+        "intro": "Le russe possède les mêmes pronoms personnels que le français, mais avec une différence majeure : le verbe «être» (быть) disparaît au présent ! On dit «Я студент» et non «Я есть студент». Cette règle simplifie beaucoup les phrases simples.",
+        "sections": [
+          {
+            "title": "Les pronoms personnels",
+            "content": "я [ya] — je\nты [ty] — tu (informel)\nон [on] — il\nона [aná] — elle\nоно [anó] — il/elle (neutre)\nмы [my] — nous\nвы [vy] — vous (formel ou pluriel)\nони [aní] — ils / elles"
+          },
+          {
+            "title": "«Être» absent au présent — structure de base",
+            "content": "Я студент. → Je suis étudiant.\nТы русский? → Tu es russe ?\nОн врач. → Il est médecin.\nОна красивая. → Elle est belle.\nМы в Москве. → Nous sommes à Moscou.\nВы французы? → Vous êtes français ?\nОни дома. → Ils sont à la maison."
+          },
+          {
+            "title": "Questions simples",
+            "content": "Кто это? [Kto éta] — Qui est-ce ?\nЧто это? [Chto éta] — Qu'est-ce que c'est ?\nГде? [Gdyé] — Où ?\nКогда? [Kagdá] — Quand ?\nПочему? [Patchimou] — Pourquoi ?\nКак? [Kak] — Comment ?\nСколько? [Skól'ka] — Combien ?"
+          }
+        ],
+        "rule": "💡 En russe au présent : Sujet + [pas de verbe être] + attribut. «Я врач» (je médecin) suffit ! Le verbe быть (être) réapparaît au passé (был/была) et au futur (буду)."
+      },
+      "pronunciation": {
+        "intro": "Prononcez chaque pronom, puis faites une phrase simple. La structure russe est souvent plus directe que le français.",
+        "note": "⚠️ «Они» (ils/elles) se prononce «aní», avec un «a» et non «o» — la voyelle «о» non-accentuée se réduit en «a».",
+        "words": [
+          { "fr": "я", "ru_pron": "ya", "meaning": "je" },
+          { "fr": "ты", "ru_pron": "ty", "meaning": "tu (informel)" },
+          { "fr": "он", "ru_pron": "on", "meaning": "il" },
+          { "fr": "она", "ru_pron": "aná", "meaning": "elle" },
+          { "fr": "мы", "ru_pron": "my", "meaning": "nous" },
+          { "fr": "вы", "ru_pron": "vy", "meaning": "vous" },
+          { "fr": "они", "ru_pron": "aní", "meaning": "ils / elles" },
+          { "fr": "кто", "ru_pron": "kto", "meaning": "qui" },
+          { "fr": "что", "ru_pron": "chto", "meaning": "quoi / que" },
+          { "fr": "где", "ru_pron": "gdyé", "meaning": "où" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "я", "gender": null, "ru": "je", "ru_pron": "ya", "example_fr": "Я говорю по-русски.", "example_ru": "Je parle russe.", "level": "A1" },
+        { "fr": "ты", "gender": null, "ru": "tu (informel)", "ru_pron": "ty", "example_fr": "Ты говоришь по-французски?", "example_ru": "Tu parles français ?", "level": "A1" },
+        { "fr": "вы", "gender": null, "ru": "vous (formel ou pluriel)", "ru_pron": "vy", "example_fr": "Вы говорите по-английски?", "example_ru": "Vous parlez anglais ?", "meaning_double": "«Вы» = vous (vouvoiement) ET vous (pluriel) — comme en français !", "level": "A1" },
+        { "fr": "он", "gender": null, "ru": "il", "ru_pron": "on", "example_fr": "Он студент.", "example_ru": "Il est étudiant.", "level": "A1" },
+        { "fr": "она", "gender": null, "ru": "elle", "ru_pron": "aná", "example_fr": "Она красивая.", "example_ru": "Elle est belle.", "level": "A1" },
+        { "fr": "мы", "gender": null, "ru": "nous", "ru_pron": "my", "example_fr": "Мы в Москве.", "example_ru": "Nous sommes à Moscou.", "level": "A1" },
+        { "fr": "они", "gender": null, "ru": "ils / elles", "ru_pron": "aní", "example_fr": "Они французы.", "example_ru": "Ils sont français.", "level": "A1" },
+        { "fr": "кто", "gender": null, "ru": "qui", "ru_pron": "kto", "example_fr": "Кто это?", "example_ru": "Qui est-ce ?", "level": "A1" },
+        { "fr": "что", "gender": null, "ru": "quoi / que / ce que", "ru_pron": "chto", "example_fr": "Что это?", "example_ru": "Qu'est-ce que c'est ?", "level": "A1" },
+        { "fr": "где", "gender": null, "ru": "où", "ru_pron": "gdyé", "example_fr": "Где туалет?", "example_ru": "Où sont les toilettes ?", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "студент", "fr_pron": "stoudyént", "ru": "étudiant(e)", "ru_pron": "étudiant", "note": "«Студент» russe et «étudiant» français viennent tous deux du latin «studens» (qui étudie). Facile !" },
+        { "fr": "профессор", "fr_pron": "prafyéssar", "ru": "professeur", "ru_pron": "professeur", "note": "«Профессор» est quasi-identique au français «professeur». Même origine latine «professor». Le russe a emprunté de nombreux titres académiques au latin." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Vladimir Maïakovski (1893–1930)", "subtitle": "Poète révolutionnaire et avant-gardiste", "content": "Vladimir Maïakovski fut le poète de la Révolution russe par excellence. Son style : vers libres, langage percutant, typographie innovante. Il co-fonda le mouvement futuriste russe. Ses poèmes «Lisez Maïakovski !» étaient placardés dans les rues soviétiques. Amoureux passionné (мне нравится — j'aime), il se suicida à 36 ans. Ses derniers mots : «Le bateau de l'amour s'est fracassé sur la vie quotidienne»." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Ты ou Вы ? L'évolution du vouvoiement en Russie", "content": "Avant la Révolution de 1917, le vouvoiement (Вы) était très codifié par la hiérarchie sociale. Les bolchéviks prônèrent le tutoiement universel comme signe d'égalité. Aujourd'hui, la société russe est revenue à un usage nuancé : on tutoie les amis, la famille, les collègues proches ; on vouvoie les inconnus, les aînés, les supérieurs. Tutoyer quelqu'un sans permission peut être perçu comme irrespectueux." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le russe et la question «Comment allez-vous ?»", "content": "En France, «Comment allez-vous ?» est souvent rhétorique — on répond «bien, merci». En Russie, «Как дела ?» peut déclencher une vraie conversation ! Les Russes répondent souvent honnêtement : «нормально» (ça va), «неплохо» (pas mal), «так себе» (comme-ci comme-ça). Répondre «отлично !» (parfait !) sonne parfois trop optimiste... La mélancolie slave a la réputation d'être plus authentique !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Всё или ничего !", "pronunciation": "Vsyo ili nitchivó", "translation": "Tout ou rien !", "usage": "Expression qui reflète le caractère russe — passionné et radical dans ses choix. Souvent utilisée pour exprimer une attitude absolue face à une situation.", "example": "— Ты идёшь с нами? — Всё или ничего! (Tu viens avec nous ? — Tout ou rien !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le Lac Baïkal — Сибирское море", "subtitle": "La mer sibérienne — Чудо природы", "content": "Le lac Baïkal est une merveille naturelle unique : le plus profond du monde (1 642 m), le plus grand réservoir d'eau douce (20% des réserves mondiales). En hiver, il gèle et devient praticable en voiture sur la glace transparente ! L'Oural Nerpas (phoques) n'existent qu'ici. Classé UNESCO. Le village de Listvyanka est la porte d'entrée idéale pour visiter ce lieu magique." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «ils sont à la maison» en russe ?", "opts": ["Они дом.", "Они в доме.", "Они есть дома.", "Они дома."], "ans": 3, "exp": "«Они дома» = ils sont à la maison. Pas de verbe «être» au présent en russe ! La phrase est Sujet + lieu/attribut directement." },
+        { "q": "Que signifie «Где туалет ?» ?", "opts": ["Quand arrivent les toilettes ?", "Où sont les toilettes ?", "Comment utiliser les toilettes ?", "Pourquoi fermer les toilettes ?"], "ans": 1, "exp": "«Где туалет ?» = où sont les toilettes ? Где = où. Phrase vitale pour tout voyageur !" },
+        { "q": "Pourquoi n'utilise-t-on pas «быть» au présent en russe ?", "opts": ["C'est une erreur grammaticale", "C'est une règle : быть disparaît au présent", "быть n'existe pas en russe", "On peut l'utiliser mais c'est rare"], "ans": 1, "exp": "En russe, le verbe быть (être) s'omit au présent. C'est une règle grammaticale. Il réapparaît au passé et au futur." },
+        { "q": "Comment dit-on «qu'est-ce que c'est ?» en russe ?", "opts": ["Кто это?", "Когда это?", "Что это?", "Где это?"], "ans": 2, "exp": "«Что это?» = qu'est-ce que c'est ? Что = quoi/que. «Кто это?» = qui est-ce ?" },
+        { "q": "«Вы» en russe peut signifier :", "opts": ["Tu uniquement", "Vous (vouvoiement formel ou pluriel)", "Ils/Elles", "Nous"], "ans": 1, "exp": "«Вы» est l'équivalent du «vous» français : vouvoiement singulier (politesse) ou pluriel. Très similaire au français !" }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Se Présenter",
+      "titleRu": "Знакомство",
+      "level": "A1",
+      "grammar": {
+        "title": "Se présenter en russe",
+        "titleRu": "Знакомство и представление",
+        "intro": "Se présenter est la première vraie conversation. En russe, vous aurez besoin de donner votre nom, votre âge, votre nationalité et votre ville d'origine. Bonne nouvelle : la structure est simple et très similaire au français une fois les mots clés appris !",
+        "sections": [
+          {
+            "title": "Donner son nom",
+            "content": "Меня зовут... [Minya zavout] — Je m'appelle...\nМоё имя... [Mayó ímia] — Mon prénom est...\nМоя фамилия... [Mayá familía] — Mon nom de famille est...\n\nEx: Меня зовут Пьер. (Je m'appelle Pierre.)"
+          },
+          {
+            "title": "Donner son âge",
+            "content": "Мне ... лет [Mnyé ... lyét] — J'ai ... ans\n(Littéralement : À moi ... années)\n\nMне 25 лет. — J'ai 25 ans.\nСколько вам лет? — Quel âge avez-vous ?\nСколько тебе лет? — Quel âge as-tu ?"
+          },
+          {
+            "title": "Nationalité et origine",
+            "content": "Я француз. (m.) / Я француженка. (f.) — Je suis français(e).\nЯ из Франции. — Je viens de France.\nЯ живу в Париже. — Je vis à Paris.\nЯ говорю по-французски. — Je parle français.\nЯ учу русский язык. — J'apprends le russe."
+          },
+          {
+            "title": "Demander des informations",
+            "content": "Как вас зовут? — Comment vous appelez-vous ?\nОткуда вы? — D'où venez-vous ?\nГде вы живёте? — Où habitez-vous ?\nВы говорите по-французски? — Vous parlez français ?"
+          }
+        ],
+        "rule": "💡 Astuce : Pour dire «en [langue]», utilisez «по-» + adjectif de nationalité : по-русски (en russe), по-французски (en français), по-английски (en anglais)."
+      },
+      "pronunciation": {
+        "intro": "Préparez votre présentation personnelle ! Entraînez-vous à prononcer ces phrases clés.",
+        "note": "⚠️ «Меня зовут» — le «е» de «меня» est non-accentué et se prononce «mi». L'accent tonique est sur «зовут».",
+        "words": [
+          { "fr": "Меня зовут Пьер.", "ru_pron": "Minya zavout P'yer", "meaning": "Je m'appelle Pierre." },
+          { "fr": "Мне двадцать пять лет.", "ru_pron": "Mnyé dvádtsat' pyat' lyét", "meaning": "J'ai vingt-cinq ans." },
+          { "fr": "Я из Франции.", "ru_pron": "Ya iz Frantsy", "meaning": "Je viens de France." },
+          { "fr": "Я живу в Париже.", "ru_pron": "Ya jivoú v Paríje", "meaning": "J'habite à Paris." },
+          { "fr": "Я говорю по-русски.", "ru_pron": "Ya gavaroú pa-roussky", "meaning": "Je parle russe." },
+          { "fr": "Я учу русский язык.", "ru_pron": "Ya otchoú roussky yazýk", "meaning": "J'apprends le russe." },
+          { "fr": "Очень приятно!", "ru_pron": "Óchen' priyátna", "meaning": "Très agréable / Enchanté(e) !" },
+          { "fr": "Откуда вы?", "ru_pron": "Atkúda vy", "meaning": "D'où venez-vous ?" },
+          { "fr": "Приятно познакомиться!", "ru_pron": "Priyátna paznakómitsa", "meaning": "Ravi(e) de vous rencontrer !" },
+          { "fr": "Я француз.", "ru_pron": "Ya frantsúz", "meaning": "Je suis français." }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "имя", "gender": "n", "ru": "le prénom", "ru_pron": "ímia", "example_fr": "Моё имя — Мари.", "example_ru": "Mon prénom est Marie.", "level": "A1" },
+        { "fr": "фамилия", "gender": "f", "ru": "le nom de famille", "ru_pron": "familía", "example_fr": "Моя фамилия — Дюпон.", "example_ru": "Mon nom de famille est Dupont.", "level": "A1" },
+        { "fr": "возраст", "gender": "m", "ru": "l'âge", "ru_pron": "vózrast", "example_fr": "Какой у вас возраст?", "example_ru": "Quel est votre âge ?", "level": "A1" },
+        { "fr": "страна", "gender": "f", "ru": "le pays", "ru_pron": "straná", "example_fr": "Я из какой страны?", "example_ru": "De quel pays êtes-vous ?", "level": "A1" },
+        { "fr": "город", "gender": "m", "ru": "la ville", "ru_pron": "górat", "example_fr": "Я живу в городе Лион.", "example_ru": "J'habite dans la ville de Lyon.", "level": "A1" },
+        { "fr": "работа", "gender": "f", "ru": "le travail / le métier", "ru_pron": "rabóta", "example_fr": "Какая у вас работа?", "example_ru": "Quel est votre métier ?", "level": "A1" },
+        { "fr": "врач", "gender": "m", "ru": "le médecin", "ru_pron": "vratch", "example_fr": "Он врач.", "example_ru": "Il est médecin.", "level": "A1" },
+        { "fr": "учитель", "gender": "m", "ru": "l'enseignant(e)", "ru_pron": "outchitel'", "example_fr": "Она учитель.", "example_ru": "Elle est enseignante.", "level": "A1" },
+        { "fr": "инженер", "gender": "m", "ru": "l'ingénieur", "ru_pron": "injenér", "example_fr": "Я инженер.", "example_ru": "Je suis ingénieur.", "level": "A1" },
+        { "fr": "приятно", "gender": null, "ru": "agréable / avec plaisir", "ru_pron": "priyátna", "example_fr": "Очень приятно!", "example_ru": "Très agréable / Enchanté(e) !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "инженер", "fr_pron": "injenér", "ru": "ingénieur", "ru_pron": "ingénieur", "note": "«Инженер» et «ingénieur» sont quasi-identiques. Même étymologie latine «ingenium» (génie, invention). La Russie valorise énormément les ingénieurs." },
+        { "fr": "паспорт", "fr_pron": "páspart", "ru": "passeport", "ru_pron": "passeport", "note": "«Паспорт» = passeport. Emprunté du français «passeport» à l'époque de Pierre le Grand. Mot essentiel pour voyager !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Youri Gagarine (1934–1968)", "subtitle": "Premier homme dans l'espace, 12 avril 1961", "content": "Youri Alekseïevitch Gagarine (Гагарин) est né dans un village proche de Smolensk. Fils de paysan, il devint pilote militaire puis cosmonaute. Le 12 avril 1961, il accomplit le premier vol habité dans l'espace (108 minutes). Sa phrase légendaire avant le décollage : «Поехали !» (On y va !). Il décéda dans un accident d'avion en 1968 à 34 ans. Le 12 avril est la fête internationale de l'aviation spatiale." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le système des noms russes — Prénom, Patronyme, Nom", "content": "Un Russe possède trois noms : имя (prénom) + отчество (patronyme) + фамилия (nom de famille). Le patronyme est formé du prénom du père + -ович/-евич (fils de) ou -овна/-евна (fille de). Ex: Ivan Pétrovitch Ivanov = Ivan, fils de Pierre, Ivanov. En contexte formel, on s'adresse par prénom + patronyme : «Владимир Владимирович» (Vladimir, fils de Vladimir)." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Откуда вы ?» — une question piège", "content": "Quand un Russe demande «Откуда вы ?» (d'où venez-vous ?), il veut souvent savoir la ville et non juste le pays. La France est synonyme de Paris pour beaucoup de Russes ! Si vous venez de Lyon, préparez-vous à expliquer que non, vous n'êtes pas parisien(ne). Les Russes ont une grande curiosité pour les étrangers et poseront plein de questions personnelles — l'âge, le salaire, la situation matrimoniale — que nous trouverions indiscrets en France." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Поехали !", "pronunciation": "Payékhali", "translation": "On y va ! / C'est parti !", "usage": "Le mot le plus célèbre de l'histoire spatiale — prononcé par Gagarine avant son décollage. Désormais utilisé pour dire «en route !» ou «on commence !» dans la vie quotidienne russe.", "example": "— Все готовы? — Поехали! (Tout le monde est prêt ? — On y va !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Novossibirsk — La capitale de la Sibérie", "subtitle": "Новосибирск — 3e ville de Russie", "content": "Novossibirsk (Новосибирск) est la 3e ville de Russie et la capitale de la Sibérie occidentale. Fondée en 1893 lors de la construction du Transsibérien, elle abrite l'Académgorodok (Академгородок) — une ville scientifique où vivaient et travaillaient les meilleurs scientifiques soviétiques. Aujourd'hui, centre technologique majeur. Le théâtre d'Opéra et Ballet de Novossibirsk est le plus grand de Russie !" }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je m'appelle» en russe ?", "opts": ["Я зовут...", "Меня зовут...", "Мне зовут...", "Мой зовут..."], "ans": 1, "exp": "«Меня зовут...» = je m'appelle... Littéralement «on m'appelle». С'est la formule standard pour se présenter." },
+        { "q": "Comment dit-on «j'ai 30 ans» en russe ?", "opts": ["Я 30 лет.", "У меня 30 лет.", "Мне 30 лет.", "Мне есть 30 лет."], "ans": 2, "exp": "«Мне 30 лет» = j'ai 30 ans. En russe on dit «à moi 30 ans». Le verbe être est omis ici aussi." },
+        { "q": "Comment dit-on «en français» (la langue) en russe ?", "opts": ["французский", "по-французски", "Франция", "Французы"], "ans": 1, "exp": "Pour dire «en [langue]», on utilise по- + adjectif : по-французски (en français), по-русски (en russe), по-английски (en anglais)." },
+        { "q": "Qu'est-ce que l'«отчество» dans un nom russe ?", "opts": ["Le nom de famille", "Le prénom", "Le patronyme (nom du père)", "Le surnom"], "ans": 2, "exp": "L'отчество est le patronyme russe : formé du prénom du père + -ович (fils de) ou -овна (fille de). Ex: Пётр Иванович = Pierre, fils d'Ivan." },
+        { "q": "«Поехали !» a été prononcé par qui dans quel contexte célèbre ?", "opts": ["Lénine lors de la Révolution", "Gagarine avant son vol spatial", "Pierre le Grand avant une bataille", "Pouchkine dans un poème"], "ans": 1, "exp": "«Поехали !» fut dit par Youri Gagarine le 12 avril 1961 au moment du décollage de sa fusée. Cette phrase est devenue légendaire." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "La Famille et les Possessifs",
+      "titleRu": "Семья и притяжательные местоимения",
+      "level": "A1",
+      "grammar": {
+        "title": "La famille russe et les adjectifs possessifs",
+        "titleRu": "Семья и притяжательные",
+        "intro": "La famille est au cœur de la culture russe. Les adjectifs possessifs (mon, ma, mes...) changent selon le genre et le nombre du nom qu'ils accompagnent — exactement comme les adjectifs courants. La bonne nouvelle : les mots de la famille sont souvent proches des mots français ou latins !",
+        "sections": [
+          {
+            "title": "Les membres de la famille",
+            "content": "мама / мать — maman / mère\nпапа / отец — papa / père\nсын — fils\nдочь — fille\nбрат — frère\nсестра — sœur\nдедушка — grand-père\nбабушка — grand-mère\nвнук / внучка — petit-fils / petite-fille\nдядя — oncle\nтётя — tante\nдвоюродный брат — cousin\nдвоюродная сестра — cousine"
+          },
+          {
+            "title": "Les adjectifs possessifs",
+            "content": "мой (m) / моя (f) / моё (n) / мои (pl) — mon / ma / mes\nтвой (m) / твоя (f) / твоё (n) / твои (pl) — ton / ta / tes\nего — son (pour lui)\nеё — son (pour elle)\nнаш (m) / наша (f) / наше (n) / наши (pl) — notre / nos\nваш (m) / ваша (f) / ваше (n) / ваши (pl) — votre / vos\nих — leur / leurs"
+          },
+          {
+            "title": "Exprimer la possession : «у меня есть»",
+            "content": "У меня есть брат. — J'ai un frère.\nУ меня нет сестры. — Je n'ai pas de sœur.\nУ него есть машина. — Il a une voiture.\nУ неё есть дочь. — Elle a une fille.\n\nStructure : У + (génitif du pronom) + есть + (sujet)"
+          }
+        ],
+        "rule": "💡 «Бабушка» (grand-mère) et «дедушка» (grand-père) sont parmi les mots russes les plus connus mondialement ! «Babouchka» est même entré dans les dictionnaires européens."
+      },
+      "pronunciation": {
+        "intro": "La famille en russe ! Certains mots sonneront familiers à votre oreille.",
+        "note": "⚠️ «Дочь» (fille) se termine par un signe mou ь — la consonne finale est adoucie. «Брат» (frère) et «сестра» (sœur) sont proches du latin frater/soror.",
+        "words": [
+          { "fr": "мама", "ru_pron": "máma", "meaning": "maman" },
+          { "fr": "папа", "ru_pron": "pápa", "meaning": "papa" },
+          { "fr": "брат", "ru_pron": "brat", "meaning": "frère" },
+          { "fr": "сестра", "ru_pron": "sistrá", "meaning": "sœur" },
+          { "fr": "бабушка", "ru_pron": "báboushka", "meaning": "grand-mère" },
+          { "fr": "дедушка", "ru_pron": "dyédoushka", "meaning": "grand-père" },
+          { "fr": "сын", "ru_pron": "syne", "meaning": "fils" },
+          { "fr": "дочь", "ru_pron": "dotch'", "meaning": "fille" },
+          { "fr": "мой", "ru_pron": "moï", "meaning": "mon (masc.)" },
+          { "fr": "моя", "ru_pron": "maya", "meaning": "ma (fém.)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "семья", "gender": "f", "ru": "la famille", "ru_pron": "simiá", "example_fr": "Моя семья большая.", "example_ru": "Ma famille est grande.", "level": "A1" },
+        { "fr": "мать", "gender": "f", "ru": "la mère", "ru_pron": "mat'", "example_fr": "Моя мать живёт в Лионе.", "example_ru": "Ma mère habite à Lyon.", "level": "A1" },
+        { "fr": "отец", "gender": "m", "ru": "le père", "ru_pron": "atyéts", "example_fr": "Мой отец — врач.", "example_ru": "Mon père est médecin.", "level": "A1" },
+        { "fr": "брат", "gender": "m", "ru": "le frère", "ru_pron": "brat", "example_fr": "У меня есть брат.", "example_ru": "J'ai un frère.", "level": "A1" },
+        { "fr": "сестра", "gender": "f", "ru": "la sœur", "ru_pron": "sistrá", "example_fr": "Моя сестра живёт в Москве.", "example_ru": "Ma sœur habite à Moscou.", "level": "A1" },
+        { "fr": "бабушка", "gender": "f", "ru": "la grand-mère / babouchka", "ru_pron": "báboushka", "example_fr": "Бабушка готовит борщ.", "example_ru": "La grand-mère prépare le bortsch.", "level": "A1" },
+        { "fr": "дедушка", "gender": "m", "ru": "le grand-père / dedouchka", "ru_pron": "dyédoushka", "example_fr": "Мой дедушка 75 лет.", "example_ru": "Mon grand-père a 75 ans.", "level": "A1" },
+        { "fr": "муж", "gender": "m", "ru": "le mari", "ru_pron": "mouj", "example_fr": "Мой муж — инженер.", "example_ru": "Mon mari est ingénieur.", "level": "A1" },
+        { "fr": "жена", "gender": "f", "ru": "la femme (épouse)", "ru_pron": "jiná", "example_fr": "Его жена красивая.", "example_ru": "Sa femme est belle.", "level": "A1" },
+        { "fr": "ребёнок", "gender": "m", "ru": "l'enfant", "ru_pron": "ribyónak", "example_fr": "Маленький ребёнок.", "example_ru": "Un petit enfant.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "семья", "fr_pron": "simiá", "ru": "famille", "ru_pron": "famille", "note": "«Семья» et «famille» viennent tous deux du latin «familia». Le sens est strictement identique. L'importance de la famille est une valeur profondément partagée !" },
+        { "fr": "мама / папа", "fr_pron": "máma / pápa", "ru": "maman / papa", "ru_pron": "maman / papa", "note": "«Мама» et «папа» sont quasi-universels ! Ces mots apparaissent dans presque toutes les langues du monde — premiers sons que font les bébés (m, p + voyelle)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Lev Tolstoï (1828–1910)", "subtitle": "Auteur de Guerre et Paix / Anna Karénine", "content": "Lev Nikolaïevitch Tolstoï est né dans une famille noble. Ses romans «Guerre et Paix» (1869) et «Anna Karénine» (1878) sont parmi les plus grands de la littérature mondiale. Ses thèmes favoris : la famille, la société russe, la morale chrétienne. Il eut 13 enfants avec son épouse Sofia. Sur le tard, il devint pacifiste et végétarien, prônant un retour à la vie simple. Citation : «Toutes les familles heureuses se ressemblent ; chaque famille malheureuse l'est à sa façon» (début d'Anna Karénine)." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La babouchka — pilier de la société russe", "content": "La «babouchka» (бабушка) n'est pas qu'un mot — c'est une institution. En Russie soviétique et post-soviétique, les grands-mères ont souvent élevé les enfants pendant que les parents travaillaient. Le système des «baby-sitters professionnelles» est peu développé : c'est la babouchka qui garde les petits-enfants. Elle cuisine (борщ, пирожки...), conseille, transmet les traditions. Une vraie figure culturelle !" },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le repas de famille russe — un marathon gastronomique", "content": "Une réunion de famille russe commence souvent par une table couverte de zakouski (закуски — amuse-bouches) : salades, cornichons, harengs marinés... Puis vient le premier plat (borshch ou soupe), ensuite le plat principal (viande avec garniture), et enfin les desserts. Un tel repas peut durer 3 à 5 heures ! Refuser de la nourriture est offensant — manger de bon appétit est un compliment suprême pour la cuisinière (souvent la babouchka)." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "В гостях хорошо, а дома лучше.", "pronunciation": "V gastiakh kharachó, a dóma loutché", "translation": "On est bien chez les amis, mais mieux chez soi.", "usage": "Proverbe russe équivalent à «Les voyages c'est bien, mais la maison c'est mieux». Exprime l'attachement au foyer et à la famille — valeur centrale de la culture russe.", "example": "— Как тебе в Москве? — Хорошо! Но в гостях хорошо, а дома лучше... (Comment tu trouves Moscou ? — Bien ! Mais on est mieux chez soi...)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Iasnaïa Poliana — La maison de Tolstoï", "subtitle": "Ясная Поляна — усадьба Толстого", "content": "Iasnaïa Poliana (Ясная Поляна = Clairière lumineuse) à 200 km au sud de Moscou est le domaine natal et la maison-musée de Léon Tolstoï. Il y vécut la majorité de sa vie, y écrivit «Guerre et Paix» et «Anna Karénine». La maison est préservée comme au XIXe siècle. Son tombeau est au bord d'un bois qu'il aimait — sans nom ni inscription, juste une simple fosse. Pèlerinage incontournable pour les amateurs de littérature." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «j'ai un frère» en russe ?", "opts": ["Я есть брат.", "Мой брат.", "У меня есть брат.", "Я брат."], "ans": 2, "exp": "«У меня есть брат» = j'ai un frère. Littéralement «chez moi il y a un frère». C'est la structure russe pour exprimer la possession." },
+        { "q": "«Бабушка» signifie :", "opts": ["Mère", "Tante", "Grand-mère", "Cousine"], "ans": 2, "exp": "«Бабушка» = grand-mère. Ce mot est connu dans le monde entier ! «Дедушка» = grand-père." },
+        { "q": "Quelle est la forme féminine de «мой» (mon) ?", "opts": ["мое", "мои", "моя", "моих"], "ans": 2, "exp": "«Моя» est la forme féminine de «мой». Ex: мой брат (mon frère, m.) → моя сестра (ma sœur, f.)." },
+        { "q": "Comment dit-on «il a une voiture» en russe ?", "opts": ["Он есть машина.", "Он имеет машину.", "У него есть машина.", "Его машина."], "ans": 2, "exp": "«У него есть машина» = il a une voiture. Структура : у + génitif + есть + sujet." },
+        { "q": "Que dit la citation d'ouverture d'Anna Karénine de Tolstoï ?", "opts": ["L'amour est universel", "Toutes les familles heureuses se ressemblent, les malheureuses sont chacune à leur façon", "La Russie c'est la famille", "La guerre détruit les familles"], "ans": 1, "exp": "«Toutes les familles heureuses se ressemblent ; chaque famille malheureuse l'est à sa façon.» — première phrase d'Anna Karénine, l'une des plus célèbres de la littérature mondiale." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "La Nourriture et les Boissons",
+      "titleRu": "Еда и напитки",
+      "level": "A1",
+      "grammar": {
+        "title": "La nourriture et l'accusatif — introduction",
+        "titleRu": "Еда и аккузатив",
+        "intro": "La gastronomie russe est riche et généreuse ! Pour commander ou parler de ce qu'on mange, nous aurons besoin des verbes «manger» (есть) et «boire» (пить), ainsi que d'une première introduction à l'accusatif — le cas pour l'objet direct.",
+        "sections": [
+          {
+            "title": "Les verbes manger et boire",
+            "content": "Есть (manger) :\nя ем — je mange\nты ешь — tu manges\nон/она ест — il/elle mange\nмы едим — nous mangeons\nвы едите — vous mangez\nони едят — ils/elles mangent\n\nПить (boire) :\nя пью — je bois\nты пьёшь — tu bois\nон пьёт — il boit"
+          },
+          {
+            "title": "L'accusatif — pour les objets inanimés masculins et féminins",
+            "content": "Objets inanimés masculins : pas de changement\nЯ пью кофе. → кофе reste кофе\n\nFéminins : -а → -у / -я → -ю\nводА → я пью водУ (de l'eau)\nРоссиЯ → я люблю РоссиЮ\n\nNeutres et pluriels inanimés : pas de changement"
+          },
+          {
+            "title": "Au restaurant et au café",
+            "content": "Я хочу... [Ya khatcou] — Je veux...\nДайте мне, пожалуйста... [Daïtiè mnyé pajálusta] — Donnez-moi, s'il vous plaît...\nСколько стоит? — Combien ça coûte ?\nСчёт, пожалуйста! [Chtchyot pajálusta] — L'addition, s'il vous plaît !\nМне нравится! [Mnyé nrávitsia] — J'aime ça ! (Ça me plaît !)"
+          }
+        ],
+        "rule": "💡 Pour commander simplement : «Один/Одна [nom en accusatif], пожалуйста !» (Un(e) [truc], s'il vous plaît !). Exemple : «Один борщ, пожалуйста !» = Un bortsch, s'il vous plaît !"
+      },
+      "pronunciation": {
+        "intro": "Les mots liés à la nourriture — essentiels pour survivre en Russie ! Écoutez et répétez.",
+        "note": "⚠️ «Борщ» — ne pas oublier le «щ» final (chtch) : boRSHTCH. Et «хлеб» avec le «х» guttural russe.",
+        "words": [
+          { "fr": "борщ", "ru_pron": "borchtch", "meaning": "le bortsch (soupe de betterave)" },
+          { "fr": "хлеб", "ru_pron": "khlyéb", "meaning": "le pain" },
+          { "fr": "вода", "ru_pron": "vadá", "meaning": "l'eau" },
+          { "fr": "чай", "ru_pron": "tchaï", "meaning": "le thé" },
+          { "fr": "кофе", "ru_pron": "kófiè", "meaning": "le café" },
+          { "fr": "суп", "ru_pron": "soup", "meaning": "la soupe" },
+          { "fr": "пельмени", "ru_pron": "piel'méni", "meaning": "les pelmeni (raviolis)" },
+          { "fr": "блины", "ru_pron": "bliny", "meaning": "les blinis (crêpes)" },
+          { "fr": "рыба", "ru_pron": "ryba", "meaning": "le poisson" },
+          { "fr": "мясо", "ru_pron": "myása", "meaning": "la viande" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "еда", "gender": "f", "ru": "la nourriture / la bouffe", "ru_pron": "yidá", "example_fr": "Еда в России вкусная.", "example_ru": "La nourriture en Russie est délicieuse.", "level": "A1" },
+        { "fr": "хлеб", "gender": "m", "ru": "le pain", "ru_pron": "khlyéb", "example_fr": "Русский хлеб очень вкусный.", "example_ru": "Le pain russe est très bon.", "level": "A1" },
+        { "fr": "суп", "gender": "m", "ru": "la soupe", "ru_pron": "soup", "example_fr": "Я ем суп.", "example_ru": "Je mange de la soupe.", "level": "A1" },
+        { "fr": "борщ", "gender": "m", "ru": "le bortsch (soupe betterave)", "ru_pron": "borchtch", "example_fr": "Борщ — это очень вкусно!", "example_ru": "Le bortsch, c'est délicieux !", "level": "A1" },
+        { "fr": "чай", "gender": "m", "ru": "le thé", "ru_pron": "tchaï", "example_fr": "Один чай, пожалуйста.", "example_ru": "Un thé, s'il vous plaît.", "level": "A1" },
+        { "fr": "кофе", "gender": "m", "ru": "le café", "ru_pron": "kófiè", "example_fr": "Я пью кофе утром.", "example_ru": "Je bois du café le matin.", "level": "A1" },
+        { "fr": "вода", "gender": "f", "ru": "l'eau", "ru_pron": "vadá", "example_fr": "Я пью воду.", "example_ru": "Je bois de l'eau.", "level": "A1" },
+        { "fr": "пельмени", "gender": "pl", "ru": "les pelmeni (raviolis russes)", "ru_pron": "piel'méni", "example_fr": "Пельмени очень вкусные!", "example_ru": "Les pelmeni sont délicieux !", "level": "A1" },
+        { "fr": "блины", "gender": "pl", "ru": "les blinis (crêpes russes)", "ru_pron": "bliny", "example_fr": "На Масленицу едят блины.", "example_ru": "À la Maslenitsa on mange des blinis.", "level": "A1" },
+        { "fr": "вкусно", "gender": null, "ru": "délicieux / c'est bon", "ru_pron": "vkousna", "example_fr": "Это очень вкусно!", "example_ru": "C'est très délicieux !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "суп", "fr_pron": "soup", "ru": "soupe", "ru_pron": "soupe", "note": "«Суп» vient du français «soupe» ! Pierre le Grand et la noblesse russe ont emprunté de nombreux mots culinaires au français. La cuisine française était la haute cuisine en Russie au XVIIIe siècle." },
+        { "fr": "ресторан", "fr_pron": "ristaran", "ru": "restaurant", "ru_pron": "restaurant", "note": "«Ресторан» = restaurant. Emprunt direct au français. Dans les grandes villes russes, les enseignes lisent facilement en cyrillique une fois l'alphabet connu !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Gogol (1809–1852)", "subtitle": "Écrivain ukraino-russe, auteur des Âmes mortes", "content": "Nikolaï Gogol est né en Ukraine mais s'installa à Saint-Pétersbourg. Auteur fantastique et satirique : «Le Manteau», «Le Nez», «Les Âmes mortes». Grand amateur de nourriture (il décrit les repas avec amour dans ses œuvres), il mourut de malnutrition volontaire après une crise mystique. Ses nouvelles ukrainiennes «Les soirées du hameau» décrivent des festins mythiques. Il a influencé Dostoïevski, Boulgakov et Kafka." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Pain et sel — le rituel d'accueil russe", "content": "«Хлеб-соль» (pain et sel) est le symbole d'accueil russe par excellence. Offrir du pain et du sel à un invité est une marque de respect et d'hospitalité profonde, héritée des traditions slaves. Aujourd'hui encore, lors de mariages ou de l'accueil de personnalités, on présente un pain rond (karavai) sur une serviette brodée avec une salière. L'invité doit arracher un morceau, le tremper dans le sel et le manger." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La vodka — mythes et réalités", "content": "La vodka (водка = «petite eau») est effectivement très présente dans la culture russe. Mais les clichés ont une limite : les jeunes Russes boivent de moins en moins de vodka, préférant bière, vin et cocktails. Ce qui est vrai : la vodka se boit pure (jamais avec du jus d'orange en Russie !), en petits verres (рюмка), accompagnée de zakouski. Ne jamais trinquer sans croiser le regard — c'est impoli. Et on dit «За здоровье !» (À la santé !) ou «За встречу !» (À notre rencontre !)." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Приятного аппетита !", "pronunciation": "Priyátnava apitíta", "translation": "Bon appétit !", "usage": "L'équivalent exact du «bon appétit» français — expression empruntée du français (appétit) ! Se dit avant de commencer à manger. On peut répondre «Спасибо» ou «Вам тоже» (à vous aussi).", "example": "— Приятного аппетита! — Спасибо, вам тоже! (Bon appétit ! — Merci, à vous aussi !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Mourmansk — Ville de l'Arctique", "subtitle": "Мурманск — за полярным кругом", "content": "Mourmansk est la plus grande ville du monde au-delà du cercle polaire arctique. En hiver (novembre-janvier), le soleil ne se lève jamais — c'est la nuit polaire. En été, il ne se couche jamais — le soleil de minuit ! La ville est célèbre pour les aurores boréales en hiver. Le port de Mourmansk ne gèle jamais (eaux chaudes de la dérive nord-atlantique), ce qui en fait un port stratégique. Gastronomie locale : poisson arctique, crabe du roi." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je mange» en russe ?", "opts": ["я ем", "я ешь", "я есть", "я едят"], "ans": 0, "exp": "«Я ем» = je mange. Conjugaison du verbe «есть» : я ем, ты ешь, он ест, мы едим, вы едите, они едят." },
+        { "q": "Que signifie «Приятного аппетита !» ?", "opts": ["Tchin-tchin !", "Bon appétit !", "Merci pour le repas !", "À table !"], "ans": 1, "exp": "«Приятного аппетита» = bon appétit ! Ce mot vient directement du français «appétit» — preuve de l'influence française sur la culture russe !" },
+        { "q": "Qu'est-ce que le «борщ» ?", "opts": ["Un pain noir typique", "Une soupe à base de betterave rouge", "Un plat de viande mijotée", "Un dessert au miel"], "ans": 1, "exp": "Le борщ (bortsch) est une soupe emblématique à base de betterave rouge, choux et viande. Servi avec de la сметана (crème fraîche)." },
+        { "q": "Quel est le rituel d'accueil traditionnel russe ?", "opts": ["Offrir de la vodka", "Présenter du pain et du sel", "Servir du thé au samovar", "Offrir des fleurs"], "ans": 1, "exp": "«Хлеб-соль» (pain et sel) est le rituel d'accueil russe millénaire. On offre du pain (souvent un beau pain rond) avec du sel pour exprimer hospitalité et respect." },
+        { "q": "Que signifie «вкусно» ?", "opts": ["Chaud", "Délicieux / C'est bon", "Épicé", "Salé"], "ans": 1, "exp": "«Вкусно» = délicieux, c'est bon. С'est le plus beau compliment pour un cuisinier russe ! «Очень вкусно !» = c'est très délicieux !" }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Le Temps : Jours et Mois",
+      "titleRu": "Время: дни и месяцы",
+      "level": "A1",
+      "grammar": {
+        "title": "Les jours, les mois et l'heure",
+        "titleRu": "Дни, месяцы и время",
+        "intro": "En russe, les jours de la semaine et les mois ne prennent pas de majuscule (contrairement au français !). Les noms des jours ont souvent une étymologie slave transparente. Maîtriser le temps permet de faire des rendez-vous, de comprendre les horaires et de parler de ses activités.",
+        "sections": [
+          {
+            "title": "Les jours de la semaine",
+            "content": "Понедельник [Panidjél'nik] — Lundi (après le dimanche)\nВторник [Vtórnik] — Mardi (second jour)\nСреда [Srijdá] — Mercredi (milieu de semaine)\nЧетверг [Tchetviérk] — Jeudi (quatrième)\nПятница [Pyátnitsa] — Vendredi (cinquième)\nСуббота [Soubóta] — Samedi (du Sabbat hébreu)\nВоскресенье [Vaskrisén'yé] — Dimanche (Résurrection)"
+          },
+          {
+            "title": "Les mois de l'année",
+            "content": "Январь — janvier\nФевраль — février\nМарт — mars\nАпрель — avril\nМай — mai\nИюнь — juin\nИюль — juillet\nАвгуст — août\nСентябрь — septembre\nОктябрь — octobre\nНоябрь — novembre\nДекабрь — décembre"
+          },
+          {
+            "title": "Questions et réponses sur le temps",
+            "content": "Какой сегодня день? — Quel jour sommes-nous ?\nСегодня понедельник. — Aujourd'hui c'est lundi.\nКакое сегодня число? — Quelle est la date ?\nСегодня пятое мая. — Aujourd'hui c'est le 5 mai.\nКоторый час? — Quelle heure est-il ?\nСейчас два часа. — Il est deux heures."
+          }
+        ],
+        "rule": "💡 Astuce : les mois russes ressemblent aux mois latins ! Январь → January, Февраль → February, Март → March... Si vous connaissez l'anglais, les mois russes sont faciles à retenir !"
+      },
+      "pronunciation": {
+        "intro": "Mémorisez les jours et les mois — vous en aurez besoin chaque jour ! Notez les étymologies transparentes.",
+        "note": "⚠️ «Воскресенье» (dimanche) = Résurrection en russe — référence à la résurrection du Christ. «Среда» (mercredi) = milieu. Très logique !",
+        "words": [
+          { "fr": "понедельник", "ru_pron": "panidjél'nik", "meaning": "lundi" },
+          { "fr": "вторник", "ru_pron": "vtórnik", "meaning": "mardi" },
+          { "fr": "среда", "ru_pron": "srijdá", "meaning": "mercredi" },
+          { "fr": "четверг", "ru_pron": "tchetviérk", "meaning": "jeudi" },
+          { "fr": "пятница", "ru_pron": "pyátnitsa", "meaning": "vendredi" },
+          { "fr": "суббота", "ru_pron": "soubóta", "meaning": "samedi" },
+          { "fr": "воскресенье", "ru_pron": "vaskrisén'yé", "meaning": "dimanche" },
+          { "fr": "сегодня", "ru_pron": "sivódnya", "meaning": "aujourd'hui" },
+          { "fr": "завтра", "ru_pron": "závtra", "meaning": "demain" },
+          { "fr": "вчера", "ru_pron": "ftchirá", "meaning": "hier" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "день", "gender": "m", "ru": "le jour", "ru_pron": "dyen'", "example_fr": "Какой сегодня день?", "example_ru": "Quel jour est-ce aujourd'hui ?", "level": "A1" },
+        { "fr": "неделя", "gender": "f", "ru": "la semaine", "ru_pron": "nidjélia", "example_fr": "Я изучаю русский язык одну неделю.", "example_ru": "J'apprends le russe depuis une semaine.", "level": "A1" },
+        { "fr": "месяц", "gender": "m", "ru": "le mois / la lune", "ru_pron": "myésiats", "example_fr": "Какой сейчас месяц?", "example_ru": "Dans quel mois sommes-nous ?", "meaning_double": "месяц = mois (unité de temps) ET mois (lune) — même mot en russe !", "level": "A1" },
+        { "fr": "год", "gender": "m", "ru": "l'année", "ru_pron": "got", "example_fr": "Новый год первого января.", "example_ru": "Le Nouvel An est le premier janvier.", "level": "A1" },
+        { "fr": "сегодня", "gender": null, "ru": "aujourd'hui", "ru_pron": "sivódnya", "example_fr": "Сегодня понедельник.", "example_ru": "Aujourd'hui c'est lundi.", "level": "A1" },
+        { "fr": "завтра", "gender": null, "ru": "demain", "ru_pron": "závtra", "example_fr": "До завтра!", "example_ru": "À demain !", "level": "A1" },
+        { "fr": "вчера", "gender": null, "ru": "hier", "ru_pron": "ftchirá", "example_fr": "Вчера был понедельник.", "example_ru": "Hier c'était lundi.", "level": "A1" },
+        { "fr": "утро", "gender": "n", "ru": "le matin", "ru_pron": "óutra", "example_fr": "Доброе утро!", "example_ru": "Bonjour (le matin) !", "level": "A1" },
+        { "fr": "вечер", "gender": "m", "ru": "le soir", "ru_pron": "vyétcher", "example_fr": "Добрый вечер!", "example_ru": "Bonsoir !", "level": "A1" },
+        { "fr": "час", "gender": "m", "ru": "l'heure", "ru_pron": "tchas", "example_fr": "Который час?", "example_ru": "Quelle heure est-il ?", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "январь", "fr_pron": "yanvár'", "ru": "janvier", "ru_pron": "janvier", "note": "«Январь» vient du latin «Januarius» (mois de Janus) — même étymologie que le français «janvier». Les mois russes sont quasi-identiques aux mois latins/français !" },
+        { "fr": "суббота", "fr_pron": "soubóta", "ru": "samedi (Sabbat)", "ru_pron": "Sabbat", "note": "«Суббота» vient de l'hébreu «Shabbat» (Sabbat) via le grec. Le français «samedi» vient de «dies Saturni» (jour de Saturne). Deux étymologies différentes pour le même jour !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Alexandre Pouchkine (1799–1837)", "subtitle": "Père de la littérature russe moderne", "content": "Alexandre Sergueïevitch Pouchkine est le poète national russe par excellence — son statut est comparable à celui de Molière/Hugo pour les Français. Il écrivit des poèmes, romans en vers («Eugène Onéguine»), nouvelles et contes. D'ascendance africaine (son arrière-grand-père était un général éthiopien de Pierre le Grand), il mourut à 37 ans lors d'un duel. Son anniversaire (6 juin) est la fête de la langue russe à l'UNESCO." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Noël russe — le 7 janvier", "content": "En Russie orthodoxe, Noël (Рождество) est célébré le 7 janvier, et non le 25 décembre. La différence vient du calendrier julien (ancien) vs grégorien (moderne). Les Russes ont donc deux fêtes majeures : le Nouvel An du 31 décembre (très festif !) et Noël orthodoxe du 7 janvier. Le Nouvel An russe est leur «Noël» de facto — avec les cadeaux, le sapin (ёлка) et le Père Frost (Дед Мороз) accompagné de la Snégourotchka (Снегурочка)." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le Nouvel An russe — fête préférée de l'année", "content": "Le réveillon du Nouvel An (31 décembre → 1 janvier) est LA fête préférée des Russes. Table garnie, famille et amis réunis, champagne obligatoire (советское шампанское !). À minuit, le président prononce un discours, on lève le verre et... parfois la nuit continue jusqu'au 2 ou 3 janvier ! «С Новым Годом !» (Bonne Année !) est le souhait magique. On offre des cadeaux sous le sapin — c'est le Дед Мороз (Grand-Père Frost) qui les apporte, accompagné de sa petite-fille la Снегурочка." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "С Новым Годом !", "pronunciation": "S Nóvym Gódam", "translation": "Bonne Année !", "usage": "Le vœu de Nouvel An en russe. Littéralement : «avec la Nouvelle Année !». On dit aussi «Счастливого Нового года !» (une heureuse Nouvelle Année !) pour être plus élaboré.", "example": "— С Новым Годом! — С Новым Годом и с новым счастьем! (Bonne Année ! — Bonne Année et bonne chance !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Souzdal en hiver", "subtitle": "Суздаль — Русская зима", "content": "Souzdal en hiver est une image de carte postale de la Russie éternelle. Couverte de neige, la ville médiévale avec ses monastères et clochers dorés est absolument féerique en décembre-janvier. Le froid (-15°C) est vif mais sec et vivifiant. Activités : troïka (traîneau tiré par 3 chevaux), banya (bain de vapeur russe), dégustation de медовуха (hydromel local). Un Noël russe authentique hors des circuits touristiques de masse." }
+      },
+      "quiz": [
+        { "q": "Que signifie «Воскресенье» (dimanche) littéralement en russe ?", "opts": ["Jour du soleil", "Résurrection", "Repos et repos", "Fin de semaine"], "ans": 1, "exp": "«Воскресенье» vient de «воскресение» = résurrection. Le dimanche est le jour de la Résurrection du Christ dans la tradition chrétienne orthodoxe." },
+        { "q": "Quand les Russes orthodoxes fêtent-ils Noël ?", "opts": ["Le 25 décembre", "Le 1er janvier", "Le 7 janvier", "Le 6 décembre"], "ans": 2, "exp": "Noël orthodoxe est le 7 janvier (calendrier julien vs grégorien). Le 25 décembre est la Noël catholique/protestante." },
+        { "q": "Comment dit-on «demain» en russe ?", "opts": ["вчера", "сегодня", "завтра", "потом"], "ans": 2, "exp": "«Завтра» = demain. «Сегодня» = aujourd'hui, «вчера» = hier, «потом» = ensuite/après." },
+        { "q": "Que signifie «С Новым Годом !» ?", "opts": ["Joyeux Noël !", "Bonne Année !", "Bon anniversaire !", "À la vôtre !"], "ans": 1, "exp": "«С Новым Годом» = Bonne Année ! Littéralement «avec la Nouvelle Année». La fête la plus importante de l'année en Russie." },
+        { "q": "Quel est le mois de l'anniversaire de Pouchkine (fête de la langue russe) ?", "opts": ["Janvier", "Mars", "Juin", "Septembre"], "ans": 2, "exp": "Pouchkine est né le 6 juin 1799. Le 6 juin est devenu la Journée de la langue russe à l'UNESCO en son honneur." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 1",
+      "titleRu": "Итоговый урок Модуля 1",
+      "level": "A1",
+      "grammar": {
+        "title": "Révision complète du Module 1",
+        "titleRu": "Полное повторение",
+        "intro": "Félicitations ! Vous terminez le premier module. Récapitulons tout ce que vous avez appris — c'est déjà beaucoup ! Si vous maîtrisez ces bases, vous êtes officiellement au niveau A1 en russe.",
+        "sections": [
+          {
+            "title": "✅ Ce que vous savez maintenant",
+            "content": "✅ L'alphabet cyrillique (33 lettres) et les faux amis\n✅ Les salutations et la politesse (formel / informel)\n✅ Les chiffres de 0 à 20\n✅ Les couleurs et les adjectifs (accord en genre)\n✅ Les pronoms personnels (я, ты, он, она...)\n✅ L'absence de «être» au présent\n✅ Se présenter (nom, âge, nationalité)\n✅ La famille et les possessifs (мой, моя...)\n✅ La nourriture et les boissons (есть, пить)\n✅ Les jours, les mois, le temps"
+          },
+          {
+            "title": "Phrases essentielles à mémoriser",
+            "content": "Меня зовут... — Je m'appelle...\nМне ... лет. — J'ai ... ans.\nЯ из Франции. — Je viens de France.\nЯ говорю по-французски. — Je parle français.\nЯ учу русский язык. — J'apprends le russe.\nУ меня есть... — J'ai...\nСколько стоит? — Combien ça coûte ?\nГде туалет? — Où sont les toilettes ?\nЯ не понимаю. — Je ne comprends pas.\nМожно помедленнее? — Plus lentement, s'il vous plaît ?"
+          },
+          {
+            "title": "Les 6 cas russes — aperçu",
+            "content": "1. Nominatif — le sujet : Это книга.\n2. Génitif — possession, absence : нет книги\n3. Datif — destinataire : мне, тебе\n4. Accusatif — objet direct : читать книгу\n5. Instrumental — moyen, accompagnement : с другом\n6. Prépositionnel — lieu, sujet de : о книге\n\nNe vous inquiétez pas — ils viendront naturellement !"
+          }
+        ],
+        "rule": "🏆 Bravo ! Vous avez les fondations du russe. Le Module 2 vous fera découvrir la vie quotidienne : transports, commerces, logement. Продолжайте ! (Continuez !)"
+      },
+      "pronunciation": {
+        "intro": "Révision des phrases les plus importantes du Module 1. Entraînez-vous à les enchaîner !",
+        "note": "",
+        "words": [
+          { "fr": "Меня зовут... Мне ... лет.", "ru_pron": "Minya zavout... Mnyé ... lyét", "meaning": "Je m'appelle... J'ai ... ans." },
+          { "fr": "Я из Франции. Я живу в Париже.", "ru_pron": "Ya iz Frantsy. Ya jivoú v Paríje", "meaning": "Je viens de France. J'habite à Paris." },
+          { "fr": "Я говорю по-русски немного.", "ru_pron": "Ya gavaroú pa-roussky nyémoga", "meaning": "Je parle russe un peu." },
+          { "fr": "Очень приятно познакомиться!", "ru_pron": "Óchen' priyátna paznakómitsa", "meaning": "Ravi(e) de vous connaître !" },
+          { "fr": "У меня есть брат и сестра.", "ru_pron": "U minya yést' brat i sistrá", "meaning": "J'ai un frère et une sœur." },
+          { "fr": "Один борщ, пожалуйста!", "ru_pron": "Adín borchtch, pajálusta", "meaning": "Un bortsch, s'il vous plaît !" },
+          { "fr": "Сколько это стоит?", "ru_pron": "Skól'ka éta stóit", "meaning": "Combien ça coûte ?" },
+          { "fr": "Я не понимаю. Повторите, пожалуйста.", "ru_pron": "Ya nie panimaïou. Pavtarítiè, pajálusta", "meaning": "Je ne comprends pas. Répétez, s'il vous plaît." },
+          { "fr": "До свидания и до скорого!", "ru_pron": "Da svidánia i da skórova", "meaning": "Au revoir et à bientôt !" },
+          { "fr": "Спасибо за урок!", "ru_pron": "Spasíba za ourok", "meaning": "Merci pour la leçon !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "учить", "gender": null, "ru": "apprendre / étudier", "ru_pron": "outchít'", "example_fr": "Я учу русский язык.", "example_ru": "J'apprends le russe.", "level": "A1" },
+        { "fr": "понимать", "gender": null, "ru": "comprendre", "ru_pron": "panimat'", "example_fr": "Я немного понимаю.", "example_ru": "Je comprends un peu.", "level": "A1" },
+        { "fr": "повторять", "gender": null, "ru": "répéter", "ru_pron": "pavtariyat'", "example_fr": "Повторите, пожалуйста!", "example_ru": "Répétez, s'il vous plaît !", "level": "A1" },
+        { "fr": "говорить", "gender": null, "ru": "parler", "ru_pron": "gavarit'", "example_fr": "Говорите медленнее!", "example_ru": "Parlez plus lentement !", "level": "A1" },
+        { "fr": "медленно", "gender": null, "ru": "lentement", "ru_pron": "myédlinna", "example_fr": "Говорите медленнее, пожалуйста.", "example_ru": "Parlez plus lentement, s'il vous plaît.", "level": "A1" },
+        { "fr": "трудно", "gender": null, "ru": "difficile / c'est dur", "ru_pron": "troúdna", "example_fr": "Русский язык трудный.", "example_ru": "Le russe est difficile.", "level": "A1" },
+        { "fr": "легко", "gender": null, "ru": "facile / c'est facile", "ru_pron": "lyikhkó", "example_fr": "Это слово легко запомнить.", "example_ru": "Ce mot est facile à retenir.", "level": "A1" },
+        { "fr": "интересно", "gender": null, "ru": "intéressant / c'est intéressant", "ru_pron": "interésna", "example_fr": "Русский язык очень интересный.", "example_ru": "Le russe est très intéressant.", "level": "A1" },
+        { "fr": "молодец", "gender": null, "ru": "bravo ! bien joué ! (à qqn)", "ru_pron": "maladyéts", "example_fr": "Молодец! Ты хорошо говоришь по-русски!", "example_ru": "Bravo ! Tu parles bien le russe !", "level": "A1" },
+        { "fr": "продолжать", "gender": null, "ru": "continuer", "ru_pron": "pradalját'", "example_fr": "Продолжайте учить!", "example_ru": "Continuez à apprendre !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "интересный", "fr_pron": "interésny", "ru": "intéressant", "ru_pron": "intéressant", "note": "«Интересный» et «intéressant» — même racine latine «interest». Les mots internationaux d'origine latine ou grecque sont souvent reconnaissables en russe !" },
+        { "fr": "университет", "fr_pron": "ounivirsitét", "ru": "université", "ru_pron": "université", "note": "«Университет» = université. Même étymologie latine «universitas». Les grandes institutions académiques portent des noms quasi-identiques dans toutes les langues européennes." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Fiodor Dostoïevski (1821–1881)", "subtitle": "Auteur de Crime et Châtiment, L'Idiot, Les Frères Karamazov", "content": "Fiodor Mikhaïlovitch Dostoïevski est l'un des plus grands romanciers de l'histoire. Condamné à mort pour activités révolutionnaires (1849), sa peine fut commuée in extremis — expérience qui marqua toute son œuvre. Il explora les profondeurs de l'âme humaine : souffrance, rédemption, foi. «Crime et Châtiment», «L'Idiot», «Les Frères Karamazov» sont des chefs-d'œuvre universels. Nietzsche, Freud, Camus, Sartre — tous ont reconnu une dette envers Dostoïevski." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La langue russe — 5e langue la plus parlée au monde", "content": "Le russe est parlé par environ 258 millions de personnes dans le monde (langue maternelle + seconde langue). C'est la langue officielle de la Russie, mais aussi comprise en Ukraine, Biélorussie, Kazakhstan, les pays baltes et dans toute l'ex-URSS. С'est aussi la 7e langue la plus utilisée sur Internet. Le russe est une des 6 langues officielles de l'ONU." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Молодец» — le compliment russe universel", "content": "«Молодец !» (bravo !) est le compliment le plus utilisé en Russie, à tous les âges. Etymologie : «молодой» (jeune) + «молодец» (jeune homme vaillant). Un professeur dit «молодец» à son élève, une mère à son enfant, des amis entre eux. Au pluriel : «молодцы !» Différences : «отлично» (excellent, pour les résultats), «хорошо» (bien, plus neutre). Mais «молодец» a une chaleur humaine incomparable. À retenir absolument !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Дорогу осилит идущий.", "pronunciation": "Darógoú asílit idóuchtchy", "translation": "C'est en marchant qu'on fait son chemin.", "usage": "Proverbe russe de motivation : «La route est surmontée par celui qui marche». Équivalent de «c'est en forgeant qu'on devient forgeron». Parfait pour encourager l'apprentissage d'une langue !", "example": "— Русский язык такой трудный... — Дорогу осилит идущий! (Le russe est si difficile... — C'est en marchant qu'on fait son chemin !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Le Kremlin et la Place Rouge", "subtitle": "Кремль и Красная площадь — сердце России", "content": "Le Kremlin de Moscou est le cœur de la Russie depuis le XIIe siècle. Forteresse médiévale aux murs de 2,2 km, il abrite aujourd'hui la résidence présidentielle, des cathédrales orthodoxes et des musées. La cathédrale de l'Assomption couronnait les tsars. La cathédrale Saint-Basile à bulbes multicolores (1555) est l'icône absolue de la Russie. La Place Rouge, adjacente, accueille le mausolée de Lénine. À faire : la visite nocturne du Kremlin illuminé." }
+      },
+      "quiz": [
+        { "q": "Comment demande-t-on à quelqu'un de parler plus lentement en russe ?", "opts": ["Parlez vite !", "Говорите медленнее, пожалуйста.", "Répétez plus vite !", "Ne parlez pas !"], "ans": 1, "exp": "«Говорите медленнее, пожалуйста» = Parlez plus lentement, s'il vous plaît. Essentiel pour les débutants ! «Медленно» = lentement." },
+        { "q": "Que signifie «Молодец !» en russe ?", "opts": ["Au revoir", "Bravo ! / Bien joué !", "Merci", "Désolé"], "ans": 1, "exp": "«Молодец !» = bravo, bien joué ! C'est le compliment le plus chaleureux en russe, utilisé à tous les âges." },
+        { "q": "Combien de cas grammaticaux le russe possède-t-il ?", "opts": ["3", "4", "6", "9"], "ans": 2, "exp": "Le russe a 6 cas : nominatif, génitif, datif, accusatif, instrumental et prépositionnel. Ils s'apprendront progressivement !" },
+        { "q": "Comment dit-on «je ne comprends pas» en russe ?", "opts": ["Я не говорю.", "Я понимаю.", "Я не понимаю.", "Я не знаю."], "ans": 2, "exp": "«Я не понимаю» = je ne comprends pas. La négation «не» se place devant le verbe. «Я понимаю» = je comprends." },
+        { "q": "Quelle est la signification du proverbe «Дорогу осилит идущий» ?", "opts": ["La Russie est grande", "C'est en marchant qu'on fait son chemin", "Le temps passe vite", "Les voyages forment la jeunesse"], "ans": 1, "exp": "«Дорогу осилит идущий» = la route est surmontée par celui qui marche. L'équivalent de «c'est en forgeant qu'on devient forgeron». Un beau proverbe pour votre apprentissage du russe !" }
+      ]
+    }
+  ]
+}

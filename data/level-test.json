@@ -1,0 +1,355 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": 1, "cat": "Grammaire",
+      "q": "Quel pronom russe signifie «je» ?",
+      "qru": "Quel pronom russe signifie «je» ?",
+      "opts": ["ты", "вы", "я", "он"], "ans": 2,
+      "exp": "«Я» signifie «je» en russe. Contrairement au français, il ne prend pas de majuscule."
+    },
+    {
+      "id": 2, "cat": "Grammaire",
+      "q": "Comment dit-on «tu» en russe (registre informel) ?",
+      "qru": "Comment dit-on «tu» en russe (registre informel) ?",
+      "opts": ["вы", "ты", "мы", "вам"], "ans": 1,
+      "exp": "«Ты» est le tutoiement en russe. «Вы» est le vouvoiement (formel ou pluriel)."
+    },
+    {
+      "id": 3, "cat": "Grammaire",
+      "q": "En russe, le verbe «être» (быть) est généralement...",
+      "qru": "En russe, le verbe «être» (быть) est généralement...",
+      "opts": ["Toujours présent", "Omis au présent", "Conjugué comme en français", "Remplacé par «avoir»"], "ans": 1,
+      "exp": "En russe, le verbe быть est omis au présent. On dit «Я студент» (Je [suis] étudiant) sans «est»."
+    },
+    {
+      "id": 4, "cat": "Grammaire",
+      "q": "Combien de genres grammaticaux existe-t-il en russe ?",
+      "qru": "Combien de genres grammaticaux existe-t-il en russe ?",
+      "opts": ["2 (masculin, féminin)", "3 (masculin, féminin, neutre)", "4 (+ animé)", "1 seulement"], "ans": 1,
+      "exp": "Le russe a 3 genres : masculin (стол), féminin (книга) et neutre (окно). Le neutre manque en français."
+    },
+    {
+      "id": 5, "cat": "Grammaire",
+      "q": "Combien de cas grammaticaux le russe possède-t-il ?",
+      "qru": "Combien de cas grammaticaux le russe possède-t-il ?",
+      "opts": ["3", "4", "6", "8"], "ans": 2,
+      "exp": "Le russe a 6 cas : nominatif, génitif, datif, accusatif, instrumental et prépositionnel."
+    },
+    {
+      "id": 6, "cat": "Grammaire",
+      "q": "Comment exprime-t-on «j'ai» en russe ?",
+      "qru": "Comment exprime-t-on «j'ai» en russe ?",
+      "opts": ["я имею", "у меня есть", "мне есть", "я есть"], "ans": 1,
+      "exp": "«У меня есть» signifie littéralement «chez moi il y a». Le russe n'a pas de verbe «avoir» direct."
+    },
+    {
+      "id": 7, "cat": "Grammaire",
+      "q": "Le mot «книга» (livre) est de quel genre ?",
+      "qru": "Le mot «книга» (livre) est de quel genre ?",
+      "opts": ["Masculin", "Féminin", "Neutre", "Indéfini"], "ans": 1,
+      "exp": "«Книга» est féminin. Les mots en -а/-я sont généralement féminins en russe."
+    },
+    {
+      "id": 8, "cat": "Grammaire",
+      "q": "Comment forme-t-on la négation en russe ?",
+      "qru": "Comment forme-t-on la négation en russe ?",
+      "opts": ["Avec «pas»", "Avec «не» devant le verbe", "Avec «нет» après le verbe", "Avec «без»"], "ans": 1,
+      "exp": "La négation se forme avec «не» devant le verbe : Я не говорю (Je ne parle pas)."
+    },
+    {
+      "id": 9, "cat": "Grammaire",
+      "q": "Quelle terminaison indique généralement le neutre en russe ?",
+      "qru": "Quelle terminaison indique généralement le neutre en russe ?",
+      "opts": ["-а / -я", "-о / -е", "-ий / -ый", "-ость"], "ans": 1,
+      "exp": "Les noms neutres se terminent souvent en -о ou -е. Ex: окно (fenêtre), море (mer)."
+    },
+    {
+      "id": 10, "cat": "Grammaire",
+      "q": "En russe, les articles définis et indéfinis existent-ils ?",
+      "qru": "En russe, les articles définis et indéfinis existent-ils ?",
+      "opts": ["Oui, comme en français", "Seulement le défini", "Non, il n'y a pas d'articles", "Seulement l'indéfini"], "ans": 2,
+      "exp": "Le russe n'a pas d'articles (ni «le/la» ni «un/une»). Le contexte indique si c'est défini ou indéfini."
+    },
+    {
+      "id": 11, "cat": "Vocabulaire",
+      "q": "Que signifie «Здравствуйте» ?",
+      "qru": "Que signifie «Здравствуйте» ?",
+      "opts": ["Au revoir", "Merci", "Bonjour (formel)", "S'il vous plaît"], "ans": 2,
+      "exp": "«Здравствуйте» est le salut formel. Littéralement : «Soyez en bonne santé». Informel : «Привет»."
+    },
+    {
+      "id": 12, "cat": "Vocabulaire",
+      "q": "Comment dit-on «merci» en russe ?",
+      "qru": "Comment dit-on «merci» en russe ?",
+      "opts": ["Пожалуйста", "Спасибо", "Извините", "Привет"], "ans": 1,
+      "exp": "«Спасибо» signifie merci. La réponse est «Пожалуйста» (de rien / s'il vous plaît)."
+    },
+    {
+      "id": 13, "cat": "Vocabulaire",
+      "q": "Que signifie «вода» ?",
+      "qru": "Que signifie «вода» ?",
+      "opts": ["Vin", "Eau", "Lait", "Jus"], "ans": 1,
+      "exp": "«Вода» signifie eau. Я пью воду = Je bois de l'eau."
+    },
+    {
+      "id": 14, "cat": "Vocabulaire",
+      "q": "Comment dit-on «rouge» en russe ?",
+      "qru": "Comment dit-on «rouge» en russe ?",
+      "opts": ["синий", "зелёный", "красный", "белый"], "ans": 2,
+      "exp": "«Красный» signifie rouge. Историческая связь: «красный» voulait aussi dire «beau» en vieux russe."
+    },
+    {
+      "id": 15, "cat": "Vocabulaire",
+      "q": "Que signifie «работать» ?",
+      "qru": "Que signifie «работать» ?",
+      "opts": ["Voyager", "Manger", "Travailler", "Parler"], "ans": 2,
+      "exp": "«Работать» signifie travailler. Я работаю в Москве = Je travaille à Moscou."
+    },
+    {
+      "id": 16, "cat": "Vocabulaire",
+      "q": "Comment dit-on «famille» en russe ?",
+      "qru": "Comment dit-on «famille» en russe ?",
+      "opts": ["дом", "семья", "город", "страна"], "ans": 1,
+      "exp": "«Семья» signifie famille. Моя семья большая = Ma famille est grande."
+    },
+    {
+      "id": 17, "cat": "Vocabulaire",
+      "q": "Que signifie «три» ?",
+      "qru": "Que signifie «три» ?",
+      "opts": ["Un", "Deux", "Trois", "Quatre"], "ans": 2,
+      "exp": "«Три» signifie trois. Les chiffres en russe : один, два, три, четыре, пять..."
+    },
+    {
+      "id": 18, "cat": "Vocabulaire",
+      "q": "Comment dit-on «bonjour» de manière informelle en russe ?",
+      "qru": "Comment dit-on «bonjour» de manière informelle en russe ?",
+      "opts": ["До свидания", "Здравствуйте", "Привет", "Пока"], "ans": 2,
+      "exp": "«Привет» est le salut informel (comme «salut» en français). «Здравствуйте» est formel."
+    },
+    {
+      "id": 19, "cat": "Vocabulaire",
+      "q": "Que signifie «хорошо» ?",
+      "qru": "Que signifie «хорошо» ?",
+      "opts": ["Mauvais", "Bien / D'accord", "Peut-être", "Non"], "ans": 1,
+      "exp": "«Хорошо» signifie bien, d'accord, OK. Très utilisé dans les conversations quotidiennes."
+    },
+    {
+      "id": 20, "cat": "Vocabulaire",
+      "q": "Comment dit-on «je m'appelle» en russe ?",
+      "qru": "Comment dit-on «je m'appelle» en russe ?",
+      "opts": ["Я зовут...", "Меня зовут...", "Мне зовут...", "Я называю..."], "ans": 1,
+      "exp": "«Меня зовут» = je m'appelle. Littéralement : «on m'appelle». Меня зовут Иван."
+    },
+    {
+      "id": 21, "cat": "Culture",
+      "q": "Qui a écrit «Guerre et Paix» ?",
+      "qru": "Qui a écrit «Guerre et Paix» ?",
+      "opts": ["Dostoïevski", "Tchékhov", "Pouchkine", "Tolstoï"], "ans": 3,
+      "exp": "Léon Tolstoï (1828–1910) a écrit Guerre et Paix (Война и мир) entre 1865 et 1869. Chef-d'œuvre de la littérature mondiale."
+    },
+    {
+      "id": 22, "cat": "Culture",
+      "q": "Qu'est-ce qu'une «matriochka» ?",
+      "qru": "Qu'est-ce qu'une «matriochka» ?",
+      "opts": ["Un instrument de musique russe", "Une poupée gigogne en bois", "Un plat traditionnel", "Une danse folklorique"], "ans": 1,
+      "exp": "La matriochka (матрёшка) est la célèbre poupée gigogne russe. Elle fut créée en 1890 et symbolise la maternité."
+    },
+    {
+      "id": 23, "cat": "Culture",
+      "q": "Qui a écrit «Crime et Châtiment» ?",
+      "qru": "Qui a écrit «Crime et Châtiment» ?",
+      "opts": ["Gogol", "Dostoïevski", "Tourgueniev", "Bounine"], "ans": 1,
+      "exp": "Fiodor Dostoïevski (1821–1881) a écrit Crime et Châtiment (Преступление и наказание) en 1866."
+    },
+    {
+      "id": 24, "cat": "Culture",
+      "q": "Quel Russe fut le premier homme dans l'espace ?",
+      "qru": "Quel Russe fut le premier homme dans l'espace ?",
+      "opts": ["Sergueï Korolev", "Valentina Terechkova", "Iouri Gagarine", "Alexeï Leonov"], "ans": 2,
+      "exp": "Iouri Gagarine (Юрий Гагарин) fut le premier homme dans l'espace le 12 avril 1961 à bord de Vostok 1."
+    },
+    {
+      "id": 25, "cat": "Culture",
+      "q": "Qu'est-ce que la «Maslenitsa» ?",
+      "qru": "Qu'est-ce que la «Maslenitsa» ?",
+      "opts": ["Un opéra russe célèbre", "La fête des crêpes / carnaval russe", "Un plat de viande traditionnel", "Un festival de neige en Sibérie"], "ans": 1,
+      "exp": "La Maslenitsa (Масленица) est la semaine de carnaval russe précédant le Carême orthodoxe. On mange des blinis (crêpes) toute la semaine."
+    },
+    {
+      "id": 26, "cat": "Culture",
+      "q": "Qu'est-ce que la «balalaïka» ?",
+      "qru": "Qu'est-ce que la «balalaïka» ?",
+      "opts": ["Un instrument à cordes triangulaire", "Une danse cosaque", "Un type de vodka artisanale", "Un instrument à vent"], "ans": 0,
+      "exp": "La balalaïka (балалайка) est un instrument à cordes russe de forme triangulaire, à 3 cordes. Emblème du folklore russe."
+    },
+    {
+      "id": 27, "cat": "Culture",
+      "q": "Qui est Alexandre Pouchkine ?",
+      "qru": "Qui est Alexandre Pouchkine ?",
+      "opts": ["Un compositeur russe", "Le père de la littérature russe moderne", "Un tsar du XVIIIe siècle", "Un peintre de l'école russe"], "ans": 1,
+      "exp": "Alexandre Pouchkine (1799–1837) est considéré comme le père de la littérature russe moderne. Il a écrit Eugène Onéguine et La Fille du capitaine."
+    },
+    {
+      "id": 28, "cat": "Culture",
+      "q": "Quel est le célèbre théâtre de ballet de Moscou ?",
+      "qru": "Quel est le célèbre théâtre de ballet de Moscou ?",
+      "opts": ["Le Mariinsky", "Le Bolchoï", "Le Stanislavski", "Le Hermitage"], "ans": 1,
+      "exp": "Le théâtre Bolchoï (Большой театр = Grand Théâtre) de Moscou est l'un des plus célèbres au monde. Il accueille opéra et ballet."
+    },
+    {
+      "id": 29, "cat": "Culture",
+      "q": "Dans quelle ville se trouve le musée de l'Ermitage ?",
+      "qru": "Dans quelle ville se trouve le musée de l'Ermitage ?",
+      "opts": ["Moscou", "Vladivostok", "Saint-Pétersbourg", "Kazan"], "ans": 2,
+      "exp": "L'Ermitage (Эрмитаж) est situé à Saint-Pétersbourg. Fondé par Catherine la Grande en 1764, c'est l'un des plus grands musées du monde."
+    },
+    {
+      "id": 30, "cat": "Culture",
+      "q": "Qu'est-ce que le «bortsch» ?",
+      "qru": "Qu'est-ce que le «bortsch» ?",
+      "opts": ["Un dessert à base de betterave", "Une soupe de betterave rouge", "Un pain traditionnel au seigle", "Une boisson fermentée"], "ans": 1,
+      "exp": "Le bortsch (борщ) est une soupe emblématique d'Europe de l'Est à base de betterave rouge, choux et viande. Servi avec de la crème fraîche."
+    },
+    {
+      "id": 31, "cat": "Géographie",
+      "q": "Quelle est la capitale de la Russie ?",
+      "qru": "Quelle est la capitale de la Russie ?",
+      "opts": ["Saint-Pétersbourg", "Novossibirsk", "Moscou", "Kazan"], "ans": 2,
+      "exp": "Moscou (Москва) est la capitale et la plus grande ville de Russie, avec environ 12 millions d'habitants."
+    },
+    {
+      "id": 32, "cat": "Géographie",
+      "q": "La Russie est le plus grand pays du monde par sa superficie. Quelle fraction de la superficie terrestre occupe-t-elle ?",
+      "qru": "La Russie est le plus grand pays du monde par sa superficie. Quelle fraction de la superficie terrestre occupe-t-elle ?",
+      "opts": ["1/10", "1/8", "1/6", "1/4"], "ans": 2,
+      "exp": "La Russie couvre environ 17,1 millions de km², soit près d'1/6 des terres émergées. Elle s'étend sur 11 fuseaux horaires."
+    },
+    {
+      "id": 33, "cat": "Géographie",
+      "q": "Quelle rivière traverse Moscou ?",
+      "qru": "Quelle rivière traverse Moscou ?",
+      "opts": ["La Volga", "L'Ob", "La Moskova", "La Neva"], "ans": 2,
+      "exp": "La Moskova (Москва-река) traverse la capitale. La Neva traverse Saint-Pétersbourg ; la Volga est le plus long fleuve d'Europe."
+    },
+    {
+      "id": 34, "cat": "Géographie",
+      "q": "Quel rôle jouent les monts Oural ?",
+      "qru": "Quel rôle jouent les monts Oural ?",
+      "opts": ["Ils séparent la Russie de la Chine", "Ils séparent l'Europe de l'Asie", "Ils forment la frontière avec la Finlande", "Ils bordent la mer Caspienne"], "ans": 1,
+      "exp": "Les monts Oural (Уральские горы) constituent la frontière naturelle entre l'Europe et l'Asie. Ils s'étendent sur 2 500 km du nord au sud."
+    },
+    {
+      "id": 35, "cat": "Géographie",
+      "q": "Quel est le lac le plus profond du monde, situé en Russie ?",
+      "qru": "Quel est le lac le plus profond du monde, situé en Russie ?",
+      "opts": ["Lac Baïkal", "Lac Ladoga", "Lac Elton", "Mer Caspienne"], "ans": 0,
+      "exp": "Le lac Baïkal (Байкал) en Sibérie est le lac le plus profond du monde (1 642 m) et contient 20% des réserves mondiales d'eau douce."
+    },
+    {
+      "id": 36, "cat": "Géographie",
+      "q": "Quelle ville est la deuxième plus grande de Russie ?",
+      "qru": "Quelle ville est la deuxième plus grande de Russie ?",
+      "opts": ["Novossibirsk", "Kazan", "Saint-Pétersbourg", "Ekaterinbourg"], "ans": 2,
+      "exp": "Saint-Pétersbourg (Санкт-Петербург) est la 2e ville de Russie. Ancienne capitale impériale, elle est aussi appelée «la Venise du Nord»."
+    },
+    {
+      "id": 37, "cat": "Géographie",
+      "q": "Par quel océan la Russie a-t-elle accès au Pacifique ?",
+      "qru": "Par quel océan la Russie a-t-elle accès au Pacifique ?",
+      "opts": ["Par l'océan Arctique seulement", "Par l'océan Pacifique directement", "Par la mer d'Okhotsk et la mer du Japon", "Par le détroit de Behring uniquement"], "ans": 2,
+      "exp": "La Russie borde l'océan Pacifique via la mer d'Okhotsk et la mer du Japon. Vladivostok est le grand port pacifique russe."
+    },
+    {
+      "id": 38, "cat": "Géographie",
+      "q": "Qu'est-ce que la Sibérie ?",
+      "qru": "Qu'est-ce que la Sibérie ?",
+      "opts": ["Une République indépendante de Russie", "La région nord-est de la Russie", "L'immense région asiatique de la Russie", "Le nom d'une chaîne de montagnes"], "ans": 2,
+      "exp": "La Sibérie (Сибирь) désigne la vaste région asiatique de la Russie (77% du territoire). Elle est connue pour son climat extrême et ses ressources naturelles."
+    },
+    {
+      "id": 39, "cat": "Géographie",
+      "q": "Quelle mer sépare la Russie de l'Alaska ?",
+      "qru": "Quelle mer sépare la Russie de l'Alaska ?",
+      "opts": ["La mer du Japon", "La mer d'Okhotsk", "Le détroit de Béring", "La mer de Barents"], "ans": 2,
+      "exp": "Le détroit de Béring sépare la Sibérie (Russie) de l'Alaska (États-Unis). Au point le plus étroit, les deux continents ne sont qu'à 86 km."
+    },
+    {
+      "id": 40, "cat": "Géographie",
+      "q": "Quelle est la plus longue voie ferrée du monde, traversant la Russie ?",
+      "qru": "Quelle est la plus longue voie ferrée du monde, traversant la Russie ?",
+      "opts": ["Le train transsibérien", "L'Orient-Express russe", "La ligne Moscou-Pékin", "Le BAM"], "ans": 0,
+      "exp": "Le Transsibérien (Транссибирская магистраль) relie Moscou à Vladivostok sur 9 289 km. Il traverse 8 fuseaux horaires en environ 7 jours."
+    },
+    {
+      "id": 41, "cat": "Histoire",
+      "q": "Qui fut le premier tsar de Russie (1547) ?",
+      "qru": "Qui fut le premier tsar de Russie (1547) ?",
+      "opts": ["Pierre le Grand", "Ivan le Terrible", "Alexandre Nevski", "Vladimir le Grand"], "ans": 1,
+      "exp": "Ivan IV «le Terrible» (Иван Грозный) fut le premier souverain à porter officiellement le titre de tsar en 1547."
+    },
+    {
+      "id": 42, "cat": "Histoire",
+      "q": "En quelle année a eu lieu la Révolution russe d'octobre ?",
+      "qru": "En quelle année a eu lieu la Révolution russe d'octobre ?",
+      "opts": ["1905", "1914", "1917", "1921"], "ans": 2,
+      "exp": "La Révolution d'Octobre 1917 dirigée par les bolchéviks de Lénine renversa le gouvernement provisoire et conduisit à la création de l'URSS."
+    },
+    {
+      "id": 43, "cat": "Histoire",
+      "q": "Qu'a réalisé Pierre le Grand pour la Russie ?",
+      "qru": "Qu'a réalisé Pierre le Grand pour la Russie ?",
+      "opts": ["Il a vendu l'Alaska aux États-Unis", "Il a modernisé et occidentalisé la Russie", "Il a fondé la ville de Moscou", "Il a aboli le servage"], "ans": 1,
+      "exp": "Pierre le Grand (Пётр I, 1672–1725) a modernisé la Russie, fondé Saint-Pétersbourg (1703) et ouvert le pays à l'influence européenne."
+    },
+    {
+      "id": 44, "cat": "Histoire",
+      "q": "En quelle année l'URSS s'est-elle dissoute ?",
+      "qru": "En quelle année l'URSS s'est-elle dissoute ?",
+      "opts": ["1985", "1989", "1991", "1993"], "ans": 2,
+      "exp": "L'URSS (Union soviétique) s'est officiellement dissoute le 25 décembre 1991. La Russie en est le principal successeur."
+    },
+    {
+      "id": 45, "cat": "Histoire",
+      "q": "Qui était Catherine la Grande ?",
+      "qru": "Qui était Catherine la Grande ?",
+      "opts": ["La fille de Pierre le Grand", "Une impératrice qui étendit l'Empire russe", "La première femme tsar de Russie", "Une reine française devenue russe"], "ans": 1,
+      "exp": "Catherine II «la Grande» (1762–1796), d'origine allemande, agrandit considérablement l'empire russe et encouragea les arts et les sciences."
+    },
+    {
+      "id": 46, "cat": "Histoire",
+      "q": "Quand le premier Spoutnik a-t-il été lancé dans l'espace ?",
+      "qru": "Quand le premier Spoutnik a-t-il été lancé dans l'espace ?",
+      "opts": ["1953", "1957", "1961", "1969"], "ans": 1,
+      "exp": "Spoutnik 1 (Спутник) fut lancé le 4 octobre 1957 par l'URSS, devenant le premier satellite artificiel de la Terre et marquant le début de l'ère spatiale."
+    },
+    {
+      "id": 47, "cat": "Histoire",
+      "q": "Qu'est-ce que le siège de Leningrad (1941-1944) ?",
+      "qru": "Qu'est-ce que le siège de Leningrad (1941-1944) ?",
+      "opts": ["Une bataille navale contre le Japon", "Un siège de 872 jours de la ville par l'Allemagne nazie", "La libération de Moscou en 1944", "L'attaque sur la ville de Kiev"], "ans": 1,
+      "exp": "Le siège de Leningrad (aujourd'hui Saint-Pétersbourg) dura 872 jours. Environ 800 000 civils périrent. L'un des événements les plus dramatiques de la 2nde Guerre mondiale."
+    },
+    {
+      "id": 48, "cat": "Histoire",
+      "q": "Qui était Lénine ?",
+      "qru": "Qui était Lénine ?",
+      "opts": ["Le dernier tsar de Russie", "Le fondateur de l'URSS et chef des bolchéviks", "Un général de l'armée rouge", "Un philosophe révolutionnaire français"], "ans": 1,
+      "exp": "Vladimir Ilitch Lénine (1870–1924) dirigea la Révolution d'Octobre 1917 et fonda l'Union soviétique, dont il fut le premier chef d'État."
+    },
+    {
+      "id": 49, "cat": "Histoire",
+      "q": "Quelle guerre opposa l'Empire russe au Japon au début du XXe siècle ?",
+      "qru": "Quelle guerre opposa l'Empire russe au Japon au début du XXe siècle ?",
+      "opts": ["La guerre de Crimée", "La guerre russo-japonaise (1904–1905)", "La guerre du Caucase", "La guerre russo-turque"], "ans": 1,
+      "exp": "La guerre russo-japonaise (1904–1905) se termina par une défaite humiliante de la Russie, contribuant à la révolution de 1905."
+    },
+    {
+      "id": 50, "cat": "Histoire",
+      "q": "Quel tsar a été assassiné avec toute sa famille en 1918 ?",
+      "qru": "Quel tsar a été assassiné avec toute sa famille en 1918 ?",
+      "opts": ["Alexandre III", "Alexandre II", "Nicolas II", "Paul Ier"], "ans": 2,
+      "exp": "Nicolas II (Николай II), dernier tsar de Russie, et toute sa famille furent assassinés par les bolchéviks à Ekaterinbourg le 17 juillet 1918."
+    }
+  ]
+}
