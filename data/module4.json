@@ -1,0 +1,729 @@
+{
+  "module": 4,
+  "titleFr": "Travail et Études",
+  "titleRu": "Работа и учёба",
+  "description": "Les professions, le bureau, les études, les négociations et la vie professionnelle en Russie.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Les Professions",
+      "titleRu": "Профессии",
+      "level": "A2",
+      "grammar": {
+        "title": "Les professions et le cas instrumental",
+        "titleRu": "Профессии и творительный падеж",
+        "intro": "En russe, pour dire ce qu'on fait comme métier, on utilise le cas instrumental — le 5e cas. «Je suis médecin» se dit «Я работаю врачом» (littéralement «je travaille en médecin»). C'est une construction fondamentalement différente du français qui n'utilise pas d'article.",
+        "sections": [
+          {
+            "title": "Formation de l'instrumental singulier",
+            "content": "Masculin (consonne) : + -ом → врач → врачом\nMasculin (-й) : → -ем → гений → гением\nMasculin (-ь) : → -ем → учитель → учителем\nFéminin (-а) : → -ой → женщина → женщиной\nFéminin (-я) : → -ей → неделя → неделей\nFéminin (-ь) : → -ью → дочь → дочью\nNeutre (-о) : → -ом → слово → словом\nNeutre (-е) : → -ем → море → морем"
+          },
+          {
+            "title": "Être quelque chose — instrumental obligatoire",
+            "content": "Я работаю врачом. — Je suis médecin (je travaille comme médecin).\nОна стала учителем. — Elle est devenue professeure.\nОн хочет быть инженером. — Il veut être ingénieur.\nКем ты работаешь? — Quelle est ta profession ?\nКем ты хочешь стать? — Que veux-tu devenir ?\n\nAvec быть au présent : omis — «Я врач» (je suis médecin)\nAvec быть au passé/futur/infinitif : instrumental obligatoire\nОн был врачом. — Il était médecin.\nОн будет врачом. — Il sera médecin."
+          },
+          {
+            "title": "Les professions essentielles",
+            "content": "врач — médecin\nучитель / учительница — professeur (m/f)\nинженер — ingénieur\nпрограммист — développeur informatique\nэкономист — économiste\nюрист / адвокат — juriste / avocat\nжурналист — journaliste\nархитектор — architecte\nпереводчик — traducteur / interprète\nпредприниматель — entrepreneur\nбухгалтер — comptable\nменеджер — manager\nдизайнер — designer"
+          }
+        ],
+        "rule": "💡 Genre des professions : en russe, les noms de profession ont souvent une forme féminine distincte : учитель → учительница, переводчик → переводчица, студент → студентка. Mais врач, инженер, менеджер s'utilisent pour les deux genres — l'accord se fait par le contexte."
+      },
+      "pronunciation": {
+        "intro": "Les professions — vocabulaire clé pour se présenter professionnellement en Russie.",
+        "note": "⚠️ «Переводчик» (traducteur) — un métier très demandé pour les locuteurs de français en Russie ! Prononcez «piri-VOD-tchik». «Бухгалтер» (comptable) vient de l'allemand «Buchhalter» — prononcez «boukh-GAL-ter».",
+        "words": [
+          { "fr": "врач", "ru_pron": "vratch", "meaning": "le médecin" },
+          { "fr": "учитель", "ru_pron": "outchítiel'", "meaning": "le professeur (m.)" },
+          { "fr": "инженер", "ru_pron": "injinYER", "meaning": "l'ingénieur" },
+          { "fr": "программист", "ru_pron": "programMÍST", "meaning": "le développeur / programmeur" },
+          { "fr": "переводчик", "ru_pron": "piriVODtchik", "meaning": "le traducteur / interprète" },
+          { "fr": "менеджер", "ru_pron": "MYEnijir", "meaning": "le manager" },
+          { "fr": "бухгалтер", "ru_pron": "boukhGÁLtier", "meaning": "le comptable" },
+          { "fr": "предприниматель", "ru_pron": "prédpriniMÁtiel'", "meaning": "l'entrepreneur" },
+          { "fr": "профессия", "ru_pron": "praFYEsia", "meaning": "la profession / le métier" },
+          { "fr": "специальность", "ru_pron": "spitsialYNAST'", "meaning": "la spécialité / la qualification" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "работать", "gender": null, "ru": "travailler", "ru_pron": "RÁbotat'", "example_fr": "Я работаю в компании.", "example_ru": "Je travaille dans une entreprise.", "level": "A1" },
+        { "fr": "профессия", "gender": "f", "ru": "la profession / le métier", "ru_pron": "praFYEsia", "example_fr": "Какая у вас профессия?", "example_ru": "Quelle est votre profession ?", "level": "A1" },
+        { "fr": "должность", "gender": "f", "ru": "le poste / la fonction", "ru_pron": "DOLjnast'", "example_fr": "Какая у вас должность?", "example_ru": "Quel est votre poste ?", "level": "A2" },
+        { "fr": "опыт", "gender": "m", "ru": "l'expérience", "ru_pron": "OPyt", "example_fr": "У меня пять лет опыта.", "example_ru": "J'ai cinq ans d'expérience.", "level": "A2" },
+        { "fr": "специальность", "gender": "f", "ru": "la spécialité / la qualification", "ru_pron": "spitsialYNAST'", "example_fr": "Моя специальность — экономика.", "example_ru": "Ma spécialité c'est l'économie.", "level": "A2" },
+        { "fr": "зарплата", "gender": "f", "ru": "le salaire", "ru_pron": "zarPLÁta", "example_fr": "Какая зарплата?", "example_ru": "Quel est le salaire ?", "level": "A2" },
+        { "fr": "коллега", "gender": "m/f", "ru": "le/la collègue", "ru_pron": "kaLYEga", "example_fr": "Мои коллеги очень дружелюбны.", "example_ru": "Mes collègues sont très sympathiques.", "level": "A1" },
+        { "fr": "начальник", "gender": "m", "ru": "le chef / le patron", "ru_pron": "naTCHAL'nik", "example_fr": "Мой начальник строгий.", "example_ru": "Mon chef est strict.", "level": "A2" },
+        { "fr": "стать", "gender": null, "ru": "devenir (perfectif)", "ru_pron": "stat'", "example_fr": "Она стала директором.", "example_ru": "Elle est devenue directrice.", "level": "A2" },
+        { "fr": "нанимать", "gender": null, "ru": "embaucher / recruter", "ru_pron": "naniMÁT'", "example_fr": "Компания нанимает новых сотрудников.", "example_ru": "L'entreprise recrute de nouveaux employés.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "менеджер", "fr_pron": "MYEnijir", "ru": "manager", "ru_pron": "manager", "note": "«Менеджер» = manager. Anglicisme entré massivement en russe dans les années 1990. Ironiquement, en Russie «менеджер» désigne souvent n'importe quel employé de bureau, pas forcément un cadre !" },
+        { "fr": "журналист", "fr_pron": "jurnalÍST", "ru": "journaliste", "ru_pron": "journaliste", "note": "«Журналист» vient du français «journal». La Russie a une longue tradition journalistique — Herzen, Dostoïevski et Tchekhov ont tous publié dans des revues. Aujourd'hui, le journalisme indépendant y est difficile mais vivace." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Sofia Kovalevskaïa (1850–1891)", "subtitle": "Première femme professeure de mathématiques", "content": "Sofia Kovalevskaïa fut la première femme à obtenir un doctorat en mathématiques (Göttingen, 1874) et la première femme professeure titulaire dans une université européenne (Stockholm, 1884). En Russie, les femmes n'ayant pas le droit d'étudier à l'université, elle dut contracter un mariage fictif pour obtenir un passeport et partir étudier en Europe. Elle démontra l'existence de solutions analytiques aux équations de rotation d'un corps rigide. Prix Bordin de l'Académie française des sciences, 1888." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le travail en URSS — l'emploi garanti et ses paradoxes", "content": "En URSS, le chômage était officiellement inexistant — tout le monde avait le droit et le devoir de travailler. «Qui ne travaille pas ne mange pas» était la règle. Mais la productivité laissait à désirer : les Soviétiques disaient «Ils font semblant de nous payer, nous faisons semblant de travailler». Les métiers les plus enviés : diplomate, chauffeur de taxi (accès aux devises étrangères), gérant d'un magasin d'alimentation (accès aux produits). L'ingénierie et la science étaient très valorisées — nombreux Nobel soviétiques en sciences." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Блат» — le réseau à la russe", "content": "Le «блат» est le système de relations personnelles qui permet d'obtenir ce qu'on ne peut pas avoir par les voies officielles — emploi, appartement, soins médicaux, produits rares. Né en URSS par nécessité, il persiste aujourd'hui sous forme de networking informel. «Устроиться по блату» = obtenir un poste grâce à ses relations. En Russie, les relations personnelles comptent parfois plus que les diplômes pour trouver un emploi. Ce n'est pas perçu comme de la corruption — c'est de la solidarité." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Кем вы работаете?", "pronunciation": "Kyem vy RÁbotayité", "translation": "Quelle est votre profession ? / Que faites-vous dans la vie ?", "usage": "Question standard pour connaître la profession de quelqu'un. Кем = instrumental interrogatif (qui/quoi en tant que). Réponse : «Я работаю + instrumental». Ex: «Я работаю врачом» (je suis médecin).", "example": "— Кем вы работаете? — Я работаю переводчиком с французского. (Quelle est votre profession ? — Je suis traducteur du français.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Le quartier d'affaires Moskva-City", "subtitle": "Москва-Сити — деловой центр России", "content": "Moskva-City (Москва-Сити) est le centre d'affaires international de Moscou — une forêt de gratte-ciel ultra-modernes sur la Moskova. La tour Fédération (374 m) est la plus haute d'Europe. Bureaux de multinationales, hôtels 5 étoiles, restaurants gastronomiques, appartements de luxe. Construit à partir des années 1990, il contraste saisissant avec le Kremlin médiéval visible à quelques kilomètres. La passerelle vitrée entre les tours offre une vue panoramique époustouflante sur Moscou." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je suis ingénieur» (au passé) en russe ?", "opts": ["Я был инженер.", "Я работал как инженер.", "Я был инженером.", "Я есть инженером."], "ans": 2, "exp": "«Я был инженером» = j'étais ingénieur. Au passé, «être + profession» requiert l'instrumental (инженером). Au présent, on dit simplement «Я инженер» sans cas spécial." },
+        { "q": "Comment demande-t-on la profession de quelqu'un en russe ?", "opts": ["Что ты делаешь?", "Кем вы работаете?", "Где вы работаете?", "Как называется ваша работа?"], "ans": 1, "exp": "«Кем вы работаете?» = quelle est votre profession ? Кем = instrumental interrogatif. Réponse attendue : «Я работаю + instrumental». C'est la formule standard et naturelle." },
+        { "q": "Qu'est-ce que le «блат» en Russie ?", "opts": ["Un type de contrat de travail", "Le système de relations personnelles pour obtenir des avantages", "Un diplôme universitaire spécialisé", "Un bénéfice salarial légal"], "ans": 1, "exp": "Le блат = le réseau informel de relations personnelles pour obtenir emploi, produits, services. Né en URSS par nécessité, perçu comme solidarité plutôt que corruption." },
+        { "q": "Sofia Kovalevskaïa est connue pour :", "opts": ["Avoir fondé la première université pour femmes en Russie", "Être la première femme professeure de mathématiques en université", "Avoir découvert un nouveau planète", "Avoir créé la première école de médecine féminine"], "ans": 1, "exp": "Sofia Kovalevskaïa fut la première femme professeure titulaire dans une université européenne (Stockholm, 1884) et la première femme docteure en mathématiques (Göttingen, 1874)." },
+        { "q": "Comment dit-on «elle est devenue directrice» en russe ?", "opts": ["Она стала директора.", "Она стала директором.", "Она есть директор.", "Она работала директор."], "ans": 1, "exp": "«Она стала директором» = elle est devenue directrice. Стать (devenir, perfectif) + instrumental. Le verbe стать exige toujours l'instrumental pour la profession/statut." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Au Bureau",
+      "titleRu": "В офисе",
+      "level": "A2",
+      "grammar": {
+        "title": "La vie de bureau et les verbes réfléchis",
+        "titleRu": "Офисная жизнь и возвратные глаголы",
+        "intro": "Les verbes réfléchis russes se terminent en -ся/-сь. Ils expriment une action réfléchie (sur soi-même), réciproque (l'un l'autre) ou passive. Essentiels dans le contexte professionnel pour parler de réunions, de projets et de relations de travail.",
+        "sections": [
+          {
+            "title": "Verbes réfléchis — formation et sens",
+            "content": "-ся après consonne : встречаться (se rencontrer)\n-сь après voyelle : встречаюсь (je me rencontre)\n\nSens réfléchi (action sur soi) :\nодеваться — s'habiller\nмыться — se laver\nготовиться — se préparer\n\nSens réciproque (l'un l'autre) :\nвстречаться — se retrouver\nзвонить → звониться — se téléphoner\nдоговариваться — se mettre d'accord\n\nSens passif / processus :\nстроиться — être en construction\nпродаваться — être en vente\nназываться — s'appeler (être nommé)"
+          },
+          {
+            "title": "Vocabulaire du bureau",
+            "content": "офис — bureau (lieu)\nстол — bureau (meuble)\nсовещание / собрание — réunion\nпроект — projet\nотчёт — rapport\nдедлайн — deadline\nклиент — client\nдоговор — contrat\nподпись — signature\nпечать — cachet/tampon (indispensable en Russie !)\nкомандировка — déplacement professionnel\nотпуск — congés\nбольничный — arrêt maladie"
+          },
+          {
+            "title": "Expressions professionnelles",
+            "content": "Мы договорились о встрече. — Nous avons convenu d'une réunion.\nСовещание начинается в 10. — La réunion commence à 10h.\nЯ занят до обеда. — Je suis occupé jusqu'au déjeuner.\nПришли мне по почте. — Envoie-moi par email.\nПодпишите, пожалуйста. — Signez, s'il vous plaît.\nЭто срочно. — C'est urgent."
+          }
+        ],
+        "rule": "💡 La «печать» (le tampon/cachet officiel) est une institution en Russie. Tout document officiel DOIT porter un tampon pour être valide — un simple papier signé ne suffit souvent pas. Les Russes appellent ça «бюрократия» mais l'acceptent comme une réalité immuable de la vie."
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire du bureau — pour travailler ou collaborer avec des partenaires russes.",
+        "note": "⚠️ «Совещание» (réunion de travail) — prononcez «sa-vi-TCHA-nie». À distinguer de «собрание» (assemblée générale) et «встреча» (rencontre informelle). Trois niveaux de formalité !",
+        "words": [
+          { "fr": "офис", "ru_pron": "OFis", "meaning": "le bureau (lieu)" },
+          { "fr": "совещание", "ru_pron": "saviTCHÁnie", "meaning": "la réunion de travail" },
+          { "fr": "отчёт", "ru_pron": "atTCHYOT", "meaning": "le rapport" },
+          { "fr": "дедлайн", "ru_pron": "DÉDlaïn", "meaning": "la deadline / l'échéance" },
+          { "fr": "командировка", "ru_pron": "kamandirOVka", "meaning": "le déplacement professionnel" },
+          { "fr": "договор", "ru_pron": "dagaVOR", "meaning": "le contrat" },
+          { "fr": "подпись", "ru_pron": "PODpis'", "meaning": "la signature" },
+          { "fr": "печать", "ru_pron": "pitCHAT'", "meaning": "le cachet / le tampon officiel" },
+          { "fr": "отпуск", "ru_pron": "OTpusk", "meaning": "les congés / les vacances" },
+          { "fr": "срочно", "ru_pron": "SROTCHna", "meaning": "urgent / d'urgence" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "встречаться", "gender": null, "ru": "se rencontrer / se retrouver", "ru_pron": "vstritCHÁtsa", "example_fr": "Мы встречаемся каждый понедельник.", "example_ru": "Nous nous retrouvons chaque lundi.", "level": "A2" },
+        { "fr": "договариваться", "gender": null, "ru": "se mettre d'accord / convenir", "ru_pron": "dagaVÁrivitsa", "example_fr": "Давайте договоримся о времени.", "example_ru": "Mettons-nous d'accord sur l'heure.", "level": "A2" },
+        { "fr": "совещание", "gender": "n", "ru": "la réunion de travail", "ru_pron": "saviTCHÁnie", "example_fr": "Совещание длится два часа.", "example_ru": "La réunion dure deux heures.", "level": "A2" },
+        { "fr": "отчёт", "gender": "m", "ru": "le rapport / le compte-rendu", "ru_pron": "atTCHYOT", "example_fr": "Сдайте отчёт до пятницы.", "example_ru": "Remettez le rapport avant vendredi.", "level": "A2" },
+        { "fr": "срочно", "gender": null, "ru": "urgent / d'urgence", "ru_pron": "SROTCHna", "example_fr": "Это срочно, сделайте сейчас.", "example_ru": "C'est urgent, faites-le maintenant.", "level": "A2" },
+        { "fr": "командировка", "gender": "f", "ru": "le déplacement professionnel", "ru_pron": "kamandirOVka", "example_fr": "Я в командировке в Петербурге.", "example_ru": "Je suis en déplacement à Saint-Pétersbourg.", "level": "A2" },
+        { "fr": "отпуск", "gender": "m", "ru": "les congés payés / les vacances", "ru_pron": "OTpusk", "example_fr": "Я иду в отпуск в июле.", "example_ru": "Je pars en congés en juillet.", "level": "A1" },
+        { "fr": "готовиться", "gender": null, "ru": "se préparer", "ru_pron": "gaTOvitsa", "example_fr": "Я готовлюсь к презентации.", "example_ru": "Je me prépare pour la présentation.", "level": "A2" },
+        { "fr": "печать", "gender": "f", "ru": "le cachet / le tampon officiel", "ru_pron": "pitCHAT'", "example_fr": "Поставьте печать на документ.", "example_ru": "Apposez le cachet sur le document.", "level": "A2" },
+        { "fr": "коллектив", "gender": "m", "ru": "l'équipe / le collectif de travail", "ru_pron": "kalYEKtiv", "example_fr": "У нас дружный коллектив.", "example_ru": "Nous avons une équipe soudée.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "проект", "fr_pron": "praYEKT", "ru": "projet", "ru_pron": "projet", "note": "«Проект» = projet. Du latin «projectum» (lancé en avant). En russe d'affaires, «проект» désigne aussi bien un projet de travail qu'un projet de loi ou un plan architectural." },
+        { "fr": "дедлайн", "fr_pron": "DÉDlaïn", "ru": "deadline / échéance", "ru_pron": "deadline", "note": "«Дедлайн» = deadline. Anglicisme direct très utilisé dans les entreprises russes modernes. Signe de l'influence de la culture d'entreprise anglophone sur le business russe post-soviétique." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Herman Gref (né en 1964)", "subtitle": "PDG de Sberbank, modernisateur de l'économie russe", "content": "Herman Gref est l'une des personnalités les plus influentes du monde des affaires russe. Ministre du Développement économique sous Poutine (2000-2007), il fut l'architecte des réformes économiques du début des années 2000. Depuis 2007, il dirige Sberbank — la plus grande banque russe — qu'il a transformée en groupe technologique innovant. Il promeut l'intelligence artificielle, la formation continue et l'agilité organisationnelle. Admirateur déclaré de la Silicon Valley, il est une figure atypique dans le monde des affaires russes." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La bureaucratie russe — une longue tradition", "content": "La bureaucratie (бюрократия) russe est légendaire et remonte aux réformes administratives de Pierre le Grand (Table des Rangs, 1722). L'écrivain Gogol l'a immortalisée dans «Le Révizor» et «Les Âmes mortes». En URSS, la paperasserie atteignit des sommets : tout nécessitait des formulaires en triple exemplaire, des tampons, des signatures. Aujourd'hui, la Russie a fait des progrès significatifs avec la digitalisation des services publics (portail Gosuslugi — Services d'État en ligne), mais la culture du tampon persiste." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La culture du thé au bureau — сovещание avec сушки", "content": "Dans les bureaux russes, il est courant d'accompagner les réunions de thé, café et petits gâteaux (печенье, сушки — anneaux de pain séché). Refuser est possible mais rare — c'est un geste de camaraderie. La «кухня» (kitchenette) du bureau est un lieu social important : on y parle de tout sauf du travail. Les Russes distinguent nettement le temps de travail formel et les moments informels — et ces derniers sont jugés tout aussi précieux pour la cohésion d'équipe." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Это срочно, нужно сделать сегодня.", "pronunciation": "Éta SROTCHna, NOUjna sdYElat' siVODnia", "translation": "C'est urgent, il faut le faire aujourd'hui.", "usage": "Phrase clé dans tout bureau russe. «Срочно» (urgent) est très fréquent — peut-être trop ! Le dicton de bureau russe : «Всё срочно» (tout est urgent). À utiliser avec discernement pour maintenir sa crédibilité.", "example": "— Это срочно? — Да, начальник хочет отчёт сегодня. Прости! (C'est urgent ? — Oui, le chef veut le rapport aujourd'hui. Désolé !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — Le Lakhta Center", "subtitle": "Лахта Центр — самый высокий небоскрёб Европы", "content": "Le Lakhta Center (Лахта Центр) à Saint-Pétersbourg est la plus haute tour d'Europe — 462 mètres. Siège de Gazprom, il domine la baie du Golfe de Finlande. Sa forme spiralée unique est visible à des dizaines de kilomètres. Inauguré en 2018, il abrite aussi un espace public avec belvédère panoramique, musée scientifique pour enfants et espaces culturels. Symbole de la Russie moderne qui mêle puissance économique et ambition architecturale." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «nous nous retrouvons chaque lundi» en russe ?", "opts": ["Мы встречаем каждый понедельник.", "Мы встречаемся каждый понедельник.", "Мы встречали каждый понедельник.", "Каждый понедельник мы встреча."], "ans": 1, "exp": "«Мы встречаемся каждый понедельник» = nous nous retrouvons chaque lundi. Встречаться = se retrouver (verbe réfléchi réciproque). -ся indique l'action mutuelle." },
+        { "q": "Pourquoi le tampon (печать) est-il si important en Russie ?", "opts": ["C'est une tradition artistique russe", "Tout document officiel doit porter un tampon pour être valide", "C'est requis uniquement pour les documents étrangers", "C'est une coutume religieuse orthodoxe"], "ans": 1, "exp": "La печать (tampon/cachet officiel) est indispensable sur tout document officiel russe. Héritage d'une longue culture bureaucratique — un document signé mais sans tampon peut être refusé." },
+        { "q": "Que désigne «командировка» en russe ?", "opts": ["Une promotion professionnelle", "Un déplacement professionnel (voyage d'affaires)", "Une conférence internationale", "Un stage de formation"], "ans": 1, "exp": "«Командировка» = déplacement professionnel, voyage d'affaires. Terme très courant. «Я в командировке» = je suis en déplacement. Les frais de командировка sont remboursés par l'employeur." },
+        { "q": "Comment se forme le verbe réfléchi en russe ?", "opts": ["Préfixe «са-» avant le verbe", "Suffixe «-ся» après consonne ou «-сь» après voyelle", "Préfixe «с-» avant le verbe", "Le même verbe avec une intonation différente"], "ans": 1, "exp": "Les verbes réfléchis russes s'obtiennent en ajoutant «-ся» après une consonne (встречаться) ou «-сь» après une voyelle (встречаюсь). Ils expriment une action réfléchie ou réciproque." },
+        { "q": "Qu'est-ce que «Gosuslugi» en Russie ?", "opts": ["Le syndicat des fonctionnaires", "Le portail en ligne des services d'État", "La direction générale des impôts", "Le journal officiel du gouvernement"], "ans": 1, "exp": "Gosuslugi (Госуслуги = Services d'État) est le portail numérique russe pour les démarches administratives en ligne. Modernisation notable de la bureaucratie russe — la plupart des démarches se font désormais sans se déplacer." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Les Études et l'Université",
+      "titleRu": "Учёба и университет",
+      "level": "A2",
+      "grammar": {
+        "title": "Les études et le subjonctif russe — чтобы",
+        "titleRu": "Учёба и конструкция «чтобы»",
+        "intro": "Pour exprimer un but ou un souhait en russe, on utilise la conjonction «чтобы» (pour que / afin de). Cette construction est fondamentalement différente du français — après «чтобы», le verbe se met toujours au passé, quelle que soit la logique temporelle !",
+        "sections": [
+          {
+            "title": "Чтобы — construction et usage",
+            "content": "Чтобы + passé du verbe = pour que / afin de\n\nMême sujet dans les deux propositions → infinitif :\nЯ учу русский, чтобы путешествовать. — J'apprends le russe pour voyager.\nОн работает, чтобы купить машину. — Il travaille pour acheter une voiture.\n\nSujets différents → passé obligatoire :\nЯ хочу, чтобы ты учился. — Je veux que tu étudies.\nПреподаватель объяснил, чтобы мы поняли. — Le prof expliqua pour que nous comprenions."
+          },
+          {
+            "title": "Le système éducatif russe",
+            "content": "детский сад — école maternelle\nначальная школа — école primaire (1-4e)\nосновная школа — collège (5-9e)\nстаршая школа — lycée (10-11e)\nЕГЭ — Baccalauréat russe (Examen d'État Unifié)\nбакалавриат — licence (4 ans)\nмагистратура — master (2 ans)\nаспирантура — doctorat\nдиплом — diplôme\nзачётная книжка — livret de notes"
+          },
+          {
+            "title": "Vie étudiante — vocabulaire",
+            "content": "лекция — cours magistral\nсеминар — séminaire / TD\nэкзамен — examen\nзачёт — contrôle continu / validation d'UE\nсессия — session d'examens\nстипендия — bourse d'études\nобщежитие — résidence universitaire\nкурсовая работа — travail de semestre\nдипломная работа — mémoire de fin d'études\nнаучный руководитель — directeur de recherche"
+          }
+        ],
+        "rule": "💡 Différence clé : «экзамен» (examen noté) vs «зачёт» (validation sans note — reçu/refusé). Le «зачёт» est validé par un «зачтено» (acquis) dans le livret de notes. Et attention : «сдать экзамен» = réussir l'examen (pas juste le passer) !"
+      },
+      "pronunciation": {
+        "intro": "Études et université — pour naviguer dans le système éducatif russe !",
+        "note": "⚠️ «ЕГЭ» (Ye-Gué-É) = Единый Государственный Экзамен (Examen d'État Unifié) — le bac russe. Prononcez chaque lettre séparément. C'est l'examen le plus stressant de la vie d'un lycéen russe.",
+        "words": [
+          { "fr": "университет", "ru_pron": "ounivirsitYET", "meaning": "l'université" },
+          { "fr": "факультет", "ru_pron": "fakoul'tYET", "meaning": "la faculté / l'UFR" },
+          { "fr": "лекция", "ru_pron": "LYEKtsia", "meaning": "le cours magistral" },
+          { "fr": "экзамен", "ru_pron": "ekZÁmin", "meaning": "l'examen" },
+          { "fr": "сессия", "ru_pron": "SYEsia", "meaning": "la session d'examens" },
+          { "fr": "стипендия", "ru_pron": "stipYENdia", "meaning": "la bourse d'études" },
+          { "fr": "зачёт", "ru_pron": "zaTCHYOT", "meaning": "la validation d'UE (reçu/refusé)" },
+          { "fr": "диплом", "ru_pron": "dipLOM", "meaning": "le diplôme / le mémoire" },
+          { "fr": "общежитие", "ru_pron": "optchijÍtié", "meaning": "la résidence universitaire" },
+          { "fr": "специальность", "ru_pron": "spitsialYNAST'", "meaning": "la filière / la spécialité" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "учиться", "gender": null, "ru": "étudier / faire ses études", "ru_pron": "outCHÍtsa", "example_fr": "Я учусь в МГУ.", "example_ru": "J'étudie à l'Université d'État de Moscou.", "level": "A1" },
+        { "fr": "сдавать экзамен", "gender": null, "ru": "passer / réussir un examen", "ru_pron": "sdaVÁT' ekZÁmin", "example_fr": "Завтра я сдаю экзамен.", "example_ru": "Demain je passe mon examen.", "level": "A2" },
+        { "fr": "преподаватель", "gender": "m", "ru": "l'enseignant (universitaire)", "ru_pron": "pripadaVÁtiel'", "example_fr": "Наш преподаватель очень строгий.", "example_ru": "Notre enseignant est très strict.", "level": "A2" },
+        { "fr": "студент", "gender": "m", "ru": "l'étudiant(e)", "ru_pron": "stouDYENT", "example_fr": "Я студент второго курса.", "example_ru": "Je suis étudiant en 2e année.", "level": "A1" },
+        { "fr": "курс", "gender": "m", "ru": "l'année d'études / le cours", "ru_pron": "kours", "example_fr": "На каком курсе ты?", "example_ru": "Tu es en quelle année ?", "level": "A2" },
+        { "fr": "стипендия", "gender": "f", "ru": "la bourse d'études", "ru_pron": "stipYENdia", "example_fr": "Получить стипендию трудно.", "example_ru": "Obtenir une bourse est difficile.", "level": "A2" },
+        { "fr": "защищать", "gender": null, "ru": "soutenir (un mémoire)", "ru_pron": "zaouchtchiTCHÁT'", "example_fr": "Я защищаю диплом в июне.", "example_ru": "Je soutiens mon mémoire en juin.", "level": "A2" },
+        { "fr": "зачисление", "gender": "n", "ru": "l'inscription / l'admission", "ru_pron": "zatchiSLYEnié", "example_fr": "Зачисление в университет в августе.", "example_ru": "L'admission à l'université se fait en août.", "level": "A2" },
+        { "fr": "специальность", "gender": "f", "ru": "la filière / la spécialité", "ru_pron": "spitsialYNAST'", "example_fr": "Я выбрал специальность «лингвистика».", "example_ru": "J'ai choisi la filière «linguistique».", "level": "A2" },
+        { "fr": "лаборатория", "gender": "f", "ru": "le laboratoire", "ru_pron": "labaratORia", "example_fr": "Мы работаем в лаборатории.", "example_ru": "Nous travaillons au laboratoire.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "университет", "fr_pron": "ounivirsitYET", "ru": "université", "ru_pron": "université", "note": "«Университет» = université. Du latin «universitas». L'Université d'État de Moscou (МГУ — Московский государственный университет) est la plus grande et la plus prestigieuse de Russie, fondée en 1755." },
+        { "fr": "лаборатория", "fr_pron": "labaratORia", "ru": "laboratoire", "ru_pron": "laboratoire", "note": "«Лаборатория» = laboratoire. Même étymologie latine «laborare» (travailler). La Russie possède une tradition scientifique remarquable : 25 Prix Nobel russes en sciences." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhail Lomonossov (1711–1765)", "subtitle": "Fondateur de l'Université de Moscou", "content": "Mikhail Lomonossov est le plus grand savant russe du XVIIIe siècle — scientifique, poète, linguiste, chimiste, astronome. Fils de pêcheur, il marcha 1 000 km depuis Arkhangelsk jusqu'à Moscou pour étudier. Il fonda l'Université de Moscou en 1755 (aujourd'hui MGU). Il développa la première théorie atomique en Russie, anticipa la loi de conservation de la matière, créa la grammaire russe moderne. Pouchkine l'appelait «notre première université». Son nom est partout : station de métro, bâtiment principal de MGU, prix scientifiques." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'ЕГЭ — le bac russe et ses controverses", "content": "L'ЕГЭ (Единый Государственный Экзамен) fut introduit en 2009 pour remplacer les examens d'entrée propres à chaque université. Objectif : démocratiser l'accès aux universités d'élite (MGU, МГИМО). Résultat mitigé : les coaches privés (репетиторы) sont devenus une industrie massive — les familles aisées préparent leurs enfants pendant des années. Le jour de l'ЕГЭ est une journée nationale de stress : toutes les grandes villes blindent les rues d'hélicoptères et de voitures de police pour éviter la fraude." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Халява» et «шпаргалка» — la tradition de l'antisèche", "content": "La «шпаргалка» (cheat sheet / antisèche) est une institution universitaire russe. La fabriquer à la main avant un examen est considéré comme un exercice pédagogique — le processus aide à mémoriser. La «халява» (chance imprévue / aubaine) désigne le fait de réussir un examen sans trop préparer. Tradition étudiante : la nuit avant l'examen, sortir par la fenêtre et crier «халява, ловись!» (chance, attrape-toi !) en agitant son livret de notes en l'air — rituel censé porter bonheur." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Ни пуха ни пера!", "pronunciation": "Ni PÓukha ni pirÁ", "translation": "Bonne chance ! (littéralement : ni duvet ni plume)", "usage": "Le souhait de bonne chance russe avant un examen ou une épreuve importante. Réponse obligatoire : «К чёрту!» (Au diable !). L'expression vient de la chasse — on ne souhaitait pas bonne chasse pour ne pas attirer la malchance.", "example": "— Завтра экзамен! — Ни пуха ни пера! — К чёрту! (Demain c'est l'examen ! — Bonne chance ! — Au diable !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — L'Université MGU sur les Monts des Moineaux", "subtitle": "МГУ — главный университет России", "content": "L'Université d'État de Moscou (МГУ — Московский государственный университет) sur les Vorobiovy Gory (Monts des Moineaux) est l'un des plus beaux campus universitaires du monde. Son gratte-ciel stalinien de 240 m, inauguré en 1953, domine Moscou. 40 000 étudiants, 300 spécialités, bibliothèque de 10 millions de volumes. Le belvédère devant MGU offre l'une des plus belles vues panoramiques sur Moscou — gratuit et accessible à tous. À voir même si vous n'êtes pas étudiant !" }
+      },
+      "quiz": [
+        { "q": "Comment forme-t-on une phrase de but avec «чтобы» (même sujet) ?", "opts": ["чтобы + présent", "чтобы + infinitif", "чтобы + passé", "чтобы + futur"], "ans": 1, "exp": "Avec le même sujet, «чтобы» + infinitif : «Я учу русский, чтобы путешествовать» (j'apprends le russe pour voyager). Si les sujets diffèrent, on utilise le passé : «Хочу, чтобы ты учился.»" },
+        { "q": "Quelle est la différence entre «экзамен» et «зачёт» ?", "opts": ["Экзамен = oral, зачёт = écrit", "Экзамен = noté, зачёт = validation reçu/refusé sans note", "Экзамен = semestre 1, зачёт = semestre 2", "Aucune différence"], "ans": 1, "exp": "«Экзамен» est noté (5, 4, 3...). «Зачёт» = validation binaire reçu/refusé (зачтено/незачтено). Et attention : «сдать экзамен» = réussir l'examen, pas seulement le passer !" },
+        { "q": "Quel cri rituel les étudiants russes poussent-ils la nuit avant un examen ?", "opts": ["«Удачи!»", "«Помогите!»", "«Халява, ловись!»", "«Чёрт возьми!»"], "ans": 2, "exp": "«Халява, ловись!» (chance, attrape-toi !) est le cri rituel des étudiants russes avant un examen — livret de notes agité par la fenêtre. La «халява» = réussir sans effort. Tradition censée porter bonheur !" },
+        { "q": "Qui a fondé l'Université de Moscou (MGU) ?", "opts": ["Pierre le Grand en 1700", "Catherine la Grande en 1764", "Mikhail Lomonossov en 1755", "Alexandre Ier en 1810"], "ans": 2, "exp": "MGU fut fondée en 1755 par Mikhail Lomonossov — savant universel russe, fils de pêcheur devenu le plus grand scientifique de son époque. L'université porte son nom." },
+        { "q": "Quelle réponse doit-on obligatoirement donner à «Ни пуха ни пера!» ?", "opts": ["Спасибо!", "Пожалуйста!", "К чёрту!", "И вам тоже!"], "ans": 2, "exp": "La réponse obligatoire à «Ни пуха ни пера!» (bonne chance !) est «К чёрту!» (au diable !). Tradition superstitieuse de chasse — répondre politement «merci» attirerait la malchance !" }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Les Négociations et Réunions",
+      "titleRu": "Переговоры и совещания",
+      "level": "A2",
+      "grammar": {
+        "title": "Négocier en russe — conditionnel et formes de politesse",
+        "titleRu": "Условное наклонение и вежливость",
+        "intro": "Le conditionnel russe est remarquablement simple — une seule forme pour tous les sujets ! Il suffit d'ajouter la particule «бы» au passé du verbe. On l'utilise pour les propositions, les souhaits et les formules de politesse professionnelle.",
+        "sections": [
+          {
+            "title": "Le conditionnel — formation",
+            "content": "Passé du verbe + бы = conditionnel\n\nЯ хотел бы... — Je voudrais...\nМы могли бы... — Nous pourrions...\nЭто было бы хорошо. — Ce serait bien.\nЕсли бы..., то... — Si..., alors...\n\nExemples professionnels :\nЯ хотел бы обсудить условия. — Je voudrais discuter des conditions.\nМы могли бы встретиться в среду? — Pourrions-nous nous rencontrer mercredi ?\nЭто было бы приемлемо. — Ce serait acceptable."
+          },
+          {
+            "title": "Phrases de négociation",
+            "content": "Предлагаем следующие условия... — Nous proposons les conditions suivantes...\nМы готовы рассмотреть... — Nous sommes prêts à étudier...\nВозможен ли компромисс? — Un compromis est-il possible ?\nКаков ваш окончательный ответ? — Quelle est votre réponse finale ?\nМы согласны с большинством пунктов. — Nous acceptons la plupart des points.\nЭтот пункт неприемлем. — Ce point est inacceptable.\nОбдумаем и дадим ответ. — Nous allons réfléchir et donner une réponse."
+          },
+          {
+            "title": "Politesse formelle au travail",
+            "content": "Уважаемый / Уважаемая... — Monsieur / Madame (début de lettre formelle)\nС уважением, — Cordialement / Avec respect, (fin de lettre)\nПозвольте представиться. — Permettez-moi de me présenter.\nБудьте добры... — Auriez-vous l'amabilité de...\nНе могли бы вы...? — Pourriez-vous... ?\nПозвольте задать вопрос. — Permettez-moi de poser une question."
+          }
+        ],
+        "rule": "💡 En Russie professionnelle, les négociations peuvent être longues et indirectes. Refuser directement est mal vu — on préfère «nous allons examiner la question» (мы рассмотрим вопрос) ou «il faut en discuter» (нужно обсудить). Le «нет» sec est rare entre partenaires."
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire de négociation — pour mener des discussions professionnelles en russe.",
+        "note": "⚠️ «Уважаемый» (monsieur/madame dans une lettre formelle) — prononcez «ou-va-JÁ-ie-my». C'est l'équivalent du «Dear» anglais dans une correspondance officielle. Toujours utiliser en début de mail formel.",
+        "words": [
+          { "fr": "переговоры", "ru_pron": "pirigaVOry", "meaning": "les négociations" },
+          { "fr": "условия", "ru_pron": "oouSLOvia", "meaning": "les conditions / les termes" },
+          { "fr": "предложение", "ru_pron": "pridlaJENié", "meaning": "la proposition / l'offre" },
+          { "fr": "компромисс", "ru_pron": "kapraMÍSS", "meaning": "le compromis" },
+          { "fr": "уважаемый", "ru_pron": "ouvaJÁiemy", "meaning": "monsieur/madame (formel)" },
+          { "fr": "рассмотреть", "ru_pron": "rasmaTRYET'", "meaning": "examiner / étudier (une proposition)" },
+          { "fr": "приемлемый", "ru_pron": "priYEmliemy", "meaning": "acceptable / recevable" },
+          { "fr": "окончательный", "ru_pron": "akonTCHÁtiel'ny", "meaning": "final / définitif" },
+          { "fr": "партнёр", "ru_pron": "partNYOR", "meaning": "le partenaire (d'affaires)" },
+          { "fr": "соглашение", "ru_pron": "saglaCHEnié", "meaning": "l'accord / la convention" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "переговоры", "gender": "pl", "ru": "les négociations", "ru_pron": "pirigaVOry", "example_fr": "Переговоры прошли успешно.", "example_ru": "Les négociations ont bien abouti.", "level": "A2" },
+        { "fr": "предложение", "gender": "n", "ru": "la proposition / l'offre", "ru_pron": "pridlaJENié", "example_fr": "Ваше предложение интересно.", "example_ru": "Votre proposition est intéressante.", "level": "A2" },
+        { "fr": "условия", "gender": "pl", "ru": "les conditions / les termes", "ru_pron": "oouSLOvia", "example_fr": "Обсудим условия контракта.", "example_ru": "Discutons des termes du contrat.", "level": "A2" },
+        { "fr": "соглашение", "gender": "n", "ru": "l'accord / la convention", "ru_pron": "saglaCHEnié", "example_fr": "Подписали соглашение о сотрудничестве.", "example_ru": "Ils ont signé un accord de coopération.", "level": "A2" },
+        { "fr": "компромисс", "gender": "m", "ru": "le compromis", "ru_pron": "kapraMÍSS", "example_fr": "Нашли компромисс.", "example_ru": "Ils ont trouvé un compromis.", "level": "A2" },
+        { "fr": "отказать", "gender": null, "ru": "refuser (perfectif)", "ru_pron": "aTKAzat'", "example_fr": "Вынуждены отказать.", "example_ru": "Nous sommes contraints de refuser.", "level": "A2" },
+        { "fr": "настаивать", "gender": null, "ru": "insister", "ru_pron": "nasTÁivat'", "example_fr": "Я настаиваю на этом пункте.", "example_ru": "J'insiste sur ce point.", "level": "A2" },
+        { "fr": "уступить", "gender": null, "ru": "céder / concéder (perfectif)", "ru_pron": "ousTOUpit'", "example_fr": "Готовы уступить по цене.", "example_ru": "Prêts à concéder sur le prix.", "level": "A2" },
+        { "fr": "сотрудничество", "gender": "n", "ru": "la coopération / la collaboration", "ru_pron": "satroudNItchistiva", "example_fr": "Долгосрочное сотрудничество выгодно.", "example_ru": "Une coopération à long terme est bénéfique.", "level": "A2" },
+        { "fr": "взаимовыгодный", "gender": "adj m", "ru": "mutuellement avantageux", "ru_pron": "vzaïmavýgadny", "example_fr": "Это взаимовыгодное сотрудничество.", "example_ru": "C'est une coopération mutuellement avantageuse.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "компромисс", "fr_pron": "kapraMÍSS", "ru": "compromis", "ru_pron": "compromis", "note": "«Компромисс» = compromis. Du latin «compromissum» via le français ou l'allemand. Dans la culture de négociation russe, le compromis est présenté comme une victoire des deux parties — jamais comme une défaite." },
+        { "fr": "партнёр", "fr_pron": "partNYOR", "ru": "partenaire", "ru_pron": "partenaire", "note": "«Партнёр» = partenaire (d'affaires). Emprunté à l'anglais/français. Dans le discours d'affaires russe, «партнёр» est un terme très apprécié — il implique respect mutuel et relations durables." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anatoly Chubais (né en 1955)", "subtitle": "Architecte des privatisations russes des années 90", "content": "Anatoly Chubais fut le principal architecte des privatisations massives russes de 1992-1994. Son programme de «vouchers» (bons de privatisation) distribués à tous les citoyens soviétiques visait à créer une classe d'actionnaires. Dans la pratique, la plupart des bons furent rachetés pour presque rien par de futurs oligarques. Chubais reste l'une des figures les plus controversées de la Russie post-soviétique — héros du marché libre pour certains, responsable du pillage pour d'autres." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La «Chambre de commerce» et le style de négociation russe", "content": "Le style de négociation russe a des caractéristiques bien documentées. Les négociateurs russes peuvent sembler durs, intransigeants, prêts à rompre les discussions — c'est souvent tactique. La patience est une vertu cardinale. Ils commencent par une position extrême pour avoir de la marge. Les décisions importantes ne sont jamais prises à la première réunion. Les relations personnelles (бизнес-ланч, dîner) sont essentielles avant de parler affaires sérieusement. Le «нет» initial est souvent un point de départ, pas une conclusion." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Баня» comme lieu de négociation", "content": "En Russie, certaines des négociations commerciales les plus importantes ne se déroulent pas dans les salles de réunion mais dans les banya (bains de vapeur). La tradition du «business baня» est bien établie : sudation commune, branches de bouleau, vodka partagée — une façon de créer une intimité et une confiance que les réunions formelles ne permettent pas. «Всё серьёзное решается в бане» (tout ce qui est sérieux se règle au banya), dit-on. Les partenaires étrangers qui acceptent y participent gagnent beaucoup en crédibilité." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Мы готовы рассмотреть ваше предложение.", "pronunciation": "My gatOvy rasmatRYET' vashe pridlaJENié", "translation": "Nous sommes prêts à examiner votre proposition.", "usage": "Formule diplomatique standard dans les négociations russes. Ni oui, ni non — une invitation à continuer la discussion. Plus positive que «nous allons y réfléchir» mais sans engagement ferme. Parfaite pour maintenir le dialogue ouvert.", "example": "— Вот наши условия. — Спасибо. Мы готовы рассмотреть ваше предложение. Встретимся в четверг? (Voici nos conditions. — Merci. Nous sommes prêts à examiner votre proposition. On se retrouve jeudi ?)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — Forum Économique International", "subtitle": "ПМЭФ — Давос russe sur la Neva", "content": "Le Forum Économique International de Saint-Pétersbourg (ПМЭФ — Петербургский Международный Экономический Форум) est surnommé le «Davos russe». Organisé chaque juin depuis 1997, il réunit chefs d'État, PDG de multinationales et investisseurs. Des milliards d'euros de contrats y sont signés chaque année. La ville de Saint-Pétersbourg se transforme pendant ces trois jours : hôtels complets, restaurants bondés, bateaux de croisière transformés en salles de réunion flottantes sur la Neva." }
+      },
+      "quiz": [
+        { "q": "Comment se forme le conditionnel en russe ?", "opts": ["Verbe au présent + бы", "Verbe au passé + бы", "Infinitif + бы", "Verbe au futur + бы"], "ans": 1, "exp": "Le conditionnel russe = passé du verbe + бы. «Я хотел бы» = je voudrais. «Мы могли бы» = nous pourrions. Même forme pour tous les sujets — très simple !" },
+        { "q": "Comment commence-t-on une lettre ou un email formel en russe ?", "opts": ["Здравствуйте!", "Привет!", "Уважаемый / Уважаемая...", "Дорогой / Дорогая..."], "ans": 2, "exp": "«Уважаемый / Уважаемая» = monsieur / madame dans un contexte formel. Littéralement «respecté(e)». C'est l'équivalent du «Dear» anglais ou du «Monsieur/Madame» français formel." },
+        { "q": "Quel est le style de négociation russe caractéristique ?", "opts": ["Accord immédiat lors de la première réunion", "Position initiale extrême, patience, décisions différées, importance des relations", "Négociation exclusivement par email", "Décisions prises uniquement par le PDG"], "ans": 1, "exp": "Le style russe : position initiale extrême pour avoir de la marge, grande patience, décisions jamais à la première réunion, importance des relations personnelles établies avant les affaires sérieuses." },
+        { "q": "Quel lieu insolite sert parfois de salle de négociation en Russie ?", "opts": ["La bibliothèque", "Le banya (bains de vapeur)", "L'église", "Le restaurant de sushis"], "ans": 1, "exp": "Le banya (баня) est un lieu de négociation informelle bien établi en Russie. La sudation partagée crée confiance et intimité — «tout ce qui est sérieux se règle au banya»." },
+        { "q": "Comment dit-on «nous sommes prêts à examiner votre proposition» ?", "opts": ["Мы отказываем.", "Мы не согласны.", "Мы готовы рассмотреть ваше предложение.", "Это неприемлемо."], "ans": 2, "exp": "«Мы готовы рассмотреть ваше предложение» = nous sommes prêts à examiner votre proposition. Formule diplomatique qui maintient le dialogue sans engagement — standard dans les négociations russes." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Emails et la Communication Écrite",
+      "titleRu": "Письма и деловая переписка",
+      "level": "A2",
+      "grammar": {
+        "title": "La correspondance formelle et les participes",
+        "titleRu": "Деловая переписка и причастия",
+        "intro": "La correspondance professionnelle russe utilise des formes grammaticales spécifiques — dont les participes. Les participes russes (причастие) sont l'équivalent des adjectifs verbaux français (qui fait, fait par, faisant...). Ils enrichissent énormément le langage écrit.",
+        "sections": [
+          {
+            "title": "Structure d'un email professionnel russe",
+            "content": "Objet : Тема письма\n\nDébut : Уважаемый(ая) [Имя Отчество],\n\nRéférence : В ответ на ваше письмо от [date]...\nОбращаясь к нашему разговору...\n\nCorps : structuré, formel, sans abréviations\n\nFormule de clôture :\nС уважением, [Имя Фамилия]\nС надеждой на сотрудничество,\nЖду вашего ответа,\n\nPièce jointe : Во вложении вы найдёте..."
+          },
+          {
+            "title": "Les participes actifs présents",
+            "content": "Participe actif présent : radical + -ущ/-ющ (1e conj.) ou -ащ/-ящ (2e conj.)\n\nработать → работающий (qui travaille)\nзнать → знающий (qui sait / sachant)\nговорить → говорящий (qui parle / parlant)\n\nAccord comme les adjectifs :\nработающий специалист (m.) — le spécialiste qui travaille\nработающая компания (f.) — l'entreprise qui fonctionne\n\nUsage fréquent à l'écrit pour remplacer les propositions relatives."
+          },
+          {
+            "title": "Formules épistolaires essentielles",
+            "content": "Сообщаем вам, что... — Nous vous informons que...\nПросим вас... — Nous vous demandons de...\nВ соответствии с... — Conformément à...\nПрилагаем к письму... — Nous joignons à ce courrier...\nПросим подтвердить получение. — Merci de confirmer réception.\nОжидаем вашего ответа. — Dans l'attente de votre réponse.\nГотовы ответить на вопросы. — Prêts à répondre à vos questions."
+          }
+        ],
+        "rule": "💡 Particularité russe : le prénom + patronyme (Иван Петрович, Анна Сергеевна) est la formule d'adresse formelle standard — ni trop formel (M./Mme + nom) ni trop familier (prénom seul). Apprendre les patronymes de vos partenaires russes est un signe de respect."
+      },
+      "pronunciation": {
+        "intro": "Correspondance professionnelle — pour écrire des emails impeccables en russe !",
+        "note": "⚠️ «Отчество» (patronyme) — prononcez «OTtchéstvo». Indispensable en Russie ! Le patronyme = prénom du père + suffixe : Piotr → Petrovitch (m.) / Petrovna (f.). Ex: si votre père s'appelle Ivan, vous êtes «Ivanovitch» ou «Ivanovna».",
+        "words": [
+          { "fr": "письмо", "ru_pron": "pis'MO", "meaning": "la lettre / l'email" },
+          { "fr": "вложение", "ru_pron": "vlaJEnié", "meaning": "la pièce jointe" },
+          { "fr": "отчество", "ru_pron": "OTtchéstvo", "meaning": "le patronyme" },
+          { "fr": "подпись", "ru_pron": "PODpis'", "meaning": "la signature" },
+          { "fr": "срок", "ru_pron": "srok", "meaning": "le délai / l'échéance" },
+          { "fr": "уведомление", "ru_pron": "ouvidamLEnié", "meaning": "la notification / l'avis" },
+          { "fr": "запрос", "ru_pron": "zapROS", "meaning": "la demande / la requête" },
+          { "fr": "ответ", "ru_pron": "atVYET", "meaning": "la réponse" },
+          { "fr": "переписка", "ru_pron": "piripÍSka", "meaning": "la correspondance (échanges)" },
+          { "fr": "копия", "ru_pron": "KOpiya", "meaning": "la copie (CC en email)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "сообщать", "gender": null, "ru": "informer / communiquer", "ru_pron": "saaptCHÁT'", "example_fr": "Сообщаем, что заказ готов.", "example_ru": "Nous vous informons que la commande est prête.", "level": "A2" },
+        { "fr": "прилагать", "gender": null, "ru": "joindre (un document)", "ru_pron": "prilaGÁT'", "example_fr": "Прилагаем договор к письму.", "example_ru": "Nous joignons le contrat à ce courrier.", "level": "A2" },
+        { "fr": "подтверждать", "gender": null, "ru": "confirmer", "ru_pron": "patvirjDÁT'", "example_fr": "Подтвердите получение, пожалуйста.", "example_ru": "Veuillez confirmer réception.", "level": "A2" },
+        { "fr": "уведомить", "gender": null, "ru": "notifier / aviser (perfectif)", "ru_pron": "ouVYEdamit'", "example_fr": "Уведомите нас об изменениях.", "example_ru": "Avisez-nous des changements.", "level": "A2" },
+        { "fr": "в соответствии с", "gender": null, "ru": "conformément à", "ru_pron": "v saatVYETstvii s", "example_fr": "В соответствии с договором...", "example_ru": "Conformément au contrat...", "level": "A2" },
+        { "fr": "в ожидании", "gender": null, "ru": "dans l'attente de", "ru_pron": "v ajiDÁnii", "example_fr": "В ожидании вашего ответа...", "example_ru": "Dans l'attente de votre réponse...", "level": "A2" },
+        { "fr": "просить", "gender": null, "ru": "demander / prier (de faire)", "ru_pron": "praÍT'", "example_fr": "Просим вас подписать документ.", "example_ru": "Nous vous demandons de signer le document.", "level": "A1" },
+        { "fr": "срок", "gender": "m", "ru": "le délai / l'échéance", "ru_pron": "srok", "example_fr": "Каков срок выполнения?", "example_ru": "Quel est le délai d'exécution ?", "level": "A2" },
+        { "fr": "отчество", "gender": "n", "ru": "le patronyme", "ru_pron": "OTtchéstvo", "example_fr": "Как ваше отчество?", "example_ru": "Quel est votre patronyme ?", "level": "A2" },
+        { "fr": "с уважением", "gender": null, "ru": "cordialement / avec respect", "ru_pron": "s ouvaJEniem", "example_fr": "С уважением, Иван Петров.", "example_ru": "Cordialement, Ivan Petrov.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "копия", "fr_pron": "KOpiya", "ru": "copie (CC)", "ru_pron": "copie", "note": "«Копия» = copie. Même étymologie latine «copia» (abondance, copie). Dans les emails russes professionnels, on écrit «Копия:» pour le CC. Terme standard en correspondance d'affaires." },
+        { "fr": "запрос", "fr_pron": "zapROS", "ru": "requête / demande formelle", "ru_pron": "requête", "note": "«Запрос» = requête formelle, demande officielle. Dans les administrations russes, un «официальный запрос» (demande officielle) en bonne et due forme est souvent le seul moyen d'obtenir une réponse." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Alexandre Herzen (1812–1870)", "subtitle": "Père du journalisme politique russe", "content": "Alexandre Herzen fut le premier grand journaliste politique et publiciste russe. Exilé en Europe en 1847, il fonda à Londres le journal «Kolokol» (La Cloche) — premier journal russe libre de la censure tsariste. Ses textes étaient smugglés en Russie et lus par des milliers de personnes, y compris Alexandre II. Il y dénonçait le servage, l'absolutisme, réclamait la liberté de la presse. Herzen inventa le format de la lettre ouverte politique russe — tradition vivace jusqu'à aujourd'hui." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le système des patronymes — origine et signification", "content": "Le patronyme (отчество) est une spécificité russe — et aussi ukrainienne, biélorusse, bulgare. Il se forme à partir du prénom du père + suffixe. Alexandre fils de Piotr = Alexandre Petrovitch. Marie fille de Piotr = Maria Petrovna. Le patronyme est utilisé dans tous les contextes formels et semi-formels — signe de respect envers l'interlocuteur. En Russie, appeler quelqu'un par son seul prénom au bureau peut sembler déplacé, même entre collègues de longue date. C'est une marque de civilité culturelle profonde." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Официальный запрос» — le pouvoir du courrier formel", "content": "En Russie, un «официальный запрос» (demande officielle) sur papier avec tampon et signature a un pouvoir quasi-magique. Là où une demande verbale ou par email serait ignorée, une lettre officielle avec numéro d'enregistrement et tampon obtient une réponse dans les 30 jours (délai légal). Les Russes appellent cela «écrire sur papier»: «напишите официально» = envoyez une demande formelle. Technique utilisée couramment par les citoyens pour débloquer des situations administratives." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "В ожидании вашего ответа, с уважением,", "pronunciation": "V ajiDÁnii vachego atVYEta, s ouvaJEniem", "translation": "Dans l'attente de votre réponse, cordialement,", "usage": "La formule de clôture standard des emails professionnels russes. Équivalent du «Cordialement» français mais plus formel. «С уважением» (avec respect) est quasi-universel dans la correspondance d'affaires russe.", "example": "...\nМы готовы ответить на все ваши вопросы.\nВ ожидании вашего ответа, с уважением,\nИван Петрович Смирнов\n(Nous sommes prêts à répondre à toutes vos questions.\nDans l'attente de votre réponse, cordialement, Ivan Petrovitch Smirnov)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Le Centre Skolkovo", "subtitle": "Сколково — инновационный центр России", "content": "Skolkovo (Сколково) est le grand projet d'innovation russe — une technopole construite à l'ouest de Moscou depuis 2010. Inspiré de la Silicon Valley, il accueille des startups russes et internationales bénéficiant d'avantages fiscaux. Le Skolkovo Institute of Science and Technology (Skoltech) a été fondé avec le MIT. Des centaines d'entreprises high-tech y opèrent dans les domaines de l'IT, biomédical, énergie, nucléaire, spatial. Visite possible — un aperçu de la Russie qui innove." }
+      },
+      "quiz": [
+        { "q": "Comment se forme un patronyme russe ?", "opts": ["Prénom de la mère + suffixe", "Nom de famille + suffixe", "Prénom du père + suffixe (-овitch/-овна)", "Prénom du grand-père + suffixe"], "ans": 2, "exp": "Le patronyme = prénom du père + suffixe. Père = Piotr → fils = Petrovitch, fille = Petrovna. Père = Ivan → fils = Ivanovitch, fille = Ivanovna. Utilisé dans tout contexte formel en Russie." },
+        { "q": "Comment termine-t-on un email professionnel en russe ?", "opts": ["Пока!", "До свидания!", "С уважением,", "Всего хорошего,"], "ans": 2, "exp": "«С уважением» (avec respect / cordialement) est la formule de clôture standard des emails professionnels russes. Équivalent du «Cordialement» français. «Пока» et «До свидания» sont trop informels." },
+        { "q": "Comment dit-on «nous vous informons que» dans un email formel ?", "opts": ["Говорим вам, что...", "Сообщаем вам, что...", "Объясняем вам, что...", "Пишем вам, что..."], "ans": 1, "exp": "«Сообщаем вам, что...» = nous vous informons que... Formule standard de la correspondance professionnelle russe. Сообщать = informer / communiquer (officiel)." },
+        { "q": "Quel est le délai légal de réponse à un «официальный запрос» en Russie ?", "opts": ["7 jours", "14 jours", "30 jours", "60 jours"], "ans": 2, "exp": "En Russie, les administrations et entreprises ont légalement 30 jours pour répondre à une demande officielle (официальный запрос). Ce délai légal donne au courrier formel un pouvoir que les emails informels n'ont pas." },
+        { "q": "Comment dit-on «nous joignons le document à ce courrier» ?", "opts": ["Прилагаем документ к письму.", "Присылаем документ.", "Документ вложен отдельно.", "Смотрите файл."], "ans": 0, "exp": "«Прилагаем документ к письму» = nous joignons le document à ce courrier. Прилагать = joindre, annexer. Вложение = pièce jointe (en email). Formule standard de la correspondance russe." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Les Chiffres, les Prix et les Finances",
+      "titleRu": "Цифры, цены и финансы",
+      "level": "A2",
+      "grammar": {
+        "title": "Les grands nombres et les expressions financières",
+        "titleRu": "Большие числа и финансовые выражения",
+        "intro": "Les grands nombres en russe peuvent sembler complexes mais suivent une logique régulière. Indispensables dans tout contexte professionnel, commercial ou quotidien. Cette leçon couvre aussi les expressions financières courantes.",
+        "sections": [
+          {
+            "title": "Les grands nombres",
+            "content": "100 — сто\n200 — двести\n300 — триста\n400 — четыреста\n500-900 — пять/шесть/семь/восемь/девятьсот\n1 000 — тысяча\n2 000 — две тысячи\n5 000 — пять тысяч\n10 000 — десять тысяч\n100 000 — сто тысяч\n1 000 000 — миллион\n1 000 000 000 — миллиард\n\nL'an : в 2024 году — en 2024"
+          },
+          {
+            "title": "Le rouble et les prix",
+            "content": "рубль (руб.) — rouble\nкопейка — kopek (1/100 de rouble)\n\nPrix :\nСтоит 500 рублей. — Ça coûte 500 roubles.\n100 рублей за штуку. — 100 roubles pièce.\nС НДС — TVA incluse\nБез НДС — hors TVA\nСкидка 20%. — Réduction de 20%.\nНаличными или картой? — En espèces ou par carte ?"
+          },
+          {
+            "title": "Expressions financières courantes",
+            "content": "бюджет — budget\nприбыль — bénéfice\nубытки — pertes\nинвестиция — investissement\nкредит — crédit / prêt\nставка — taux (d'intérêt)\nкурс валют — taux de change\nналог — impôt / taxe\nНДС — TVA (Налог на добавленную стоимость)\nбухгалтерия — comptabilité / service comptable\nсчёт-фактура — facture"
+          }
+        ],
+        "rule": "💡 Les années en russe : «в 2024 году» (en 2024) — toujours avec «году» (cas prépositionnel de «год»). Pour les décennies : «в 90-х годах» (dans les années 90). Pour le siècle : «в XX веке» (au XXe siècle). Attention : «тысяча» (1000) s'accorde — «пять тысяч» (cinq mille)."
+      },
+      "pronunciation": {
+        "intro": "Chiffres et finances — incontournables dans tout contexte professionnel !",
+        "note": "⚠️ «Тысяча» (mille) — prononcez «TÝsiatchcha». «Миллиард» (milliard) = 1 000 000 000 en russe — équivalent du milliard français (et non du billion américain). Attention aux faux-amis numériques !",
+        "words": [
+          { "fr": "тысяча", "ru_pron": "TÝsiatchcha", "meaning": "mille (1 000)" },
+          { "fr": "миллион", "ru_pron": "milliON", "meaning": "un million" },
+          { "fr": "миллиард", "ru_pron": "milliARD", "meaning": "un milliard" },
+          { "fr": "рубль", "ru_pron": "roubl'", "meaning": "le rouble" },
+          { "fr": "бюджет", "ru_pron": "biouDJET", "meaning": "le budget" },
+          { "fr": "прибыль", "ru_pron": "PRÍbyl'", "meaning": "le bénéfice / le profit" },
+          { "fr": "налог", "ru_pron": "naLOG", "meaning": "l'impôt / la taxe" },
+          { "fr": "кредит", "ru_pron": "kriDÍT", "meaning": "le crédit / le prêt" },
+          { "fr": "инвестиция", "ru_pron": "inviSTÍtsia", "meaning": "l'investissement" },
+          { "fr": "курс", "ru_pron": "kours", "meaning": "le taux de change / le cours" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "стоить", "gender": null, "ru": "coûter / valoir", "ru_pron": "STOit'", "example_fr": "Сколько это стоит?", "example_ru": "Combien ça coûte ?", "level": "A1" },
+        { "fr": "прибыль", "gender": "f", "ru": "le bénéfice / le profit", "ru_pron": "PRÍbyl'", "example_fr": "Прибыль выросла на 20%.", "example_ru": "Le bénéfice a augmenté de 20%.", "level": "A2" },
+        { "fr": "убытки", "gender": "pl", "ru": "les pertes / le déficit", "ru_pron": "ooBÝTki", "example_fr": "Компания понесла убытки.", "example_ru": "L'entreprise a subi des pertes.", "level": "A2" },
+        { "fr": "бюджет", "gender": "m", "ru": "le budget", "ru_pron": "biouDJET", "example_fr": "Утверждён бюджет на год.", "example_ru": "Le budget annuel a été approuvé.", "level": "A2" },
+        { "fr": "налог", "gender": "m", "ru": "l'impôt / la taxe", "ru_pron": "naLOG", "example_fr": "Платить налоги обязательно.", "example_ru": "Payer ses impôts est obligatoire.", "level": "A2" },
+        { "fr": "кредит", "gender": "m", "ru": "le crédit / le prêt", "ru_pron": "kriDÍT", "example_fr": "Взять кредит в банке.", "example_ru": "Contracter un prêt bancaire.", "level": "A2" },
+        { "fr": "наличными", "gender": null, "ru": "en espèces", "ru_pron": "naLÍTCHnymi", "example_fr": "Платите наличными или картой?", "example_ru": "Vous payez en espèces ou par carte ?", "level": "A1" },
+        { "fr": "скидка", "gender": "f", "ru": "la réduction / la remise", "ru_pron": "SKÍDka", "example_fr": "Дайте скидку 10%!", "example_ru": "Accordez-nous une remise de 10% !", "level": "A1" },
+        { "fr": "инвестиция", "gender": "f", "ru": "l'investissement", "ru_pron": "inviSTÍtsia", "example_fr": "Нужны инвестиции в проект.", "example_ru": "Le projet a besoin d'investissements.", "level": "A2" },
+        { "fr": "рост", "gender": "m", "ru": "la croissance / la hausse", "ru_pron": "rost", "example_fr": "Рост ВВП составил 3%.", "example_ru": "La croissance du PIB était de 3%.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "бюджет", "fr_pron": "biouDJET", "ru": "budget", "ru_pron": "budget", "note": "«Бюджет» vient de l'anglais «budget» (lui-même du vieux français «bougette» = petite bourse). Le mot a voyagé du français médiéval à l'anglais et puis au russe — un long voyage linguistique !" },
+        { "fr": "инвестиция", "fr_pron": "inviSTÍtsia", "ru": "investissement", "ru_pron": "investissement", "note": "«Инвестиция» = investissement. Du latin «investire». En Russie post-soviétique, ce mot est devenu omniprésent dans les années 1990 avec l'économie de marché — nouveau pour toute une génération." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Sergueï Witte (1849–1915)", "subtitle": "Architecte de l'industrialisation russe", "content": "Sergueï Witte fut le plus grand ministre des finances et économiste de la Russie tsariste. Sous Alexandre III et Nicolas II, il mena une politique d'industrialisation accélérée : construction du Transsibérien, réforme monétaire (rattachement du rouble à l'or), attraction d'investissements étrangers. De 1890 à 1905, la production industrielle russe quadrupla. Son économie mixte — capitalisme dirigé par l'État — est souvent citée comme modèle. Ruiné politiquement après la défaite contre le Japon (1905), il négocia néanmoins la paix à Portsmouth et obtint des conditions honorables." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le rouble — une des monnaies les plus vieilles du monde", "content": "Le rouble (рубль) est l'une des plus anciennes monnaies du monde — il remonte au XIIIe siècle. Son nom vient de «рубить» (couper) — le rouble était à l'origine un morceau coupé d'une barre d'argent. La kopek (копейка) = 1/100 de rouble — son nom vient de «копьё» (lance), car la pièce montrait un cavalier armé d'une lance. En 1998, le rouble fut dévalué d'un rapport de 1000 (1 nouveau rouble = 1000 anciens). En 2014 et 2022, de nouvelles crises ont fortement affecté sa valeur internationale." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La culture du marchandage en Russie", "content": "Le marchandage (торговля) est une tradition aux marchés russes et dans certains commerces. Au Vernisage d'Izmailovo, au marché de Déribasovskaya, négocier est attendu. Règles non-écrites : commencer à 60% du prix demandé, montrer de l'hésitation, être prêt à partir. Le vendeur cède souvent de 10-30%. Dans les magasins officiels, le prix est fixe. En revanche, pour les grandes transactions immobilières ou de voitures, négocier est non seulement accepté mais attendu — refuser de négocier paraîtrait naïf." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Сколько это стоит? Нет ли скидки?", "pronunciation": "SKOl'ka éta STOit ? Niet li SKÍDki ?", "translation": "Combien ça coûte ? Y a-t-il une réduction ?", "usage": "Les deux questions indispensables pour tout achat en Russie. «Нет ли скидки?» (y a-t-il une réduction ?) est plus poli que le direct «Дайте скидку!» (donnez une réduction !). Le «нет ли» (n'y a-t-il pas) est une formule polie indirecte.", "example": "— Сколько стоит? — Двести рублей. — Нет ли скидки? — Для вас — сто восемьдесят. (Combien ? — 200 roubles. — Y a-t-il une remise ? — Pour vous — 180.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "La Bourse de Moscou", "subtitle": "Московская биржа — сердце российских финансов", "content": "La Bourse de Moscou (Московская биржа / MOEX) est le principal marché financier de Russie, fondé en 1992. Elle propose actions, obligations, devises, contrats à terme. Son indice MOEX est le baromètre de l'économie russe. Le bâtiment historique de la Bourse d'État tsariste (XIXe siècle), sur le quai de la Moskova, est un chef-d'œuvre architectural néoclassique. Des visites pédagogiques sont organisées pour les groupes intéressés par la finance russe." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «1 500 roubles» en russe ?", "opts": ["Один пять сотни рублей", "Тысяча пятьсот рублей", "Пятнадцать сот рублей", "Полторы тысячи рублей"], "ans": 1, "exp": "«Тысяча пятьсот рублей» = 1 500 roubles. Тысяча (1 000) + пятьсот (500) + рублей (génitif pluriel). On peut aussi dire «полторы тысячи» (une fois et demie mille)." },
+        { "q": "D'où vient le nom «роубль» (rouble) ?", "opts": ["Du latin «ruber» (rouge)", "Du verbe «рубить» (couper) — morceau coupé d'argent", "Du tatare «rubel» (or)", "Du grec «argyrion» (argent)"], "ans": 1, "exp": "«Роubль» vient de «рубить» (couper) — à l'origine un morceau coupé d'une barre d'argent. L'une des plus anciennes monnaies du monde, remontant au XIIIe siècle." },
+        { "q": "Comment dit-on «TVA incluse» en russe ?", "opts": ["Со скидкой НДС", "С НДС", "НДС включено", "Plus НДС"], "ans": 1, "exp": "«С НДС» = TVA incluse (avec TVA). НДС = Налог на добавленную стоимость (taxe sur la valeur ajoutée). «Без НДС» = hors TVA." },
+        { "q": "Qu'est-ce que Sergueï Witte a accompli pour l'économie russe ?", "opts": ["Il fonda la première banque centrale russe", "Il mena l'industrialisation accélérée et construisit le Transsibérien", "Il introduisit le système fiscal moderne", "Il créa la Bourse de Moscou"], "ans": 1, "exp": "Witte mena l'industrialisation accélérée de la Russie (1890-1905) : Transsibérien, réforme monétaire (rouble-or), investissements étrangers. La production industrielle russe quadrupla sous sa direction." },
+        { "q": "Dans quels contextes peut-on marchander en Russie ?", "opts": ["Dans tous les commerces sans exception", "Uniquement dans les marchés et grandes transactions (voiture, immobilier)", "Jamais — les prix sont toujours fixes", "Uniquement avec des étrangers"], "ans": 1, "exp": "Le marchandage est attendu aux marchés russes et pour les grandes transactions (voiture, immobilier). Dans les magasins officiels, le prix est fixe. Négocier aux marchés est une tradition — ne pas le faire paraîtrait naïf." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "La Technologie et l'Innovation",
+      "titleRu": "Технологии и инновации",
+      "level": "A2",
+      "grammar": {
+        "title": "La technologie et le passif russe",
+        "titleRu": "Технологии и пассивные конструкции",
+        "intro": "En russe, le passif peut s'exprimer de plusieurs façons. La forme la plus simple et la plus courante dans le langage moderne est le verbe réfléchi en -ся (qui prend valeur passive). Les participes passifs sont plus formels et littéraires.",
+        "sections": [
+          {
+            "title": "Le passif avec -ся",
+            "content": "Verbe + ся = sens passif\n\nСайт обновляется. — Le site est mis à jour.\nПрограмма скачивается. — Le programme est en cours de téléchargement.\nДанные обрабатываются. — Les données sont traitées.\nПроект разрабатывается. — Le projet est en cours de développement.\nВопрос решается. — La question est en cours de résolution.\nСистема устанавливается. — Le système est en cours d'installation.\n\nLe sujet est la chose subie, non l'agent !"
+          },
+          {
+            "title": "Vocabulaire tech et numérique",
+            "content": "программное обеспечение — logiciel\nжёсткий диск — disque dur\nоблачное хранилище — stockage cloud\nискусственный интеллект — intelligence artificielle\nбезопасность данных — sécurité des données\nзащита от хакеров — protection contre les hackers\nинтерфейс — interface\nосновной алгоритм — algorithme principal\nбольшие данные — big data\nстартап — startup"
+          },
+          {
+            "title": "Les entreprises tech russes",
+            "content": "Яндекс — Yandex (moteur de recherche, cartes, taxi...)\nМейл.ру / VK — groupe média-tech\n1С — éditeur de logiciels de gestion (dominant en Russie)\nКасперский — Kaspersky (cybersécurité, mondial)\nСбер — Sberbank tech (IA, services numériques)\nТинькофф — banque 100% numérique\nOzon / Wildberries — e-commerce russes leaders"
+          }
+        ],
+        "rule": "💡 La Russie a une culture tech forte et originale. Kaspersky (антивирус) est utilisé mondialement. Yandex a développé des algorithmes de recherche jugés supérieurs à Google pour les langues flexionnelles. La Russie forme un grand nombre d'excellents ingénieurs et mathématiciens — tradition soviétique qui dure."
+      },
+      "pronunciation": {
+        "intro": "Technologie et innovation — vocabulaire du secteur tech en Russie !",
+        "note": "⚠️ «Искусственный интеллект» (intelligence artificielle) — prononcez «is-KOUS-stvie-ny in-tel-LYEKT». Abréviation courante : ИИ (И-И). Le domaine de l'IA est en plein essor dans les universités et entreprises russes.",
+        "words": [
+          { "fr": "технология", "ru_pron": "tékhnalaGÍia", "meaning": "la technologie" },
+          { "fr": "программирование", "ru_pron": "programiROvanie", "meaning": "la programmation" },
+          { "fr": "искусственный интеллект", "ru_pron": "iskÓUSSTvenny intilYEKT", "meaning": "l'intelligence artificielle" },
+          { "fr": "стартап", "ru_pron": "startÁP", "meaning": "la startup" },
+          { "fr": "данные", "ru_pron": "DÁnnyie", "meaning": "les données" },
+          { "fr": "алгоритм", "ru_pron": "algoRÍTM", "meaning": "l'algorithme" },
+          { "fr": "интерфейс", "ru_pron": "interfYEYS", "meaning": "l'interface" },
+          { "fr": "безопасность", "ru_pron": "bezapÁSnost'", "meaning": "la sécurité" },
+          { "fr": "обновление", "ru_pron": "abnavLYEnié", "meaning": "la mise à jour" },
+          { "fr": "разработчик", "ru_pron": "razrabOTtchik", "meaning": "le développeur" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "разрабатывать", "gender": null, "ru": "développer / concevoir", "ru_pron": "razraBÁtyvat'", "example_fr": "Мы разрабатываем новое приложение.", "example_ru": "Nous développons une nouvelle application.", "level": "A2" },
+        { "fr": "обновлять", "gender": null, "ru": "mettre à jour", "ru_pron": "abnavLÁT'", "example_fr": "Обновите программу.", "example_ru": "Mettez à jour le programme.", "level": "A2" },
+        { "fr": "данные", "gender": "pl", "ru": "les données", "ru_pron": "DÁnnyie", "example_fr": "Защищайте личные данные.", "example_ru": "Protégez vos données personnelles.", "level": "A2" },
+        { "fr": "безопасность", "gender": "f", "ru": "la sécurité", "ru_pron": "bezapÁSnost'", "example_fr": "Безопасность данных — приоритет.", "example_ru": "La sécurité des données est une priorité.", "level": "A2" },
+        { "fr": "хакер", "gender": "m", "ru": "le hacker", "ru_pron": "KHÁker", "example_fr": "Защита от хакеров необходима.", "example_ru": "La protection contre les hackers est indispensable.", "level": "A2" },
+        { "fr": "стартап", "gender": "m", "ru": "la startup", "ru_pron": "startÁP", "example_fr": "Российские стартапы активно развиваются.", "example_ru": "Les startups russes se développent activement.", "level": "A2" },
+        { "fr": "облако", "gender": "n", "ru": "le cloud / le nuage", "ru_pron": "OBlaka", "example_fr": "Данные хранятся в облаке.", "example_ru": "Les données sont stockées dans le cloud.", "level": "A2" },
+        { "fr": "разработчик", "gender": "m", "ru": "le développeur / le concepteur", "ru_pron": "razrabOTtchik", "example_fr": "Нужен опытный разработчик.", "example_ru": "On cherche un développeur expérimenté.", "level": "A2" },
+        { "fr": "внедрять", "gender": null, "ru": "implémenter / mettre en œuvre", "ru_pron": "vnidRÁT'", "example_fr": "Внедряем новую систему.", "example_ru": "Nous implémentons un nouveau système.", "level": "A2" },
+        { "fr": "цифровой", "gender": "adj m", "ru": "numérique / digital", "ru_pron": "tsifraVOY", "example_fr": "Цифровая трансформация необходима.", "example_ru": "La transformation numérique est indispensable.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "алгоритм", "fr_pron": "algoRÍTM", "ru": "algorithme", "ru_pron": "algorithme", "note": "«Алгоритм» = algorithme. Dérivé du nom du mathématicien perse Al-Khawarizmi (IXe s.), dont le nom latinisé donna «algorismus». La Russie possède une tradition mathématique exceptionnelle — berceau de nombreux algorithmes modernes." },
+        { "fr": "интерфейс", "fr_pron": "interfYEYS", "ru": "interface", "ru_pron": "interface", "note": "«Интерфейс» = interface. Anglicisme direct du domaine informatique. Entré massivement en russe dans les années 1990 avec la révolution numérique. Comme beaucoup de termes tech, non traduit." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Evgueni Kaspersky (né en 1965)", "subtitle": "Fondateur de Kaspersky Lab, géant mondial de la cybersécurité", "content": "Evgueni Kaspersky est le fondateur de Kaspersky Lab — l'une des entreprises de cybersécurité les plus reconnues au monde. Diplômé d'une école technique du KGB, il détecta son premier virus informatique en 1989. Sa société, fondée avec sa femme en 1997, emploie aujourd'hui 4 000 personnes dans 31 pays et protège 400 millions d'utilisateurs. Son antivirus est parmi les plus performants selon les benchmarks indépendants. Personnalité controversée en raison des liens présumés de la société avec le gouvernement russe." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La tradition mathématique russe — excellence mondiale", "content": "La Russie possède l'une des plus grandes traditions mathématiques du monde. L'école soviétique de mathématiques était la meilleure au monde — Kolmogorov, Pontryagin, Chebyshev sont des noms gravés dans l'histoire. Les olympiades de mathématiques soviétiques formèrent des générations de génies. Aujourd'hui, les équipes russes et ex-soviétiques dominent régulièrement les championnats internationaux (Olympiade Internationale de Mathématiques, ACM-ICPC). Cette tradition explique pourquoi la Russie produit autant d'excellents développeurs et chercheurs en IA." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le boom des startups russes — et leur exode", "content": "La Russie avait un écosystème de startups dynamique dans les années 2010 — Moscou était dans le top 5 des villes européennes de startups. Des licornes russes comme Avito, Lamoda, InDriver émergèrent. Mais depuis 2022, l'exode des talents tech s'est accéléré massivement : Arménie, Géorgie, Serbie, Émirats, Turquie ont accueilli des dizaines de milliers de développeurs russes. Ce «brain drain» est l'un des défis les plus sérieux pour l'économie numérique russe. Certains continuent de travailler pour des entreprises russes depuis l'étranger." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Система обновляется, подождите.", "pronunciation": "SistYEma abnavLÁietsa, padajDÍTE", "translation": "Le système est en cours de mise à jour, veuillez patienter.", "usage": "Phrase ultra-familière dans tout environnement numérique russe ! Exemple parfait du passif réfléchi en -ся : «обновляется» (est en train d'être mis à jour). À comparer avec «я обновляю» (je mets à jour — actif).", "example": "— Почему сайт не работает? — Система обновляется, подождите пять минут. (Pourquoi le site ne marche pas ? — Le système est en cours de mise à jour, patientez cinq minutes.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Novossibirsk — La Silicon Siberia", "subtitle": "Новосибирск — научная столица России", "content": "Novossibirsk (3e ville de Russie, 1,6M habitants) abrite Akademgorodok (Академгородок = ville académique) — la plus grande concentration de cerveaux scientifiques de Russie, fondée par Khrouchtchev en 1957 dans la taïga sibérienne. 35 instituts de recherche, 35 000 chercheurs et étudiants dans un campus forestier. C'est là que sont nés des algorithmes fondamentaux et des entreprises tech sibériennes. L'ambiance : laboratoires de pointe dans des forêts de pins, -40°C en hiver, cerveaux au chaud dans les instituts." }
+      },
+      "quiz": [
+        { "q": "Comment exprime-t-on le passif en russe (forme courante) ?", "opts": ["Avec l'auxiliaire «быть»", "Avec le verbe réfléchi en -ся", "Avec le préfixe «пере-»", "Avec l'instrumental du sujet"], "ans": 1, "exp": "Le passif courant en russe = verbe + ся. «Сайт обновляется» (le site est mis à jour). «Данные обрабатываются» (les données sont traitées). Simple et très fréquent dans le vocabulaire tech." },
+        { "q": "Qu'est-ce que Kaspersky Lab ?", "opts": ["Un fournisseur d'accès internet russe", "Un géant mondial de la cybersécurité fondé en 1997", "Le département informatique de Sberbank", "Un fabricant de hardware russe"], "ans": 1, "exp": "Kaspersky Lab est une entreprise de cybersécurité fondée en 1997 par Evgueni Kaspersky. Son antivirus protège 400 millions d'utilisateurs dans le monde — l'une des entreprises tech russes les plus connues internationalement." },
+        { "q": "Qu'est-ce qu'Akademgorodok ?", "opts": ["Un quartier tech de Moscou", "La ville académique scientifique près de Novossibirsk fondée en 1957", "Le campus de l'Université de Saint-Pétersbourg", "Le laboratoire tech de Sberbank"], "ans": 1, "exp": "Akademgorodok = ville académique près de Novossibirsk, fondée par Khrouchtchev en 1957 dans la taïga sibérienne. 35 instituts, 35 000 chercheurs — la plus grande concentration scientifique de Russie." },
+        { "q": "Comment dit-on «les données sont stockées dans le cloud» en russe ?", "opts": ["Данные хранят в облаке.", "Данные хранятся в облаке.", "Данные хранились в облаке.", "В облаке данные хранить."], "ans": 1, "exp": "«Данные хранятся в облаке» = les données sont stockées dans le cloud. Хранятся = passif réfléchi de «хранить» (stocker). Облако = nuage / cloud." },
+        { "q": "Pourquoi la Russie produit-elle autant d'excellents développeurs et mathématiciens ?", "opts": ["Grâce aux investissements des GAFAM en Russie", "Grâce à la tradition mathématique soviétique et aux olympiades", "Grâce aux programmes d'échanges avec la Silicon Valley", "Grâce à un système d'immigration sélective"], "ans": 1, "exp": "La Russie hérite d'une tradition mathématique soviétique exceptionnelle. Les olympiades de maths formèrent des générations de génies. Les équipes russes dominent régulièrement les compétitions mondiales de programmation (ACM-ICPC)." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Les Médias et l'Actualité",
+      "titleRu": "СМИ и новости",
+      "level": "A2",
+      "grammar": {
+        "title": "Les médias et le discours rapporté",
+        "titleRu": "СМИ и косвенная речь",
+        "intro": "Parler des actualités en russe nécessite le discours rapporté — rapporter ce que quelqu'un a dit. En russe, le discours indirect suit des règles plus simples qu'en français : pas de concordance des temps ! Le temps reste celui de l'original.",
+        "sections": [
+          {
+            "title": "Discours rapporté — règles",
+            "content": "Pas de concordance des temps en russe !\n\nDirect : Он сказал: «Я устал.» — Il a dit : «Je suis fatigué.»\nIndirect : Он сказал, что он устал. — Il a dit qu'il était fatigué.\n\nLa proposition secondaire garde le temps original :\nОна объяснила, что проект готов. (présent)\nОн сообщил, что встреча будет завтра. (futur)\nОни написали, что подписали договор. (passé)\n\nConnecteurs de discours indirect :\nчто — que\nчтобы — pour que (volonté, ordre)\nбудто — comme si\nли — si (interrogation indirecte)"
+          },
+          {
+            "title": "Vocabulaire des médias",
+            "content": "СМИ — médias (Средства Массовой Информации)\nновости — les actualités / les nouvelles\nгазета — le journal (papier)\nжурнал — le magazine / la revue\nтелеканал — la chaîne TV\nрадиостанция — la station radio\nинтернет-издание — le média en ligne\nжурналист — le journaliste\nредакция — la rédaction\nрепортаж — le reportage\nзаголовок — le titre (d'article)\nсводка — le bulletin (de nouvelles)"
+          },
+          {
+            "title": "Parler des actualités",
+            "content": "По данным... — Selon les données de...\nСогласно источнику... — Selon la source...\nСообщают, что... — On rapporte que...\nКак сообщил... — Comme l'a rapporté...\nПо словам... — Selon les mots de...\nОфициально заявлено, что... — Il est officiellement déclaré que...\nВ интервью он сказал, что... — Dans l'interview, il a dit que..."
+          }
+        ],
+        "rule": "💡 Les principaux médias russes : ТАСС (agence de presse officielle), РИА Новости, Россия-1 (chaîne TV d'État), РБК (chaîne éco). Pour des informations indépendantes : Meduza (Lettonie), Дождь / TV Rain (exilé). Les médias russes fonctionnent dans un environnement réglementé — contexte important pour analyser les sources."
+      },
+      "pronunciation": {
+        "intro": "Médias et actualités — pour suivre et commenter les nouvelles en russe.",
+        "note": "⚠️ «СМИ» se prononce lettre par lettre : «Es-Mi-I» = Средства Массовой Информации (moyens d'information de masse). L'abréviation est utilisée partout — à la radio, en presse, dans les conversations.",
+        "words": [
+          { "fr": "новости", "ru_pron": "NOvasti", "meaning": "les actualités / les nouvelles" },
+          { "fr": "газета", "ru_pron": "gaZYEta", "meaning": "le journal (papier)" },
+          { "fr": "журналист", "ru_pron": "jurnalÍST", "meaning": "le journaliste" },
+          { "fr": "репортаж", "ru_pron": "ripartÁJ", "meaning": "le reportage" },
+          { "fr": "заголовок", "ru_pron": "zagaLOvak", "meaning": "le titre (d'article)" },
+          { "fr": "источник", "ru_pron": "isTOtchnik", "meaning": "la source" },
+          { "fr": "интервью", "ru_pron": "intirVYOU", "meaning": "l'interview" },
+          { "fr": "событие", "ru_pron": "saBÝtié", "meaning": "l'événement" },
+          { "fr": "сводка", "ru_pron": "SVOTka", "meaning": "le bulletin d'information" },
+          { "fr": "правдивый", "ru_pron": "pravDÍvy", "meaning": "véridique / fiable" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "сообщать", "gender": null, "ru": "rapporter / informer", "ru_pron": "saaptCHÁT'", "example_fr": "СМИ сообщают о событии.", "example_ru": "Les médias rapportent l'événement.", "level": "A2" },
+        { "fr": "источник", "gender": "m", "ru": "la source", "ru_pron": "isTOtchnik", "example_fr": "Согласно официальному источнику...", "example_ru": "Selon la source officielle...", "level": "A2" },
+        { "fr": "событие", "gender": "n", "ru": "l'événement", "ru_pron": "saBÝtié", "example_fr": "Это важное событие.", "example_ru": "C'est un événement important.", "level": "A2" },
+        { "fr": "заявить", "gender": null, "ru": "déclarer / affirmer (perfectif)", "ru_pron": "zaiVÍT'", "example_fr": "Министр заявил, что...", "example_ru": "Le ministre a déclaré que...", "level": "A2" },
+        { "fr": "по данным", "gender": null, "ru": "selon les données de", "ru_pron": "pa DÁnnym", "example_fr": "По данным Росстата...", "example_ru": "Selon les données de Rosstat...", "level": "A2" },
+        { "fr": "редакция", "gender": "f", "ru": "la rédaction", "ru_pron": "ridÁKtsia", "example_fr": "Позвоните в редакцию.", "example_ru": "Appelez la rédaction.", "level": "A2" },
+        { "fr": "выпуск", "gender": "m", "ru": "l'édition / le numéro (de journal)", "ru_pron": "VÝpusk", "example_fr": "Вечерний выпуск новостей.", "example_ru": "L'édition du soir des informations.", "level": "A2" },
+        { "fr": "опровергать", "gender": null, "ru": "démentir / réfuter", "ru_pron": "apravirGÁT'", "example_fr": "Компания опровергает обвинения.", "example_ru": "L'entreprise dément les accusations.", "level": "A2" },
+        { "fr": "подтвердить", "gender": null, "ru": "confirmer (perfectif)", "ru_pron": "patvirDÍT'", "example_fr": "Агентство подтвердило информацию.", "example_ru": "L'agence a confirmé l'information.", "level": "A2" },
+        { "fr": "слухи", "gender": "pl", "ru": "les rumeurs", "ru_pron": "SLOUkhi", "example_fr": "Это только слухи.", "example_ru": "Ce ne sont que des rumeurs.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "репортаж", "fr_pron": "ripartÁJ", "ru": "reportage", "ru_pron": "reportage", "note": "«Репортаж» vient du français «reportage». La tradition du grand reportage est forte en Russie : les envoyés spéciaux soviétiques (корреспонденты) rapportaient du monde entier. Prix Pulitzer de journalisme remporté par des journalistes russes (Novaya Gazeta)." },
+        { "fr": "интервью", "fr_pron": "intirVYOU", "ru": "interview", "ru_pron": "interview", "note": "«Интервью» = interview. Anglicisme direct, invariable en russe. La tradition de l'interview longue et approfondie est forte en Russie — les interviews durent souvent 1 à 3 heures, bien différentes des formats courts occidentaux." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anna Politkovskaïa (1958–2006)", "subtitle": "Journaliste d'investigation assassinée", "content": "Anna Politkovskaïa fut l'une des plus grandes journalistes russes du XXe siècle. Reporter à Novaïa Gazeta, elle couvrit les guerres de Tchétchénie et dénonça avec courage les violations des droits de l'homme. Ses livres «Une sale guerre» et «La Russie selon Poutine» furent traduits dans le monde entier. Elle fut assassinée le 7 octobre 2006 dans l'ascenseur de son immeuble à Moscou — le jour de l'anniversaire de Vladimir Poutine. Son meurtrier et les commanditaires restent partiellement non-identifiés officiellement." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La liberté de la presse en Russie — une histoire complexe", "content": "La presse russe a connu des moments de grande liberté (fin des années 1980 et années 1990 de la glasnost) et des périodes de contrôle strict. Sous Gorbatchev, la glasnost (transparence) permit pour la première fois de critiquer le régime soviétique. Dans les années 1990, des dizaines de journaux et chaînes TV indépendants fleurirent. Depuis les années 2000, la tendance est à la reconsolidation du contrôle étatique sur les médias. Aujourd'hui, des médias indépendants opèrent depuis l'étranger (Meduza en Lettonie, TV Rain aux Pays-Bas)." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "ТАСС и la tradition des agences de presse soviétiques", "content": "ТАСС (Телеграфное Агентство Советского Союза) fut fondé en 1925 et resta pendant des décennies l'unique agence de presse soviétique officielle. L'expression «ТАСС уполномочен заявить» (TASS est autorisé à déclarer) signifiait une communication officielle du gouvernement — prise très au sérieux. Pendant la Guerre froide, TASS et AP (Associated Press) / AFP s'affrontèrent pour contrôler le récit mondial. Aujourd'hui, TASS est toujours l'agence officielle russe. La satirique «"Это не Россия, Это — конец»... mais les agences perdurent." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Согласно источнику, сообщают, что...", "pronunciation": "saGLÁSna isTOtchniku, saaptCHÁiout, tchto...", "translation": "Selon la source, on rapporte que...", "usage": "Formule journalistique standard pour rapporter une information avec attribution. En russe, le discours rapporté ne change pas le temps — «сообщают, что договор подписан» (on rapporte que le contrat est signé) reste au présent.", "example": "— Согласно источникам в редакции, сообщают, что переговоры завершились успешно. (Selon des sources à la rédaction, on rapporte que les négociations se sont terminées avec succès.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — La tour Ostankino", "subtitle": "Останкино — телевизионная башня Москвы", "content": "La tour Ostankino (Останкинская башня) est la tour de télévision de Moscou — 540 mètres, 4e plus haute structure du monde à sa construction en 1967. Elle diffuse les signaux TV et radio pour toute la région de Moscou. Au sommet : restaurant tournant «7th Heaven» avec vue à 360° sur Moscou. Visite touristique disponible avec ascenseur express jusqu'à la plateforme d'observation à 337m. Spectaculaire par temps clair — on distingue jusqu'à 60 km. En 2000, un incendie dévastateur l'endommagea sérieusement — entièrement restaurée depuis." }
+      },
+      "quiz": [
+        { "q": "Comment fonctionne le discours indirect en russe (concordance des temps) ?", "opts": ["Stricte concordance des temps comme en français", "Pas de concordance — le temps reste celui de l'original", "Le verbe se met toujours au passé", "Le verbe se met toujours au présent"], "ans": 1, "exp": "En russe, pas de concordance des temps ! «Он сказал, что он устал» (il a dit qu'il était fatigué) — «устал» reste au passé, identique au discours direct. Beaucoup plus simple qu'en français !" },
+        { "q": "Qui était Anna Politkovskaïa ?", "opts": ["La première femme rédactrice en chef de TASS", "Une journaliste d'investigation assassinée en 2006", "La fondatrice de Novaïa Gazeta", "La première correspondante de guerre soviétique"], "ans": 1, "exp": "Anna Politkovskaïa était journaliste à Novaïa Gazeta, connue pour ses reportages sur la Tchétchénie et les droits de l'homme. Elle fut assassinée en 2006 — l'un des symboles de la liberté de la presse en danger." },
+        { "q": "Que signifie «СМИ» ?", "opts": ["Служба Международной Информации", "Средства Массовой Информации (médias)", "Советские Медийные Издания", "Сеть Медиа и Интернета"], "ans": 1, "exp": "СМИ = Средства Массовой Информации = moyens d'information de masse = les médias. Acronyme utilisé constamment en russe comme «médias» en français. Se prononce lettre par lettre : Es-Mi-I." },
+        { "q": "Comment rapporte-t-on les informations en russe ?", "opts": ["По данным... / Согласно источнику... / Сообщают, что...", "Говорят... / Слышали... / Кажется...", "Факт... / Истина... / Правда...", "ПО мнению... / Наверное... / Возможно..."], "ans": 0, "exp": "Formules journalistiques standard : «По данным» (selon les données), «согласно источнику» (selon la source), «сообщают, что» (on rapporte que). Formules de citation fiables et professionnelles." },
+        { "q": "Où opèrent certains médias russes indépendants depuis 2022 ?", "opts": ["En France et en Allemagne uniquement", "En Lettonie (Meduza) et aux Pays-Bas (TV Rain)", "Clandestinement en Russie", "Aux États-Unis exclusivement"], "ans": 1, "exp": "Meduza opère depuis Riga (Lettonie), TV Rain (Дождь) depuis Amsterdam. Ces médias indépendants continuent de produire du journalisme russe de qualité depuis l'étranger après leur fermeture forcée en Russie." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Les Voyages d'Affaires",
+      "titleRu": "Деловые поездки",
+      "level": "A2",
+      "grammar": {
+        "title": "Planifier un voyage — futur perfectif et prépositions de mouvement",
+        "titleRu": "Планирование поездки и предлоги движения",
+        "intro": "Organiser un voyage d'affaires en russe mobilise les prépositions de destination (в/на + accusatif), les prépositions de transit (через) et les prépositions d'origine (из/с + génitif). Ces prépositions forment des paires logiques à mémoriser ensemble.",
+        "sections": [
+          {
+            "title": "Prépositions de mouvement — tableau",
+            "content": "Direction → : В + accusatif (pour les espaces fermés)\nв Москву, в офис, в отель\n\nDirection → : НА + accusatif (surfaces, événements, transports)\nна конференцию, на переговоры, на вокзал\n\nOrigine ← : ИЗ + génitif (espaces fermés)\nиз Москвы, из офиса, из России\n\nOrigine ← : С + génitif (surfaces)\nс конференции, с переговоров\n\nTransit : ЧЕРЕЗ + accusatif\nЛечу через Франкфурт. — Je vole via Francfort."
+          },
+          {
+            "title": "Organiser un voyage d'affaires",
+            "content": "забронировать отель — réserver un hôtel\nкупить билет на самолёт — acheter un billet d'avion\nоформить визу — faire une demande de visa\nпострой маршрут — tracer l'itinéraire\nвзять командировочные — prendre les frais de déplacement\nсохранить чеки — garder les reçus\nподготовить презентацию — préparer la présentation\nустановить встречу — fixer un rendez-vous\nарендовать машину — louer une voiture\nзаказать трансфер — commander un transfert"
+          },
+          {
+            "title": "À l'aéroport et à l'hôtel",
+            "content": "À l'aéroport :\nрегистрация на рейс — enregistrement\nтаможня — douane\nпаспортный контроль — contrôle des passeports\nвылет / прилёт — départ / arrivée\nзал ожидания — salle d'attente\n\nÀ l'hôtel :\nзаселение / выселение — check-in / check-out\nноме на одного — chambre single\nзавтрак включён — petit-déjeuner inclus\nбесплатный Wi-Fi — Wi-Fi gratuit"
+          }
+        ],
+        "rule": "💡 Paire à retenir absolument : «в Москву» (à Moscou — direction) / «в Москве» (à Moscou — lieu) / «из Москвы» (de Moscou — origine). Ces trois formes résument la logique des cas russes liés au mouvement."
+      },
+      "pronunciation": {
+        "intro": "Voyages d'affaires — pour voyager en Russie comme un(e) professionnel(le) !",
+        "note": "⚠️ «Таможня» (douane) — prononcez «taMOJnia». Les douanes russes peuvent être minutieuses — ayez tous vos documents en ordre : passeport, visa, déclaration de devises si vous apportez plus de 10 000 USD.",
+        "words": [
+          { "fr": "командировка", "ru_pron": "kamandirOVka", "meaning": "le déplacement professionnel" },
+          { "fr": "таможня", "ru_pron": "taMOJnia", "meaning": "la douane" },
+          { "fr": "регистрация", "ru_pron": "rigistRÁtsia", "meaning": "l'enregistrement (aéroport / hôtel)" },
+          { "fr": "бронирование", "ru_pron": "bROniravanie", "meaning": "la réservation" },
+          { "fr": "вылет", "ru_pron": "VÝlit", "meaning": "le départ (avion)" },
+          { "fr": "маршрут", "ru_pron": "marchROUT", "meaning": "l'itinéraire" },
+          { "fr": "транзит", "ru_pron": "tranZÍT", "meaning": "le transit" },
+          { "fr": "трансфер", "ru_pron": "transFER", "meaning": "le transfert (aéroport-hôtel)" },
+          { "fr": "заселение", "ru_pron": "zasiliéNIE", "meaning": "le check-in (hôtel)" },
+          { "fr": "выселение", "ru_pron": "vysiliEnie", "meaning": "le check-out (hôtel)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "забронировать", "gender": null, "ru": "réserver (perfectif)", "ru_pron": "zabroniROvat'", "example_fr": "Забронируйте отель заранее.", "example_ru": "Réservez l'hôtel à l'avance.", "level": "A2" },
+        { "fr": "оформить визу", "gender": null, "ru": "faire une demande de visa", "ru_pron": "aFORmit' VÍzou", "example_fr": "Нужно оформить визу заранее.", "example_ru": "Il faut faire la demande de visa à l'avance.", "level": "A2" },
+        { "fr": "аренда автомобиля", "gender": "f", "ru": "la location de voiture", "ru_pron": "aRYENda aftamaBÍlia", "example_fr": "Закажите аренду автомобиля.", "example_ru": "Commandez la location de voiture.", "level": "A2" },
+        { "fr": "командировочные", "gender": "pl", "ru": "les frais de déplacement", "ru_pron": "kamandirOvotchnie", "example_fr": "Сохраните чеки для командировочных.", "example_ru": "Gardez les reçus pour les frais de déplacement.", "level": "A2" },
+        { "fr": "паспортный контроль", "gender": "m", "ru": "le contrôle des passeports", "ru_pron": "PASpordny kanTROL'", "example_fr": "Пройдите паспортный контроль.", "example_ru": "Passez le contrôle des passeports.", "level": "A2" },
+        { "fr": "рейс", "gender": "m", "ru": "le vol (avion)", "ru_pron": "ryeïs", "example_fr": "Рейс задержан на два часа.", "example_ru": "Le vol est retardé de deux heures.", "level": "A2" },
+        { "fr": "задержка", "gender": "f", "ru": "le retard / le délai", "ru_pron": "zaDYERJka", "example_fr": "Из-за задержки мы опоздали.", "example_ru": "À cause du retard nous étions en retard.", "level": "A2" },
+        { "fr": "деловая поездка", "gender": "f", "ru": "le voyage d'affaires", "ru_pron": "dilaVÁia paYEZDka", "example_fr": "Это деловая поездка в Москву.", "example_ru": "C'est un voyage d'affaires à Moscou.", "level": "A2" },
+        { "fr": "конференция", "gender": "f", "ru": "la conférence", "ru_pron": "kanfiRYENtsia", "example_fr": "Мы едем на конференцию.", "example_ru": "Nous allons à la conférence.", "level": "A2" },
+        { "fr": "выставка", "gender": "f", "ru": "le salon / l'exposition professionnelle", "ru_pron": "VÝstavka", "example_fr": "Международная выставка в Москве.", "example_ru": "Le salon international à Moscou.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "транзит", "fr_pron": "tranZÍT", "ru": "transit", "ru_pron": "transit", "note": "«Транзит» = transit. Du latin «transitus» (passage). L'aéroport de Moscou Sheremetyevo est un grand hub de transit mondial — historiquement entre Europe et Asie. Edward Snowden y passa famously 40 jours en 2013 !" },
+        { "fr": "конференция", "fr_pron": "kanfiRYENtsia", "ru": "conférence", "ru_pron": "conférence", "note": "«Конференция» = conférence. Même étymologie latine «conferre» (rassembler). La Russie organise de nombreuses conférences internationales — PMEF (Forum économique de SPb), Arctic Forum, conférences scientifiques." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Rezanov (1764–1807)", "subtitle": "Premier diplomate-voyageur d'affaires russe", "content": "Nikolaï Rezanov fut l'un des premiers Russes à mêler diplomatie et commerce international à grande échelle. Co-fondateur de la Compagnie russo-américaine (1799), il dirigea la première circumnavigation russe du monde. Il négocia aux États-Unis, au Japon (refusé), en Californie espagnole où il tomba amoureux de Conchita Argüello — histoire immortalisée dans la comédie musicale soviétique «Juno & Avos». Il mourut épuisé à Krasnoïarsk au retour, à 42 ans. Figure romantique du business et de la diplomatie russes." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le visa pour la Russie — une procédure en évolution", "content": "Depuis 2014, l'obtention d'un visa russe pour les citoyens français est obligatoire. La procédure nécessite : passeport valide 6 mois, invitation officielle (от отеля, d'une entreprise ou de particuliers), formulaire en ligne, photos, paiement. Délai : 3 à 10 jours ouvrables. La Russie a introduit le visa électronique (электронная виза) pour certaines régions (Kaliningrad, Région de Léningrad, Extrême-Orient) simplifiant l'accès. En 2023, la Russie a rendu le e-visa disponible pour les ressortissants de nombreux pays pour une entrée de 16 jours." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les cadeaux d'affaires en Russie — protocole subtil", "content": "Offrir des cadeaux est une pratique importante dans les affaires russes. Règles non-écrites : jamais de nombre pair de fleurs (réservé aux enterrements), jamais de montres (symbole de mort), jamais de couteaux (rupture de relation). Les bons cadeaux : alcool de qualité, chocolats fins, livres d'art, produits du terroir de votre pays. Pour les partenaires importants : cadeaux personnalisés. Les cadeaux trop coûteux peuvent gêner. Toujours offrir en main propre, avec un mot personnel — jamais laisser au secrétariat." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Я в командировке в Москве до пятницы.", "pronunciation": "Ya v kamandirOVkié v maskVYE da PÁTnitsy", "translation": "Je suis en déplacement professionnel à Moscou jusqu'à vendredi.", "usage": "Phrase type du voyageur d'affaires. «В командировке» = en déplacement professionnel. «До пятницы» = jusqu'à vendredi (génitif). Variante : «Я приеду в командировку на следующей неделе» (je viens en déplacement la semaine prochaine).", "example": "— Ты в Москве? — Да, в командировке до пятницы. Может, встретимся? (Tu es à Moscou ? — Oui, en déplacement jusqu'à vendredi. On pourrait se retrouver ?)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Aéroport Sheremetyevo", "subtitle": "Шереметьево — главные воздушные ворота России", "content": "Sheremetyevo (ШРМ / SVO) est le principal aéroport de Moscou et la porte d'entrée internationale de Russie. Son terminal B, rénové pour la Coupe du monde 2018, est moderne et bien organisé. Le terminal C est le hub d'Aeroflot. Un train express (Аэроэкспресс) relie l'aéroport à la gare Biélorusskaya en 35 minutes. Curiosité historique : c'est dans l'espace de transit de Sheremetyevo que Edward Snowden passa 40 jours en 2013, attendant l'asile russe — épisode qui fit le tour du monde." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je vais à Moscou» (direction) vs «je suis à Moscou» (lieu) ?", "opts": ["Я в Москву / Я в Москве", "Я еду в Москву / Я в Москве", "Я еду в Москве / Я в Москву", "Я в Москвы / Я в Москве"], "ans": 1, "exp": "«Я еду в Москву» (direction, accusatif) vs «Я в Москве» (lieu, prépositionnel). Paire fondamentale : accusatif = où on va, prépositionnel = où on est." },
+        { "q": "Comment dit-on «le vol est retardé de deux heures» ?", "opts": ["Рейс задержан на два часа.", "Рейс опаздывает два часа.", "Рейс отменён на два часа.", "Два часа задержки вылет."], "ans": 0, "exp": "«Рейс задержан на два часа» = le vol est retardé de deux heures. Задержан = participe passif court de задержать (retarder). «На два часа» = de deux heures (durée)." },
+        { "q": "Quel est le protocole pour les fleurs offertes en Russie ?", "opts": ["Toujours des fleurs en nombre pair", "Jamais en nombre pair — le nombre pair est réservé aux enterrements", "Uniquement des roses rouges", "Jamais de fleurs dans un contexte professionnel"], "ans": 1, "exp": "En Russie, les fleurs offertes doivent être en NOMBRE IMPAIR (3, 5, 7...). Le nombre pair est réservé aux enterrements. Offrir un bouquet pair est un impair culturel grave !" },
+        { "q": "Que signifie «из Москвы» ?", "opts": ["À Moscou (lieu)", "Vers Moscou (direction)", "De Moscou (origine)", "Via Moscou (transit)"], "ans": 2, "exp": "«Из Москвы» = de Moscou (origine). Из + génitif = provenance d'un espace fermé. Paire : «в Москву» (vers Moscou) / «из Москвы» (de Moscou). Pour surfaces : «на конференцию» / «с конференции»." },
+        { "q": "Comment s'appelle le train rapide reliant Sheremetyevo au centre de Moscou ?", "opts": ["Метро Шереметьево", "Аэроэкспресс", "Ласточка", "Сапсан"], "ans": 1, "exp": "L'Аэроэкспресс (Aeroexpress) relie Sheremetyevo à la gare Biélorusskaya en 35 minutes. Service rapide et confortable — indispensable pour tout voyageur d'affaires à Moscou." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 4",
+      "titleRu": "Итоговый урок Модуля 4",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète du Module 4",
+        "titleRu": "Повторение четвёртого модуля",
+        "intro": "Bravo — Module 4 terminé ! Vous êtes maintenant capable de vous présenter professionnellement, discuter de travail et d'études, négocier en russe, écrire des emails formels, comprendre les médias et organiser des voyages d'affaires. Récapitulons les points grammaticaux essentiels.",
+        "sections": [
+          {
+            "title": "✅ Récapitulatif grammatical du Module 4",
+            "content": "✅ L'instrumental — professions, rôles (врачом, инженером)\n✅ Les verbes réfléchis -ся/-сь — встречаться, договариваться\n✅ Чтобы + infinitif/passé — expressions de but\n✅ Le conditionnel — passé + бы (хотел бы, могли бы)\n✅ Les participes actifs présents — работающий, знающий\n✅ Le passif avec -ся — обновляется, разрабатывается\n✅ Discours indirect — sans concordance des temps\n✅ Prépositions de mouvement — в/на + acc. / из/с + gén.\n✅ Grands nombres et expressions financières"
+          },
+          {
+            "title": "Phrases professionnelles clés du Module 4",
+            "content": "Кем вы работаете? — Я работаю инженером. — Quelle est votre profession ?\nМы встречаемся каждый понедельник. — Nous nous retrouvons chaque lundi.\nЯ учусь, чтобы найти хорошую работу. — J'étudie pour trouver un bon emploi.\nМы могли бы встретиться в среду? — Pourrions-nous nous retrouver mercredi ?\nСообщаем вам, что... — Nous vous informons que...\nВ ожидании вашего ответа, с уважением... — Dans l'attente, cordialement...\nСогласно источнику, сообщают, что... — Selon la source, on rapporte que...\nЯ в командировке в Москве до пятницы. — Je suis en déplacement à Moscou."
+          },
+          {
+            "title": "Vocabulaire professionnel clé",
+            "content": "Professions : врач, инженер, программист, переводчик, менеджер\nBureau : совещание, отчёт, дедлайн, командировка, печать\nÉtudes : учиться, экзамен, зачёт, стипендия, защищать диплом\nNégociation : переговоры, предложение, компромисс, соглашение\nFinances : прибыль, убытки, бюджет, налог, инвестиция\nTech : разрабатывать, данные, стартап, разработчик, облако\nMédias : СМИ, источник, сообщать, подтвердить, заявить\nVoyage : командировка, бронировать, паспортный контроль, рейс"
+          }
+        ],
+        "rule": "🏆 Niveau A2 solide atteint ! Vous pouvez mener une vie professionnelle en russe — un atout rare et précieux. Le Module 5 vous emmènera vers les relations interpersonnelles, la psychologie sociale et les nuances culturelles profondes de la Russie. Отличная работа! (Excellent travail !)"
+      },
+      "pronunciation": {
+        "intro": "Les phrases-clés professionnelles du Module 4 — à pratiquer à voix haute chaque jour !",
+        "note": "",
+        "words": [
+          { "fr": "Кем вы работаете? Я работаю переводчиком.", "ru_pron": "Kyem vy RÁbotayité ? Ya RÁbotaïou pirivOTtchikam", "meaning": "Quelle est votre profession ? Je suis traducteur." },
+          { "fr": "Я хотел бы обсудить условия.", "ru_pron": "Ya khatYEL by absouDÍT' oouSLOvia", "meaning": "Je voudrais discuter des conditions." },
+          { "fr": "Сообщаем вам, что проект готов.", "ru_pron": "Saaptchayem vam tchto praYEKT gatOF", "meaning": "Nous vous informons que le projet est prêt." },
+          { "fr": "В ожидании ответа, с уважением.", "ru_pron": "V ajiDAniï atVYEta, s ouvaJEniem", "meaning": "Dans l'attente d'une réponse, cordialement." },
+          { "fr": "Я учусь, чтобы хорошо говорить по-русски.", "ru_pron": "Ya outCHOUS', tchtoby kharaCHO gavaRÍT' pa-ROUSski", "meaning": "J'étudie pour bien parler russe." },
+          { "fr": "Система обновляется, подождите.", "ru_pron": "SistYEma abnavLÁietsa, padajDÍTE", "meaning": "Le système se met à jour, patientez." },
+          { "fr": "Согласно источнику, переговоры успешны.", "ru_pron": "SaGLÁSna isTOtchniku, pirigaVOry ousPYECHny", "meaning": "Selon la source, les négociations sont positives." },
+          { "fr": "Я в командировке в Москве до пятницы.", "ru_pron": "Ya f kamandirOVkié v maskVYE da PÁTnitsy", "meaning": "Je suis en déplacement à Moscou jusqu'à vendredi." },
+          { "fr": "Ни пуха ни пера! — К чёрту!", "ru_pron": "Ni PÓukha ni pirÁ ! — K tchyortu !", "meaning": "Bonne chance ! — Au diable !" },
+          { "fr": "Отличная работа! Продолжаем!", "ru_pron": "atLÍTCHnaya rabOTa ! Pradaljaïm !", "meaning": "Excellent travail ! Continuons !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "профессиональный", "gender": "adj m", "ru": "professionnel / de qualité", "ru_pron": "profisianÁL'ny", "example_fr": "Профессиональный подход — ключ к успеху.", "example_ru": "Une approche professionnelle est la clé du succès.", "level": "A2" },
+        { "fr": "карьера", "gender": "f", "ru": "la carrière", "ru_pron": "kaRYEra", "example_fr": "Строить карьеру в России интересно.", "example_ru": "Construire une carrière en Russie est intéressant.", "level": "A2" },
+        { "fr": "навык", "gender": "m", "ru": "la compétence / la compétence pratique", "ru_pron": "NAvik", "example_fr": "Новые навыки открывают двери.", "example_ru": "De nouvelles compétences ouvrent des portes.", "level": "A2" },
+        { "fr": "достижение", "gender": "n", "ru": "la réalisation / l'accomplissement", "ru_pron": "dastiJEnié", "example_fr": "Расскажите о ваших достижениях.", "example_ru": "Parlez de vos réalisations.", "level": "A2" },
+        { "fr": "перспективный", "gender": "adj m", "ru": "prometteur / avec avenir", "ru_pron": "perspikTÍVny", "example_fr": "Это перспективный рынок.", "example_ru": "C'est un marché prometteur.", "level": "A2" },
+        { "fr": "развиваться", "gender": null, "ru": "se développer / progresser", "ru_pron": "razviVÁTsa", "example_fr": "Я хочу развиваться профессионально.", "example_ru": "Je veux progresser professionnellement.", "level": "A2" },
+        { "fr": "сотрудник", "gender": "m", "ru": "l'employé / le collaborateur", "ru_pron": "satrOUDnik", "example_fr": "Наши сотрудники — профессионалы.", "example_ru": "Nos collaborateurs sont des professionnels.", "level": "A2" },
+        { "fr": "руководство", "gender": "n", "ru": "la direction / le management", "ru_pron": "roukaVODstvo", "example_fr": "Руководство одобрило проект.", "example_ru": "La direction a approuvé le projet.", "level": "A2" },
+        { "fr": "отличный", "gender": "adj m", "ru": "excellent / remarquable", "ru_pron": "atLÍTCHny", "example_fr": "Отличная работа, молодцы!", "example_ru": "Excellent travail, bravo !", "level": "A1" },
+        { "fr": "вперёд", "gender": null, "ru": "en avant !", "ru_pron": "vpiRYOT", "example_fr": "Вперёд к следующему модулю!", "example_ru": "En avant vers le prochain module !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "карьера", "fr_pron": "kaRYEra", "ru": "carrière", "ru_pron": "carrière", "note": "«Карьера» vient du français «carrière» (via l'italien «carriera»). Faire carrière en Russie (faire карьеру) est une expression tout à fait courante dans les conversations sur l'ambition professionnelle." },
+        { "fr": "профессиональный", "fr_pron": "profisianÁL'ny", "ru": "professionnel", "ru_pron": "professionnel", "note": "«Профессиональный» = professionnel. Même étymologie latine «professio». En russe familier, on dit «профи» (profi) pour qualifier quelqu'un de très compétent — emprunt direct à l'anglais." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Irina Khakamada (née en 1955)", "subtitle": "Femme politique et cheffe d'entreprise pionnière", "content": "Irina Khakamada est l'une des femmes les plus importantes du monde politique et économique russe. D'origine japonaise par son père, elle fut l'une des rares femmes à diriger un parti politique (Union des forces de droite) et à se présenter à l'élection présidentielle (2004). Auteure de plusieurs livres sur le leadership, l'entrepreneuriat et le développement personnel, très lus en Russie. Coach de vie et conférencière populaire, elle est aujourd'hui une figure emblématique du succès féminin en Russie." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'économie russe — du plan soviétique au marché", "content": "L'économie soviétique était centralement planifiée : l'État fixait la production de chaque usine pour 5 ans. Résultat : surproduction de ce dont personne n'avait besoin, pénuries chroniques de l'essentiel. Après 1991, la transition vers le marché fut brutale — «thérapie de choc» de Gaïdar : hyperinflation, chômage de masse, émergence des oligarques. La deuxième moitié des années 2000 (pétrole cher) vit une vraie croissance. L'économie russe est aujourd'hui un mélange de capitalisme d'État, de grands monopoles et d'entrepreneuriat privé dynamique." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Работа не волк, в лес не убежит» — la philosophie russe du travail", "content": "Ce proverbe — «Le travail n'est pas un loup, il ne s'enfuira pas dans la forêt» — exprime une philosophie particulière vis-à-vis du travail : rien ne presse, ça peut attendre. Il reflète une tradition culturelle de rapport détendu au temps et aux délais, héritée de l'ère soviétique. À l'opposé, les travailleurs russes peuvent aussi s'investir avec une intensité extrême quand la situation l'exige — le «работаем в авральном режиме» (on travaille en mode crise) est tout aussi russe. Les deux coexistent !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Отличная работа! Так держать!", "pronunciation": "atLÍTCHnaya rabOTa ! Tak dirJÁT' !", "translation": "Excellent travail ! Continuez comme ça !", "usage": "Formule d'encouragement professionnel en russe. «Так держать !» = tenez le cap ! / continuez comme ça ! Expression militaire navale (tenir le gouvernail) passée dans le langage courant pour encourager. Équivalent de «keep it up» ou «bravo, continuez !»", "example": "— Проект сдан вовремя. — Отличная работа! Так держать! Молодцы! (Le projet est rendu dans les délais. — Excellent travail ! Continuez comme ça ! Bravo !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Kazan — Capitale du Tatarstan",
+         "subtitle": "Казань — третья столица России", "content": "Kazan (Казань, 1,3M habitants) est souvent appelée «la troisième capitale de Russie». Capitale du Tatarstan, elle est un modèle unique de cohabitation russo-tatare et islamo-orthodoxe : le kremlin de Kazan (UNESCO) abrite à la fois une cathédrale orthodoxe et la majestueuse mosquée Kul Sharif. Ville dynamique et jeune, elle accueillit les Universiades 2013 et plusieurs matchs de la Coupe du monde 2018. Son économie est diversifiée (pétrochimie, IT, université). Incontournable pour comprendre la diversité de la Russie." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je voudrais discuter du projet» en russe ?", "opts": ["Я хочу обсудить проект.", "Я хотел бы обсудить проект.", "Буду обсуждать проект.", "Мне нужно проект обсудить."], "ans": 1, "exp": "«Я хотел бы обсудить проект» = je voudrais discuter du projet. Хотел + бы = conditionnel (plus poli que хочу). Le conditionnel adoucit la demande dans un contexte professionnel." },
+        { "q": "Que signifie «работа не волк, в лес не убежит» ?", "opts": ["Le travail est prioritaire sur tout", "Le travail n'est pas urgent — ça peut attendre", "Le travail est aussi féroce qu'un loup", "On travaille mieux en forêt"], "ans": 1, "exp": "«Le travail n'est pas un loup, il ne s'enfuira pas dans la forêt» = le travail peut attendre / rien ne presse. Reflète une philosophie détendue vis-à-vis des délais — héritage de la culture soviétique du travail." },
+        { "q": "Quel est le cas grammatical utilisé pour les professions après «работать» ?", "opts": ["Le nominatif", "L'accusatif", "L'instrumental", "Le génitif"], "ans": 2, "exp": "L'instrumental s'utilise obligatoirement avec «работать» + profession : «Я работаю врачом» (je suis médecin). Au présent sans «работать», le nominatif : «Я врач». Au passé/futur : toujours l'instrumental." },
+        { "q": "Comment s'appelle la mosquée emblématique du kremlin de Kazan ?", "opts": ["Mosquée Hajji Bayram", "Mosquée Kul Sharif", "Mosquée Soltan Ahmed", "Grande Mosquée de Tatarstan"], "ans": 1, "exp": "La mosquée Kul Sharif dans le kremlin de Kazan est le symbole de la République du Tatarstan. Reconstruite en 2005 sur les ruines de l'originale détruite par Ivan le Terrible en 1552, elle accueille des milliers de fidèles." },
+        { "q": "Que signifie «Так держать !» ?", "opts": ["Attention, danger !", "Tenez le cap ! / Continuez comme ça !", "Arrêtez tout !", "Changez de direction !"], "ans": 1, "exp": "«Так держать !» = tenez le cap / continuez comme ça ! Formule d'encouragement issue du vocabulaire naval (tenir le gouvernail dans cette direction). Très utilisée dans le monde professionnel pour féliciter quelqu'un." }
+      ]
+    }
+  ]
+}
