@@ -1,0 +1,740 @@
+{
+  "module": 6,
+  "titleFr": "Santé & Corps",
+  "titleRu": "Здоровье и тело",
+  "description": "Le corps humain, les maladies courantes, chez le médecin, la pharmacie, le sport et le bien-être.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Le Corps Humain",
+      "titleRu": "Тело человека",
+      "level": "A2",
+      "grammar": {
+        "title": "Le vocabulaire du corps humain",
+        "titleRu": "Тело человека",
+        "intro": "Connaître les parties du corps est indispensable pour parler de sa santé. En russe, les noms du corps ont des genres variés : masculin, féminin, neutre. Certains ont une déclinaison irrégulière, notamment «рука» (main/bras) et «нога» (pied/jambe) qui désignent deux parties à la fois — bien plus économique qu'en français !",
+        "sections": [
+          {
+            "title": "La tête et le visage",
+            "content": "голова (f) — la tête\nлицо (n) — le visage\nглаз (m) / глаза (pl) — l'œil / les yeux\nухо (n) / уши (pl) — l'oreille / les oreilles\nнос (m) — le nez\nрот (m) — la bouche\nзуб (m) / зубы (pl) — la dent / les dents\nгуба (f) / губы (pl) — la lèvre / les lèvres\nщека (f) — la joue\nлоб (m) — le front\nволосы (pl) — les cheveux\nшея (f) — le cou"
+          },
+          {
+            "title": "Le tronc et les membres",
+            "content": "грудь (f) — la poitrine / la gorge\nспина (f) — le dos\nживот (m) — le ventre / l'estomac\nрука (f) — la main / le bras\nнога (f) — le pied / la jambe\nпалец (m) — le doigt / l'orteil\nколено (n) — le genou\nплечо (n) — l'épaule\nлоктевой сустав (m) — le coude\nпятка (f) — le talon"
+          },
+          {
+            "title": "⚠️ Attention aux faux amis anatomiques",
+            "content": "«рука» = la main ET le bras (toute la partie)\n«нога» = le pied ET la jambe (toute la partie)\n«палец» = un doigt de la main OU de pied\n\nPour préciser :\nпалец руки — un doigt (de la main)\nпалец ноги — un orteil\nлевая рука — le bras / la main gauche\nправая нога — la jambe / le pied droit"
+          },
+          {
+            "title": "Les organes internes",
+            "content": "сердце (n) — le cœur\nлёгкие (pl) — les poumons\nпечень (f) — le foie\nжелудок (m) — l'estomac\nпочка (f) — le rein\nмозг (m) — le cerveau\nкровь (f) — le sang\nкость (f) — l'os\nмышца (f) — le muscle\nкожа (f) — la peau"
+          }
+        ],
+        "rule": "💡 En russe, 'болит' (fait mal) + partie du corps au nominatif : «У меня болит голова» = J'ai mal à la tête. Littéralement «Chez moi la tête fait mal». Le verbe s'accorde avec la partie du corps !"
+      },
+      "pronunciation": {
+        "intro": "Le corps en russe ! Prononcez chaque mot en touchant la partie correspondante — la kinesthésie aide à mémoriser.",
+        "note": "⚠️ «Грудь» se prononce [groud'] avec le signe mou final. «Плечо» [plietchó] — accent sur la dernière syllabe.",
+        "words": [
+          { "fr": "голова", "ru_pron": "galavá", "meaning": "la tête" },
+          { "fr": "глаза", "ru_pron": "glazá", "meaning": "les yeux" },
+          { "fr": "нос", "ru_pron": "nos", "meaning": "le nez" },
+          { "fr": "рот", "ru_pron": "rot", "meaning": "la bouche" },
+          { "fr": "рука", "ru_pron": "rouká", "meaning": "la main / le bras" },
+          { "fr": "нога", "ru_pron": "nagá", "meaning": "le pied / la jambe" },
+          { "fr": "сердце", "ru_pron": "syértse", "meaning": "le cœur" },
+          { "fr": "спина", "ru_pron": "spiná", "meaning": "le dos" },
+          { "fr": "живот", "ru_pron": "jivót", "meaning": "le ventre" },
+          { "fr": "кровь", "ru_pron": "krov'", "meaning": "le sang" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "голова", "gender": "f", "ru": "la tête", "ru_pron": "galavá", "example_fr": "У меня болит голова.", "example_ru": "J'ai mal à la tête.", "level": "A2" },
+        { "fr": "глаз", "gender": "m", "ru": "l'œil (yeux au pluriel)", "ru_pron": "glaz / glazá", "example_fr": "У неё красивые глаза.", "example_ru": "Elle a de beaux yeux.", "level": "A2" },
+        { "fr": "ухо", "gender": "n", "ru": "l'oreille (уши au pluriel)", "ru_pron": "oukho / oushi", "example_fr": "У меня болит ухо.", "example_ru": "J'ai mal à l'oreille.", "level": "A2" },
+        { "fr": "рука", "gender": "f", "ru": "la main / le bras", "ru_pron": "rouká", "example_fr": "Он сломал руку.", "example_ru": "Il s'est cassé le bras.", "meaning_double": "рука = la main ET le bras en russe !", "level": "A2" },
+        { "fr": "нога", "gender": "f", "ru": "le pied / la jambe", "ru_pron": "nagá", "example_fr": "У меня болит нога.", "example_ru": "J'ai mal à la jambe.", "meaning_double": "нога = le pied ET la jambe en russe !", "level": "A2" },
+        { "fr": "сердце", "gender": "n", "ru": "le cœur", "ru_pron": "syértse", "example_fr": "Сердце бьётся быстро.", "example_ru": "Le cœur bat vite.", "level": "A2" },
+        { "fr": "спина", "gender": "f", "ru": "le dos", "ru_pron": "spiná", "example_fr": "У него болит спина.", "example_ru": "Il a mal au dos.", "level": "A2" },
+        { "fr": "зуб", "gender": "m", "ru": "la dent", "ru_pron": "zoub", "example_fr": "У меня болит зуб.", "example_ru": "J'ai mal à une dent.", "level": "A2" },
+        { "fr": "кожа", "gender": "f", "ru": "la peau", "ru_pron": "kója", "example_fr": "У неё чувствительная кожа.", "example_ru": "Elle a la peau sensible.", "level": "A2" },
+        { "fr": "кость", "gender": "f", "ru": "l'os", "ru_pron": "kost'", "example_fr": "Кость срослась быстро.", "example_ru": "L'os a vite cicatrisé.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "мышца", "fr_pron": "mýchtsa", "ru": "muscle", "ru_pron": "muscle", "note": "«Мышца» (muscle) vient du latin «musculus», comme le français «muscle». Intéressant : «мышь» = souris en russe — les Romains comparaient le mouvement du muscle à une souris qui se déplace sous la peau !" },
+        { "fr": "скелет", "fr_pron": "skélit", "ru": "squelette", "ru_pron": "squelette", "note": "«Скелет» et «squelette» ont la même étymologie grecque «skeletos» (desséché). Le mot est quasiment identique en russe et en français." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Pirogov (1810–1881)", "subtitle": "Père de la chirurgie de terrain russe", "content": "Nikolaï Pirogov est le plus grand chirurgien russe du XIXe siècle. Il fut le premier à utiliser l'anesthésie à l'éther sur un champ de bataille (1847), inventa le plâtre médical, et révolutionna la chirurgie osseuse. Pendant la guerre de Crimée, il organisa les premiers services médicaux militaires modernes. Florence Nightingale s'inspira de ses méthodes. Son nom est gravé dans la médecine mondiale : l'opération de Pirogov, le triangle de Pirogov..." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La médecine soviétique — gratuite pour tous", "content": "L'URSS a créé le premier système de santé universel et gratuit au monde, appelé «système Semachko» (du nom du premier commissaire à la Santé). De 1920 à 1991, chaque citoyen soviétique avait accès aux médecins, hôpitaux et médicaments sans frais. Ce modèle a influencé de nombreux pays et a permis d'éradiquer des maladies comme la variole et la polio en URSS avant l'Occident." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La banya — le soin du corps à la russe", "content": "La «баня» (banya) est le bain de vapeur traditionnel russe, équivalent du sauna finlandais. On y frappe son corps avec des branches de bouleau mouillées («веник»), ce qui améliorerait la circulation. Les Russes y vont entre amis, en famille — c'est un rituel social autant qu'hygiénique. Un proverbe dit : «В бане помылся — как заново родился» (Après la banya, on renaît). La température y dépasse parfois 100°C !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "В здоровом теле — здоровый дух.", "pronunciation": "V zdoravam tyélie — zdorovy doukhh", "translation": "Un esprit sain dans un corps sain.", "usage": "Proverbe célèbre d'origine latine («mens sana in corpore sano») adopté par la culture russe. Très utilisé dans le contexte sportif et médical. Les Russes attachent une grande importance à la santé physique.", "example": "— Почему ты каждый день бегаешь? — В здоровом теле — здоровый дух! (Pourquoi tu cours tous les jours ? — Un esprit sain dans un corps sain !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Karlovy Vary — La ville des thermes", "subtitle": "Карловы Вары — Жемчужина курортного мира", "content": "Karlovy Vary (Карловы Вары) en République tchèque est le symbole des cures thermales prisées par les Russes depuis le XVIIIe siècle. Pierre le Grand y séjourna. Aujourd'hui encore, des milliers de Russes viennent y soigner leurs maux avec les 13 sources d'eau chaude minérale. On boit l'eau directement avec des tasses à bec spéciales. La ville est parfois surnommée «le sixième arrondissement de Moscou» tellement les Russes y sont nombreux." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «J'ai mal à la tête» en russe ?", "opts": ["Моя голова плохая.", "У меня болит голова.", "Я болею голову.", "Голова у меня нет."], "ans": 1, "exp": "«У меня болит голова» = j'ai mal à la tête. Structure : У меня (chez moi) + болит (fait mal) + partie du corps au nominatif." },
+        { "q": "«Рука» en russe désigne :", "opts": ["Uniquement la main", "Uniquement le bras", "La main ET le bras", "Le poignet"], "ans": 2, "exp": "«Рука» désigne à la fois la main et le bras. Pour préciser : «кисть руки» (la main/poignet) ou «рука от плеча» (le bras depuis l'épaule)." },
+        { "q": "Quelle est la traduction de «сердце» ?", "opts": ["Le foie", "Le poumon", "Le rein", "Le cœur"], "ans": 3, "exp": "«Сердце» = le cœur. Prononcé [syértse]. Un mot racine slave ancien que l'on retrouve dans d'autres langues slaves." },
+        { "q": "Comment dit-on «les yeux» en russe ?", "opts": ["ухо", "глаза", "зубы", "губы"], "ans": 1, "exp": "«Глаза» = les yeux (pluriel de «глаз»). Ce pluriel est irrégulier — il faut le mémoriser !" },
+        { "q": "Que signifie «В здоровом теле — здоровый дух» ?", "opts": ["Le corps guérit l'esprit", "Un esprit sain dans un corps sain", "La santé est une richesse", "Sans corps, pas d'âme"], "ans": 1, "exp": "«В здоровом теле — здоровый дух» est l'équivalent russe de «mens sana in corpore sano». Une citation d'origine latine universellement connue en Russie." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Les Maladies et Symptômes",
+      "titleRu": "Болезни и симптомы",
+      "level": "A2",
+      "grammar": {
+        "title": "Exprimer la maladie et les symptômes en russe",
+        "titleRu": "Болезни и симптомы",
+        "intro": "Pour décrire son état de santé en russe, on utilise principalement deux constructions : «Мне плохо» (je me sens mal, littéralement «à moi c'est mauvais») et «У меня болит + partie du corps» (j'ai mal à...). Le verbe «болеть» (être malade) est très courant, et «чувствовать себя» (se sentir) permet des nuances. Comprendre ces patterns vous permettra de vous faire soigner en Russie !",
+        "sections": [
+          {
+            "title": "Expressions clés pour décrire son état",
+            "content": "Мне плохо. — Je me sens mal.\nМне хорошо. — Je me sens bien.\nЯ болен (m) / Я больна (f). — Je suis malade.\nЯ чувствую себя плохо. — Je me sens mal.\nУ меня температура. — J'ai de la fièvre.\nУ меня насморк. — J'ai le rhume / un écoulement nasal.\nУ меня кашель. — J'ai une toux."
+          },
+          {
+            "title": "Les maladies courantes",
+            "content": "грипп (m) — la grippe\nпростуда (f) — le rhume / un refroidissement\nангина (f) — l'angine\nбронхит (m) — la bronchite\nаллергия (f) — l'allergie\nотравление (n) — l'intoxication alimentaire\nперелом (m) — la fracture\nрана (f) — la blessure / la plaie\nожог (m) — la brûlure\nголовокружение (n) — le vertige / étourdissement"
+          },
+          {
+            "title": "Les symptômes fréquents",
+            "content": "температура — la fièvre\nкашель (m) — la toux\nнасморк (m) — le nez qui coule\nболь (f) — la douleur\nтошнота (f) — la nausée\nрвота (f) — les vomissements\nсыпь (f) — l'éruption cutanée\nусталость (f) — la fatigue\nслабость (f) — la faiblesse\nголовокружение (n) — les vertiges"
+          },
+          {
+            "title": "Phrases essentielles chez le médecin",
+            "content": "Что вас беспокоит? — Qu'est-ce qui vous préoccupe ?\nСколько дней вы болеете? — Depuis combien de jours êtes-vous malade ?\nГде болит? — Où avez-vous mal ?\nОткройте рот. — Ouvrez la bouche.\nДышите глубоко. — Respirez profondément.\nВам нужно отдыхать. — Vous devez vous reposer."
+          }
+        ],
+        "rule": "💡 «Болит» (fait mal, singulier) vs «болят» (font mal, pluriel) : «У меня болит горло» (j'ai mal à la gorge) mais «У меня болят зубы» (j'ai mal aux dents — plusieurs dents). Le verbe s'accorde avec la partie du corps !"
+      },
+      "pronunciation": {
+        "intro": "Des mots importants à bien prononcer si vous consultez un médecin en Russie. En cas d'urgence, ces mots peuvent être vitaux !",
+        "note": "⚠️ «Кашель» [kachel'] — le «ш» se prononce [ch] dur avec les lèvres avancées. «Температура» [tiemperatóura] — accent sur «-ра».",
+        "words": [
+          { "fr": "больно", "ru_pron": "ból'na", "meaning": "ça fait mal" },
+          { "fr": "температура", "ru_pron": "tiemperatóura", "meaning": "la fièvre / la température" },
+          { "fr": "кашель", "ru_pron": "kachel'", "meaning": "la toux" },
+          { "fr": "насморк", "ru_pron": "názmork", "meaning": "le rhume nasal" },
+          { "fr": "грипп", "ru_pron": "grip", "meaning": "la grippe" },
+          { "fr": "аллергия", "ru_pron": "aliérguia", "meaning": "l'allergie" },
+          { "fr": "тошнота", "ru_pron": "tachnatá", "meaning": "la nausée" },
+          { "fr": "слабость", "ru_pron": "slábast'", "meaning": "la faiblesse" },
+          { "fr": "больной", "ru_pron": "ból'noï", "meaning": "malade / le malade" },
+          { "fr": "выздороветь", "ru_pron": "vyzdaravit'", "meaning": "guérir / se rétablir" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "болезнь", "gender": "f", "ru": "la maladie", "ru_pron": "balyézn'", "example_fr": "Это инфекционная болезнь.", "example_ru": "C'est une maladie infectieuse.", "level": "A2" },
+        { "fr": "симптом", "gender": "m", "ru": "le symptôme", "ru_pron": "simptóm", "example_fr": "Какие у вас симптомы?", "example_ru": "Quels sont vos symptômes ?", "level": "A2" },
+        { "fr": "боль", "gender": "f", "ru": "la douleur", "ru_pron": "bol'", "example_fr": "Боль очень сильная.", "example_ru": "La douleur est très forte.", "level": "A2" },
+        { "fr": "температура", "gender": "f", "ru": "la température / la fièvre", "ru_pron": "tiemperatóura", "example_fr": "У меня высокая температура.", "example_ru": "J'ai une forte fièvre.", "meaning_double": "температура = la température ET la fièvre en contexte médical !", "level": "A2" },
+        { "fr": "грипп", "gender": "m", "ru": "la grippe", "ru_pron": "grip", "example_fr": "Я заболел гриппом.", "example_ru": "J'ai attrapé la grippe.", "level": "A2" },
+        { "fr": "кашель", "gender": "m", "ru": "la toux", "ru_pron": "kachel'", "example_fr": "У него сильный кашель.", "example_ru": "Il a une forte toux.", "level": "A2" },
+        { "fr": "аллергия", "gender": "f", "ru": "l'allergie", "ru_pron": "aliérguia", "example_fr": "У меня аллергия на пыльцу.", "example_ru": "J'ai une allergie au pollen.", "level": "A2" },
+        { "fr": "усталость", "gender": "f", "ru": "la fatigue", "ru_pron": "oustáLast'", "example_fr": "Я чувствую сильную усталость.", "example_ru": "Je ressens une grande fatigue.", "level": "A2" },
+        { "fr": "выздороветь", "gender": null, "ru": "guérir / se rétablir", "ru_pron": "vyzdaravit'", "example_fr": "Надеюсь, ты скоро выздоровеешь!", "example_ru": "J'espère que tu vas vite guérir !", "level": "A2" },
+        { "fr": "больной", "gender": "adj m", "ru": "malade / le patient", "ru_pron": "ból'noï", "example_fr": "Больной лежит в постели.", "example_ru": "Le malade est au lit.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "симптом", "fr_pron": "simptóm", "ru": "symptôme", "ru_pron": "symptôme", "note": "«Симптом» est un emprunt direct du grec «symptoma» (coïncidence, accident). Le mot est identique en russe et en français. Les termes médicaux d'origine grecque sont souvent transparents en russe !" },
+        { "fr": "аллергия", "fr_pron": "aliérguia", "ru": "allergie", "ru_pron": "allergie", "note": "«Аллергия» vient du grec «allos» (autre) + «ergon» (réaction). Identique en prononciation au mot français «allergie». La médecine internationale partage un vocabulaire latin-grec commun." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Ilya Metchnikov (1845–1916)", "subtitle": "Prix Nobel de Médecine 1908", "content": "Ilya Metchnikov est le biologiste russe qui découvrit la phagocytose — le mécanisme par lequel les cellules du système immunitaire détruisent les agents pathogènes. Cette découverte révolutionna l'immunologie. Il travailla à l'Institut Pasteur à Paris dès 1888 et devint un ami proche de Louis Pasteur. Il reçut le Prix Nobel de Médecine en 1908. Il est aussi connu pour ses théories sur la longévité et les bienfaits du yaourt et des bactéries lactiques." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La variole éradiquée en URSS avant le monde", "content": "L'URSS fut le premier pays à éradiquer la variole sur son territoire en 1936, soit plus de 40 ans avant l'éradication mondiale annoncée par l'OMS en 1980. Le virologiste soviétique Viktor Zhdanov proposa en 1958 à l'OMS un programme mondial d'éradication, qui fut adopté. La vaccination obligatoire soviétique et l'organisation centralisée du système de santé permirent cet exploit sans précédent." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Скорая помощь» — l'ambulance russe", "content": "La «скорая помощь» (littéralement «aide rapide») est le SAMU russe, joignable au numéro 103. En Russie, il est courant d'appeler la «скорая» même pour des maux bénins — le service est gratuit. Les ambulances soviétiques étaient légendaires : des équipes médicales complètes (médecin, infirmière, matériel) intervenaient à domicile. Aujourd'hui encore, les Russes font davantage confiance aux médecins qui «viennent chez eux» qu'aux consultations en cabinet." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Скорейшего выздоровления!", "pronunciation": "Skaréïchiva vyzdoravlénia", "translation": "Prompt rétablissement !", "usage": "La formule russe pour souhaiter à quelqu'un de guérir vite. Utilisée à l'oral et surtout à l'écrit (cartes, messages). Équivalent exact du français «prompt rétablissement». Plus formel : «Желаю вам скорейшего выздоровления» (Je vous souhaite un prompt rétablissement).", "example": "— Я слышал, ты болен. — Скорейшего выздоровления! (J'ai entendu que tu étais malade. — Prompt rétablissement !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Sotchi — Ville thermale de la mer Noire", "subtitle": "Сочи — Курортная столица России", "content": "Sotchi (Сочи) est la capitale des stations balnéaires russes, sur la mer Noire, avec un climat subtropical unique en Russie. Connue depuis le XIXe siècle pour ses sanatoriums et cures de repos, elle accueillit les Jeux Olympiques d'hiver 2014. Les sanatoriums soviétiques de Sotchi représentaient une médecine préventive collective : repos, air pur, bains, thérapies — toujours très prisés des Russes aujourd'hui." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «j'ai de la fièvre» en russe ?", "opts": ["Я горячий.", "У меня температура.", "Мне горячо.", "Я с температурой."], "ans": 1, "exp": "«У меня температура» = j'ai de la fièvre. «Температура» en contexte médical signifie automatiquement la fièvre en russe." },
+        { "q": "Que signifie «болит» dans la phrase «У меня болит горло» ?", "opts": ["J'ai une gorge", "Ma gorge est grande", "J'ai mal à la gorge", "Ma gorge est belle"], "ans": 2, "exp": "«У меня болит горло» = j'ai mal à la gorge. «Болит» vient de «болеть» (faire mal). C'est la construction standard pour exprimer une douleur localisée." },
+        { "q": "«Грипп» signifie :", "opts": ["Le rhume", "La grippe", "L'angine", "La bronchite"], "ans": 1, "exp": "«Грипп» = la grippe. C'est un emprunt du français «grippe» (ou de l'allemand «Grippe»), qui lui-même vient du français «agripper» — l'idée de la maladie qui «attrape» son hôte." },
+        { "q": "Comment s'accorde «болят» dans «У меня болят зубы» ?", "opts": ["Avec le pronom «я»", "Avec «У меня»", "Avec «зубы» (pluriel)", "C'est un infinitif"], "ans": 2, "exp": "«Болят» est la forme plurielle de «болит». Il s'accorde avec «зубы» (les dents, pluriel). Un seul organe = болит, plusieurs = болят." },
+        { "q": "Que signifie l'expression «Скорейшего выздоровления» ?", "opts": ["Bonne santé !", "Prompt rétablissement !", "Attention à ta santé !", "Vas chez le médecin !"], "ans": 1, "exp": "«Скорейшего выздоровления» = prompt rétablissement ! C'est la formule standard pour souhaiter à quelqu'un de guérir. «Выздороветь» = guérir, «скорейший» = le plus rapide." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Chez le Médecin",
+      "titleRu": "У врача",
+      "level": "A2",
+      "grammar": {
+        "title": "Consulter un médecin en russe",
+        "titleRu": "У врача",
+        "intro": "En Russie, le système médical distingue les polycliniques (поликлиника) — centres de santé publics — des médecins privés. Il existe plusieurs spécialités médicales dont les noms se ressemblent beaucoup en russe et en français. La consultation se déroule de façon très structurée : le médecin pose des questions précises et l'on doit décrire ses symptômes avec précision.",
+        "sections": [
+          {
+            "title": "Les spécialistes médicaux",
+            "content": "врач (m) / доктор (m) — le médecin / le docteur\nтерапевт (m) — le généraliste / l'interniste\nхирург (m) — le chirurgien\nпедиатр (m) — le pédiatre\nкардиолог (m) — le cardiologue\nдерматолог (m) — le dermatologue\nневролог (m) — le neurologue\nстоматолог (m) — le dentiste\nокулист (m) — l'ophtalmologue\nгинеколог (m) — le gynécologue"
+          },
+          {
+            "title": "Dialogue type à la consultation",
+            "content": "— Здравствуйте, на что жалуетесь? — Bonjour, de quoi vous plaignez-vous ?\n— У меня болит горло и температура 38. — J'ai mal à la gorge et 38 de fièvre.\n— Давно болеете? — Depuis longtemps ?\n— Три дня. — Trois jours.\n— Откройте рот, скажите «А». — Ouvrez la bouche, dites «A».\n— Я выпишу вам рецепт. — Je vais vous faire une ordonnance.\n— Через неделю придите снова. — Revenez dans une semaine."
+          },
+          {
+            "title": "Les examens médicaux",
+            "content": "анализ крови — une analyse de sang\nрентген — une radio\nУЗИ — une échographie (ultrason)\nЭКГ — un ECG\nвакцинация — une vaccination\nоперация — une opération\nперевязка — un pansement\nукол (m) — une piqûre / une injection\nтаблетка (f) — un comprimé\nрецепт (m) — une ordonnance"
+          }
+        ],
+        "rule": "💡 «На что жалуетесь ?» (de quoi vous plaignez-vous ?) est LA question que pose tout médecin russe. «Жаловаться» = se plaindre. Répondre : «Жалуюсь на...» + symptôme. Ex: «Жалуюсь на кашель» (je me plains de la toux)."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire médical en russe est souvent d'origine latine ou grecque — vous reconnaîtrez beaucoup de mots !",
+        "note": "⚠️ «Хирург» [khirourg] — le «х» est guttural comme dans «Bach». «Стоматолог» [stamatalok] — 5 syllabes, accent sur «-ло».",
+        "words": [
+          { "fr": "врач", "ru_pron": "vratch", "meaning": "le médecin" },
+          { "fr": "терапевт", "ru_pron": "tierapyévt", "meaning": "le généraliste" },
+          { "fr": "хирург", "ru_pron": "khirourg", "meaning": "le chirurgien" },
+          { "fr": "стоматолог", "ru_pron": "stamatolok", "meaning": "le dentiste" },
+          { "fr": "рецепт", "ru_pron": "ritsept", "meaning": "l'ordonnance / la recette" },
+          { "fr": "укол", "ru_pron": "oukol", "meaning": "la piqûre" },
+          { "fr": "таблетка", "ru_pron": "tablyétka", "meaning": "le comprimé" },
+          { "fr": "операция", "ru_pron": "apirátsia", "meaning": "l'opération" },
+          { "fr": "анализ", "ru_pron": "análiz", "meaning": "l'analyse" },
+          { "fr": "рентген", "ru_pron": "rintguén", "meaning": "la radiographie / radio" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "врач", "gender": "m", "ru": "le médecin", "ru_pron": "vratch", "example_fr": "Мне нужен врач.", "example_ru": "J'ai besoin d'un médecin.", "level": "A2" },
+        { "fr": "больница", "gender": "f", "ru": "l'hôpital", "ru_pron": "bal'nítsa", "example_fr": "Его увезли в больницу.", "example_ru": "On l'a emmené à l'hôpital.", "level": "A2" },
+        { "fr": "поликлиника", "gender": "f", "ru": "la polyclinique / le centre médical", "ru_pron": "paliklinika", "example_fr": "Я записался в поликлинику.", "example_ru": "Je me suis inscrit à la polyclinique.", "level": "A2" },
+        { "fr": "рецепт", "gender": "m", "ru": "l'ordonnance / la recette", "ru_pron": "ritsept", "example_fr": "Врач выписал рецепт.", "example_ru": "Le médecin a rédigé une ordonnance.", "meaning_double": "рецепт = l'ordonnance médicale ET la recette de cuisine !", "level": "A2" },
+        { "fr": "таблетка", "gender": "f", "ru": "le comprimé / la pilule", "ru_pron": "tablyétka", "example_fr": "Примите таблетку три раза в день.", "example_ru": "Prenez un comprimé trois fois par jour.", "level": "A2" },
+        { "fr": "укол", "gender": "m", "ru": "la piqûre / l'injection", "ru_pron": "oukol", "example_fr": "Медсестра сделала укол.", "example_ru": "L'infirmière a fait une piqûre.", "level": "A2" },
+        { "fr": "скорая помощь", "gender": "f", "ru": "l'ambulance / le SAMU", "ru_pron": "skóraia pómachtch'", "example_fr": "Вызовите скорую помощь!", "example_ru": "Appelez l'ambulance !", "level": "A2" },
+        { "fr": "страховка", "gender": "f", "ru": "l'assurance (médicale)", "ru_pron": "strakhóvka", "example_fr": "У вас есть страховка?", "example_ru": "Avez-vous une assurance ?", "level": "A2" },
+        { "fr": "операция", "gender": "f", "ru": "l'opération chirurgicale", "ru_pron": "apirátsia", "example_fr": "Ему нужна операция.", "example_ru": "Il a besoin d'une opération.", "level": "A2" },
+        { "fr": "медсестра", "gender": "f", "ru": "l'infirmière", "ru_pron": "midsistrá", "example_fr": "Медсестра измерила давление.", "example_ru": "L'infirmière a pris la tension.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "кардиолог", "fr_pron": "kardialok", "ru": "cardiologue", "ru_pron": "cardiologue", "note": "«Кардиолог» est identique au français «cardiologue» — même racine grecque «kardia» (cœur) + «logos» (science). Tous les noms de spécialités médicales en -лог correspondent exactement aux -logue français !" },
+        { "fr": "диагноз", "fr_pron": "diágnaz", "ru": "diagnostic", "ru_pron": "diagnostic", "note": "«Диагноз» (le diagnostic) vient du grec «diagnosis». En russe, on dit «поставить диагноз» (poser un diagnostic), comme en français." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Semaschko (1874–1949)", "subtitle": "Créateur du premier système de santé universel", "content": "Nikolaï Semaschko fut le premier Commissaire du Peuple à la Santé de l'URSS (1918–1930). Il créa le «système Semachko» : médecine gratuite, universelle, préventive et centralisée. Ce système a servi de modèle au NHS britannique et à de nombreux systèmes de santé mondiaux. Sous sa direction, l'espérance de vie en URSS passa de 32 ans (1917) à 44 ans (1930). Il est considéré comme l'un des plus grands organisateurs de santé publique du XXe siècle." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les sanatoriums soviétiques — médecine préventive de masse", "content": "L'URSS développa un réseau unique de sanatoriums (санатории) destinés à la prévention et au repos des travailleurs. Chaque syndicat pouvait envoyer ses membres en sanatorium à la mer Noire, dans le Caucase ou en Crimée, entièrement pris en charge. À son apogée, ce réseau comptait plus de 14 000 établissements. Ces sanatoriums combinaient repos, physiothérapie, alimentation contrôlée et air pur — une vision holistique de la santé unique au monde." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Больничный» — l'arrêt maladie russe", "content": "En Russie, le «больничный лист» (certificat médical d'arrêt de travail) a une importance capitale. Le médecin le délivre pour toute maladie, même bénigne. Il est illégal de travailler sans en avoir un si l'on est malade. Les Russes ont culturellement une relation très sérieuse avec la maladie : se présenter au travail avec de la fièvre est considéré comme irresponsable. «Иди лечись!» (Va te soigner !) est un conseil sincère et bienveillant." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Береги здоровье смолоду.", "pronunciation": "Birigí zdorów'e smóladu", "translation": "Prends soin de ta santé dès le plus jeune âge.", "usage": "Proverbe russe équivalent à «mieux vaut prévenir que guérir». «Смолоду» = depuis la jeunesse. Rappelle l'importance de la prévention médicale, très ancrée dans la culture soviétique.", "example": "— Зачем ты так много спишь? — Береги здоровье смолоду! (Pourquoi tu dors autant ? — Prends soin de ta santé dès le plus jeune âge !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Minsk — La pharmacopée biélorusse", "subtitle": "Минск — Традиции народной медицины", "content": "La Biélorussie (Беларусь) a maintenu une tradition forte de médecine par les plantes (фитотерапия) et de remèdes naturels. Les pharmacies biélorusses proposent encore des préparations à base d'herbes médicinales. Minsk possède plusieurs instituts de recherche médicale de renommée internationale. La médecine biélorusse est réputée dans toute l'ex-URSS pour ses centres de traitement des maladies cardio-vasculaires." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «l'ambulance» en russe ?", "opts": ["скорая помощь", "больница", "поликлиника", "медпункт"], "ans": 0, "exp": "«Скорая помощь» = l'ambulance / le SAMU. Littéralement «aide rapide». Le numéro d'urgence en Russie est le 103." },
+        { "q": "Que signifie «рецепт» en russe ?", "opts": ["Uniquement l'ordonnance", "Uniquement la recette de cuisine", "L'ordonnance ET la recette de cuisine", "Le médicament"], "ans": 2, "exp": "«Рецепт» a deux sens : l'ordonnance médicale ET la recette de cuisine. Le contexte détermine le sens !" },
+        { "q": "La question «На что жалуетесь ?» signifie :", "opts": ["Comment vous appelez-vous ?", "De quoi vous plaignez-vous ?", "Depuis combien de temps êtes-vous malade ?", "Avez-vous une assurance ?"], "ans": 1, "exp": "«На что жалуетесь ?» = de quoi vous plaignez-vous ? C'est LA question que pose tout médecin russe en début de consultation. «Жаловаться» = se plaindre." },
+        { "q": "Comment dit-on «le dentiste» en russe ?", "opts": ["зубной врач / стоматолог", "кардиолог", "хирург", "педиатр"], "ans": 0, "exp": "Le dentiste = «зубной врач» (médecin dentaire) ou «стоматолог» (stomatologue). Les deux s'utilisent couramment." },
+        { "q": "Que signifie «Вызовите скорую !» ?", "opts": ["Appelez un taxi !", "Appelez la police !", "Appelez l'ambulance !", "Appelez le médecin !"], "ans": 2, "exp": "«Вызовите скорую !» = appelez l'ambulance ! «Вызвать» = appeler / faire venir. C'est une phrase d'urgence à mémoriser absolument !" }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "La Pharmacie",
+      "titleRu": "В аптеке",
+      "level": "A2",
+      "grammar": {
+        "title": "Acheter des médicaments en pharmacie russe",
+        "titleRu": "В аптеке",
+        "intro": "La pharmacie (аптека) russe est reconnaissable à son enseigne verte avec une croix. En Russie, de nombreux médicaments sont disponibles sans ordonnance, et les pharmaciens (farmatsevty) donnent souvent des conseils médicaux. Le vocabulaire pharmaceutique est en grande partie d'origine latine-grecque et ressemble au français — une bonne nouvelle pour les francophones !",
+        "sections": [
+          {
+            "title": "Phrases utiles à la pharmacie",
+            "content": "— У вас есть что-нибудь от головной боли? — Avez-vous quelque chose contre les maux de tête ?\n— У вас есть аспирин? — Avez-vous de l'aspirine ?\n— Это без рецепта? — C'est sans ordonnance ?\n— Как принимать? — Comment le prendre ?\n— Три раза в день после еды. — Trois fois par jour après les repas.\n— Сколько стоит? — Combien ça coûte ?"
+          },
+          {
+            "title": "Les médicaments courants",
+            "content": "таблетка (f) — le comprimé\nкапсула (f) — la gélule\nсироп (m) — le sirop\nкапли (pl) — les gouttes\nмазь (f) — la pommade / la crème\nпластырь (m) — le sparadrap / le pansement adhésif\nбинт (m) — la bande\nвата (f) — le coton\nшприц (m) — la seringue\nтермометр (m) — le thermomètre"
+          },
+          {
+            "title": "Instructions d'utilisation",
+            "content": "принимать — prendre (un médicament)\nпить 3 раза в день — boire 3 fois par jour\nдо еды — avant les repas\nпосле еды — après les repas\nна голодный желудок — à jeun\nне превышать дозу — ne pas dépasser la dose\nхранить в холодильнике — conserver au réfrigérateur\nсрок годности — la date de péremption\nпобочные эффекты — les effets secondaires"
+          }
+        ],
+        "rule": "💡 «От + génitif» pour dire «contre» une maladie : «от головной боли» (contre les maux de tête), «от кашля» (contre la toux), «от температуры» (contre la fièvre). Structure : «У вас есть что-нибудь от...?» = avez-vous quelque chose contre...?"
+      },
+      "pronunciation": {
+        "intro": "Les mots de la pharmacie sont souvent proches du français — prononcez-les et vous serez compris !",
+        "note": "⚠️ «Мазь» [maz'] se termine par le signe mou — la consonne finale est douce. «Пластырь» [plastyr'] — accent sur la première syllabe.",
+        "words": [
+          { "fr": "аптека", "ru_pron": "aptéka", "meaning": "la pharmacie" },
+          { "fr": "таблетка", "ru_pron": "tablyétka", "meaning": "le comprimé" },
+          { "fr": "сироп", "ru_pron": "siróp", "meaning": "le sirop" },
+          { "fr": "мазь", "ru_pron": "maz'", "meaning": "la pommade" },
+          { "fr": "пластырь", "ru_pron": "plástyr'", "meaning": "le sparadrap" },
+          { "fr": "термометр", "ru_pron": "tiermómietr", "meaning": "le thermomètre" },
+          { "fr": "витамин", "ru_pron": "vitamín", "meaning": "la vitamine" },
+          { "fr": "антибиотик", "ru_pron": "antibiatik", "meaning": "l'antibiotique" },
+          { "fr": "обезболивающее", "ru_pron": "abizbalivayoutcheye", "meaning": "l'analgésique / l'antidouleur" },
+          { "fr": "срок годности", "ru_pron": "srok gódnasti", "meaning": "la date de péremption" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "аптека", "gender": "f", "ru": "la pharmacie", "ru_pron": "aptéka", "example_fr": "Ближайшая аптека где?", "example_ru": "Où est la pharmacie la plus proche ?", "level": "A2" },
+        { "fr": "лекарство", "gender": "n", "ru": "le médicament", "ru_pron": "liékartva", "example_fr": "Принимайте это лекарство.", "example_ru": "Prenez ce médicament.", "level": "A2" },
+        { "fr": "витамин", "gender": "m", "ru": "la vitamine", "ru_pron": "vitamín", "example_fr": "Принимайте витамин С.", "example_ru": "Prenez de la vitamine C.", "level": "A2" },
+        { "fr": "антибиотик", "gender": "m", "ru": "l'antibiotique", "ru_pron": "antibiatik", "example_fr": "Врач выписал антибиотики.", "example_ru": "Le médecin a prescrit des antibiotiques.", "level": "A2" },
+        { "fr": "обезболивающее", "gender": "n", "ru": "l'analgésique / l'antidouleur", "ru_pron": "abizbalivayoutcheye", "example_fr": "Дайте мне обезболивающее!", "example_ru": "Donnez-moi un analgésique !", "level": "A2" },
+        { "fr": "мазь", "gender": "f", "ru": "la pommade / la crème médicale", "ru_pron": "maz'", "example_fr": "Нанесите мазь на рану.", "example_ru": "Appliquez la pommade sur la plaie.", "level": "A2" },
+        { "fr": "капли", "gender": "pl", "ru": "les gouttes", "ru_pron": "kápli", "example_fr": "Капли в нос три раза в день.", "example_ru": "Les gouttes nasales trois fois par jour.", "level": "A2" },
+        { "fr": "доза", "gender": "f", "ru": "la dose", "ru_pron": "dóza", "example_fr": "Не превышайте дозу!", "example_ru": "Ne dépassez pas la dose !", "level": "A2" },
+        { "fr": "побочный эффект", "gender": "m", "ru": "l'effet secondaire", "ru_pron": "pabótchny effékt", "example_fr": "Какие побочные эффекты?", "example_ru": "Quels sont les effets secondaires ?", "level": "A2" },
+        { "fr": "срок годности", "gender": "m", "ru": "la date de péremption", "ru_pron": "srok gódnasti", "example_fr": "Проверьте срок годности.", "example_ru": "Vérifiez la date de péremption.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "антибиотик", "fr_pron": "antibiatik", "ru": "antibiotique", "ru_pron": "antibiotique", "note": "«Антибиотик» est identique au français «antibiotique» — même étymologie grecque «anti» (contre) + «bios» (vie). Les mots pharmaceutiques d'origine gréco-latine sont quasi-universels !" },
+        { "fr": "термометр", "fr_pron": "tiermomietr", "ru": "thermomètre", "ru_pron": "thermomètre", "note": "«Термометр» = thermomètre, de «thermos» (chaud) + «metron» (mesure). Identique en russe et en français. La Russie utilise l'échelle Celsius comme la France." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Alexander Fleming (et la pénicilline soviétique)", "subtitle": "La pénicilline en URSS — une révolution sanitaire", "content": "Bien que Fleming ait découvert la pénicilline en 1928, c'est la microbiologiste soviétique Zinaïda Yermolieva qui développa indépendamment sa propre version en 1942, durant le siège de Stalingrad. Sa «pénicilline soviétique» fut produite en masse et sauva des milliers de vies pendant la Seconde Guerre mondiale. Elle fut surnommée «Dame Pénicilline» en URSS. Son travail fut parallèle et contemporain de celui de Fleming, sans qu'ils se connaissent." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les аптеки — 500 ans d'histoire", "content": "La première pharmacie officielle de Russie fut ouverte par Ivan le Terrible en 1581 dans le Kremlin de Moscou, exclusivement pour le tsar. Pierre le Grand généralisa les pharmacies au public en 1701. Sous l'URSS, les pharmacies étaient nationalisées et les médicaments vendus à prix très bas. Aujourd'hui, la Russie compte plus de 60 000 pharmacies, souvent ouvertes 24h/24 dans les grandes villes." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La vodka — «médicament» traditionnel russe", "content": "Historiquement en Russie, la vodka servait de remède pour de nombreux maux : rhume, douleurs, morsures... L'expression «для сугрева» (pour se réchauffer) justifiait une goutte de vodka par grand froid. Aujourd'hui encore, certains Russes appliquent de la vodka en compresse sur les plaies (désinfectant improvisé) ou en gargarisme contre l'angine. Les médecins modernes déconseillent ces pratiques, mais elles restent ancrées dans la culture populaire." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Таблетку от жадности не выпишут.", "pronunciation": "Tablyétkou at jádnasti nie výpichat'", "translation": "On ne prescrit pas de comprimé contre l'avarice.", "usage": "Expression humoristique russe signifiant qu'on ne peut pas guérir les défauts de caractère avec des médicaments. Utilisée pour se moquer gentiment de quelqu'un d'avare ou d'égoïste.", "example": "— Il ne prête jamais rien ! — Таблетку от жадности не выпишут. (On ne prescrit pas de comprimé contre l'avarice.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Tbilissi — Les bains sulfureux de Géorgie", "subtitle": "Тбилиси — Сернистые бани Абанотубани", "content": "Tbilissi, la capitale géorgienne, tire son nom du géorgien «tbili» (chaud) — en référence aux sources sulfureuses chaudes qui jaillissent sous la vieille ville. Le quartier des bains d'Abanotubani propose des bains souterrains naturellement chauffés à 37-40°C, réputés pour soigner les douleurs articulaires et la peau. Alexandre Dumas et Alexandre Pouchkine s'y sont baignés au XIXe siècle. Une expérience unique entre santé et histoire." }
+      },
+      "quiz": [
+        { "q": "Comment demander quelque chose «contre la toux» en pharmacie ?", "opts": ["Что-нибудь для кашля ?", "Что-нибудь от кашля ?", "Что-нибудь с кашлем ?", "Что-нибудь без кашля ?"], "ans": 1, "exp": "«От + génitif» = contre : «от кашля» (contre la toux). La préposition «от» indique ici le remède contre un mal. C'est la formule standard en pharmacie." },
+        { "q": "Que signifie «принимать три раза в день после еды» ?", "opts": ["Prendre une fois par jour avant les repas", "Prendre trois fois par jour avant les repas", "Prendre trois fois par jour après les repas", "Prendre deux fois par jour à jeun"], "ans": 2, "exp": "«Три раза в день» = trois fois par jour, «после еды» = après les repas. À mémoriser : «до еды» = avant les repas, «после еды» = après les repas." },
+        { "q": "«Аптека» signifie :", "opts": ["L'hôpital", "La pharmacie", "La polyclinique", "La clinique privée"], "ans": 1, "exp": "«Аптека» = la pharmacie. Le mot vient du grec «apotheke» (entrepôt, réserve). On reconnaît les pharmacies russes à leur enseigne verte." },
+        { "q": "Comment dit-on «la date de péremption» en russe ?", "opts": ["дата смерти", "срок годности", "конец срока", "дата изготовления"], "ans": 1, "exp": "«Срок годности» = la date de péremption. «Срок» = le délai/terme, «годность» = la validité. «Дата изготовления» = la date de fabrication." },
+        { "q": "«Побочные эффекты» signifie :", "opts": ["La posologie", "Les contre-indications", "Les effets secondaires", "Les ingrédients actifs"], "ans": 2, "exp": "«Побочные эффекты» = les effets secondaires. «Побочный» = latéral / secondaire. Information à toujours vérifier sur la notice du médicament !" }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Le Sport et l'Activité Physique",
+      "titleRu": "Спорт и физкультура",
+      "level": "A2",
+      "grammar": {
+        "title": "Le sport en russe — vocabulaire et conjugaison",
+        "titleRu": "Спорт и физкультура",
+        "intro": "Le sport est très présent dans la culture russe, héritage de l'éducation physique soviétique (физкультура, abréviation de «физическая культура»). La Russie a produit des champions olympiques dans de nombreuses disciplines. Pour parler de sport, on utilise les verbes «заниматься» (pratiquer/faire) + datif, «играть» (jouer) + в + accusatif, et «ходить» (aller) + в/на + accusatif.",
+        "sections": [
+          {
+            "title": "Les sports populaires en Russie",
+            "content": "хоккей (m) — le hockey (sur glace)\nфутбол (m) — le football\nволейбол (m) — le volleyball\nгимнастика (f) — la gymnastique\nдзюдо (n) — le judo\nтеннис (m) — le tennis\nплавание (n) — la natation\nлыжи (pl) — le ski\nбоксёрский спорт / бокс (m) — la boxe\nборьба (f) — la lutte\nшахматы (pl) — les échecs"
+          },
+          {
+            "title": "Conjugaison : jouer à un sport",
+            "content": "«Играть в + accusatif» pour les sports avec balle / jeux :\nЯ играю в футбол. — Je joue au football.\nТы играешь в теннис? — Tu joues au tennis ?\nОн играет в хоккей. — Il joue au hockey.\nМы играем в волейбол. — Nous jouons au volleyball.\n\n«Заниматься + instrumental» pour les autres sports :\nЯ занимаюсь плаванием. — Je fais de la natation.\nОна занимается гимнастикой. — Elle fait de la gymnastique."
+          },
+          {
+            "title": "Le lieu de sport",
+            "content": "спортзал (m) — la salle de sport / le gymnase\nбассейн (m) — la piscine\nстадион (m) — le stade\nкаток (m) — la patinoire\nфитнес-центр (m) — le centre de fitness\nпарк (m) — le parc (pour courir)\nзал единоборств — la salle d'arts martiaux\nтренировка (f) — l'entraînement\nтренер (m) — l'entraîneur / le coach\nсоревнование (n) — la compétition"
+          }
+        ],
+        "rule": "💡 Deux structures pour parler de sport : «Играю В футбол» (je joue AU football) — préposition В + accusatif pour les jeux collectifs. «Занимаюсь плаванием» (je fais de la natation) — заниматься + instrumental pour les activités individuelles."
+      },
+      "pronunciation": {
+        "intro": "Beaucoup de sports sont des emprunts à l'anglais ou au français — vous les reconnaîtrez facilement !",
+        "note": "⚠️ «Хоккей» [khakéï] — le «х» est guttural. «Бассейн» [bassyéïn] — accent sur «-сейн». «Тренировка» [triniróvka] — accent sur «-ров».",
+        "words": [
+          { "fr": "спорт", "ru_pron": "sport", "meaning": "le sport" },
+          { "fr": "хоккей", "ru_pron": "khakéï", "meaning": "le hockey" },
+          { "fr": "плавание", "ru_pron": "plávanié", "meaning": "la natation" },
+          { "fr": "тренировка", "ru_pron": "triniróvka", "meaning": "l'entraînement" },
+          { "fr": "бассейн", "ru_pron": "bassyéïn", "meaning": "la piscine" },
+          { "fr": "стадион", "ru_pron": "stadión", "meaning": "le stade" },
+          { "fr": "чемпион", "ru_pron": "tchempión", "meaning": "le champion" },
+          { "fr": "победа", "ru_pron": "pabyéda", "meaning": "la victoire" },
+          { "fr": "тренер", "ru_pron": "tryéner", "meaning": "l'entraîneur" },
+          { "fr": "физкультура", "ru_pron": "fizkoul'toura", "meaning": "l'éducation physique / la gym" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "спорт", "gender": "m", "ru": "le sport", "ru_pron": "sport", "example_fr": "Я занимаюсь спортом каждый день.", "example_ru": "Je fais du sport tous les jours.", "level": "A2" },
+        { "fr": "хоккей", "gender": "m", "ru": "le hockey (sur glace)", "ru_pron": "khakéï", "example_fr": "Хоккей очень популярен в России.", "example_ru": "Le hockey est très populaire en Russie.", "level": "A2" },
+        { "fr": "тренировка", "gender": "f", "ru": "l'entraînement / la séance", "ru_pron": "triniróvka", "example_fr": "Тренировка начинается в 7 утра.", "example_ru": "L'entraînement commence à 7h du matin.", "level": "A2" },
+        { "fr": "победа", "gender": "f", "ru": "la victoire", "ru_pron": "pabyéda", "example_fr": "Победа за нами!", "example_ru": "La victoire est à nous !", "level": "A2" },
+        { "fr": "чемпион", "gender": "m", "ru": "le champion", "ru_pron": "tchempión", "example_fr": "Он чемпион мира по шахматам.", "example_ru": "Il est champion du monde d'échecs.", "level": "A2" },
+        { "fr": "бегать", "gender": null, "ru": "courir (de façon régulière)", "ru_pron": "byégat'", "example_fr": "Я бегаю каждое утро.", "example_ru": "Je cours chaque matin.", "level": "A2" },
+        { "fr": "плавать", "gender": null, "ru": "nager (de façon régulière)", "ru_pron": "plávat'", "example_fr": "Она плавает в бассейне.", "example_ru": "Elle nage dans la piscine.", "level": "A2" },
+        { "fr": "прыгать", "gender": null, "ru": "sauter", "ru_pron": "prýgat'", "example_fr": "Дети любят прыгать.", "example_ru": "Les enfants aiment sauter.", "level": "A2" },
+        { "fr": "физкультура", "gender": "f", "ru": "l'éducation physique / la gym", "ru_pron": "fizkoul'toura", "example_fr": "Физкультура обязательна в школе.", "example_ru": "L'EPS est obligatoire à l'école.", "level": "A2" },
+        { "fr": "медаль", "gender": "f", "ru": "la médaille", "ru_pron": "midál'", "example_fr": "Она выиграла золотую медаль.", "example_ru": "Elle a remporté la médaille d'or.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "чемпион", "fr_pron": "tchempión", "ru": "champion", "ru_pron": "champion", "note": "«Чемпион» est un emprunt direct de l'anglais «champion», lui-même venu du latin «campio». Le sport international a unifié ce vocabulaire dans toutes les langues." },
+        { "fr": "стадион", "fr_pron": "stadión", "ru": "stade", "ru_pron": "stade", "note": "«Стадион» vient du grec «stadion» (mesure de 600 pieds). Comme «stade» en français, ils partagent la même étymologie grecque désignant une piste de course antique." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Lev Yachine (1929–1990)", "subtitle": "Le meilleur gardien de but de l'histoire du football", "content": "Lev Yachine (Лев Яшин), surnommé «la Araignée Noire», est le seul gardien de but à avoir remporté le Ballon d'Or (1963). Il joua toute sa carrière au Dynamo Moscou (1949–1971) et gardait souvent les buts vêtu de noir, d'où son surnom. Il révolutionna le poste de gardien en introduisant le jeu aux pieds et les sorties à la main. Pelé, Beckenbauer et tous les grands joueurs l'ont désigné comme le meilleur gardien de l'histoire." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'URSS aux Jeux Olympiques — une puissance sportive", "content": "L'URSS participa aux Jeux Olympiques de 1952 à 1988 et devint une puissance sportive mondiale. Aux JO de 1980 à Moscou, 80 pays boycottèrent les jeux (en protestation contre l'invasion de l'Afghanistan), mais l'URSS remporta 80 médailles d'or. Les gymnases soviétiques, la médecine sportive et le système d'entraînement des jeunes talents furent copiés dans le monde entier. La Russie continue d'exceller en hockey, en lutte, en échecs et en athlétisme." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les échecs — sport national russe", "content": "Les échecs (шахматы) sont considérés comme un sport national en Russie. Depuis les années 1920, l'État soviétique les promut comme «sport de l'esprit». De 1948 à 1972, les champions du monde furent presque tous soviétiques (Botvinnik, Spassky, Petrossian, Karpov, Kasparov). Les clubs d'échecs étaient subventionnés dans toutes les villes. Aujourd'hui encore, les Russes jouent aux échecs dans les parcs, cafés et en ligne, à tous les âges." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Быстрее, выше, сильнее!", "pronunciation": "Bystryéye, výche, síl'neyé", "translation": "Plus vite, plus haut, plus fort !", "usage": "La devise olympique en russe ! Traduction directe du latin «Citius, Altius, Fortius». Utilisée couramment pour encourager quelqu'un à se dépasser, pas uniquement dans le sport.", "example": "— Je n'arrive pas à courir plus vite ! — Быстрее, выше, сильнее! Tu peux le faire !" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Sotchi — Station olympique de la mer Noire", "subtitle": "Сочи — Олимпийская столица 2014", "content": "Sotchi accueillit les Jeux Olympiques d'hiver 2014, une démonstration de puissance sportive et économique de la Russie. Les installations olympiques y sont préservées : la patinoire Bolchoï, la piste de bobsleigh, le parc olympique. La ville cumule la mer Noire (plages en été) et les montagnes du Caucase (ski en hiver) — unique au monde. Les cures thermales ajoutent une dimension santé à cette destination sportive complète." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je joue au football» en russe ?", "opts": ["Я занимаюсь футболом.", "Я играю в футбол.", "Я делаю футбол.", "Я хожу футбол."], "ans": 1, "exp": "«Я играю в футбол» = je joue au football. «Играть В + accusatif» pour les sports collectifs avec balle. «Заниматься + instrumental» pour les autres sports." },
+        { "q": "Quel sport est considéré comme un «sport national» en Russie ?", "opts": ["Le football", "La natation", "Les échecs", "Le tennis"], "ans": 2, "exp": "Les échecs (шахматы) sont considérés comme le sport national intellectuel de Russie. Depuis les années soviétiques, les champions d'échecs étaient vénérés comme des héros nationaux." },
+        { "q": "Que signifie «физкультура» ?", "opts": ["La physique", "La culture physique / l'EPS", "Les sciences naturelles", "La kinésithérapie"], "ans": 1, "exp": "«Физкультура» = физическая культура (culture physique). C'est l'EPS soviétique, une matière obligatoire dans toutes les écoles. Le mot reste utilisé de nos jours." },
+        { "q": "Lev Yachine est célèbre pour :", "opts": ["Être champion d'échecs", "Être le meilleur gardien de but de l'histoire", "Avoir remporté l'or olympique au judo", "Avoir couru aux JO de Moscou"], "ans": 1, "exp": "Lev Yachine est le seul gardien de but à avoir remporté le Ballon d'Or (1963). Il jouait au Dynamo Moscou et est universellement reconnu comme le meilleur gardien de l'histoire." },
+        { "q": "La devise «Быстрее, выше, сильнее!» correspond à :", "opts": ["Le serment olympique", "La devise olympique «Plus vite, plus haut, plus fort»", "Le slogan des JO de Moscou 1980", "Un proverbe russe sur le sport"], "ans": 1, "exp": "«Быстрее, выше, сильнее» est la traduction russe de la devise olympique latine «Citius, Altius, Fortius» (Plus vite, plus haut, plus fort)." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "L'Alimentation et la Santé",
+      "titleRu": "Питание и здоровье",
+      "level": "A2",
+      "grammar": {
+        "title": "Parler de son alimentation et de ses habitudes de santé",
+        "titleRu": "Питание и здоровье",
+        "intro": "L'alimentation (питание) est un sujet central dans la culture russe. Les Russes attachent une grande importance aux produits frais, aux plats faits maison et aux remèdes naturels. La cuisine russe est réputée pour ses soupes nourrissantes, ses produits fermentés (kéfir, kvass) et ses légumes marinés riches en probiotiques. Pour parler d'alimentation et de santé, on utilise surtout les verbes «есть / питаться» (manger / se nourrir) et des adjectifs comme «полезный» (bon pour la santé) et «вредный» (mauvais pour la santé).",
+        "sections": [
+          {
+            "title": "Aliments sains vs moins sains",
+            "content": "полезный для здоровья — bon pour la santé\nвредный для здоровья — mauvais pour la santé\nнатуральный — naturel\nорганический / экологичный — bio / organique\nсвежий — frais\nконсервированный — en conserve\nжирный — gras\nсладкий — sucré\nсолёный — salé\nдиетический — diététique / léger"
+          },
+          {
+            "title": "Régimes alimentaires",
+            "content": "вегетарианство (n) — le végétarisme\nвеганство (n) — le véganisme\nдиета (f) — le régime alimentaire\nпост (m) — le jeûne / le carême (religieux)\nна диете — au régime\nхудеть — maigrir / perdre du poids\nнабирать вес — prendre du poids\nкалория (f) — la calorie\nбелок (m) — la protéine\nуглевод (m) — le glucide / l'hydrate de carbone"
+          },
+          {
+            "title": "Habitudes santé quotidiennes",
+            "content": "Я много пью воды. — Je bois beaucoup d'eau.\nЯ не курю. — Je ne fume pas.\nЯ занимаюсь спортом. — Je fais du sport.\nЯ хорошо сплю. — Je dors bien.\nЯ избегаю стресса. — J'évite le stress.\nЯ регулярно питаюсь. — Je mange régulièrement.\nЯ не употребляю алкоголь. — Je ne consomme pas d'alcool."
+          }
+        ],
+        "rule": "💡 «Полезный» (utile/bon pour la santé) et «вредный» (nuisible/mauvais pour la santé) sont deux adjectifs essentiels. «Это полезно для здоровья» = c'est bon pour la santé. «Это вредно» = c'est mauvais. Très utiles dans des conversations sur la nourriture !"
+      },
+      "pronunciation": {
+        "intro": "Vocabulaire de l'alimentation saine. Certains mots russes sonneront familiers !",
+        "note": "⚠️ «Вегетарианство» [vigitarianstvo] — 6 syllabes, accent sur «-ан». «Белок» [biilok] signifie aussi «blanc d'œuf» — un double sens à connaître !",
+        "words": [
+          { "fr": "питание", "ru_pron": "pitanié", "meaning": "l'alimentation / la nutrition" },
+          { "fr": "полезный", "ru_pron": "palyézny", "meaning": "utile / bon pour la santé" },
+          { "fr": "вредный", "ru_pron": "vryédny", "meaning": "nuisible / mauvais pour la santé" },
+          { "fr": "диета", "ru_pron": "diyéta", "meaning": "le régime alimentaire" },
+          { "fr": "витамин", "ru_pron": "vitamín", "meaning": "la vitamine" },
+          { "fr": "белок", "ru_pron": "biilók", "meaning": "la protéine / le blanc d'œuf" },
+          { "fr": "жирный", "ru_pron": "jírny", "meaning": "gras / riche en graisse" },
+          { "fr": "свежий", "ru_pron": "svyéjy", "meaning": "frais" },
+          { "fr": "худеть", "ru_pron": "khoudyét'", "meaning": "maigrir / perdre du poids" },
+          { "fr": "кефир", "ru_pron": "kifír", "meaning": "le kéfir (boisson fermentée)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "питание", "gender": "n", "ru": "l'alimentation / la nutrition", "ru_pron": "pitanié", "example_fr": "Правильное питание важно.", "example_ru": "Une alimentation équilibrée est importante.", "level": "A2" },
+        { "fr": "диета", "gender": "f", "ru": "le régime alimentaire", "ru_pron": "diyéta", "example_fr": "Я на диете этот месяц.", "example_ru": "Je suis au régime ce mois-ci.", "level": "A2" },
+        { "fr": "худеть", "gender": null, "ru": "maigrir / perdre du poids", "ru_pron": "khoudyét'", "example_fr": "Я хочу похудеть на 5 кг.", "example_ru": "Je veux perdre 5 kg.", "level": "A2" },
+        { "fr": "полезный", "gender": "adj m", "ru": "sain / bon pour la santé / utile", "ru_pron": "palyézny", "example_fr": "Овощи полезны для здоровья.", "example_ru": "Les légumes sont bons pour la santé.", "meaning_double": "полезный = utile (sens général) ET bon pour la santé (sens médical) !", "level": "A2" },
+        { "fr": "вредный", "gender": "adj m", "ru": "nuisible / mauvais pour la santé", "ru_pron": "vryédny", "example_fr": "Курить вредно для здоровья.", "example_ru": "Fumer est mauvais pour la santé.", "level": "A2" },
+        { "fr": "кефир", "gender": "m", "ru": "le kéfir (lait fermenté)", "ru_pron": "kifír", "example_fr": "Кефир очень полезен.", "example_ru": "Le kéfir est très bon pour la santé.", "level": "A2" },
+        { "fr": "вегетарианец", "gender": "m", "ru": "le végétarien", "ru_pron": "vigitarianets", "example_fr": "Я вегетарианец два года.", "example_ru": "Je suis végétarien depuis deux ans.", "level": "A2" },
+        { "fr": "калория", "gender": "f", "ru": "la calorie", "ru_pron": "kalória", "example_fr": "Сколько калорий в этом блюде?", "example_ru": "Combien de calories dans ce plat ?", "level": "A2" },
+        { "fr": "белок", "gender": "m", "ru": "la protéine / le blanc d'œuf", "ru_pron": "biilók", "example_fr": "В мясе много белка.", "example_ru": "La viande est riche en protéines.", "meaning_double": "белок = protéine (chimie/nutrition) ET blanc d'œuf !", "level": "A2" },
+        { "fr": "пост", "gender": "m", "ru": "le jeûne / le carême", "ru_pron": "post", "example_fr": "Православный пост — строгий.", "example_ru": "Le carême orthodoxe est strict.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "диета", "fr_pron": "diyéta", "ru": "diète / régime", "ru_pron": "diète", "note": "«Диета» vient du grec «diaita» (mode de vie, régime). Identique au français «diète». En russe moderne, «диета» signifie principalement un régime alimentaire suivi pour maigrir ou pour des raisons médicales." },
+        { "fr": "калория", "fr_pron": "kalória", "ru": "calorie", "ru_pron": "calorie", "note": "«Калория» est identique au français «calorie», du latin «calor» (chaleur). Unité de mesure de l'énergie alimentaire universellement utilisée." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Ivan Pavlov (1849–1936)", "subtitle": "Prix Nobel de Physiologie 1904 — le réflexe conditionné", "content": "Ivan Pavlov est l'un des physiologistes les plus célèbres de l'histoire. Il reçut le Prix Nobel en 1904 pour ses recherches sur la digestion. Ses expériences sur le «réflexe conditionné» (chien qui salive au son d'une cloche associée à la nourriture) ont révolutionné la psychologie et les neurosciences. Son nom est devenu un adjectif universel : «pavlovien» ou «réflexe conditionné» s'utilisent dans toutes les langues pour décrire un comportement automatique acquis." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le carême orthodoxe russe — 48 jours sans viande", "content": "Le Grand Carême orthodoxe (Великий пост) est l'une des périodes de jeûne les plus strictes au monde : 48 jours avant Pâques (Пасха) sans viande, produits laitiers ni œufs. Cette tradition a profondément influencé la cuisine russe : les soupes aux légumes, les champignons marinés, les blinis (crêpes) au sarrasin, le kvas de pain — toute une gastronomie du jeûne s'est développée. La tradition reste vivace chez les orthodoxes pratiquants." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le kéfir — invention caucasienne, succès mondial", "content": "Le kéfir (кефир) est né dans les montagnes du Caucase, où les bergers conservaient le lait dans des sacs en peau qui fermentaient naturellement. La production industrielle commença en Russie au début du XXe siècle. Aujourd'hui, la Russie est le plus grand consommateur mondial de kéfir — les Russes en boivent en moyenne 10 litres par mois ! Il est considéré comme un aliment médicinal : bon pour la digestion, l'immunité et même le teint. Probiotiques avant l'heure !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Мы — то, что мы едим.", "pronunciation": "My — to, chto my yédim", "translation": "Nous sommes ce que nous mangeons.", "usage": "Citation attribuée à Hippocrate, universellement connue en Russie dans le contexte des discussions sur la santé et l'alimentation. Très utilisée par les nutritionnistes et médecins russes pour insister sur l'importance d'une bonne alimentation.", "example": "— Pourquoi tu ne manges que des légumes ? — Мы — то, что мы едим. (Nous sommes ce que nous mangeons.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Sotchi — Cuisine santé du Caucase", "subtitle": "Сочи — Кухня Кавказа", "content": "La région de Sotchi et du Caucase est réputée pour une cuisine saine et savoureuse : adjika (sauce aux herbes et poivrons), khatchapouri (pain au fromage géorgien), dolma (feuilles de vigne farcies), satsivi (poulet aux noix), légumes frais du jardin... La longévité légendaire des habitants du Caucase est souvent attribuée à leur alimentation riche en noix, herbes aromatiques, fruits et produits fermentés. Des centenaires actifs à plus de 100 ans y sont encore documentés." }
+      },
+      "quiz": [
+        { "q": "Que signifie «полезный для здоровья» ?", "opts": ["Mauvais pour la santé", "Bon pour la santé / sain", "Sans calories", "Naturel"], "ans": 1, "exp": "«Полезный для здоровья» = bon pour la santé / sain. «Полезный» = utile/bénéfique. «Вредный» est le contraire : mauvais pour la santé." },
+        { "q": "Ivan Pavlov est connu pour :", "opts": ["La découverte des vitamines", "La chirurgie de terrain", "Le réflexe conditionné et la physiologie digestive", "L'éradication de la variole"], "ans": 2, "exp": "Pavlov reçut le Nobel en 1904 pour ses recherches sur la digestion et est célèbre pour ses expériences sur le réflexe conditionné (le chien qui salive à un signal)." },
+        { "q": "Le «кефир» est :", "opts": ["Une soupe russe", "Une boisson à base de lait fermenté", "Un type de pain", "Un plat de viande"], "ans": 1, "exp": "Le «кефир» est une boisson à base de lait fermenté, originaire du Caucase. Riche en probiotiques, il est considéré comme un aliment santé en Russie." },
+        { "q": "Comment dit-on «je veux maigrir» en russe ?", "opts": ["Я хочу есть меньше.", "Я хочу похудеть.", "Я хочу диету.", "Я не ем ничего."], "ans": 1, "exp": "«Я хочу похудеть» = je veux maigrir. «Похудеть» est le verbe perfectif de «худеть» (maigrir). Pour «grossir» : «поправиться» ou «набрать вес»." },
+        { "q": "Le «Великий пост» (Grand Carême orthodoxe) dure :", "opts": ["7 jours", "21 jours", "40 jours", "48 jours"], "ans": 3, "exp": "Le Grand Carême orthodoxe dure 48 jours avant Pâques — plus long que le carême catholique (40 jours). Pendant cette période, viande, laitages et œufs sont interdits pour les pratiquants." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Émotions et le Bien-être Mental",
+      "titleRu": "Эмоции и душевное здоровье",
+      "level": "A2",
+      "grammar": {
+        "title": "Exprimer les émotions et l'état psychologique en russe",
+        "titleRu": "Эмоции и душевное здоровье",
+        "intro": "Le russe est une langue très riche pour exprimer les émotions. La notion d'«âme» (душа) est centrale dans la culture russe — on dit «широкая душа» (une âme généreuse, littéralement «large») pour décrire un tempérament chaleureux. Les Russes parlent ouvertement de leurs émotions en famille et entre amis. Pour exprimer comment on se sent, on utilise souvent «мне» (à moi) + adjectif de forme courte, ou «я чувствую» (je ressens) + complément.",
+        "sections": [
+          {
+            "title": "Les émotions positives",
+            "content": "радость (f) — la joie\nсчастье (n) — le bonheur\nлюбовь (f) — l'amour\nнадежда (f) — l'espoir\nудовольствие (n) — le plaisir\nгордость (f) — la fierté\nспокойствие (n) — la sérénité / le calme\nвосторг (m) — l'enthousiasme / l'émerveillement\nблагодарность (f) — la gratitude\nнежность (f) — la tendresse"
+          },
+          {
+            "title": "Les émotions difficiles",
+            "content": "грусть (f) — la tristesse\nстрах (m) — la peur\nгнев (m) — la colère\nтревога (f) — l'anxiété\nодиночество (n) — la solitude\nзависть (f) — la jalousie / l'envie\nстыд (m) — la honte\nразочарование (n) — la déception\nусталость (f) — la fatigue\nскука (f) — l'ennui"
+          },
+          {
+            "title": "Exprimer comment on se sent",
+            "content": "Мне хорошо. — Je me sens bien.\nМне плохо. — Je me sens mal.\nМне грустно. — Je suis triste.\nМне скучно. — Je m'ennuie.\nМне страшно. — J'ai peur.\nМне стыдно. — J'ai honte.\nМне радостно. — Je suis joyeux/se.\nЯ счастлив(а). — Je suis heureux/se.\nЯ устал(а). — Je suis fatigué(e).\nЯ волнуюсь. — Je suis anxieux/se / Je m'inquiète."
+          }
+        ],
+        "rule": "💡 «Мне + adjectif court» est une construction très utilisée pour les états : «Мне грустно» (je suis triste, litt. «à moi c'est triste»). C'est impersonnel et très expressif. Cette structure n'a pas d'équivalent exact en français — elle implique que l'émotion «arrive» à la personne."
+      },
+      "pronunciation": {
+        "intro": "Les mots des émotions en russe — souvent courts et expressifs. La musicalité du russe rend ces mots particulièrement beaux !",
+        "note": "⚠️ «Счастье» [chtchástie] — la combinaison «сч» se prononce [chtch]. «Душа» [douChá] — accent sur la deuxième syllabe.",
+        "words": [
+          { "fr": "счастье", "ru_pron": "chtchástie", "meaning": "le bonheur" },
+          { "fr": "радость", "ru_pron": "rádast'", "meaning": "la joie" },
+          { "fr": "грусть", "ru_pron": "grousst'", "meaning": "la tristesse" },
+          { "fr": "страх", "ru_pron": "strakh", "meaning": "la peur" },
+          { "fr": "душа", "ru_pron": "douchá", "meaning": "l'âme" },
+          { "fr": "тревога", "ru_pron": "triyóga", "meaning": "l'anxiété / l'inquiétude" },
+          { "fr": "любовь", "ru_pron": "lioubóv'", "meaning": "l'amour" },
+          { "fr": "одиночество", "ru_pron": "adinotchistvo", "meaning": "la solitude" },
+          { "fr": "надежда", "ru_pron": "nadyéjda", "meaning": "l'espoir" },
+          { "fr": "волноваться", "ru_pron": "valnavátsia", "meaning": "s'inquiéter / être anxieux" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "счастье", "gender": "n", "ru": "le bonheur", "ru_pron": "chtchástie", "example_fr": "Счастье — это здоровье и любовь.", "example_ru": "Le bonheur, c'est la santé et l'amour.", "level": "A2" },
+        { "fr": "грусть", "gender": "f", "ru": "la tristesse", "ru_pron": "grousst'", "example_fr": "В его глазах была грусть.", "example_ru": "Il y avait de la tristesse dans ses yeux.", "level": "A2" },
+        { "fr": "душа", "gender": "f", "ru": "l'âme", "ru_pron": "douchá", "example_fr": "У него широкая душа.", "example_ru": "Il a une âme généreuse.", "level": "A2" },
+        { "fr": "тревога", "gender": "f", "ru": "l'anxiété / l'inquiétude", "ru_pron": "triyóga", "example_fr": "Она чувствует тревогу.", "example_ru": "Elle ressent de l'anxiété.", "level": "A2" },
+        { "fr": "страх", "gender": "m", "ru": "la peur", "ru_pron": "strakh", "example_fr": "Страх — плохой советчик.", "example_ru": "La peur est un mauvais conseiller.", "level": "A2" },
+        { "fr": "радость", "gender": "f", "ru": "la joie", "ru_pron": "rádast'", "example_fr": "Какая радость тебя видеть!", "example_ru": "Quelle joie de te voir !", "level": "A2" },
+        { "fr": "одиночество", "gender": "n", "ru": "la solitude", "ru_pron": "adinotchistvo", "example_fr": "Он страдает от одиночества.", "example_ru": "Il souffre de la solitude.", "level": "A2" },
+        { "fr": "стресс", "gender": "m", "ru": "le stress", "ru_pron": "stryess", "example_fr": "У меня много стресса на работе.", "example_ru": "J'ai beaucoup de stress au travail.", "level": "A2" },
+        { "fr": "расслабиться", "gender": null, "ru": "se détendre / se relaxer", "ru_pron": "rasslábítsia", "example_fr": "Мне нужно расслабиться.", "example_ru": "J'ai besoin de me détendre.", "level": "A2" },
+        { "fr": "настроение", "gender": "n", "ru": "l'humeur / le moral", "ru_pron": "nastraïénié", "example_fr": "У меня хорошее настроение сегодня.", "example_ru": "Je suis de bonne humeur aujourd'hui.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "стресс", "fr_pron": "stryess", "ru": "stress", "ru_pron": "stress", "note": "«Стресс» est un emprunt direct de l'anglais «stress». Le concept de stress psychologique fut popularisé en URSS dans les années 1970 grâce aux travaux de Hans Selye, biologiste d'origine autrichienne qui travailla longtemps au Canada." },
+        { "fr": "депрессия", "fr_pron": "dipryéssia", "ru": "dépression", "ru_pron": "dépression", "note": "«Депрессия» vient du latin «depressio» (enfoncement). Identique au français «dépression». La santé mentale est de plus en plus abordée ouvertement en Russie, notamment chez les jeunes générations." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anton Tchekhov (1860–1904)", "subtitle": "Médecin et maître de la nouvelle psychologique", "content": "Anton Tchekhov fut à la fois médecin et l'un des plus grands écrivains de l'histoire. Ses nouvelles et pièces de théâtre explorent les émotions humaines avec une précision chirurgicale : l'ennui, le désespoir, les petits bonheurs et les grandes souffrances. «La Cerisaie», «Les Trois Sœurs», «L'Oncle Vania» restent au répertoire de tous les grands théâtres mondiaux. Sa phrase célèbre : «Il faut que la vie soit belle. Dans vingt-cinq ans, tous les hommes pourront dormir. Mais pour l'instant il faut vivre.»" },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La «mélancolie russe» — mythe ou réalité ?", "content": "La littérature et la culture russes sont souvent associées à la mélancolie, au «toska» (тоска) — un sentiment intraduisible de nostalgie douloureuse, d'aspiration à quelque chose d'indéfini. Vladimir Nabokov décrivit le «тоска» comme «une angoisse de l'âme, un désir ardent sans objet précis». Des études montrent que les Russes expriment plus ouvertement leurs émotions négatives que beaucoup d'autres cultures. Ce n'est pas pessimisme — c'est profondeur." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Душа» — l'âme au cœur de la culture russe", "content": "Le mot «душа» (l'âme) est omniprésent dans la langue russe : «поговорить по душам» (parler à cœur ouvert), «широкая душа» (âme généreuse), «болеть душой» (souffrir dans son âme), «отдыхать душой» (se reposer l'âme). La langue russe compte des dizaines d'expressions avec «душа». Pour les Russes, l'âme n'est pas une abstraction religieuse — c'est le siège de toutes les émotions, de l'authenticité et de la profondeur humaine." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Тоска по Родине.", "pronunciation": "Taskà pa Ródinie", "translation": "La nostalgie du pays natal.", "usage": "«Тоска» est intraduisible : c'est plus que la nostalgie, c'est une mélancolie existentielle, un manque douloureux. «Тоска по Родине» = le «mal du pays» russe, avec une profondeur particulière. Comparez avec le portuguais «saudade» — une émotion que seule la langue peut exprimer.", "example": "— Comment te sens-tu à Paris ? — Тоска по Родине... (La nostalgie du pays natal m'envahit...)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Iaroslavl — La ville de Tchekhov", "subtitle": "Ярославль — Золотое кольцо России", "content": "Iaroslavl (Ярославль), membre de l'Anneau d'Or à 260 km de Moscou, est l'une des plus belles villes médiévales de Russie. Elle inspira de nombreux écrivains russes par sa tranquillité provinciale que Tchekhov décrivit dans ses nouvelles. Le festival de théâtre international «Chekhov» y est célébré chaque année. Se promener dans ses rues pavées le long de la Volga est une cure d'âme unique — le vrai «отдых для души» (repos pour l'âme) à la russe." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je m'ennuie» en russe ?", "opts": ["Я скучный.", "Мне скучно.", "Я скучаю.", "Мне скучный."], "ans": 1, "exp": "«Мне скучно» = je m'ennuie. Construction impersonnelle : «мне» (à moi) + adjectif court «скучно» (c'est ennuyeux). «Я скучаю» signifie «tu me manques» ou «j'ai de la nostalgie» — sens différent !" },
+        { "q": "«Душа» signifie en russe :", "opts": ["Le corps", "L'esprit", "L'âme", "Le cœur"], "ans": 2, "exp": "«Душа» = l'âme. Un mot central dans la culture russe, omniprésent dans la langue et la littérature. «Широкая душа» = une âme généreuse (litt. «large»)." },
+        { "q": "Anton Tchekhov était :", "opts": ["Uniquement médecin", "Uniquement écrivain", "Médecin et écrivain", "Philosophe et poète"], "ans": 2, "exp": "Anton Tchekhov était à la fois médecin (il exerçait en province) et l'un des plus grands écrivains russes. Il disait : «La médecine est ma femme légitime, la littérature est ma maîtresse»." },
+        { "q": "Le «тоска» est :", "opts": ["La joie", "La colère", "Une nostalgie mélancolique intraduisible", "La peur existentielle"], "ans": 2, "exp": "«Тоска» est un sentiment russe intraduisible — une mélancolie profonde, une nostalgie douloureuse sans objet précis. Nabokov le décrivit comme «une angoisse de l'âme, un désir ardent sans objet»." },
+        { "q": "Comment dit-on «je suis anxieux/se» en russe ?", "opts": ["Я беспокойный.", "Я волнуюсь.", "Мне тревожно.", "Я или b"], "ans": 1, "exp": "«Я волнуюсь» = je suis anxieux/se / je m'inquiète. «Волноваться» = être agité, s'inquiéter. On peut aussi dire «Мне тревожно» (je ressens de l'anxiété) pour un état plus fort." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "La Beauté et le Soin du Corps",
+      "titleRu": "Красота и уход за телом",
+      "level": "A2",
+      "grammar": {
+        "title": "Le vocabulaire de la beauté et des soins corporels",
+        "titleRu": "Красота и уход за телом",
+        "intro": "La Russie est l'un des plus grands marchés de cosmétiques au monde, et les Russes, hommes et femmes, accordent une grande importance à leur apparence. La beauté (красота) est valorisée culturellement. De nombreux mots de cosmétique sont des emprunts à l'anglais ou au français. Le vocabulaire du soin du corps vous sera utile dans les hôtels, les spas et les conversations quotidiennes.",
+        "sections": [
+          {
+            "title": "L'hygiène quotidienne",
+            "content": "умываться — se laver le visage\nчистить зубы — se brosser les dents\nпринимать душ — prendre une douche\nпринимать ванну — prendre un bain\nбриться — se raser\nрасчёсываться — se coiffer / se peigner\nмыть голову — se laver les cheveux\nстричь ногти — se couper les ongles\nодеваться — s'habiller\nпользоваться духами — se parfumer"
+          },
+          {
+            "title": "Les produits de beauté et soins",
+            "content": "мыло (n) — le savon\nшампунь (m) — le shampooing\nкрем (m) — la crème\nлосьон (m) — la lotion\nзубная паста (f) — le dentifrice\nдезодорант (m) — le déodorant\nдуши (pl) / духи (pl) — le parfum\nпомада (f) — le rouge à lèvres\nтушь (f) — le mascara\nбритва (f) — le rasoir"
+          },
+          {
+            "title": "Chez le coiffeur — au salon",
+            "content": "парикмахерская (f) — le salon de coiffure\nстрижка (f) — la coupe de cheveux\nкраска (f) — la teinture\nманикюр (m) — la manucure\nпедикюр (m) — la pédicure\nмассаж (m) — le massage\nспа (n) — le spa\nсалон красоты (m) — l'institut de beauté\n\n— Постригите мне волосы, пожалуйста. — Coupez-moi les cheveux, s'il vous plaît."
+          }
+        ],
+        "rule": "💡 «Пользоваться + instrumental» = utiliser (un produit) : «Я пользуюсь кремом» (j'utilise de la crème). «Принимать» = prendre (douche, bain). «Чистить» = nettoyer/brosser. Ces verbes sont essentiels pour décrire sa routine beauté !"
+      },
+      "pronunciation": {
+        "intro": "Beaucoup de mots cosmétiques sont des emprunts au français ou à l'anglais — encore plus faciles à reconnaître !",
+        "note": "⚠️ «Шампунь» [champoun'] se prononce avec un [ch] dur suivi du signe mou. «Духи» [doukhi] = le parfum (pluriel uniquement !) — noter le «х» guttural.",
+        "words": [
+          { "fr": "красота", "ru_pron": "krasatá", "meaning": "la beauté" },
+          { "fr": "шампунь", "ru_pron": "champoun'", "meaning": "le shampooing" },
+          { "fr": "крем", "ru_pron": "kryem", "meaning": "la crème" },
+          { "fr": "зубная паста", "ru_pron": "zoubnaïa pásta", "meaning": "le dentifrice" },
+          { "fr": "духи", "ru_pron": "doukhi", "meaning": "le parfum" },
+          { "fr": "парикмахерская", "ru_pron": "parikmákherskaia", "meaning": "le salon de coiffure" },
+          { "fr": "массаж", "ru_pron": "masáj", "meaning": "le massage" },
+          { "fr": "маникюр", "ru_pron": "manikioúr", "meaning": "la manucure" },
+          { "fr": "бритва", "ru_pron": "brítva", "meaning": "le rasoir" },
+          { "fr": "стрижка", "ru_pron": "strájka", "meaning": "la coupe de cheveux" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "красота", "gender": "f", "ru": "la beauté", "ru_pron": "krasatá", "example_fr": "Красота спасёт мир.", "example_ru": "La beauté sauvera le monde.", "level": "A2" },
+        { "fr": "крем", "gender": "m", "ru": "la crème", "ru_pron": "kryem", "example_fr": "Нанесите крем на лицо.", "example_ru": "Appliquez la crème sur le visage.", "level": "A2" },
+        { "fr": "духи", "gender": "pl", "ru": "le parfum", "ru_pron": "doukhi", "example_fr": "Она носит французские духи.", "example_ru": "Elle porte un parfum français.", "level": "A2" },
+        { "fr": "стрижка", "gender": "f", "ru": "la coupe (de cheveux)", "ru_pron": "strájka", "example_fr": "Мне нужна стрижка.", "example_ru": "J'ai besoin d'une coupe de cheveux.", "level": "A2" },
+        { "fr": "массаж", "gender": "m", "ru": "le massage", "ru_pron": "masáj", "example_fr": "Массаж снимает стресс.", "example_ru": "Le massage soulage le stress.", "level": "A2" },
+        { "fr": "мыло", "gender": "n", "ru": "le savon", "ru_pron": "mýla", "example_fr": "Мойте руки с мылом.", "example_ru": "Lavez-vous les mains au savon.", "level": "A2" },
+        { "fr": "зеркало", "gender": "n", "ru": "le miroir", "ru_pron": "zyérkala", "example_fr": "Посмотри в зеркало!", "example_ru": "Regarde-toi dans le miroir !", "level": "A2" },
+        { "fr": "маникюр", "gender": "m", "ru": "la manucure", "ru_pron": "manikioúr", "example_fr": "Она делает маникюр каждую неделю.", "example_ru": "Elle fait sa manucure chaque semaine.", "level": "A2" },
+        { "fr": "тушь", "gender": "f", "ru": "le mascara / l'encre de Chine", "ru_pron": "touch'", "example_fr": "Она накрасила ресницы тушью.", "example_ru": "Elle a mis du mascara sur ses cils.", "meaning_double": "тушь = mascara ET encre de Chine / encre !", "level": "A2" },
+        { "fr": "ухаживать", "gender": null, "ru": "soigner / prendre soin de", "ru_pron": "oukhájivat'", "example_fr": "Она хорошо ухаживает за кожей.", "example_ru": "Elle prend bien soin de sa peau.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "шампунь", "fr_pron": "champoun'", "ru": "shampooing", "ru_pron": "shampooing", "note": "«Шампунь» vient de l'anglais «shampoo», qui lui-même vient de l'hindi «champo» (masser). Un voyage linguistique de l'Inde à l'Angleterre et jusqu'en Russie !" },
+        { "fr": "лосьон", "fr_pron": "las'ón", "ru": "lotion", "ru_pron": "lotion", "note": "«Лосьон» est emprunté directement au français «lotion», du latin «lotio» (action de laver). Les produits de beauté français ont largement influencé le vocabulaire cosmétique russe depuis le XVIIIe siècle." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Coco Chanel et la Russie", "subtitle": "L'influence russe sur la haute couture française", "content": "La mode russe a profondément influencé Coco Chanel. Après la Révolution de 1917, des centaines d'aristocrates russes émigrèrent à Paris, amenant avec eux broderies, fourrures, bijoux et savoir-faire. Chanel employa des artisans russes pour ses collections et s'inspira de l'esthétique slave. La Maison Kitmir, fondée par la grande-duchesse Maria Pavlovna, brodait pour Chanel. Les tenues «russes» de Chanel (1923) restent parmi ses créations les plus admirées." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La beauté soviétique — naturelle et collective", "content": "En URSS, la cosmétique était vue d'un œil méfiant : trop de maquillage était associé à la décadence bourgeoise. La «Krasnaya Moskva» (Красная Москва — Moscou Rouge), lancée en 1913, devint le parfum soviétique officiel et reste encore vendu. Les femmes soviétiques cultivaient la beauté naturelle : cheveux bien coiffés, peau soignée, mais maquillage discret. Depuis les années 1990, la Russie est devenue l'un des marchés cosmétiques les plus dynamiques au monde." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Красота спасёт мир» — Dostoïevski", "content": "La phrase «Красота спасёт мир» (La beauté sauvera le monde) est l'une des citations les plus connues de la littérature russe, tirée du roman «L'Idiot» de Dostoïevski. Elle est souvent interprétée comme une foi dans le pouvoir de l'art et de la beauté spirituelle pour racheter l'humanité. Dostoïevski ne parlait pas de beauté superficielle, mais de beauté morale et esthétique. Cette phrase est gravée sur de nombreux bâtiments et monuments russes." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Красота требует жертв.", "pronunciation": "Krasatá tryébouyet jéertv", "translation": "La beauté exige des sacrifices. / Il faut souffrir pour être belle.", "usage": "Équivalent exact du proverbe français «il faut souffrir pour être belle». Utilisé avec humour pour justifier une séance de sport douloureuse, une coiffure compliquée, ou un régime contraignant.", "example": "— Ça fait mal, cette épilation ! — Красота требует жертв! (La beauté exige des sacrifices !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — La ville de la beauté", "subtitle": "Санкт-Петербург — Северная Венеция", "content": "Saint-Pétersbourg (Санкт-Петербург), «la Venise du Nord», est la ville la plus belle de Russie selon ses habitants. Fondée par Pierre le Grand en 1703 sur le modèle des capitales européennes, elle est couverte de palais baroques, de canaux, de jardins à la française. L'Ermitage (Эрмитаж) abrite l'une des plus grandes collections d'art au monde. La lumière des «nuits blanches» en juin, quand le soleil ne se couche presque pas, est une expérience esthétique inoubliable." }
+      },
+      "quiz": [
+        { "q": "«Красота спасёт мир» est une citation de :", "opts": ["Tolstoï", "Tchekhov", "Dostoïevski", "Pouchkine"], "ans": 2, "exp": "«Красота спасёт мир» (La beauté sauvera le monde) est une citation du roman «L'Idiot» de Dostoïevski. L'une des phrases les plus célèbres de la littérature russe." },
+        { "q": "Comment dit-on «le salon de coiffure» en russe ?", "opts": ["парикмахерская", "аптека", "больница", "магазин красоты"], "ans": 0, "exp": "«Парикмахерская» = le salon de coiffure. Ce mot vient de l'allemand «Perücke» (perruque) + «macher» (fabricant) — un vestige des perruquiers au service de Pierre le Grand." },
+        { "q": "«Духи» en russe signifie :", "opts": ["Les esprits / fantômes", "Le parfum", "Les deux : les esprits ET le parfum", "L'âme"], "ans": 2, "exp": "«Духи» a deux sens : au pluriel, c'est le parfum. «Дух» (singulier) = l'esprit/le souffle/l'âme. «Духи» (pluriel) = des esprits OU du parfum selon le contexte !" },
+        { "q": "Comment dit-on «je prends une douche» en russe ?", "opts": ["Я купаюсь.", "Я мою руки.", "Я принимаю душ.", "Я умываюсь."], "ans": 2, "exp": "«Я принимаю душ» = je prends une douche. «Принимать душ» = prendre une douche, «принимать ванну» = prendre un bain, «умываться» = se laver le visage." },
+        { "q": "Le proverbe «Красота требует жертв» signifie :", "opts": ["La beauté est gratuite", "Il faut souffrir pour être belle", "La beauté est dans les yeux de celui qui regarde", "La beauté passe vite"], "ans": 1, "exp": "«Красота требует жертв» = il faut souffrir pour être belle (littéralement «la beauté exige des sacrifices»). L'équivalent exact du proverbe français, utilisé avec humour." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Les Urgences et Premiers Secours",
+      "titleRu": "Скорая помощь и первая помощь",
+      "level": "A2",
+      "grammar": {
+        "title": "Réagir en situation d'urgence médicale",
+        "titleRu": "Экстренные ситуации",
+        "intro": "Savoir communiquer en situation d'urgence peut sauver des vies. En Russie, les numéros d'urgence sont : 103 (ambulance / скорая), 101 (pompiers / пожарные), 102 (police / полиция), 112 (numéro universel). Les formules d'urgence doivent être mémorisées avant tout voyage. L'impératif est la forme verbale à maîtriser pour donner des instructions rapides.",
+        "sections": [
+          {
+            "title": "Les numéros d'urgence russes",
+            "content": "112 — Numéro universel d'urgence\n103 — Скорая помощь (ambulance)\n101 — Пожарные (pompiers)\n102 — Полиция (police)\n\nFormule clé : «Мне нужна помощь!» = J'ai besoin d'aide !\n«Вызовите скорую!» = Appelez l'ambulance !\n«Это срочно!» = C'est urgent !"
+          },
+          {
+            "title": "Décrire une urgence médicale",
+            "content": "Человек упал! — Quelqu'un est tombé !\nОн потерял сознание. — Il a perdu connaissance.\nОна не дышит. — Elle ne respire pas.\nУ него инфаркт! — Il fait une crise cardiaque !\nСильное кровотечение! — Hémorragie sévère !\nОн задыхается! — Il étouffe / Il ne peut pas respirer !\nОна получила ожог. — Elle s'est brûlée.\nПеребита нога. — La jambe est cassée.\nАллергическая реакция! — Réaction allergique !"
+          },
+          {
+            "title": "Les premiers gestes",
+            "content": "Не двигайте его/её! — Ne le/la bougez pas !\nЛожитесь! — Allongez-vous !\nДышите медленно! — Respirez lentement !\nДержите рану! — Appuyez sur la plaie !\nНе давайте ему есть или пить! — Ne lui donnez pas à manger ou à boire !\nОставайтесь с ним! — Restez avec lui !\nГде болит? — Où avez-vous mal ?\nКак вас зовут? — Comment vous appelez-vous ?"
+          }
+        ],
+        "rule": "💡 L'impératif pour donner des ordres en urgence : ajoutez «-ите» à la racine du verbe pour le vouvoiement. «Вызвать» → «Вызовите!» (Appelez !), «Дышать» → «Дышите!» (Respirez !), «Лечь» → «Ложитесь!» (Allongez-vous !). Des formes à mémoriser absolument !"
+      },
+      "pronunciation": {
+        "intro": "Ces mots doivent être prononcés clairement en situation de stress. Entraînez-vous à les dire fort et distinctement !",
+        "note": "⚠️ «Помогите!» [pamaguitié] = Au secours ! — accent sur «-ги». «Скорая» [skóraia] — accent sur «ско-». Dites-les à voix haute !",
+        "words": [
+          { "fr": "Помогите!", "ru_pron": "pamaguitié", "meaning": "Au secours ! / Aidez-moi !" },
+          { "fr": "Вызовите скорую!", "ru_pron": "výzavitié skórayou", "meaning": "Appelez l'ambulance !" },
+          { "fr": "Это срочно!", "ru_pron": "éta srótchna", "meaning": "C'est urgent !" },
+          { "fr": "Он не дышит!", "ru_pron": "on nie dýchit", "meaning": "Il ne respire pas !" },
+          { "fr": "инфаркт", "ru_pron": "infárkt", "meaning": "la crise cardiaque" },
+          { "fr": "кровотечение", "ru_pron": "kravatitchénié", "meaning": "le saignement / l'hémorragie" },
+          { "fr": "потерял сознание", "ru_pron": "patiryal saznanié", "meaning": "a perdu connaissance" },
+          { "fr": "перелом", "ru_pron": "pirilom", "meaning": "la fracture" },
+          { "fr": "аллергия", "ru_pron": "aliérguia", "meaning": "l'allergie" },
+          { "fr": "первая помощь", "ru_pron": "pyérvaia pomachtch'", "meaning": "les premiers secours" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "Помогите!", "gender": null, "ru": "Au secours ! / Aidez-moi !", "ru_pron": "pamaguitié", "example_fr": "Помогите, пожалуйста!", "example_ru": "Au secours, s'il vous plaît !", "level": "A2" },
+        { "fr": "скорая помощь", "gender": "f", "ru": "l'ambulance / le SAMU", "ru_pron": "skóraia pomachtch'", "example_fr": "Вызовите скорую помощь немедленно!", "example_ru": "Appelez immédiatement l'ambulance !", "level": "A2" },
+        { "fr": "инфаркт", "gender": "m", "ru": "la crise cardiaque", "ru_pron": "infárkt", "example_fr": "У него инфаркт!", "example_ru": "Il fait une crise cardiaque !", "level": "A2" },
+        { "fr": "кровотечение", "gender": "n", "ru": "le saignement / l'hémorragie", "ru_pron": "kravatitchénié", "example_fr": "Остановите кровотечение!", "example_ru": "Arrêtez le saignement !", "level": "A2" },
+        { "fr": "перелом", "gender": "m", "ru": "la fracture", "ru_pron": "pirilom", "example_fr": "У него перелом руки.", "example_ru": "Il a une fracture du bras.", "level": "A2" },
+        { "fr": "ожог", "gender": "m", "ru": "la brûlure", "ru_pron": "ajók", "example_fr": "Охладите ожог холодной водой.", "example_ru": "Refroidissez la brûlure à l'eau froide.", "level": "A2" },
+        { "fr": "потерять сознание", "gender": null, "ru": "perdre connaissance", "ru_pron": "patiriat' saznanié", "example_fr": "Она потеряла сознание.", "example_ru": "Elle a perdu connaissance.", "level": "A2" },
+        { "fr": "первая помощь", "gender": "f", "ru": "les premiers secours", "ru_pron": "pyérvaia pomachtch'", "example_fr": "Вы знаете первую помощь?", "example_ru": "Connaissez-vous les premiers secours ?", "level": "A2" },
+        { "fr": "срочно", "gender": null, "ru": "d'urgence / de toute urgence", "ru_pron": "srótchna", "example_fr": "Это срочно!", "example_ru": "C'est urgent !", "level": "A2" },
+        { "fr": "страховой полис", "gender": "m", "ru": "la police d'assurance", "ru_pron": "strakhavóï póliss", "example_fr": "Покажите страховой полис.", "example_ru": "Montrez votre police d'assurance.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "инфаркт", "fr_pron": "infárkt", "ru": "infarctus", "ru_pron": "infarctus", "note": "«Инфаркт» vient du latin médical «infarctus» (obstruction). En russe parlé, «инфаркт» désigne couramment la crise cardiaque. «Я чуть не получил инфаркт !» (J'ai failli avoir une crise cardiaque !) s'utilise aussi dans un sens hyperbolique !" },
+        { "fr": "аллергическая реакция", "fr_pron": "aliérguicheskaia riáktsia", "ru": "réaction allergique", "ru_pron": "réaction allergique", "note": "«Реакция» vient du latin «reactio». «Аллергическая реакция» = réaction allergique. Termes médicaux d'urgence identiques en russe et en français — une chance pour les voyageurs !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Sklifossovsky (1836–1904)", "subtitle": "Pionnier de la chirurgie d'urgence russe", "content": "Nikolaï Sklifossovsky fut le premier chirurgien russe à développer la chirurgie d'urgence moderne. Il inventa des techniques pour les opérations abdominales et faciales et créa le premier service d'urgences chirurgicales en Russie. L'Institut Sklifossovsky de Moscou, principal centre de traumatologie de Russie, porte son nom. Populairement, les Moscovites appellent ce centre d'urgences «Склиф» (Sklif) — un raccourci connu de tous." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La croix rouge soviétique — pionnière de l'aide humanitaire", "content": "La Croix-Rouge soviétique fut fondée en 1867, avant même la Révolution. Durant les deux Guerres mondiales et la guerre civile russe, elle mobilisa des milliers de volontaires. Dans les années 1920, elle créa les premiers programmes de formation aux premiers secours pour la population civile — une innovation mondiale. Aujourd'hui, la Croix-Rouge russe (Российский Красный Крест) forme chaque année des milliers de secouristes." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Склиф» — l'urgence légendaire de Moscou", "content": "L'Institut Sklifossovsky («Склиф») est le centre de traumatologie le plus célèbre de Moscou, ouvert 24h/24. Il accueille les cas les plus critiques de toute la ville. Dans la culture populaire russe, «попасть в Склиф» (se retrouver au Sklif) est une expression désignant une situation très grave. Il apparaît dans de nombreuses séries TV russes. Une certaine fierté entoure cet établissement — le «Kremlin de la médecine d'urgence»." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Не откладывай на завтра то, что можно сделать сегодня.", "pronunciation": "Nie atkladývai na závtra to, chto mójno sdyelat' sivodnia", "translation": "Ne remets pas à demain ce que tu peux faire aujourd'hui.", "usage": "Équivalent du proverbe français universel. Très pertinent dans le contexte médical : les Russes disent souvent qu'il ne faut pas attendre pour consulter un médecin. «Не откладывай визит к врачу!» (Ne reporte pas ta consultation médicale !)", "example": "— J'irai chez le médecin la semaine prochaine... — Не откладывай на завтра то, что можно сделать сегодня !" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — L'Institut Sklifossovsky", "subtitle": "Москва — Институт Склифосовского", "content": "L'Institut Sklifossovsky, situé en plein centre de Moscou (métro Sukharevskaya), est le plus grand centre de traumatologie et de chirurgie d'urgence de Russie. Fondé en 1923, il dispose de 900 lits et traite 75 000 patients par an. Le bâtiment principal, une ancienne hospice du XVIIIe siècle, est classé monument historique. Le Sklifossovsky est aussi un centre de recherche de pointe en médecine de l'urgence et en transplantation." }
+      },
+      "quiz": [
+        { "q": "Quel numéro appeler pour l'ambulance en Russie ?", "opts": ["101", "102", "103", "112"], "ans": 2, "exp": "Le 103 est le numéro de la «скорая помощь» (ambulance) en Russie. Le 112 est le numéro universel d'urgence (comme le 112 européen). Le 101 = pompiers, le 102 = police." },
+        { "q": "Comment dit-on «Au secours !» en russe ?", "opts": ["Помогите!", "Помолчите!", "Помните!", "Похвалите!"], "ans": 0, "exp": "«Помогите!» = Au secours ! / Aidez-moi ! De «помочь» (aider). C'est le cri d'urgence à retenir absolument. «Мне нужна помощь!» (J'ai besoin d'aide) est une alternative plus calme." },
+        { "q": "Que signifie «Он потерял сознание» ?", "opts": ["Il est épuisé", "Il a perdu connaissance", "Il est blessé", "Il souffre beaucoup"], "ans": 1, "exp": "«Он потерял сознание» = il a perdu connaissance. «Сознание» = la conscience. «Потерять» = perdre. Réponse à donner aux secours si quelqu'un s'évanouit." },
+        { "q": "«Это срочно!» signifie :", "opts": ["C'est grave !", "C'est urgent !", "C'est dangereux !", "C'est sérieux !"], "ans": 1, "exp": "«Срочно» = d'urgence / urgent. «Это срочно!» = c'est urgent ! «Срочный» = urgent. Utilisé pour signaler une urgence aux secours ou au médecin." },
+        { "q": "L'Institut Sklifossovsky à Moscou est connu pour :", "opts": ["Être un musée de médecine", "Être le principal centre d'urgences traumatologiques de Russie", "Être l'hôpital pédiatrique central", "Être le centre de cardiologie national"], "ans": 1, "exp": "L'Institut Sklifossovsky («Склиф») est le plus grand centre de traumatologie et chirurgie d'urgence de Russie, ouvert 24h/24. Son nom est connu de tous les Moscovites." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan : Santé et Corps",
+      "titleRu": "Итог: Здоровье и тело",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète — Module 6 : Santé & Corps",
+        "titleRu": "Повторение модуля 6",
+        "intro": "Félicitations pour avoir complété le Module 6 ! Vous maîtrisez maintenant le vocabulaire essentiel de la santé et du corps en russe. Dans cette leçon de révision, nous allons consolider les structures grammaticales clés du module et préparer le passage au Module 7 — Nature & Environnement.",
+        "sections": [
+          {
+            "title": "✅ Ce que vous savez maintenant",
+            "content": "✅ Les parties du corps (голова, рука, нога, сердце...)\n✅ Exprimer une douleur : «У меня болит + partie du corps»\n✅ Les maladies et symptômes (грипп, кашель, температура...)\n✅ Le vocabulaire chez le médecin et à la pharmacie\n✅ Le sport : «играть в + sport» / «заниматься + instrumental»\n✅ L'alimentation saine : полезный / вредный pour la santé\n✅ Les émotions : мне грустно, я счастлив(а)...\n✅ La beauté et les soins corporels\n✅ Les urgences : Помогите! Вызовите скорую!"
+          },
+          {
+            "title": "Récapitulatif des structures grammaticales clés",
+            "content": "1. Douleur : У меня болит + nominatif (sing.) / болят + nominatif (pl.)\n   Ex: У меня болит голова. / У меня болят зубы.\n\n2. État : Мне + adjectif court\n   Ex: Мне плохо. / Мне грустно. / Мне скучно.\n\n3. Sport : Я играю В + accusatif / Я занимаюсь + instrumental\n   Ex: Я играю в теннис. / Я занимаюсь плаванием.\n\n4. Utiliser un produit : Я пользуюсь + instrumental\n   Ex: Я пользуюсь кремом.\n\n5. Contre (remède) : что-нибудь ОТ + génitif\n   Ex: таблетки от кашля / капли от насморка"
+          },
+          {
+            "title": "Phrases essentielles à mémoriser",
+            "content": "У меня болит голова. — J'ai mal à la tête.\nЯ болен / Я больна. — Je suis malade.\nВызовите скорую! — Appelez l'ambulance !\nПомогите! — Au secours !\nНа что жалуетесь? — De quoi vous plaignez-vous ?\nЯ занимаюсь спортом. — Je fais du sport.\nЭто полезно для здоровья. — C'est bon pour la santé.\nМне нужен врач. — J'ai besoin d'un médecin.\nСкорейшего выздоровления! — Prompt rétablissement !\nВ здоровом теле — здоровый дух. — Un esprit sain dans un corps sain."
+          },
+          {
+            "title": "Vers le Module 7 — Nature & Environnement",
+            "content": "Le Module 7 vous emmènera dans la nature russe :\n🌲 La taïga sibérienne et la forêt (лес)\n🌊 Le lac Baïkal — la plus grande réserve d'eau douce\n❄️ Le climat russe — les saisons extrêmes\n🦅 La faune et la flore (животные и растения)\n🌿 L'environnement et l'écologie\n⛰ Les montagnes — Caucase et Oural\n\nПродолжайте ! (Continuez !)"
+          }
+        ],
+        "rule": "🏆 Bravo ! Vous avez les outils pour parler de votre santé en russe. Le vocabulaire médical russe est riche en emprunts gréco-latins — profitez-en ! Le Module 7 vous ouvrira les portes de la nature russe, l'une des plus vastes et spectaculaires du monde. Удачи ! (Bonne chance !)"
+      },
+      "pronunciation": {
+        "intro": "Révision des phrases les plus importantes du Module 6. Entraînez-vous à les enchaîner naturellement !",
+        "note": "",
+        "words": [
+          { "fr": "У меня болит голова.", "ru_pron": "U minya balít galavá", "meaning": "J'ai mal à la tête." },
+          { "fr": "Вызовите скорую помощь!", "ru_pron": "Výzavitié skórayou pomachtch'", "meaning": "Appelez l'ambulance !" },
+          { "fr": "Я занимаюсь спортом каждый день.", "ru_pron": "Ya zanmáious' sportam kájdy dyen'", "meaning": "Je fais du sport tous les jours." },
+          { "fr": "Скорейшего выздоровления!", "ru_pron": "Skaréïchiva vyzdoravlénia", "meaning": "Prompt rétablissement !" },
+          { "fr": "Это полезно для здоровья.", "ru_pron": "Éta palyézna dlia zdoróv'ia", "meaning": "C'est bon pour la santé." },
+          { "fr": "Мне нужен врач.", "ru_pron": "Mnyé nóujen vratch", "meaning": "J'ai besoin d'un médecin." },
+          { "fr": "Я чувствую себя плохо.", "ru_pron": "Ya tchoustvouïou sibya plokha", "meaning": "Je me sens mal." },
+          { "fr": "У меня аллергия на...", "ru_pron": "U minya aliérguia na...", "meaning": "J'ai une allergie à..." },
+          { "fr": "В здоровом теле — здоровый дух.", "ru_pron": "V zdoravam tyélie — zdorovy doukhh", "meaning": "Un esprit sain dans un corps sain." },
+          { "fr": "Помогите, пожалуйста!", "ru_pron": "Pamaguitié, pajálusta", "meaning": "Au secours, s'il vous plaît !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "здоровье", "gender": "n", "ru": "la santé", "ru_pron": "zdorów'ie", "example_fr": "Здоровье — это главное!", "example_ru": "La santé, c'est l'essentiel !", "level": "A2" },
+        { "fr": "болеть", "gender": null, "ru": "être malade / faire mal", "ru_pron": "balyét'", "example_fr": "Я болею три дня.", "example_ru": "Je suis malade depuis trois jours.", "meaning_double": "болеть = être malade ET faire mal (selon la construction)", "level": "A2" },
+        { "fr": "лечение", "gender": "n", "ru": "le traitement / la cure", "ru_pron": "litchénié", "example_fr": "Лечение длится неделю.", "example_ru": "Le traitement dure une semaine.", "level": "A2" },
+        { "fr": "выздоровление", "gender": "n", "ru": "le rétablissement / la guérison", "ru_pron": "vyzdoravlénié", "example_fr": "Скорейшего выздоровления!", "example_ru": "Prompt rétablissement !", "level": "A2" },
+        { "fr": "профилактика", "gender": "f", "ru": "la prévention / la prophylaxie", "ru_pron": "prafilaktika", "example_fr": "Профилактика лучше лечения.", "example_ru": "Mieux vaut prévenir que guérir.", "level": "A2" },
+        { "fr": "иммунитет", "gender": "m", "ru": "l'immunité", "ru_pron": "imounityét", "example_fr": "У него слабый иммунитет.", "example_ru": "Il a une immunité faible.", "level": "A2" },
+        { "fr": "стресс", "gender": "m", "ru": "le stress", "ru_pron": "stryess", "example_fr": "Стресс вреден для здоровья.", "example_ru": "Le stress est mauvais pour la santé.", "level": "A2" },
+        { "fr": "режим", "gender": "m", "ru": "le régime / le rythme de vie", "ru_pron": "riéjim", "example_fr": "Соблюдайте режим сна.", "example_ru": "Respectez votre rythme de sommeil.", "level": "A2" },
+        { "fr": "самочувствие", "gender": "n", "ru": "l'état de santé / le ressenti", "ru_pron": "samatchóuvstvié", "example_fr": "Как ваше самочувствие?", "example_ru": "Comment vous sentez-vous ?", "level": "A2" },
+        { "fr": "долголетие", "gender": "n", "ru": "la longévité", "ru_pron": "dalgalyétié", "example_fr": "Кавказцы известны своим долголетием.", "example_ru": "Les Caucasiens sont connus pour leur longévité.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "иммунитет", "fr_pron": "imounityét", "ru": "immunité", "ru_pron": "immunité", "note": "«Иммунитет» est identique au français «immunité», du latin «immunitas» (exemption). Concept central en médecine, le même dans toutes les langues européennes depuis Pasteur et Koch." },
+        { "fr": "профилактика", "fr_pron": "prafilaktika", "ru": "prophylaxie / prévention", "ru_pron": "prophylaxie", "note": "«Профилактика» vient du grec «prophylaktikos» (qui protège à l'avance). Le mot russe est plus proche du grec que le français «prophylaxie». En russe courant, «профилактика» s'utilise dans un sens médical et aussi général (maintenance préventive)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Fiodor Dostoïevski (1821–1881)", "subtitle": "«La beauté sauvera le monde»", "content": "Dostoïevski, déjà rencontré au Module 1, revient ici pour sa vision de la santé mentale. Épileptique, il connut la prison, le bagne en Sibérie et la misère — et pourtant écrivit des chefs-d'œuvre sur la souffrance humaine et la rédemption. Ses personnages sont souvent malades, tourmentés, mais porteurs d'une vitalité spirituelle intense. «L'Idiot», le prince Mychkine, est épileptique — comme son créateur. Dostoïevski fut l'un des premiers à décrire les états psychologiques avec une précision que Freud lui-même admirait." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La longévité au Caucase — mythe et réalité", "content": "Les régions du Caucase (Géorgie, Abkhazie, Azerbaïdjan) sont célèbres pour la longévité de leurs habitants. Des centenaires actifs, encore aux champs ou à cheval à 110 ans, ont été documentés au XXe siècle. L'URSS envoya des scientifiques étudier ce phénomène. Les facteurs identifiés : alimentation riche en légumes, fromages, noix, activité physique quotidienne, liens sociaux forts, absence de stress chronique. La «diète caucasienne» a influencé les recherches mondiales sur la longévité." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Как ваше самочувствие ?» — une vraie question en Russie", "content": "Contrairement à «Comment allez-vous ?» en France (souvent rhétorique), «Как ваше самочувствие ?» (Comment vous sentez-vous ?) est une vraie question en Russie, particulièrement pour les personnes âgées. On s'attend à une réponse détaillée. Les Russes parlent librement de leurs problèmes de santé : tension artérielle, médicaments, douleurs — des sujets ordinaires de conversation. Cette culture de la santé partagée vient du système soviétique où la santé était une responsabilité collective." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Здоровье не купишь.", "pronunciation": "Zdorów'ie nie kóupich'", "translation": "La santé ne s'achète pas.", "usage": "Proverbe russe équivalent à «la santé est la plus grande richesse» ou «on n'achète pas la santé». Souvent utilisé pour justifier des dépenses liées à la santé ou rappeler à quelqu'un l'importance de prendre soin de soi.", "example": "— Pourquoi tu dépenses autant à la pharmacie ? — Здоровье не купишь. (La santé ne s'achète pas.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le Caucase — Terre de longévité", "subtitle": "Кавказ — Земля долгожителей", "content": "Le Caucase (Кавказ) est une région montagneuse entre la mer Noire et la mer Caspienne, à cheval entre la Russie, la Géorgie, l'Arménie et l'Azerbaïdjan. C'est l'une des régions du monde avec la plus forte proportion de centenaires. La chaîne du Grand Caucase culmine à 5 642 m (Elbrouz, le plus haut sommet d'Europe). Sources thermales, forêts vierges, cuisines parfumées, vins géorgiens réputés — une destination qui allie nature, santé et culture unique au monde." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «la santé» en russe ?", "opts": ["болезнь", "здоровье", "лечение", "самочувствие"], "ans": 1, "exp": "«Здоровье» = la santé. De «здоровый» (en bonne santé). Le toast russe «За здоровье !» (À la santé !) vient de ce mot. «Здравствуйте» (bonjour) a la même racine !" },
+        { "q": "Quelle est la structure pour exprimer une douleur en russe ?", "opts": ["Я болею + partie du corps", "У меня болит + partie du corps", "Мне болит + partie du corps", "Моя + partie du corps + болеет"], "ans": 1, "exp": "«У меня болит + partie du corps au nominatif» est la structure standard. «У меня болят зубы» (j'ai mal aux dents) — pluriel = болят. C'est la formule la plus utilisée chez le médecin." },
+        { "q": "«Профилактика лучше лечения» signifie :", "opts": ["Le traitement guérit tout", "Mieux vaut prévenir que guérir", "La prévention coûte cher", "Le médecin prévient la maladie"], "ans": 1, "exp": "«Профилактика лучше лечения» = mieux vaut prévenir que guérir. «Профилактика» = la prévention, «лечение» = le traitement. Un principe médical universel en Russie." },
+        { "q": "«Здоровье не купишь» signifie :", "opts": ["La santé est gratuite", "La santé ne s'achète pas", "On peut acheter la santé", "Les médicaments sont trop chers"], "ans": 1, "exp": "«Здоровье не купишь» = la santé ne s'achète pas. Proverbe rappelant que l'argent ne peut pas tout — surtout pas remplacer une bonne santé." },
+        { "q": "Quel module vient après le Module 6 dans le cours ?", "opts": ["Travail & École", "Sorties & Restaurants", "Nature & Environnement", "Culture & Médias"], "ans": 2, "exp": "Le Module 7 est «Nature & Environnement» (Природа и среда). Vous y découvrirez la taïga, le lac Baïkal, les saisons russes et la faune unique de Russie. Продолжайте !" }
+      ]
+    }
+  ]
+}
