@@ -1,0 +1,728 @@
+{
+  "module": 5,
+  "titleFr": "Travail & École",
+  "titleRu": "Работа и учёба",
+  "description": "Le vocabulaire professionnel, le monde scolaire, les métiers, les lieux de travail et la culture du bureau russe.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Les Métiers et Professions",
+      "titleRu": "Профессии",
+      "level": "A1",
+      "grammar": {
+        "title": "Les professions en russe — genre et accord",
+        "titleRu": "Профессии и род",
+        "intro": "En russe, les noms de métiers ont souvent une forme masculine et une forme féminine distinctes. Contrairement au français (qui hésite entre «autrice» et «auteur»), le russe a des règles claires et régulières. Autre particularité : après le verbe «être» absent au présent, on utilise le nominatif sans article — «Я врач» (je suis médecin), jamais «Я un врач» !",
+        "sections": [
+          {
+            "title": "Quelques professions courantes",
+            "content": "врач [vratch] — médecin (m/f identique)\nучитель [outchitel'] — enseignant / учительница — enseignante\nинженер [injenér] — ingénieur (m/f identique)\nпрограммист [programíst] — programmeur / программистка — programmeuse\nюрист [yourіst] — juriste (m/f identique)\nбухгалтер [boukhgálter] — comptable (m/f identique)\nменеджер [ménidjer] — manager (m/f identique)\nжурналист [journalíst] — journaliste / журналистка — journaliste (f)\nхудожник [khoudójnik] — artiste peintre / художница — artiste (f)\nповар [póvar] — cuisinier / повариха — cuisinière"
+          },
+          {
+            "title": "Dire sa profession",
+            "content": "Я работаю врачом. — Je travaille comme médecin.\nЯ работаю в школе. — Je travaille dans une école.\nКем вы работаете? — Quel est votre métier ?\nГде вы работаете? — Où travaillez-vous ?\nЯ не работаю. — Je ne travaille pas.\nЯ безработный/безработная. — Je suis au chômage."
+          },
+          {
+            "title": "L'instrumental après «работать»",
+            "content": "Attention : après «работать» (travailler), le nom de métier se met à l'instrumental !\nврач → работать врачОМ\nучитель → работать учителЕМ\nинженер → работать инженерОМ\n\nMais avec «быть» (être, au passé/futur) : on utilise l'instrumental aussi.\nОн был врачОМ. — Il était médecin.\nЯ буду инженерОМ. — Je serai ingénieur."
+          }
+        ],
+        "rule": "💡 Au présent, pas de verbe «être» : «Я врач» (je suis médecin). Mais avec «работать» : instrumental obligatoire — «Я работаю врачОМ». Deux règles à retenir, mais une seule situation au quotidien !"
+      },
+      "pronunciation": {
+        "intro": "Apprenez à prononcer les professions — très utiles pour vous présenter. Appuyez sur 🔊 pour écouter.",
+        "note": "⚠️ «Врач» (médecin) — le «ч» final se prononce comme «tch», jamais «k». Et «программист» — l'accent tombe sur la dernière syllabe : programíst.",
+        "words": [
+          { "fr": "врач", "ru_pron": "vratch", "meaning": "médecin" },
+          { "fr": "учитель", "ru_pron": "outchitel'", "meaning": "enseignant" },
+          { "fr": "инженер", "ru_pron": "injenér", "meaning": "ingénieur" },
+          { "fr": "программист", "ru_pron": "programíst", "meaning": "programmeur" },
+          { "fr": "журналист", "ru_pron": "journalíst", "meaning": "journaliste" },
+          { "fr": "юрист", "ru_pron": "yourіst", "meaning": "juriste / avocat" },
+          { "fr": "бухгалтер", "ru_pron": "boukhgálter", "meaning": "comptable" },
+          { "fr": "повар", "ru_pron": "póvar", "meaning": "cuisinier" },
+          { "fr": "художник", "ru_pron": "khoudójnik", "meaning": "artiste / peintre" },
+          { "fr": "менеджер", "ru_pron": "ménidjer", "meaning": "manager" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "профессия", "gender": "f", "ru": "la profession / le métier", "ru_pron": "prafésiya", "example_fr": "Какая у вас профессия?", "example_ru": "Quelle est votre profession ?", "level": "A1" },
+        { "fr": "работа", "gender": "f", "ru": "le travail / l'emploi", "ru_pron": "rabóta", "example_fr": "У меня есть работа.", "example_ru": "J'ai un emploi.", "level": "A1" },
+        { "fr": "врач", "gender": "m", "ru": "le/la médecin", "ru_pron": "vratch", "example_fr": "Она врач.", "example_ru": "Elle est médecin.", "level": "A1" },
+        { "fr": "учитель", "gender": "m", "ru": "l'enseignant", "ru_pron": "outchitel'", "example_fr": "Мой отец — учитель.", "example_ru": "Mon père est enseignant.", "level": "A1" },
+        { "fr": "инженер", "gender": "m", "ru": "l'ingénieur", "ru_pron": "injenér", "example_fr": "Я работаю инженером.", "example_ru": "Je travaille comme ingénieur.", "level": "A1" },
+        { "fr": "юрист", "gender": "m", "ru": "le/la juriste / l'avocat(e)", "ru_pron": "yourіst", "example_fr": "Мой брат — юрист.", "example_ru": "Mon frère est juriste.", "level": "A1" },
+        { "fr": "программист", "gender": "m", "ru": "le programmeur", "ru_pron": "programíst", "example_fr": "Программисты хорошо зарабатывают.", "example_ru": "Les programmeurs gagnent bien leur vie.", "level": "A1" },
+        { "fr": "работать", "gender": null, "ru": "travailler", "ru_pron": "rabótat'", "example_fr": "Где ты работаешь?", "example_ru": "Où travailles-tu ?", "level": "A1" },
+        { "fr": "зарплата", "gender": "f", "ru": "le salaire", "ru_pron": "zarpláta", "example_fr": "Какая у вас зарплата?", "example_ru": "Quel est votre salaire ?", "meaning_double": "зарплата = salaire mensuel fixe (abrév. de заработная плата)", "level": "A1" },
+        { "fr": "коллега", "gender": "m/f", "ru": "le/la collègue", "ru_pron": "kalyéga", "example_fr": "Мои коллеги очень хорошие.", "example_ru": "Mes collègues sont très sympathiques.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "менеджер", "fr_pron": "ménidjer", "ru": "manager", "ru_pron": "manager", "note": "«Менеджер» est un emprunt direct à l'anglais «manager», massivement adopté en Russie après 1991. Il désigne souvent un cadre intermédiaire dans une entreprise." },
+        { "fr": "юрист", "fr_pron": "yourіst", "ru": "juriste", "ru_pron": "juriste", "note": "«Юрист» et «juriste» viennent tous deux du latin «juris» (du droit). Même racine que «juridique» en français. Le droit est une profession très valorisée en Russie." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhail Lomonossov (1711–1765)", "subtitle": "Scientifique universel et fondateur de l'Université de Moscou", "content": "Mikhail Lomonossov est le «Léonard de Vinci russe» : physicien, chimiste, poète, linguiste, historien et astronome à la fois. Fils de pêcheur sibérien, il marcha 1 000 km jusqu'à Moscou pour étudier. Il fonda l'Université de Moscou en 1755 (aujourd'hui МГУ — la plus grande de Russie). Il reforma la langue russe littéraire. Son portrait orne les billets de 100 roubles. Il incarne le rêve russe : le mérite et l'éducation comme ascenseur social." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le système soviétique des professions — un héritage durable", "content": "En URSS, toutes les professions étaient gérées par l'État. On ne «choisissait» pas son métier librement — l'État assignait les travailleurs selon les besoins du plan quinquennal. Les ingénieurs et scientifiques étaient la classe la plus valorisée (pas les banquiers — ils n'existaient pas !). Après 1991, la Russie a découvert le marché libre : nouvelles professions (banquier, publicitaire, DRH) et nostalgie des jobs soviétiques «sûrs»." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Кем ты хочешь стать?» — la question des parents russes", "content": "Demander à un enfant russe «кем ты хочешь стать?» (qu'est-ce que tu veux faire plus tard ?) est un rituel familial. Les réponses valorisées : médecin (врач), avocat (юрист), ingénieur (инженер), programmeur (программист). Depuis les années 2000, «programmiste» est devenu le rêve des parents russes — la Silicon Valley attire les développeurs russes qui sont parmi les plus recherchés au monde." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Делу время, потехе час.", "pronunciation": "Dyélou vryémia, patyékhe tchas", "translation": "Le travail d'abord, le divertissement ensuite.", "usage": "Proverbe attribué au tsar Alexis de Russie (XVIIe siècle). Littéralement : «Au travail le temps, au plaisir l'heure». L'équivalent russe de «les affaires avant tout».", "example": "— Пойдём гулять? — Нет, делу время, потехе час! (On sort se promener ? — Non, le travail d'abord !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Академгородок — la cité des savants", "subtitle": "Новосибирск — советский Кремниевый долина", "content": "Академгородок (la ville des académiciens), à Novossibirsk en Sibérie, est l'un des centres scientifiques les plus fascinants au monde. Créé en 1957 par Khrouchtchev, ce campus scientifique de 70 000 habitants abritait les meilleurs cerveaux de l'URSS dans une forêt de bouleaux. Aujourd'hui, technopole en plein essor avec des startups tech et des laboratoires de pointe. Un exemple unique de «cité utopique» pour les intellectuels, encore habité et vivant." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je travaille comme médecin» en russe ?", "opts": ["Я врач работаю.", "Я работаю врач.", "Я работаю врачом.", "Я есть врач."], "ans": 2, "exp": "Après «работать», le nom de métier se met à l'instrumental : «врач» → «врачОМ». C'est une règle importante du russe !" },
+        { "q": "«Программист» en russe signifie :", "opts": ["mathématicien", "informaticien / programmeur", "journaliste", "ingénieur"], "ans": 1, "exp": "«Программист» = programmeur / développeur informatique. Ce mot vient de l'anglais «programmer». La Russie forme de nombreux programmeurs de talent." },
+        { "q": "Comment demande-t-on «quel est votre métier ?» en russe ?", "opts": ["Кто вы такой?", "Где вы работаете?", "Кем вы работаете?", "Вы работаете?"], "ans": 2, "exp": "«Кем вы работаете?» = quel est votre métier / que faites-vous dans la vie ? Le mot «кем» est l'instrumental de «кто» (qui)." },
+        { "q": "Qui a fondé l'Université de Moscou en 1755 ?", "opts": ["Pierre le Grand", "Catherine la Grande", "Mikhail Lomonossov", "Ivan le Terrible"], "ans": 2, "exp": "Mikhail Lomonossov fonda l'Université de Moscou en 1755. Elle porte aujourd'hui son nom : МГУ им. Ломоносова. C'est la plus grande université de Russie." },
+        { "q": "Que signifie le proverbe «Делу время, потехе час» ?", "opts": ["Travailler la nuit est dangereux", "Le travail d'abord, le plaisir ensuite", "Chaque heure compte", "Ne pas mélanger travail et famille"], "ans": 1, "exp": "«Делу время, потехе час» = le travail d'abord, le divertissement ensuite. Proverbe russe sur la priorité du travail sur les loisirs." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Le Bureau et l'Entreprise",
+      "titleRu": "Офис и компания",
+      "level": "A1",
+      "grammar": {
+        "title": "Le lieu de travail — prépositions et localisations",
+        "titleRu": "Место работы и предлоги",
+        "intro": "Pour parler de son lieu de travail, le russe utilise des prépositions spécifiques qui régissent des cas différents. «В» (dans, à) est la plus courante — elle exige le prépositionnel. Maîtriser «в» vous permettra de situer n'importe quel lieu de travail ou institution.",
+        "sections": [
+          {
+            "title": "Lieux de travail courants",
+            "content": "офис [ófis] — le bureau / l'open space\nкомпания [kampániya] — l'entreprise\nфирма [fírma] — la société\nзавод [zavód] — l'usine\nбольница [bol'nítsa] — l'hôpital\nшкола [shkóla] — l'école\nуниверситет [ounivirsitét] — l'université\nбанк [bank] — la banque\nмагазин [magazín] — le magasin\nресторан [ristaran] — le restaurant"
+          },
+          {
+            "title": "Préposition «в» + prépositionnel",
+            "content": "Я работаю в офисе. — Je travaille dans un bureau.\nОн работает в больнице. — Il travaille à l'hôpital.\nОна учится в университете. — Elle étudie à l'université.\nМы работаем в компании. — Nous travaillons dans une entreprise.\n\nRègle : В + [nom au prépositionnel]\nофис → в офисЕ\nшкола → в школЕ\nбольница → в больницЕ"
+          },
+          {
+            "title": "Verbes utiles au bureau",
+            "content": "работать — travailler\nучиться — étudier / apprendre\nзвонить — téléphoner\nписать — écrire\nчитать — lire\nотвечать — répondre\nспрашивать — demander / poser une question\nотправлять — envoyer\nвстречаться — se retrouver / avoir une réunion"
+          }
+        ],
+        "rule": "💡 Astuce : «в + lieu» = dans un lieu (prépositionnel). Pour dire où vous allez, utilisez «в + accusatif» : «Я иду в офис» (je vais au bureau) vs «Я в офисе» (je suis au bureau). Deux situations, deux cas différents !"
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire du bureau — indispensable pour le monde professionnel. Répétez chaque mot.",
+        "note": "⚠️ «Офис» est un emprunt à l'anglais «office» — prononcez «ó-fis» avec l'accent sur le «o». «Компания» — accent sur la 2e syllabe : kam-PÁ-ni-ya.",
+        "words": [
+          { "fr": "офис", "ru_pron": "ófis", "meaning": "le bureau / l'open space" },
+          { "fr": "компания", "ru_pron": "kampániya", "meaning": "l'entreprise" },
+          { "fr": "завод", "ru_pron": "zavód", "meaning": "l'usine" },
+          { "fr": "больница", "ru_pron": "bol'nítsa", "meaning": "l'hôpital" },
+          { "fr": "банк", "ru_pron": "bank", "meaning": "la banque" },
+          { "fr": "встреча", "ru_pron": "vstryétcha", "meaning": "la réunion / la rencontre" },
+          { "fr": "директор", "ru_pron": "diryéktar", "meaning": "le directeur" },
+          { "fr": "начальник", "ru_pron": "natchál'nik", "meaning": "le chef / le supérieur" },
+          { "fr": "зарплата", "ru_pron": "zarpláta", "meaning": "le salaire" },
+          { "fr": "отпуск", "ru_pron": "ótpousk", "meaning": "les congés / les vacances" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "офис", "gender": "m", "ru": "le bureau / l'open space", "ru_pron": "ófis", "example_fr": "Я работаю в офисе.", "example_ru": "Je travaille dans un bureau.", "level": "A1" },
+        { "fr": "компания", "gender": "f", "ru": "l'entreprise / la société", "ru_pron": "kampániya", "example_fr": "Это большая компания.", "example_ru": "C'est une grande entreprise.", "level": "A1" },
+        { "fr": "директор", "gender": "m", "ru": "le directeur / la directrice", "ru_pron": "diryéktar", "example_fr": "Директор сейчас занят.", "example_ru": "Le directeur est occupé maintenant.", "level": "A1" },
+        { "fr": "начальник", "gender": "m", "ru": "le chef / le supérieur hiérarchique", "ru_pron": "natchál'nik", "example_fr": "Мой начальник строгий.", "example_ru": "Mon chef est sévère.", "level": "A1" },
+        { "fr": "встреча", "gender": "f", "ru": "la réunion / la rencontre", "ru_pron": "vstryétcha", "example_fr": "У нас встреча в три часа.", "example_ru": "Nous avons une réunion à trois heures.", "level": "A1" },
+        { "fr": "отпуск", "gender": "m", "ru": "les congés payés / les vacances", "ru_pron": "ótpousk", "example_fr": "Я в отпуске.", "example_ru": "Je suis en congés.", "meaning_double": "отпуск = congés du travail (pas les vacances scolaires — те называются каникулы)", "level": "A1" },
+        { "fr": "зарплата", "gender": "f", "ru": "le salaire", "ru_pron": "zarpláta", "example_fr": "Зарплата приходит первого числа.", "example_ru": "Le salaire arrive le premier du mois.", "level": "A1" },
+        { "fr": "завод", "gender": "m", "ru": "l'usine / la manufacture", "ru_pron": "zavód", "example_fr": "Он работает на заводе.", "example_ru": "Il travaille à l'usine.", "level": "A1" },
+        { "fr": "звонить", "gender": null, "ru": "téléphoner / appeler", "ru_pron": "zvanít'", "example_fr": "Позвони мне!", "example_ru": "Appelle-moi !", "level": "A1" },
+        { "fr": "отправить", "gender": null, "ru": "envoyer (un message, un email)", "ru_pron": "atpravit'", "example_fr": "Отправьте мне письмо.", "example_ru": "Envoyez-moi un email.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "офис", "fr_pron": "ófis", "ru": "office / bureau", "ru_pron": "office", "note": "«Офис» est un emprunt direct à l'anglais «office», lui-même venant du latin «officium». Le mot s'est répandu en Russie dans les années 1990 avec l'économie de marché." },
+        { "fr": "директор", "fr_pron": "diryéktar", "ru": "directeur", "ru_pron": "directeur", "note": "«Директор» et «directeur» ont la même étymologie latine «director». En Russie, le titre «директор» a beaucoup de prestige — même le directeur d'une petite école porte ce titre avec fierté." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Pavel Dourov (né en 1984)", "subtitle": "Fondateur de VKontakte et Telegram", "content": "Pavel Dourov est le Mark Zuckerberg russe. Il fonda VKontakte (ВКонтакте, le «Facebook russe») en 2006 à 22 ans, puis quitta la Russie en 2014 sous pression politique. Il créa ensuite Telegram, l'application de messagerie cryptée utilisée par 900 millions de personnes dans le monde. Libertarien convaincu, il défend la vie privée et résiste aux gouvernements. Né à Saint-Pétersbourg, il vit apatride, se déplaçant de pays en pays. Symbole de la tech russe et de son exil." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La culture du «блат» — les relations avant tout", "content": "«Блат» (blat) désigne en russe le système des relations personnelles utilisées pour obtenir des faveurs professionnelles ou des biens rares. En URSS, блат était essentiel pour survivre : avoir des relations dans une boulangerie, un hôpital, une administration. Aujourd'hui, le блат persiste dans la culture des affaires : connaître les «bonnes personnes» (нужные люди) reste primordial pour les recrutements, les contrats et les promotions." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La réunion russe — un art de vivre", "content": "Les réunions (совещания, sovetchániya) en Russie ont leurs propres codes. Les décisions importantes se prennent rarement en réunion officielle — elles sont déjà actées avant. La réunion sert à valider. Le directeur parle, les autres écoutent. Couper la parole au supérieur est très mal vu. En revanche, après la réunion, autour d'un thé ou d'un repas, tout se dit librement ! Le поговорить (parler librement) après la réunion formelle est une tradition culturelle." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Без труда не выловишь и рыбку из пруда.", "pronunciation": "Biez troudá nie výloviш i ryбку iz proudá", "translation": "Sans effort, on ne peut pas attraper un poisson dans l'étang.", "usage": "L'équivalent de «sans douleur, sans gain» ou «le travail paie». Proverbe russe sur la nécessité de l'effort pour réussir, très utilisé dans le contexte professionnel.", "example": "— Это задание слишком трудное... — Без труда не выловишь и рыбку из пруда! (Cette tâche est trop difficile... — Sans effort, pas de résultat !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Москва-Сити — le Manhattan russe", "subtitle": "Московский международный деловой центр", "content": "Москва-Сити (Moscow City) est le quartier d'affaires de Moscou, avec ses gratte-ciel ultramodernes qui tranchent sur la ville historique. La tour «Лахта-Центр» à Saint-Pétersbourg (462 m) est la plus haute d'Europe. Ces tours de verre et d'acier symbolisent la Russie capitaliste post-soviétique. Les grandes banques, multinationales et holdings y ont leurs sièges. Un contraste saisissant avec les dômes d'or du Kremlin, visibles depuis les étages supérieurs." }
+      },
+      "quiz": [
+        { "q": "Quelle préposition utilise-t-on pour dire «je travaille dans un bureau» en russe ?", "opts": ["на", "к", "в", "от"], "ans": 2, "exp": "«В» + prépositionnel = dans un lieu. «Я работаю в офисе» (je travaille dans un bureau). «Офис» → «офисЕ» au prépositionnel." },
+        { "q": "Que signifie «отпуск» en russe ?", "opts": ["les devoirs à faire", "les congés payés / vacances du travail", "le salaire de fin de mois", "une réunion importante"], "ans": 1, "exp": "«Отпуск» = les congés du travail. À ne pas confondre avec «каникулы» = les vacances scolaires. «Я в отпуске» = je suis en congés." },
+        { "q": "«Начальник» signifie :", "opts": ["le collègue", "le stagiaire", "le chef / le supérieur hiérarchique", "le client"], "ans": 2, "exp": "«Начальник» = le chef, le supérieur. Un mot important dans la culture russe où la hiérarchie est très présente. «Мой начальник» = mon chef." },
+        { "q": "Qui est Pavel Dourov ?", "opts": ["Le premier cosmonaute russe", "Le fondateur de VKontakte et Telegram", "Le président de la banque centrale russe", "Un écrivain du XXe siècle"], "ans": 1, "exp": "Pavel Dourov a fondé VKontakte (le Facebook russe) en 2006, puis Telegram. C'est l'un des entrepreneurs tech les plus célèbres issus de Russie." },
+        { "q": "Que désigne le mot «блат» dans la culture russe ?", "opts": ["Un type de musique populaire", "Le système des relations personnelles pour obtenir des faveurs", "Un plat traditionnel sibérien", "Un grade militaire"], "ans": 1, "exp": "«Блат» désigne le réseau de relations personnelles utilisé pour accéder à des ressources ou des postes. Hérité de l'époque soviétique, ce concept reste présent dans la culture des affaires russe." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "L'École et les Études",
+      "titleRu": "Школа и учёба",
+      "level": "A1",
+      "grammar": {
+        "title": "Le système scolaire russe et le verbe «учиться»",
+        "titleRu": "Система образования и глагол учиться",
+        "intro": "Le russe distingue deux verbes proches : «учить» (enseigner / apprendre quelque chose) et «учиться» (étudier / être élève). Cette distinction est importante et n'a pas d'équivalent direct en français. Comprendre cette nuance vous permettra de parler correctement de votre scolarité.",
+        "sections": [
+          {
+            "title": "Учить vs Учиться",
+            "content": "УЧИТЬ (apprendre qqch / enseigner):\nЯ учу русский язык. — J'apprends le russe.\nОн учит детей математике. — Il enseigne les maths aux enfants.\n\nУЧИТЬСЯ (être étudiant / étudier dans un lieu):\nЯ учусь в университете. — J'étudie à l'université.\nОна учится хорошо. — Elle est une bonne élève.\nГде ты учишься? — Où étudies-tu ?"
+          },
+          {
+            "title": "Le système scolaire russe",
+            "content": "детский сад — la maternelle (littéral. «jardin d'enfants»)\nначальная школа — l'école primaire (classes 1-4)\nосновная школа — le collège (classes 5-9)\nстаршая школа — le lycée (classes 10-11)\nуниверситет / вуз — l'université\nколледж — le BTS / l'IUT\nаспирантура — le doctorat / la thèse\n\n⚠️ «Колледж» en russe ≠ «collège» français ! C'est une école technique post-lycée."
+          },
+          {
+            "title": "Les matières scolaires",
+            "content": "математика — les maths\nфизика — la physique\nхимия — la chimie\nбиология — la biologie\nистория — l'histoire\nгеография — la géographie\nлитература — la littérature\nиностранный язык — la langue étrangère\nфизкультура — le sport (EPS)\nрисование — le dessin"
+          }
+        ],
+        "rule": "💡 Le russe valorise énormément l'éducation. «Образованный человек» (une personne éduquée) est un compliment suprême. L'enseignement des sciences est particulièrement fort — la Russie forme d'excellents mathématiciens, physiciens et ingénieurs."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire de l'école — retrouvez des mots proches du français ou de l'anglais !",
+        "note": "⚠️ «Университет» — 6 syllabes : u-ni-ver-si-TET (accent final). Et «математика» — accent sur le «a» : ma-te-MÁ-ti-ka.",
+        "words": [
+          { "fr": "школа", "ru_pron": "shkóla", "meaning": "l'école" },
+          { "fr": "университет", "ru_pron": "ounivirsitét", "meaning": "l'université" },
+          { "fr": "учитель", "ru_pron": "outchitel'", "meaning": "le professeur (école)" },
+          { "fr": "профессор", "ru_pron": "prafyéssar", "meaning": "le professeur (université)" },
+          { "fr": "студент", "ru_pron": "stoudyént", "meaning": "l'étudiant(e)" },
+          { "fr": "ученик", "ru_pron": "outchenik", "meaning": "l'élève (m)" },
+          { "fr": "математика", "ru_pron": "matemátika", "meaning": "les mathématiques" },
+          { "fr": "экзамен", "ru_pron": "ekzámen", "meaning": "l'examen" },
+          { "fr": "оценка", "ru_pron": "atsyénka", "meaning": "la note / l'appréciation" },
+          { "fr": "каникулы", "ru_pron": "kanykuly", "meaning": "les vacances scolaires" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "школа", "gender": "f", "ru": "l'école", "ru_pron": "shkóla", "example_fr": "Моя дочь идёт в школу.", "example_ru": "Ma fille va à l'école.", "level": "A1" },
+        { "fr": "университет", "gender": "m", "ru": "l'université", "ru_pron": "ounivirsitét", "example_fr": "Я учусь в университете.", "example_ru": "J'étudie à l'université.", "level": "A1" },
+        { "fr": "студент", "gender": "m", "ru": "l'étudiant", "ru_pron": "stoudyént", "example_fr": "Я студент третьего курса.", "example_ru": "Je suis en troisième année.", "level": "A1" },
+        { "fr": "профессор", "gender": "m", "ru": "le professeur (d'université)", "ru_pron": "prafyéssar", "example_fr": "Профессор очень интересно объясняет.", "example_ru": "Le professeur explique de façon très intéressante.", "level": "A1" },
+        { "fr": "экзамен", "gender": "m", "ru": "l'examen", "ru_pron": "ekzámen", "example_fr": "Завтра у меня экзамен.", "example_ru": "J'ai un examen demain.", "level": "A1" },
+        { "fr": "оценка", "gender": "f", "ru": "la note / la mention", "ru_pron": "atsyénka", "example_fr": "Я получил хорошую оценку.", "example_ru": "J'ai eu une bonne note.", "meaning_double": "оценка = note scolaire ET évaluation/avis en général", "level": "A1" },
+        { "fr": "учиться", "gender": null, "ru": "étudier / être élève", "ru_pron": "outchítsa", "example_fr": "Где ты учишься?", "example_ru": "Où étudies-tu ?", "level": "A1" },
+        { "fr": "каникулы", "gender": "pl", "ru": "les vacances scolaires", "ru_pron": "kanykuly", "example_fr": "Летние каникулы длятся три месяца.", "example_ru": "Les grandes vacances durent trois mois.", "level": "A1" },
+        { "fr": "урок", "gender": "m", "ru": "le cours / la leçon", "ru_pron": "ourok", "example_fr": "Урок начинается в восемь часов.", "example_ru": "Le cours commence à huit heures.", "level": "A1" },
+        { "fr": "домашнее задание", "gender": "n", "ru": "les devoirs (à la maison)", "ru_pron": "damáchniye zadániye", "example_fr": "Я сделал домашнее задание.", "example_ru": "J'ai fait mes devoirs.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "университет", "fr_pron": "ounivirsitét", "ru": "université", "ru_pron": "université", "note": "«Университет» et «université» ont la même étymologie latine «universitas». Les grandes universités russes comme le МГУ de Moscou figurent parmi les meilleures au monde en sciences." },
+        { "fr": "экзамен", "fr_pron": "ekzámen", "ru": "examen", "ru_pron": "examen", "note": "«Экзамен» est identique au français «examen», du latin «examen» (pesée, évaluation). Les examens russes (особенно ЕГЭ — le baccalauréat russe) sont réputés très exigeants." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Grigori Perelman (né en 1966)", "subtitle": "Mathématicien qui a refusé 1 million de dollars", "content": "Grigori Perelman est le mathématicien russe qui a prouvé la conjecture de Poincaré en 2003 — l'un des 7 «problèmes du millénaire» (chacun doté d'un prix d'un million de dollars). Il refusa le Prix Fields (équivalent Nobel en maths) et le prix d'un million de dollars, déclarant que la reconnaissance de la communauté scientifique lui suffisait. Il vit reclus à Saint-Pétersbourg avec sa mère. Figure légendaire de l'humilité intellectuelle et de l'éthique scientifique." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'ÉGÉ — le bac russe controversé", "content": "L'ЕГЭ (Единый государственный экзамен — Examen d'État unique) est le baccalauréat russe, introduit en 2001 et généralisé en 2009. Similaire au SAT américain, il est standardisé à l'échelle nationale. Sa création a été très controversée : les enseignants traditionalistes reprochaient qu'il réduisait l'éducation à des QCM. En revanche, il a réduit la corruption (auparavant, les admissions en université se négociaient). Le score d'ЕГЭ détermine l'accès aux universités et aux bourses." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La relation prof-élève en Russie — le respect formel", "content": "En Russie, la relation entre professeur et élève est très formelle. On vouvoie systématiquement le prof (вы, jamais ты). On se lève quand le professeur entre en classe — tradition encore bien vivante. Les cadeaux aux professeurs à la fin de l'année sont courants (fleurs, chocolats). En revanche, la copie entre élèves est un sport national — les Russes appellent ça «решпект» (respect) envers les camarades qui n'ont pas révisé !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Учиться никогда не поздно.", "pronunciation": "Outchítsa nikagdá nie pózdna", "translation": "Il n'est jamais trop tard pour apprendre.", "usage": "Proverbe russe sur la valeur de l'apprentissage tout au long de la vie. L'équivalent de «il n'est jamais trop tard pour bien faire». Parfait pour encourager l'apprentissage du russe !", "example": "— Я слишком старый учить русский язык. — Учиться никогда не поздно! (Je suis trop vieux pour apprendre le russe. — Il n'est jamais trop tard !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "МГУ — l'Université de Moscou sur les collines Lénine", "subtitle": "Московский государственный университет", "content": "L'Université d'État de Moscou (МГУ — Moskovskiy Gosudarstvenny Universitet) est la plus grande université de Russie et l'une des meilleures au monde, fondée en 1755. Son bâtiment principal, construit en 1953, est l'un des «Sept Sœurs» — les gratte-ciel staliniens qui dominent Moscou. Avec 47 000 étudiants et 6 000 enseignants, le campus est une ville dans la ville avec restaurants, hôtels, musée et observatoire. La visite du belvédère offre un panorama unique sur Moscou." }
+      },
+      "quiz": [
+        { "q": "Quelle est la différence entre «учить» et «учиться» ?", "opts": ["Aucune différence", "учить = apprendre qqch, учиться = étudier dans un lieu", "учить = lire, учиться = écrire", "учить = formel, учиться = informel"], "ans": 1, "exp": "«Учить» = apprendre quelque chose / enseigner (transitif). «Учиться» = être élève / étudier dans un lieu (réfléchi). Ex: «Я учу русский» (j'apprends le russe) vs «Я учусь в школе» (je vais à l'école)." },
+        { "q": "Comment dit-on «les vacances scolaires» en russe ?", "opts": ["отпуск", "каникулы", "праздники", "выходные"], "ans": 1, "exp": "«Каникулы» = les vacances scolaires. «Отпуск» = les congés du travail. «Выходные» = le week-end. «Праздники» = les jours fériés." },
+        { "q": "Que signifie «ЕГЭ» en Russie ?", "opts": ["Le diplôme de fin d'études supérieures", "L'examen national de baccalauréat", "L'examen d'entrée en école de langues", "L'évaluation des enseignants"], "ans": 1, "exp": "L'ЕГЭ est l'Examen d'État unique russe, l'équivalent du baccalauréat français. Introduit en 2001, il est standardisé et détermine l'accès aux universités." },
+        { "q": "Grigori Perelman est célèbre pour :", "opts": ["Avoir inventé Internet en Russie", "Avoir refusé 1 million de dollars après avoir prouvé la conjecture de Poincaré", "Avoir créé le premier ordinateur soviétique", "Avoir gagné une médaille d'or aux Jeux olympiques"], "ans": 1, "exp": "Grigori Perelman a prouvé la conjecture de Poincaré en 2003 et a refusé le Prix Fields et un million de dollars. Il vit reclus à Saint-Pétersbourg. Un génie légendaire de l'humilité." },
+        { "q": "«Детский сад» signifie littéralement :", "opts": ["La cour de récréation", "Le jardin d'enfants / la maternelle", "La bibliothèque scolaire", "Le terrain de sport"], "ans": 1, "exp": "«Детский сад» = littéralement «jardin pour enfants» — c'est la maternelle en russe. Comme l'allemand «Kindergarten» ou le français «jardin d'enfants» (terme plus littéraire)." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Les Horaires et le Temps de Travail",
+      "titleRu": "Рабочее время и расписание",
+      "level": "A1",
+      "grammar": {
+        "title": "L'heure en russe — exprimer les horaires",
+        "titleRu": "Время и часы",
+        "intro": "Exprimer l'heure en russe est un peu différent du français. Le russe utilise un système basé sur les quarts et les demies, avec des constructions qui diffèrent selon qu'on parle d'une heure entière, d'un quart, d'une demi-heure ou de minutes spécifiques. Concentrons-nous sur les formules les plus utiles au quotidien professionnel.",
+        "sections": [
+          {
+            "title": "Les heures entières",
+            "content": "Который час? — Quelle heure est-il ?\nСейчас... — Il est (maintenant)...\n\n1h00 → Сейчас час.\n2h00 → Сейчас два часа.\n3h00 → Сейчас три часа.\n4h00 → Сейчас четыре часа.\n5h00 → Сейчас пять часов.\n12h00 → Сейчас двенадцать часов.\n\n⚠️ Après 1 : «час» / Après 2-4 : «часа» / Après 5 : «часов»"
+          },
+          {
+            "title": "La demie et les quarts",
+            "content": "половина второго — 1h30 (la moitié de la deuxième heure)\nчетверть второго — 1h15 (le quart de la deuxième heure)\nбез четверти два — 1h45 (deux heures moins le quart)\n\n2h30 → половина третьего\n3h15 → четверть четвёртого\n4h45 → без четверти пять"
+          },
+          {
+            "title": "Expressions utiles pour le travail",
+            "content": "Во сколько? — À quelle heure ?\nВ девять часов. — À neuf heures.\nОт... до... — De... à...\nЯ работаю с девяти до шести. — Je travaille de 9h à 18h.\nПерерыв на обед — la pause déjeuner\nРабочий день — la journée de travail\nСверхурочная работа — les heures supplémentaires"
+          }
+        ],
+        "rule": "💡 Pour les horaires professionnels, la formule la plus simple : «В + [heure] + [activité]» : «В девять — встреча» (À 9h — réunion). Et «с...до...» pour les plages horaires : «Я работаю с девяти до шести» (Je travaille de 9h à 18h)."
+      },
+      "pronunciation": {
+        "intro": "Maîtrisez les expressions de temps — essentielles pour le monde du travail. Les Russes sont ponctuels professionnellement.",
+        "note": "⚠️ «Половина» (demi) — accent sur la 3e syllabe : po-lo-VÍ-na. Et «четверть» (quart) — le groupe «тв» se prononce d'un seul souffle : «tchétvert'».",
+        "words": [
+          { "fr": "час", "ru_pron": "tchas", "meaning": "une heure / l'heure" },
+          { "fr": "минута", "ru_pron": "minoúta", "meaning": "une minute" },
+          { "fr": "половина", "ru_pron": "palavína", "meaning": "la moitié / et demie" },
+          { "fr": "четверть", "ru_pron": "tchétvert'", "meaning": "le quart" },
+          { "fr": "расписание", "ru_pron": "raspísaniye", "meaning": "l'emploi du temps / l'horaire" },
+          { "fr": "перерыв", "ru_pron": "perirýv", "meaning": "la pause" },
+          { "fr": "опоздание", "ru_pron": "opazdániye", "meaning": "le retard" },
+          { "fr": "вовремя", "ru_pron": "vóvrimia", "meaning": "à l'heure / ponctuel" },
+          { "fr": "рано", "ru_pron": "ráno", "meaning": "tôt / en avance" },
+          { "fr": "поздно", "ru_pron": "pózdno", "meaning": "tard / en retard" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "расписание", "gender": "n", "ru": "l'emploi du temps / l'horaire", "ru_pron": "raspísaniye", "example_fr": "Какое у вас расписание?", "example_ru": "Quel est votre emploi du temps ?", "level": "A1" },
+        { "fr": "перерыв", "gender": "m", "ru": "la pause / l'interruption", "ru_pron": "perirýv", "example_fr": "Перерыв на обед — час.", "example_ru": "La pause déjeuner dure une heure.", "level": "A1" },
+        { "fr": "опоздание", "gender": "n", "ru": "le retard", "ru_pron": "opazdániye", "example_fr": "Извините за опоздание!", "example_ru": "Excusez-moi pour le retard !", "level": "A1" },
+        { "fr": "вовремя", "gender": null, "ru": "à l'heure / ponctuellement", "ru_pron": "vóvrimia", "example_fr": "Он всегда приходит вовремя.", "example_ru": "Il arrive toujours à l'heure.", "level": "A1" },
+        { "fr": "рабочий день", "gender": "m", "ru": "la journée de travail", "ru_pron": "rabótchy dyen'", "example_fr": "Мой рабочий день — 8 часов.", "example_ru": "Ma journée de travail est de 8 heures.", "level": "A1" },
+        { "fr": "обеденный перерыв", "gender": "m", "ru": "la pause déjeuner", "ru_pron": "abédenny perirýv", "example_fr": "Я иду на обеденный перерыв.", "example_ru": "Je pars en pause déjeuner.", "level": "A1" },
+        { "fr": "дедлайн", "gender": "m", "ru": "la date limite / le deadline", "ru_pron": "dedlaïn", "example_fr": "Дедлайн — в пятницу.", "example_ru": "La date limite est vendredi.", "meaning_double": "дедлайн = anglicisme massivement utilisé en russe moderne dans le monde du travail", "level": "A1" },
+        { "fr": "сверхурочные", "gender": "pl", "ru": "les heures supplémentaires", "ru_pron": "svierkhourótchniye", "example_fr": "Я работаю сверхурочно.", "example_ru": "Je fais des heures supplémentaires.", "level": "A1" },
+        { "fr": "рано", "gender": null, "ru": "tôt / de bonne heure", "ru_pron": "ráno", "example_fr": "Я встаю рано.", "example_ru": "Je me lève tôt.", "level": "A1" },
+        { "fr": "поздно", "gender": null, "ru": "tard", "ru_pron": "pózdno", "example_fr": "Мы закончили поздно.", "example_ru": "Nous avons fini tard.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "дедлайн", "fr_pron": "dedlaïn", "ru": "deadline", "ru_pron": "deadline", "note": "«Дедлайн» est un anglicisme récent entré massivement dans le vocabulaire professionnel russe. Preuve que l'anglais business domine les échanges internationaux. Les jeunes Russes l'utilisent naturellement." },
+        { "fr": "минута", "fr_pron": "minoúta", "ru": "minute", "ru_pron": "minute", "note": "«Минута» et «minute» viennent du latin «minuta pars» (petite partie). Même étymologie, prononciation similaire. À noter : «секунда» (seconde) est aussi proche du français !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anatoli Wasserman (né en 1952)", "subtitle": "Champion de quiz et intellectuel médiatique russe", "content": "Anatoli Wasserman est une figure unique de la culture russe : consultant politique, journaliste et surtout champion de jeux de questions (il a remporté «Что? Где? Когда?» et «Своя игра» — les émissions de quiz les plus difficiles de Russie). Connu pour sa veste multipoches (il y range des centaines de notes !), il est considéré comme l'encyclopédie vivante de Russie. Ses opinions politiques sont controversées, mais son érudition est universellement reconnue." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'horaire soviétique — les cinq ans en quatre ans", "content": "En URSS, le Plan quinquennal (пятилетка) était la structure de toute l'économie. Le slogan «Пятилетку — в четыре года !» (Le plan de cinq ans — en quatre ans !) résumait l'obsession soviétique du rendement. Les ouvriers qui dépassaient leurs quotas étaient des «стахановцы» (stakhanovistes), du nom d'Alexeï Stakhanov qui aurait extrait 14 fois son quota de charbon en une nuit en 1935. La productivité était une question d'honneur national." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La ponctualité russe — deux poids, deux mesures", "content": "Les Russes distinguent deux types de ponctualité. Dans le monde professionnel et pour les transports, la ponctualité est rigoureuse — les trains russes sont réputés ultra-ponctuels. En revanche, pour les rencontres sociales, arriver à l'heure exacte est parfois mal vu — cela suggère une impatience ou que vous n'aviez rien de mieux à faire ! L'invité idéal arrive 10-15 minutes après l'heure prévue. «Приходить вовремя на вечеринку» (arriver pile à l'heure à une soirée) peut surprendre les hôtes pas prêts." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Время — деньги.", "pronunciation": "Vryémia — dyén'gi", "translation": "Le temps, c'est de l'argent.", "usage": "Traduction directe du célèbre «Time is money» de Benjamin Franklin, passé dans la culture russe depuis les années 1990. Utilisé dans le monde des affaires pour souligner l'importance de l'efficacité.", "example": "— Ты опоздал на полчаса! — Извини, время — деньги, и я потерял их. (Tu avais une demi-heure de retard ! — Pardon, le temps c'est de l'argent, et je les ai perdus.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le Transsibérien — le train le plus long du monde", "subtitle": "Транссибирская магистраль — 9 288 km", "content": "Le Transsibérien (Транссибирская магистраль) relie Moscou à Vladivostok en 7 nuits et 7 jours — 9 288 km, le plus long trajet ferroviaire du monde. Construit entre 1891 et 1916, il traverse 8 fuseaux horaires et la quasi-totalité de la Sibérie. À bord : les voyageurs dans des compartiments partagés (плацкарт ou купе) partagent thé, nourriture et conversations. Le train russe est une institution sociale autant qu'un transport. Une expérience inoubliable pour comprendre l'immensité de la Russie." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «il est deux heures» en russe ?", "opts": ["Сейчас два час.", "Сейчас два часа.", "Сейчас двух часов.", "Сейчас второй час."], "ans": 1, "exp": "«Сейчас два часа» = il est deux heures. Après 2, 3, 4 → «часа» (génitif singulier). Après 5 et plus → «часов». Après 1 → «час»." },
+        { "q": "Que signifie «вовремя» en russe ?", "opts": ["en retard", "en avance", "à l'heure / ponctuellement", "rapidement"], "ans": 2, "exp": "«Вовремя» = à l'heure, ponctuellement. Littéralement «en temps», composé de «во» + «время» (temps). «Приходить вовремя» = arriver à l'heure." },
+        { "q": "Comment exprime-t-on «de 9h à 18h» en russe ?", "opts": ["в девять и шесть", "с девяти до шести", "от девяти в шесть", "в девять до шести"], "ans": 1, "exp": "«С ... до ...» = de ... à ... (plage horaire). «Я работаю с девяти до шести» = je travaille de 9h à 18h. «С» + génitif et «до» + génitif." },
+        { "q": "Que désigne «стахановец» dans la culture soviétique ?", "opts": ["Un retardataire chronique", "Un ouvrier exemplaire qui dépasse ses quotas de production", "Un syndicaliste opposant", "Un ingénieur de l'ère stalinienne"], "ans": 1, "exp": "Un «стахановец» est un travailleur qui surpasse ses objectifs de production, du nom d'Alexeï Stakhanov (1935). Ce terme est devenu un symbole de l'idéologie soviétique du rendement." },
+        { "q": "«Дедлайн» en russe professionnel signifie :", "opts": ["le licenciement", "les heures supplémentaires", "la date limite de rendu", "la réunion de direction"], "ans": 2, "exp": "«Дедлайн» est l'anglicisme «deadline» = la date limite. Massivement utilisé dans le milieu professionnel russe moderne. Preuve de l'influence de l'anglais dans le vocabulaire du travail." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "La Recherche d'Emploi",
+      "titleRu": "Поиск работы",
+      "level": "A1",
+      "grammar": {
+        "title": "Chercher un emploi — verbes de mouvement et de demande",
+        "titleRu": "Искать работу",
+        "intro": "Pour parler de la recherche d'emploi, vous aurez besoin de verbes importants : «искать» (chercher), «хотеть» (vouloir), «нужен/нужна» (avoir besoin de). La structure «мне нужна работа» (j'ai besoin d'un emploi) est une tournure typiquement russe qui ne traduit pas directement le français — à mémoriser !",
+        "sections": [
+          {
+            "title": "Vocabulaire de la recherche d'emploi",
+            "content": "искать работу — chercher du travail\nрезюме [rizyouméy] — le CV\nсобеседование — l'entretien d'embauche\nвакансия — le poste vacant / l'offre d'emploi\nтребования — les exigences / les prérequis\nопыт работы — l'expérience professionnelle\nнаниматель — l'employeur\nкандидат — le candidat\nтрудоустройство — l'emploi / le recrutement"
+          },
+          {
+            "title": "Expressions clés",
+            "content": "Мне нужна работа. — J'ai besoin d'un emploi.\nЯ ищу работу. — Je cherche du travail.\nУ меня есть опыт. — J'ai de l'expérience.\nЯ хочу работать в... — Je veux travailler dans...\nКогда можно начать? — Quand peut-on commencer ?\nКакой у вас опыт? — Quelle est votre expérience ?\nМы вам перезвоним. — Nous vous rappellerons."
+          },
+          {
+            "title": "«Нужен/Нужна/Нужно» — avoir besoin",
+            "content": "«Нужен» s'accorde avec le nom dont on a besoin :\n\nМне нужен врач. (m) — J'ai besoin d'un médecin.\nМне нужна помощь. (f) — J'ai besoin d'aide.\nМне нужно время. (n) — J'ai besoin de temps.\nМне нужны деньги. (pl) — J'ai besoin d'argent.\n\nStructure : [Datif] + нужен/нужна/нужно/нужны + [nominatif]"
+          }
+        ],
+        "rule": "💡 «Мне нужен» (j'ai besoin de) est une tournure essentielle du russe. L'accord se fait avec la chose dont on a besoin, pas avec la personne ! «Мне нужна работа» → нужна car работа est féminin."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire de la recherche d'emploi — pour réussir votre carrière en Russie !",
+        "note": "⚠️ «Резюме» vient du français «résumé» mais se prononce à la russe : ri-zyou-MÉY (accent final). Et «собеседование» — 6 syllabes : so-be-sye-DO-va-ni-ye.",
+        "words": [
+          { "fr": "резюме", "ru_pron": "rizyouméy", "meaning": "le CV / le résumé" },
+          { "fr": "собеседование", "ru_pron": "sobesedóvaniye", "meaning": "l'entretien d'embauche" },
+          { "fr": "вакансия", "ru_pron": "vakánsiya", "meaning": "le poste vacant / l'offre" },
+          { "fr": "опыт", "ru_pron": "ópyt", "meaning": "l'expérience" },
+          { "fr": "зарплата", "ru_pron": "zarpláta", "meaning": "le salaire" },
+          { "fr": "кандидат", "ru_pron": "kandidát", "meaning": "le candidat" },
+          { "fr": "нанимать", "ru_pron": "nanimat'", "meaning": "embaucher / recruter" },
+          { "fr": "увольнять", "ru_pron": "ouvol'nyat'", "meaning": "licencier / renvoyer" },
+          { "fr": "трудовой договор", "ru_pron": "troudavoï dagavór", "meaning": "le contrat de travail" },
+          { "fr": "испытательный срок", "ru_pron": "ispytátel'ny srok", "meaning": "la période d'essai" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "резюме", "gender": "n (indécl.)", "ru": "le CV / le curriculum vitae", "ru_pron": "rizyouméy", "example_fr": "Пришлите ваше резюме.", "example_ru": "Envoyez votre CV.", "level": "A1" },
+        { "fr": "собеседование", "gender": "n", "ru": "l'entretien d'embauche", "ru_pron": "sobesedóvaniye", "example_fr": "У меня завтра собеседование.", "example_ru": "J'ai un entretien demain.", "level": "A1" },
+        { "fr": "вакансия", "gender": "f", "ru": "le poste vacant / l'offre d'emploi", "ru_pron": "vakánsiya", "example_fr": "Есть вакансия менеджера.", "example_ru": "Il y a un poste de manager.", "level": "A1" },
+        { "fr": "опыт", "gender": "m", "ru": "l'expérience (professionnelle)", "ru_pron": "ópyt", "example_fr": "У меня есть опыт работы.", "example_ru": "J'ai de l'expérience professionnelle.", "level": "A1" },
+        { "fr": "нанимать", "gender": null, "ru": "embaucher / recruter", "ru_pron": "nanimat'", "example_fr": "Нас нанимают в эту компанию.", "example_ru": "Nous sommes recrutés dans cette entreprise.", "level": "A1" },
+        { "fr": "увольнять", "gender": null, "ru": "licencier / renvoyer", "ru_pron": "ouvol'nyat'", "example_fr": "Его уволили.", "example_ru": "Il a été licencié.", "level": "A1" },
+        { "fr": "испытательный срок", "gender": "m", "ru": "la période d'essai", "ru_pron": "ispytátel'ny srok", "example_fr": "У меня испытательный срок три месяца.", "example_ru": "J'ai une période d'essai de trois mois.", "level": "A1" },
+        { "fr": "безработный", "gender": "adj m", "ru": "au chômage / sans emploi", "ru_pron": "bezrabótny", "example_fr": "Он сейчас безработный.", "example_ru": "Il est actuellement au chômage.", "level": "A1" },
+        { "fr": "искать", "gender": null, "ru": "chercher", "ru_pron": "iskát'", "example_fr": "Я ищу новую работу.", "example_ru": "Je cherche un nouvel emploi.", "level": "A1" },
+        { "fr": "трудовой договор", "gender": "m", "ru": "le contrat de travail", "ru_pron": "troudavoï dagavór", "example_fr": "Подпишите трудовой договор.", "example_ru": "Signez le contrat de travail.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "кандидат", "fr_pron": "kandidát", "ru": "candidat", "ru_pron": "candidat", "note": "«Кандидат» et «candidat» ont la même origine latine «candidatus» (vêtu de blanc — les candidats romains portaient une toge blanche). En russe, «кандидат наук» désigne aussi le premier grade de doctorat (équivalent du PhD)." },
+        { "fr": "резюме", "fr_pron": "rizyouméy", "ru": "résumé / CV", "ru_pron": "résumé", "note": "«Резюме» est un emprunt direct au français «résumé». Ironiquement, en Russie ce mot désigne exclusivement le CV professionnel, alors qu'en français «résumé» a un sens plus large. Un bel exemple d'emprunt sémantique partiel." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Herman Gref (né en 1964)", "subtitle": "PDG de Sberbank, modernisateur de l'économie russe", "content": "Herman Gref est le PDG de Sberbank (la plus grande banque de Russie) depuis 2007. Ancien ministre de l'Économie (2000-2007), il a transformé Sberbank d'une banque soviétique poussiéreuse en une fintech moderne. Sous sa direction, Sberbank s'est dotée d'une appli mobile, d'une IA maison et d'un écosystème numérique. Influencé par les méthodes de management Silicon Valley, il incarne la modernisation économique russe. Citations célèbres sur l'éducation et l'innovation dans les affaires." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le chômage en Russie — tabou soviétique devenu réalité", "content": "En URSS, le chômage n'existait officiellement pas — l'État garantissait un emploi à chaque citoyen. «Безработица» (chômage) était un problème du capitalisme décadent. Après 1991, des millions de Russes se sont retrouvés sans emploi pour la première fois. Le taux atteignit 13% en 1998. Aujourd'hui, le chômage officiel russe tourne autour de 3-4%, mais beaucoup travaillent dans l'économie informelle. Le monde du travail russe a été totalement transformé en 30 ans." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le CV russe — une photo obligatoire", "content": "En Russie, le CV (резюме) inclut traditionnellement une photo professionnelle — une norme encore répandue, contrairement aux pratiques françaises ou américaines. Il inclut aussi souvent la date de naissance, l'état civil et parfois même la nationalité — des informations que les employeurs français n'ont pas le droit de demander. Les sites d'emploi comme hh.ru (HeadHunter) sont incontournables — c'est le LinkedIn russe avec plus de 50 millions de CV en ligne." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Не место красит человека, а человек место.", "pronunciation": "Nie myésta krásit tchelavéka, a tchelavék myésta", "translation": "Ce n'est pas le poste qui honore l'homme, c'est l'homme qui honore le poste.", "usage": "Proverbe russe équivalent à «l'habit ne fait pas le moine» dans le contexte professionnel. On juge la personne, pas son titre ou son grade. Utilisé pour relativiser l'importance du statut.", "example": "— Il est directeur, tu sais. — Не место красит человека, а человек место! (Il est directeur, tu sais. — Ce n'est pas le titre qui compte !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Иннополис — la Silicon Valley russe", "subtitle": "Татарстан — умный город будущего", "content": "Иннополис (Innopolis) est une ville entièrement construite de zéro depuis 2012 au Tatarstan, dédiée à la technologie et à l'innovation. Avec son université d'informatique, ses startups, ses résidences modernes et son architecture futuriste, elle accueille des milliers d'ingénieurs et chercheurs. Robots de livraison, voitures autonomes testées en conditions réelles, administration 100% numérique — Innopolis est un laboratoire grandeur nature de la ville du futur. Un contraste saisissant avec les villes industrielles soviétiques voisines." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «j'ai besoin d'aide» en russe ?", "opts": ["Я нужна помощь.", "Мне нужна помощь.", "Мне нужен помощь.", "Мне нужно помощь."], "ans": 1, "exp": "«Мне нужна помощь» = j'ai besoin d'aide. «Помощь» est féminin → «нужна» (féminin). Structure : [Datif] + нужен/нужна/нужно + [nominatif]." },
+        { "q": "Que signifie «собеседование» ?", "opts": ["le CV", "le salaire", "l'entretien d'embauche", "le contrat de travail"], "ans": 2, "exp": "«Собеседование» = l'entretien d'embauche. Du verbe «беседовать» (converser). «У меня завтра собеседование» = j'ai un entretien demain." },
+        { "q": "«Безработный» signifie :", "opts": ["très occupé au travail", "au chômage / sans emploi", "travailleur indépendant", "en congés"], "ans": 1, "exp": "«Безработный» = au chômage. Formé de «без» (sans) + «работа» (travail). Le chômage n'existait pas officiellement en URSS — c'est un concept post-soviétique." },
+        { "q": "Quel site est le principal site d'emploi en Russie ?", "opts": ["Avito", "hh.ru (HeadHunter)", "Yandex Work", "Gosuslugi"], "ans": 1, "exp": "hh.ru (HeadHunter) est le principal site d'emploi en Russie avec plus de 50 millions de CV en ligne — l'équivalent de LinkedIn pour le recrutement russe." },
+        { "q": "Que signifie le proverbe «Не место красит человека» ?", "opts": ["Le lieu de travail est important pour la carrière", "Ce n'est pas le poste qui honore l'homme, c'est l'homme qui honore le poste", "Le prestige du bureau attire les talents", "Choisir son métier est la décision la plus importante"], "ans": 1, "exp": "«Не место красит человека, а человек место» = ce n'est pas le titre qui définit la valeur d'une personne. Proverbe sur l'humilité et la compétence réelle vs le statut affiché." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Les Langues et les Compétences",
+      "titleRu": "Языки и навыки",
+      "level": "A1",
+      "grammar": {
+        "title": "Parler des langues et des compétences en russe",
+        "titleRu": "Языки и умения",
+        "intro": "En russe, exprimer les compétences linguistiques utilise des constructions spécifiques. On ne dit pas «je parle russe» comme «je parle à Pierre» — le verbe «говорить» (parler) utilise «по-» + adverbe de langue. Pour les compétences en général, le verbe «уметь» (savoir faire) est essentiel.",
+        "sections": [
+          {
+            "title": "Parler une langue",
+            "content": "Я говорю по-русски. — Je parle russe.\nЯ говорю по-французски. — Je parle français.\nЯ говорю по-английски. — Je parle anglais.\nЯ говорю по-немецки. — Je parle allemand.\nЯ говорю по-испански. — Je parle espagnol.\nЯ говорю по-китайски. — Je parle chinois.\n\nFormule : говорить по-[adverbe de langue]\nAdverbes : по + adjectif de nationalité au datif féminin"
+          },
+          {
+            "title": "Niveaux de maîtrise",
+            "content": "Я свободно говорю по-... — Je parle couramment le...\nЯ говорю немного по-... — Je parle un peu le...\nЯ понимаю, но не говорю. — Je comprends mais ne parle pas.\nЯ только начинаю. — Je débute seulement.\nЯ учу... — J'apprends le...\nЯ не знаю [языка]. — Je ne connais pas [la langue]."
+          },
+          {
+            "title": "Уметь — savoir faire (compétence)",
+            "content": "Я умею... + infinitif — Je sais...\nЯ умею водить машину. — Je sais conduire.\nЯ умею программировать. — Je sais programmer.\nЯ умею рисовать. — Je sais dessiner.\nОн умеет готовить. — Il sait cuisiner.\nВы умеете плавать? — Savez-vous nager ?\n\nConj.: я умею / ты умеешь / он умеет / мы умеем / вы умеете / они умеют"
+          }
+        ],
+        "rule": "💡 Deux verbes à distinguer : «знать язык» (connaître une langue — la notion) vs «говорить по-русски» (parler russe — la pratique). On peut знать без говорить — comprendre sans parler !"
+      },
+      "pronunciation": {
+        "intro": "Les langues et compétences — un vocabulaire clé pour les échanges professionnels internationaux.",
+        "note": "⚠️ «По-французски» — accent sur le «у» : po-frant-SOUZ-ki. Et «свободно» (couramment) — accent sur le 2e «о» : sva-BOD-no.",
+        "words": [
+          { "fr": "по-русски", "ru_pron": "pa-rousski", "meaning": "en russe / le russe" },
+          { "fr": "по-французски", "ru_pron": "pa-frantsoúzski", "meaning": "en français / le français" },
+          { "fr": "по-английски", "ru_pron": "pa-anglíïski", "meaning": "en anglais / l'anglais" },
+          { "fr": "свободно", "ru_pron": "svabódna", "meaning": "couramment / librement" },
+          { "fr": "уметь", "ru_pron": "ouméti'", "meaning": "savoir faire / être capable" },
+          { "fr": "навык", "ru_pron": "návyk", "meaning": "la compétence / le savoir-faire" },
+          { "fr": "переводчик", "ru_pron": "pirivodtchik", "meaning": "le traducteur / l'interprète" },
+          { "fr": "иностранный", "ru_pron": "inastránny", "meaning": "étranger / en langue étrangère" },
+          { "fr": "родной язык", "ru_pron": "radnoï yazyk", "meaning": "la langue maternelle" },
+          { "fr": "билингвальный", "ru_pron": "bilingválny", "meaning": "bilingue" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "язык", "gender": "m", "ru": "la langue / la langue (organe)", "ru_pron": "yazyk", "example_fr": "Русский язык очень красивый.", "example_ru": "La langue russe est très belle.", "meaning_double": "язык = langue (idiome) ET langue (dans la bouche) — même mot pour les deux !", "level": "A1" },
+        { "fr": "переводчик", "gender": "m", "ru": "le traducteur / l'interprète", "ru_pron": "pirivodtchik", "example_fr": "Мне нужен переводчик.", "example_ru": "J'ai besoin d'un interprète.", "level": "A1" },
+        { "fr": "свободно", "gender": null, "ru": "couramment / librement", "ru_pron": "svabódna", "example_fr": "Она свободно говорит по-русски.", "example_ru": "Elle parle couramment le russe.", "level": "A1" },
+        { "fr": "уметь", "gender": null, "ru": "savoir faire / être capable de", "ru_pron": "ouméti'", "example_fr": "Я умею программировать.", "example_ru": "Je sais programmer.", "level": "A1" },
+        { "fr": "навык", "gender": "m", "ru": "la compétence / le savoir-faire", "ru_pron": "návyk", "example_fr": "Профессиональные навыки важны.", "example_ru": "Les compétences professionnelles sont importantes.", "level": "A1" },
+        { "fr": "переводить", "gender": null, "ru": "traduire / interpréter", "ru_pron": "pirivadít'", "example_fr": "Переведите, пожалуйста!", "example_ru": "Traduisez, s'il vous plaît !", "level": "A1" },
+        { "fr": "родной язык", "gender": "m", "ru": "la langue maternelle", "ru_pron": "radnoï yazyk", "example_fr": "Мой родной язык — французский.", "example_ru": "Ma langue maternelle est le français.", "level": "A1" },
+        { "fr": "изучать", "gender": null, "ru": "étudier / apprendre (en profondeur)", "ru_pron": "izoutchát'", "example_fr": "Я изучаю русский язык.", "example_ru": "J'étudie le russe.", "level": "A1" },
+        { "fr": "знать", "gender": null, "ru": "savoir / connaître", "ru_pron": "znat'", "example_fr": "Я знаю несколько слов.", "example_ru": "Je connais quelques mots.", "level": "A1" },
+        { "fr": "понимать", "gender": null, "ru": "comprendre", "ru_pron": "panimat'", "example_fr": "Я вас понимаю.", "example_ru": "Je vous comprends.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "переводчик", "fr_pron": "pirivodtchik", "ru": "traducteur / interprète", "ru_pron": "traducteur", "note": "«Переводчик» vient du verbe «переводить» (faire passer à travers). La Russie a une grande tradition de traduction littéraire — les Russes lisent Balzac, Victor Hugo et Zola dans d'excellentes traductions depuis le XIXe siècle." },
+        { "fr": "билингвальный", "fr_pron": "bilingválny", "ru": "bilingue", "ru_pron": "bilingue", "note": "«Билингвальный» vient du latin «bi» (deux) + «lingua» (langue). Dans l'ex-URSS, le bilinguisme russe + langue locale était la norme. Beaucoup de Kazakhs, Ukrainiens ou Géorgiens parlent couramment le russe en plus de leur langue maternelle." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Derzhavin (1743–1816) — précurseur, et le modèle contemporain: Dmitri Mendeleïev", "subtitle": "Mendeleïev : l'inventeur du tableau périodique", "content": "Dmitri Mendeleïev (1834–1907) est le scientifique russe le plus célèbre au monde : il créa le tableau périodique des éléments chimiques en 1869. Né en Sibérie (Tobolsk), il s'imposa à Saint-Pétersbourg malgré des obstacles administratifs. Il prédit l'existence d'éléments alors inconnus (le gallium, le germanium) — toutes ses prédictions s'avérèrent exactes. Anecdote : il parla couramment l'allemand et le français — les deux langues scientifiques de son époque. L'élément 101 porte son nom : le mendélévium." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le russe — langue de l'espace et de la science", "content": "Le russe est l'une des 6 langues officielles de l'ONU et était jusqu'en 1991 la langue obligatoire de tout bloc soviétique. Pendant des décennies, parler russe donnait accès à une bibliothèque scientifique immense — des milliers d'articles scientifiques étaient publiés uniquement en russe. Aujourd'hui, à bord de la Station spatiale internationale (ISS), les astronautes doivent encore apprendre le russe — c'est obligatoire pour les missions Soyouz." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "L'anglais en Russie — la langue du business", "content": "Depuis les années 1990, l'anglais est devenu la langue du business en Russie. Les jeunes Russes apprennent l'anglais intensément, les grandes entreprises recrutent des anglophones, et Moscou regorge de panneaux bilingues. Résultat : le russe professionnel est truffé d'anglicismes — «менеджер», «офис», «дедлайн», «брифинг», «маркетинг»... Ce phénomène choque les puristes linguistiques mais reflète l'intégration de la Russie à l'économie mondiale." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Сколько языков ты знаешь, столько раз ты человек.", "pronunciation": "Skól'ko yazýkov ty znáiech, stól'ko raz ty tchelavék", "translation": "Autant de langues tu parles, autant de fois tu es une personne.", "usage": "Proverbe attribué à Goethe mais très populaire en Russie. Exprime la valeur de l'apprentissage des langues pour l'épanouissement personnel. Parfait pour motiver les apprenants de russe !", "example": "— Pourquoi apprendre le russe ? — Сколько языков ты знаешь, столько раз ты человек !" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Institut Pouchkine — le temple du russe langue étrangère", "subtitle": "Москва — центр обучения русскому языку", "content": "L'Institut Pouchkine de Moscou (Институт русского языка имени Пушкина) est le principal centre mondial d'enseignement du russe langue étrangère. Il forme des enseignants de RLE (Russe Langue Étrangère) du monde entier et organise les certifications officielles de russe (ТРКИ — l'équivalent du DELF pour le russe). Sa bibliothèque de ressources pédagogiques est incomparable. Chaque été, il accueille des étudiants étrangers pour des cours intensifs de langue et de culture russe." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je parle anglais» en russe ?", "opts": ["Я говорю английский.", "Я говорю по-английски.", "Я знаю по-английски.", "Я умею английский."], "ans": 1, "exp": "«Я говорю по-английски» = je parle anglais. La formule est «говорить по-» + adverbe de langue. On ne dit jamais «говорить [langue]» sans le «по-»." },
+        { "q": "Que signifie «Я умею водить машину» ?", "opts": ["J'aime conduire une voiture", "Je sais conduire une voiture", "J'ai une voiture", "Je veux apprendre à conduire"], "ans": 1, "exp": "«Я умею водить машину» = je sais conduire une voiture. «Уметь» = savoir faire (compétence acquise). «Умею» est la 1re personne du singulier." },
+        { "q": "«Свободно говорить по-русски» signifie :", "opts": ["parler librement de tout sujet", "parler couramment le russe", "parler quelques mots de russe", "parler à des locuteurs natifs"], "ans": 1, "exp": "«Свободно» = couramment, librement. «Свободно говорить по-русски» = parler couramment le russe. C'est l'objectif ultime des apprenants !" },
+        { "q": "Pourquoi les astronautes de l'ISS doivent-ils apprendre le russe ?", "opts": ["Par tradition historique uniquement", "Pour les missions Soyouz qui nécessitent la maîtrise du russe", "Parce que tous les manuels sont en russe", "Pour des raisons diplomatiques seulement"], "ans": 1, "exp": "Les astronautes doivent apprendre le russe pour les missions Soyouz — la maîtrise du russe est obligatoire pour la sécurité à bord. C'est une exigence pratique de l'exploration spatiale." },
+        { "q": "Quel élément chimique porte le nom de Mendeleïev ?", "opts": ["Le rubidium (Rb)", "Le roentgenium (Rg)", "Le mendélévium (Md)", "Le moscovium (Mc)"], "ans": 2, "exp": "L'élément 101 est le mendélévium (Md), nommé en l'honneur de Dmitri Mendeleïev, créateur du tableau périodique des éléments en 1869." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Emails et la Communication Professionnelle",
+      "titleRu": "Деловая переписка",
+      "level": "A1",
+      "grammar": {
+        "title": "L'impératif russe — donner des instructions poliment",
+        "titleRu": "Повелительное наклонение",
+        "intro": "Dans la communication professionnelle, on a souvent besoin de donner des instructions ou de faire des demandes polies. L'impératif russe est régulier et facile à former. Combiné avec «пожалуйста» (s'il vous plaît), il permet de formuler des demandes professionnelles courtoises.",
+        "sections": [
+          {
+            "title": "Former l'impératif — règle de base",
+            "content": "Partir du radical du présent (3e personne du pluriel) :\n\nчитать → они читАЮТ → читай ! / читайте ! (formel)\nписать → они пишУТ → пиши ! / пишите ! (formel)\nотправить → они отправЯТ → отправь ! / отправьте !\nпозвонить → они позвонЯТ → позвони ! / позвоните !\nсказать → они скажУТ → скажи ! / скажите !\nприйти → они придУТ → приди ! / придите !"
+          },
+          {
+            "title": "Formules de politesse professionnelles",
+            "content": "Уважаемый/Уважаемая... — Cher/Chère... (formel)\nС уважением, ... — Cordialement, ... (signature)\nПожалуйста, ... — S'il vous plaît, ...\nНе могли бы вы...? — Pourriez-vous... ?\nЯ был бы рад... — Je serais ravi...\nПо вашей просьбе... — Comme vous l'avez demandé...\nВ ожидании вашего ответа... — Dans l'attente de votre réponse..."
+          },
+          {
+            "title": "Expressions professionnelles courantes",
+            "content": "Позвоните мне! — Appelez-moi !\nНапишите мне письмо. — Écrivez-moi un email.\nПришлите файл. — Envoyez le fichier.\nПодпишите документ. — Signez le document.\nПрочитайте инструкцию. — Lisez les instructions.\nОтветьте на вопрос. — Répondez à la question."
+          }
+        ],
+        "rule": "💡 Pour rendre une instruction polie : ajoutez «пожалуйста» ! «Позвоните мне» (appelez-moi) devient «Позвоните мне, пожалуйста» (appelez-moi, s'il vous plaît). Simple et efficace !"
+      },
+      "pronunciation": {
+        "intro": "La communication professionnelle en russe — apprenez les formules de politesse essentielles.",
+        "note": "⚠️ «Уважаемый» (cher/madame) — accent sur «жа» : u-va-ZHÁ-ye-my. Et «С уважением» (cordialement) — la signature d'email la plus courante en russe.",
+        "words": [
+          { "fr": "письмо", "ru_pron": "pis'mó", "meaning": "la lettre / l'email" },
+          { "fr": "электронная почта", "ru_pron": "elektronnaya póchta", "meaning": "la messagerie électronique / l'email" },
+          { "fr": "уважаемый", "ru_pron": "ouvazhayemy", "meaning": "cher / estimé (formule épistolaire)" },
+          { "fr": "с уважением", "ru_pron": "s ouvazheniyem", "meaning": "cordialement / avec respect" },
+          { "fr": "позвоните", "ru_pron": "pazvanítye", "meaning": "appelez (impératif formel)" },
+          { "fr": "отправьте", "ru_pron": "atpráv'tye", "meaning": "envoyez (impératif formel)" },
+          { "fr": "подождите", "ru_pron": "padajdítye", "meaning": "attendez (impératif formel)" },
+          { "fr": "приложение", "ru_pron": "prilajeniye", "meaning": "la pièce jointe / l'application" },
+          { "fr": "срочно", "ru_pron": "srótchna", "meaning": "urgent / de toute urgence" },
+          { "fr": "подтвердить", "ru_pron": "patvierdít'", "meaning": "confirmer" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "письмо", "gender": "n", "ru": "la lettre / l'email", "ru_pron": "pis'mó", "example_fr": "Я получил ваше письмо.", "example_ru": "J'ai reçu votre email.", "level": "A1" },
+        { "fr": "электронная почта", "gender": "f", "ru": "l'adresse email / la messagerie", "ru_pron": "elektronnaya póchta", "example_fr": "Какой у вас адрес электронной почты?", "example_ru": "Quelle est votre adresse email ?", "level": "A1" },
+        { "fr": "подпись", "gender": "f", "ru": "la signature", "ru_pron": "pódpis'", "example_fr": "Поставьте подпись здесь.", "example_ru": "Mettez votre signature ici.", "level": "A1" },
+        { "fr": "документ", "gender": "m", "ru": "le document", "ru_pron": "dakoumyent", "example_fr": "Подпишите этот документ.", "example_ru": "Signez ce document.", "level": "A1" },
+        { "fr": "приложение", "gender": "n", "ru": "la pièce jointe / l'annexe", "ru_pron": "prilajeniye", "example_fr": "Смотрите приложение к письму.", "example_ru": "Voir la pièce jointe à l'email.", "meaning_double": "приложение = pièce jointe à un email ET application (app) sur téléphone", "level": "A1" },
+        { "fr": "срочно", "gender": null, "ru": "urgent / d'urgence", "ru_pron": "srótchna", "example_fr": "Это срочно!", "example_ru": "C'est urgent !", "level": "A1" },
+        { "fr": "подтвердить", "gender": null, "ru": "confirmer", "ru_pron": "patvierdít'", "example_fr": "Подтвердите получение.", "example_ru": "Confirmez la réception.", "level": "A1" },
+        { "fr": "уважаемый", "gender": "adj m", "ru": "cher / estimé (formule de politesse)", "ru_pron": "ouvazhayemy", "example_fr": "Уважаемый Иван Иванович!", "example_ru": "Cher Ivan Ivanovitch !", "level": "A1" },
+        { "fr": "переговоры", "gender": "pl", "ru": "les négociations", "ru_pron": "pirigavóry", "example_fr": "Переговоры прошли успешно.", "example_ru": "Les négociations ont bien avancé.", "level": "A1" },
+        { "fr": "отчёт", "gender": "m", "ru": "le rapport / le compte-rendu", "ru_pron": "atchyot", "example_fr": "Пришлите отчёт к пятнице.", "example_ru": "Envoyez le rapport pour vendredi.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "документ", "fr_pron": "dakoumyent", "ru": "document", "ru_pron": "document", "note": "«Документ» est identique au français «document», du latin «documentum» (enseignement, preuve). En Russie, les documents officiels ont une importance capitale — la bureaucratie russe héritée de l'URSS est célèbre pour son amour des tampons et des formulaires." },
+        { "fr": "электронный", "fr_pron": "elektrónny", "ru": "électronique", "ru_pron": "électronique", "note": "«Электронный» et «électronique» ont la même racine grecque «electron» (ambre, électricité). «Электронная почта» = courrier électronique = email. Les Russes disent souvent simplement «имейл» (emeil) dans la pratique !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Andrei Korolev (1907–1966)", "subtitle": "Ingénieur en chef de la conquête spatiale soviétique", "content": "Sergei Korolev (Королёв) est l'un des plus grands ingénieurs du XXe siècle — mais son nom fut tenu secret pendant 30 ans par l'URSS ! Responsable du programme spatial soviétique, il conçut Spoutnik (1957), la fusée Vostok qui emmena Gagarine, et les premières fusées R-7. Arrêté par Staline en 1938, il survécut au Goulag grâce à ses compétences d'ingénieur. Décédé en 1966 lors d'une opération chirurgicale. Sa révélation posthume choqua l'Occident qui pensait que le programme spatial soviétique était une œuvre collective anonyme." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La bureaucratie russe — les tampons comme religion", "content": "La Russie est célèbre pour sa bureaucratie (бюрократия) héritée de l'Empire tsariste et amplifiée par l'URSS. Un document officiel sans tampon (печать) n'est pas valide — le tampon est plus important que la signature ! En URSS, des armées de fonctionnaires géraient des formulaires en 5 exemplaires avec papier carbone. Aujourd'hui, le portail Госуслуги (Gosuslugi — Services de l'État) numérise progressivement ces procédures, mais la culture du tampon reste vivace." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "L'email professionnel russe — très formel", "content": "L'email professionnel russe est bien plus formel que son équivalent français ou américain. On commence toujours par «Уважаемый [Prénom Patronyme] !» (Cher [Prénom Patronyme] !) — le prénom seul serait trop familier. On ne dit jamais «Salut» ou «Bonjour». La signature standard «С уважением» (cordialement / avec respect) est quasi-obligatoire. Les Russes apprécient les emails bien structurés, formels et complets — un email court et informel peut paraître irrespectueux." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Краткость — сестра таланта.", "pronunciation": "Krátkoct' — syéstra talánta", "translation": "La concision est la sœur du talent.", "usage": "Citation d'Anton Tchekhov, devenue proverbe. Signifie qu'un bon professionnel communique clairement et brièvement. Très utilisé dans le journalisme et la communication professionnelle russe.", "example": "— Ton email est trop long. — Краткость — сестра таланта ! (Ton email est trop long. — La concision est la sœur du talent !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Байконур — le berceau de la conquête spatiale", "subtitle": "Казахстан — космодром мирового значения", "content": "Baïkonour (Байконур) au Kazakhstan est le plus vieux et plus grand cosmodrome du monde, loué par la Russie. C'est de là que partirent Spoutnik (1957), Gagarine (1961) et toutes les missions spatiales soviétiques/russes majeures. Le site est en partie ouvert aux touristes pour certains lancements. La ville-fantôme de Baïkonour, construite pour les ingénieurs soviétiques, est un mémorial vivant de la Guerre Froide spatiale. Un pèlerinage unique pour les passionnés d'histoire de l'espace." }
+      },
+      "quiz": [
+        { "q": "Comment forme-t-on l'impératif formel de «писать» (écrire) ?", "opts": ["пиши!", "пишите!", "пишить!", "пишать!"], "ans": 1, "exp": "L'impératif formel (vous) de «писать» est «пишите !». On part du radical du présent (пиш-) et on ajoute -ите. «Пиши !» = impératif informel (tu)." },
+        { "q": "Quelle est la formule de clôture d'email la plus courante en russe ?", "opts": ["Пока!", "Привет!", "С уважением", "Удачи!"], "ans": 2, "exp": "«С уважением» = cordialement / avec respect. C'est la signature d'email standard dans la communication professionnelle russe. Équivalent du «Cordialement» français." },
+        { "q": "Que signifie «срочно» en russe ?", "opts": ["confidentiel", "urgent", "annulé", "en attente"], "ans": 1, "exp": "«Срочно» = urgent, d'urgence. Du mot «срок» (délai). «Это срочно !» = c'est urgent ! Mot très utilisé dans les communications professionnelles." },
+        { "q": "Pourquoi le nom de Korolev fut-il tenu secret pendant 30 ans ?", "opts": ["Il était traître à son pays", "L'URSS gardait secret l'identité des responsables du programme spatial", "Il avait demandé l'anonymat", "C'était une règle pour tous les ingénieurs soviétiques"], "ans": 1, "exp": "L'URSS tenait secret l'identité des responsables du programme spatial pour des raisons de sécurité et de prestige collectif. Korolev était simplement appelé «l'Ingénieur en chef». Son identité ne fut révélée qu'après sa mort en 1966." },
+        { "q": "Qui est l'auteur de la citation «Краткость — сестра таланта» ?", "opts": ["Pouchkine", "Dostoïevski", "Tolstoï", "Tchekhov"], "ans": 3, "exp": "«Краткость — сестра таланта» (la concision est la sœur du talent) est une citation d'Anton Tchekhov, maître de la nouvelle russe. Il pratiquait lui-même cette concision dans ses œuvres littéraires." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Argent et Finances",
+      "titleRu": "Деньги и финансы",
+      "level": "A1",
+      "grammar": {
+        "title": "Les prix et les transactions financières",
+        "titleRu": "Цены и платежи",
+        "intro": "Pour faire des achats, négocier un salaire ou parler d'argent en Russie, il faut maîtriser les expressions financières de base. Le russe utilise les mêmes chiffres que vous connaissez déjà, mais avec des règles de cas spécifiques pour les prix et les quantités.",
+        "sections": [
+          {
+            "title": "L'argent russe",
+            "content": "рубль [roubl'] — le rouble (monnaie)\nкопейка [kapyéïka] — le kopek (1/100 de rouble)\n1 рубль = 100 копеек\n\nBillets courants :\n50 рублей, 100 рублей, 500 рублей\n1 000 рублей, 5 000 рублей\n\nPrix typiques (référence) :\nмётро — около 60 рублей\nкофе — 150-300 рублей\nобед в кафе — 500-800 рублей"
+          },
+          {
+            "title": "Demander et indiquer les prix",
+            "content": "Сколько стоит? — Combien ça coûte ?\nСколько стоят? — Combien coûtent-ils/elles ?\nЭто стоит [сумма] рублей. — Ça coûte [somme] roubles.\n\nСколько с меня? — C'est combien pour moi ?\nМожно заплатить картой? — Peut-on payer par carte ?\nМожно наличными? — Peut-on payer en espèces ?\nСдача — la monnaie (rendue)\nЧек, пожалуйста. — Le reçu, s'il vous plaît."
+          },
+          {
+            "title": "Verbes financiers essentiels",
+            "content": "платить / заплатить — payer\nполучать / получить — recevoir\nзарабатывать — gagner (de l'argent)\nтратить — dépenser\nэкономить — économiser\nменять — échanger (de la monnaie)\nзанимать / одолжить — emprunter / prêter\nнаходиться в долгу — être endetté"
+          }
+        ],
+        "rule": "💡 Pour payer en Russie : «Можно заплатить картой?» (peut-on payer par carte ?) est votre phrase clé. Les grandes villes acceptent les cartes, mais en zone rurale ou au marché, le liquide est souvent indispensable — «У вас есть сдача?» (avez-vous de la monnaie ?)."
+      },
+      "pronunciation": {
+        "intro": "L'argent et les achats — un vocabulaire pratique pour toutes les situations quotidiennes.",
+        "note": "⚠️ «Рубль» — le signe mou final adoucit le «л» : «roubl'». Et «сдача» (monnaie rendue) — le groupe «сд» est inhabituel : «zdátcha».",
+        "words": [
+          { "fr": "рубль", "ru_pron": "roubl'", "meaning": "le rouble" },
+          { "fr": "копейка", "ru_pron": "kapyéïka", "meaning": "le kopek" },
+          { "fr": "цена", "ru_pron": "tsená", "meaning": "le prix" },
+          { "fr": "скидка", "ru_pron": "skídka", "meaning": "la remise / la réduction" },
+          { "fr": "касса", "ru_pron": "kássa", "meaning": "la caisse" },
+          { "fr": "карта", "ru_pron": "kárta", "meaning": "la carte (bancaire)" },
+          { "fr": "наличные", "ru_pron": "nalítchniye", "meaning": "les espèces / le liquide" },
+          { "fr": "сдача", "ru_pron": "zdátcha", "meaning": "la monnaie rendue" },
+          { "fr": "чек", "ru_pron": "tchek", "meaning": "le ticket de caisse / le reçu" },
+          { "fr": "бюджет", "ru_pron": "byoudjét", "meaning": "le budget" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "деньги", "gender": "pl", "ru": "l'argent (toujours pluriel en russe !)", "ru_pron": "dyén'gi", "example_fr": "У меня нет денег.", "example_ru": "Je n'ai pas d'argent.", "level": "A1" },
+        { "fr": "цена", "gender": "f", "ru": "le prix", "ru_pron": "tsená", "example_fr": "Какая цена?", "example_ru": "Quel est le prix ?", "level": "A1" },
+        { "fr": "скидка", "gender": "f", "ru": "la remise / la réduction", "ru_pron": "skídka", "example_fr": "Есть скидка?", "example_ru": "Y a-t-il une réduction ?", "level": "A1" },
+        { "fr": "платить", "gender": null, "ru": "payer", "ru_pron": "platít'", "example_fr": "Я плачу наличными.", "example_ru": "Je paye en espèces.", "level": "A1" },
+        { "fr": "зарабатывать", "gender": null, "ru": "gagner de l'argent", "ru_pron": "zarabátyval'", "example_fr": "Он хорошо зарабатывает.", "example_ru": "Il gagne bien sa vie.", "level": "A1" },
+        { "fr": "тратить", "gender": null, "ru": "dépenser", "ru_pron": "trátit'", "example_fr": "Не трать все деньги!", "example_ru": "Ne dépense pas tout l'argent !", "level": "A1" },
+        { "fr": "экономить", "gender": null, "ru": "économiser", "ru_pron": "ekonomit'", "example_fr": "Надо экономить.", "example_ru": "Il faut économiser.", "level": "A1" },
+        { "fr": "касса", "gender": "f", "ru": "la caisse / le guichet", "ru_pron": "kássa", "example_fr": "Идите к кассе.", "example_ru": "Allez à la caisse.", "level": "A1" },
+        { "fr": "бюджет", "gender": "m", "ru": "le budget", "ru_pron": "byoudjét", "example_fr": "У нас ограниченный бюджет.", "example_ru": "Nous avons un budget limité.", "level": "A1" },
+        { "fr": "долг", "gender": "m", "ru": "la dette / le devoir", "ru_pron": "dolk", "example_fr": "У меня есть долги.", "example_ru": "J'ai des dettes.", "meaning_double": "долг = dette financière ET devoir moral/obligation", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "бюджет", "fr_pron": "byoudjét", "ru": "budget", "ru_pron": "budget", "note": "«Бюджет» vient du vieux français «bougette» (petite bourse en cuir). Passé en anglais «budget», puis en russe. Un des nombreux mots économiques empruntés à l'Occident depuis Pierre le Grand." },
+        { "fr": "касса", "fr_pron": "kássa", "ru": "caisse", "ru_pron": "caisse", "note": "«Касса» vient de l'italien «cassa» (coffre, caisse), même origine que le français «caisse». En Russie, «касса» désigne aussi le guichet de gare ou de cinéma. «Кассирша» = la caissière." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhail Prokhorov (né en 1965)", "subtitle": "Milliardaire russe, propriétaire des Brooklyn Nets", "content": "Mikhail Prokhorov est l'un des oligarques russes les plus connus à l'international. Milliardaire fait fortune dans les mines de nickel (Norilsk Nickel) et les métaux. Il acheta les Brooklyn Nets (NBA) en 2010 — la première fois qu'un non-américain possédait une équipe NBA. Connu pour sa stature imposante (2m03) et ses partis pris décalés, il tenta une carrière politique en 2012. Sa fortune est estimée à plus de 10 milliards de dollars. Symbole de l'oligarchie post-soviétique des années 1990." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La crise de 1998 — le rouble qui s'effondre", "content": "Le 17 août 1998, la Russie déclara un défaut de paiement sur sa dette et le rouble perdit 75% de sa valeur en quelques semaines. Des millions de Russes perdirent leurs économies. Les banques firent faillite. C'est «le krach» (кризис) que toute une génération de Russes n'a pas oublié. Cette expérience traumatisante explique pourquoi de nombreux Russes gardent encore leur épargne en devises étrangères (dollars ou euros) plutôt qu'en roubles — une méfiance culturelle profonde envers la monnaie nationale." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Marchander en Russie — une tradition au marché", "content": "Si payer le prix affiché dans les grandes surfaces est la norme, au marché (рынок) et avec les vendeurs ambulants, marchander (торговаться) est non seulement accepté mais parfois attendu ! «Можно дешевле?» (Peut-on avoir moins cher ?) est la phrase magique. Les Russes sont de bons négociants — ne pas tenter une négociation serait perçu comme un manque d'intérêt par le vendeur. En revanche, dans les restaurants et hôtels, marchander serait impoli." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Не в деньгах счастье.", "pronunciation": "Nie v dyén'gakh schástye", "translation": "Le bonheur n'est pas dans l'argent.", "usage": "Proverbe russe sur la relativité de la richesse. Souvent suivi de «а в их количестве» (mais dans leur quantité) — une variante humoristique ! Exprime la philosophie russe traditionnelle que la richesse intérieure prime sur la richesse matérielle.", "example": "— Tu es riche? — Не в деньгах счастье! Но они помогают... (Tu es riche ? — Le bonheur n'est pas dans l'argent ! Mais ça aide...)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Les marchés de Moscou — Черкизовский и Рижский рынок", "subtitle": "Рынок как культурный феномен", "content": "Les marchés (рынки) de Moscou sont des institutions culturelles autant que des lieux commerciaux. Le marché de Rija (Рижский рынок) est l'un des plus anciens de Moscou, avec ses fruits exotiques, ses épices du Caucase et ses vendeurs pittoresques. Le marché de Danilov est célèbre pour ses produits frais. Contrairement aux supermarchés, les marchés permettent de goûter, de négocier et de discuter avec les vendeurs. Une immersion garantie dans la culture russe quotidienne." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «combien ça coûte ?» en russe ?", "opts": ["Что стоит?", "Сколько стоит?", "Где стоит?", "Когда стоит?"], "ans": 1, "exp": "«Сколько стоит?» = combien ça coûte ? «Сколько» = combien, «стоит» = vaut/coûte. Pour le pluriel : «Сколько стоят?»." },
+        { "q": "«Деньги» en russe est :", "opts": ["un mot masculin singulier", "un mot féminin singulier", "un mot toujours au pluriel", "un mot neutre singulier"], "ans": 2, "exp": "«Деньги» (l'argent) est toujours au pluriel en russe — il n'existe pas de forme singulier ! «У меня есть деньги» = j'ai de l'argent. «Нет денег» = pas d'argent (génitif pluriel)." },
+        { "q": "Comment dit-on «peut-on payer par carte ?» en russe ?", "opts": ["Есть карта?", "Можно платить картой?", "Примите карту?", "Карта работает?"], "ans": 1, "exp": "«Можно платить картой?» = peut-on payer par carte ? «Можно» = on peut / il est possible. «Картой» = par carte (instrumental). Phrase essentielle pour voyager en Russie !" },
+        { "q": "Que s'est-il passé en Russie le 17 août 1998 ?", "opts": ["Le rouble a été réévalué à la hausse", "La Russie a rejoint l'Union européenne", "La Russie a déclaré un défaut de paiement et le rouble s'est effondré", "La Bourse de Moscou a été inaugurée"], "ans": 2, "exp": "Le 17 août 1998, la Russie déclara un défaut de paiement et le rouble perdit 75% de sa valeur. Ce «кризис» traumatisa des millions de Russes et explique la méfiance culturelle envers la monnaie nationale." },
+        { "q": "Que signifie «Не в деньгах счастье» ?", "opts": ["Plus on est riche, plus on est heureux", "Le bonheur n'est pas dans l'argent", "L'argent résout tous les problèmes", "Dépense ton argent tant que tu le peux"], "ans": 1, "exp": "«Не в деньгах счастье» = le bonheur n'est pas dans l'argent. Proverbe philosophique russe sur la relativité de la richesse matérielle vs le bonheur intérieur." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Réunions et Présentations",
+      "titleRu": "Совещания и презентации",
+      "level": "A1",
+      "grammar": {
+        "title": "Exprimer l'opinion et argumenter — les verbes d'opinion",
+        "titleRu": "Выражение мнения",
+        "intro": "Dans une réunion professionnelle, on doit exprimer ses opinions, marquer son accord ou son désaccord poliment. Le russe dispose de nombreuses expressions pour cela, du plus formel au plus familier. Maîtriser ces formules vous permettra de participer activement à des échanges professionnels en russe.",
+        "sections": [
+          {
+            "title": "Exprimer son opinion",
+            "content": "Я думаю, что... — Je pense que...\nПо моему мнению... — À mon avis...\nЯ считаю, что... — Je considère que...\nМне кажется, что... — Il me semble que...\nЯ уверен/уверена, что... — Je suis sûr(e) que...\nЯ не знаю. — Je ne sais pas.\nТрудно сказать. — C'est difficile à dire."
+          },
+          {
+            "title": "Accord et désaccord",
+            "content": "Согласен! / Согласна! — D'accord ! (m/f)\nЯ с вами согласен. — Je suis d'accord avec vous.\nНе согласен. / Не согласна. — Pas d'accord.\nЯ не уверен/уверена. — Je ne suis pas sûr(e).\nВозможно. — C'est possible.\nМожет быть. — Peut-être.\nОтлично! — Excellent !\nОчень хорошо! — Très bien !\nПонятно. — Je comprends. / C'est clair."
+          },
+          {
+            "title": "Mener une réunion",
+            "content": "Начнём! — Commençons !\nПо повестке дня... — À l'ordre du jour...\nСлово предоставляется... — La parole est à...\nУ кого-нибудь есть вопросы? — Quelqu'un a des questions ?\nПодведём итоги. — Résumons / Faisons le bilan.\nДо следующей встречи. — À la prochaine réunion.\nПротокол встречи — le compte-rendu de réunion."
+          }
+        ],
+        "rule": "💡 Pour exprimer un désaccord poli : «Я немного не согласен» (je ne suis pas tout à fait d'accord) + «но» (mais) + votre point de vue. Adoucir le désaccord avec «немного» (un peu) est une marque de politesse très appréciée dans le milieu professionnel russe."
+      },
+      "pronunciation": {
+        "intro": "Les formules de réunion et d'argumentation — essentielles pour les échanges professionnels.",
+        "note": "⚠️ «Согласен» (d'accord) — accent sur «ла» : sa-GLA-sen. Et «Возможно» (c'est possible) — accent sur «мо» : vaz-MOJ-na.",
+        "words": [
+          { "fr": "согласен", "ru_pron": "saglásyen", "meaning": "d'accord (masculin)" },
+          { "fr": "мнение", "ru_pron": "mnyéniye", "meaning": "l'opinion / l'avis" },
+          { "fr": "возможно", "ru_pron": "vazmójna", "meaning": "c'est possible / peut-être" },
+          { "fr": "понятно", "ru_pron": "panyátna", "meaning": "je comprends / c'est clair" },
+          { "fr": "предложение", "ru_pron": "pridlajeniye", "meaning": "la proposition / l'offre" },
+          { "fr": "решение", "ru_pron": "richeniye", "meaning": "la décision / la solution" },
+          { "fr": "проблема", "ru_pron": "prablema", "meaning": "le problème" },
+          { "fr": "результат", "ru_pron": "rizoultat", "meaning": "le résultat" },
+          { "fr": "цель", "ru_pron": "tsel'", "meaning": "l'objectif / le but" },
+          { "fr": "план", "ru_pron": "plan", "meaning": "le plan" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "совещание", "gender": "n", "ru": "la réunion (de travail)", "ru_pron": "savetchániye", "example_fr": "У нас совещание в 10 утра.", "example_ru": "Nous avons une réunion à 10h du matin.", "level": "A1" },
+        { "fr": "мнение", "gender": "n", "ru": "l'opinion / l'avis", "ru_pron": "mnyéniye", "example_fr": "Каково ваше мнение?", "example_ru": "Quelle est votre opinion ?", "level": "A1" },
+        { "fr": "предложение", "gender": "n", "ru": "la proposition / l'offre", "ru_pron": "pridlajeniye", "example_fr": "У меня есть предложение.", "example_ru": "J'ai une proposition.", "meaning_double": "предложение = proposition (professionnelle) ET phrase grammaticale / ET offre de mariage !", "level": "A1" },
+        { "fr": "решение", "gender": "n", "ru": "la décision / la solution", "ru_pron": "richeniye", "example_fr": "Мы приняли решение.", "example_ru": "Nous avons pris une décision.", "level": "A1" },
+        { "fr": "проблема", "gender": "f", "ru": "le problème", "ru_pron": "prablema", "example_fr": "Есть одна проблема.", "example_ru": "Il y a un problème.", "level": "A1" },
+        { "fr": "цель", "gender": "f", "ru": "l'objectif / le but", "ru_pron": "tsel'", "example_fr": "Какова цель встречи?", "example_ru": "Quel est l'objectif de la réunion ?", "level": "A1" },
+        { "fr": "план", "gender": "m", "ru": "le plan / la planification", "ru_pron": "plan", "example_fr": "Это наш план.", "example_ru": "C'est notre plan.", "level": "A1" },
+        { "fr": "результат", "gender": "m", "ru": "le résultat", "ru_pron": "rizoultat", "example_fr": "Каков результат?", "example_ru": "Quel est le résultat ?", "level": "A1" },
+        { "fr": "согласен", "gender": "adj m", "ru": "d'accord / en accord", "ru_pron": "saglásyen", "example_fr": "Я согласен с вами.", "example_ru": "Je suis d'accord avec vous.", "level": "A1" },
+        { "fr": "итог", "gender": "m", "ru": "le bilan / le résultat final", "ru_pron": "itók", "example_fr": "Подведём итоги.", "example_ru": "Faisons le bilan.", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "проблема", "fr_pron": "prablema", "ru": "problème", "ru_pron": "problème", "note": "«Проблема» et «problème» ont la même origine grecque «problêma» (ce qui est jeté devant). Reconnaissable immédiatement ! Les Russes utilisent ce mot au quotidien — «Нет проблем !» (pas de problème !) est une phrase très fréquente." },
+        { "fr": "результат", "fr_pron": "rizoultat", "ru": "résultat", "ru_pron": "résultat", "note": "«Результат» vient du latin «resultare» (rebondir). Même étymologie que le français «résultat». Dans le contexte de la perestroïka, Gorbatchev utilisait souvent «результат» pour parler des réformes économiques." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anatoli Loukianov (1930–2021) et le style orateur russe", "subtitle": "La rhétorique dans la tradition politique russe", "content": "La tradition oratoire russe est ancienne et puissante. Les grands orateurs soviétiques comme Lénine ou Trotski pouvaient captiver des foules pendant des heures. Aujourd'hui, la culture des «débats télévisés» (téléshows politiques) est très développée en Russie. Des émissions comme «Время покажет» réunissent des intervenants passionnés. L'argumentation directe, voire agressive, est culturellement acceptée en Russie dans les débats — contrairement au consensus feutré apprécié en France ou au Japon." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le Soviet — une assemblée ouvrière devenue symbole", "content": "«Совет» (conseil) a donné «Советский Союз» (Union soviétique). Les soviets étaient des assemblées ouvrières et soldats apparus en 1905, puis institutionnalisés après 1917. Le mot «совещание» (réunion de travail) vient de la même racine. Les «soviets» locaux géraient toute la vie publique — du quartier à l'État fédéral. Cette culture de la décision collective (au moins en apparence) a profondément marqué la culture managériale russe : réunions longues, délibérations formelles, décisions prises par le sommet." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le management à la russe — le chef décide", "content": "Dans la culture professionnelle russe, la hiérarchie est très verticale. Le directeur (начальник) prend les décisions — les employés exécutent. Les réunions sont souvent des sessions d'information plutôt que des délibérations. Contredire ouvertement son supérieur est risqué. En revanche, la discussion «de couloir» après la réunion est très active ! Les jeunes Russes (notamment dans les startups) adoptent de plus en plus un management horizontal à l'américaine — un vrai changement culturel en cours." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Один в поле не воин.", "pronunciation": "Adín v polié nie vóïn", "translation": "Seul on ne fait pas la guerre / L'union fait la force.", "usage": "Proverbe russe équivalent à «l'union fait la force» ou «un seul doigt ne fait pas le poing». Très utilisé dans le contexte du travail d'équipe et de la coopération professionnelle.", "example": "— Je vais résoudre ce problème tout seul. — Один в поле не воин — travaillons ensemble ! (Je vais régler ça seul. — L'union fait la force — travaillons ensemble !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — la ville des congrès et forums", "subtitle": "ПМЭФ — Петербургский международный экономический форум", "content": "Saint-Pétersbourg accueille chaque année le ПМЭФ (Forum Économique International de Saint-Pétersbourg), surnommé le «Davos russe». Des milliers de dirigeants, investisseurs et officiels du monde entier s'y retrouvent. Le Palais Tauride, le Centre Lakhta — les salles de conférences les plus prestigieuses de Russie. La ville offre aussi son décor incomparable pour les dîners de gala et réceptions professionnelles dans des palais historiques. Un mélange unique de business international et de splendeur baroque." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je suis d'accord avec vous» en russe ?", "opts": ["Я думаю с вами.", "Я согласен с вами.", "Я понимаю вас.", "Мне нравится вы."], "ans": 1, "exp": "«Я согласен с вами» = je suis d'accord avec vous. «Согласен» (m) / «согласна» (f). «С вами» = avec vous (instrumental). La formule de base pour marquer l'accord en réunion." },
+        { "q": "Que signifie «Подведём итоги» dans le contexte d'une réunion ?", "opts": ["Commençons la réunion", "Faisons le bilan / Résumons", "Posez vos questions", "À la prochaine réunion"], "ans": 1, "exp": "«Подведём итоги» = faisons le bilan, résumons. «Итог» = le résultat final, le bilan. Expression typique pour clore une réunion ou un point." },
+        { "q": "«Предложение» en russe peut signifier :", "opts": ["la proposition, la phrase grammaticale et l'offre de mariage", "uniquement une offre commerciale", "l'ordre du jour de la réunion", "l'objection lors d'une discussion"], "ans": 0, "exp": "«Предложение» a plusieurs sens : proposition professionnelle, phrase grammaticale (dans la grammaire), et même demande en mariage (сделать предложение). Un mot très polyvalent !" },
+        { "q": "Que signifie «Один в поле не воин» ?", "opts": ["La guerre se gagne en solo", "L'union fait la force / seul on ne fait rien", "Un bon stratège vaut une armée", "Le travail individuel surpasse le travail collectif"], "ans": 1, "exp": "«Один в поле не воин» = seul on ne fait pas la guerre. L'équivalent de «l'union fait la force». Proverbe russe sur l'importance de la coopération et du travail d'équipe." },
+        { "q": "Quelle est la particularité de la culture managériale russe traditionnelle ?", "opts": ["Décisions prises collectivement en réunion ouverte", "Hiérarchie très verticale — le chef décide, les employés exécutent", "Absence totale de hiérarchie dans les startups", "Les débats ouverts sont encouragés à tous les niveaux"], "ans": 1, "exp": "La culture managériale russe traditionnelle est très verticale (иерархическая) : le начальник (chef) prend les décisions et les employés les exécutent. Les réunions servent souvent à informer plutôt qu'à délibérer." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan du Module 5",
+      "titleRu": "Итоговый урок Модуля 5",
+      "level": "A1",
+      "grammar": {
+        "title": "Révision complète du Module 5",
+        "titleRu": "Полное повторение",
+        "intro": "Félicitations ! Vous terminez le Module 5 — Travail & École. Vous maîtrisez maintenant le vocabulaire essentiel du monde professionnel et scolaire en russe. Récapitulons ce que vous avez appris et préparons le terrain pour le Module 6 : Santé & Corps.",
+        "sections": [
+          {
+            "title": "✅ Ce que vous savez maintenant",
+            "content": "✅ Les métiers et professions (врач, инженер, программист...)\n✅ Le lieu de travail et l'entreprise (офис, компания, завод...)\n✅ Le système scolaire russe (школа, университет, ЕГЭ...)\n✅ Учить vs Учиться — la nuance essentielle\n✅ Les horaires et le temps de travail (который час, с...до...)\n✅ La recherche d'emploi (резюме, собеседование, вакансия...)\n✅ Les langues et compétences (говорить по-..., уметь)\n✅ La communication professionnelle (письмо, уважаемый...)\n✅ L'argent et les finances (рубль, платить, сколько стоит?)\n✅ Les réunions et présentations (согласен, мнение, предложение...)"
+          },
+          {
+            "title": "Phrases clés du Module 5",
+            "content": "Я работаю врачом в больнице. — Je travaille comme médecin à l'hôpital.\nГде вы работаете? — Où travaillez-vous ?\nЯ учусь в университете. — J'étudie à l'université.\nЯ говорю по-русски немного. — Je parle un peu le russe.\nМне нужна работа. — J'ai besoin d'un emploi.\nСколько стоит? Можно заплатить картой? — Combien ? Puis-je payer par carte ?\nЯ согласен с вами. — Je suis d'accord avec vous.\nОтправьте резюме, пожалуйста. — Envoyez votre CV, s'il vous plaît."
+          },
+          {
+            "title": "Rappel des points grammaticaux clés",
+            "content": "1. Instrumental après «работать» : Я работаю врачОМ\n2. Prépositionnel après «в» (lieu) : Я в офисЕ / в школЕ\n3. «Нужен/Нужна/Нужно» s'accorde avec la chose souhaitée\n4. Impératif formel : verbe + -ите (пишите, позвоните, отправьте)\n5. Parler une langue : говорить по-[langue]\n6. «Уметь» + infinitif = savoir faire\n7. «Учить» (apprendre qqch) ≠ «Учиться» (être élève quelque part)"
+          }
+        ],
+        "rule": "🏆 Excellent travail ! Vous pouvez maintenant parler de votre vie professionnelle en russe — une compétence précieuse pour les affaires internationales. Le Module 6 vous emmène dans le domaine de la Santé & Corps — un vocabulaire essentiel pour tout voyageur. Продолжайте ! (Continuez !)"
+      },
+      "pronunciation": {
+        "intro": "Révision des phrases professionnelles essentielles. Enchaînez-les pour simuler une vraie conversation d'affaires !",
+        "note": "",
+        "words": [
+          { "fr": "Я работаю инженером в компании.", "ru_pron": "Ya rabótaïou injenéram v kampánii", "meaning": "Je travaille comme ingénieur dans une entreprise." },
+          { "fr": "Где вы работаете?", "ru_pron": "Gdyé vy rabótaïetye", "meaning": "Où travaillez-vous ?" },
+          { "fr": "Я учусь в университете Москвы.", "ru_pron": "Ya outchouç' v ounivirsitetye Maskvy", "meaning": "J'étudie à l'Université de Moscou." },
+          { "fr": "Я говорю по-русски немного.", "ru_pron": "Ya gavaroú pa-roussky nyémoga", "meaning": "Je parle un peu le russe." },
+          { "fr": "Мне нужна работа.", "ru_pron": "Mnyé nouzhnà rabóta", "meaning": "J'ai besoin d'un emploi." },
+          { "fr": "Пришлите ваше резюме.", "ru_pron": "Prichlítye váche rizyouméy", "meaning": "Envoyez votre CV." },
+          { "fr": "Сколько стоит? Можно картой?", "ru_pron": "Skól'ka stóit? Mójno kártay?", "meaning": "Combien ça coûte ? Peut-on payer par carte ?" },
+          { "fr": "Я согласен с вашим предложением.", "ru_pron": "Ya saglásyen s váshym pridlajeniyem", "meaning": "Je suis d'accord avec votre proposition." },
+          { "fr": "По моему мнению, это хорошо.", "ru_pron": "Pa mayemou mnyéniyu, éta kharachó", "meaning": "À mon avis, c'est bien." },
+          { "fr": "До следующей встречи!", "ru_pron": "Da slédouïouchey vstryétchi", "meaning": "À la prochaine réunion !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "профессиональный", "gender": "adj m", "ru": "professionnel", "ru_pron": "prafesional'ny", "example_fr": "Профессиональный подход важен.", "example_ru": "Une approche professionnelle est importante.", "level": "A1" },
+        { "fr": "карьера", "gender": "f", "ru": "la carrière", "ru_pron": "kar'yéra", "example_fr": "Я строю свою карьеру.", "example_ru": "Je construis ma carrière.", "level": "A1" },
+        { "fr": "успех", "gender": "m", "ru": "le succès / la réussite", "ru_pron": "ouspyékh", "example_fr": "Желаю вам успеха!", "example_ru": "Je vous souhaite du succès !", "level": "A1" },
+        { "fr": "коллектив", "gender": "m", "ru": "l'équipe / le collectif de travail", "ru_pron": "kalyéktiv", "example_fr": "Наш коллектив дружный.", "example_ru": "Notre équipe est soudée.", "level": "A1" },
+        { "fr": "образование", "gender": "n", "ru": "l'éducation / la formation", "ru_pron": "abrazovániye", "example_fr": "Образование очень важно.", "example_ru": "L'éducation est très importante.", "level": "A1" },
+        { "fr": "специализация", "gender": "f", "ru": "la spécialisation / la filière", "ru_pron": "spetsializátsiya", "example_fr": "Моя специализация — финансы.", "example_ru": "Ma spécialisation c'est la finance.", "level": "A1" },
+        { "fr": "стажировка", "gender": "f", "ru": "le stage / le stage professionnel", "ru_pron": "stajirófka", "example_fr": "Я прохожу стажировку.", "example_ru": "Je fais un stage.", "level": "A1" },
+        { "fr": "повышение", "gender": "n", "ru": "la promotion / l'augmentation", "ru_pron": "pavyshéniye", "example_fr": "Я получил повышение.", "example_ru": "J'ai eu une promotion.", "level": "A1" },
+        { "fr": "переговоры", "gender": "pl", "ru": "les négociations", "ru_pron": "pirigavóry", "example_fr": "Переговоры идут хорошо.", "example_ru": "Les négociations avancent bien.", "level": "A1" },
+        { "fr": "достижение", "gender": "n", "ru": "l'accomplissement / la réussite", "ru_pron": "dastijeniye", "example_fr": "Это большое достижение!", "example_ru": "C'est une grande réussite !", "level": "A1" }
+      ],
+      "cognates": [
+        { "fr": "карьера", "fr_pron": "kar'yéra", "ru": "carrière", "ru_pron": "carrière", "note": "«Карьера» vient du français «carrière» (voie, chemin), lui-même de l'italien «carriera». En Russie, la notion de «карьера» (carrière) s'est démocratisée dans les années 1990 avec l'économie de marché — elle était mal vue en URSS (signes de carriérisme bourgeois)." },
+        { "fr": "специализация", "fr_pron": "spetsializátsiya", "ru": "spécialisation", "ru_pron": "spécialisation", "note": "«Специализация» est identique au français «spécialisation», du latin «specialis» (particulier). Les universités russes sont réputées pour leur spécialisation poussée dès les premières années — moins de matières généralistes qu'en France, plus de profondeur dans le domaine choisi." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Tatiana Golikova (née en 1966)", "subtitle": "Vice-Première ministre, figure du travail social russe", "content": "Tatiana Golikova est l'une des femmes politiques les plus influentes de Russie. Économiste de formation, elle fut ministre de la Santé (2007-2012), Présidente de la Cour des comptes (2013-2018), puis Vice-Première ministre chargée du développement social depuis 2018. Elle supervise l'éducation, la santé, la culture et la politique sociale en Russie. Sa gestion a été centrale pendant la crise COVID-19. Surnommée «Мадам Нет» par certains collègues pour sa rigueur administrative." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Рабочий и Колхозница — le symbole du travail soviétique", "content": "«Рабочий и Колхозница» (l'Ouvrier et la Kolkhozienne) est la sculpture la plus célèbre d'URSS, créée par Vera Moukhina en 1937 pour l'Exposition universelle de Paris. L'ouvrier brandit un marteau, la kolkhozienne (paysanne) une faucille — ensemble, ils forment le symbole de la collaboration industrie-agriculture. Cette sculpture monumentale en acier inoxydable se dresse aujourd'hui devant le VDNKh de Moscou. Elle est devenue le logo des studios Mosfilm — la «Columbia Pictures» soviétique." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Subbotnik — le samedi du travail volontaire", "content": "Le «суббо́тник» (subbotnik) est une tradition soviétique encore vivante : un samedi de travail collectif gratuit pour l'entretien du quartier ou de l'espace public. Le premier subbotnik eut lieu en 1919, organisé par Lénine lui-même ! Aujourd'hui, en avril (autour de la fête du Travail du 1er mai), des millions de Russes participent au «Grand Subbotnik» : nettoyage des parcs, plantation d'arbres. Participation officiellement «volontaire» — mais fortement encouragée par les employeurs publics." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Кто не работает, тот не ест.", "pronunciation": "Kto nie rabótaïet, tot nie yest'", "translation": "Qui ne travaille pas ne mange pas.", "usage": "Citation de Lénine (inspirée de la Bible, 2 Thessaloniciens 3:10), devenue slogan officiel de l'URSS. Aujourd'hui utilisée avec humour pour motiver au travail. La formulation directe et catégorique est très russe !", "example": "— Je ne veux pas travailler aujourd'hui. — Кто не работает, тот не ест! (Je ne veux pas travailler. — Qui ne travaille pas ne mange pas !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "VDNKh — le parc des réalisations soviétiques", "subtitle": "Москва — Выставка достижений народного хозяйства", "content": "Le VDNKh (ВДНХа) à Moscou est un parc-expo monumental créé en 1939 pour glorifier les réalisations économiques et scientifiques soviétiques. Ses pavillons en style néo-classique grandiose représentaient chaque République soviétique. Aujourd'hui rénové, il abrite musées, restaurants, patinoire en hiver et un centre spatial. La fusée «Восток» (Vostok) grandeur nature y est exposée. Devant le VDNKh se dresse la sculpture «Рабочий и Колхозница» — un pèlerinage incontournable pour comprendre l'esthétique soviétique." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je travaille comme ingénieur dans une usine» en russe ?", "opts": ["Я работаю инженер на завод.", "Я работаю инженером на заводе.", "Я есть инженер в завод.", "Я инженер работать заводе."], "ans": 1, "exp": "«Я работаю инженером на заводе» = je travaille comme ingénieur à l'usine. «Инженером» = instrumental (après работать). «На заводе» = à l'usine (prépositionnel avec «на» pour завод)." },
+        { "q": "Qu'est-ce qu'un «суббо́тник» en Russie ?", "opts": ["Un samedi de vacances officiel", "Un samedi de travail collectif et gratuit pour l'entretien public", "Une réunion d'équipe obligatoire le samedi", "Un marché dominical traditionnel"], "ans": 1, "exp": "Un «субботник» est un samedi de travail volontaire collectif pour l'entretien de l'espace public. Tradition soviétique datant de 1919, encore pratiquée aujourd'hui notamment en avril." },
+        { "q": "Que signifie «Желаю вам успеха!» ?", "opts": ["Je vous remercie pour votre travail", "Bonne chance / Je vous souhaite du succès", "Bon travail équipe", "Bienvenue dans l'entreprise"], "ans": 1, "exp": "«Желаю вам успеха!» = je vous souhaite du succès ! «Желаю» = je souhaite (de «желать» = souhaiter). «Успех» = succès. Formule courante pour encourager collègues ou étudiants." },
+        { "q": "La sculpture «Рабочий и Колхозница» représente :", "opts": ["Un tsar et sa tsarine", "Un ouvrier avec un marteau et une paysanne avec une faucille", "Deux soldats de la Garde rouge", "Lénine et Staline"], "ans": 1, "exp": "«Рабочий и Колхозница» = l'Ouvrier et la Kolkhozienne. L'ouvrier brandit un marteau, la paysanne une faucille. Cette sculpture de 1937 est devenue le symbole de l'URSS et le logo des studios Mosfilm." },
+        { "q": "D'où vient la citation «Кто не работает, тот не ест» ?", "opts": ["D'un proverbe paysan russe du XVIIe siècle", "De Lénine (inspiré de la Bible)", "De Staline lors d'un discours", "Du Code du travail soviétique de 1922"], "ans": 1, "exp": "«Кто не работает, тот не ест» est une citation de Lénine inspirée de la 2e épître aux Thessaloniciens. Elle devint un slogan officiel soviétique et reste utilisée aujourd'hui avec humour." }
+      ]
+    }
+  ]
+}
