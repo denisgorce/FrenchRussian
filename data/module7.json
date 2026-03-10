@@ -1,0 +1,736 @@
+{
+  "module": 7,
+  "titleFr": "Nature & Environnement",
+  "titleRu": "Природа и среда",
+  "description": "La taïga, le lac Baïkal, les saisons russes, la faune et la flore, l'écologie et les paysages extraordinaires de Russie.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Les Saisons et le Climat",
+      "titleRu": "Времена года и климат",
+      "level": "A2",
+      "grammar": {
+        "title": "Les saisons et les phénomènes météorologiques en russe",
+        "titleRu": "Времена года",
+        "intro": "La Russie est le pays des contrastes climatiques extrêmes : des hivers à -50°C en Sibérie, des étés à +40°C dans les steppes. Les saisons (времена года) structurent profondément la vie et la culture russes. Pour parler de météo, on utilise souvent la construction impersonnelle : «На улице холодно» (il fait froid dehors, litt. «dans la rue c'est froid»). Les adjectifs météo s'utilisent comme adverbes courts dans ces phrases impersonnelles.",
+        "sections": [
+          {
+            "title": "Les quatre saisons",
+            "content": "весна (f) — le printemps\nлето (n) — l'été\nосень (f) — l'automne\nзима (f) — l'hiver\n\nPrépositions avec les saisons :\nвесной — au printemps\nлетом — en été\nосенью — en automne\nзимой — en hiver"
+          },
+          {
+            "title": "Le temps qu'il fait",
+            "content": "Какая сегодня погода? — Quel temps fait-il aujourd'hui ?\nХолодно. — Il fait froid.\nЖарко. — Il fait chaud.\nТепло. — Il fait doux.\nПрохладно. — Il fait frais.\nСолнечно. — Il fait soleil.\nОблачно. — Il est nuageux.\nДождливо. — Il pleut (temps pluvieux).\nВетрено. — Il y a du vent.\nСнежно. — Il neige (temps neigeux).\nТуманно. — Il y a du brouillard."
+          },
+          {
+            "title": "Les phénomènes météorologiques",
+            "content": "дождь (m) — la pluie\nснег (m) — la neige\nветер (m) — le vent\nгроза (f) — l'orage\nмороз (m) — le gel / le grand froid\nоттепель (f) — le dégel\nметель (f) — la tempête de neige / le blizzard\nлёд (m) — la glace\nгра́д (m) — la grêle\nтуман (m) — le brouillard\nрадуга (f) — l'arc-en-ciel\nмолния (f) — l'éclair"
+          },
+          {
+            "title": "La température en russe",
+            "content": "Сколько градусов сегодня? — Combien de degrés aujourd'hui ?\nПлюс двадцать градусов. — Plus vingt degrés. (+20°C)\nМинус тридцать градусов. — Moins trente degrés. (-30°C)\nНоль градусов. — Zéro degré.\n\nAutres expressions utiles :\nТемпература падает. — La température baisse.\nТемпература поднимается. — La température monte.\nЗаморозки ночью. — Des gelées la nuit."
+          }
+        ],
+        "rule": "💡 Pour la météo, le russe utilise des adverbes courts impersonnels : «холодно», «жарко», «солнечно» — sans sujet ni verbe être ! «Сегодня холодно» = aujourd'hui il fait froid. Les adverbes météo se forment souvent en ajoutant -о à l'adjectif : холодный → холодно, тёплый → тепло."
+      },
+      "pronunciation": {
+        "intro": "Les mots météo russes sont expressifs — on «entend» presque le froid dans «мороз» et la tempête dans «метель» !",
+        "note": "⚠️ «Мороз» [maróz] — le «з» final se dévoise en [s] en position finale. «Оттепель» [óttipel'] — double «тт», accent sur la première syllabe.",
+        "words": [
+          { "fr": "зима", "ru_pron": "zimá", "meaning": "l'hiver" },
+          { "fr": "лето", "ru_pron": "lyéta", "meaning": "l'été" },
+          { "fr": "весна", "ru_pron": "visná", "meaning": "le printemps" },
+          { "fr": "осень", "ru_pron": "óssin'", "meaning": "l'automne" },
+          { "fr": "мороз", "ru_pron": "maróz", "meaning": "le gel / le grand froid" },
+          { "fr": "метель", "ru_pron": "mityél'", "meaning": "la tempête de neige" },
+          { "fr": "гроза", "ru_pron": "grazá", "meaning": "l'orage" },
+          { "fr": "радуга", "ru_pron": "rádouga", "meaning": "l'arc-en-ciel" },
+          { "fr": "оттепель", "ru_pron": "óttipel'", "meaning": "le dégel" },
+          { "fr": "погода", "ru_pron": "pagóda", "meaning": "le temps / la météo" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "погода", "gender": "f", "ru": "le temps / la météo", "ru_pron": "pagóda", "example_fr": "Какая сегодня погода?", "example_ru": "Quel temps fait-il aujourd'hui ?", "level": "A2" },
+        { "fr": "зима", "gender": "f", "ru": "l'hiver", "ru_pron": "zimá", "example_fr": "Русская зима очень холодная.", "example_ru": "L'hiver russe est très froid.", "level": "A2" },
+        { "fr": "мороз", "gender": "m", "ru": "le gel / le grand froid", "ru_pron": "maróz", "example_fr": "Сегодня сильный мороз.", "example_ru": "Il fait un froid intense aujourd'hui.", "level": "A2" },
+        { "fr": "снег", "gender": "m", "ru": "la neige", "ru_pron": "snyeg", "meaning_double": "снег = la neige (météo) et aussi «снег» dans beaucoup d'expressions figurées !", "example_fr": "Снег идёт всю ночь.", "example_ru": "Il neige toute la nuit.", "level": "A2" },
+        { "fr": "дождь", "gender": "m", "ru": "la pluie", "ru_pron": "dojd'", "example_fr": "Идёт дождь.", "example_ru": "Il pleut.", "level": "A2" },
+        { "fr": "ветер", "gender": "m", "ru": "le vent", "ru_pron": "vyéter", "example_fr": "Сильный ветер сегодня.", "example_ru": "Il y a un fort vent aujourd'hui.", "level": "A2" },
+        { "fr": "метель", "gender": "f", "ru": "la tempête de neige / le blizzard", "ru_pron": "mityél'", "example_fr": "Метель закрыла дороги.", "example_ru": "La tempête de neige a fermé les routes.", "level": "A2" },
+        { "fr": "оттепель", "gender": "f", "ru": "le dégel", "ru_pron": "óttipel'", "example_fr": "Первая оттепель в феврале.", "example_ru": "Le premier dégel en février.", "level": "A2" },
+        { "fr": "гроза", "gender": "f", "ru": "l'orage", "ru_pron": "grazá", "example_fr": "Летняя гроза — красивая.", "example_ru": "Un orage d'été, c'est beau.", "level": "A2" },
+        { "fr": "климат", "gender": "m", "ru": "le climat", "ru_pron": "klímat", "example_fr": "Климат Сибири очень суровый.", "example_ru": "Le climat de Sibérie est très rigoureux.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "климат", "fr_pron": "klímat", "ru": "climat", "ru_pron": "climat", "note": "«Климат» vient du grec «klima» (inclinaison — l'inclinaison de la Terre par rapport au soleil). Identique au français «climat». Ironique que ce mot grec soit devenu si important pour décrire les extrêmes russes !" },
+        { "fr": "атмосфера", "fr_pron": "atmosfyéra", "ru": "atmosphère", "ru_pron": "atmosphère", "note": "«Атмосфера» est identique au français «atmosphère», du grec «atmos» (vapeur) + «sphaira» (sphère). S'utilise en russe au sens météorologique et figuré («quelle atmosphère !»)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Alexandre Pouchkine (1799–1837)", "subtitle": "Le poète de l'hiver russe", "content": "Alexandre Pouchkine est le plus grand poète russe et le père de la langue littéraire russe moderne. L'hiver est l'une de ses thématiques les plus célèbres — son poème «Зимнее утро» (Matin d'hiver) est appris par cœur par tous les écoliers russes. «Мороз и солнце — день чудесный !» (Le gel et le soleil — une journée merveilleuse !) est peut-être la phrase la plus connue de toute la poésie russe. Pour Pouchkine, l'hiver n'était pas une calamité, mais une source de beauté et d'inspiration." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Napoléon vaincu par «Général Hiver»", "content": "L'hiver russe a changé l'histoire du monde à deux reprises. En 1812, la Grande Armée de Napoléon (600 000 hommes) entra en Russie en été et fut détruite par l'hiver : -30°C, blizzards, gel des provisions. Sur 600 000 soldats, moins de 100 000 rentrèrent. En 1941-42, l'hiver stopa l'avancée nazie sur Moscou. Les soldats allemands n'avaient pas de vêtements d'hiver adaptés. Le «Général Hiver» est devenu un personnage mythologique de l'histoire russe." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les «Nuits Blanches» de Saint-Pétersbourg", "content": "Chaque année en juin, Saint-Pétersbourg connaît les «белые ночи» (nuits blanches) : le soleil ne se couche presque pas, et il fait jour à minuit. Ce phénomène dure environ trois semaines. La ville entière sort la nuit : concerts, festivals, promenades sur les quais. Les ponts sur la Neva s'ouvrent vers 1h du matin pour laisser passer les navires — un spectacle nocturne unique. Dostoïevski, Brodsky et de nombreux écrivains ont décrit l'atmosphère étrange et poétique de ces nuits luminescentes." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Мороз и солнце — день чудесный!", "pronunciation": "Maróz i sólntse — dyen' tchoudiésny", "translation": "Le gel et le soleil — une journée merveilleuse !", "usage": "Premier vers du poème «Зимнее утро» de Pouchkine (1829). La phrase la plus célèbre de la poésie russe sur l'hiver. Utilisée par les Russes pour exprimer leur amour paradoxal du froid hivernal ensoleillé — un sentiment très russe !", "example": "— Il fait -20°C et tu souris ? — Мороз и солнце — день чудесный! C'est magnifique !" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Iaroslavl en hiver — L'Anneau d'Or sous la neige", "subtitle": "Ярославль зимой — Сказочная Россия", "content": "L'Anneau d'Or (Золотое кольцо) en hiver est une expérience magique : les coupoles dorées des cathédrales scintillent sous la neige, les rues médiévales sont enneigées, les marchés proposent des blinis chauds et des boissons au miel. Iaroslavl, Souzdal, Sergiev Possad — ces villes semblent sorties d'un conte de fées russe en hiver. La «Snegourotchka» (Снегурочка — la Fille des neiges) est un personnage du folklore qui est né dans cette région." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «il fait froid» en russe ?", "opts": ["Я холодный.", "Холодно.", "Есть холод.", "Мне холодный."], "ans": 1, "exp": "«Холодно» = il fait froid. Construction impersonnelle sans sujet : adverbe court seul. De même : «жарко» (il fait chaud), «тепло» (il fait doux), «солнечно» (il fait soleil)." },
+        { "q": "Comment dit-on «en hiver» en russe ?", "opts": ["в зима", "зимой", "зимой в", "на зиме"], "ans": 1, "exp": "«Зимой» = en hiver. Les saisons russes ont des adverbes spéciaux : зимой (en hiver), летом (en été), весной (au printemps), осенью (en automne) — à l'instrumental sans préposition." },
+        { "q": "Quel événement historique illustre le rôle de l'hiver russe ?", "opts": ["La construction du Transsibérien", "La défaite de Napoléon en 1812", "La fondation de Saint-Pétersbourg", "La Révolution d'Octobre"], "ans": 1, "exp": "L'hiver russe de 1812 détruisit la Grande Armée de Napoléon : -30°C et blizzards réduisirent 600 000 soldats à moins de 100 000 survivants. Le «Général Hiver» est entré dans la légende." },
+        { "q": "«Метель» signifie :", "opts": ["Le brouillard", "La grêle", "La tempête de neige / le blizzard", "Le dégel"], "ans": 2, "exp": "«Метель» = la tempête de neige, le blizzard. Un phénomène météorologique très courant en Russie. Pouchkine a écrit une nouvelle célèbre intitulée «Метель» !" },
+        { "q": "Les «белые ночи» (nuits blanches) de Saint-Pétersbourg ont lieu :", "opts": ["En décembre", "En mars", "En juin", "En septembre"], "ans": 2, "exp": "Les nuits blanches ont lieu en juin, autour du solstice d'été. Saint-Pétersbourg est à 60° de latitude Nord — le soleil ne descend presque pas sous l'horizon pendant 3 semaines." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "La Forêt et les Arbres",
+      "titleRu": "Лес и деревья",
+      "level": "A2",
+      "grammar": {
+        "title": "La forêt russe — vocabulaire et déclinaisons",
+        "titleRu": "Лес и деревья",
+        "intro": "La Russie possède le plus grand territoire forestier du monde : la taïga (тайга) s'étend sur plus de 12 millions de km², soit plus que la superficie de l'Union européenne. La forêt (лес) est au cœur de la culture, du folklore et de l'imaginaire russes. «Aller aux champignons» (ходить за грибами) ou «aux baies» (за ягодами) est une activité familiale nationale. Pour parler de la forêt, le génitif pluriel est essentiel : «много деревьев» (beaucoup d'arbres).",
+        "sections": [
+          {
+            "title": "Les types de forêts et de paysages",
+            "content": "тайга (f) — la taïga (forêt boréale)\nлес (m) — la forêt\nбор (m) — la forêt de pins\nберёзовая роща (f) — la forêt de bouleaux\nстепь (f) — la steppe\nтундра (f) — la toundra\nполяна (f) — la clairière\nзаповедник (m) — la réserve naturelle\nопушка (f) — la lisière de la forêt\nгуща (f) — l'épaisseur / le cœur de la forêt"
+          },
+          {
+            "title": "Les arbres russes emblématiques",
+            "content": "берёза (f) — le bouleau (symbole de la Russie)\nсосна (f) — le pin\nель (f) / ёлка (f) — le sapin / l'épicéa\nдуб (m) — le chêne\nклён (m) — l'érable\nлипа (f) — le tilleul\nясень (m) — le frêne\nрябина (f) — le sorbier (baies rouges)\nосина (f) — le tremble\nберест / вяз (m) — l'orme"
+          },
+          {
+            "title": "Les plantes et végétaux de forêt",
+            "content": "гриб (m) — le champignon\nягода (f) — la baie (fruit sauvage)\nмох (m) — la mousse\nпапоротник (m) — la fougère\nцветок (m) — la fleur\nтрава (f) — l'herbe\nкорень (m) — la racine\nветка (f) — la branche\nлист (m) / листья (pl) — la feuille / les feuilles\nпочка (f) — le bourgeon / le rein"
+          }
+        ],
+        "rule": "💡 «Почка» a deux sens en russe : le bourgeon végétal ET le rein (organe) ! Le contexte détermine tout. Aussi : «лист» (une feuille) → «листья» (les feuilles) — pluriel irrégulier à mémoriser. «Ёлка» est aussi le nom du sapin de Noël décoré !"
+      },
+      "pronunciation": {
+        "intro": "Les noms d'arbres russes sont souvent doux et musicaux — la langue s'adapte à la poésie de la nature !",
+        "note": "⚠️ «Берёза» [biryóza] — le «ё» se prononce toujours [yo]. «Ель» [yel'] — court et avec signe mou. «Рябина» [riabína] — accent sur «-на».",
+        "words": [
+          { "fr": "лес", "ru_pron": "lyés", "meaning": "la forêt" },
+          { "fr": "берёза", "ru_pron": "biryóza", "meaning": "le bouleau" },
+          { "fr": "сосна", "ru_pron": "sasná", "meaning": "le pin" },
+          { "fr": "тайга", "ru_pron": "taïgá", "meaning": "la taïga" },
+          { "fr": "гриб", "ru_pron": "grip", "meaning": "le champignon" },
+          { "fr": "ягода", "ru_pron": "iagada", "meaning": "la baie / le petit fruit sauvage" },
+          { "fr": "рябина", "ru_pron": "riabína", "meaning": "le sorbier" },
+          { "fr": "листья", "ru_pron": "líst'ia", "meaning": "les feuilles" },
+          { "fr": "поляна", "ru_pron": "paliana", "meaning": "la clairière" },
+          { "fr": "заповедник", "ru_pron": "zapavyédnik", "meaning": "la réserve naturelle" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "лес", "gender": "m", "ru": "la forêt", "ru_pron": "lyés", "example_fr": "Мы пошли в лес за грибами.", "example_ru": "Nous sommes allés en forêt chercher des champignons.", "level": "A2" },
+        { "fr": "берёза", "gender": "f", "ru": "le bouleau", "ru_pron": "biryóza", "example_fr": "Берёза — символ России.", "example_ru": "Le bouleau est le symbole de la Russie.", "level": "A2" },
+        { "fr": "тайга", "gender": "f", "ru": "la taïga", "ru_pron": "taïgá", "example_fr": "Тайга — самый большой лес мира.", "example_ru": "La taïga est la plus grande forêt du monde.", "level": "A2" },
+        { "fr": "гриб", "gender": "m", "ru": "le champignon", "ru_pron": "grip", "example_fr": "Мы нашли много грибов.", "example_ru": "Nous avons trouvé beaucoup de champignons.", "level": "A2" },
+        { "fr": "ягода", "gender": "f", "ru": "la baie / le petit fruit sauvage", "ru_pron": "iagada", "example_fr": "Черника — вкусная ягода.", "example_ru": "La myrtille est une baie délicieuse.", "level": "A2" },
+        { "fr": "ёлка", "gender": "f", "ru": "le sapin (aussi sapin de Noël)", "ru_pron": "yólka", "example_fr": "На Новый год мы украшаем ёлку.", "example_ru": "Pour le Nouvel An, nous décorons le sapin.", "meaning_double": "ёлка = le sapin naturel ET le sapin de Noël / Nouvel An décoré !", "level": "A2" },
+        { "fr": "дуб", "gender": "m", "ru": "le chêne", "ru_pron": "doub", "example_fr": "Старый дуб стоит 500 лет.", "example_ru": "Le vieux chêne a 500 ans.", "level": "A2" },
+        { "fr": "мох", "gender": "m", "ru": "la mousse", "ru_pron": "mokh", "example_fr": "Мох покрывает камни.", "example_ru": "La mousse recouvre les pierres.", "level": "A2" },
+        { "fr": "заповедник", "gender": "m", "ru": "la réserve naturelle", "ru_pron": "zapavyédnik", "example_fr": "Байкал — заповедная зона.", "example_ru": "Le Baïkal est une zone protégée.", "level": "A2" },
+        { "fr": "почка", "gender": "f", "ru": "le bourgeon / le rein", "ru_pron": "pótchka", "example_fr": "Весной появляются почки на деревьях.", "example_ru": "Au printemps, les bourgeons apparaissent sur les arbres.", "meaning_double": "почка = le bourgeon végétal ET le rein (organe) selon le contexte !", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "флора", "fr_pron": "flóra", "ru": "flore", "ru_pron": "flore", "note": "«Флора» est identique au français «flore», du latin «Flora» (déesse romaine des fleurs). Utilisé en botanique et en biologie. Complément : «фауна» (faune) — même étymologie latine." },
+        { "fr": "папоротник", "fr_pron": "páparatnik", "ru": "fougère", "ru_pron": "fougère", "note": "Intéressant : «папоротник» n'a pas d'étymologie commune avec «fougère» — les deux mots sont d'origines différentes (slave vs latin). Mais la fougère est commune aux deux pays et très présente dans les forêts de Russie." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Ivan Chichkine (1832–1898)", "subtitle": "Le peintre de la forêt russe", "content": "Ivan Chichkine (Иван Шишкин) est le plus grand peintre de la forêt russe. Ses toiles monumentales — «Matin dans une forêt de pins», «La Taïga», «Le Chêne» — ont défini l'image de la forêt russe pour les générations. Il passa des années à étudier chaque arbre, chaque rayon de lumière dans la forêt. Sa peinture «Trois ours» (en réalité peinte avec Savitsky) illustre les boîtes de chocolats «Mishka» — la marque de bonbons soviétique la plus connue." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La taïga — le poumon vert de la planète", "content": "La taïga russe (тайга) représente 25% des forêts mondiales et absorbe une quantité colossale de CO₂. Elle s'étend de la Scandinavie jusqu'au Pacifique sur plus de 10 000 km. La Russie possède plus de la moitié des réserves mondiales d'eau douce souterraine grâce à ce couvert forestier. La préservation de la taïga est un enjeu mondial : les incendies de forêt sibériens brûlent chaque été des millions d'hectares, libérant du carbone dans l'atmosphère." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Тихая охота» — la cueillette des champignons", "content": "En Russie, la cueillette des champignons (сбор грибов, surnommée «тихая охота» = «la chasse silencieuse») est un loisir national. Dès la fin août, des familles entières partent en forêt avec des paniers en osier. Les Russes distinguent des dizaines de variétés comestibles : белый гриб (cèpe), лисичка (girolle), подберёзовик (bolet brun)... Cette tradition transcende les classes sociales : présidents et ouvriers partagent la même passion. Une erreur peut être fatale — il existe des guides très précis." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Лес рубят — щепки летят.", "pronunciation": "Lyés roubiat — chtchépki liétiat", "translation": "Quand on abat un arbre, les copeaux volent.", "usage": "Proverbe signifiant que dans toute action d'envergure, il y a des dommages collatéraux. Équivalent de «on ne fait pas d'omelette sans casser des œufs». Souvent utilisé pour justifier des réformes difficiles ou des décisions aux conséquences inévitables.", "example": "— Ces travaux détruisent des maisons ! — Лес рубят — щепки летят. (On ne fait pas d'omelette sans casser des œufs.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Parc national de Pribaïkalsk — La forêt du Baïkal", "subtitle": "Прибайкальский национальный парк", "content": "Le Parc national Pribaïkalsk longe la rive occidentale du lac Baïkal sur 470 km. Cette forêt de pins et de cèdres abrite des populations d'ours bruns, de loups et de rennes. En hiver, le lac gelé se traverse à pied ou en hovercraft depuis la rive. La Grande Route de Sibérie (Circum-Baikal Railway), une prouesse d'ingénierie du XIXe siècle taillée dans la roche surplombant le lac, est l'un des voyages en train les plus spectaculaires au monde." }
+      },
+      "quiz": [
+        { "q": "Quel arbre est le symbole de la Russie ?", "opts": ["Le chêne", "Le pin", "Le bouleau", "Le sapin"], "ans": 2, "exp": "Le bouleau (берёза) est le symbole végétal de la Russie. Son bois blanc éclatant dans les forêts, sa résistance au froid et sa grâce en ont fait l'arbre national. Il apparaît dans d'innombrables poèmes, chansons et peintures russes." },
+        { "q": "La taïga représente quel pourcentage des forêts mondiales ?", "opts": ["5%", "10%", "15%", "25%"], "ans": 3, "exp": "La taïga russe représente environ 25% des forêts mondiales. Elle s'étend sur plus de 12 millions de km², absorbant des quantités colossales de CO₂. Elle est souvent surnommée «le poumon de la planète»." },
+        { "q": "La «тихая охота» (chasse silencieuse) désigne :", "opts": ["La pêche", "La cueillette des champignons", "L'observation des oiseaux", "La chasse au renard"], "ans": 1, "exp": "La «тихая охота» = la chasse silencieuse, surnom poétique de la cueillette des champignons. Un loisir national russe pratiqué par toutes les classes sociales à la fin de l'été et en automne." },
+        { "q": "«Ёлка» signifie :", "opts": ["Le bouleau", "Le chêne", "Le sapin (et le sapin de Noël)", "La forêt"], "ans": 2, "exp": "«Ёлка» = le sapin naturel ET le sapin/arbre de Noël décoré pour le Nouvel An (Новый год). En Russie, la tradition du sapin décoré est associée au Nouvel An plutôt qu'à Noël." },
+        { "q": "Ivan Chichkine est célèbre pour :", "opts": ["Ses romans sur la forêt", "Ses peintures de la forêt russe", "Ses recherches botaniques", "Sa musique inspirée de la nature"], "ans": 1, "exp": "Ivan Chichkine est le plus grand peintre de la forêt russe. Ses toiles monumentales comme «Matin dans une forêt de pins» ont défini l'image de la nature russe pour le monde entier." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Les Animaux Sauvages",
+      "titleRu": "Дикие животные",
+      "level": "A2",
+      "grammar": {
+        "title": "La faune russe et les animaux sauvages",
+        "titleRu": "Дикие животные России",
+        "intro": "La Russie abrite une faune d'une richesse exceptionnelle : ours bruns (медведи), tigres de l'Amour (амурские тигры), léopards des neiges (снежные барсы), loups (волки), élans (лоси) et des centaines d'espèces d'oiseaux. La Russie est l'un des rares pays au monde où toutes ces espèces coexistent encore à l'état sauvage. Pour parler des animaux, il faut connaître le genre grammatical — et attention, «медведь» (ours) est masculin même pour les femelles !",
+        "sections": [
+          {
+            "title": "Les grands mammifères de Russie",
+            "content": "медведь (m) — l'ours (brun)\nволк (m) — le loup\nлось (m) — l'élan\nкабан (m) — le sanglier\nлиса (f) — le renard\nзаяц (m) — le lièvre\nбобёр (m) — le castor\nрысь (f) — le lynx\nсоболь (m) — la zibeline\nтигр (m) — le tigre (de l'Amour)"
+          },
+          {
+            "title": "Les animaux arctiques et sibériens",
+            "content": "белый медведь (m) — l'ours polaire\nморж (m) — le morse\nнерпа (f) — le phoque du Baïkal\nсеверный олень (m) — le renne\nлемминг (m) — le lemming\nполярная лисица (f) — le renard arctique\nзубр (m) — le bison d'Europe\nамурский тигр (m) — le tigre de l'Amour\nснежный барс (m) — le léopard des neiges\nорёл (m) — l'aigle"
+          },
+          {
+            "title": "Les oiseaux et animaux aquatiques",
+            "content": "орёл (m) — l'aigle\nсова (f) — le hibou / la chouette\nжуравль (m) — la grue\nлебедь (m) — le cygne\nутка (f) — le canard\nщука (f) — le brochet\nосётр (m) — l'esturgeon (le caviar !)\nсёмга / лосось (m) — le saumon\nомуль (m) — l'omul (poisson du Baïkal)\nкит (m) — la baleine"
+          }
+        ],
+        "rule": "💡 «Медведь» (ours) est masculin par défaut même pour la femelle. Pour spécifier : «медведица» = l'ourse. De même : «волк» (loup) → «волчица» (louve), «лев» (lion) → «львица» (lionne). En russe, les animaux ont souvent une forme féminine en -ица ou -иха."
+      },
+      "pronunciation": {
+        "intro": "Les noms d'animaux russes sont souvent expressifs — on imagine l'animal en les prononçant !",
+        "note": "⚠️ «Медведь» [midvyed'] — le groupe «дв» se prononce d'une traite. «Лось» [los'] — signe mou final. «Рысь» [rys'] — le «ы» est la voyelle centrale russe, entre «i» et «ou».",
+        "words": [
+          { "fr": "медведь", "ru_pron": "midvyed'", "meaning": "l'ours" },
+          { "fr": "волк", "ru_pron": "volk", "meaning": "le loup" },
+          { "fr": "лиса", "ru_pron": "lisá", "meaning": "le renard" },
+          { "fr": "лось", "ru_pron": "los'", "meaning": "l'élan" },
+          { "fr": "рысь", "ru_pron": "rys'", "meaning": "le lynx" },
+          { "fr": "орёл", "ru_pron": "aryól", "meaning": "l'aigle" },
+          { "fr": "лебедь", "ru_pron": "lyébid'", "meaning": "le cygne" },
+          { "fr": "бобёр", "ru_pron": "babyor", "meaning": "le castor" },
+          { "fr": "соболь", "ru_pron": "sóbal'", "meaning": "la zibeline" },
+          { "fr": "нерпа", "ru_pron": "nyérpa", "meaning": "le phoque du Baïkal" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "медведь", "gender": "m", "ru": "l'ours", "ru_pron": "midvyed'", "example_fr": "В тайге живут медведи.", "example_ru": "Des ours vivent dans la taïga.", "level": "A2" },
+        { "fr": "волк", "gender": "m", "ru": "le loup", "ru_pron": "volk", "example_fr": "Волк — символ силы.", "example_ru": "Le loup est un symbole de force.", "level": "A2" },
+        { "fr": "лиса", "gender": "f", "ru": "le renard", "ru_pron": "lisá", "example_fr": "Лиса очень хитрая.", "example_ru": "Le renard est très rusé.", "level": "A2" },
+        { "fr": "соболь", "gender": "m", "ru": "la zibeline", "ru_pron": "sóbal'", "example_fr": "Соболь — символ сибирской природы.", "example_ru": "La zibeline est le symbole de la nature sibérienne.", "level": "A2" },
+        { "fr": "лебедь", "gender": "m", "ru": "le cygne", "ru_pron": "lyébid'", "example_fr": "Белые лебеди на озере.", "example_ru": "Des cygnes blancs sur le lac.", "level": "A2" },
+        { "fr": "орёл", "gender": "m", "ru": "l'aigle", "ru_pron": "aryól", "example_fr": "Орёл парит в небе.", "example_ru": "L'aigle plane dans le ciel.", "level": "A2" },
+        { "fr": "нерпа", "gender": "f", "ru": "le phoque du Baïkal (endémique)", "ru_pron": "nyérpa", "example_fr": "Нерпа живёт только в Байкале.", "example_ru": "La nerpа ne vit que dans le Baïkal.", "level": "A2" },
+        { "fr": "осётр", "gender": "m", "ru": "l'esturgeon", "ru_pron": "asyótr", "example_fr": "Икра осётра — чёрная икра.", "example_ru": "Les œufs d'esturgeon sont le caviar noir.", "level": "A2" },
+        { "fr": "зубр", "gender": "m", "ru": "le bison d'Europe", "ru_pron": "zoubr", "example_fr": "Зубр почти исчез в XX веке.", "example_ru": "Le bison d'Europe a failli disparaître au XXe siècle.", "level": "A2" },
+        { "fr": "амурский тигр", "gender": "m", "ru": "le tigre de l'Amour (de Sibérie)", "ru_pron": "amourski tigr", "example_fr": "Амурский тигр — под угрозой исчезновения.", "example_ru": "Le tigre de l'Amour est en voie d'extinction.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "тигр", "fr_pron": "tigr", "ru": "tigre", "ru_pron": "tigre", "note": "«Тигр» est identique au français «tigre», tous deux du grec «tigris», lui-même emprunté à une langue persane ou iranienne ancienne. Le tigre de l'Amour (амурский тигр) est le plus grand félin sauvage du monde." },
+        { "fr": "кит", "fr_pron": "kit", "ru": "baleine (mais aussi cétacé)", "ru_pron": "cétacé / baleine", "note": "«Кит» vient du grec «ketos» (grand monstre marin). Le français «cétacé» a la même racine. En russe «кит» désigne la baleine en général. Curiosité : «кит» se traduit aussi par «Chine» en vieux slave !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhaïl Prychvine (1873–1954)", "subtitle": "L'écrivain de la nature russe", "content": "Mikhaïl Prychvine est le plus grand écrivain naturaliste russe. Ses œuvres décrivent avec une précision poétique les forêts, les marais, les animaux et les saisons de Russie. Botaniste de formation, il devint journaliste puis écrivain. Son journal (писательский дневник) qu'il tint de 1905 à 1954 est une observation sans égale de la nature russe sur un demi-siècle. Il est souvent surnommé «le chanteur de la nature russe»." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La zibeline — le «pétrole noir» de la Russie médiévale", "content": "Pendant des siècles, la zibeline (соболь) fut la principale richesse de la Russie. Sa fourrure, la plus précieuse au monde, était utilisée comme monnaie d'échange, comme tribut (ясак) payé par les peuples de Sibérie, comme cadeau diplomatique. Les tsars envoyaient des fourrures de zibeline aux rois d'Europe et au sultan ottoman. C'est en grande partie la quête de la zibeline qui poussa les Russes à explorer et coloniser la Sibérie aux XVIe-XVIIe siècles — comme l'or poussa les Espagnols en Amérique." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Миша — l'ours symbole de la Russie", "content": "L'ours brun (медведь) est le symbole animal de la Russie, surnommé affectueusement «Миша» ou «Михаил Потапыч» dans les contes. Les Russes s'identifient à lui : fort, parfois maladroit, mais noble et puissant. Mishka était la mascotte des JO de Moscou 1980 — devenu l'une des icônes les plus reconnaissables de l'histoire olympique. L'expression «Россия-матушка и её медведи» (La Mère-Russie et ses ours) est à la fois un cliché... et une vérité : 120 000 ours bruns peuplent les forêts russes." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Делить шкуру неубитого медведя.", "pronunciation": "Dilitchitie chkourou nibítava midvyédia", "translation": "Vendre la peau de l'ours avant de l'avoir tué.", "usage": "Proverbe russe identique au proverbe français ! «Шкура» = la peau, «неубитый» = non tué. Utilisé pour mettre en garde contre ceux qui comptent leurs gains avant d'avoir réussi. Preuve que certaines sagesses sont universelles.", "example": "— J'ai déjà planifié comment dépenser mon bonus ! — Не дели шкуру неубитого медведя... (Ne vends pas la peau de l'ours avant de l'avoir tué...)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Kamtchatka — La péninsule des ours et des volcans", "subtitle": "Камчатка — Край вулканов и медведей", "content": "Le Kamtchatka (Камчатка) est l'une des dernières grandes zones sauvages de la planète. Cette péninsule du Pacifique abrite 160 volcans actifs, des geysers géants, et la plus forte densité d'ours bruns au monde. Les saumons remontent les rivières en millions à l'automne, attirant aigles, ours et loutres de mer. Classé au patrimoine mondial de l'UNESCO. Le voyage est long (12h de Moscou), mais les photographes animaliers du monde entier le placent en tête de leur liste." }
+      },
+      "quiz": [
+        { "q": "Quel est le symbole animal officieux de la Russie ?", "opts": ["Le loup", "L'aigle", "L'ours brun", "Le tigre de l'Amour"], "ans": 2, "exp": "L'ours brun (медведь, Миша) est le symbole animal de la Russie. Il apparaît dans le folklore, les contes, les emblèmes sportifs. 120 000 ours bruns vivent dans les forêts russes." },
+        { "q": "La zibeline (соболь) a joué quel rôle dans l'histoire russe ?", "opts": ["Comme animal de guerre", "Comme monnaie précieuse et moteur de l'expansion sibérienne", "Comme animal sacré de la taïga", "Comme symbole du tsar"], "ans": 1, "exp": "La fourrure de zibeline était la plus précieuse au monde et servait de monnaie d'échange. C'est en grande partie la quête de la zibeline qui poussa les Russes à coloniser la Sibérie." },
+        { "q": "La «нерпа» est :", "opts": ["Un poisson du Baïkal", "Le phoque endémique du lac Baïkal", "Un oiseau sibérien", "Un type de truite"], "ans": 1, "exp": "La нерпа est le phoque d'eau douce endémique du lac Baïkal — l'un des rares phoques vivant dans un lac. On ne sait pas encore exactement comment ses ancêtres migrèrent depuis l'océan Arctique il y a des millénaires." },
+        { "q": "Comment dit-on «l'ourse» (la femelle de l'ours) en russe ?", "opts": ["медведиха", "медведица", "медведья", "лось-самка"], "ans": 1, "exp": "«Медведица» = l'ourse (femelle). Le suffixe -ица forme les femelles de nombreux animaux : волк → волчица (louve), лев → львица (lionne)." },
+        { "q": "«Делить шкуру неубитого медведя» est l'équivalent de :", "opts": ["Mordre la main qui vous nourrit", "Vendre la peau de l'ours avant de l'avoir tué", "Avoir les yeux plus gros que le ventre", "Mettre la charrue avant les bœufs"], "ans": 1, "exp": "Ce proverbe russe est identique au proverbe français «vendre la peau de l'ours avant de l'avoir tué». Une sagesse universelle qui transcende les langues et les cultures !" }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "Les Montagnes et les Paysages",
+      "titleRu": "Горы и пейзажи",
+      "level": "A2",
+      "grammar": {
+        "title": "Les paysages naturels de Russie et le vocabulaire géographique",
+        "titleRu": "Горы и природные пейзажи",
+        "intro": "La Russie est un pays de contrastes géographiques extrêmes : des montagnes de l'Oural à l'Extrême-Orient, des plaines sans fin aux steppes dorées, des déserts froids aux volcans actifs. Pour décrire les paysages, on utilise des adjectifs de couleur et de dimension, ainsi que les prépositions de lieu. Le verbe «находиться» (se trouver, être situé) est essentiel pour situer un lieu.",
+        "sections": [
+          {
+            "title": "Les reliefs et paysages naturels",
+            "content": "гора (f) — la montagne\nхолм (m) — la colline\nравнина (f) — la plaine\nдолина (f) — la vallée\nущелье (n) — le défilé / la gorge\nпещера (f) — la grotte / la caverne\nпропасть (f) — l'abîme / le précipice\nперевал (m) — le col (de montagne)\nвулкан (m) — le volcan\nгейзер (m) — le geyser"
+          },
+          {
+            "title": "L'eau et les étendues aquatiques",
+            "content": "море (n) — la mer\nозеро (n) — le lac\nрека (f) — la rivière / le fleuve\nречка (f) — le ruisseau / la petite rivière\nпоток (m) — le torrent\nводопад (m) — la cascade\nзалив (m) — le golfe\nпролив (m) — le détroit\nболото (n) — le marais\nисточник (m) — la source"
+          },
+          {
+            "title": "Adjectifs de paysage",
+            "content": "высокий — haut / élevé\nнизкий — bas\nкрутой — escarpé / raide\nпологий — en pente douce\nбескрайний — sans fin / à perte de vue\nзаснеженный — enneigé\nгорный — montagneux\nравнинный — de plaine\nбурный — tumultueux / agité\nспокойный — calme / tranquille"
+          }
+        ],
+        "rule": "💡 Pour situer un lieu : «находиться» = se trouver / être situé. «Эльбрус находится на Кавказе» = l'Elbrouz se trouve dans le Caucase. Prépositions : «В горах» (dans les montagnes), «на Байкале» (sur le Baïkal / au Baïkal), «на Урале» (dans l'Oural — avec «на» pour les chaînes de montagnes et les îles !)."
+      },
+      "pronunciation": {
+        "intro": "La géographie russe — des mots souvent robustes, comme les reliefs qu'ils décrivent !",
+        "note": "⚠️ «Гора» [garà] — accent sur la 2e syllabe. «Ущелье» [ouch'chélié] — son [ch] allongé. «Бескрайний» [biskráïny] — accent sur «-ай».",
+        "words": [
+          { "fr": "гора", "ru_pron": "garà", "meaning": "la montagne" },
+          { "fr": "равнина", "ru_pron": "ravnína", "meaning": "la plaine" },
+          { "fr": "река", "ru_pron": "rikà", "meaning": "la rivière / le fleuve" },
+          { "fr": "водопад", "ru_pron": "vadapád", "meaning": "la cascade" },
+          { "fr": "вулкан", "ru_pron": "voulkán", "meaning": "le volcan" },
+          { "fr": "гейзер", "ru_pron": "gyézir", "meaning": "le geyser" },
+          { "fr": "пещера", "ru_pron": "pitchéra", "meaning": "la grotte" },
+          { "fr": "болото", "ru_pron": "balóta", "meaning": "le marais" },
+          { "fr": "перевал", "ru_pron": "pirivál", "meaning": "le col de montagne" },
+          { "fr": "горизонт", "ru_pron": "garizónt", "meaning": "l'horizon" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "гора", "gender": "f", "ru": "la montagne", "ru_pron": "garà", "example_fr": "Эльбрус — самая высокая гора Европы.", "example_ru": "L'Elbrouz est la plus haute montagne d'Europe.", "level": "A2" },
+        { "fr": "равнина", "gender": "f", "ru": "la plaine", "ru_pron": "ravnína", "example_fr": "Русская равнина очень большая.", "example_ru": "La plaine russe est très grande.", "level": "A2" },
+        { "fr": "река", "gender": "f", "ru": "le fleuve / la rivière", "ru_pron": "rikà", "example_fr": "Волга — самая длинная река Европы.", "example_ru": "La Volga est le plus long fleuve d'Europe.", "level": "A2" },
+        { "fr": "вулкан", "gender": "m", "ru": "le volcan", "ru_pron": "voulkán", "example_fr": "На Камчатке 160 вулканов.", "example_ru": "Le Kamtchatka a 160 volcans.", "level": "A2" },
+        { "fr": "водопад", "gender": "m", "ru": "la cascade / la chute d'eau", "ru_pron": "vadapád", "example_fr": "Красивый водопад в горах.", "example_ru": "Une belle cascade dans les montagnes.", "level": "A2" },
+        { "fr": "болото", "gender": "n", "ru": "le marais / la tourbière", "ru_pron": "balóta", "example_fr": "Сибирские болота огромны.", "example_ru": "Les marais sibériens sont immenses.", "level": "A2" },
+        { "fr": "степь", "gender": "f", "ru": "la steppe", "ru_pron": "styep'", "example_fr": "Казахская степь бескрайняя.", "example_ru": "La steppe kazakhe est à perte de vue.", "level": "A2" },
+        { "fr": "пещера", "gender": "f", "ru": "la grotte / la caverne", "ru_pron": "pitchéra", "example_fr": "Эта пещера очень глубокая.", "example_ru": "Cette grotte est très profonde.", "level": "A2" },
+        { "fr": "горизонт", "gender": "m", "ru": "l'horizon", "ru_pron": "garizónt", "example_fr": "Солнце садится за горизонт.", "example_ru": "Le soleil descend sous l'horizon.", "level": "A2" },
+        { "fr": "пропасть", "gender": "f", "ru": "l'abîme / le précipice", "ru_pron": "própast'", "example_fr": "Смотреть в пропасть страшно.", "example_ru": "Regarder dans l'abîme fait peur.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "вулкан", "fr_pron": "voulkán", "ru": "volcan", "ru_pron": "volcan", "note": "«Вулкан» vient du latin «Vulcanus» (dieu romain du feu). Identique au français «volcan». La Russie (Kamtchatka) abrite la plus haute concentration de volcans actifs au monde." },
+        { "fr": "горизонт", "fr_pron": "garizónt", "ru": "horizon", "ru_pron": "horizon", "note": "«Горизонт» vient du grec «horizein» (délimiter). Identique au français «horizon». En russe, «на горизонте» = à l'horizon, «за горизонтом» = au-delà de l'horizon." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Prjevalski (1839–1888)", "subtitle": "Le grand explorateur des steppes et des montagnes d'Asie", "content": "Nikolaï Prjevalski (Пржевальский) est le plus grand explorateur russe du XIXe siècle. Il fut le premier Européen à explorer en profondeur l'Asie centrale, le Tibet et la Mongolie. Il découvrit le cheval sauvage qui porte son nom (Equus przewalskii), ainsi que de nombreuses espèces botaniques et zoologiques. Il parcourut plus de 30 000 km à pied et à cheval dans des régions inconnues. Ses récits d'exploration sont encore lus en Russie." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'Oural — frontière Europe-Asie", "content": "L'Oural (Урал) est la chaîne de montagnes qui sépare l'Europe de l'Asie. Vieux de 300 millions d'années, il est l'une des chaînes les plus anciennes du monde — et aussi l'une des plus basses (maximum 1 895 m). Des obélisques marquent la frontière officielle Europe-Asie sur plusieurs routes et chemins. Iekaterinbourg (Екатеринбург), la grande ville de l'Oural, se trouve exactement à cheval sur cette frontière. «Une jambe en Europe, une jambe en Asie» est une expérience touristique proposée aux visiteurs." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "L'Elbrouz — le toit de l'Europe", "content": "L'Elbrouz (Эльбрус, 5 642 m) est le plus haut sommet d'Europe — et non le Mont-Blanc (4 808 m) comme on le croit souvent en France ! La controverse vient de la définition de la frontière Europe-Asie. Si l'on place celle-ci à l'Oural et au Caucase (définition russe), l'Elbrouz est en Europe. C'est un volcan éteint aux deux sommets jumeaux. Des remontées mécaniques permettent d'atteindre 3 800 m. Le sommet reste un défi pour les alpinistes du monde entier." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Лучше гор могут быть только горы.", "pronunciation": "Loutchie gor mogout byt' tól'ko góry", "translation": "Rien de mieux que les montagnes, sauf les montagnes.", "usage": "Vers célèbre de la chanson de Vladimir Vyssotski, le «barde» russe le plus aimé du XXe siècle. Exprime la fascination des alpinistes et randonneurs pour les montagnes — une fois qu'on les a aimées, seules d'autres montagnes peuvent les remplacer.", "example": "— Pourquoi tu retournes toujours au Caucase ? — Лучше гор могут быть только горы. (Rien de mieux que les montagnes, sauf les montagnes.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Elbrouz — Le toit de l'Europe", "subtitle": "Эльбрус — Высочайшая вершина Европы", "content": "L'Elbrouz (Кабардино-Балкарская республика) est le sommet le plus prisé des alpinistes russes et internationaux. Le camp de base se trouve à 3 800 m, accessible par téléphérique depuis Terskol. Le sommet (5 642 m) se gravit en 8-10 heures depuis le camp de haute altitude. La région du Grand Caucase est aussi célèbre pour ses vallées habitées par des peuples aux cultures uniques (Karatchaïs, Balkars, Svanètes), ses architectures médiévales en tours de pierre et sa cuisine épicée." }
+      },
+      "quiz": [
+        { "q": "Quel est le plus haut sommet d'Europe selon la définition russe ?", "opts": ["Le Mont-Blanc", "Le Mont-Rose", "L'Elbrouz", "Le Cervin"], "ans": 2, "exp": "L'Elbrouz (Эльбрус, 5 642 m dans le Caucase) est le plus haut sommet d'Europe si l'on place la frontière Europe-Asie au Caucase (définition russe). Le Mont-Blanc (4 808 m) n'est que le deuxième dans ce cas." },
+        { "q": "Quelle préposition s'utilise avec «Байкал» pour dire «au lac Baïkal» ?", "opts": ["в", "на", "у", "за"], "ans": 1, "exp": "«На Байкале» = au lac Baïkal. En russe, on utilise «на» (et non «в») avec les noms de lacs, mers, îles et chaînes de montagnes : на Урале, на Волге, на Байкале." },
+        { "q": "L'Oural sépare :", "opts": ["La Russie de la Chine", "La Russie de la Finlande", "L'Europe de l'Asie", "La Sibérie du Kazakhstan"], "ans": 2, "exp": "L'Oural (Урал) est la frontière naturelle entre l'Europe et l'Asie. Une des chaînes les plus anciennes du monde (300 millions d'ans) mais aussi l'une des moins élevées (max 1 895 m)." },
+        { "q": "«Бескрайний» signifie :", "opts": ["Montagneux", "Sans fin / à perte de vue", "Couvert de neige", "Volcanique"], "ans": 1, "exp": "«Бескрайний» = sans fin, à perte de vue. De «без» (sans) + «край» (bord). Parfait pour décrire les immenses plaines et steppes russes où l'horizon semble infini." },
+        { "q": "Qui a composé «Лучше гор могут быть только горы» ?", "opts": ["Pouchkine", "Tolstoï", "Vladimir Vyssotski", "Tchekhov"], "ans": 2, "exp": "Ce vers est de Vladimir Vyssotski (1938–1980), le barde (auteur-compositeur) le plus aimé de l'ère soviétique. Ses chansons sur la montagne, l'amitié et la liberté sont encore chantées dans toute la Russie." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Fleuves et les Lacs",
+      "titleRu": "Реки и озёра",
+      "level": "A2",
+      "grammar": {
+        "title": "Les voies d'eau et l'hydrographie russe",
+        "titleRu": "Реки и озёра России",
+        "intro": "La Russie est le pays de l'eau : elle possède plus d'un quart des réserves mondiales d'eau douce. Le lac Baïkal (озеро Байкал) à lui seul contient 20% de toute l'eau douce de la planète ! La Volga, la Léna, l'Ob, l'Ienisseï sont parmi les plus longs fleuves du monde. Pour parler des fleuves et des lacs, on utilise souvent «по реке» (le long du fleuve), «через реку» (à travers la rivière) et les adjectifs liés à l'eau.",
+        "sections": [
+          {
+            "title": "Les grands fleuves russes",
+            "content": "Волга (f) — la Volga (3 690 km, le plus long fleuve d'Europe)\nОбь (f) — l'Ob (5 410 km)\nЕнисей (m) — l'Ienisseï (5 539 km)\nЛена (f) — la Léna (4 400 km)\nАмур (m) — l'Amour (2 824 km, frontière avec la Chine)\nДон (m) — le Don\nДнепр (m) — le Dniepr\nАнгара (f) — l'Angara (seule rivière qui sort du Baïkal)"
+          },
+          {
+            "title": "Les caractéristiques de l'eau",
+            "content": "течь — couler / s'écouler\nтекущий — qui coule / courant\nчистый — propre / pur\nмутный — trouble\nглубокий — profond\nмелкий — peu profond\nширокий — large\nузкий — étroit\nбыстрый — rapide\nмедленный — lent\nпресный — doux (non salé)\nсолёный — salé"
+          },
+          {
+            "title": "Activités liées à l'eau",
+            "content": "плыть / плавать — nager / naviguer\nгрести — ramer\nрыбачить / удить рыбу — pêcher\nкупаться — se baigner\nтонуть — couler / se noyer\nперепрыгнуть / переплыть реку — traverser la rivière\nидти по берегу — marcher le long du rivage\nловить рыбу — attraper du poisson\nбросать камни — jeter des pierres\ncмотреть на отражение — regarder le reflet"
+          }
+        ],
+        "rule": "💡 «Река» vs «речка» : «река» est un fleuve ou une rivière de taille normale, «речка» est une petite rivière (suffixe diminutif -ка). Cette tendance aux diminutifs est très russe : лес → лесок (petit bois), гора → горка (petite colline), озеро → озерко (petit lac). Les diminutifs expriment aussi l'affection !"
+      },
+      "pronunciation": {
+        "intro": "Les noms des grands fleuves russes ont une musicalité particulière — souvent d'origine finnoise, turque ou sibérienne !",
+        "note": "⚠️ «Енисей» [yenisyéï] — trois syllabes, accent sur «-сей». «Волга» [vólga] — accent sur la première syllabe. «Ангара» [angarà] — accent sur «-ра».",
+        "words": [
+          { "fr": "река", "ru_pron": "rikà", "meaning": "le fleuve / la rivière" },
+          { "fr": "Волга", "ru_pron": "vólga", "meaning": "la Volga" },
+          { "fr": "Байкал", "ru_pron": "baïkál", "meaning": "le lac Baïkal" },
+          { "fr": "течение", "ru_pron": "tichénié", "meaning": "le courant / l'écoulement" },
+          { "fr": "берег", "ru_pron": "byérek", "meaning": "la rive / la berge / la côte" },
+          { "fr": "глубина", "ru_pron": "gloubiná", "meaning": "la profondeur" },
+          { "fr": "рыбачить", "ru_pron": "rybátchit'", "meaning": "pêcher" },
+          { "fr": "пресный", "ru_pron": "pryésny", "meaning": "doux (eau non salée)" },
+          { "fr": "отражение", "ru_pron": "atrAjenié", "meaning": "le reflet" },
+          { "fr": "исток", "ru_pron": "istók", "meaning": "la source (d'un fleuve)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "река", "gender": "f", "ru": "le fleuve / la rivière", "ru_pron": "rikà", "example_fr": "Волга — великая русская река.", "example_ru": "La Volga est le grand fleuve russe.", "level": "A2" },
+        { "fr": "берег", "gender": "m", "ru": "la rive / la côte / le rivage", "ru_pron": "byérek", "example_fr": "Мы шли по берегу реки.", "example_ru": "Nous marchions le long de la rive du fleuve.", "level": "A2" },
+        { "fr": "глубина", "gender": "f", "ru": "la profondeur", "ru_pron": "gloubiná", "example_fr": "Глубина Байкала — 1 642 метра.", "example_ru": "La profondeur du Baïkal est de 1 642 mètres.", "level": "A2" },
+        { "fr": "течение", "gender": "n", "ru": "le courant / l'écoulement", "ru_pron": "tichénié", "example_fr": "Плыть против течения трудно.", "example_ru": "Nager à contre-courant est difficile.", "meaning_double": "течение = le courant d'eau ET la période de temps («в течение недели» = dans le courant de la semaine) !", "level": "A2" },
+        { "fr": "рыбалка", "gender": "f", "ru": "la pêche (loisir)", "ru_pron": "rybálka", "example_fr": "Рыбалка — любимое хобби русских.", "example_ru": "La pêche est le loisir préféré des Russes.", "level": "A2" },
+        { "fr": "лёд", "gender": "m", "ru": "la glace", "ru_pron": "lyod", "example_fr": "Байкал покрыт льдом зимой.", "example_ru": "Le Baïkal est couvert de glace en hiver.", "level": "A2" },
+        { "fr": "исток", "gender": "m", "ru": "la source (d'un fleuve)", "ru_pron": "istók", "example_fr": "Исток Волги — маленькое болото.", "example_ru": "La source de la Volga est un petit marais.", "level": "A2" },
+        { "fr": "устье", "gender": "n", "ru": "l'embouchure (d'un fleuve)", "ru_pron": "óust'ie", "example_fr": "Устье Волги — Каспийское море.", "example_ru": "L'embouchure de la Volga est la mer Caspienne.", "level": "A2" },
+        { "fr": "порог", "gender": "m", "ru": "le rapide (fluvial) / le seuil", "ru_pron": "parók", "example_fr": "На реке есть опасные пороги.", "example_ru": "Il y a des rapides dangereux sur le fleuve.", "meaning_double": "порог = le rapide fluvial ET le seuil (d'une porte) !", "level": "A2" },
+        { "fr": "половодье", "gender": "n", "ru": "la crue / les hautes eaux printanières", "ru_pron": "palavód'ie", "example_fr": "Весеннее половодье затопляет луга.", "example_ru": "La crue de printemps inonde les prairies.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "дельта", "fr_pron": "dyél'ta", "ru": "delta (d'un fleuve)", "ru_pron": "delta", "note": "«Дельта» est identique au français «delta», du grec «delta» (quatrième lettre, en forme de triangle). La Volga forme un immense delta avant de se jeter dans la mer Caspienne." },
+        { "fr": "резервуар", "fr_pron": "rizervouár", "ru": "réservoir / retenue d'eau", "ru_pron": "réservoir", "note": "«Резервуар» vient du français «réservoir». La Russie possède d'immenses réservoirs artificiels construits sur les grands fleuves à l'époque soviétique." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Stenka Razine (1630–1671)", "subtitle": "Le cosaque légendaire de la Volga", "content": "Stenka Razine (Стенька Разин) est le cosaque légendaire qui mena la plus grande révolte paysanne de l'histoire russe (1670–1671) le long de la Volga. Sa chanson populaire «Из-за острова на стрежень» (Du milieu de l'île vers le courant) est encore chantée en Russie. La légende raconte qu'il jeta une princesse persane dans la Volga pour prouver sa loyauté au fleuve. La Volga reste liée à son mythe — un symbole de liberté et de révolte dans la culture russe." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le lac Baïkal — la merveille naturelle de Russie", "content": "Le lac Baïkal (озеро Байкал) est unique au monde : le plus profond (1 642 m), le plus ancien (25–30 millions d'années) et le plus grand lac d'eau douce en volume (20% de l'eau douce liquide mondiale). Il abrite 1 700 espèces végétales et animales dont 80% sont endémiques, dont la нерпа (le phoque d'eau douce). Classé au patrimoine mondial de l'UNESCO en 1996. En hiver, son lac gelé devient une route de glace traversable en voiture. L'eau du Baïkal est si pure qu'elle est potable directement." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Зимняя рыбалка — la pêche sous la glace", "content": "La pêche d'hiver sous la glace (зимняя рыбалка) est un loisir national russe pratiqué par des millions de personnes. Armés d'une perceuse à glace (бур) et d'une petite canne, les pêcheurs creusent un trou dans la glace et s'assoient dessus pendant des heures par -20°C. La prise traditionnelle : le sandre (судак), la perche (окунь), le brochet (щука). Des compétitions nationales de pêche sous la glace rassemblent des milliers de participants. Pour les Russes, ce n'est pas de la folie — c'est du bonheur !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Волга впадает в Каспийское море.", "pronunciation": "Vólga vpadáiet v Kaspíïskoïe mórie", "translation": "La Volga se jette dans la mer Caspienne.", "usage": "Phrase célèbre tirée de la nouvelle de Tchekhov «L'Ennuyeux incident». Elle est devenue un symbole d'une vérité évidente — parfois dite avec humour pour souligner que quelqu'un énonce une évidence. «Et la Volga se jette dans la mer Caspienne !» = «Et alors, c'est bien connu !»", "example": "— Tu sais que l'eau mouille ? — Да, и Волга впадает в Каспийское море! (Oui, et la Volga se jette dans la mer Caspienne !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Lac Baïkal — La mer sacrée de Sibérie", "subtitle": "Байкал — Священное море Сибири", "content": "Le lac Baïkal (Иркутская область) est la destination nature la plus spectaculaire de Russie. En été : trekking sur le sentier Grand Baïkal, nage dans une eau cristalline, observation de la нерпа. En hiver : traversée du lac gelé à pied ou en vélo, grotte de glace de Olkhon, aurores boréales. L'île d'Olkhon (Ольхон) est le centre spirituel du chamanisme sibérien — le rocher Shamanka y est vénéré depuis des millénaires. Le poisson omoul (омуль) fumé est le plat incontournable de la région." }
+      },
+      "quiz": [
+        { "q": "Quel pourcentage de l'eau douce mondiale contient le lac Baïkal ?", "opts": ["5%", "10%", "20%", "35%"], "ans": 2, "exp": "Le lac Baïkal contient environ 20% de toute l'eau douce liquide de la planète. Il est le lac le plus profond (1 642 m) et le plus ancien (25-30 millions d'années) du monde." },
+        { "q": "La Volga se jette dans :", "opts": ["La mer Baltique", "La mer Noire", "La mer Caspienne", "La mer d'Aral"], "ans": 2, "exp": "«Волга впадает в Каспийское море» = la Volga se jette dans la mer Caspienne. Une phrase si connue en Russie qu'elle est devenue un symbole de l'évidence dans la langue." },
+        { "q": "«Зимняя рыбалка» désigne :", "opts": ["La pêche en été", "La pêche sous la glace en hiver", "La pêche en mer", "La pêche à la mouche"], "ans": 1, "exp": "«Зимняя рыбалка» = la pêche d'hiver sous la glace. Un loisir national russe : on perce un trou dans la glace et on pêche par -20°C. Des millions de Russes pratiquent cette activité." },
+        { "q": "«Течение» peut signifier :", "opts": ["Uniquement le courant d'eau", "Uniquement une période de temps", "Le courant d'eau ET une période de temps", "La profondeur d'un fleuve"], "ans": 2, "exp": "«Течение» a deux sens : le courant (d'eau) ET une période de temps. «В течение недели» = dans le courant de la semaine / au cours de la semaine. Le contexte détermine le sens !" },
+        { "q": "Stenka Razine est associé à :", "opts": ["La Volga et une révolte paysanne légendaire", "Le lac Baïkal et l'exploration sibérienne", "La mer Noire et le commerce maritime", "Le Don et l'armée cosaque"], "ans": 0, "exp": "Stenka Razine mena une immense révolte cosaque et paysanne le long de la Volga (1670-71). Sa légende et la chanson populaire «Из-за острова на стрежень» sont indissociables de la Volga." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "L'Agriculture et la Campagne",
+      "titleRu": "Сельское хозяйство и деревня",
+      "level": "A2",
+      "grammar": {
+        "title": "La vie rurale et l'agriculture russe",
+        "titleRu": "Сельское хозяйство",
+        "intro": "La Russie est l'un des plus grands pays agricoles au monde : premier exportateur mondial de blé, grand producteur de tournesol, betteraves et céréales. La «datcha» (дача) — la maison de campagne avec son jardin — est une institution sociale russe : on y cultive ses légumes, on s'y repose, on y passe les week-ends. La vie à la campagne (деревня) et la nostalgie du village restent très présentes dans la culture russe.",
+        "sections": [
+          {
+            "title": "Le paysage rural et les bâtiments",
+            "content": "деревня (f) — le village / la campagne\nсело (n) — le village (plus grand qu'une деревня)\nдача (f) — la maison de campagne / la datcha\nферма (f) — la ferme\nполе (n) — le champ\nогород (m) — le potager\nсад (m) — le jardin / le verger\nбаня (f) — le bain de vapeur / le sauna\nсарай (m) — la grange\nизба (f) — la maison paysanne en bois"
+          },
+          {
+            "title": "Les cultures et récoltes",
+            "content": "пшеница (f) — le blé\nрожь (f) — le seigle\nподсолнух (m) — le tournesol\nкартофель (m) — la pomme de terre\nкапуста (f) — le chou\nморковь (f) — la carotte\nсвёкла (f) — la betterave\nлук (m) — l'oignon\nчеснок (m) — l'ail\nгречиха (f) — le sarrasin (гречка)"
+          },
+          {
+            "title": "Les animaux de la ferme",
+            "content": "корова (f) — la vache\nлошадь (f) — le cheval\nсвинья (f) — le cochon\nовца (f) — la brebis\nкозёл/коза (m/f) — le bouc / la chèvre\nкурица (f) — la poule\nпетух (m) — le coq\nгусь (m) — l'oie\nутка (f) — le canard\nсобака (f) — le chien (de ferme)"
+          }
+        ],
+        "rule": "💡 «Деревня» a deux sens : le village (lieu habité) ET la campagne (zone rurale opposée à la ville). «Я еду в деревню» peut signifier «je vais au village» ou «je pars à la campagne». «Деревенский» = rural / campagnard. Ne pas confondre avec «дерево» (l'arbre) !"
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire rural russe — souvent des mots anciens et bien enracinés dans la langue !",
+        "note": "⚠️ «Пшеница» [pchénitsa] — le groupe «пш» [pch] n'existe pas en français. «Гречиха» [gretchíkha] — le «х» guttural final. «Изба» [izbá] — accent sur la deuxième syllabe.",
+        "words": [
+          { "fr": "деревня", "ru_pron": "diryévnia", "meaning": "le village / la campagne" },
+          { "fr": "дача", "ru_pron": "dátcha", "meaning": "la datcha / maison de campagne" },
+          { "fr": "поле", "ru_pron": "pólie", "meaning": "le champ" },
+          { "fr": "пшеница", "ru_pron": "pchénitsa", "meaning": "le blé" },
+          { "fr": "картофель", "ru_pron": "kartófel'", "meaning": "la pomme de terre" },
+          { "fr": "корова", "ru_pron": "karóva", "meaning": "la vache" },
+          { "fr": "изба", "ru_pron": "izbá", "meaning": "la maison paysanne en rondins" },
+          { "fr": "огород", "ru_pron": "agaród", "meaning": "le potager" },
+          { "fr": "урожай", "ru_pron": "ourAjaï", "meaning": "la récolte / la moisson" },
+          { "fr": "сенокос", "ru_pron": "sénakos", "meaning": "la fenaison" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "деревня", "gender": "f", "ru": "le village / la campagne", "ru_pron": "diryévnia", "example_fr": "Моя бабушка живёт в деревне.", "example_ru": "Ma grand-mère vit au village.", "meaning_double": "деревня = le village habité ET la campagne (zone rurale) !", "level": "A2" },
+        { "fr": "дача", "gender": "f", "ru": "la datcha / maison de campagne", "ru_pron": "dátcha", "example_fr": "Каждые выходные мы едем на дачу.", "example_ru": "Chaque week-end nous allons à la datcha.", "level": "A2" },
+        { "fr": "поле", "gender": "n", "ru": "le champ", "ru_pron": "pólie", "example_fr": "Огромные пшеничные поля.", "example_ru": "D'immenses champs de blé.", "level": "A2" },
+        { "fr": "урожай", "gender": "m", "ru": "la récolte / la moisson", "ru_pron": "ourAjaï", "example_fr": "В этом году хороший урожай.", "example_ru": "Cette année, la récolte est bonne.", "level": "A2" },
+        { "fr": "пшеница", "gender": "f", "ru": "le blé", "ru_pron": "pchénitsa", "example_fr": "Россия — главный экспортёр пшеницы.", "example_ru": "La Russie est le principal exportateur de blé.", "level": "A2" },
+        { "fr": "картофель", "gender": "m", "ru": "la pomme de terre", "ru_pron": "kartófel'", "example_fr": "Картофель — основа русской кухни.", "example_ru": "La pomme de terre est la base de la cuisine russe.", "level": "A2" },
+        { "fr": "изба", "gender": "f", "ru": "la maison paysanne en rondins", "ru_pron": "izbá", "example_fr": "Старая изба в лесу.", "example_ru": "Une vieille isba dans la forêt.", "level": "A2" },
+        { "fr": "огород", "gender": "m", "ru": "le potager", "ru_pron": "agaród", "example_fr": "На даче у нас большой огород.", "example_ru": "À la datcha, nous avons un grand potager.", "level": "A2" },
+        { "fr": "колхоз", "gender": "m", "ru": "le kolkhoze (ferme collective)", "ru_pron": "kalhós", "example_fr": "Колхозы были ликвидированы в 1990-х.", "example_ru": "Les kolkhozes ont été liquidés dans les années 1990.", "level": "A2" },
+        { "fr": "гречка", "gender": "f", "ru": "le sarrasin / la bouillie de sarrasin", "ru_pron": "gryétchka", "example_fr": "Гречка — любимая каша россиян.", "example_ru": "Le sarrasin est la bouillie préférée des Russes.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "ферма", "fr_pron": "fyérma", "ru": "ferme", "ru_pron": "ferme", "note": "«Ферма» vient du français ou de l'anglais «farm» (du latin «firma» = contrat fixe). Utilisé en Russie pour les exploitations agricoles modernes et privées — par opposition aux kolkhozes soviétiques collectifs." },
+        { "fr": "агрономия", "fr_pron": "agranimia", "ru": "agronomie", "ru_pron": "agronomie", "note": "«Агрономия» est identique au français «agronomie», du grec «agros» (champ) + «nomos» (loi). La Russie possède plusieurs Académies d'Agronomie de renommée internationale, héritières des Instituts Timiriazev soviétiques." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Léon Tolstoï (1828–1910)", "subtitle": "L'aristocrate qui aimait labourer ses champs", "content": "Léon Tolstoï vécut la majeure partie de sa vie à Iasnaïa Poliana (Ясная Поляна), son domaine agricole dans la région de Toula. À la fin de sa vie, il rejeta ses titres nobiliaires pour vivre comme un paysan : il labourait ses champs, cordonnait ses propres chaussures et prêchait un retour à la nature. Sa philosophie «tolstoïenne» valorisait la vie simple à la campagne. Iasnaïa Poliana est aujourd'hui un musée national où les visiteurs peuvent voir les champs et forêts qui inspirèrent «Guerre et Paix» et «Anna Karénine»." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La collectivisation soviétique — une tragédie agricole", "content": "En 1929-1933, Staline ordonna la collectivisation forcée de l'agriculture russe : les fermes privées furent transformées en kolkhozes (колхозы — fermes collectives). Des millions de paysans résistèrent, les koulaks (koulaki — paysans aisés) furent déportés ou tués. La famine qui s'ensuivit (особенно en Ukraine, Holodomor) fit plusieurs millions de victimes. Ce trauma historique reste vivace dans la mémoire russe et ukrainienne. Après 1991, les kolkhozes furent progressivement dissous." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La datcha — le jardin de l'âme russe", "content": "La datcha (дача) est bien plus qu'une maison de campagne — c'est une institution sociale russe. 60% des Moscovites possèdent ou fréquentent une datcha. Là, on cultive ses propres légumes et fruits, on fait des conserves pour l'hiver, on organise des barbecues (шашлык) et on reçoit la famille. La datcha réconcilie le citadin avec la terre et les saisons. Sous l'URSS, avoir une datcha était un privilège attribué par l'État. Aujourd'hui c'est accessible à tous, du plus modeste cabanon au palais de banlieue." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Что посеешь, то и пожнёшь.", "pronunciation": "Chto pasiéïech', to i pajnyoch'", "translation": "On récolte ce qu'on a semé.", "usage": "Proverbe russe identique au proverbe français. Littéralement «ce que tu sèmes, c'est ce que tu moissonneras». Exprime la loi de cause et effet dans les relations humaines. D'origine agricole, universellement applicable.", "example": "— Mes élèves ne travaillent pas et ont de mauvaises notes... — Что посеешь, то и пожнёшь. (On récolte ce qu'on a semé.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Iasnaïa Poliana — Le domaine de Tolstoï", "subtitle": "Ясная Поляна — Усадьба Льва Толстого", "content": "Iasnaïa Poliana (région de Toula, à 200 km de Moscou) est le domaine ancestral de Léon Tolstoï, où il naquit, vécut, écrivit et est enterré. Le parc forestier de 400 hectares, les étangs, les champs et la maison blanche aux volets verts sont conservés exactement comme du vivant de l'auteur. Des guides proposent des randonnées dans les forêts et les champs qui inspirèrent «Guerre et Paix». Une visite essentielle pour comprendre l'âme russe dans sa relation à la terre." }
+      },
+      "quiz": [
+        { "q": "Que signifie «дача» ?", "opts": ["Un village de campagne", "La maison de campagne avec jardin", "Une ferme collective", "Un chalet de montagne"], "ans": 1, "exp": "«Дача» = la maison de campagne avec jardin, souvent utilisée les week-ends et en été. C'est une institution sociale russe : 60% des Moscovites y ont accès. Le mot vient du verbe «дать» (donner) — les datchas étaient autrefois données par le tsar." },
+        { "q": "La Russie est le premier exportateur mondial de :", "opts": ["Riz", "Maïs", "Blé", "Soja"], "ans": 2, "exp": "La Russie est le premier exportateur mondial de blé (пшеница). Ses immenses plaines de chernozem (terre noire) la rendent idéale pour les céréales. Elle fournit une grande partie du blé de l'Afrique du Nord et du Moyen-Orient." },
+        { "q": "«Деревня» peut signifier :", "opts": ["Uniquement un village", "Uniquement la campagne", "Un village ET la campagne en général", "Une forêt"], "ans": 2, "exp": "«Деревня» signifie à la fois le village (lieu habité avec maisons) ET la campagne (zone rurale opposée à la ville). Contexte essentiel pour ne pas se tromper !" },
+        { "q": "Tolstoï est associé au domaine de :", "opts": ["Mikhailskoïe", "Iasnaïa Poliana", "Abramtsevo", "Tarkhany"], "ans": 1, "exp": "Léon Tolstoï naquit, vécut et mourut à Iasnaïa Poliana (Ясная Поляна) près de Toula. Il y est enterré sous un simple tertre dans la forêt. C'est l'un des sites littéraires les plus visités de Russie." },
+        { "q": "«Гречка» est :", "opts": ["Le seigle", "Le sarrasin", "L'orge", "Le millet"], "ans": 1, "exp": "«Гречка» = le sarrasin et la bouillie de sarrasin (каша). C'est l'aliment de base de la cuisine russe, riche en protéines et minéraux. Lors des crises, les Russes achètent du sarrasin en masse — c'est devenu le symbole du «stockage d'urgence» russe !" }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Phénomènes Naturels Extraordinaires",
+      "titleRu": "Удивительные природные явления",
+      "level": "A2",
+      "grammar": {
+        "title": "Décrire les phénomènes naturels en russe",
+        "titleRu": "Природные явления",
+        "intro": "La Russie est la terre des phénomènes naturels extrêmes : des aurores boréales (северное сияние) en Sibérie aux séismes du Kamtchatka, du permafrost (вечная мерзлота) aux geysers bouillonnants. Pour décrire ces phénomènes, on utilise des verbes impersonnels et des constructions passives. «Происходить» (se produire / avoir lieu) est le verbe clé pour les événements naturels.",
+        "sections": [
+          {
+            "title": "Les phénomènes extraordinaires",
+            "content": "северное сияние (n) — l'aurore boréale\nземлетрясение (n) — le séisme / le tremblement de terre\nизвержение вулкана (n) — l'éruption volcanique\nнаводнение (n) — l'inondation\nсход лавины (m) — l'avalanche\nтайфун (m) — le typhon\nторнадо (n) — la tornade\nсуховей (m) — le vent chaud de steppe (sirocco)\nвечная мерзлота (f) — le permafrost / le pergélisol\nсолнечное затмение (n) — l'éclipse solaire"
+          },
+          {
+            "title": "Décrire un phénomène naturel",
+            "content": "происходить / случаться — se produire / avoir lieu\nпроизойти землетрясение — un séisme s'est produit\nвзорваться / извергаться — exploser / faire éruption\nразлиться — déborder / inonder\nсойти — descendre / dévaler (d'une avalanche)\nосвещать небо — illuminer le ciel\nтаять — fondre\nзамёрзнуть — geler\nсотрясать — secouer\nразрушать — détruire"
+          },
+          {
+            "title": "Exprimer l'intensité d'un phénomène",
+            "content": "сильный — fort / intense\nслабый — faible\nмощный — puissant\nопасный — dangereux\nредкий — rare\nнеобычный — inhabituel / exceptionnel\nпоразительный — stupéfiant\nграндиозный — grandiose / monumental\nпугающий — effrayant\nзавораживающий — fascinant"
+          }
+        ],
+        "rule": "💡 «Происходить» (imperfectif) / «произойти» (perfectif) = se produire / avoir lieu. «Произошло землетрясение» = un séisme a eu lieu. «Что произошло ?» = Que s'est-il passé ? C'est le verbe-clé pour parler d'événements. Son antonyme «не происходить» (ne pas se produire) est aussi très utile."
+      },
+      "pronunciation": {
+        "intro": "Des mots qui décrivent des forces de la nature — leur sonorité reflète souvent la puissance de ce qu'ils désignent !",
+        "note": "⚠️ «Северное сияние» [syévirnoïe siiánié] — «сияние» vient de «сиять» (briller). «Землетрясение» [zimlitriasénie] — 6 syllabes, accent sur «-се».",
+        "words": [
+          { "fr": "северное сияние", "ru_pron": "syévirnoïe siiánié", "meaning": "l'aurore boréale" },
+          { "fr": "землетрясение", "ru_pron": "zimlitriasénie", "meaning": "le tremblement de terre" },
+          { "fr": "наводнение", "ru_pron": "navadnénié", "meaning": "l'inondation" },
+          { "fr": "лавина", "ru_pron": "lavína", "meaning": "l'avalanche" },
+          { "fr": "вечная мерзлота", "ru_pron": "vyétchnaïa mirzlotá", "meaning": "le permafrost / pergélisol" },
+          { "fr": "извержение", "ru_pron": "izvyérjenié", "meaning": "l'éruption (volcanique)" },
+          { "fr": "затмение", "ru_pron": "zatménié", "meaning": "l'éclipse" },
+          { "fr": "молния", "ru_pron": "mólniia", "meaning": "l'éclair / la foudre" },
+          { "fr": "ураган", "ru_pron": "ouragán", "meaning": "l'ouragan" },
+          { "fr": "засуха", "ru_pron": "zásoukha", "meaning": "la sécheresse" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "северное сияние", "gender": "n", "ru": "l'aurore boréale", "ru_pron": "syévirnoïe siiánié", "example_fr": "Северное сияние видно в Мурманске.", "example_ru": "On voit l'aurore boréale à Mourmansk.", "level": "A2" },
+        { "fr": "землетрясение", "gender": "n", "ru": "le tremblement de terre", "ru_pron": "zimlitriasénie", "example_fr": "На Камчатке часто бывают землетрясения.", "example_ru": "Il y a souvent des tremblements de terre au Kamtchatka.", "level": "A2" },
+        { "fr": "наводнение", "gender": "n", "ru": "l'inondation", "ru_pron": "navadnénié", "example_fr": "Весеннее наводнение затопило посёлок.", "example_ru": "L'inondation de printemps a noyé le village.", "level": "A2" },
+        { "fr": "вечная мерзлота", "gender": "f", "ru": "le permafrost", "ru_pron": "vyétchnaïa mirzlotá", "example_fr": "Вечная мерзлота занимает 65% территории России.", "example_ru": "Le permafrost couvre 65% du territoire russe.", "level": "A2" },
+        { "fr": "молния", "gender": "f", "ru": "l'éclair / la foudre", "ru_pron": "mólniia", "example_fr": "Молния ударила в дерево.", "example_ru": "La foudre a frappé l'arbre.", "level": "A2" },
+        { "fr": "засуха", "gender": "f", "ru": "la sécheresse", "ru_pron": "zásoukha", "example_fr": "Длительная засуха уничтожила урожай.", "example_ru": "La longue sécheresse a détruit la récolte.", "level": "A2" },
+        { "fr": "лавина", "gender": "f", "ru": "l'avalanche", "ru_pron": "lavína", "example_fr": "Лавина сошла с горы.", "example_ru": "L'avalanche a dévalé la montagne.", "level": "A2" },
+        { "fr": "ураган", "gender": "m", "ru": "l'ouragan", "ru_pron": "ouragán", "example_fr": "Ураган разрушил несколько домов.", "example_ru": "L'ouragan a détruit plusieurs maisons.", "level": "A2" },
+        { "fr": "цунами", "gender": "n indécl.", "ru": "le tsunami", "ru_pron": "tsounámi", "example_fr": "Цунами ударило по берегам Курил.", "example_ru": "Le tsunami a frappé les côtes des Kouriles.", "level": "A2" },
+        { "fr": "затмение", "gender": "n", "ru": "l'éclipse", "ru_pron": "zatménié", "example_fr": "Солнечное затмение — редкое явление.", "example_ru": "Une éclipse solaire est un phénomène rare.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "ураган", "fr_pron": "ouragán", "ru": "ouragan", "ru_pron": "ouragan", "note": "«Ураган» vient du caribéen «hurakán» via l'espagnol ou l'anglais «hurricane». Un des rares emprunts aux langues amérindiennes dans le vocabulaire russe ! La Russie connaît des ouragans sur les côtes du Pacifique." },
+        { "fr": "цунами", "fr_pron": "tsounámi", "ru": "tsunami", "ru_pron": "tsunami", "note": "«Цунами» est emprunté du japonais «津波» (tsounami = vague du port). La Russie est très exposée aux tsunamis sur ses côtes du Pacifique (Kamtchatka, îles Kouriles, Sakhaline)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhaïl Lomonossov (1711–1765)", "subtitle": "Le premier grand savant russe — explorateur de la nature", "content": "Mikhaïl Lomonossov est le plus grand scientifique et encyclopédiste russe du XVIIIe siècle. Fils de pêcheur de la mer Blanche, il marcha 1 000 km jusqu'à Moscou pour étudier. Il découvrit l'atmosphère de Vénus, formula la loi de conservation de la matière (avant Lavoisier !), développa la grammaire de la langue russe, contribua à la physique, la chimie, la géologie et la poésie. L'Université d'État de Moscou (МГУ) porte son nom. Il incarne la curiosité universelle de la nature." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La Tunguska — la plus grande explosion naturelle de l'histoire", "content": "Le 30 juin 1908, une explosion colossale retentit au-dessus de la région de Tunguska (Тунгуска) en Sibérie centrale : une météorite ou comète explosa à 10 km d'altitude, libérant une énergie 1 000 fois supérieure à la bombe d'Hiroshima. Elle abattit 2 000 km² de forêt. La zone était si reculée que les scientifiques n'y arrivèrent qu'en 1927. À ce jour, aucun cratère ni fragment solide n'a été trouvé. L'«événement de Tunguska» reste l'une des plus grandes énigmes scientifiques de l'histoire." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le permafrost — le sol gelé de Sibérie", "content": "La вечная мерзлота (permafrost) couvre 65% du territoire russe. Ce sol gelé en permanence (jusqu'à 1 500 m de profondeur en Yakoutie) pose des défis immenses pour la construction, les routes et les pipelines. Les maisons sont construites sur pilotis pour ne pas faire fondre le permafrost. Paradoxalement, le permafrost conserve des trésors : des mammouths laineux (мамонты) parfaitement conservés y sont régulièrement découverts, avec fourrure, peau et organes intacts — des capsules temporelles vivantes de l'ère glaciaire." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "После грозы всегда светает.", "pronunciation": "Póslie grazy vsigdá svitiáïet", "translation": "Après l'orage, le jour se lève toujours.", "usage": "Proverbe de résilience : après les épreuves difficiles, les choses s'améliorent. Équivalent de «après la pluie, le beau temps». Très utilisé en Russie, pays qui connaît les extrêmes — et la capacité à les surmonter.", "example": "— Cette période est très difficile... — После грозы всегда светает. (Après l'orage, le jour se lève toujours.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Mourmansk — Capitale mondiale des aurores boréales", "subtitle": "Мурманск — Город полярных сияний", "content": "Mourmansk (Мурманск), à 300 km au nord du cercle arctique, est la plus grande ville du monde au-delà du cercle polaire. D'octobre à mars, les aurores boréales (северное сияние) illuminent le ciel plusieurs nuits par semaine. En hiver, la nuit polaire dure 40 jours (pas de soleil du tout). En été, le soleil de minuit brille 60 jours sans se coucher. La ville est aussi la base des brise-glaces nucléaires russes. Un voyage aux confins du monde habité." }
+      },
+      "quiz": [
+        { "q": "L'«événement de Tunguska» de 1908 fut :", "opts": ["Un séisme de magnitude 9", "Une explosion atmosphérique d'une météorite/comète en Sibérie", "Une éruption volcanique au Kamtchatka", "Une inondation catastrophique sur la Léna"], "ans": 1, "exp": "L'événement de Tunguska (30 juin 1908) fut l'explosion d'une météorite ou comète à 10 km d'altitude au-dessus de la Sibérie. Énergie équivalente à 1 000 fois la bombe d'Hiroshima. Aucun cratère trouvé à ce jour." },
+        { "q": "«Вечная мерзлота» couvre quel pourcentage du territoire russe ?", "opts": ["25%", "40%", "65%", "80%"], "ans": 2, "exp": "La «вечная мерзлота» (permafrost) couvre environ 65% du territoire russe. En Yakoutie, ce sol gelé peut atteindre 1 500 m de profondeur. Des mammouths parfaitement conservés y sont régulièrement découverts." },
+        { "q": "«Северное сияние» signifie :", "opts": ["La nuit polaire", "L'aurore boréale", "Le soleil de minuit", "L'étoile polaire"], "ans": 1, "exp": "«Северное сияние» = l'aurore boréale. «Северный» = du nord / boréal, «сияние» = rayonnement / éclat. Visible en Russie au-delà du 65e parallèle (Mourmansk, Norilsk, Yakoutsk)." },
+        { "q": "Les mammouths laineux sont souvent découverts :", "opts": ["Dans les fonds marins de l'Arctique", "Dans les glaciers de l'Altaï", "Dans le permafrost sibérien", "Dans les grottes du Caucase"], "ans": 2, "exp": "Le permafrost sibérien (вечная мерзлота) conserve parfaitement les organismes depuis des millénaires. Des mammouths laineux avec peau, fourrure et organes intacts y sont régulièrement découverts en Yakoutie et en Sibérie." },
+        { "q": "Que signifie «После грозы всегда светает» ?", "opts": ["L'orage prédit le beau temps", "Après l'orage, le jour se lève toujours", "La nuit est plus sombre avant l'aube", "Le tonnerre annonce la pluie"], "ans": 1, "exp": "«После грозы всегда светает» = après l'orage, le jour se lève toujours. Proverbe de résilience, équivalent de «après la pluie, le beau temps». Exprime l'espoir que les difficultés finissent par passer." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "L'Écologie et l'Environnement",
+      "titleRu": "Экология и окружающая среда",
+      "level": "A2",
+      "grammar": {
+        "title": "Le vocabulaire écologique en russe",
+        "titleRu": "Экология",
+        "intro": "L'écologie (экология) est un sujet de plus en plus présent dans la société russe. La Russie fait face à des défis environnementaux importants : pollution industrielle, fonte du permafrost liée au changement climatique, incendies de forêt en Sibérie. Mais elle possède aussi d'immenses zones naturelles préservées (заповедники) et est signataire des accords de Paris. Pour parler d'environnement, on utilise le vocabulaire du problème et de la solution.",
+        "sections": [
+          {
+            "title": "Les problèmes environnementaux",
+            "content": "загрязнение (n) — la pollution\nзагрязнение воздуха — la pollution de l'air\nзагрязнение воды — la pollution de l'eau\nглобальное потепление (n) — le réchauffement climatique\nвырубка лесов (f) — la déforestation\nисчезновение видов (n) — la disparition des espèces\nпожар (m) — l'incendie\nотходы (pl) — les déchets\nпластик (m) — le plastique\nвредные выбросы (pl) — les émissions nocives"
+          },
+          {
+            "title": "Les solutions et actions positives",
+            "content": "охрана природы — la protection de la nature\nпереработка отходов — le recyclage\nвозобновляемая энергия — les énergies renouvelables\nсолнечная энергия — l'énergie solaire\nветровая энергия — l'énergie éolienne\nэлектромобиль (m) — la voiture électrique\nорганическое земледелие — l'agriculture biologique\nзаповедник (m) — la réserve naturelle\nпосадка деревьев — la plantation d'arbres\nустойчивое развитие — le développement durable"
+          },
+          {
+            "title": "Phrases pour parler d'environnement",
+            "content": "Нужно беречь природу. — Il faut protéger la nature.\nЯ сортирую мусор. — Je trie mes déchets.\nКлимат меняется. — Le climat change.\nЛеса горят. — Les forêts brûlent.\nВода загрязнена. — L'eau est polluée.\nВидам угрожает исчезновение. — Des espèces sont menacées d'extinction.\nМы должны действовать. — Nous devons agir."
+          }
+        ],
+        "rule": "💡 «Беречь» (protéger / ménager / prendre soin de) est le verbe clé de l'écologie en russe : «беречь природу» (protéger la nature), «беречь воду» (économiser l'eau), «беречь здоровье» (prendre soin de sa santé). Conjugaison : я берегу, ты бережёшь, он бережёт — irrégulier à mémoriser !"
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire écologique est souvent international — beaucoup de mots vous seront familiers !",
+        "note": "⚠️ «Загрязнение» [zagriaznyénié] — accent sur «-не». «Переработка» [pirirabótka] — accent sur «-бот». «Возобновляемая» [vazabnavliaïemaia] — 7 syllabes, patience !",
+        "words": [
+          { "fr": "экология", "ru_pron": "ekálagia", "meaning": "l'écologie" },
+          { "fr": "загрязнение", "ru_pron": "zagriaznyénié", "meaning": "la pollution" },
+          { "fr": "природа", "ru_pron": "prirôda", "meaning": "la nature" },
+          { "fr": "переработка", "ru_pron": "pirirabótka", "meaning": "le recyclage" },
+          { "fr": "вырубка", "ru_pron": "výrybka", "meaning": "l'abattage / la déforestation" },
+          { "fr": "заповедник", "ru_pron": "zapavyédnik", "meaning": "la réserve naturelle" },
+          { "fr": "климат", "ru_pron": "klímat", "meaning": "le climat" },
+          { "fr": "мусор", "ru_pron": "moúsar", "meaning": "les déchets / les ordures" },
+          { "fr": "беречь", "ru_pron": "biryétch'", "meaning": "protéger / ménager" },
+          { "fr": "потепление", "ru_pron": "patiplénie", "meaning": "le réchauffement" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "природа", "gender": "f", "ru": "la nature", "ru_pron": "prirôda", "example_fr": "Нужно беречь природу.", "example_ru": "Il faut protéger la nature.", "level": "A2" },
+        { "fr": "загрязнение", "gender": "n", "ru": "la pollution / la contamination", "ru_pron": "zagriaznyénié", "example_fr": "Загрязнение воздуха опасно.", "example_ru": "La pollution de l'air est dangereuse.", "level": "A2" },
+        { "fr": "заповедник", "gender": "m", "ru": "la réserve naturelle", "ru_pron": "zapavyédnik", "example_fr": "В России более 100 заповедников.", "example_ru": "La Russie a plus de 100 réserves naturelles.", "level": "A2" },
+        { "fr": "мусор", "gender": "m", "ru": "les déchets / les ordures", "ru_pron": "moúsar", "example_fr": "Нельзя бросать мусор в лесу.", "example_ru": "Il ne faut pas jeter de déchets dans la forêt.", "level": "A2" },
+        { "fr": "переработка", "gender": "f", "ru": "le recyclage", "ru_pron": "pirirabótka", "example_fr": "Переработка пластика важна.", "example_ru": "Le recyclage du plastique est important.", "level": "A2" },
+        { "fr": "глобальное потепление", "gender": "n", "ru": "le réchauffement climatique", "ru_pron": "globalnoïe patiplénié", "example_fr": "Глобальное потепление тает мерзлоту.", "example_ru": "Le réchauffement climatique fait fondre le permafrost.", "level": "A2" },
+        { "fr": "вырубка лесов", "gender": "f", "ru": "la déforestation", "ru_pron": "výrybka lisóv", "example_fr": "Вырубка лесов в Сибири угрожает климату.", "example_ru": "La déforestation en Sibérie menace le climat.", "level": "A2" },
+        { "fr": "исчезновение", "gender": "n", "ru": "la disparition / l'extinction", "ru_pron": "ichtchiznavénié", "example_fr": "Амурский тигр под угрозой исчезновения.", "example_ru": "Le tigre de l'Amour est menacé d'extinction.", "level": "A2" },
+        { "fr": "устойчивое развитие", "gender": "n", "ru": "le développement durable", "ru_pron": "oustóïtchivoe razvítie", "example_fr": "Устойчивое развитие — приоритет XXI века.", "example_ru": "Le développement durable est la priorité du XXIe siècle.", "level": "A2" },
+        { "fr": "чистый воздух", "gender": "m", "ru": "l'air pur", "ru_pron": "tchísty vózdoukh", "example_fr": "Сибирь — место чистого воздуха.", "example_ru": "La Sibérie est un endroit d'air pur.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "экология", "fr_pron": "ekálagia", "ru": "écologie", "ru_pron": "écologie", "note": "«Экология» vient du grec «oikos» (maison) + «logos» (science). Identique au français «écologie». Le terme fut inventé par le biologiste allemand Ernst Haeckel en 1866." },
+        { "fr": "биоразнообразие", "fr_pron": "bioraznaabrazié", "ru": "biodiversité", "ru_pron": "biodiversité", "note": "«Биоразнообразие» = biodiversité. «Био» (vie) + «разнообразие» (diversité). La Russie est l'un des pays les plus riches en biodiversité : 11% des espèces animales mondiales." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Vladimir Vernadski (1863–1945)", "subtitle": "Père de la biogéosphère et précurseur de l'écologie", "content": "Vladimir Vernadski est le géochimiste et naturaliste russe qui développa le concept de «noosphère» — la sphère de la pensée humaine transformant la Terre. Il fut l'un des premiers à comprendre que l'humanité était devenue une force géologique capable de modifier la planète entière. Ses travaux anticipèrent de plusieurs décennies les préoccupations écologiques modernes. Son concept de «biosphère» comme système vivant unifié influença James Lovelock et sa théorie Gaïa. Un précurseur visionnaire." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La mer d'Aral — une catastrophe écologique soviétique", "content": "La mer d'Aral (Аральское море) était le quatrième plus grand lac du monde dans les années 1950. Pour irriguer les cotons soviétiques d'Asie centrale, ses deux fleuves nourriciers (Syr-Daria et Amou-Daria) furent presque entièrement détournés. En 60 ans, la mer a perdu 90% de son volume. Des bateaux rouillés reposent dans un désert de sel là où l'eau était profonde de 60 m. Cette catastrophe est souvent citée comme l'un des pires désastres environnementaux de l'histoire humaine." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les заповедники — réserves naturelles intégrales", "content": "La Russie possède plus de 100 заповедники (réserves naturelles intégrales) où toute activité humaine est interdite — pas de tourisme, pas de chasse, pas d'exploitation. Le premier fut créé en 1916. Cette conception de la nature protégée «intouchable» est plus stricte que les parcs nationaux occidentaux. Les scientifiques y travaillent mais les touristes n'y entrent pas. Résultat : des populations d'ours, de tigres et de loutres de mer y prospèrent loin de toute perturbation humaine." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Природа не терпит пустоты.", "pronunciation": "Prirôda nie tyérpit poústaty", "translation": "La nature a horreur du vide.", "usage": "Adaptation russe du principe d'Aristote («horror vacui»). Utilisée en écologie, en philosophie et même en sciences sociales. En écologie : quand une espèce disparaît, une autre occupe sa niche. En langage courant : les situations vides ne durent pas.", "example": "— On a détruit cette forêt... les animaux vont venir quand même ? — Природа не терпит пустоты. (La nature a horreur du vide.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Baïkal — Symbole de la nature préservée", "subtitle": "Байкал — Сокровище планеты", "content": "Le lac Baïkal est aussi le symbole des combats écologiques russes. En 1966, l'ouverture d'une usine de cellulose sur ses rives provoqua la première grande mobilisation écologiste soviétique. Les scientifiques et écrivains russes se battirent pour sa protection, obtenant finalement l'arrêt des rejets polluants. En 1996, classé au patrimoine mondial. Aujourd'hui encore, la lutte pour protéger le Baïkal des projets industriels est un symbole fort du mouvement écologiste russe." }
+      },
+      "quiz": [
+        { "q": "La mer d'Aral est un exemple de :", "opts": ["Succès de la protection écologique", "Catastrophe écologique liée à l'irrigation soviétique", "Réchauffement climatique naturel", "Pollution industrielle d'un lac"], "ans": 1, "exp": "La mer d'Aral a perdu 90% de son volume en 60 ans suite au détournement de ses fleuves pour irriguer les champs de coton soviétiques. Un des pires désastres environnementaux de l'histoire humaine." },
+        { "q": "Un «заповедник» est :", "opts": ["Un parc national ouvert aux touristes", "Une zone industrielle protégée", "Une réserve naturelle intégrale où toute activité humaine est interdite", "Un jardin botanique"], "ans": 2, "exp": "Un «заповедник» est une réserve naturelle intégrale russe — plus stricte qu'un parc national : ni tourisme, ni chasse, ni exploitation. La Russie en compte plus de 100 depuis 1916." },
+        { "q": "«Беречь природу» signifie :", "opts": ["Observer la nature", "Étudier la nature", "Protéger / ménager la nature", "Photographier la nature"], "ans": 2, "exp": "«Беречь природу» = protéger / ménager la nature. «Беречь» = protéger, ménager, prendre soin de. Un verbe irrégulier (я берегу, ты бережёшь) mais indispensable en contexte écologique." },
+        { "q": "Vladimir Vernadski est connu pour :", "opts": ["Avoir découvert le permafrost", "Avoir développé le concept de noosphère et de biosphère", "Avoir créé le premier заповедник", "Avoir dénoncé la pollution de la mer d'Aral"], "ans": 1, "exp": "Vernadski développa les concepts de biosphère (système vivant unifié) et de noosphère (transformation de la Terre par la pensée humaine). Précurseur visionnaire de l'écologie moderne, il anticipa les théories de Lovelock." },
+        { "q": "Comment dit-on «le recyclage» en russe ?", "opts": ["переработка", "загрязнение", "вырубка", "охрана"], "ans": 0, "exp": "«Переработка» = le recyclage. Littéralement «re-traitement». «Переработка отходов» = recyclage des déchets. «Охрана» = la protection/garde, «загрязнение» = la pollution, «вырубка» = l'abattage/déforestation." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Les Espaces Naturels Russes Emblématiques",
+      "titleRu": "Легендарные природные места России",
+      "level": "A2",
+      "grammar": {
+        "title": "Décrire et situer les lieux naturels remarquables",
+        "titleRu": "Природные достопримечательности",
+        "intro": "La Russie compte parmi ses trésors naturels des sites d'une beauté et d'une rareté uniques au monde. Pour parler de ces lieux, on utilise abondamment le superlatif (самый + adjectif), les locutions de lieu et le verbe «находиться» (se trouver). On utilisera aussi «знаменитый» (célèbre), «уникальный» (unique) et «необычный» (extraordinaire) pour caractériser ces espaces.",
+        "sections": [
+          {
+            "title": "Les sites naturels patrimoniaux de Russie",
+            "content": "Байкал — Le lac le plus profond et le plus ancien du monde\nКамчатка — Péninsule de volcans, geysers et ours\nАлтай — Montagnes sacrées à la confluence de 4 pays\nВалаам — Archipel monastique sur le lac Ladoga\nКурильские острова — Volcans actifs du Pacifique\nЗемля Франца-Иосифа — Archipel arctique\nЛенские столбы — Colonnes de roche sur la Léna\nВосточные Саяны — Montagnes de Sibérie méridionale\nЭльбрус — Toit de l'Europe"
+          },
+          {
+            "title": "Exprimer le superlatif",
+            "content": "самый + adjectif + из всех = le plus... de tous\nсамый глубокий — le plus profond\nсамый большой — le plus grand\nсамый древний — le plus ancien\nсамый высокий — le plus haut\nсамый красивый — le plus beau\nсамый холодный — le plus froid\nсамый уникальный — le plus unique\n\nEx: «Байкал — самое глубокое озеро в мире.»"
+          },
+          {
+            "title": "Vocabulaire pour décrire un site naturel",
+            "content": "расположен (m) / расположена (f) — situé(e)\nнаходится — se trouve\nтянется на ... км — s'étend sur ... km\nвозвышается на ... метров — s'élève à ... mètres\nвходит в список ЮНЕСКО — est inscrit au patrimoine UNESCO\nявляется заповедником — est une réserve naturelle\nпривлекает туристов — attire les touristes\nпоражает воображение — frappe l'imagination\nвпечатляет масштабом — impressionne par ses dimensions"
+          }
+        ],
+        "rule": "💡 Le superlatif en russe : «самый» + adjectif au même genre/cas. «Самое глубокое озеро» (le lac le plus profond — neutre), «самая большая страна» (le plus grand pays — féminin), «самый высокий пик» (le plus haut sommet — masculin). «Самый» s'accorde comme un adjectif !"
+      },
+      "pronunciation": {
+        "intro": "Les noms des sites naturels russes sont souvent d'origine sibérienne, toungouse ou yakout — exotiques mais mémorables !",
+        "note": "⚠️ «Камчатка» [kamtchátka] — accent sur «-чат». «Алтай» [altaï] — les deux syllabes sont nettes. «Ленские столбы» [lyénskié stólby] — «столбы» = les colonnes.",
+        "words": [
+          { "fr": "уникальный", "ru_pron": "ounikalny", "meaning": "unique" },
+          { "fr": "самый", "ru_pron": "sámy", "meaning": "le plus (superlatif)" },
+          { "fr": "расположен", "ru_pron": "raspalójen", "meaning": "situé (masc.)" },
+          { "fr": "древний", "ru_pron": "dryévny", "meaning": "ancien / antique" },
+          { "fr": "нетронутый", "ru_pron": "niyetrónuty", "meaning": "intact / vierge" },
+          { "fr": "дикий", "ru_pron": "díky", "meaning": "sauvage" },
+          { "fr": "величественный", "ru_pron": "vilítchestvienny", "meaning": "majestueux" },
+          { "fr": "бескрайний", "ru_pron": "biskráïny", "meaning": "sans fin / infini" },
+          { "fr": "заповедный", "ru_pron": "zapavyédny", "meaning": "protégé / préservé" },
+          { "fr": "первозданный", "ru_pron": "pirvazданy", "meaning": "primordial / virginal" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "уникальный", "gender": "adj m", "ru": "unique", "ru_pron": "ounikalny", "example_fr": "Байкал — уникальное озеро.", "example_ru": "Le Baïkal est un lac unique.", "level": "A2" },
+        { "fr": "дикий", "gender": "adj m", "ru": "sauvage / indomptable", "ru_pron": "díky", "example_fr": "Дикая природа Сибири поражает.", "example_ru": "La nature sauvage de Sibérie impressionne.", "level": "A2" },
+        { "fr": "нетронутый", "gender": "adj m", "ru": "intact / préservé / vierge", "ru_pron": "niyetrónuty", "example_fr": "Нетронутые леса Сибири.", "example_ru": "Les forêts vierges de Sibérie.", "level": "A2" },
+        { "fr": "величественный", "gender": "adj m", "ru": "majestueux / grandiose", "ru_pron": "vilítchestvienny", "example_fr": "Величественные горы Кавказа.", "example_ru": "Les majestueuses montagnes du Caucase.", "level": "A2" },
+        { "fr": "достопримечательность", "gender": "f", "ru": "le site / l'attraction (touristique)", "ru_pron": "dastaprimitchátil'nast'", "example_fr": "Байкал — главная природная достопримечательность России.", "example_ru": "Le Baïkal est le principal site naturel de Russie.", "level": "A2" },
+        { "fr": "ЮНЕСКО", "gender": "indécl.", "ru": "l'UNESCO", "ru_pron": "younyéska", "example_fr": "Байкал входит в список ЮНЕСКО.", "example_ru": "Le Baïkal est inscrit au patrimoine de l'UNESCO.", "level": "A2" },
+        { "fr": "первозданный", "gender": "adj m", "ru": "primordial / virginal / intact depuis l'origine", "ru_pron": "pirvazданy", "example_fr": "Первозданная природа Камчатки.", "example_ru": "La nature primordiale du Kamtchatka.", "level": "A2" },
+        { "fr": "колонна", "gender": "f", "ru": "la colonne", "ru_pron": "kalónna", "example_fr": "Ленские столбы — скалистые колонны.", "example_ru": "Les Colonnes de la Léna — des colonnes rocheuses.", "level": "A2" },
+        { "fr": "горный хребет", "gender": "m", "ru": "la chaîne de montagnes", "ru_pron": "górny khribyet", "example_fr": "Алтайский горный хребет.", "example_ru": "La chaîne montagneuse de l'Altaï.", "level": "A2" },
+        { "fr": "пейзаж", "gender": "m", "ru": "le paysage", "ru_pron": "piïzáj", "example_fr": "Этот пейзаж незабываем.", "example_ru": "Ce paysage est inoubliable.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "ЮНЕСКО", "fr_pron": "younyéska", "ru": "UNESCO", "ru_pron": "UNESCO", "note": "«ЮНЕСКО» est la translittération cyrillique de l'acronyme anglais UNESCO. La Russie compte 11 sites naturels inscrits au patrimoine mondial de l'UNESCO, dont le lac Baïkal, le Kamtchatka et l'Altaï." },
+        { "fr": "пейзаж", "fr_pron": "piïzáj", "ru": "paysage", "ru_pron": "paysage", "note": "«Пейзаж» est emprunté directement du français «paysage» ! Un des nombreux mots français adoptés par le russe à partir du XVIIIe siècle, notamment dans le vocabulaire des beaux-arts et de la nature." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Valentin Raspoutine (1937–2015)", "subtitle": "L'écrivain du Baïkal et de la Sibérie", "content": "Valentin Raspoutine est l'un des plus grands écrivains russes du XXe siècle et le défenseur le plus ardent du lac Baïkal. Né en Sibérie sur les rives de l'Angara, il consacra toute son œuvre à la nature sibérienne et aux communautés rurales menacées de disparition. Son roman «Adieu à Matiora» (1976) décrit la noyade d'un village sous les eaux d'un barrage soviétique — une métaphore de la destruction de la nature par l'industrie. Il fut un militant écologiste actif jusqu'à sa mort." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les Colonnes de la Léna — 550 millions d'années de géologie", "content": "Les Colonnes de la Léna (Ленские столбы) sont des formations rocheuses de calcaire vieux de 550 millions d'années qui s'élèvent jusqu'à 100 m au-dessus du fleuve Léna en Yakoutie. Inscrites au patrimoine mondial de l'UNESCO en 2012, elles sont accessibles en bateau depuis Iakoutsk. Ces colonnes se sont formées par érosion de la roche calcaire par le gel et le dégel répétés sur des millions d'années. Des fossiles de la faune cambrienne y ont été découverts, retraçant l'histoire de la vie sur Terre." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "L'Altaï — le nombril du monde", "content": "Les montagnes de l'Altaï (Алтай) sont le lieu de rencontre de quatre pays (Russie, Kazakhstan, Chine, Mongolie) et de quatre grandes civilisations. Pour les peuples autochtones altaïens, c'est «le nombril du monde» (центр мира). La montagne sacrée Belukha (Белуха, 4 506 m) est vénérée dans le chamanisme local. Le philosophe et peintre Nicolas Roerich vécut plusieurs années en Altaï et le décrivit comme «le Shambhala de la Terre». Un endroit où spiritualité, nature et cultures se croisent de façon unique." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Лучше один раз увидеть, чем сто раз услышать.", "pronunciation": "Loutchie odín raz ouvídit', chem sto raz ouslychair'", "translation": "Mieux vaut voir une fois que d'entendre cent fois.", "usage": "L'équivalent russe de «une image vaut mille mots». Particulièrement approprié pour parler des paysages naturels russes qui dépassent toute description. Encourage le voyage et l'expérience directe.", "example": "— On m'a raconté que le Baïkal est incroyable... — Лучше один раз увидеть, чем сто раз услышать! (Mieux vaut voir une fois que d'entendre cent fois !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "L'Altaï — Le Tibet de la Russie", "subtitle": "Алтай — Горный рай России", "content": "L'Altaï russe (Республика Алтай) est une région de hautes montagnes, de lacs d'émeraude, de prairies alpines et de glaciers. La Route Tchouïski (Чуйский тракт), l'une des plus belles routes du monde, traverse des paysages qui passent de la taïga aux steppes arides en quelques kilomètres. Le lac Téletskoïé (Телецкое озеро), surnommé «le Petit Baïkal», est inscrit à l'UNESCO. Les chamanes altaïens maintiennent des traditions millénaires. Un paradis pour les randonneurs, photographes et amoureux des cultures autochtones." }
+      },
+      "quiz": [
+        { "q": "Comment forme-t-on le superlatif en russe ?", "opts": ["очень + adjectif", "самый + adjectif", "наиболее + adjectif", "более + adjectif"], "ans": 1, "exp": "«Самый» + adjectif = le superlatif en russe. «Самый высокий» = le plus haut, «самое глубокое» = le plus profond. «Самый» s'accorde en genre avec le nom : самый (m), самая (f), самое (n)." },
+        { "q": "Les Colonnes de la Léna sont situées :", "opts": ["Au bord du lac Baïkal en Sibérie", "Sur les rives du fleuve Léna en Yakoutie", "Dans les montagnes de l'Altaï", "Sur la côte du Kamtchatka"], "ans": 1, "exp": "Les Ленские столбы (Colonnes de la Léna) sont des formations rocheuses de calcaire vieilles de 550 millions d'années sur les rives du fleuve Léna en Yakoutie. Inscrites à l'UNESCO en 2012." },
+        { "q": "L'Altaï est décrit comme «le nombril du monde» car :", "opts": ["C'est le centre géographique de l'Eurasie", "C'est le point de rencontre de 4 pays et 4 civilisations", "C'est la montagne la plus haute de Russie", "C'est là qu'est née la culture russe"], "ans": 1, "exp": "L'Altaï est le point de rencontre de la Russie, du Kazakhstan, de la Chine et de la Mongolie — 4 pays et 4 grandes civilisations. Les peuples autochtones altaïens le considèrent comme le centre du monde." },
+        { "q": "«Пейзаж» en russe vient du :", "opts": ["Latin", "Allemand", "Français", "Anglais"], "ans": 2, "exp": "«Пейзаж» est emprunté directement au français «paysage» ! Comme «лосьон», «манекен», «балет» — le russe a adopté de nombreux mots français au XVIIIe-XIXe siècle dans les domaines artistiques." },
+        { "q": "Valentin Raspoutine est connu pour :", "opts": ["Ses recherches sur le permafrost", "Ses romans défendant la Sibérie et le Baïkal", "Ses explorations de l'Arctique", "Ses peintures de la nature russe"], "ans": 1, "exp": "Valentin Raspoutine (écrivain, 1937-2015) défendit toute sa vie la nature sibérienne et le lac Baïkal. Son roman «Adieu à Matiora» sur la noyade d'un village sibérien est un chef-d'œuvre de la littérature écologiste." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan : Nature & Environnement",
+      "titleRu": "Итог: Природа и среда",
+      "level": "A2",
+      "grammar": {
+        "title": "Révision complète — Module 7 : Nature & Environnement",
+        "titleRu": "Повторение модуля 7",
+        "intro": "Félicitations pour avoir complété le Module 7 ! Vous maîtrisez maintenant le vocabulaire de la nature russe, des saisons et des phénomènes naturels. Dans cette leçon de révision, nous allons consolider les structures clés et préparer le passage au Module 8 — Culture & Médias.",
+        "sections": [
+          {
+            "title": "✅ Ce que vous savez maintenant",
+            "content": "✅ Les saisons et la météo (зима, лето, мороз, метель...)\n✅ La forêt russe : taïga, bouleaux, champignons, baies\n✅ La faune (медведь, волк, лиса, соболь, нерпа...)\n✅ Les reliefs et paysages (гора, равнина, река, озеро...)\n✅ Les grands fleuves et lacs (Волга, Байкал, Леna...)\n✅ L'agriculture et la datcha (деревня, поле, урожай...)\n✅ Les phénomènes naturels extrêmes (вечная мерзлота, северное сияние...)\n✅ L'écologie (загрязнение, заповедник, беречь природу...)\n✅ Les sites naturels patrimoniaux (Камчатка, Алтай, Эльбрус...)\n✅ Le superlatif avec «самый»"
+          },
+          {
+            "title": "Structures grammaticales clés du module",
+            "content": "1. Météo impersonnelle : adverbe seul\n   «Холодно.» / «Жарко.» / «Снежно.»\n\n2. Saisons à l'instrumental (adverbes) :\n   Зимой / Летом / Весной / Осенью\n\n3. Superlatif : «Самый» + adjectif accordé\n   «Самое глубокое озеро» / «Самый высокий пик»\n\n4. Lieu avec «находиться» :\n   «Байкал находится в Сибири.»\n\n5. Prépositions de lieu :\n   В лесу / На горе / На Байкале / По реке"
+          },
+          {
+            "title": "Phrases essentielles de la nature russe",
+            "content": "Мороз и солнце — день чудесный! — Le gel et le soleil — une journée merveilleuse ! (Pouchkine)\nВолга впадает в Каспийское море. — La Volga se jette dans la mer Caspienne.\nНужно беречь природу. — Il faut protéger la nature.\nБайкал — самое глубокое озеро в мире. — Le Baïkal est le lac le plus profond du monde.\nЛес рубят — щепки летят. — Quand on abat un arbre, les copeaux volent.\nВ здоровом теле — здоровый дух. — Un esprit sain dans un corps sain.\nЧто посеешь, то и пожнёшь. — On récolte ce qu'on a semé.\nЛучше один раз увидеть. — Mieux vaut voir une fois."
+          },
+          {
+            "title": "Vers le Module 8 — Culture & Médias",
+            "content": "Le Module 8 vous plongera dans la culture russe moderne :\n🎭 Le théâtre et la littérature (театр, литература)\n🎬 Le cinéma soviétique et russe\n🎵 La musique — du barde à la pop\n📺 Les médias et l'information (СМИ)\n🎨 L'art et les musées (искусство, музей)\n📱 Internet et les réseaux sociaux russes\n📖 Les journaux et la presse\n\nПродолжайте ! (Continuez !)"
+          }
+        ],
+        "rule": "🏆 Bravo ! Vous avez une connaissance solide de la nature russe — la plus vaste du monde. La langue russe, forgée par ces paysages immenses, porte en elle la profondeur des forêts, la rigueur des hivers et la grandeur des fleuves. Le Module 8 vous ouvrira les portes de la culture et des arts russes. Продолжайте ! (Continuez !)"
+      },
+      "pronunciation": {
+        "intro": "Révision des phrases et mots les plus importants du Module 7. Prononcez-les en imaginant les paysages qu'ils évoquent !",
+        "note": "",
+        "words": [
+          { "fr": "Мороз и солнце — день чудесный!", "ru_pron": "Maróz i sólntse — dyen' tchoudiésny", "meaning": "Le gel et le soleil — une journée merveilleuse ! (Pouchkine)" },
+          { "fr": "Байкал — самое глубокое озеро в мире.", "ru_pron": "Baïkál — samoïe gloubokoïe ozero v mire", "meaning": "Le Baïkal est le lac le plus profond du monde." },
+          { "fr": "Волга впадает в Каспийское море.", "ru_pron": "Vólga vpadáïet v Kaspíïskoïe mórie", "meaning": "La Volga se jette dans la mer Caspienne." },
+          { "fr": "Нужно беречь природу.", "ru_pron": "Nójno biryétch' prirôdu", "meaning": "Il faut protéger la nature." },
+          { "fr": "В тайге живут медведи.", "ru_pron": "V taïgué jivout midvyédi", "meaning": "Des ours vivent dans la taïga." },
+          { "fr": "Северное сияние освещает небо.", "ru_pron": "Syévirnoïe siiánié asvietcháïet nyéba", "meaning": "L'aurore boréale illumine le ciel." },
+          { "fr": "Берёза — символ России.", "ru_pron": "Biryóza — símval Rassíi", "meaning": "Le bouleau est le symbole de la Russie." },
+          { "fr": "Что посеешь, то и пожнёшь.", "ru_pron": "Chto pasiéïech', to i pajnyoch'", "meaning": "On récolte ce qu'on a semé." },
+          { "fr": "Лучше один раз увидеть.", "ru_pron": "Loutchie odín raz ouvídit'", "meaning": "Mieux vaut voir une fois." },
+          { "fr": "Какая сегодня погода?", "ru_pron": "Kakáïa sivodnia pagóda", "meaning": "Quel temps fait-il aujourd'hui ?" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "природа", "gender": "f", "ru": "la nature", "ru_pron": "prirôda", "example_fr": "Русская природа прекрасна.", "example_ru": "La nature russe est magnifique.", "level": "A2" },
+        { "fr": "пейзаж", "gender": "m", "ru": "le paysage", "ru_pron": "piïzáj", "example_fr": "Незабываемый пейзаж.", "example_ru": "Un paysage inoubliable.", "level": "A2" },
+        { "fr": "дикая природа", "gender": "f", "ru": "la nature sauvage", "ru_pron": "díkaia prirôda", "example_fr": "Дикая природа России уникальна.", "example_ru": "La nature sauvage de Russie est unique.", "level": "A2" },
+        { "fr": "экосистема", "gender": "f", "ru": "l'écosystème", "ru_pron": "ekasistéma", "example_fr": "Байкальская экосистема уникальна.", "example_ru": "L'écosystème du Baïkal est unique.", "level": "A2" },
+        { "fr": "биоразнообразие", "gender": "n", "ru": "la biodiversité", "ru_pron": "bioraznaabrazié", "example_fr": "Биоразнообразие России — одно из самых богатых в мире.", "example_ru": "La biodiversité de Russie est l'une des plus riches du monde.", "level": "A2" },
+        { "fr": "заповедник", "gender": "m", "ru": "la réserve naturelle intégrale", "ru_pron": "zapavyédnik", "example_fr": "В России более 100 заповедников.", "example_ru": "La Russie compte plus de 100 réserves naturelles.", "level": "A2" },
+        { "fr": "климатические изменения", "gender": "pl", "ru": "les changements climatiques", "ru_pron": "klimatítcheskié izmyenéniya", "example_fr": "Климатические изменения влияют на тайгу.", "example_ru": "Les changements climatiques affectent la taïga.", "level": "A2" },
+        { "fr": "охрана природы", "gender": "f", "ru": "la protection de la nature", "ru_pron": "okhrana prirôdy", "example_fr": "Охрана природы — задача каждого.", "example_ru": "La protection de la nature est l'affaire de tous.", "level": "A2" },
+        { "fr": "наследие", "gender": "n", "ru": "le patrimoine / l'héritage", "ru_pron": "naslédié", "example_fr": "Байкал — природное наследие России.", "example_ru": "Le Baïkal est le patrimoine naturel de la Russie.", "level": "A2" },
+        { "fr": "первозданный", "gender": "adj m", "ru": "primordial / vierge / intact depuis l'origine", "ru_pron": "pirvazданy", "example_fr": "Первозданная тайга Сибири.", "example_ru": "La taïga vierge de Sibérie.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "экосистема", "fr_pron": "ekasistéma", "ru": "écosystème", "ru_pron": "écosystème", "note": "«Экосистема» est identique au français «écosystème», inventé par le botaniste britannique Arthur Tansley en 1935. Mot international de la biologie moderne." },
+        { "fr": "биоразнообразие", "fr_pron": "bioraznaabrazié", "ru": "biodiversité", "ru_pron": "biodiversité", "note": "«Биоразнообразие» = biodiversité. «Био» (grec bios = vie) + «разнообразие» (slave = diversité). Le terme international «biodiversity» a été traduit en russe en conservant la racine grecque «bio»." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Sergueï Essénine (1895–1925)", "subtitle": "Le poète de la Russie paysanne et de la nature", "content": "Sergueï Essénine (Сергей Есенин) est le poète le plus aimé de Russie dans les sondages populaires, devant même Pouchkine. Né dans un village de la région de Riazan, il chanta toute sa vie les bouleaux, les champs de seigle, les rivières et la Russie paysanne. Son poème «Je ne regrette pas, ne pleure pas, ne pleure pas...» est connu par cœur par des millions de Russes. Sa mort tragique à 30 ans n'a fait qu'auréoler sa légende. «Гой ты, Русь моя родная» (Ô ma Russie bien-aimée) est son chant d'amour à la nature russe." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le Transsibérien — traverser la nature russe en train", "content": "Le Transsibérien (Транссибирская магистраль), construit entre 1891 et 1916, est le plus long chemin de fer du monde : 9 289 km de Moscou à Vladivostok. Il traverse la taïga, les steppes, les montagnes de l'Oural, contourne le Baïkal (les 84 tunnels de la voie circum-baïkalienne), franchit les grandes rivières sibériennes. Le voyage complet dure 7 jours. C'est l'une des grandes aventures ferroviaires du monde — une façon unique de voir la nature russe défiler pendant une semaine." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Гречка» en crise — l'attachement des Russes à la terre", "content": "En période de crise (2008, 2014, 2020...), le sarrasin (гречка) disparaît des rayons russes en quelques heures. Les Russes l'achètent en masse par réflexe. Cette réaction révèle un attachement profond à la terre et aux produits agricoles russes — héritage des pénuries soviétiques et de la culture paysanne. Le sarrasin est cultivé en Russie depuis des siècles. Ce comportement est devenu un sujet d'humour national : «Acheter de la гречка» est synonyme de panique collective en russe contemporain." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Родная природа — лучшее лекарство.", "pronunciation": "Ródnaia prirôda — loutchshie liékartva", "translation": "La nature natale est le meilleur médicament.", "usage": "Expression russe sur les vertus thérapeutiques de la nature familière, du paysage de son enfance. Lie les modules 6 (santé) et 7 (nature) : la nature comme remède. Les Russes ont un lien profond à leur paysage natal — la nostalgie de la природа родная est un sentiment fort.", "example": "— Je me sens épuisé par la ville... — Родная природа — лучшее лекарство. Retourne au village !" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le Transsibérien — 9 289 km de nature", "subtitle": "Транссибирская магистраль — Путешествие через Россию", "content": "Le voyage en Transsibérien de Moscou à Vladivostok (7 jours) est l'une des grandes aventures du monde. Par la fenêtre défilent : la plaine russe, les forêts de bouleaux de l'Oural, les steppes sibériennes, les pins géants de la taïga, le lac Baïkal (avec son prolongement la Circum-baïkalienne), les stéppes de Bouriatie, la taïga de l'Extrême-Orient. Les voyageurs rencontrent des familles russes qui partagent leurs repas dans les compartiments. Une immersion totale dans la nature et la culture russe." }
+      },
+      "quiz": [
+        { "q": "Qui est le poète russe le plus aimé selon les sondages populaires ?", "opts": ["Pouchkine", "Lermontov", "Sergueï Essénine", "Maïakovski"], "ans": 2, "exp": "Sergueï Essénine (Есенин, 1895-1925) est souvent cité comme le poète préféré des Russes dans les sondages, devant Pouchkine. Ses poèmes sur les bouleaux, les champs et la Russie paysanne touchent profondément l'âme russe." },
+        { "q": "Le Transsibérien relie :", "opts": ["Moscou à Irkoutsk (Baïkal)", "Saint-Pétersbourg à Vladivostok", "Moscou à Vladivostok", "Moscou à Pékin"], "ans": 2, "exp": "Le Transsibérien (Транссибирская магистраль) relie Moscou à Vladivostok sur 9 289 km. C'est le plus long chemin de fer du monde. Le voyage complet dure 7 jours." },
+        { "q": "Comment dit-on «en automne» en russe ?", "opts": ["в осень", "осенью", "в осени", "на осень"], "ans": 1, "exp": "«Осенью» = en automne. Les saisons s'expriment à l'instrumental sans préposition en russe : зимой (en hiver), летом (en été), весной (au printemps), осенью (en automne)." },
+        { "q": "«Наследие» signifie :", "opts": ["La nature sauvage", "La biodiversité", "Le patrimoine / l'héritage", "La réserve naturelle"], "ans": 2, "exp": "«Наследие» = le patrimoine / l'héritage. «Природное наследие» = patrimoine naturel, «культурное наследие» = patrimoine culturel. «Наследовать» = hériter." },
+        { "q": "Pourquoi les Russes achètent-ils massivement du sarrasin (гречка) en période de crise ?", "opts": ["C'est le médicament traditionnel russe", "C'est un réflexe hérité des pénuries soviétiques et de la culture paysanne", "C'est le seul aliment qui se conserve longtemps", "C'est une obligation légale en cas d'urgence"], "ans": 1, "exp": "L'achat massif de гречка en période de crise est un réflexe culturel hérité des pénuries soviétiques et d'un attachement profond aux produits de la terre russe. Devenu sujet d'humour national : «acheter de la гречка» = paniquer collectivement." }
+      ]
+    }
+  ]
+}
