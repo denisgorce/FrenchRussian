@@ -1,0 +1,764 @@
+{
+  "module": 8,
+  "titleFr": "Culture & Médias",
+  "titleRu": "Культура и медиа",
+  "description": "La littérature, la musique, le cinéma, la presse, les réseaux sociaux et les arts russes.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "La Littérature Russe",
+      "titleRu": "Русская литература",
+      "level": "A2",
+      "grammar": {
+        "title": "Exprimer ses goûts littéraires — verbes et expressions",
+        "titleRu": "Литературные предпочтения",
+        "intro": "La littérature russe est l'une des plus riches du monde. Pour en parler, vous aurez besoin d'exprimer vos préférences, de donner votre avis et de raconter brièvement une histoire. Le verbe «нравиться» (plaire) est incontournable — il fonctionne comme le français «ça me plaît».",
+        "sections": [
+          {
+            "title": "Exprimer ses goûts : нравиться vs любить",
+            "content": "Мне нравится эта книга. — Ce livre me plaît.\nМне нравятся романы. — Les romans me plaisent.\nЯ люблю читать. — J'aime lire.\nЯ обожаю поэзию. — J'adore la poésie.\nЯ не люблю детективы. — Je n'aime pas les romans policiers.\nМне не нравится этот автор. — Cet auteur ne me plaît pas."
+          },
+          {
+            "title": "Parler d'un livre",
+            "content": "Эта книга о любви. — Ce livre parle d'amour.\nГлавный герой — студент. — Le personnage principal est un étudiant.\nДействие происходит в Москве. — L'action se passe à Moscou.\nКнига написана в XIX веке. — Le livre a été écrit au XIXe siècle.\nЯ читал(а) эту книгу. — J'ai lu ce livre.\nЯ ещё не читал(а) это. — Je n'ai pas encore lu ça."
+          },
+          {
+            "title": "Les genres littéraires",
+            "content": "роман — roman\nповесть (f.) — récit court / novella\nрассказ — nouvelle (courte histoire)\nстихи / поэзия — poèmes / poésie\nпьеса — pièce de théâtre\nбиография — biographie\nавтобиография — autobiographie\nфантастика — science-fiction\nдетектив — roman policier"
+          },
+          {
+            "title": "Donner son avis",
+            "content": "По-моему... — À mon avis...\nЯ думаю, что... — Je pense que...\nЭта книга очень интересная. — Ce livre est très intéressant.\nСюжет захватывающий. — L'intrigue est captivante.\nКнига скучная. — Le livre est ennuyeux.\nЭто шедевр! — C'est un chef-d'œuvre !"
+          }
+        ],
+        "rule": "💡 «Нравиться» s'accorde avec l'objet (le livre), pas avec le sujet ! «Мне нравится книга» (la livre me plaît — singulier) vs «Мне нравятся книги» (les livres me plaisent — pluriel). Pensez au français «ça me plaît»."
+      },
+      "pronunciation": {
+        "intro": "Les grands noms de la littérature russe en cyrillique — entraînez-vous à les lire et prononcer !",
+        "note": "⚠️ Le «е» après une consonne douce se prononce «yé». Dans «поэзия», le «э» est ouvert comme dans «été».",
+        "words": [
+          { "fr": "литература", "ru_pron": "litiratoúra", "meaning": "la littérature" },
+          { "fr": "книга", "ru_pron": "kníga", "meaning": "le livre" },
+          { "fr": "роман", "ru_pron": "ramán", "meaning": "le roman" },
+          { "fr": "поэзия", "ru_pron": "paéziya", "meaning": "la poésie" },
+          { "fr": "писатель", "ru_pron": "pisátil'", "meaning": "l'écrivain" },
+          { "fr": "читать", "ru_pron": "tchitát'", "meaning": "lire" },
+          { "fr": "герой", "ru_pron": "guiróï", "meaning": "le héros / le personnage" },
+          { "fr": "сюжет", "ru_pron": "syoujét", "meaning": "l'intrigue / le scénario" },
+          { "fr": "шедевр", "ru_pron": "chiédivr", "meaning": "le chef-d'œuvre" },
+          { "fr": "издание", "ru_pron": "izdániye", "meaning": "l'édition" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "книга", "gender": "f", "ru": "le livre", "ru_pron": "kníga", "example_fr": "Я купил новую книгу.", "example_ru": "J'ai acheté un nouveau livre.", "level": "A2" },
+        { "fr": "читать", "gender": null, "ru": "lire", "ru_pron": "tchitát'", "example_fr": "Я читаю каждый день.", "example_ru": "Je lis chaque jour.", "level": "A2" },
+        { "fr": "писатель", "gender": "m", "ru": "l'écrivain", "ru_pron": "pisátil'", "example_fr": "Толстой — великий писатель.", "example_ru": "Tolstoï est un grand écrivain.", "level": "A2" },
+        { "fr": "роман", "gender": "m", "ru": "le roman", "ru_pron": "ramán", "example_fr": "Это мой любимый роман.", "example_ru": "C'est mon roman préféré.", "level": "A2" },
+        { "fr": "стихи", "gender": "pl", "ru": "les poèmes / la poésie", "ru_pron": "stikhi", "example_fr": "Пушкин писал красивые стихи.", "example_ru": "Pouchkine écrivait de beaux poèmes.", "level": "A2" },
+        { "fr": "герой", "gender": "m", "ru": "le héros / le personnage principal", "ru_pron": "guiróï", "example_fr": "Главный герой очень сложный.", "example_ru": "Le personnage principal est très complexe.", "level": "A2" },
+        { "fr": "сюжет", "gender": "m", "ru": "l'intrigue / le scénario", "ru_pron": "syoujét", "example_fr": "Сюжет этого романа захватывающий.", "example_ru": "L'intrigue de ce roman est captivante.", "level": "A2" },
+        { "fr": "библиотека", "gender": "f", "ru": "la bibliothèque", "ru_pron": "bibliatiéka", "example_fr": "Я хожу в библиотеку каждую неделю.", "example_ru": "Je vais à la bibliothèque chaque semaine.", "level": "A2" },
+        { "fr": "издавать", "gender": null, "ru": "publier / éditer", "ru_pron": "izdavát'", "example_fr": "Этот роман издан в 1866 году.", "example_ru": "Ce roman a été publié en 1866.", "level": "A2" },
+        { "fr": "переводить", "gender": null, "ru": "traduire", "ru_pron": "pirivadít'", "example_fr": "Эту книгу перевели на 50 языков.", "example_ru": "Ce livre a été traduit en 50 langues.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "литература", "fr_pron": "litiratoúra", "ru": "littérature", "ru_pron": "littérature", "note": "«Литература» et «littérature» — même origine latine «littera» (lettre). Le mot est quasi-identique dans toutes les langues européennes !" },
+        { "fr": "роман", "fr_pron": "ramán", "ru": "roman", "ru_pron": "roman", "note": "«Роман» est directement emprunté au français «roman» ! Au XVIIIe siècle, la France était le modèle culturel de l'aristocratie russe, d'où de nombreux emprunts littéraires." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Léon Tolstoï (1828–1910)", "subtitle": "Auteur de Guerre et Paix, Anna Karénine", "content": "Léon Nikolaïevitch Tolstoï est l'un des plus grands romanciers de l'histoire mondiale. Né dans une famille aristocratique, il combattit en Crimée avant de se consacrer à l'écriture. «Guerre et Paix» (1869) et «Anna Karénine» (1877) sont des monuments de la littérature universelle. Sur le tard, il développa une philosophie pacifiste et ascétique qui influença Gandhi et Martin Luther King. Il mourut à 82 ans dans une gare, fuyant sa propre légende." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'Âge d'or de la littérature russe — XIXe siècle", "content": "Le XIXe siècle est l'Âge d'or de la littérature russe. En quelques décennies, la Russie produisit Pouchkine, Gogol, Tourgueniev, Dostoïevski, Tolstoï, Tchekhov — des géants que le monde entier lit encore. Phénomène unique : cette explosion créative survint dans un pays autocratique, où la censure était omniprésente. Les auteurs utilisaient l'allégorie et le sous-texte pour contourner les interdictions." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Guerre et Paix» — le roman le plus long du monde", "content": "«Война и мир» (Guerre et Paix) de Tolstoï compte environ 580 000 mots en russe — soit 4 volumes et plus de 1 300 pages ! Tolstoï le réécrit 7 fois entièrement à la main. Sa femme Sofia Tolstoïa le recopie 8 fois. Le roman contient plus de 500 personnages. Selon une légende urbaine, l'éditeur d'Amazon ne l'aurait pas accepté car il dépassait la limite de 4 Mo en numérique..." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Читать между строк.", "pronunciation": "Tchitát' myéjdou strok", "translation": "Lire entre les lignes.", "usage": "Expression idiomatique identique au français ! Utilisée pour dire qu'on comprend le sens caché d'un texte ou d'une conversation. Très usitée dans le contexte littéraire et politique russe.", "example": "— Что он хотел сказать этим стихотворением? — Нужно читать между строк. (Que voulait-il dire par ce poème ? — Il faut lire entre les lignes.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Yasnaya Polyana — Domaine de Tolstoï", "subtitle": "Ясная Поляна — Тульская область", "content": "Yasnaya Polyana (Ясная Поляна — «La Clairière lumineuse») est le domaine natal et la demeure de Tolstoï, à 200 km de Moscou. L'écrivain y vécut la majeure partie de sa vie, y écrivit ses œuvres majeures et y est enterré sous un chêne, selon ses vœux. Aujourd'hui musée, le domaine est classé au patrimoine mondial. On peut visiter sa bibliothèque de 22 000 volumes, ses bureaux, et se promener dans les forêts qui l'inspirèrent." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «ce livre me plaît» en russe ?", "opts": ["Я нравлюсь эту книгу.", "Мне нравится эта книга.", "Я люблю эта книга.", "Мне нравится этот книгу."], "ans": 1, "exp": "«Мне нравится эта книга» = ce livre me plaît. «Нравиться» s'accorde avec le livre (sujet grammatical), pas avec «мне»." },
+        { "q": "Comment dit-on «roman» en russe ?", "opts": ["рассказ", "повесть", "роман", "пьеса"], "ans": 2, "exp": "«Роман» = roman. C'est un emprunt direct au français ! «Рассказ» = nouvelle, «повесть» = récit court, «пьеса» = pièce de théâtre." },
+        { "q": "Que signifie «По-моему» ?", "opts": ["Pour moi (dans le sens physique)", "À mon avis / selon moi", "À cause de moi", "Derrière moi"], "ans": 1, "exp": "«По-моему» = à mon avis, selon moi. С'est la formule pour introduire une opinion personnelle en russe." },
+        { "q": "Quel grand roman russe compte environ 580 000 mots ?", "opts": ["Crime et Châtiment", "Anna Karénine", "L'Idiot", "Guerre et Paix"], "ans": 3, "exp": "«Война и мир» (Guerre et Paix) de Tolstoï est l'un des romans les plus longs de la littérature mondiale avec environ 580 000 mots." },
+        { "q": "Comment dit-on «l'intrigue est captivante» en russe ?", "opts": ["Книга скучная.", "Герой трудный.", "Сюжет захватывающий.", "Автор интересный."], "ans": 2, "exp": "«Сюжет захватывающий» = l'intrigue est captivante. «Захватывающий» vient de захватить (saisir, capturer) — comme «captivant» en français." }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "La Musique Russe",
+      "titleRu": "Русская музыка",
+      "level": "A2",
+      "grammar": {
+        "title": "Parler de musique — le verbe jouer et les instruments",
+        "titleRu": "Играть на инструментах",
+        "intro": "La Russie a donné au monde des compositeurs géniaux et une tradition musicale extraordinaire. Pour parler de musique en russe, maîtrisez le verbe «играть» (jouer) avec la préposition «на» pour les instruments, et les expressions de goût musical.",
+        "sections": [
+          {
+            "title": "Jouer d'un instrument : играть + на + prépositionnel",
+            "content": "Я играю на пианино. — Je joue du piano.\nТы играешь на гитаре? — Tu joues de la guitare ?\nОн играет на скрипке. — Il joue du violon.\nОна играет на флейте. — Elle joue de la flûte.\nМы играем в оркестре. — Nous jouons dans un orchestre."
+          },
+          {
+            "title": "Les styles musicaux",
+            "content": "классическая музыка — musique classique\nнародная музыка — musique folklorique / traditionnelle\nджаз — jazz\nрок — rock\nпоп-музыка — musique pop\nэлектронная музыка — musique électronique\nопера — opéra\nбалет — ballet"
+          },
+          {
+            "title": "Vocabulaire du concert",
+            "content": "концерт — concert\nзал — salle\nсцена — scène\nдирижёр — chef d'orchestre\nоркестр — orchestre\nбилет — billet\nаплодировать — applaudir\nна бис ! — bis ! (encore !)"
+          },
+          {
+            "title": "Exprimer ses goûts musicaux",
+            "content": "Какую музыку ты слушаешь? — Quelle musique écoutes-tu ?\nЯ слушаю классику. — J'écoute de la musique classique.\nМне нравится джаз. — Le jazz me plaît.\nЯ предпочитаю рок. — Je préfère le rock.\nЭта песня мне нравится. — Cette chanson me plaît.\nКакой твой любимый исполнитель? — Quel est ton artiste préféré ?"
+          }
+        ],
+        "rule": "💡 Pour les instruments, utilisez «играть НА» + cas prépositionnel : пианино → на пианино, гитара → на гитаре, скрипка → на скрипке. Pour les sports et jeux (sans instrument), c'est «играть В» : в футбол, в теннис."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire musical est souvent international — mais en russe, il a une saveur particulière !",
+        "note": "⚠️ «Скрипка» (violon) et «дирижёр» (chef d'orchestre) sont des mots purement russes sans équivalent latin direct.",
+        "words": [
+          { "fr": "музыка", "ru_pron": "moúzyka", "meaning": "la musique" },
+          { "fr": "петь", "ru_pron": "pyét'", "meaning": "chanter" },
+          { "fr": "скрипка", "ru_pron": "skrípka", "meaning": "le violon" },
+          { "fr": "пианино", "ru_pron": "pianíno", "meaning": "le piano" },
+          { "fr": "дирижёр", "ru_pron": "diridjór", "meaning": "le chef d'orchestre" },
+          { "fr": "концерт", "ru_pron": "kantsért", "meaning": "le concert" },
+          { "fr": "опера", "ru_pron": "ópira", "meaning": "l'opéra" },
+          { "fr": "песня", "ru_pron": "pyésnya", "meaning": "la chanson" },
+          { "fr": "мелодия", "ru_pron": "miládiya", "meaning": "la mélodie" },
+          { "fr": "аплодисменты", "ru_pron": "apladismyénty", "meaning": "les applaudissements" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "музыка", "gender": "f", "ru": "la musique", "ru_pron": "moúzyka", "example_fr": "Русская музыка очень выразительная.", "example_ru": "La musique russe est très expressive.", "level": "A2" },
+        { "fr": "играть", "gender": null, "ru": "jouer (instrument / jeu)", "ru_pron": "igrát'", "example_fr": "Она играет на скрипке.", "example_ru": "Elle joue du violon.", "level": "A2" },
+        { "fr": "петь", "gender": null, "ru": "chanter", "ru_pron": "pyét'", "example_fr": "Он поёт в хоре.", "example_ru": "Il chante dans une chorale.", "level": "A2" },
+        { "fr": "слушать", "gender": null, "ru": "écouter", "ru_pron": "slóuchat'", "example_fr": "Я слушаю музыку каждый день.", "example_ru": "J'écoute de la musique chaque jour.", "level": "A2" },
+        { "fr": "скрипка", "gender": "f", "ru": "le violon", "ru_pron": "skrípka", "example_fr": "Скрипка — сложный инструмент.", "example_ru": "Le violon est un instrument difficile.", "level": "A2" },
+        { "fr": "концерт", "gender": "m", "ru": "le concert", "ru_pron": "kantsért", "example_fr": "Мы идём на концерт в субботу.", "example_ru": "Nous allons au concert samedi.", "level": "A2" },
+        { "fr": "хор", "gender": "m", "ru": "le chœur / la chorale", "ru_pron": "khor", "example_fr": "Русский хор известен в мире.", "example_ru": "Le chœur russe est mondialement connu.", "level": "A2" },
+        { "fr": "композитор", "gender": "m", "ru": "le compositeur", "ru_pron": "kampazítar", "example_fr": "Чайковский — великий композитор.", "example_ru": "Tchaïkovski est un grand compositeur.", "level": "A2" },
+        { "fr": "исполнитель", "gender": "m", "ru": "l'interprète / l'artiste", "ru_pron": "ispalnítel'", "example_fr": "Кто ваш любимый исполнитель?", "example_ru": "Quel est votre artiste préféré ?", "level": "A2" },
+        { "fr": "мелодия", "gender": "f", "ru": "la mélodie", "ru_pron": "miládiya", "example_fr": "Эта мелодия очень красивая.", "example_ru": "Cette mélodie est très belle.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "оркестр", "fr_pron": "arkyéstr", "ru": "orchestre", "ru_pron": "orchestre", "note": "«Оркестр» est identique à «orchestre», même origine grecque. Tous les grands ensembles musicaux du monde portent ce nom dans leur langue !" },
+        { "fr": "балет", "fr_pron": "balyét", "ru": "ballet", "ru_pron": "ballet", "note": "«Балет» est un emprunt du français «ballet», lui-même issu de l'italien. Ironiquement, la Russie est devenue la capitale mondiale du ballet !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Piotr Ilitch Tchaïkovski (1840–1893)", "subtitle": "Compositeur du Lac des Cygnes et du Casse-Noisette", "content": "Piotr Ilitch Tchaïkovski (Чайковский) est le compositeur russe le plus joué dans le monde. Ses ballets «Le Lac des Cygnes», «La Belle au Bois Dormant» et «Casse-Noisette» sont des œuvres absolues du répertoire classique. Ses symphonies et son Concerto pour piano n°1 sont universellement aimés. Personnalité tourmentée, il vécut des tensions entre sa vie publique et sa vie privée. Il mourut mystérieusement à 53 ans — empoisonnement ou choléra, le débat reste ouvert." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le Bolchoï — 250 ans d'excellence", "content": "Le Théâtre Bolchoï (Большой театр — «Grand Théâtre») de Moscou fut fondé en 1776. Il est l'un des plus grands et des plus prestigieux opéras du monde. Détruit plusieurs fois par des incendies, il fut reconstruit dans sa forme actuelle en 1825. Pendant l'ère soviétique, le Bolchoï symbolisait le prestige culturel de l'URSS — les ballerines et danseurs étaient des stars nationales. Rénové entre 2005 et 2011, il accueille aujourd'hui 2 500 spectateurs." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "La musique folklorique russe et la balalaïka", "content": "La balalaïka (балалайка) est l'instrument national russe par excellence — un luth triangulaire à trois cordes. Son nom viendrait du slave «балакать» (bavarder, papote). Elle existe en 6 tailles, du piccolo à la contrebasse. Les ensembles de balalaikas jouent depuis le XVIIIe siècle. Curiosité : Tolstoï jouait de la balalaïka ! La chanson «Kalinka» (Калинка) reste l'hymne non-officiel de la musique russe dans le monde." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "На бис!", "pronunciation": "Na bis", "translation": "Bis ! / Encore une fois !", "usage": "«На бис !» s'utilise exactement comme «bis» en français, pour redemander une performance au concert. Le mot «бис» vient du latin «bis» (deux fois), via le français. Les Russes crient «браво !» et «на бис !» avec beaucoup d'enthousiasme.", "example": "— Певица закончила выступление. Публика кричала: «Браво! На бис!» (La chanteuse termina sa performance. Le public criait : Bravo ! Bis !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — La Philharmonie et Mariinsky", "subtitle": "Санкт-Петербург — Музыкальная столица", "content": "Saint-Pétersbourg est la capitale musicale de la Russie. La Philharmonie de Saint-Pétersbourg (1802) est l'une des plus anciennes d'Europe. Le Théâtre Mariinsky, fondé en 1783, est le rival du Bolchoï pour l'opéra et le ballet. Des compositeurs comme Moussorgski, Rimski-Korsakov et Chostakovitch y vécurent et créèrent. En été, les «Nuits Blanches» (Белые ночи) donnent lieu à des festivals musicaux extraordinaires — le soleil ne se couche presque pas !" }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je joue du piano» en russe ?", "opts": ["Я играю в пианино.", "Я играю на пианино.", "Я играю пианино.", "Я играю с пианино."], "ans": 1, "exp": "«Я играю на пианино» = je joue du piano. Pour les instruments, on utilise «играть НА» + cas prépositionnel. C'est différent de «играть В» utilisé pour les sports." },
+        { "q": "Que signifie «Большой театр» littéralement ?", "opts": ["Théâtre Rouge", "Grand Théâtre", "Théâtre Impérial", "Théâtre National"], "ans": 1, "exp": "«Большой» = grand, «театр» = théâtre. Le Bolchoï = le Grand Théâtre. «Большой» est aussi utilisé dans «Большое спасибо» (grand merci)." },
+        { "q": "Comment dit-on «écouter de la musique» en russe ?", "opts": ["петь музыку", "смотреть музыку", "слушать музыку", "играть музыку"], "ans": 2, "exp": "«Слушать музыку» = écouter de la musique. «Слушать» = écouter (de façon active). «Слышать» = entendre (perception passive). Même distinction qu'en français !" },
+        { "q": "Quel instrument est symbole de la musique folklorique russe ?", "opts": ["скрипка (violon)", "балалайка", "гитара (guitare)", "аккордеон (accordéon)"], "ans": 1, "exp": "La балалайка est l'instrument folklorique russe par excellence — un luth triangulaire à trois cordes qui symbolise la musique traditionnelle russe dans le monde." },
+        { "q": "Comment demande-t-on «quelle musique écoutes-tu ?» en russe ?", "opts": ["Где ты слушаешь музыку?", "Какую музыку ты слушаешь?", "Как ты любишь музыку?", "Что ты играешь?"], "ans": 1, "exp": "«Какую музыку ты слушаешь?» = quelle musique écoutes-tu ? «Какую» est l'accusatif féminin de «какой» (quel/quelle), car «музыка» est féminin et complément d'objet." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "Le Cinéma et les Séries",
+      "titleRu": "Кино и сериалы",
+      "level": "A2",
+      "grammar": {
+        "title": "Parler du cinéma — le passé et les genres",
+        "titleRu": "Кино и фильмы",
+        "intro": "Le cinéma russe est l'un des plus influents de l'histoire (Eisenstein, Tarkovski). Pour en parler, vous aurez besoin du passé du verbe «смотреть» (regarder) et des expressions pour donner votre avis sur un film.",
+        "sections": [
+          {
+            "title": "Le passé de «смотреть» — regarder",
+            "content": "Я смотрел(а) фильм. — J'ai regardé un film.\nТы смотрел(а) этот сериал? — Tu as regardé cette série ?\nОн смотрел вчера. — Il a regardé hier.\nМы смотрели вместе. — Nous avons regardé ensemble.\n\n(-л = masc., -ла = fém., -ли = pluriel)"
+          },
+          {
+            "title": "Les genres de films",
+            "content": "боевик — film d'action\nкомедия — comédie\nдрама — drame\nужасы — film d'horreur\nтриллер — thriller\nмультфильм — film d'animation / dessin animé\nдокументальный фильм — documentaire\nмелодрама — film romantique / mélo\nисторический фильм — film historique"
+          },
+          {
+            "title": "Parler d'un film",
+            "content": "Как называется фильм? — Comment s'appelle le film ?\nКто режиссёр? — Qui est le réalisateur ?\nВ главной роли... — Dans le rôle principal...\nФильм идёт 2 часа. — Le film dure 2 heures.\nС субтитрами или дублированный? — Avec sous-titres ou doublé ?\nЭтот фильм получил «Оскар». — Ce film a reçu un Oscar."
+          },
+          {
+            "title": "Donner son avis sur un film",
+            "content": "Фильм классный! — Le film est super !\nМне понравился фильм. — J'ai aimé le film.\nФильм не понравился. — Je n'ai pas aimé le film.\nИгра актёров великолепная. — Le jeu des acteurs est magnifique.\nСпецэффекты потрясающие. — Les effets spéciaux sont époustouflants.\nФинал неожиданный. — La fin est inattendue."
+          }
+        ],
+        "rule": "💡 En russe, le passé s'accorde en genre et nombre avec le sujet : «Я смотрел» (je masc.), «Я смотрела» (je fém.), «Мы смотрели» (nous). Retenez ces terminaisons : -л (m), -ла (f), -ло (n), -ли (pl)."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire du cinéma russe mélange termes russes authentiques et emprunts occidentaux !",
+        "note": "⚠️ «Режиссёр» (réalisateur) vient du français «régisseur» mais désigne en russe le metteur en scène / réalisateur. Le «ё» se prononce toujours «yô».",
+        "words": [
+          { "fr": "кино", "ru_pron": "kinó", "meaning": "le cinéma" },
+          { "fr": "фильм", "ru_pron": "fil'm", "meaning": "le film" },
+          { "fr": "режиссёр", "ru_pron": "rijissyór", "meaning": "le réalisateur" },
+          { "fr": "актёр", "ru_pron": "aktyór", "meaning": "l'acteur" },
+          { "fr": "сериал", "ru_pron": "siriál", "meaning": "la série / le feuilleton" },
+          { "fr": "экран", "ru_pron": "ikrán", "meaning": "l'écran" },
+          { "fr": "зрители", "ru_pron": "zrítili", "meaning": "les spectateurs" },
+          { "fr": "смотреть", "ru_pron": "smatrét'", "meaning": "regarder" },
+          { "fr": "субтитры", "ru_pron": "soubtiitry", "meaning": "les sous-titres" },
+          { "fr": "премьера", "ru_pron": "primyéra", "meaning": "la première" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "фильм", "gender": "m", "ru": "le film", "ru_pron": "fil'm", "example_fr": "Этот фильм очень известный.", "example_ru": "Ce film est très connu.", "level": "A2" },
+        { "fr": "смотреть", "gender": null, "ru": "regarder", "ru_pron": "smatrét'", "example_fr": "Мы смотрим кино по пятницам.", "example_ru": "Nous regardons des films le vendredi.", "level": "A2" },
+        { "fr": "режиссёр", "gender": "m", "ru": "le réalisateur", "ru_pron": "rijissyór", "example_fr": "Тарковский — гений режиссёр.", "example_ru": "Tarkovski est un réalisateur génial.", "level": "A2" },
+        { "fr": "актёр / актриса", "gender": "m/f", "ru": "l'acteur / l'actrice", "ru_pron": "aktyór / aktrísa", "example_fr": "Эта актриса получила премию.", "example_ru": "Cette actrice a reçu un prix.", "level": "A2" },
+        { "fr": "сериал", "gender": "m", "ru": "la série télévisée", "ru_pron": "siriál", "example_fr": "Я смотрю этот сериал каждый вечер.", "example_ru": "Je regarde cette série chaque soir.", "level": "A2" },
+        { "fr": "комедия", "gender": "f", "ru": "la comédie", "ru_pron": "kamédiya", "example_fr": "Я люблю смотреть комедии.", "example_ru": "J'aime regarder des comédies.", "level": "A2" },
+        { "fr": "документальный", "gender": null, "ru": "documentaire (adj.)", "ru_pron": "dakouméntal'ny", "example_fr": "Я смотрел документальный фильм.", "example_ru": "J'ai regardé un documentaire.", "level": "A2" },
+        { "fr": "премьера", "gender": "f", "ru": "la première (avant-première)", "ru_pron": "primyéra", "example_fr": "Премьера фильма была вчера.", "example_ru": "La première du film était hier.", "level": "A2" },
+        { "fr": "зрители", "gender": "pl", "ru": "les spectateurs / le public", "ru_pron": "zrítili", "example_fr": "Зрители аплодировали стоя.", "example_ru": "Les spectateurs ont applaudi debout.", "level": "A2" },
+        { "fr": "субтитры", "gender": "pl", "ru": "les sous-titres", "ru_pron": "soubtiitry", "example_fr": "Я смотрю с русскими субтитрами.", "example_ru": "Je regarde avec des sous-titres russes.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "режиссёр", "fr_pron": "rijissyór", "ru": "régisseur (sens élargi)", "ru_pron": "régisseur", "note": "«Режиссёр» vient du français «régisseur» mais en russe il désigne le réalisateur de cinéma ou le metteur en scène de théâtre. Bel exemple d'emprunt avec glissement de sens !" },
+        { "fr": "актёр", "fr_pron": "aktyór", "ru": "acteur", "ru_pron": "acteur", "note": "«Актёр» et «acteur» — même origine latine «actor». Noté avec le «ё» typiquement russe qui adoucit la consonne précédente." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Andreï Tarkovski (1932–1986)", "subtitle": "Réalisateur de Solaris et Stalker", "content": "Andreï Tarkovski est considéré comme l'un des plus grands cinéastes de tous les temps. Son cinéma est une méditation sur le temps, la mémoire et la spiritualité. «Solaris» (1972), «Le Miroir» (1975) et «Stalker» (1979) sont des œuvres fondamentales. Ingmar Bergman l'appelait «le plus grand de tous». Tarkovski émigra à l'Ouest en 1982 et mourut d'un cancer à Paris en 1986 à 54 ans. Son esthétique — plans longs, eau, mémoire — a influencé des générations de cinéastes." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Eisenstein et l'invention du montage cinématographique", "content": "Sergueï Eisenstein (Эйзенштейн, 1898–1948) est le père du montage cinématographique moderne. Son film «Le Cuirassé Potemkine» (1925), avec la célèbre scène des marches d'Odessa, révolutionna le cinéma mondial. Il théorisa le «montage des attractions» — l'idée que juxtaposer deux images crée un sens nouveau, supérieur à chacune prise séparément. Hollywood s'inspira massivement de ses techniques. Orson Welles, Francis Ford Coppola — tous reconnaissent sa dette envers Eisenstein." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Мультфильмы — les dessins animés soviétiques", "content": "Les мультфильмы (dessins animés) soviétiques sont une véritable trésor culturel. «Ёжик в тумане» (Oursin dans le brouillard, 1975) a été élu meilleur dessin animé de tous les temps lors d'un sondage international en 2003 ! «Крокодил Гена» et son ami Tcheburashka (Чебурашка) — une créature mignonne aux grandes oreilles — sont des personnages aimés par des générations. Tcheburashka est devenu la mascotte de l'équipe olympique russe." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Жизнь — это театр.", "pronunciation": "Jizn' — éta tiátr", "translation": "La vie est un théâtre.", "usage": "Expression philosophique d'inspiration shakespearienne. En russe, on dit souvent «жизнь — это театр, а люди — актёры» (la vie est un théâtre et les hommes sont des acteurs). Utilisée pour commenter une situation dramatique ou une mise en scène sociale.", "example": "— Почему он так себя ведёт? — Жизнь — это театр! (Pourquoi se comporte-t-il ainsi ? — La vie est un théâtre !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Le Gosfilmofond et Mosfilm", "subtitle": "Москва — столица российского кино", "content": "Mosfilm (Мосфильм), fondé en 1924, est le plus grand studio de cinéma de Russie et d'Europe. Il a produit plus de 3 000 films, dont des œuvres d'Eisenstein, Tarkovski et Bondartchouk. Aujourd'hui ouvert aux visites, on peut y voir les décors historiques, les voitures de films cultes et même la locomotive du Cuirassé Potemkine. Le Gosfilmofond est la cinémathèque nationale russe, qui conserve plus de 100 000 bobines de films." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «j'ai regardé ce film» au féminin en russe ?", "opts": ["Я смотрел этот фильм.", "Я смотрела этот фильм.", "Я смотрели этот фильм.", "Я смотрело этот фильм."], "ans": 1, "exp": "«Я смотрела» est la forme féminine du passé. En russe, le passé s'accorde en genre : -л (masc.), -ла (fém.), -ло (neutre), -ли (pluriel)." },
+        { "q": "Comment dit-on «dessin animé» en russe ?", "opts": ["боевик", "мелодрама", "мультфильм", "документальный"], "ans": 2, "exp": "«Мультфильм» = dessin animé / film d'animation. Contraction de «мультипликационный фильм». Les мультфильмы soviétiques sont mondialement reconnus pour leur qualité artistique." },
+        { "q": "Quel réalisateur russe est considéré comme l'inventeur du montage cinématographique ?", "opts": ["Tarkovski", "Bondartchouk", "Eisenstein", "Mikhalkov"], "ans": 2, "exp": "Sergueï Eisenstein est le père du montage cinématographique moderne. Son «Cuirassé Potemkine» (1925) révolutionna le cinéma mondial avec sa théorie du «montage des attractions»." },
+        { "q": "Comment dit-on «le réalisateur» en russe ?", "opts": ["актёр", "зритель", "режиссёр", "сценарист"], "ans": 2, "exp": "«Режиссёр» = le réalisateur / metteur en scène. Le mot vient du français «régisseur» mais a un sens plus large en russe. «Сценарист» = le scénariste." },
+        { "q": "«Мне понравился фильм» signifie :", "opts": ["Je vais voir ce film.", "J'ai aimé le film.", "Je n'ai pas aimé le film.", "Le film est long."], "ans": 1, "exp": "«Мне понравился фильм» = j'ai aimé le film. «Понравился» est le passé de «нравиться» (plaire). Notez que «фильм» (masculin) gouverne «понравился» (et non «понравилась»)." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "La Presse et les Actualités",
+      "titleRu": "Пресса и новости",
+      "level": "A2",
+      "grammar": {
+        "title": "Parler des informations — le présent des médias",
+        "titleRu": "Средства массовой информации",
+        "intro": "Les médias russes occupent une place importante dans la vie quotidienne. Pour parler de l'actualité, vous aurez besoin de verbes de communication (dire, rapporter, annoncer) et d'expressions pour commenter les nouvelles.",
+        "sections": [
+          {
+            "title": "Les médias russes",
+            "content": "газета — journal / gazette\nжурнал — magazine / revue\nтелевидение (ТВ) — télévision\nрадио — radio\nинтернет — internet\nсайт — site web\nновости — informations / actualités\nрепортаж — reportage"
+          },
+          {
+            "title": "Verbes de communication médiatique",
+            "content": "сообщать / сообщить — annoncer / rapporter\nписать / написать — écrire / rédiger\nпередавать — diffuser / transmettre\nрассказывать — raconter / rapporter\nпоказывать — montrer\nобсуждать — discuter / débattre\nкомментировать — commenter"
+          },
+          {
+            "title": "Parler de l'actualité",
+            "content": "Что нового? — Quoi de neuf ?\nПо последним данным... — Selon les dernières informations...\nСогласно газете... — D'après le journal...\nKак сообщают СМИ... — Comme le rapportent les médias...\nЭто произошло вчера. — C'est arrivé hier.\nПравительство объявило... — Le gouvernement a annoncé..."
+          },
+          {
+            "title": "Donner son opinion sur l'actualité",
+            "content": "Я думаю, что... — Je pense que...\nПо-моему мнению... — À mon avis...\nЭто важно / неважно. — C'est important / sans importance.\nЯ согласен(согласна) с этим. — Je suis d'accord avec ça.\nЯ не согласен(не согласна). — Je ne suis pas d'accord.\nТрудно сказать. — C'est difficile à dire."
+          }
+        ],
+        "rule": "💡 L'abréviation «СМИ» (Средства Массовой Информации) = «MMI» en français (Moyens de communication de masse / médias). C'est l'équivalent russe de «les médias». À retenir : Согласно + datif = d'après / selon (ex: согласно газете = d'après le journal)."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire des médias — beaucoup de mots internationaux reconnaissables !",
+        "note": "⚠️ «Журнал» en russe signifie «magazine» ou «revue» et non «journal» (qui se dit «газета»). Attention au faux ami !",
+        "words": [
+          { "fr": "новости", "ru_pron": "nóvasti", "meaning": "les informations / actualités" },
+          { "fr": "газета", "ru_pron": "gazyéta", "meaning": "le journal / la gazette" },
+          { "fr": "журнал", "ru_pron": "jurnál", "meaning": "le magazine / la revue" },
+          { "fr": "телевидение", "ru_pron": "tilivídéniye", "meaning": "la télévision" },
+          { "fr": "репортаж", "ru_pron": "ripartáj", "meaning": "le reportage" },
+          { "fr": "статья", "ru_pron": "stat'yá", "meaning": "l'article" },
+          { "fr": "редактор", "ru_pron": "ridáktor", "meaning": "le rédacteur / l'éditeur" },
+          { "fr": "журналист", "ru_pron": "jurnalíst", "meaning": "le journaliste" },
+          { "fr": "заголовок", "ru_pron": "zagalóvak", "meaning": "le titre / la une" },
+          { "fr": "интервью", "ru_pron": "intervyú", "meaning": "l'interview" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "новости", "gender": "pl", "ru": "les informations / actualités", "ru_pron": "nóvasti", "example_fr": "Я смотрю новости каждый вечер.", "example_ru": "Je regarde les informations chaque soir.", "level": "A2" },
+        { "fr": "газета", "gender": "f", "ru": "le journal quotidien", "ru_pron": "gazyéta", "example_fr": "Он читает газету каждое утро.", "example_ru": "Il lit le journal chaque matin.", "level": "A2" },
+        { "fr": "журнал", "gender": "m", "ru": "le magazine / la revue", "ru_pron": "jurnál", "example_fr": "Этот журнал о моде.", "example_ru": "Ce magazine parle de mode.", "meaning_double": "ATTENTION : журнал = magazine (pas journal !). «Journal» se dit «газета» ou «дневник» (journal intime).", "level": "A2" },
+        { "fr": "журналист", "gender": "m", "ru": "le/la journaliste", "ru_pron": "jurnalíst", "example_fr": "Она работает журналистом.", "example_ru": "Elle travaille comme journaliste.", "level": "A2" },
+        { "fr": "статья", "gender": "f", "ru": "l'article", "ru_pron": "stat'yá", "example_fr": "Я прочитал интересную статью.", "example_ru": "J'ai lu un article intéressant.", "level": "A2" },
+        { "fr": "сообщать", "gender": null, "ru": "annoncer / rapporter", "ru_pron": "saapchtchát'", "example_fr": "Газета сообщает о важном событии.", "example_ru": "Le journal rapporte un événement important.", "level": "A2" },
+        { "fr": "редакция", "gender": "f", "ru": "la rédaction (des médias)", "ru_pron": "ridáksiya", "example_fr": "Редакция газеты находится в центре.", "example_ru": "La rédaction du journal est au centre-ville.", "level": "A2" },
+        { "fr": "заголовок", "gender": "m", "ru": "le titre / le gros titre", "ru_pron": "zagalóvak", "example_fr": "Заголовок очень интересный.", "example_ru": "Le titre est très intéressant.", "level": "A2" },
+        { "fr": "событие", "gender": "n", "ru": "l'événement", "ru_pron": "sabýtiye", "example_fr": "Это важное событие.", "example_ru": "C'est un événement important.", "level": "A2" },
+        { "fr": "прямой эфир", "gender": "m", "ru": "la diffusion en direct", "ru_pron": "pryamóï éfir", "example_fr": "Трансляция идёт в прямом эфире.", "example_ru": "La diffusion est en direct.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "журналист", "fr_pron": "jurnalíst", "ru": "journaliste", "ru_pron": "journaliste", "note": "«Журналист» vient de «journal» (via le français ou l'allemand). Ironiquement, «журнал» en russe ne désigne pas le journal quotidien mais le magazine !" },
+        { "fr": "репортаж", "fr_pron": "ripartáj", "ru": "reportage", "ru_pron": "reportage", "note": "«Репортаж» est directement emprunté au français «reportage». Le mot «репортёр» (reporter) aussi. La presse française a fortement influencé le vocabulaire journalistique russe." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anna Politkovskaïa (1958–2006)", "subtitle": "Journaliste d'investigation et militante des droits de l'homme", "content": "Anna Politkovskaïa fut l'une des journalistes russes les plus courageuses de son époque. Correspondante de «Novaïa Gazeta», elle documenta les violations des droits de l'homme en Tchétchénie avec une rigueur exceptionnelle. Son livre «La Russie de Poutine» (2004) la rendit célèbre mondialement. Elle fut assassinée le 7 octobre 2006 à Moscou. Elle est devenue le symbole du journalisme indépendant russe et du courage face au pouvoir." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La Pravda — journal officiel de l'URSS", "content": "La «Pravda» (Правда — «Vérité») fut fondée en 1912 par Lénine. Elle devint l'organe officiel du Parti communiste soviétique et atteignit un tirage de 11 millions d'exemplaires dans les années 1970 — l'un des plus forts du monde. Paradoxe célèbre : les Soviétiques disaient «Dans la Pravda il n'y a pas de vérité, et dans les Izvestia (Известия — Nouvelles) il n'y a pas de nouvelles» — une critique ironique de la censure officielle." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les «Izvestia» et la tradition de la presse soviétique", "content": "La presse soviétique avait une rhétorique bien particulière : chaque phrase était pesée, les mots codifiés. Les lecteurs apprirent à «lire entre les lignes» pour déduire la vérité des non-dits. Cette habitude culturelle existe encore : les Russes ont une tradition de lecture critique des médias, cherchant le sous-texte. Ironie historique : «Pravda» (vérité) et «Izvestia» (nouvelles) — les deux grands journaux soviétiques — donnèrent naissance au dicton sur l'absence de vérité et de vraies nouvelles dans la presse officielle." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Слухами земля полнится.", "pronunciation": "Slóukhami zimlyá pólnitsa", "translation": "Les rumeurs font le tour du monde. / Les bruits courent.", "usage": "Proverbe russe sur la rapidité des rumeurs. Équivalent de «les murs ont des oreilles» ou «les bruits courent». Utilisé quand une information non-vérifiée circule. «Слух» (слухи au pluriel) = rumeur, ouïe-dire.", "example": "— Ты слышал, что директор уходит? — Слухами земля полнится, не знаю правда ли это. (Tu as entendu que le directeur part ? — Les bruits courent, je ne sais pas si c'est vrai.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Moscou — Le TASS et les rédactions historiques", "subtitle": "Москва — медийная столица России", "content": "Moscou abrite les principaux médias russes. L'agence TASS (ТАСС), fondée en 1904, est la plus ancienne agence de presse russe, comparable à l'AFP. Ses locaux sont dans le centre de Moscou, près du Kremlin. La rue Bakhrouchine abrite des rédactions historiques. Le Centre de presse du Kremlin et les studios des chaînes Pervyi Kanal et Rossiya sont ouverts aux journalistes accrédités. Pour comprendre la Russie médiatique, RFI et France 24 diffusent en russe." }
+      },
+      "quiz": [
+        { "q": "Attention au faux ami ! «Журнал» en russe signifie :", "opts": ["Journal quotidien", "Magazine / revue", "Journal intime", "Dictionnaire"], "ans": 1, "exp": "«Журнал» = magazine / revue, PAS journal quotidien ! Pour «journal» on dit «газета». Confusion classique pour les francophones ! «Дневник» = journal intime." },
+        { "q": "Comment dit-on «je ne suis pas d'accord» en russe ?", "opts": ["Я согласен.", "Это неважно.", "Я не согласен.", "По-моему..."], "ans": 2, "exp": "«Я не согласен» (masc.) / «Я не согласна» (fém.) = je ne suis pas d'accord. «Согласен/согласна» vient de «согласие» (accord, consensus)." },
+        { "q": "Que signifie l'abréviation «СМИ» ?", "opts": ["Service médiatique international", "Moyens de communication de masse / médias", "Société des médias russes", "Source de mauvaises informations"], "ans": 1, "exp": "«СМИ» = Средства Массовой Информации = Moyens d'information de masse = les médias. C'est l'équivalent russe de «mass media» ou «MMI»." },
+        { "q": "Comment dit-on «les informations / actualités» en russe ?", "opts": ["статьи", "журналы", "новости", "газеты"], "ans": 2, "exp": "«Новости» = les informations / actualités. Le mot vient de «новый» (nouveau) — les «nouvelles». «Что нового ?» = Quoi de neuf ?" },
+        { "q": "La Pravda (Правда) signifie littéralement :", "opts": ["Liberté", "Vérité", "Justice", "Peuple"], "ans": 1, "exp": "«Правда» = vérité. Le célèbre journal officiel soviétique portait ce nom ironique — les Soviétiques disaient que «dans la Pravda il n'y a pas de vérité» pour critiquer la censure." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Les Réseaux Sociaux et Internet",
+      "titleRu": "Социальные сети и интернет",
+      "level": "A2",
+      "grammar": {
+        "title": "Le vocabulaire numérique — verbes et expressions du web",
+        "titleRu": "Интернет и цифровой мир",
+        "intro": "La Russie a son propre écosystème numérique : VKontakte (réseau social), Yandex (moteur de recherche), Telegram. Pour naviguer dans ce monde digital, apprenez les verbes clés et le vocabulaire du numérique, souvent emprunté à l'anglais.",
+        "sections": [
+          {
+            "title": "Verbes du numérique",
+            "content": "загружать — télécharger (upload) / charger\nскачивать — télécharger (download)\nпостить / публиковать — poster / publier\nлайкать — liker / aimer\nкомментировать — commenter\nподписываться — s'abonner\nотписываться — se désabonner\nшарить / делиться — partager"
+          },
+          {
+            "title": "Vocabulaire des réseaux sociaux",
+            "content": "аккаунт / профиль — compte / profil\nподписчик — abonné / follower\nлайк — like / j'aime\nкомментарий — commentaire\nстрим / прямой эфир — stream / live\nхэштег — hashtag\nмем — mème\nвирусный — viral"
+          },
+          {
+            "title": "Naviguer sur internet",
+            "content": "Введите пароль. — Entrez le mot de passe.\nПоищи в интернете. — Cherche sur internet.\nЯ нашёл(нашла) в гугле. — J'ai trouvé sur Google.\nСайт не работает. — Le site ne fonctionne pas.\nПодключиться к Wi-Fi. — Se connecter au Wi-Fi.\nСкопировать ссылку. — Copier le lien."
+          },
+          {
+            "title": "Les plateformes russes",
+            "content": "ВКонтакте (ВК) — VKontakte (réseau social russe)\nЯндекс — Yandex (moteur de recherche russe)\nОдноклассники — Odnoklassniki (réseau social des seniors)\nТелеграм — Telegram (messagerie)\nРутуб — Rutube (plateforme vidéo russe)"
+          }
+        ],
+        "rule": "💡 Le russe a «russifié» beaucoup de termes anglais du numérique : лайкать (liker), постить (poster), гуглить (googler), скринить (screenshotter). Ces verbes se conjuguent normalement (-ать / -ить). L'anglicisme est parfois concurrent du terme russe officiel."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire numérique — un mix de russe authentique et d'anglicismes russifiés !",
+        "note": "⚠️ «Гуглить» (googler) est un verbe inventé à partir du nom «Google» — typique de la créativité linguistique russe pour intégrer les néologismes technologiques.",
+        "words": [
+          { "fr": "интернет", "ru_pron": "intérnit", "meaning": "internet" },
+          { "fr": "сайт", "ru_pron": "saït", "meaning": "le site web" },
+          { "fr": "подписчик", "ru_pron": "patpístchik", "meaning": "l'abonné / le follower" },
+          { "fr": "загружать", "ru_pron": "zagroujját'", "meaning": "télécharger / charger" },
+          { "fr": "пароль", "ru_pron": "paról'", "meaning": "le mot de passe" },
+          { "fr": "ссылка", "ru_pron": "ssýlka", "meaning": "le lien" },
+          { "fr": "мем", "ru_pron": "myém", "meaning": "le mème" },
+          { "fr": "вирусный", "ru_pron": "virousny", "meaning": "viral" },
+          { "fr": "хэштег", "ru_pron": "khéchtég", "meaning": "le hashtag" },
+          { "fr": "блогер", "ru_pron": "blóguir", "meaning": "le blogueur / l'influenceur" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "интернет", "gender": "m", "ru": "internet", "ru_pron": "intérnit", "example_fr": "У тебя есть интернет дома?", "example_ru": "Tu as internet chez toi ?", "level": "A2" },
+        { "fr": "подписчик", "gender": "m", "ru": "l'abonné / le follower", "ru_pron": "patpístchik", "example_fr": "У неё миллион подписчиков.", "example_ru": "Elle a un million d'abonnés.", "level": "A2" },
+        { "fr": "лайкать", "gender": null, "ru": "liker / mettre j'aime", "ru_pron": "laïkat'", "example_fr": "Не забудь лайкнуть видео!", "example_ru": "N'oublie pas de liker la vidéo !", "level": "A2" },
+        { "fr": "комментарий", "gender": "m", "ru": "le commentaire", "ru_pron": "kamiritáriy", "example_fr": "Она написала комментарий.", "example_ru": "Elle a écrit un commentaire.", "level": "A2" },
+        { "fr": "подписываться", "gender": null, "ru": "s'abonner", "ru_pron": "patpísyvat'sa", "example_fr": "Подпишитесь на наш канал!", "example_ru": "Abonnez-vous à notre chaîne !", "level": "A2" },
+        { "fr": "загружать", "gender": null, "ru": "télécharger / charger", "ru_pron": "zagroujját'", "example_fr": "Я загружаю фото.", "example_ru": "Je télécharge des photos.", "level": "A2" },
+        { "fr": "пароль", "gender": "m", "ru": "le mot de passe", "ru_pron": "paról'", "example_fr": "Я забыл пароль.", "example_ru": "J'ai oublié le mot de passe.", "level": "A2" },
+        { "fr": "блогер", "gender": "m", "ru": "le blogueur / l'influenceur", "ru_pron": "blóguir", "example_fr": "Он известный блогер.", "example_ru": "C'est un blogueur célèbre.", "level": "A2" },
+        { "fr": "гуглить", "gender": null, "ru": "googler / chercher sur Google", "ru_pron": "gouglit'", "example_fr": "Погугли это слово!", "example_ru": "Googlette ce mot !", "level": "A2" },
+        { "fr": "Wi-Fi", "gender": "m", "ru": "le Wi-Fi", "ru_pron": "vaïfaï", "example_fr": "Здесь есть бесплатный Wi-Fi?", "example_ru": "Il y a du Wi-Fi gratuit ici ?", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "аккаунт", "fr_pron": "akáount", "ru": "account (compte)", "ru_pron": "account", "note": "«Аккаунт» est une translittération directe de l'anglais «account». Le russe utilise aussi «профиль» (profil). Ces anglicismes numériques envahissent rapidement la langue russe quotidienne." },
+        { "fr": "блог", "fr_pron": "blog", "ru": "blog", "ru_pron": "blog", "note": "«Блог» est identique au français «blog» (lui-même venu de l'anglais «weblog»). En russe, «блогосфера» (blogosphère) et «блогер» (blogueur) suivent la même logique de russification." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Pavel Dourov (né en 1984)", "subtitle": "Fondateur de VKontakte et Telegram", "content": "Pavel Dourov (Павел Дуров) est le fondateur de VKontakte (VK), le Facebook russe, créé en 2006. Contraint de céder VK en 2014 sous pression politique, il fonda Telegram — application de messagerie utilisée par plus de 900 millions de personnes dans le monde. Telegram est particulièrement populaire en Russie, Ukraine et dans les pays arabes pour sa réputation de confidentialité. Dourov vit désormais à Dubaï et est considéré comme l'un des entrepreneurs tech les plus influents du monde." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Runet — le segment russe d'internet", "content": "Le «Runet» (Рунет) désigne le segment russophone d'internet. La Russie est l'un des pays avec le plus grand nombre d'utilisateurs d'internet en Europe (plus de 100 millions). Yandex (Яндекс), fondé en 1997, domine la recherche en ligne en Russie avec ~60% de parts de marché (contre ~40% pour Google). VKontakte (ВКонтакте), lancé en 2006, compte plus de 100 millions d'utilisateurs actifs mensuels, essentiellement russophones." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Ролики» — les vidéos virales russes", "content": "Le terme «ролик» (diminutif de «rouleau») désigne en russe moderne une courte vidéo en ligne. La Russie est l'un des pays les plus actifs sur YouTube par habitant. Les мемы (mèmes) russes ont leurs propres codes culturels — souvent basés sur des films soviétiques, des chansons populaires ou des personnages politiques. L'humour russe en ligne mélange absurde et références historiques. «Пабло Эскобар» attendant est devenu un mème universel, mais sa variante russe avec des personnages soviétiques est particulièrement populaire." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Не всё в интернете правда.", "pronunciation": "Nie vsyo v internétié právda", "translation": "Tout ce qui est sur internet n'est pas vrai.", "usage": "Expression contemporaine souvent utilisée avec humour pour mettre en garde contre la désinformation en ligne. Variante populaire : «Авраам Линкольн сказал: не верьте всему, что вы читаете в интернете» — parodie de fausses citations attribuées à des personnages historiques.", "example": "— Я прочитал, что кофе вреден! — Не всё в интернете правда... (J'ai lu que le café est mauvais pour la santé ! — Tout ce qui est sur internet n'est pas vrai...)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Innopolis — La Silicon Valley russe", "subtitle": "Иннополис — Татарстан, Россия", "content": "Innopolis (Иннополис) est une ville technologique fondée en 2012 près de Kazan, en Tatarstan. Construite de zéro, elle abrite une université de technologie, des startups et des filiales de grandes entreprises russes. C'est la tentative russe de créer un écosystème tech autonome. Yandex, Mail.ru, Kaspersky Lab y sont présents. Skolkovo (Сколково), près de Moscou, est un autre pôle tech soutenu par l'État. La Russie investit massivement dans la souveraineté numérique." }
+      },
+      "quiz": [
+        { "q": "Quel est le grand réseau social russe équivalent à Facebook ?", "opts": ["Yandex", "VKontakte (ВК)", "Rutube", "Odnoklassniki"], "ans": 1, "exp": "VKontakte (ВКонтакте), souvent abrégé ВК, est le principal réseau social russe, fondé en 2006 par Pavel Dourov. Il compte plus de 100 millions d'utilisateurs actifs mensuels." },
+        { "q": "Comment dit-on «s'abonner» (à une chaîne) en russe ?", "opts": ["лайкать", "загружать", "подписываться", "делиться"], "ans": 2, "exp": "«Подписываться» = s'abonner. Le substantif «подписчик» = abonné / follower. «Подпишитесь на наш канал !» = Abonnez-vous à notre chaîne !" },
+        { "q": "Que signifie «гуглить» en russe ?", "opts": ["Jouer", "Googler / chercher sur internet", "Télécharger", "Partager"], "ans": 1, "exp": "«Гуглить» = googler, chercher sur Google. C'est un verbe russe créé à partir du nom «Google» — exemple typique de la créativité de la langue russe pour intégrer les néologismes tech." },
+        { "q": "Quel moteur de recherche domine le marché russe ?", "opts": ["Google", "Bing", "Яндекс (Yandex)", "Mail.ru"], "ans": 2, "exp": "Яндекс (Yandex) est le moteur de recherche dominant en Russie avec environ 60% de parts de marché. C'est l'équivalent russe de Google, également présent dans la navigation, la musique et les services locaux." },
+        { "q": "Comment dit-on «le mot de passe» en russe ?", "opts": ["ссылка", "аккаунт", "пароль", "подписчик"], "ans": 2, "exp": "«Пароль» = mot de passe. Ce mot russe (qui vient du français «parole» / «mot») était déjà utilisé dans un contexte militaire avant l'ère numérique. «Введите пароль» = Entrez le mot de passe." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Les Arts Plastiques et la Peinture",
+      "titleRu": "Изобразительное искусство",
+      "level": "A2",
+      "grammar": {
+        "title": "Décrire une œuvre d'art — adjectifs et structures",
+        "titleRu": "Описание произведения искусства",
+        "intro": "La Russie possède l'une des plus grandes collections d'art au monde (musée de l'Ermitage, galerie Tretiakov). Pour apprécier et parler d'art en russe, maîtrisez les adjectifs descriptifs et les structures pour exprimer vos impressions.",
+        "sections": [
+          {
+            "title": "Vocabulaire artistique de base",
+            "content": "картина — tableau / peinture\nскульптура — sculpture\nвыставка — exposition\nмузей — musée\nгалерея — galerie\nхудожник — artiste peintre\nмастер — maître / artisan\nшедевр — chef-d'œuvre\nэпоха — époque"
+          },
+          {
+            "title": "Décrire une œuvre",
+            "content": "На картине изображён(а)... — Sur le tableau est représenté(e)...\nЭта картина написана в... — Ce tableau a été peint en...\nАвтор этой картины — ... — L'auteur de ce tableau est...\nЦвета очень яркие. — Les couleurs sont très vives.\nТёмные тона. — Les tons sombres.\nДетали очень точные. — Les détails sont très précis."
+          },
+          {
+            "title": "Adjectifs pour décrire l'art",
+            "content": "красивый — beau / joli\nвпечатляющий — impressionnant\nзагадочный — mystérieux / énigmatique\nреалистичный — réaliste\nабстрактный — abstrait\nсовременный — moderne / contemporain\nклассический — classique\nуникальный — unique"
+          },
+          {
+            "title": "Au musée",
+            "content": "Где находится...? — Où se trouve... ?\nСколько стоит билет? — Combien coûte le billet ?\nМожно фотографировать? — Peut-on prendre des photos ?\nЭто оригинал или копия? — C'est un original ou une copie ?\nКогда это было создано? — Quand cela a-t-il été créé ?\nЭто мой любимый зал. — C'est ma salle préférée."
+          }
+        ],
+        "rule": "💡 En russe, pour dire qu'une œuvre «a été peinte», utilisez le passif court : «Картина написана Репиным» (Le tableau a été peint par Répine). «Написан» s'accorde en genre avec le nom de l'œuvre."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire artistique russe — des mots souvent proches du français grâce aux influences européennes !",
+        "note": "⚠️ «Художник» (artiste peintre) ne ressemble pas à «artiste» — c'est un mot purement slave. «Искусство» (art) vient de «искусный» (habile, expert).",
+        "words": [
+          { "fr": "искусство", "ru_pron": "iskousstva", "meaning": "l'art" },
+          { "fr": "картина", "ru_pron": "kartína", "meaning": "le tableau / la peinture" },
+          { "fr": "художник", "ru_pron": "khoudójnik", "meaning": "l'artiste peintre" },
+          { "fr": "выставка", "ru_pron": "výstavka", "meaning": "l'exposition" },
+          { "fr": "галерея", "ru_pron": "galiriya", "meaning": "la galerie" },
+          { "fr": "портрет", "ru_pron": "partrét", "meaning": "le portrait" },
+          { "fr": "пейзаж", "ru_pron": "piyizáj", "meaning": "le paysage" },
+          { "fr": "натюрморт", "ru_pron": "natyourmort", "meaning": "la nature morte" },
+          { "fr": "рамка", "ru_pron": "rámka", "meaning": "le cadre" },
+          { "fr": "мольберт", "ru_pron": "mal'byért", "meaning": "le chevalet" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "искусство", "gender": "n", "ru": "l'art", "ru_pron": "iskousstva", "example_fr": "Русское искусство очень богатое.", "example_ru": "L'art russe est très riche.", "level": "A2" },
+        { "fr": "картина", "gender": "f", "ru": "le tableau / la peinture", "ru_pron": "kartína", "example_fr": "Эта картина в Эрмитаже.", "example_ru": "Ce tableau est à l'Ermitage.", "level": "A2" },
+        { "fr": "художник", "gender": "m", "ru": "l'artiste peintre", "ru_pron": "khoudójnik", "example_fr": "Репин — известный русский художник.", "example_ru": "Répine est un célèbre peintre russe.", "level": "A2" },
+        { "fr": "выставка", "gender": "f", "ru": "l'exposition", "ru_pron": "výstavka", "example_fr": "Мы идём на выставку в субботу.", "example_ru": "Nous allons à l'exposition samedi.", "level": "A2" },
+        { "fr": "скульптура", "gender": "f", "ru": "la sculpture", "ru_pron": "skoul'ptúra", "example_fr": "Эта скульптура очень красивая.", "example_ru": "Cette sculpture est très belle.", "level": "A2" },
+        { "fr": "портрет", "gender": "m", "ru": "le portrait", "ru_pron": "partrét", "example_fr": "Он нарисовал мой портрет.", "example_ru": "Il a fait mon portrait.", "level": "A2" },
+        { "fr": "пейзаж", "gender": "m", "ru": "le paysage", "ru_pron": "piyizáj", "example_fr": "Этот пейзаж очень красивый.", "example_ru": "Ce paysage est très beau.", "level": "A2" },
+        { "fr": "натюрморт", "gender": "m", "ru": "la nature morte", "ru_pron": "natyourmort", "example_fr": "Натюрморт с фруктами очень красочный.", "example_ru": "La nature morte avec des fruits est très colorée.", "level": "A2" },
+        { "fr": "шедевр", "gender": "m", "ru": "le chef-d'œuvre", "ru_pron": "chiédivr", "example_fr": "Это абсолютный шедевр!", "example_ru": "C'est un chef-d'œuvre absolu !", "level": "A2" },
+        { "fr": "коллекция", "gender": "f", "ru": "la collection", "ru_pron": "kalyéktsiya", "example_fr": "Коллекция Эрмитажа огромная.", "example_ru": "La collection de l'Ermitage est immense.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "галерея", "fr_pron": "galiriya", "ru": "galerie", "ru_pron": "galerie", "note": "«Галерея» est identique à «galerie», même origine italienne «galleria». Les Romanov importèrent le modèle des galeries d'art européennes au XVIIIe siècle, y compris le vocabulaire." },
+        { "fr": "портрет", "fr_pron": "partrét", "ru": "portrait", "ru_pron": "portrait", "note": "«Портрет» vient du français «portrait», lui-même de l'italien «ritratto». La tradition du portrait de cour fut importée en Russie par Pierre le Grand qui invita des peintres européens." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Ilya Répine (1844–1930)", "subtitle": "Maître du réalisme russe — Les Bateliers de la Volga", "content": "Ilya Répine (Илья Репин) est le plus grand peintre réaliste russe. Son tableau «Les Bateliers de la Volga» (1873) fit sensation en Europe — il montrait la misère sociale sans idéalisation. «Ivan le Terrible et son fils Ivan» (1885) représente un tzar qui vient de tuer son propre fils — un chef-d'œuvre d'expression psychologique. Répine fut l'ami de Tolstoï, dont il fit de nombreux portraits. Il passa ses dernières années en Finlande, dans sa maison «Pénates»." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'Ermitage — Le plus grand musée du monde", "content": "Le musée de l'Ermitage (Эрмитаж) de Saint-Pétersbourg est l'un des plus grands et des plus riches musées du monde. Fondé en 1764 par Catherine la Grande, il abrite plus de 3 millions d'œuvres. La collection comprend des Léonard de Vinci, Rembrandt, Titien, Gauguin, Matisse, Picasso. Les 5 bâtiments du complexe, dont le Palais d'Hiver des tsars, s'étendent sur plus de 24 km de salles. Il faudrait 15 ans pour voir chaque œuvre 1 minute !" },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les Peredvijniki — l'art au service du peuple", "content": "Les «Peredvijniki» (Передвижники — «Ambulants» ou «Itinérants») étaient un groupe de peintres russes réalistes du XIXe siècle qui refusaient l'académisme officiel. Ils organisaient des expositions «ambulantes» dans toute la Russie pour apporter l'art au peuple — d'où leur nom. Répine, Levitan, Sourikov en faisaient partie. Leur vision : l'art doit montrer la réalité sociale, la nature russe, la vie du peuple. Ce mouvement est unique dans l'histoire de l'art mondial." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Красота спасёт мир.", "pronunciation": "Krasatá spasiót mir", "translation": "La beauté sauvera le monde.", "usage": "Citation célèbre du roman «L'Idiot» de Dostoïevski (1869). Devenue l'une des phrases les plus connues de la littérature russe et mondiale. Souvent citée dans les discussions sur l'art, l'esthétique et le rôle de la culture dans la société.", "example": "— Зачем нам нужно искусство? — Красота спасёт мир, как сказал Достоевский. (À quoi sert l'art ? — La beauté sauvera le monde, comme disait Dostoïevski.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Galerie Tretiakov — Moscou", "subtitle": "Третьяковская галерея — Русское искусство", "content": "La Galerie Tretiakov (Третьяковская галерея) à Moscou est le musée d'art russe le plus important au monde. Fondée en 1856 par le marchand Pavel Tretiakov, elle abrite plus de 180 000 œuvres d'art russe du XIe siècle à nos jours. Le tableau «La Trinité» d'Andreï Roublev et les œuvres de Répine y sont incontournables. La façade néo-russe du bâtiment est elle-même une œuvre d'art. Le quartier de Lavrouchinski Pereoulok mérite la visite." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «l'artiste peintre» en russe ?", "opts": ["артист", "художник", "скульптор", "мастер"], "ans": 1, "exp": "«Художник» = artiste peintre. Ce mot russe n'a pas de ressemblance avec «artiste» — il vient de «художество» (l'art pictural). «Артист» en russe désigne plutôt un artiste de scène (acteur, musicien)." },
+        { "q": "Que signifie la citation de Dostoïevski «Красота спасёт мир» ?", "opts": ["La beauté vient du cœur.", "La beauté sauvera le monde.", "L'art n'a pas de prix.", "La Russie est belle."], "ans": 1, "exp": "«Красота спасёт мир» = la beauté sauvera le monde. Citation du roman «L'Idiot» de Dostoïevski, l'une des phrases les plus célèbres de la littérature russe." },
+        { "q": "Quel musée de Saint-Pétersbourg est l'un des plus grands du monde ?", "opts": ["Galerie Tretiakov", "Musée Pouchkine", "L'Ermitage", "Musée Russe"], "ans": 2, "exp": "L'Эрмитаж (Ermitage) de Saint-Pétersbourg, fondé en 1764 par Catherine la Grande, abrite plus de 3 millions d'œuvres. La Galerie Tretiakov, elle, est à Moscou et se spécialise dans l'art russe." },
+        { "q": "Comment dit-on «l'exposition» en russe ?", "opts": ["галерея", "коллекция", "выставка", "музей"], "ans": 2, "exp": "«Выставка» = l'exposition. De «выставлять» (exposer, mettre en avant). «Галерея» = galerie, «музей» = musée, «коллекция» = collection." },
+        { "q": "Qui étaient les «Peredvijniki» (Передвижники) ?", "opts": ["Des musiciens ambulants", "Des peintres réalistes qui portaient l'art au peuple", "Des sculpteurs de la cour impériale", "Des architectes soviétiques"], "ans": 1, "exp": "Les Передвижники (Ambulants / Itinérants) étaient des peintres réalistes du XIXe siècle qui organisaient des expositions itinérantes pour apporter l'art au peuple russe, en dehors de l'académisme officiel." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Le Théâtre et la Danse",
+      "titleRu": "Театр и танец",
+      "level": "A2",
+      "grammar": {
+        "title": "Le théâtre — exprimer ses émotions et le futur proche",
+        "titleRu": "Театральные впечатления",
+        "intro": "Le théâtre et la danse classique sont au cœur de la culture russe. Pour parler d'un spectacle et planifier une sortie, vous aurez besoin du futur (aller + infinitif) et d'expressions pour décrire vos émotions après un spectacle.",
+        "sections": [
+          {
+            "title": "Planifier une sortie au théâtre — futur proche",
+            "content": "Давай пойдём в театр! — Allons au théâtre !\nЯ хочу пойти на балет. — Je veux aller au ballet.\nМы идём на спектакль в пятницу. — Nous allons au spectacle vendredi.\nТы хочешь пойти со мной? — Tu veux venir avec moi ?\nЯ закажу билеты онлайн. — Je commanderai les billets en ligne."
+          },
+          {
+            "title": "Au spectacle",
+            "content": "Спектакль начинается в 19:00. — Le spectacle commence à 19h.\nАнтракт — l'entracte\nЗанавес — le rideau (de scène)\nПрограмка — le programme\nМесто в партере — place au parterre\nЯрус — le balcon / la galerie\nАплодисменты — les applaudissements"
+          },
+          {
+            "title": "Exprimer ses émotions après un spectacle",
+            "content": "Я был(а) потрясён(потрясена). — J'ai été bouleversé(e).\nЭто было незабываемо! — C'était inoubliable !\nЯ не мог(ла) сдержать слёзы. — Je ne pouvais retenir mes larmes.\nТанец был великолепным. — La danse était magnifique.\nИгра актёров потрясающая. — Le jeu des acteurs est époustouflant.\nЯ ничего не понял(а). — Je n'ai rien compris."
+          },
+          {
+            "title": "Les formes de spectacle",
+            "content": "балет — ballet\nопера — opéra\nдраматический театр — théâtre dramatique\nмюзикл — comédie musicale\nцирк — cirque\nкукольный театр — théâtre de marionnettes\nимпровизация — improvisation\nконтемпорэнный танец — danse contemporaine"
+          }
+        ],
+        "rule": "💡 Pour dire «allons...» en russe, utilisez «Давай + infinitif» (informel singulier) ou «Давайте + infinitif» (formel / pluriel) : «Давай пойдём в театр !» (Allons au théâtre !) = invitation décontractée très courante."
+      },
+      "pronunciation": {
+        "intro": "Le vocabulaire du spectacle vivant russe — certains mots viennent du français !",
+        "note": "⚠️ «Занавес» (rideau de scène) et «антракт» (entracte) viennent du français. «Кулисы» (les coulisses) aussi ! Le théâtre français a beaucoup influencé la terminologie scénique russe.",
+        "words": [
+          { "fr": "театр", "ru_pron": "tiátr", "meaning": "le théâtre" },
+          { "fr": "балет", "ru_pron": "balyét", "meaning": "le ballet" },
+          { "fr": "спектакль", "ru_pron": "spiktákl'", "meaning": "le spectacle" },
+          { "fr": "антракт", "ru_pron": "antrákt", "meaning": "l'entracte" },
+          { "fr": "занавес", "ru_pron": "zánavis", "meaning": "le rideau de scène" },
+          { "fr": "балерина", "ru_pron": "balirina", "meaning": "la ballerine" },
+          { "fr": "труппа", "ru_pron": "troúpa", "meaning": "la troupe" },
+          { "fr": "репетиция", "ru_pron": "ripitítsiya", "meaning": "la répétition" },
+          { "fr": "аплодировать", "ru_pron": "aplodirovat'", "meaning": "applaudir" },
+          { "fr": "кулисы", "ru_pron": "koulísy", "meaning": "les coulisses" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "театр", "gender": "m", "ru": "le théâtre", "ru_pron": "tiátr", "example_fr": "Большой театр — самый известный в России.", "example_ru": "Le Bolchoï est le plus célèbre en Russie.", "level": "A2" },
+        { "fr": "спектакль", "gender": "m", "ru": "le spectacle", "ru_pron": "spiktákl'", "example_fr": "Спектакль начинается в восемь.", "example_ru": "Le spectacle commence à huit heures.", "level": "A2" },
+        { "fr": "балерина", "gender": "f", "ru": "la ballerine", "ru_pron": "balirina", "example_fr": "Она мечтает стать балериной.", "example_ru": "Elle rêve de devenir ballerine.", "level": "A2" },
+        { "fr": "антракт", "gender": "m", "ru": "l'entracte", "ru_pron": "antrákt", "example_fr": "В антракте мы пьём шампанское.", "example_ru": "Pendant l'entracte nous buvons du champagne.", "level": "A2" },
+        { "fr": "репетиция", "gender": "f", "ru": "la répétition", "ru_pron": "ripitítsiya", "example_fr": "Репетиция каждый день.", "example_ru": "La répétition a lieu chaque jour.", "level": "A2" },
+        { "fr": "аплодировать", "gender": null, "ru": "applaudir", "ru_pron": "aplodirovat'", "example_fr": "Зрители долго аплодировали.", "example_ru": "Les spectateurs ont longuement applaudi.", "level": "A2" },
+        { "fr": "труппа", "gender": "f", "ru": "la troupe (de théâtre)", "ru_pron": "troúpa", "example_fr": "Труппа Большого театра очень известная.", "example_ru": "La troupe du Bolchoï est très célèbre.", "level": "A2" },
+        { "fr": "занавес", "gender": "m", "ru": "le rideau (de scène)", "ru_pron": "zánavis", "example_fr": "Занавес открывается.", "example_ru": "Le rideau s'ouvre.", "level": "A2" },
+        { "fr": "кулисы", "gender": "pl", "ru": "les coulisses", "ru_pron": "koulísy", "example_fr": "За кулисами актёры готовятся.", "example_ru": "Dans les coulisses, les acteurs se préparent.", "level": "A2" },
+        { "fr": "мюзикл", "gender": "m", "ru": "la comédie musicale", "ru_pron": "myouzikl", "example_fr": "Я люблю смотреть мюзиклы.", "example_ru": "J'aime regarder les comédies musicales.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "антракт", "fr_pron": "antrákt", "ru": "entracte", "ru_pron": "entracte", "note": "«Антракт» est directement emprunté au français «entracte». Avec «кулисы» (coulisses), «занавес» (issu de l'allemand), le vocabulaire scénique russe est très marqué par les influences européennes du XVIIIe siècle." },
+        { "fr": "балерина", "fr_pron": "balirina", "ru": "ballerine", "ru_pron": "ballerine", "note": "«Балерина» vient de l'italien «ballerina». Ironie : le mot est d'origine italienne, mais la Russie est devenue la capitale mondiale du ballet classique !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Galina Oulanova (1910–1998)", "subtitle": "La plus grande ballerine russe du XXe siècle", "content": "Galina Sergueïevna Oulanova est considérée comme la plus grande ballerine russe de tous les temps. Étoile du Kirov puis du Bolchoï, elle incarna Juliette et Giselle avec une grâce et une profondeur émotionnelle incomparables. Picasso la dessina, Charlie Chaplin la regarda danser en pleurant. Elle dansa jusqu'à 50 ans et fut ensuite maître de ballet au Bolchoï. La statue de bronze devant le Théâtre Mariinsky lui rend hommage." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le ballet russe — de la cour impériale à l'avant-garde", "content": "Le ballet fut introduit en Russie par Pierre le Grand au XVIIe siècle. Au XIXe siècle, les ballets de Tchaïkovski (Lac des Cygnes, 1877 ; Belle au Bois Dormant, 1890 ; Casse-Noisette, 1892) élevèrent la forme à un sommet artistique. Serge de Diaghilev et ses «Ballets Russes» (Paris, 1909-1929) révolutionnèrent l'art mondial en unissant Stravinski, Picasso, Matisse, Nijinski. Cette fusion des arts continue d'influencer la création contemporaine." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le KVN — humour et improvisation à la russe", "content": "Le КВН (Клуб Веселых и Находчивых — Club des Joyeux et des Débrouillards) est un format télévisé de compétition humoristique créé en 1961, unique en son genre. Des équipes universitaires s'affrontent avec des sketches, chansons et improvisations préparés. C'est un véritable ascenseur social — de nombreux hommes politiques, artistes et hommes d'affaires russes ont commencé au KVN. 60 ans après sa création, il réunit encore des millions de téléspectateurs." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Ни пуха ни пера!", "pronunciation": "Ni poúkha ni pirá", "translation": "Bonne chance ! / Merde ! (au théâtre)", "usage": "L'équivalent russe du «merde !» théâtral français, qu'on dit aux acteurs avant un spectacle. Littéralement «ni duvet ni plume». La réponse obligatoire est «К чёрту!» (Au diable !). Utilisé aussi avant un examen ou toute épreuve importante.", "example": "— Ты готов к спектаклю? — Ни пуха ни пера! — К чёрту! (Tu es prêt pour le spectacle ? — Merde ! — Au diable !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Théâtre Mariinsky — Saint-Pétersbourg", "subtitle": "Мариинский театр — жемчужина русской культуры", "content": "Le Théâtre Mariinsky (Мариинский театр) de Saint-Pétersbourg est l'un des opéras les plus prestigieux du monde. Fondé en 1783, il fut le cadre des premières mondiales des grands ballets de Tchaïkovski. Aujourd'hui dirigé par Valery Guergiev, il accueille 1 625 spectateurs dans sa salle principale, aux dorures et velours bleus. Le nouveau bâtiment Mariinsky II (2013) est adjacent. Les représentations pendant les Nuits Blanches (juin) sont une expérience unique." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «allons au théâtre» en russe ?", "opts": ["Давай пойдём в театр!", "Мы идём театр.", "Пойти в театр!", "Ходить в театр!"], "ans": 0, "exp": "«Давай пойдём в театр !» = allons au théâtre ! La structure «Давай + infinitif» est la façon informelle de proposer une activité. «Давайте» est la version formelle ou plurielle." },
+        { "q": "Que signifie «Ни пуха ни пера !» ?", "opts": ["Bonne nuit !", "Merde ! / Bonne chance ! (avant un spectacle)", "Au revoir !", "Félicitations !"], "ans": 1, "exp": "«Ни пуха ни пера !» est l'équivalent russe du «merde !» théâtral. On répond «К чёрту !» (Au diable !). Cette superstition théâtrale est universelle — en France «merde», en Russie «ни пуха ни пера»." },
+        { "q": "Comment dit-on «l'entracte» en russe ?", "opts": ["занавес", "антракт", "кулисы", "партер"], "ans": 1, "exp": "«Антракт» = l'entracte, directement emprunté au français. Le vocabulaire théâtral russe a conservé de nombreux termes français du XVIIIe siècle. «Кулисы» = coulisses (aussi du français !)." },
+        { "q": "Qui sont les «Балеты Русские» (Ballets Russes) associés à ?", "opts": ["Tchaïkovski seul", "Diaghilev, avec Stravinski et Picasso", "Le Bolchoï uniquement", "L'URSS soviétique"], "ans": 1, "exp": "Les Ballets Russes de Serge de Diaghilev (Paris, 1909-1929) ont révolutionné l'art en unissant Stravinski (musique), Picasso et Matisse (décors), Nijinski (chorégraphie). Une fusion artistique unique dans l'histoire." },
+        { "q": "Comment exprime-t-on «j'ai été bouleversé(e)» en russe ?", "opts": ["Я ничего не понял.", "Я был(а) потрясён(потрясена).", "Мне не понравилось.", "Было скучно."], "ans": 1, "exp": "«Я был(а) потрясён / потрясена» = j'ai été bouleversé(e) / ébahi(e). «Потрясающий» = époustouflant, renversant. Le mot vient de «потрясти» (secouer, ébranler)." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "L'Architecture et les Monuments",
+      "titleRu": "Архитектура и достопримечательности",
+      "level": "A2",
+      "grammar": {
+        "title": "Décrire les lieux et l'architecture — le cas instrumental",
+        "titleRu": "Описание архитектуры",
+        "intro": "La Russie est une mosaïque architecturale extraordinaire : églises à coupoles dorées, palais baroques, constructivisme soviétique et gratte-ciels modernes. Pour décrire un bâtiment ou demander son chemin, maîtrisez le cas instrumental (avec, par) et les prépositions de lieu.",
+        "sections": [
+          {
+            "title": "Vocabulaire architectural",
+            "content": "здание — bâtiment / édifice\nцерковь (f.) — église\nсобор — cathédrale\nмонастырь (m.) — monastère\nкремль (m.) — kremlin (citadelle)\nдворец — palais\nмост — pont\nплощадь (f.) — place (publique)\nулица — rue\nфасад — façade"
+          },
+          {
+            "title": "Décrire un bâtiment",
+            "content": "Это здание построено в... веке. — Ce bâtiment a été construit au...e siècle.\nОно сделано из камня / кирпича. — Il est fait en pierre / en brique.\nКупол золотой / синий. — La coupole est dorée / bleue.\nВысота — ... метров. — La hauteur est de ... mètres.\nЗдание в стиле барокко. — Le bâtiment est de style baroque.\nЭто архитектурный шедевр. — C'est un chef-d'œuvre architectural."
+          },
+          {
+            "title": "Demander et indiquer le chemin",
+            "content": "Где находится...? — Où se trouve... ?\nКак пройти к...? — Comment aller à... ?\nИдите прямо. — Allez tout droit.\nПоверните направо / налево. — Tournez à droite / à gauche.\nЭто рядом с... — C'est près de...\nЭто напротив... — C'est en face de..."
+          },
+          {
+            "title": "L'instrumental pour «fait avec / par»",
+            "content": "Здание построено архитектором. — Le bâtiment a été construit par un architecte.\nСделано из мрамора. — Fait en marbre.\nОкружено парком. — Entouré d'un parc.\nУкрашено золотом. — Décoré d'or.\nСтроить + instrumental = construire avec/par..."
+          }
+        ],
+        "rule": "💡 En russe, pour dire «construit par» ou «fait de», utilisez l'INSTRUMENTAL (6e cas). «Из» + génitif = «fait DE» : из камня (en pierre). «Архитектором» (instrumental) = «par l'architecte». Le matériau utilise «из» + génitif."
+      },
+      "pronunciation": {
+        "intro": "L'architecture russe — des mots souvent longs mais musicaux !",
+        "note": "⚠️ «Достопримечательность» (monument / site touristique) est l'un des mots les plus longs du russe courant — 18 lettres ! Mais il se découpe bien : досто-прим-ечат-ель-ность.",
+        "words": [
+          { "fr": "архитектура", "ru_pron": "arkhitiktoúra", "meaning": "l'architecture" },
+          { "fr": "собор", "ru_pron": "sabór", "meaning": "la cathédrale" },
+          { "fr": "дворец", "ru_pron": "dvaréts", "meaning": "le palais" },
+          { "fr": "купол", "ru_pron": "koúpal", "meaning": "la coupole / le dôme" },
+          { "fr": "монастырь", "ru_pron": "manastýr'", "meaning": "le monastère" },
+          { "fr": "площадь", "ru_pron": "plóchtchad'", "meaning": "la place (publique)" },
+          { "fr": "фасад", "ru_pron": "fasád", "meaning": "la façade" },
+          { "fr": "башня", "ru_pron": "báchnya", "meaning": "la tour" },
+          { "fr": "мост", "ru_pron": "most", "meaning": "le pont" },
+          { "fr": "достопримечательность", "ru_pron": "dastaprimichátil'nast'", "meaning": "le monument / site touristique" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "архитектура", "gender": "f", "ru": "l'architecture", "ru_pron": "arkhitiktoúra", "example_fr": "Русская архитектура очень разнообразная.", "example_ru": "L'architecture russe est très diverse.", "level": "A2" },
+        { "fr": "собор", "gender": "m", "ru": "la cathédrale", "ru_pron": "sabór", "example_fr": "Казанский собор очень красивый.", "example_ru": "La cathédrale de Kazan est très belle.", "level": "A2" },
+        { "fr": "дворец", "gender": "m", "ru": "le palais", "ru_pron": "dvaréts", "example_fr": "Зимний дворец стал Эрмитажем.", "example_ru": "Le Palais d'Hiver est devenu l'Ermitage.", "level": "A2" },
+        { "fr": "купол", "gender": "m", "ru": "la coupole / le dôme", "ru_pron": "koúpal", "example_fr": "Купола Церкви — золотые.", "example_ru": "Les coupoles de l'église sont dorées.", "level": "A2" },
+        { "fr": "площадь", "gender": "f", "ru": "la place publique", "ru_pron": "plóchtchad'", "example_fr": "Красная площадь — сердце Москвы.", "example_ru": "La Place Rouge est le cœur de Moscou.", "level": "A2" },
+        { "fr": "башня", "gender": "f", "ru": "la tour", "ru_pron": "báchnya", "example_fr": "Спасская башня Кремля очень известная.", "example_ru": "La Tour Spasskaïa du Kremlin est très célèbre.", "level": "A2" },
+        { "fr": "мост", "gender": "m", "ru": "le pont", "ru_pron": "most", "example_fr": "Мосты Санкт-Петербурга разводятся ночью.", "example_ru": "Les ponts de Saint-Pétersbourg s'ouvrent la nuit.", "level": "A2" },
+        { "fr": "стиль", "gender": "m", "ru": "le style (architectural)", "ru_pron": "stil'", "example_fr": "Это здание в стиле барокко.", "example_ru": "Ce bâtiment est de style baroque.", "level": "A2" },
+        { "fr": "памятник", "gender": "m", "ru": "le monument / la statue", "ru_pron": "pámyatnik", "example_fr": "Памятник Пушкину стоит на площади.", "example_ru": "La statue de Pouchkine se trouve sur la place.", "level": "A2" },
+        { "fr": "достопримечательность", "gender": "f", "ru": "le site touristique / l'attraction", "ru_pron": "dastaprimichátil'nast'", "example_fr": "Какие главные достопримечательности Москвы?", "example_ru": "Quels sont les principaux sites touristiques de Moscou ?", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "архитектура", "fr_pron": "arkhitiktoúra", "ru": "architecture", "ru_pron": "architecture", "note": "«Архитектура» et «architecture» — même origine grecque «arkhitekton» (chef-constructeur). Comme pour la médecine et les sciences, le vocabulaire savant russe reprend les termes gréco-latins." },
+        { "fr": "фасад", "fr_pron": "fasád", "ru": "façade", "ru_pron": "façade", "note": "«Фасад» vient de l'italien «facciata» (face), via le français. Avec «балкон» (balcon), «колонна» (colonne), «терраса» (terrasse) — l'architecture européenne a laissé son empreinte dans le lexique russe." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Andreï Roublev (vers 1360–1430)", "subtitle": "Maître de l'icône russe — La Trinité", "content": "Andreï Roublev est le plus grand peintre d'icônes russe de tous les temps. Son chef-d'œuvre, «La Trinité» (vers 1411), conservée à la Galerie Tretiakov, est considérée comme l'une des plus belles œuvres de l'art médiéval mondial. Moine orthodoxe, il travailla à Moscou et à Vladimir. Ses icônes se distinguent par la douceur des couleurs, l'harmonie des formes et la profondeur spirituelle. Andrei Tarkovski lui consacra un film épique (1966)." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les «staliniennes» — les gratte-ciels de Staline", "content": "Les «Sept Sœurs» (Семь сестёр) de Moscou sont sept gratte-ciels construits entre 1947 et 1957 sous ordre de Staline. Inspirés des gratte-ciels américains des années 30, ils sont habillés de style gothique soviétique et ornés d'étoiles rouges et d'épis de blé. L'Université d'État de Moscou (MGU) est la plus haute (240m). Ces bâtiments symbolisent la puissance soviétique et dominent encore le panorama de Moscou. Une architecture à nulle autre pareille dans le monde." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Les ponts levants de Saint-Pétersbourg", "content": "Saint-Pétersbourg est construite sur 42 îles reliées par plus de 800 ponts. Les ponts sur la Neva se lèvent chaque nuit de fin avril à novembre pour laisser passer les grands navires. Ce spectacle attire des milliers de touristes. Conséquence historique : des amoureux séparés par le lever d'un pont passaient la nuit sur l'île opposée ! Aujourd'hui, le lever du pont Annontchkov (Аничков мост), avec ses célèbres sculptures de chevaux, est l'une des attractions nocturnes de la ville." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Москва не сразу строилась.", "pronunciation": "Maskvá ni srazou stróilas'", "translation": "Rome ne s'est pas faite en un jour. (Moscou ne s'est pas construite en un jour.)", "usage": "Proverbe russe équivalent au français «Rome ne s'est pas faite en un jour». Utilisé pour encourager la patience face à un grand projet ou une tâche difficile qui prend du temps.", "example": "— Я не могу выучить русский быстро! — Москва не сразу строилась! (Je ne peux pas apprendre le russe rapidement ! — Rome ne s'est pas faite en un jour !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Souzdal — La ville-musée médiévale", "subtitle": "Суздаль — жемчужина Золотого кольца", "content": "Souzdal (Суздаль) est l'une des villes les mieux préservées du Moyen Âge russe, à 200 km de Moscou. Sans industrie, sans gratte-ciels, avec ses 53 églises pour 10 000 habitants, c'est un musée à ciel ouvert. Le Kremlin de Souzdal (XIe siècle), le Monastère Pokrovsky et l'ensemble de bois Kizhi sont des merveilles architecturales. En hiver sous la neige, la ville est une carte postale vivante du passé russe. Classée au patrimoine mondial de l'UNESCO." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «la cathédrale» en russe ?", "opts": ["церковь", "монастырь", "собор", "дворец"], "ans": 2, "exp": "«Собор» = cathédrale (grande église). «Церковь» = église (terme général). «Монастырь» = monastère. «Дворец» = palais. À Moscou : Успенский собор (Cathédrale de l'Assomption) est dans le Kremlin." },
+        { "q": "Que signifie le proverbe «Москва не сразу строилась» ?", "opts": ["Moscou est la plus belle ville.", "Rome ne s'est pas faite en un jour.", "Moscou a une longue histoire.", "La construction coûte cher."], "ans": 1, "exp": "«Москва не сразу строилась» = Moscou ne s'est pas construite en un jour = Rome ne s'est pas faite en un jour. Proverbe d'encouragement à la patience pour les grands projets." },
+        { "q": "Comment dit-on «tournez à droite» en russe ?", "opts": ["Идите прямо.", "Поверните налево.", "Поверните направо.", "Остановитесь."], "ans": 2, "exp": "«Поверните направо» = tournez à droite. «Направо» = à droite (vers la droite). «Налево» = à gauche. «Прямо» = tout droit. Ces mots sont essentiels pour se repérer !" },
+        { "q": "Que sont les «Семь сестёр» (Sept Sœurs) à Moscou ?", "opts": ["Sept cathédrales du Kremlin", "Sept gratte-ciels de l'ère stalinienne", "Sept musées nationaux", "Les sept arrondissements centraux"], "ans": 1, "exp": "Les «Семь сестёр» sont sept gratte-ciels construits entre 1947 et 1957 sous Staline. De style gothique soviétique, ils dominent le panorama de Moscou et symbolisent la puissance de l'URSS." },
+        { "q": "Comment dit-on «le palais» en russe ?", "opts": ["замок", "башня", "дворец", "крепость"], "ans": 2, "exp": "«Дворец» = palais. «Замок» = château (fortifié). «Башня» = tour. «Крепость» = forteresse. Le Palais d'Hiver de Saint-Pétersbourg (Зимний дворец) est devenu le musée de l'Ermitage." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "La Gastronomie et les Traditions Culinaires",
+      "titleRu": "Гастрономия и кулинарные традиции",
+      "level": "A2",
+      "grammar": {
+        "title": "Parler de cuisine — verbes de préparation et recettes",
+        "titleRu": "Готовить и есть по-русски",
+        "intro": "La gastronomie est une part essentielle de la culture russe — et un excellent sujet de conversation ! Pour parler de cuisine, maîtrisez les verbes de préparation (cuire, mélanger, ajouter) et les expressions pour décrire un plat ou inviter quelqu'un à manger.",
+        "sections": [
+          {
+            "title": "Verbes de cuisine",
+            "content": "готовить — préparer / cuisiner\nварить — faire bouillir / cuire (à l'eau)\nжарить — frire / faire revenir\nпечь — faire cuire au four\nрезать — couper\nдобавлять — ajouter\nмешать — mélanger\nпробовать — goûter\nподавать — servir"
+          },
+          {
+            "title": "Les plats emblématiques russes",
+            "content": "борщ — bortsch (soupe à la betterave)\nщи — chtchi (soupe aux choux)\nпельмени — pelmeni (ravioles sibériennes)\nблины — blinis (crêpes russes)\nоливье — salade Olivier (salade russe)\nсоленья — conserves / légumes marinés\nпирог — пирожок — tarte / petit chausson\nкаша — bouillie (sarrasin, semoule...)\nкисель — gelée de fruits"
+          },
+          {
+            "title": "Inviter à table",
+            "content": "Угощайтесь! — Servez-vous ! / Mangez !\nПриятного аппетита! — Bon appétit !\nЕщё? — Encore ?\nСпасибо, я сыт(а). — Merci, je suis rassasié(e).\nОчень вкусно! — C'est très bon !\nМожно рецепт? — Puis-je avoir la recette ?\nЭто домашнее. — C'est fait maison."
+          },
+          {
+            "title": "Décrire les saveurs",
+            "content": "вкусный — délicieux\nсладкий — sucré\nсолёный — salé\nкислый — acide / aigre\nгорький — amer\nострый — épicé / piquant\nжирный — gras\nлёгкий — léger\nсытный — nourrissant / consistant"
+          }
+        ],
+        "rule": "💡 «Приятного аппетита» = bon appétit (génitif de politesse). En russe, on utilise souvent «угощать» (régaler, offrir à manger) — «Я угощаю !» signifie «c'est moi qui invite / je régale». Les Russes sont réputés pour leur générosité à table !"
+      },
+      "pronunciation": {
+        "intro": "La cuisine russe — des noms savoureux à prononcer !",
+        "note": "⚠️ «Щи» (soupe aux choux) ne contient que deux lettres en russe mais le son est complexe : «chtchi». «Пельмени» (pelmeni) vient du peuple Komi : «pel'nyan'» = «oreille de pain» — car la forme ressemble à une oreille.",
+        "words": [
+          { "fr": "борщ", "ru_pron": "borchtch", "meaning": "le bortsch (soupe à la betterave)" },
+          { "fr": "пельмени", "ru_pron": "pil'myéni", "meaning": "les pelmeni (ravioles)" },
+          { "fr": "блины", "ru_pron": "bliný", "meaning": "les blinis (crêpes)" },
+          { "fr": "готовить", "ru_pron": "gatóvit'", "meaning": "cuisiner / préparer" },
+          { "fr": "вкусный", "ru_pron": "vkousny", "meaning": "délicieux" },
+          { "fr": "рецепт", "ru_pron": "ritsépd", "meaning": "la recette" },
+          { "fr": "икра", "ru_pron": "ikrá", "meaning": "le caviar" },
+          { "fr": "квас", "ru_pron": "kvas", "meaning": "le kvass (boisson fermentée)" },
+          { "fr": "самовар", "ru_pron": "samaváre", "meaning": "le samovar" },
+          { "fr": "Приятного аппетита!", "ru_pron": "Priyátnava apitíta", "meaning": "Bon appétit !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "готовить", "gender": null, "ru": "cuisiner / préparer", "ru_pron": "gatóvit'", "example_fr": "Бабушка готовит борщ.", "example_ru": "Grand-mère prépare le bortsch.", "level": "A2" },
+        { "fr": "борщ", "gender": "m", "ru": "le bortsch (soupe à la betterave)", "ru_pron": "borchtch", "example_fr": "Борщ — мой любимый суп.", "example_ru": "Le bortsch est ma soupe préférée.", "level": "A2" },
+        { "fr": "пельмени", "gender": "pl", "ru": "les pelmeni (ravioles sibériennes)", "ru_pron": "pil'myéni", "example_fr": "Пельмени едят со сметаной.", "example_ru": "On mange les pelmeni avec de la crème fraîche.", "level": "A2" },
+        { "fr": "блины", "gender": "pl", "ru": "les blinis (crêpes russes)", "ru_pron": "bliný", "example_fr": "На Масленицу едят блины.", "example_ru": "Pendant Maslenitsa on mange des blinis.", "level": "A2" },
+        { "fr": "вкусный", "gender": null, "ru": "délicieux / savoureux", "ru_pron": "vkousny", "example_fr": "Это очень вкусно!", "example_ru": "C'est très délicieux !", "level": "A2" },
+        { "fr": "рецепт", "gender": "m", "ru": "la recette", "ru_pron": "ritsépd", "example_fr": "Дай мне рецепт этого пирога!", "example_ru": "Donne-moi la recette de cette tarte !", "level": "A2" },
+        { "fr": "угощать", "gender": null, "ru": "régaler / offrir à manger", "ru_pron": "oughtchtchát'", "example_fr": "Я угощаю всех сегодня!", "example_ru": "Je régale tout le monde aujourd'hui !", "level": "A2" },
+        { "fr": "самовар", "gender": "m", "ru": "le samovar", "ru_pron": "samaváre", "example_fr": "Бабушка ставит самовар.", "example_ru": "Grand-mère allume le samovar.", "level": "A2" },
+        { "fr": "сметана", "gender": "f", "ru": "la crème fraîche épaisse / smetana", "ru_pron": "smitána", "example_fr": "Борщ подают со сметаной.", "example_ru": "Le bortsch est servi avec de la smetana.", "level": "A2" },
+        { "fr": "острый", "gender": null, "ru": "épicé / piquant", "ru_pron": "óstry", "example_fr": "Это блюдо очень острое.", "example_ru": "Ce plat est très épicé.", "meaning_double": "«Острый» = épicé/piquant ET tranchant (comme un couteau). Contexte indispensable !", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "рецепт", "fr_pron": "ritsépd", "ru": "recette / prescription", "ru_pron": "recette / prescription", "note": "«Рецепт» en russe désigne à la fois la recette de cuisine ET l'ordonnance médicale — comme en français ancien. Même origine latine «recepta» (ce qui est reçu). «Рецепт от врача» = ordonnance médicale." },
+        { "fr": "кофе", "fr_pron": "kófi", "ru": "café (la boisson)", "ru_pron": "café", "note": "«Кофе» (café) est un des rares mots étrangers en russe qui reste invariable — il ne prend pas de terminaisons de cas. Curiosité : grammaticalement masculin en russe standard (un кофе chaud = горячий кофе)." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "William Похлёбкин (1923–2000)", "subtitle": "Historien de la gastronomie russe", "content": "William Vassilievitch Pokhliobkine est le plus grand historien de la gastronomie russe et soviétique. Son encyclopédie «Национальные кухни наших народов» (Les cuisines nationales de nos peuples) est une référence mondiale. Il consacra des ouvrages entiers au thé russe, à la vodka, aux épices. Il défendit avec érudition l'idée que la cuisine est une expression de l'âme d'un peuple. Tragiquement assassiné chez lui en 2000, son œuvre est désormais culte en Russie." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Масленица — la fête des blinis avant le Carême", "content": "Масленица (Maslenitsa) est la fête russe la plus colorée, célébrée la semaine avant le Carême orthodoxe (février-mars). Pendant 7 jours, on mange des блины (blinis/crêpes) à toutes les sauces — avec smetana, caviar, saumon, confiture. On brûle un épouvantail en paille représentant l'hiver. Des jeux populaires, des danses, des chants. C'est l'équivalent russe du Mardi Gras / Carnaval. La symbolique des crêpes rondes et dorées = le retour du soleil." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "Le samovar — bien plus qu'une théière", "content": "Le самовар (samovar = «qui se fait cuire lui-même») est l'icône de l'hospitalité russe. Apparu au XVIIIe siècle, il chauffe l'eau au charbon ou au bois — une théière est posée dessus pour infuser le чай (thé). Autour du samovar, on discute, on partage. «Prendre le thé au samovar» = une vraie cérémonie sociale. Aujourd'hui, les samovars électriques ont remplacé les anciens. Mais les samovars en cuivre de Toula (ville spécialisée) restent des objets de collection prisés." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Первое, второе и компот!", "pronunciation": "Pyérvoïe, ftaróïe i kampót", "translation": "L'entrée, le plat et le dessert ! (Le menu complet)", "usage": "Expression humoristique qui résume le repas soviétique traditionnel : первое (premier plat = soupe), второе (deuxième plat = viande + garniture), компот (compote = dessert). Utilisée pour dire qu'on a eu tout ce qu'on voulait ou pour désigner un menu complet.", "example": "— Что было на обед? — Как всегда: первое, второе и компот! (Qu'est-ce qu'il y avait au déjeuner ? — Comme toujours : l'entrée, le plat et le dessert !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Toula — Ville du samovar et du pain d'épices", "subtitle": "Тула — самовары и тульский пряник", "content": "Toula (Тула), à 170 km de Moscou, est la capitale russe du samovar et du тульский пряник (pain d'épices de Toula) — une confiserie en forme de plaque gravée, emblème de la ville depuis le XVIIIe siècle. Le musée du samovar de Toula retrace 300 ans d'histoire de cet objet. La ville est aussi connue pour ses armes à feu (l'usine d'armes date de Pierre le Grand) et son kremlin médiéval. Un arrêt incontournable pour comprendre l'artisanat russe authentique." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «bon appétit» en russe ?", "opts": ["Угощайтесь!", "Приятного аппетита!", "Спасибо за ужин!", "Вкусно!"], "ans": 1, "exp": "«Приятного аппетита !» = bon appétit ! Littéralement «d'un agréable appétit» (génitif de souhait). «Угощайтесь» = servez-vous / mangez donc. «Вкусно» = c'est bon/délicieux." },
+        { "q": "Qu'est-ce que le «борщ» ?", "opts": ["Une soupe aux choux", "Une soupe à la betterave rouge", "Des ravioles sibériennes", "Des crêpes russes"], "ans": 1, "exp": "Le борщ (bortsch) est une soupe à la betterave rouge, souvent avec du chou, de la viande et de la crème fraîche (сметана). C'est l'un des plats les plus emblématiques de la cuisine slave, d'origine ukrainienne." },
+        { "q": "Pendant quelle fête mange-t-on des blinis en Russie ?", "opts": ["Noël (Рождество)", "Pâques (Пасха)", "Maslenitsa (Масленица)", "Le Nouvel An (Новый год)"], "ans": 2, "exp": "La Масленица (Maslenitsa) est la semaine des blinis avant le Carême orthodoxe. On mange des blinis (crêpes rondes = symbole du soleil) pendant 7 jours pour célébrer la fin de l'hiver." },
+        { "q": "Comment dit-on «délicieux» en russe ?", "opts": ["острый", "горький", "вкусный", "солёный"], "ans": 2, "exp": "«Вкусный» = délicieux / savoureux. «Острый» = épicé/piquant. «Горький» = amer. «Солёный» = salé. «Вкусно !» s'utilise comme exclamation pour dire «c'est bon !»." },
+        { "q": "Que signifie «Я угощаю !» ?", "opts": ["J'ai faim !", "Je suis rassasié.", "C'est moi qui invite / je régale !", "Je prépare à manger."], "ans": 2, "exp": "«Я угощаю !» = c'est moi qui invite / je régale ! «Угощать» = offrir à manger, régaler. Cette phrase indique qu'on paie pour les autres ou qu'on offre de la nourriture. Expression généreuse très typique de l'hospitalité russe." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan — Culture & Médias",
+      "titleRu": "Итоги модуля — Культура и медиа",
+      "level": "A2",
+      "grammar": {
+        "title": "Récapitulatif du Module 8 — Culture & Médias",
+        "titleRu": "Итоги восьмого модуля",
+        "intro": "Félicitations ! Vous avez parcouru l'univers culturel russe — de Tolstoï à Telegram, du Bolchoï aux blinis. Ce bilan récapitule les structures essentielles apprises et vous prépare pour le Module 9 (Vers le niveau A2).",
+        "sections": [
+          {
+            "title": "✅ Ce que vous savez maintenant",
+            "content": "✅ Parler de littérature : нравиться, любить, по-моему\n✅ La musique : jouer de (играть на + prépositionnel)\n✅ Le cinéma : le passé (-л/-ла/-ли), les genres de films\n✅ Les médias : СМИ, журнал ≠ journal, новости\n✅ Internet et réseaux sociaux : лайкать, подписываться\n✅ L'art : художник, шедевр, «Красота спасёт мир»\n✅ Le théâtre : Давай + infinitif, ни пуха ни пера!\n✅ L'architecture : les coupoles, les cas, Москва не сразу строилась\n✅ La gastronomie : борщ, пельмени, блины, угощать\n✅ Les expressions idiomatiques culturelles russes"
+          },
+          {
+            "title": "Les structures clés à retenir",
+            "content": "Мне нравится + nominatif — ça me plaît\nМне нравятся + nominatif pl. — ça me plaît (pluriel)\nЯ играю на + prépositionnel — je joue de (instrument)\nЯ смотрел(а) — j'ai regardé (passé accordé en genre)\nНа картине изображён(а)... — sur le tableau est représenté...\nДавай(те) + infinitif — allons / on y va\nСделано из + génitif — fait de (matériau)"
+          },
+          {
+            "title": "Les incontournables culturels",
+            "content": "Littérature : Толстой, Достоевский, Пушкин\nMusique : Чайковский, Большой театр, балалайка\nCinéma : Эйзенштейн, Тарковский, мультфильмы\nMédias : Яндекс, ВКонтакте, Телеграм\nArt : Эрмитаж, Третьяковка, Репин\nGastronomie : борщ, пельмени, блины, самовар\nArchitecture : Кремль, Эрмитаж, семь сестёр\nExpressions : Красота спасёт мир / Ни пуха ни пера !"
+          }
+        ],
+        "rule": "🏆 Bravo ! Vous avez les clés pour converser sur la culture russe. Le Module 9 vous emmènera vers le niveau A2 avec des structures plus complexes. Продолжайте ! Культура — это сила ! (La culture, c'est la force !)"
+      },
+      "pronunciation": {
+        "intro": "Révision des phrases culturelles essentielles du Module 8. Ces expressions vous permettront de briller dans vos conversations !",
+        "note": "",
+        "words": [
+          { "fr": "Красота спасёт мир.", "ru_pron": "Krasatá spasiót mir", "meaning": "La beauté sauvera le monde. (Dostoïevski)" },
+          { "fr": "Мне нравится русская культура.", "ru_pron": "Mnyé nrávitsa roússkaya koúl'toúra", "meaning": "La culture russe me plaît." },
+          { "fr": "Я играю на пианино.", "ru_pron": "Ya igraïou na pianíno", "meaning": "Je joue du piano." },
+          { "fr": "Давай пойдём в театр!", "ru_pron": "Daváï païdyóm v tiátr", "meaning": "Allons au théâtre !" },
+          { "fr": "Ни пуха ни пера! — К чёрту!", "ru_pron": "Ni poúkha ni pirá — K tchyórtou", "meaning": "Merde ! — Au diable ! (avant un spectacle)" },
+          { "fr": "Приятного аппетита!", "ru_pron": "Priyátnava apitíta", "meaning": "Bon appétit !" },
+          { "fr": "Это настоящий шедевр!", "ru_pron": "Éta nastayáchtchi chiédivr", "meaning": "C'est un véritable chef-d'œuvre !" },
+          { "fr": "Подпишитесь на наш канал!", "ru_pron": "Patpichítiès na nach kanál", "meaning": "Abonnez-vous à notre chaîne !" },
+          { "fr": "Москва не сразу строилась.", "ru_pron": "Maskvá ni srazou stróilas'", "meaning": "Rome ne s'est pas faite en un jour." },
+          { "fr": "Спасибо за урок! Продолжайте!", "ru_pron": "Spasíba za ourok ! Pradaljaïtié", "meaning": "Merci pour la leçon ! Continuez !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "культура", "gender": "f", "ru": "la culture", "ru_pron": "koúl'toúra", "example_fr": "Русская культура очень богатая.", "example_ru": "La culture russe est très riche.", "level": "A2" },
+        { "fr": "искусство", "gender": "n", "ru": "l'art", "ru_pron": "iskousstva", "example_fr": "Искусство объединяет людей.", "example_ru": "L'art unit les gens.", "level": "A2" },
+        { "fr": "традиция", "gender": "f", "ru": "la tradition", "ru_pron": "tradítsiya", "example_fr": "Это старая русская традиция.", "example_ru": "C'est une vieille tradition russe.", "level": "A2" },
+        { "fr": "наследие", "gender": "n", "ru": "le patrimoine / l'héritage", "ru_pron": "naslyédiye", "example_fr": "Русское культурное наследие огромно.", "example_ru": "Le patrimoine culturel russe est immense.", "level": "A2" },
+        { "fr": "творчество", "gender": "n", "ru": "la créativité / l'œuvre créatrice", "ru_pron": "tvórtchestvo", "example_fr": "Творчество Пушкина — золото литературы.", "example_ru": "L'œuvre de Pouchkine est l'or de la littérature.", "level": "A2" },
+        { "fr": "выражать", "gender": null, "ru": "exprimer", "ru_pron": "vyirajját'", "example_fr": "Музыка выражает чувства.", "example_ru": "La musique exprime les sentiments.", "level": "A2" },
+        { "fr": "вдохновение", "gender": "n", "ru": "l'inspiration", "ru_pron": "vdakhnavyéniye", "example_fr": "Природа — его вдохновение.", "example_ru": "La nature est son inspiration.", "level": "A2" },
+        { "fr": "популярный", "gender": null, "ru": "populaire / célèbre", "ru_pron": "populyárny", "example_fr": "Этот певец очень популярный.", "example_ru": "Ce chanteur est très populaire.", "level": "A2" },
+        { "fr": "современный", "gender": null, "ru": "moderne / contemporain", "ru_pron": "savrémenny", "example_fr": "Современное искусство мне нравится.", "example_ru": "L'art contemporain me plaît.", "level": "A2" },
+        { "fr": "гениальный", "gender": null, "ru": "génial / de génie", "ru_pron": "guiniálny", "example_fr": "Чайковский — гениальный композитор.", "example_ru": "Tchaïkovski est un compositeur de génie.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "интересный", "fr_pron": "interésny", "ru": "intéressant", "ru_pron": "intéressant", "note": "«Интересный» et «intéressant» — même racine latine «interest». Les mots d'origine latine ou grecque sont souvent reconnaissables en russe — un avantage pour les francophones !" },
+        { "fr": "университет", "fr_pron": "ounivirsitét", "ru": "université", "ru_pron": "université", "note": "«Университет» = université. Même étymologie latine «universitas». La culture académique et les grandes institutions portent des noms quasi-identiques dans toutes les langues européennes." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Alexandre Pouchkine (1799–1837)", "subtitle": "Le soleil de la poésie russe", "content": "Alexandre Sergueïevitch Pouchkine (Пушкин) est le fondateur de la littérature russe moderne. Poète, romancier, dramaturge — son génie embrassa tous les genres. «Eugène Onéguine» (roman en vers), «La Dame de Pique», «Boris Godounov» sont des chefs-d'œuvre absolus. Tchaïkovski mit plusieurs de ses œuvres en musique. Pouchkine mourut à 37 ans, tué en duel. Les Russes le chérissent comme un dieu — «notre tout» disait Apollon Grigoriev. Son anniversaire (6 juin) est la Journée de la langue russe." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La culture russe — un rayonnement mondial", "content": "La Russie a produit en deux siècles une concentration unique de géants culturels : en littérature (Pouchkine, Tolstoï, Dostoïevski, Tchekhov), en musique (Tchaïkovski, Rachmaninov, Chostakovitch), en cinéma (Eisenstein, Tarkovski), en danse (Nijinski, Noureïev, Barychnikov), en peinture (Repine, Kandinski, Malevitch). Nulle autre nation n'a produit autant de chefs-d'œuvre dans autant de domaines en si peu de temps. Un mystère que les historiens n'ont pas fini d'explorer." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Наш Пушкин» — Pouchkine appartient à tous les Russes", "content": "En Russie, Pouchkine est simplement «Пушкин» — un mot qui suffit, comme «Napoléon» en France. Son visage figure sur des tasses, t-shirts, magnets. Ses vers sont récités par cœur dès l'école primaire. L'expression «наш Пушкин» (notre Pouchkine) exprime cette appropriation collective affectueuse. Paradoxe : Pouchkine était d'origine africaine (son arrière-grand-père Hannibal était originaire d'Afrique, offert comme cadeau à Pierre le Grand). Il est devenu le symbole le plus russe de la Russie." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Культура — это то, что остаётся, когда всё забыто.", "pronunciation": "Koúl'toúra — éta to, chto astaïótsa, kagdá vsyo zabýta", "translation": "La culture, c'est ce qui reste quand on a tout oublié.", "usage": "Adaptation russe d'une citation d'Édouard Herriot. Très utilisée dans les discussions sur l'importance de l'éducation et de la culture. Reflète la conviction russe que la culture est le fondement de la civilisation et résiste au temps mieux que tout.", "example": "— Зачем учить историю искусства? — Культура — это то, что остаётся, когда всё забыто. (Pourquoi apprendre l'histoire de l'art ? — La culture, c'est ce qui reste quand on a tout oublié.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Saint-Pétersbourg — La Venise du Nord", "subtitle": "Санкт-Петербург — культурная столица России", "content": "Saint-Pétersbourg (Санкт-Петербург) est la capitale culturelle de la Russie. Fondée en 1703 par Pierre le Grand sur les marais de la Neva, elle fut conçue comme une «fenêtre sur l'Europe». Elle abrite l'Ermitage, le Mariinsky, la Philharmonie, le Musée Russe, la Forteresse Pierre-et-Paul. Ses palais baroques et classiques, ses canaux, ses Nuits Blanches en font l'une des villes les plus belles et les plus cultivées du monde. Dostoïevski, Pouchkine, Tchaïkovski y vécurent. À ne manquer sous aucun prétexte." }
+      },
+      "quiz": [
+        { "q": "Qui est surnommé «le soleil de la poésie russe» ?", "opts": ["Tolstoï", "Dostoïevski", "Pouchkine", "Tchekhov"], "ans": 2, "exp": "Alexandre Pouchkine est appelé «солнце русской поэзии» (le soleil de la poésie russe). Il est le fondateur de la littérature russe moderne et le plus aimé des écrivains russes. Son anniversaire est la Journée de la langue russe." },
+        { "q": "Comment dit-on «la culture» en russe ?", "opts": ["творчество", "традиция", "культура", "наследие"], "ans": 2, "exp": "«Культура» = la culture. Mot international d'origine latine «cultura» (culture, cultivation). «Творчество» = créativité/œuvre. «Традиция» = tradition. «Наследие» = patrimoine/héritage." },
+        { "q": "Quelle citation est attribuée à Dostoïevski ?", "opts": ["Москва не сразу строилась.", "Красота спасёт мир.", "Дорогу осилит идущий.", "Культура — это то, что остаётся."], "ans": 1, "exp": "«Красота спасёт мир» (La beauté sauvera le monde) est une citation tirée du roman «L'Idiot» (1869) de Dostoïevski. C'est l'une des phrases les plus célèbres de la littérature mondiale." },
+        { "q": "Comment dit-on «moderne / contemporain» en russe ?", "opts": ["классический", "гениальный", "популярный", "современный"], "ans": 3, "exp": "«Современный» = moderne / contemporain. Le mot vient de «время» (temps) — «совре-менный» = «du même temps». «Современное искусство» = l'art contemporain. «Классический» = classique." },
+        { "q": "Quelle ville est la «capitale culturelle» de la Russie ?", "opts": ["Moscou", "Novossibirsk", "Saint-Pétersbourg", "Kazan"], "ans": 2, "exp": "Saint-Pétersbourg (Санкт-Петербург) est la capitale culturelle de la Russie : Ermitage, Mariinsky, Philharmonie, musée Russe... Fondée par Pierre le Grand en 1703, elle concentre un patrimoine culturel exceptionnel." }
+      ]
+    }
+  ]
+}
