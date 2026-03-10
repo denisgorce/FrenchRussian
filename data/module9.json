@@ -1,0 +1,768 @@
+{
+  "module": 9,
+  "titleFr": "Vers le niveau A2",
+  "titleRu": "К уровню A2",
+  "description": "Les cas russes, le futur, l'aspect verbal, les comparatifs et les structures de communication avancées pour atteindre le niveau A2.",
+  "lessons": [
+    {
+      "id": 1,
+      "titleFr": "Le Génitif — Possession et Absence",
+      "titleRu": "Родительный падеж",
+      "level": "A2",
+      "grammar": {
+        "title": "Le génitif — 2e cas russe : posséder, quantifier, nier",
+        "titleRu": "Родительный падеж — владение и отсутствие",
+        "intro": "Le génitif (родительный падеж) est le cas le plus fréquent après le nominatif. Il exprime la possession (le livre DE Pierre), l'absence (il n'y a PAS DE...), la quantité (beaucoup DE...) et suit de nombreuses prépositions. Maîtriser le génitif, c'est débloquer la moitié de la grammaire russe !",
+        "sections": [
+          {
+            "title": "Formation du génitif singulier",
+            "content": "Masculin :\n— consonne → + -а : стол → стола (de la table)\n— -й → -я : чай → чая\n— -ь → -я : словарь → словаря\n\nFéminin :\n— -а → -ы : книга → книги (du livre)\n— -я → -и : неделя → недели\n— -ь → -и : ночь → ночи\n\nNeutre :\n— -о → -а : слово → слова\n— -е → -я : море → моря"
+          },
+          {
+            "title": "Emplois principaux du génitif",
+            "content": "1. Possession : книга Ивана — le livre d'Ivan\n2. Absence (нет + génitif) : нет книги — il n'y a pas de livre\n3. Quantité : много книг — beaucoup de livres\n4. Après «нет», «не было», «не будет» — négation d'existence\n5. Avec у + génitif : У меня есть... — j'ai...\n6. Après числа : два стола — deux tables (génitif sg.)"
+          },
+          {
+            "title": "Prépositions + génitif (les plus courantes)",
+            "content": "без — sans (без воды = sans eau)\nдля — pour (для тебя = pour toi)\nдо — jusqu'à / avant (до Москвы = jusqu'à Moscou)\nиз — de / depuis (из России = de Russie)\nот — de / de la part de (от друга = de la part d'un ami)\nпосле — après (после урока = après la leçon)\nу — chez / auprès de (у врача = chez le médecin)\nвместо — à la place de"
+          },
+          {
+            "title": "Génitif pluriel — irrégularités fréquentes",
+            "content": "книга → книг (des livres)\nстол → столов (des tables)\nдень → дней (des jours)\nдруг → друзей (des amis)\nчеловек → людей (des gens — supplétion !)\nребёнок → детей (des enfants — supplétion !)\nвремя → времён (des temps)\n\nAstuce : После пяти — génitif pluriel : пять книг"
+          }
+        ],
+        "rule": "💡 Règle d'or du génitif pluriel : la terminaison la plus courante est zéro (-Ø) pour les féminins en -а/-я (книга → книг) et -ов/-ев pour les masculins (стол → столов). Mais les irréguliers sont fréquents — à mémoriser au fur et à mesure !"
+      },
+      "pronunciation": {
+        "intro": "Entraînez-vous sur les formes au génitif — la terminaison -а/-я au singulier est très musicale en russe !",
+        "note": "⚠️ Le génitif singulier masculin en -а est identique au nominatif neutre ! Contexte indispensable : «стола» = du bureau (génitif m.), «слова» = le mot (nominatif n.).",
+        "words": [
+          { "fr": "без воды", "ru_pron": "byez vadý", "meaning": "sans eau (génitif)" },
+          { "fr": "у друга", "ru_pron": "ou drougá", "meaning": "chez l'ami (génitif)" },
+          { "fr": "после урока", "ru_pron": "pósli ouróka", "meaning": "après la leçon (génitif)" },
+          { "fr": "нет времени", "ru_pron": "nyét vrémini", "meaning": "pas le temps (génitif)" },
+          { "fr": "много книг", "ru_pron": "mnóga knig", "meaning": "beaucoup de livres (génitif pl.)" },
+          { "fr": "из России", "ru_pron": "iz Rassíi", "meaning": "de Russie (génitif)" },
+          { "fr": "для тебя", "ru_pron": "dlya tibya", "meaning": "pour toi (génitif)" },
+          { "fr": "до свидания", "ru_pron": "da svidánia", "meaning": "au revoir (jusqu'à la rencontre)" },
+          { "fr": "пять рублей", "ru_pron": "pyat' roublyéï", "meaning": "cinq roubles (génitif pl.)" },
+          { "fr": "цвет глаз", "ru_pron": "tsvyet glas", "meaning": "la couleur des yeux (génitif pl.)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "без", "gender": null, "ru": "sans (prép. + génitif)", "ru_pron": "byez", "example_fr": "Я не могу без кофе.", "example_ru": "Je ne peux pas sans café.", "level": "A2" },
+        { "fr": "для", "gender": null, "ru": "pour (prép. + génitif)", "ru_pron": "dlya", "example_fr": "Это подарок для мамы.", "example_ru": "C'est un cadeau pour maman.", "level": "A2" },
+        { "fr": "после", "gender": null, "ru": "après (prép. + génitif)", "ru_pron": "pósli", "example_fr": "После работы я иду домой.", "example_ru": "Après le travail je rentre chez moi.", "level": "A2" },
+        { "fr": "нет", "gender": null, "ru": "il n'y a pas de (+ génitif)", "ru_pron": "nyét", "example_fr": "У меня нет времени.", "example_ru": "Je n'ai pas le temps.", "level": "A2" },
+        { "fr": "много", "gender": null, "ru": "beaucoup (de) + génitif", "ru_pron": "mnóga", "example_fr": "Здесь много людей.", "example_ru": "Il y a beaucoup de gens ici.", "level": "A2" },
+        { "fr": "мало", "gender": null, "ru": "peu (de) + génitif", "ru_pron": "mála", "example_fr": "У нас мало времени.", "example_ru": "Nous avons peu de temps.", "level": "A2" },
+        { "fr": "сколько", "gender": null, "ru": "combien (de) + génitif", "ru_pron": "skól'ka", "example_fr": "Сколько стоит билет?", "example_ru": "Combien coûte le billet ?", "level": "A2" },
+        { "fr": "вместо", "gender": null, "ru": "à la place de (+ génitif)", "ru_pron": "vmyésta", "example_fr": "Вместо чая я пью кофе.", "example_ru": "À la place du thé je bois du café.", "level": "A2" },
+        { "fr": "кроме", "gender": null, "ru": "sauf / excepté (+ génitif)", "ru_pron": "krómi", "example_fr": "Все пришли, кроме Ивана.", "example_ru": "Tout le monde est venu, sauf Ivan.", "level": "A2" },
+        { "fr": "до", "gender": null, "ru": "jusqu'à / avant (+ génitif)", "ru_pron": "do", "example_fr": "До встречи!", "example_ru": "À bientôt ! (jusqu'à la rencontre)", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "родительный", "fr_pron": "radítel'ny", "ru": "génitif (litt. «du géniteur»)", "ru_pron": "génitif", "note": "«Родительный» vient de «родитель» (géniteur/parent) — le cas du génitif exprime la naissance, l'origine. Le mot latin «genitivus» vient aussi de «gignere» (engendrer). Même logique étymologique !" },
+        { "fr": "количество", "fr_pron": "kalítchistva", "ru": "quantité", "ru_pron": "quantité", "note": "«Количество» (quantité) et le français «quantité» partagent l'idée de mesure et de comptage — une notion centrale avec le génitif russe, qui s'utilise après les nombres et expressions de quantité." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhaïl Lomonossov (1711–1765)", "subtitle": "Père de la grammaire russe moderne", "content": "Mikhaïl Vassiliévitch Lomonossov est le plus grand savant encyclopédiste russe — physicien, chimiste, astronome, poète et linguiste. Son «Grammaire russe» (1755) est le premier ouvrage scientifique sur la langue russe, encore influent aujourd'hui. Né paysan en Sibérie, il marcha 1 000 km jusqu'à Moscou pour étudier. Il fonda l'Université de Moscou (МГУ) en 1755, qui porte aujourd'hui son nom. Un génie autodidacte comparable à Benjamin Franklin." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Les six cas russes — héritage du latin", "content": "Le russe possède 6 cas grammaticaux (nominatif, génitif, datif, accusatif, instrumental, prépositionnel) — héritage du proto-indo-européen, comme le latin (6 cas) et le grec ancien (5 cas). Le vieux russe en avait même 7 (avec le vocatif). La déclinaison russe peut paraître complexe, mais elle libère l'ordre des mots : «Иван любит Машу» et «Машу любит Иван» ont le même sens — contrairement au français !" },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Нет» — le petit mot le plus puissant du russe", "content": "«Нет» (non / il n'y a pas) est suivi du génitif, mais c'est aussi le mot russe le plus court et le plus puissant ! Il a la réputation d'être un mot typiquement russe, associé à la diplomatie soviétique — Viatcheslav Molotov, ministre des Affaires étrangères, était surnommé «Monsieur Niet» par les Occidentaux pour ses refus catégoriques. En voyage, vous entendrez «нет» souvent, mais aussi son contraire optimiste : «без проблем!» (sans problème !)." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Нет худа без добра.", "pronunciation": "Nyét khóuda byez dabrá", "translation": "À quelque chose malheur est bon. (Il n'y a pas de mal sans bien.)", "usage": "Proverbe russe avec deux génitifs ! «Худо» (le malheur) et «добро» (le bien) au génitif après «без». Équivalent du français «à quelque chose malheur est bon» ou «chaque nuage a son côté argenté».", "example": "— Я потерял работу... — Нет худа без добра — найдёшь лучше! (J'ai perdu mon travail... — À quelque chose malheur est bon — tu trouveras mieux !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Université d'État de Moscou (МГУ)", "subtitle": "Московский государственный университет им. Ломоносова", "content": "L'Université d'État de Moscou (МГУ — Московский Государственный Университет) est la plus grande et la plus prestigieuse université de Russie, fondée par Lomonossov en 1755. Son bâtiment principal sur les Collines des Moineaux (Воробьёвы горы) est l'une des «Sept Sœurs» staliniennes — 240 mètres de hauteur, style gothique soviétique. Du promontoire, on a la plus belle vue panoramique sur Moscou. Le campus accueille 40 000 étudiants. Ouvert aux visites, avec une exposition sur Lomonossov." }
+      },
+      "quiz": [
+        { "q": "Quelle est la forme au génitif de «книга» (le livre) ?", "opts": ["книгу", "книге", "книги", "книгой"], "ans": 2, "exp": "«Книга» → «книги» au génitif singulier. Les féminins en -а/-я font leur génitif en -ы/-и. Ex: «нет книги» = il n'y a pas de livre." },
+        { "q": "Quelle préposition russe est suivie du génitif et signifie «pour» ?", "opts": ["в", "на", "для", "с"], "ans": 2, "exp": "«Для» + génitif = pour. «Это для тебя» = c'est pour toi. «В» et «на» = dans/sur (accusatif ou prépositionnel). «С» = avec (instrumental)." },
+        { "q": "Comment dit-on «je n'ai pas le temps» en russe ?", "opts": ["У меня нет время.", "У меня нет времени.", "Мне нет время.", "Я не имею время."], "ans": 1, "exp": "«У меня нет времени» = je n'ai pas le temps. «Нет» exige le génitif : «время» → «времени» (génitif singulier neutre). «У меня» = construction pour «j'ai / je n'ai pas»." },
+        { "q": "Quel est le génitif pluriel de «человек» (personne) ?", "opts": ["человеков", "человек", "людей", "людей"], "ans": 2, "exp": "«Человек» → «людей» au génitif pluriel — une supplétion (changement de racine). «Много людей» = beaucoup de gens. C'est une irrégularité à mémoriser absolument !" },
+        { "q": "Que signifie le proverbe «Нет худа без добра» ?", "opts": ["Il n'y a pas de mauvais sans bon.", "Le mal n'existe pas.", "Sans travail pas de bien.", "À quelque chose malheur est bon."], "ans": 3, "exp": "«Нет худа без добра» = à quelque chose malheur est bon. «Худо» = le malheur/le mal, «добро» = le bien. Deux génitifs après «без» et «нет» — une belle illustration du cas !" }
+      ]
+    },
+    {
+      "id": 2,
+      "titleFr": "Le Datif — Donner et Ressentir",
+      "titleRu": "Дательный падеж",
+      "level": "A2",
+      "grammar": {
+        "title": "Le datif — 3e cas russe : destinataire et sensations",
+        "titleRu": "Дательный падеж — кому? чему?",
+        "intro": "Le datif (дательный падеж) répond à la question «à qui ? / à quoi ?». Il est le cas du destinataire (donner À quelqu'un), des sensations (il me fait froid) et de l'âge en russe. Vous utilisez déjà le datif sans le savoir : «Мне нравится» et «Мне ... лет» sont au datif !",
+        "sections": [
+          {
+            "title": "Formation du datif singulier",
+            "content": "Masculin / Neutre :\n— consonne ou -о → + -у : брат → брату, слово → слову\n— -й, -ь, -е → + -ю : гений → гению, море → морю\n\nFéminin :\n— -а → -е : мама → маме, сестра → сестре\n— -я → -е : неделя → неделе\n— -ь → -и : дочь → дочери\n\nPronoms personnels au datif :\nмне (à moi), тебе (à toi), ему (à lui), ей (à elle)\nнам (à nous), вам (à vous), им (à eux)"
+          },
+          {
+            "title": "Emplois principaux du datif",
+            "content": "1. Destinataire : Я дал книгу Ивану. — J'ai donné le livre à Ivan.\n2. Sensations / états : Мне холодно. — J'ai froid. (litt. «à moi il fait froid»)\n3. Âge : Мне 25 лет. — J'ai 25 ans.\n4. нравиться : Мне нравится музыка. — La musique me plaît.\n5. нужно / надо : Мне нужно идти. — Je dois partir.\n6. Après «к» (vers) : к врачу — chez le médecin"
+          },
+          {
+            "title": "Expressions de sensations au datif",
+            "content": "Мне холодно / жарко. — J'ai froid / chaud.\nМне скучно. — Je m'ennuie. (litt. «à moi c'est ennuyeux»)\nМне интересно. — Ça m'intéresse.\nМне плохо / хорошо. — Je me sens mal / bien.\nМне всё равно. — Ça m'est égal.\nМне нравится... — ... me plaît.\nМне кажется... — Il me semble..."
+          },
+          {
+            "title": "Verbes qui régissent le datif",
+            "content": "давать / дать — donner (à qqn)\nговорить / сказать — dire (à qqn)\nписать / написать — écrire (à qqn)\nзвонить / позвонить — téléphoner (à qqn)\nпомогать / помочь — aider (qqn = datif !)\nотвечать / ответить — répondre (à qqn)\nобъяснять / объяснить — expliquer (à qqn)"
+          }
+        ],
+        "rule": "💡 Le truc du datif : si vous pouvez mettre «à» devant le mot en français, c'est probablement le datif en russe. «Écrire À Pierre» → писать Петру. «Dire À Marie» → сказать Марии. Exception mémorable : «помочь» (aider) prend le datif en russe alors que «aider» prend le complément direct en français !"
+      },
+      "pronunciation": {
+        "intro": "Le datif en action — apprenez ces expressions de sensations, ultra-courantes dans la vie quotidienne !",
+        "note": "⚠️ «Мне» (à moi — datif) se prononce «mnyé» avec un «н» mouillé. Ne confondez pas avec «меня» (génitif/accusatif de «я»).",
+        "words": [
+          { "fr": "Мне нравится.", "ru_pron": "Mnyé nrávitsa", "meaning": "Ça me plaît. / J'aime." },
+          { "fr": "Мне холодно.", "ru_pron": "Mnyé khóladna", "meaning": "J'ai froid." },
+          { "fr": "Мне скучно.", "ru_pron": "Mnyé skóuchna", "meaning": "Je m'ennuie." },
+          { "fr": "Мне кажется.", "ru_pron": "Mnyé kájitsa", "meaning": "Il me semble." },
+          { "fr": "Ему нужно идти.", "ru_pron": "Yimou nójna ittí", "meaning": "Il doit partir." },
+          { "fr": "Позвони мне!", "ru_pron": "Pazvaní mnyé", "meaning": "Appelle-moi !" },
+          { "fr": "Помоги мне!", "ru_pron": "Pamagí mnyé", "meaning": "Aide-moi !" },
+          { "fr": "Дай мне...", "ru_pron": "Daï mnyé", "meaning": "Donne-moi..." },
+          { "fr": "Спасибо тебе.", "ru_pron": "Spasíba tibé", "meaning": "Merci à toi." },
+          { "fr": "Как тебе?", "ru_pron": "Kak tibé", "meaning": "Comment tu trouves ? / Ça te plaît ?" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "давать", "gender": null, "ru": "donner (à qqn — datif)", "ru_pron": "davát'", "example_fr": "Дай мне книгу, пожалуйста.", "example_ru": "Donne-moi le livre, s'il te plaît.", "level": "A2" },
+        { "fr": "говорить", "gender": null, "ru": "dire / parler (à qqn — datif)", "ru_pron": "gavarit'", "example_fr": "Я говорю тебе правду.", "example_ru": "Je te dis la vérité.", "level": "A2" },
+        { "fr": "звонить", "gender": null, "ru": "téléphoner (à qqn — datif)", "ru_pron": "zvanít'", "example_fr": "Позвони мне вечером.", "example_ru": "Appelle-moi ce soir.", "level": "A2" },
+        { "fr": "помогать", "gender": null, "ru": "aider (qqn — datif !)", "ru_pron": "pamagát'", "example_fr": "Помоги мне, пожалуйста.", "example_ru": "Aide-moi, s'il te plaît.", "level": "A2" },
+        { "fr": "нравиться", "gender": null, "ru": "plaire (à qqn — datif)", "ru_pron": "nrávitsa", "example_fr": "Мне нравится этот город.", "example_ru": "Cette ville me plaît.", "level": "A2" },
+        { "fr": "нужно", "gender": null, "ru": "il faut / je dois (+ datif + inf.)", "ru_pron": "nójna", "example_fr": "Мне нужно работать.", "example_ru": "Je dois travailler.", "level": "A2" },
+        { "fr": "скучно", "gender": null, "ru": "c'est ennuyeux / je m'ennuie (datif)", "ru_pron": "skóuchna", "example_fr": "Мне здесь скучно.", "example_ru": "Je m'ennuie ici.", "level": "A2" },
+        { "fr": "интересно", "gender": null, "ru": "c'est intéressant / ça m'intéresse (datif)", "ru_pron": "interésna", "example_fr": "Мне интересно узнать.", "example_ru": "Je suis curieux(se) de savoir.", "level": "A2" },
+        { "fr": "отвечать", "gender": null, "ru": "répondre (à qqn — datif)", "ru_pron": "atvitchát'", "example_fr": "Ответь мне на вопрос.", "example_ru": "Réponds-moi à cette question.", "level": "A2" },
+        { "fr": "объяснять", "gender": null, "ru": "expliquer (à qqn — datif)", "ru_pron": "abyasniyát'", "example_fr": "Объясни мне это.", "example_ru": "Explique-moi ça.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "дательный", "fr_pron": "dátel'ny", "ru": "datif (litt. «du don»)", "ru_pron": "datif", "note": "«Дательный» vient de «дать» (donner) — le cas du destinataire, de celui à qui l'on donne. Le latin «dativus» vient aussi de «dare» (donner). Même logique dans toutes les langues indo-européennes !" },
+        { "fr": "телефон", "fr_pron": "tilifón", "ru": "téléphone", "ru_pron": "téléphone", "note": "«Телефон» est identique au français «téléphone», même origine grecque «tele» (loin) + «phone» (voix). On «звонит по телефону» (sonne par téléphone) — le verbe russe évoque la clochette !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Anton Tchekhov (1860–1904)", "subtitle": "Maître de la nouvelle et du théâtre", "content": "Anton Pavlovitch Tchekhov est le maître incontesté de la nouvelle et du théâtre moderne. Médecin de formation, il écrivit des centaines de nouvelles sur la Russie provinciale avec une acuité psychologique incomparable. Ses pièces «La Mouette», «Oncle Vania», «Les Trois Sœurs», «La Cerisaie» révolutionnèrent le théâtre mondial. Il mourut à 44 ans de tuberculose. Son style dépouillé, fait de non-dits et de sous-entendus, influença Hemingway, Joyce, Carver et pratiquement toute la littérature moderne." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La langue russe — 6e langue officielle de l'ONU", "content": "Le russe est l'une des 6 langues officielles de l'Organisation des Nations Unies, avec l'arabe, le chinois, l'espagnol, le français et l'anglais. Cette position reflète l'importance diplomatique de la Russie. Le russe est langue officielle en Russie, Biélorussie, Kazakhstan et Kirghizistan, et compris dans toute l'ex-URSS. C'est la langue slave la plus parlée et la 8e langue du monde par nombre de locuteurs totaux (environ 260 millions)." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Мне всё равно» — la philosophie du datif russe", "content": "«Мне всё равно» (ça m'est égal — datif) est une expression philosophique très russe. Elle reflète ce que les observateurs étrangers nomment parfois le «fatalisme russe» — une acceptation stoïque des choses qu'on ne peut changer. Dans la littérature russe (Oblomov de Gontcharov, personnage qui ne se lève même pas de son divan), cette attitude est à la fois critiquée et comprise avec bienveillance. «Авось» (peut-être que ça va marcher) et «мне всё равно» forment le duo de la philosophie quotidienne russe." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Мне всё равно, но я против.", "pronunciation": "Mnyé vsyo ravnó, no ya prótif", "translation": "Ça m'est égal, mais je suis contre.", "usage": "Blague sur la logique russe ! Expression ironique qui souligne une contradiction apparente. «Мне всё равно» = ça m'est égal (datif + prédicat), «я против» = je suis contre. Souvent utilisée avec humour pour décrire une opinion ambivalente.", "example": "— Ты хочешь пиццу или суши? — Мне всё равно, но я против пиццы! (Tu veux une pizza ou des sushis ? — Ça m'est égal, mais je suis contre la pizza !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Taganrog — Ville natale de Tchekhov", "subtitle": "Таганрог — Чехов и Азовское море", "content": "Taganrog (Таганрог) sur la mer d'Azov est la ville natale d'Anton Tchekhov. Petite ville portuaire du sud de la Russie, elle a conservé l'atmosphère provinciale que Tchekhov décrit dans ses nouvelles. Le musée Tchekhov occupe la maison où il naquit en 1860. La bibliothèque qu'il fréquenta enfant existe encore. Fondée par Pierre le Grand en 1698, Taganrog fut la première grande ville portuaire de Russie. Le front de mer sur la mer d'Azov et le parc central méritent une promenade." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «j'ai froid» en russe (avec le datif) ?", "opts": ["Я холодный.", "Мне холодно.", "Я чувствую холод.", "Мне холод."], "ans": 1, "exp": "«Мне холодно» = j'ai froid. En russe, les sensations physiques utilisent le datif : «à moi il fait froid». «Мне» est le datif de «я» (je). Même structure : «Мне жарко» = j'ai chaud." },
+        { "q": "Quel est le datif de «ты» (tu) ?", "opts": ["тя", "тебя", "тебе", "тобой"], "ans": 2, "exp": "Le datif de «ты» est «тебе». «Я говорю тебе» = je te parle. «Тебя» = génitif/accusatif. «Тобой» = instrumental. Ces quatre formes sont les plus importantes à mémoriser !" },
+        { "q": "Pourquoi «помочь» (aider) régit-il le datif en russe ?", "opts": ["C'est une erreur, il régit l'accusatif.", "En russe, on aide «à» quelqu'un, pas quelqu'un directement.", "Le datif est toujours obligatoire après les verbes.", "C'est une exception historique."], "ans": 1, "exp": "«Помочь» + datif car en russe on aide «à» quelqu'un (on offre de l'aide À qqn). «Помоги мне !» = aide-moi ! (datif). En français «aider quelqu'un» = accusatif, en russe c'est le datif — différence structurelle importante." },
+        { "q": "«Мне нужно работать» signifie :", "opts": ["Je travaille maintenant.", "Je veux travailler.", "Je dois travailler.", "J'ai travaillé."], "ans": 2, "exp": "«Мне нужно + infinitif» = je dois / il me faut (faire qqch). «Нужно» est un prédicat impersonnel au datif. «Ему нужно отдыхать» = il doit se reposer." },
+        { "q": "Comment dit-on «appelle-moi ce soir» en russe ?", "opts": ["Звони меня вечером.", "Позвони мне вечером.", "Звони на мне вечером.", "Позвони к мне вечером."], "ans": 1, "exp": "«Позвони мне вечером» = appelle-moi ce soir. «Мне» est le datif de «я». «Звонить» (téléphoner) + datif. Le préfixe «по-» donne l'aspect perfectif (action ponctuelle)." }
+      ]
+    },
+    {
+      "id": 3,
+      "titleFr": "L'Accusatif et l'Instrumental",
+      "titleRu": "Винительный и творительный падежи",
+      "level": "A2",
+      "grammar": {
+        "title": "Accusatif (objet direct) et Instrumental (moyen, compagnie)",
+        "titleRu": "Винительный и творительный",
+        "intro": "L'accusatif répond à «quoi ? qui ?» — c'est le cas de l'objet direct. L'instrumental répond à «avec quoi ? par qui ?» — c'est le cas du moyen et de la compagnie. Ces deux cas sont essentiels pour construire des phrases complètes en russe.",
+        "sections": [
+          {
+            "title": "L'accusatif — formation",
+            "content": "Masculin INANIMÉ = nominatif (pas de changement !) :\nстол → стол (je vois la table)\n\nMasculin ANIMÉ :\n— consonne → + -а : брат → брата\n— -й → -я : гений → гения\n\nFéminin :\n— -а → -у : книга → книгу\n— -я → -ю : неделя → неделю\n— -ь = nominatif : ночь → ночь\n\nNeutre = nominatif :\nслово → слово"
+          },
+          {
+            "title": "L'accusatif — emplois",
+            "content": "1. Objet direct : Я читаю книгу. — Je lis le livre.\n2. Destination (в + accusatif) : Я иду в школу. — Je vais à l'école.\n3. Durée : Я жил там год. — J'y ai vécu un an.\n4. Répétition : каждый день — chaque jour\n5. Après в/на pour le mouvement vers : в Москву, на работу"
+          },
+          {
+            "title": "L'instrumental — formation",
+            "content": "Masculin / Neutre :\n— consonne → + -ом : брат → братом\n— -й → -ем : гений → гением\n— -ь → -ем : словарь → словарём\n\nFéminin :\n— -а → -ой : сестра → сестрой\n— -я → -ей : неделя → неделей\n— -ь → -ью : дочь → дочерью\n\nPronoms :\nмной (moi), тобой (toi), им (lui), ей (elle)"
+          },
+          {
+            "title": "L'instrumental — emplois",
+            "content": "1. Moyen / instrument : писать ручкой — écrire avec un stylo\n2. Compagnie (с + instrumental) : с другом — avec un ami\n3. Profession (être) : Он работает врачом. — Il est médecin.\n4. Passif : написано автором — écrit par l'auteur\n5. Prédicatif : Он стал учителем. — Il est devenu professeur.\n6. Après быть au passé/futur : буду врачом — je serai médecin"
+          }
+        ],
+        "rule": "💡 Astuce accusatif : pour les masculins, la règle «animé / inanimé» est cruciale ! «Я вижу стол» (j'vois la table — inanimé, pas de changement) mais «Я вижу брата» (je vois le frère — animé, terminaison -а). L'instrumental après «с» est très fréquent : «с молоком» (avec du lait), «с тобой» (avec toi)."
+      },
+      "pronunciation": {
+        "intro": "L'accusatif et l'instrumental en contexte — les phrases les plus naturelles de la vie quotidienne !",
+        "note": "⚠️ «С» + instrumental : «с» se prononce «z» devant une consonne sonore : «с другом» se dit «z drougom». Ce phénomène s'appelle assimilation phonétique.",
+        "words": [
+          { "fr": "Я читаю книгу.", "ru_pron": "Ya tchitaïou knígu", "meaning": "Je lis le livre. (accusatif fém.)" },
+          { "fr": "Иду в школу.", "ru_pron": "Idou f chkólou", "meaning": "Je vais à l'école. (accusatif)" },
+          { "fr": "с другом", "ru_pron": "z drougam", "meaning": "avec un ami (instrumental)" },
+          { "fr": "Он врач.", "ru_pron": "On vratch", "meaning": "Il est médecin. (nominatif)" },
+          { "fr": "Он работает врачом.", "ru_pron": "On rabótaït vrachóm", "meaning": "Il travaille comme médecin. (instrumental)" },
+          { "fr": "писать ручкой", "ru_pron": "pisát' rótchkaï", "meaning": "écrire avec un stylo (instrumental)" },
+          { "fr": "Я вижу брата.", "ru_pron": "Ya viju bráta", "meaning": "Je vois le frère. (accusatif animé)" },
+          { "fr": "Я вижу стол.", "ru_pron": "Ya viju stol", "meaning": "Je vois la table. (accusatif inanimé)" },
+          { "fr": "Поговорим с тобой.", "ru_pron": "Pagavarim z tabói", "meaning": "Parlons ensemble. (avec toi — instrumental)" },
+          { "fr": "Стать учителем.", "ru_pron": "Stat' outchítelim", "meaning": "Devenir professeur. (instrumental)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "видеть", "gender": null, "ru": "voir (+ accusatif)", "ru_pron": "vídit'", "example_fr": "Я вижу тебя.", "example_ru": "Je te vois.", "level": "A2" },
+        { "fr": "читать", "gender": null, "ru": "lire (+ accusatif)", "ru_pron": "tchitát'", "example_fr": "Она читает роман.", "example_ru": "Elle lit un roman.", "level": "A2" },
+        { "fr": "любить", "gender": null, "ru": "aimer (+ accusatif)", "ru_pron": "lyoubit'", "example_fr": "Я люблю тебя.", "example_ru": "Je t'aime.", "level": "A2" },
+        { "fr": "с", "gender": null, "ru": "avec (prép. + instrumental)", "ru_pron": "s / z", "example_fr": "Кофе с молоком.", "example_ru": "Café au lait (avec du lait).", "level": "A2" },
+        { "fr": "работать", "gender": null, "ru": "travailler comme (+ instrumental)", "ru_pron": "rábotat'", "example_fr": "Он работает учителем.", "example_ru": "Il travaille comme professeur.", "level": "A2" },
+        { "fr": "стать", "gender": null, "ru": "devenir (+ instrumental)", "ru_pron": "stat'", "example_fr": "Она стала врачом.", "example_ru": "Elle est devenue médecin.", "level": "A2" },
+        { "fr": "между", "gender": null, "ru": "entre (prép. + instrumental)", "ru_pron": "myéjdou", "example_fr": "Между нами — между тобой и мной.", "example_ru": "Entre nous — entre toi et moi.", "level": "A2" },
+        { "fr": "перед", "gender": null, "ru": "devant / avant (prép. + instrumental)", "ru_pron": "pyérit", "example_fr": "Стой перед домом.", "example_ru": "Reste devant la maison.", "level": "A2" },
+        { "fr": "заниматься", "gender": null, "ru": "s'occuper de / étudier (+ instrumental)", "ru_pron": "zanimátsa", "example_fr": "Я занимаюсь спортом.", "example_ru": "Je fais du sport.", "level": "A2" },
+        { "fr": "интересоваться", "gender": null, "ru": "s'intéresser à (+ instrumental)", "ru_pron": "interisavatsa", "example_fr": "Он интересуется музыкой.", "example_ru": "Il s'intéresse à la musique.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "инструментальный", "fr_pron": "instrouméntal'ny", "ru": "instrumental", "ru_pron": "instrumental", "note": "«Инструментальный» (instrumental, cas de l'instrument/moyen) vient du latin «instrumentum» (outil). Même origine que le français «instrumental». Le cas exprime bien le moyen par lequel une action est accomplie." },
+        { "fr": "аккузатив", "fr_pron": "akouzatív", "ru": "accusatif", "ru_pron": "accusatif", "note": "«Аккузатив» (terme savant) vient du latin «accusativus» — paradoxalement, ce cas ne sert pas à «accuser» mais à désigner l'objet direct. En russe courant, on dit plutôt «винительный падеж» (cas de la faute/crime) — même idée d'accusation !" }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Ivan Tourgueniev (1818–1883)", "subtitle": "Auteur de Pères et Fils et des Carnets d'un chasseur", "content": "Ivan Sergueïevitch Tourgueniev fut le premier romancier russe mondialement célèbre de son vivant. Ses «Carnets d'un chasseur» (1852) contribuèrent à l'abolition du servage en Russie. «Pères et Fils» (1862) créa le type littéraire du «nihiliste» russe. Ami de Flaubert, Zola et George Sand, il vécut longtemps à Paris et Baden-Baden. En France, son nom est souvent mal prononcé : «Tourguenieff» à la française, mais les Russes disent «Tоurgye-nyef». Il fut l'ambassadeur de la culture russe en Europe." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'abolition du servage — 1861", "content": "Le servage (крепостное право) fut aboli en Russie par l'Empereur Alexandre II le 19 février 1861 — soit deux ans avant l'abolition de l'esclavage aux États-Unis. Des millions de paysans (крестьяне) furent libérés. Mais la réforme était imparfaite : les paysans devaient racheter leurs terres et restèrent souvent dans la misère. Cette frustration alimenta les tensions sociales qui menèrent aux révolutions de 1905 et 1917. Tourgueniev, avec ses «Carnets d'un chasseur», avait contribué à sensibiliser l'opinion publique à cette question." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Я тебя люблю» — l'accusatif de l'amour", "content": "«Я тебя люблю» (je t'aime) est l'une des phrases russes les plus connues au monde. Elle illustre parfaitement l'accusatif : «тебя» est la forme accusative (et génitif) de «ты». Les Russes ont la réputation d'être réservés dans l'expression des sentiments — dire «я тебя люблю» est donc un moment important. Curiosité : en russe moderne oral, on dit parfois «люблю тебя» en changeant l'ordre — mais «тебя» reste accusatif quelle que soit sa position dans la phrase !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Один в поле не воин.", "pronunciation": "Adín f póli ni vóin", "translation": "On n'est pas fort tout seul. (Un seul homme dans un champ n'est pas un guerrier.)", "usage": "Proverbe russe sur l'importance de la solidarité et du travail collectif. «Воин» = guerrier/soldat (instrumental serait «воином»). Équivalent de «l'union fait la force». «В поле» = dans le champ (prépositionnel).", "example": "— Я не могу это сделать один. — Один в поле не воин — попроси помощи! (Je ne peux pas faire ça seul. — L'union fait la force — demande de l'aide !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Spaskoïe-Loutovinovo — Domaine de Tourgueniev", "subtitle": "Спасское-Лутовиново — Орловская область", "content": "Spaskoïe-Loutovinovo est le domaine natal d'Ivan Tourgueniev, à 70 km d'Orel, dans le centre de la Russie. C'est là qu'il vécut son enfance et écrivit ses «Carnets d'un chasseur». Le parc centenaire, la maison de maître et les dépendances sont préservés. Léon Tolstoï et le critique Biélinski y séjournèrent. La région d'Orel (Орёл — «l'Aigle») est réputée pour ses paysages de steppes et de forêts qui inspirèrent les deux écrivains. Un musée littéraire authentique, loin des foules." }
+      },
+      "quiz": [
+        { "q": "Quelle est la forme à l'accusatif de «книга» (le livre) ?", "opts": ["книге", "книги", "книгу", "книгой"], "ans": 2, "exp": "«Книга» → «книгу» à l'accusatif singulier. Les féminins en -а/-я font leur accusatif en -у/-ю. «Я читаю книгу» = je lis le livre." },
+        { "q": "Comment dit-on «je travaille comme médecin» en russe ?", "opts": ["Я работаю врач.", "Я работаю врача.", "Я работаю врачом.", "Я работаю у врача."], "ans": 2, "exp": "«Я работаю врачом» = je travaille comme médecin. Après «работать» (travailler comme) et «быть» (être), la profession prend l'INSTRUMENTAL : «врач» → «врачом»." },
+        { "q": "«Я занимаюсь спортом» signifie :", "opts": ["Je regarde le sport.", "Je fais du sport.", "J'aime le sport.", "Je parle de sport."], "ans": 1, "exp": "«Я занимаюсь спортом» = je fais du sport. «Заниматься» + instrumental = s'occuper de, pratiquer. «Спорт» → «спортом» (instrumental masculin)." },
+        { "q": "Quelle est la différence entre «Он врач» et «Он работает врачом» ?", "opts": ["Aucune différence.", "«Он врач» = il est médecin (identité), «Он работает врачом» = il travaille comme médecin (fonction).", "«Врачом» est une erreur.", "«Он врач» est plus formel."], "ans": 1, "exp": "«Он врач» (nominatif) = il est médecin — identité. «Он работает врачом» (instrumental) = il travaille comme médecin — fonction professionnelle. La distinction est subtile mais réelle en russe !" },
+        { "q": "Comment dit-on «avec du lait» (café au lait) en russe ?", "opts": ["с молока", "с молоко", "с молоком", "без молока"], "ans": 2, "exp": "«С молоком» = avec du lait. «С» + instrumental : «молоко» (neutre) → «молоком». «Кофе с молоком» = café au lait. «Без молока» = sans lait (génitif, préposition «без»)." }
+      ]
+    },
+    {
+      "id": 4,
+      "titleFr": "L'Aspect Verbal — Perfectif et Imperfectif",
+      "titleRu": "Вид глагола — совершенный и несовершенный",
+      "level": "A2",
+      "grammar": {
+        "title": "L'aspect verbal — la notion la plus importante du russe",
+        "titleRu": "Совершенный и несовершенный вид",
+        "intro": "L'aspect verbal est LE concept grammatical le plus important — et le plus déroutant — du russe. Chaque verbe existe en deux versions : imperfectif (action en cours, habitude, processus) et perfectif (action achevée, résultat). Ce n'est PAS le temps — c'est la vision de l'action !",
+        "sections": [
+          {
+            "title": "Imperfectif vs Perfectif — la logique",
+            "content": "IMPERFECTIF (НСВ — несовершенный вид) :\n→ Action en cours ou habituelle\n→ Processus, durée, répétition\n→ Répond à : «que faisait-il ?» / «que fait-il ?»\n\nPERFECTIF (СВ — совершенный вид) :\n→ Action achevée, résultat obtenu\n→ Action ponctuelle, unique\n→ Répond à : «qu'a-t-il fait ?» (résultat)"
+          },
+          {
+            "title": "Paires aspectuelles courantes",
+            "content": "читать (imp.) / прочитать (pf.) — lire / avoir fini de lire\nписать / написать — écrire / avoir écrit\nговорить / сказать — parler / dire (une fois)\nделать / сделать — faire / avoir fait\nпокупать / купить — acheter / avoir acheté\nобъяснять / объяснить — expliquer / avoir expliqué\nучить / выучить — apprendre / avoir appris\nзвонить / позвонить — appeler / avoir appelé\nпить / выпить — boire / avoir bu"
+          },
+          {
+            "title": "Comment les former ? Principales stratégies",
+            "content": "1. Préfixe sur l'imperfectif → perfectif :\nчитать → прочитать (про-)\nписать → написать (на-)\nделать → сделать (с-)\n\n2. Suffixe différent :\nпокупать (imp.) / купить (pf.)\nрешать / решить\n\n3. Racines complètement différentes (rares) :\nговорить / сказать\nбрать / взять (prendre)"
+          },
+          {
+            "title": "Emploi au passé — la différence clé",
+            "content": "Вчера я читал книгу. (imp.) — Hier je lisais / j'ai lu un moment.\nВчера я прочитал книгу. (pf.) — Hier j'ai lu (fini) le livre.\n\nКаждый день я пил кофе. (imp.) — Chaque jour je buvais du café.\nЯ выпил кофе и ушёл. (pf.) — J'ai bu mon café et je suis parti.\n\nОна объясняла урок. (imp.) — Elle expliquait la leçon.\nОна объяснила урок. (pf.) — Elle a expliqué la leçon (terminée)."
+          }
+        ],
+        "rule": "💡 Truc pratique : si vous pouvez ajouter «en train de» ou «habituellement» → imperfectif. Si vous pouvez ajouter «fini de» ou «complètement» → perfectif. «J'ai lu le livre» = prочитал (fini). «Je lisais le livre» = читал (en cours). En cas de doute, l'imperfectif est souvent le choix le plus sûr !"
+      },
+      "pronunciation": {
+        "intro": "Les paires aspectuelles — entraînez-vous à entendre et prononcer la différence !",
+        "note": "⚠️ Le perfectif se forme souvent par un préfixe, ce qui déplace l'accent : «писать» [pisát'] → «написать» [napisát']. Attention aux changements d'accent !",
+        "words": [
+          { "fr": "читать / прочитать", "ru_pron": "tchitát' / pra-tchitát'", "meaning": "lire / finir de lire" },
+          { "fr": "писать / написать", "ru_pron": "pisát' / na-pisát'", "meaning": "écrire / avoir écrit" },
+          { "fr": "делать / сделать", "ru_pron": "dyélat' / z-dyélat'", "meaning": "faire / avoir fait" },
+          { "fr": "говорить / сказать", "ru_pron": "gavarit' / skazát'", "meaning": "parler / dire (une fois)" },
+          { "fr": "покупать / купить", "ru_pron": "pakoúpat' / koupit'", "meaning": "acheter / avoir acheté" },
+          { "fr": "учить / выучить", "ru_pron": "outchit' / výoutchit'", "meaning": "apprendre / avoir appris" },
+          { "fr": "звонить / позвонить", "ru_pron": "zvanít' / pazvanít'", "meaning": "téléphoner / avoir téléphoné" },
+          { "fr": "пить / выпить", "ru_pron": "pit' / výpit'", "meaning": "boire / avoir bu (tout)" },
+          { "fr": "объяснять / объяснить", "ru_pron": "abyasniyát' / abyasnít'", "meaning": "expliquer / avoir expliqué" },
+          { "fr": "брать / взять", "ru_pron": "brát' / vzyát'", "meaning": "prendre / avoir pris (pf. irrég.)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "читать / прочитать", "gender": null, "ru": "lire / finir de lire", "ru_pron": "tchitát' / pratchiát'", "example_fr": "Я читаю книгу. / Я прочитал книгу.", "example_ru": "Je lis le livre. / J'ai fini de lire le livre.", "level": "A2" },
+        { "fr": "делать / сделать", "gender": null, "ru": "faire / avoir fait", "ru_pron": "dyélat' / zdyélat'", "example_fr": "Что ты делаешь? / Я сделал домашнее задание.", "example_ru": "Que fais-tu ? / J'ai fait mes devoirs.", "level": "A2" },
+        { "fr": "говорить / сказать", "gender": null, "ru": "parler (en cours) / dire (une fois)", "ru_pron": "gavarit' / skazát'", "example_fr": "Он говорил долго. / Он сказал одно слово.", "example_ru": "Il parlait longtemps. / Il a dit un mot.", "level": "A2" },
+        { "fr": "покупать / купить", "gender": null, "ru": "acheter (processus) / acheter (résultat)", "ru_pron": "pakoúpat' / koupit'", "example_fr": "Я покупаю продукты. / Я купил хлеб.", "example_ru": "J'achète des produits. / J'ai acheté du pain.", "level": "A2" },
+        { "fr": "учить / выучить", "gender": null, "ru": "apprendre (processus) / avoir appris", "ru_pron": "outchit' / výoutchit'", "example_fr": "Я учу слова. / Я выучил урок.", "example_ru": "J'apprends des mots. / J'ai appris la leçon.", "level": "A2" },
+        { "fr": "начинать / начать", "gender": null, "ru": "commencer (processus) / avoir commencé", "ru_pron": "natctinat' / natcát'", "example_fr": "Урок начинается. / Урок начался.", "example_ru": "Le cours commence. / Le cours a commencé.", "level": "A2" },
+        { "fr": "заканчивать / закончить", "gender": null, "ru": "finir (processus) / avoir fini", "ru_pron": "zakántchivat' / zakótchit'", "example_fr": "Я заканчиваю работу. / Я закончил работу.", "example_ru": "Je finis le travail. / J'ai fini le travail.", "level": "A2" },
+        { "fr": "понимать / понять", "gender": null, "ru": "comprendre (en cours) / avoir compris", "ru_pron": "panimat' / panyát'", "example_fr": "Я понимаю. / Я понял!", "example_ru": "Je comprends. / J'ai compris !", "level": "A2" },
+        { "fr": "забывать / забыть", "gender": null, "ru": "oublier (habitude) / avoir oublié", "ru_pron": "zabyvat' / zabyt'", "example_fr": "Я часто забываю. / Я забыл ключи!", "example_ru": "J'oublie souvent. / J'ai oublié les clés !", "level": "A2" },
+        { "fr": "решать / решить", "gender": null, "ru": "décider/résoudre (processus) / avoir décidé", "ru_pron": "richat' / richit'", "example_fr": "Он долго решал. / Он решил уехать.", "example_ru": "Il réfléchissait longtemps. / Il a décidé de partir.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "аспект", "fr_pron": "aspyékt", "ru": "aspect", "ru_pron": "aspect", "note": "«Аспект» vient du latin «aspectus» (regard, apparence). En linguistique, l'aspect verbal concerne la «vision» de l'action (achevée ou en cours). Le russe est la langue qui développe le système aspectuel le plus élaboré parmi les langues européennes." },
+        { "fr": "перфект", "fr_pron": "pirfyékt", "ru": "parfait (temps)", "ru_pron": "parfait", "note": "«Перфект» vient du latin «perfectus» (accompli, parfait). En russe, l'aspect perfectif (совершенный вид) exprime l'accomplissement complet d'une action — la même idée que le «perfectum» latin." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Nikolaï Gogol (1809–1852)", "subtitle": "Auteur du Révizor et des Âmes mortes", "content": "Nikolaï Vassilievitch Gogol est le génie du grotesque et de l'humour noir dans la littérature russe. Ukrainien d'origine, il s'installa à Saint-Pétersbourg. «Le Révizor» (1836), comédie satirique sur la corruption provinciale, fit scandale et rires. «Les Âmes mortes» (1842) est une fresque épique et absurde de la Russie. «Le Manteau» (1842) inspira toute la littérature russe — Dostoïevski dit «Nous sommes tous sortis du manteau de Gogol». Il mourut mystérieusement à 42 ans, peut-être de mortification religieuse." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "L'aspect verbal — une invention slave unique", "content": "Le système aspectuel (perfectif / imperfectif) est une invention des langues slaves qui n'existe pas en latin, français, anglais ou allemand. Cette «vision» de l'action — achevée ou en cours — est profondément ancrée dans la pensée slave. Les linguistes pensent que l'aspect s'est développé en slave entre le VIe et IXe siècle. Pour un francophone, c'est la difficulté n°1 du russe — mais aussi ce qui rend la langue si précise pour décrire les actions !" },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Я понял!» — le moment eurêka du russe", "content": "«Я понял !» (j'ai compris ! — perfectif) est l'une des exclamations les plus satisfaisantes en russe — c'est le moment où quelque chose «clique». Contraste avec «я понимаю» (je comprends — imperfectif, processus en cours). Les apprenants de russe connaissent souvent ce moment difficile de l'aspect verbal, puis ce moment merveilleux où «они поняли !» (ils ont compris !). Les professeurs russes disent que l'aspect est «невозможно объяснить» (impossible à expliquer) — il faut le sentir !" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Сделал дело — гуляй смело!", "pronunciation": "Zdyélal dyéla — goulyaï smyéla", "translation": "Le travail fait — va te promener hardiment !", "usage": "Proverbe russe (avec deux perfectifs !) sur l'importance de finir le travail avant de se reposer. Équivalent de «après l'effort le réconfort» ou «travail d'abord, plaisir ensuite». «Сделал» = perfectif (fini !) et «гуляй» = impératif imperfectif (promenade continue).", "example": "— Можно я пойду гулять? — Сделал дело — гуляй смело! Сначала уроки! (Je peux aller me promener ? — Après le travail vient le plaisir ! Les devoirs d'abord !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Poltava — Ville historique d'Ukraine / Russie impériale", "subtitle": "Полтава — Гоголь и история", "content": "Poltava (Полтава), aujourd'hui en Ukraine, est liée à Gogol qui y naquit à proximité (à Sorochyntsi) et à la grande victoire de Pierre le Grand sur Charles XII de Suède en 1709 — «la Bataille de Poltava». Gogol a immortalisé cette région d'Ukraine avec ses contes : «Soirées du hameau près de Dikanka», plein de bonne humeur folklorique et de sorcellerie. La Petite-Russie (Ukraine) était au cœur de l'imaginaire gogolien — un monde magique à la frontière du réel et du fantastique." }
+      },
+      "quiz": [
+        { "q": "Quelle phrase signifie «j'ai fini de lire le livre» (résultat) ?", "opts": ["Я читал книгу.", "Я прочитал книгу.", "Я читаю книгу.", "Я буду читать книгу."], "ans": 1, "exp": "«Я прочитал книгу» = j'ai fini de lire le livre (perfectif — résultat accompli). «Я читал книгу» = je lisais le livre / j'ai lu (sans préciser si terminé). Le préfixe «про-» transforme le verbe en perfectif." },
+        { "q": "Lequel est l'aspect IMPERFECTIF ?", "opts": ["прочитать", "купить", "сделать", "читать"], "ans": 3, "exp": "«Читать» est l'imperfectif (lire — processus). «Прочитать» = perfectif (finir de lire). «Купить» = perfectif (acheter). «Сделать» = perfectif (avoir fait)." },
+        { "q": "«Я понял!» utilise quel aspect et que signifie-t-il ?", "opts": ["Imperfectif — je comprends.", "Perfectif — j'ai compris !", "Futur — je vais comprendre.", "Négatif — je ne comprends pas."], "ans": 1, "exp": "«Я понял !» = j'ai compris ! Aspect perfectif — l'action de comprendre est achevée, le résultat est obtenu. «Я понимаю» = je comprends (imperfectif — processus en cours)." },
+        { "q": "Quelle paire est une supplétion (racines différentes) ?", "opts": ["читать / прочитать", "делать / сделать", "говорить / сказать", "писать / написать"], "ans": 2, "exp": "«Говорить / сказать» — deux racines complètement différentes ! «Говорить» (imperfectif) et «сказать» (perfectif) sont une paire suppletive, comme «aller / aller» en français. Les autres paires utilisent le même radical avec préfixe." },
+        { "q": "Dans la phrase «Каждый день я пил кофе», quel aspect est utilisé et pourquoi ?", "opts": ["Perfectif, car c'est une action terminée.", "Imperfectif, car c'est une habitude / action répétée.", "Imperfectif, car le café n'est pas fini.", "Perfectif, car il y a un résultat."], "ans": 1, "exp": "«Пил» est l'imperfectif du passé — action habituelle, répétée («chaque jour»). Une habitude ou une action répétée utilise toujours l'imperfectif. «Я выпил кофе» (perfectif) = j'ai bu (tout) mon café — action ponctuelle et terminée." }
+      ]
+    },
+    {
+      "id": 5,
+      "titleFr": "Le Futur et le Conditionnel",
+      "titleRu": "Будущее время и условное наклонение",
+      "level": "A2",
+      "grammar": {
+        "title": "Le futur russe et le conditionnel en «бы»",
+        "titleRu": "Будущее время — два способа образования",
+        "intro": "Le futur russe a DEUX formes selon l'aspect : le futur imperfectif (action future en cours) et le futur perfectif (résultat futur). Le conditionnel en «бы» permet d'exprimer des souhaits, hypothèses et politesses — il est étonnamment simple !",
+        "sections": [
+          {
+            "title": "Futur imperfectif — быть + infinitif",
+            "content": "Я буду + infinitif imperfectif :\nЯ буду читать. — Je lirai / je vais lire.\nТы будешь работать. — Tu travailleras.\nОн/она будет говорить. — Il/elle parlera.\nМы будем смотреть. — Nous regarderons.\nВы будете петь. — Vous chanterez.\nОни будут учить. — Ils apprendront.\n\n(Action future en cours / processus)"
+          },
+          {
+            "title": "Futur perfectif — conjugaison au présent de l'imperfectif",
+            "content": "Les verbes perfectifs se conjuguent comme le présent :\n\nпрочитать → прочитаю (je vais finir de lire)\nнаписать → напишу (j'aurai écrit)\nсделать → сделаю (j'aurai fait)\nкупить → куплю (j'aurai acheté)\nпозвонить → позвоню (j'appellerai)\nвыучить → выучу (j'aurai appris)\n\n(Résultat futur / action achevée)"
+          },
+          {
+            "title": "Le conditionnel — бы + passé",
+            "content": "Structure : verbe au passé + «бы» (placé n'importe où)\n\nЯ хотел(а) бы... — Je voudrais...\nЯ купил(а) бы... — J'achèterais...\nЕсли бы я знал(а)... — Si je savais...\nЧто бы ты сделал(а)? — Que ferais-tu ?\nЯ бы пошёл(пошла)... — J'irais...\nМожно бы было... — Il aurait été possible..."
+          },
+          {
+            "title": "Exprimer des souhaits et hypothèses",
+            "content": "Хотел(а) бы ты...? — Voudrais-tu...?\nЕсли бы у меня было время... — Si j'avais le temps...\nЯ бы хотел(а) побывать в России. — Je voudrais visiter la Russie.\nЕсли бы я знал(а) русский... — Si je savais le russe...\nЧто бы ты купил(а)? — Qu'est-ce que tu achèterais ?\nЯ бы поехал(а) в Москву. — J'irais à Moscou."
+          }
+        ],
+        "rule": "💡 Aide-mémoire : FUTUR IMPERFECTIF = будет (auxil.) + infinitif (que fera-t-il demain ? processus). FUTUR PERFECTIF = conjugaison «présente» du verbe perfectif (quand aura-t-il terminé ?). CONDITIONNEL = passé + «бы» — «бы» peut se placer après n'importe quel mot de la phrase, sans changer le sens !"
+      },
+      "pronunciation": {
+        "intro": "Le futur et le conditionnel — des formules très utiles pour la conversation !",
+        "note": "⚠️ «Буду/будет/будут» (formes du futur de «быть») est le verbe «être» au futur — en russe, il réapparaît au futur après être absent au présent. «Я буду там» = je serai là.",
+        "words": [
+          { "fr": "Я буду читать.", "ru_pron": "Ya boúdou tchitát'", "meaning": "Je vais lire. (futur imperfectif)" },
+          { "fr": "Я прочитаю.", "ru_pron": "Ya pratchtchaïou", "meaning": "Je lirai / finirai de lire. (futur perfectif)" },
+          { "fr": "Я хотел бы.", "ru_pron": "Ya khatýél by", "meaning": "Je voudrais. (conditionnel masc.)" },
+          { "fr": "Если бы...", "ru_pron": "Yésli by", "meaning": "Si... (hypothèse)" },
+          { "fr": "Что бы ты сделал?", "ru_pron": "Chto by ty zdyélal", "meaning": "Que ferais-tu ? (conditionnel)" },
+          { "fr": "Я бы поехал.", "ru_pron": "Ya by payékhal", "meaning": "J'irais. (conditionnel masc.)" },
+          { "fr": "Будет хорошо.", "ru_pron": "Boúdit kharachó", "meaning": "Ça ira bien. (futur de «être»)" },
+          { "fr": "Позвоню тебе.", "ru_pron": "Pazvanyu tibé", "meaning": "Je t'appellerai. (futur perfectif)" },
+          { "fr": "Мы будем вместе.", "ru_pron": "My boúdim vmyésti", "meaning": "Nous serons ensemble." },
+          { "fr": "Когда ты придёшь?", "ru_pron": "Kagdá ty pridjóch", "meaning": "Quand viendras-tu ? (futur perf.)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "будет", "gender": null, "ru": "il y aura / ce sera / il/elle sera", "ru_pron": "boúdit", "example_fr": "Завтра будет хорошая погода.", "example_ru": "Demain il fera beau.", "level": "A2" },
+        { "fr": "хотеть", "gender": null, "ru": "vouloir", "ru_pron": "khatét'", "example_fr": "Я хотел бы кофе.", "example_ru": "Je voudrais un café.", "level": "A2" },
+        { "fr": "мочь", "gender": null, "ru": "pouvoir", "ru_pron": "motch'", "example_fr": "Я смогу прийти завтра.", "example_ru": "Je pourrai venir demain.", "level": "A2" },
+        { "fr": "планировать", "gender": null, "ru": "planifier / avoir l'intention de", "ru_pron": "planírovat'", "example_fr": "Мы планируем поехать в Россию.", "example_ru": "Nous prévoyons d'aller en Russie.", "level": "A2" },
+        { "fr": "собираться", "gender": null, "ru": "avoir l'intention de / se préparer à", "ru_pron": "sabirátsa", "example_fr": "Я собираюсь учить русский.", "example_ru": "Je vais apprendre le russe.", "level": "A2" },
+        { "fr": "надеяться", "gender": null, "ru": "espérer", "ru_pron": "nadéyatsa", "example_fr": "Я надеюсь, что ты придёшь.", "example_ru": "J'espère que tu viendras.", "level": "A2" },
+        { "fr": "если", "gender": null, "ru": "si (condition)", "ru_pron": "yésli", "example_fr": "Если завтра будет дождь, я останусь дома.", "example_ru": "S'il pleut demain, je resterai à la maison.", "level": "A2" },
+        { "fr": "когда", "gender": null, "ru": "quand (futur = perfectif)", "ru_pron": "kagdá", "example_fr": "Когда ты приедешь?", "example_ru": "Quand arriveras-tu ?", "level": "A2" },
+        { "fr": "обязательно", "gender": null, "ru": "certainement / sans faute", "ru_pron": "abizátil'na", "example_fr": "Я обязательно позвоню.", "example_ru": "Je t'appellerai sans faute.", "level": "A2" },
+        { "fr": "наверное", "gender": null, "ru": "probablement / sans doute", "ru_pron": "navyérna", "example_fr": "Он наверное придёт.", "example_ru": "Il viendra probablement.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "будущее", "fr_pron": "boúdouchtchié", "ru": "futur / avenir", "ru_pron": "futur", "note": "«Будущее» (le futur/l'avenir) vient de «быть» (être) — littéralement «ce qui sera». Même logique que le latin «futurus» (participe futur de «esse» = être). La notion de futur comme «ce qui sera» est universelle." },
+        { "fr": "условие", "fr_pron": "ousloviye", "ru": "condition", "ru_pron": "condition", "note": "«Условие» (condition) a la même logique que «condition» en français — les deux viennent de l'idée de «convention, accord». En grammaire, le mode conditionnel (условное наклонение) porte le même sens des deux côtés." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Youri Gagarine (1934–1968)", "subtitle": "Premier homme dans l'espace — «Поехали !»", "content": "Youri Alexeïevitch Gagarine fut le premier être humain à voyager dans l'espace, le 12 avril 1961 à bord de Vostok 1. Sa phrase légendaire au décollage — «Поехали !» (On y va !) — est entrée dans l'histoire mondiale. Fils de paysans, il incarna le rêve soviétique de l'homme nouveau. Mort dans un accident d'avion à 34 ans, il resta une icône mondiale. Le 12 avril est la «Journée de la cosmonautique» en Russie. Gagarine fut le premier à voir la Terre depuis l'espace et dit : «La Terre est bleue — c'est magnifique !»" },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Spoutnik et la conquête spatiale soviétique", "content": "Le 4 octobre 1957, l'URSS lança Spoutnik 1 (Спутник — «compagnon de voyage»), le premier satellite artificiel de l'histoire. Ce fut un choc mondial — les Américains n'y croyaient pas. En 1961, Gagarine. En 1963, Valentina Terechkova devint la première femme dans l'espace. La cosmonautique soviétique utilisa le futur perfectif à plein : «мы полетим», «мы достигнем» (nous atteindrons) — la vision d'un résultat accompli dans l'avenir." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Авось» — le futur à la russe", "content": "«Авось» est un mot unique en russe — intraduisible en une seule expression française. Il signifie «peut-être que ça marchera», «au hasard», «en espérant que». C'est une philosophie du futur incertain, accepté avec confiance. Le poète Viazemski lui consacra un poème, et le mot symbolise pour les Russes eux-mêmes une certaine manière d'aborder l'avenir avec insouciance courageuse. «Авось, небось да как-нибудь» (avoss, néboss et on verra) sont les trois «saints patrons» de la nonchalance russe selon l'humour populaire." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Всё будет хорошо!", "pronunciation": "Vsyo boúdit kharachó", "translation": "Tout ira bien !", "usage": "L'expression d'optimisme la plus universelle en russe. Utilisée pour réconforter, encourager, ou simplement exprimer l'espoir. «Всё» = tout, «будет» = sera (futur de быть), «хорошо» = bien. Une phrase simple mais profonde — le futur de «être» porte tout l'espoir.", "example": "— Я очень беспокоюсь о завтрашнем экзамене. — Не волнуйся, всё будет хорошо! (Je suis très inquiet pour l'examen de demain. — Ne t'inquiète pas, tout ira bien !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Baïkonour — La cosmодrome historique", "subtitle": "Байконур — Космодром легенды", "content": "Baïkonour (Байконур) au Kazakhstan est le plus ancien et le plus grand cosmodrome du monde, d'où décollèrent Spoutnik et Gagarine. Loué à la Russie, il reste un site de lancement actif. Des tours guidées sont proposées pour observer les lancements de fusées Soyouz. Le musée du Cosmodrome présente les capsules originales et les combinaisons spatiales. Une expérience unique pour tous ceux qui s'intéressent à la conquête spatiale. L'ancienne ville fermée de Baïkonour est accessible sur permission spéciale." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «je lirai» (en cours, processus) en russe ?", "opts": ["Я прочитаю.", "Я читал.", "Я буду читать.", "Я читаю."], "ans": 2, "exp": "«Я буду читать» = je lirai / je vais lire (futur imperfectif : processus). «Я прочитаю» = je lirai (futur perfectif : je finirai de lire). La différence : processus vs résultat." },
+        { "q": "Comment exprimer «je voudrais du café» en russe ?", "opts": ["Я хочу кофе.", "Я хотел бы кофе.", "Я буду хотеть кофе.", "Мне кофе."], "ans": 1, "exp": "«Я хотел бы кофе» = je voudrais un café (conditionnel de politesse). «Бы» + passé = conditionnel. «Я хочу кофе» = je veux du café (plus direct). Le conditionnel est plus poli." },
+        { "q": "«Поехали !» — que veut dire cette expression célèbre ?", "opts": ["Jusqu'à bientôt !", "On y va ! / Partons !", "Bonne chance !", "Au revoir !"], "ans": 1, "exp": "«Поехали !» = on y va ! / partons ! C'est le perfectif passé de «поехать» utilisé comme exclamation de départ. Gagarine prononça ce mot au décollage de Vostok 1 en 1961 — ce fut l'une des phrases les plus célèbres du XXe siècle." },
+        { "q": "Dans «если бы я знал», quel mode est utilisé ?", "opts": ["Futur", "Passé simple", "Conditionnel (бы + passé)", "Impératif"], "ans": 2, "exp": "«Если бы я знал» = si je savais (conditionnel). Structure : «если бы» + verbe au passé. «Бы» est la particule du conditionnel russe, placée après «если» et/ou après le verbe au passé." },
+        { "q": "Comment dit-on «j'espère que tu viendras» en russe ?", "opts": ["Я надеюсь, что ты пришёл.", "Я надеюсь, что ты придёшь.", "Я надеялся, что ты придёшь.", "Я хочу, что ты придёшь."], "ans": 1, "exp": "«Я надеюсь, что ты придёшь» = j'espère que tu viendras. «Придёшь» est le futur perfectif de «приходить» (venir). Après «надеяться» (espérer), on utilise le futur pour une action anticipée positive." }
+      ]
+    },
+    {
+      "id": 6,
+      "titleFr": "Les Comparatifs et Superlatifs",
+      "titleRu": "Сравнительная и превосходная степень",
+      "level": "A2",
+      "grammar": {
+        "title": "Comparer en russe — plus, moins, le plus",
+        "titleRu": "Степени сравнения прилагательных",
+        "intro": "Pour comparer des personnes, des choses ou des situations en russe, vous aurez besoin du comparatif (plus grand, moins cher) et du superlatif (le plus grand, le meilleur). Le russe offre des formes courtes pratiques très utilisées dans la conversation quotidienne.",
+        "sections": [
+          {
+            "title": "Comparatif court — forme simple",
+            "content": "Formation : radical + -е ou -ее / -ей\n\nбольшой → больше (plus grand)\nмаленький → меньше (plus petit)\nхороший → лучше (meilleur — irrég.)\nплохой → хуже (pire — irrég.)\nбыстрый → быстрее (plus rapide)\nмедленный → медленнее (plus lent)\nинтересный → интереснее (plus intéressant)\nдорогой → дороже (plus cher)\nдешёвый → дешевле (moins cher)\nстарый → старше (plus vieux)"
+          },
+          {
+            "title": "Constructions comparatives",
+            "content": "Он больше, чем она. — Il est plus grand qu'elle.\nЭта книга интереснее той. — Ce livre est plus intéressant que celui-là.\nМосква больше Парижа. — Moscou est plus grand que Paris. (génitif de comparaison)\n\nPlus... que = -ее/-е + чем OR + génitif :\nОн умнее меня. / Он умнее, чем я.\n(Il est plus intelligent que moi.)"
+          },
+          {
+            "title": "Superlatif — deux formes",
+            "content": "1. Самый + adjectif (le plus...) :\nсамый большой — le plus grand\nсамый интересный — le plus intéressant\nсамая красивая — la plus belle\n\n2. Наиболее + adjectif (formel) :\nнаиболее важный — le plus important\n\nSuperlatifs irréguliers courants :\nлучший — le meilleur\nхудший — le pire\nмладший — le plus jeune (fratrie)\nстарший — l'aîné"
+          },
+          {
+            "title": "Égalité et infériorité",
+            "content": "Égalité : такой же... как\nОн такой же высокий, как я. — Il est aussi grand que moi.\n\nInfériorité : менее... чем\nЭто менее важно, чем... — C'est moins important que...\n\nDifférence quantitative :\nОн намного старше. — Il est beaucoup plus vieux.\nЧуть-чуть лучше. — Un tout petit peu mieux.\nГораздо дешевле. — Beaucoup moins cher."
+          }
+        ],
+        "rule": "💡 Le génitif de comparaison est très courant en russe : «Москва больше Парижа» (Moscou est plus grand que Paris — «Парижа» est au génitif). C'est plus élégant que d'utiliser «чем». Retenez les irréguliers absolus : хороший → лучше (meilleur), плохой → хуже (pire), маленький → меньше (plus petit)."
+      },
+      "pronunciation": {
+        "intro": "Les comparatifs russes — souvent plus courts que les adjectifs de base, ils sont faciles à prononcer !",
+        "note": "⚠️ «Лучше» (mieux/meilleur) et «хуже» (pire) ont une prononciation particulière : «лучше» = [loutchi], «хуже» = [khoji]. Ce sont les comparatifs les plus importants à retenir.",
+        "words": [
+          { "fr": "лучше", "ru_pron": "lóutchi", "meaning": "mieux / meilleur" },
+          { "fr": "хуже", "ru_pron": "khóuji", "meaning": "pire / plus mal" },
+          { "fr": "больше", "ru_pron": "ból'chi", "meaning": "plus grand / plus / davantage" },
+          { "fr": "меньше", "ru_pron": "myén'chi", "meaning": "plus petit / moins" },
+          { "fr": "быстрее", "ru_pron": "bystriyéï", "meaning": "plus vite / plus rapidement" },
+          { "fr": "дороже", "ru_pron": "daróji", "meaning": "plus cher" },
+          { "fr": "дешевле", "ru_pron": "dichévli", "meaning": "moins cher / meilleur marché" },
+          { "fr": "самый лучший", "ru_pron": "sámy lóutchi", "meaning": "le meilleur (de tous)" },
+          { "fr": "намного лучше", "ru_pron": "naamnóga lóutchi", "meaning": "beaucoup mieux" },
+          { "fr": "чуть-чуть лучше", "ru_pron": "tchout'-tchout' lóutchi", "meaning": "un tout petit peu mieux" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "лучше", "gender": null, "ru": "mieux / meilleur (comparatif de хорошо/хороший)", "ru_pron": "lóutchi", "example_fr": "Сегодня мне лучше.", "example_ru": "Aujourd'hui je vais mieux.", "level": "A2" },
+        { "fr": "хуже", "gender": null, "ru": "pire / plus mal (comparatif de плохо/плохой)", "ru_pron": "khóuji", "example_fr": "Сегодня погода хуже.", "example_ru": "Aujourd'hui le temps est pire.", "level": "A2" },
+        { "fr": "больше", "gender": null, "ru": "plus grand / plus / davantage", "ru_pron": "ból'chi", "example_fr": "Дай мне больше времени.", "example_ru": "Donne-moi plus de temps.", "level": "A2" },
+        { "fr": "меньше", "gender": null, "ru": "plus petit / moins", "ru_pron": "myén'chi", "example_fr": "Работай меньше, отдыхай больше!", "example_ru": "Travaille moins, repose-toi plus !", "level": "A2" },
+        { "fr": "самый", "gender": null, "ru": "le plus / le/la plus (+ adj.)", "ru_pron": "sámy", "example_fr": "Это самый красивый город.", "example_ru": "C'est la plus belle ville.", "level": "A2" },
+        { "fr": "чем", "gender": null, "ru": "que (dans les comparaisons)", "ru_pron": "tchem", "example_fr": "Он выше, чем я.", "example_ru": "Il est plus grand que moi.", "level": "A2" },
+        { "fr": "намного", "gender": null, "ru": "beaucoup plus / bien plus", "ru_pron": "naamnóga", "example_fr": "Это намного лучше!", "example_ru": "C'est beaucoup mieux !", "level": "A2" },
+        { "fr": "немного", "gender": null, "ru": "un peu / légèrement", "ru_pron": "nimmnóga", "example_fr": "Говори немного медленнее.", "example_ru": "Parle un peu plus lentement.", "level": "A2" },
+        { "fr": "такой же", "gender": null, "ru": "aussi... que / pareil", "ru_pron": "takóï je", "example_fr": "Она такая же умная, как он.", "example_ru": "Elle est aussi intelligente que lui.", "level": "A2" },
+        { "fr": "гораздо", "gender": null, "ru": "bien plus / nettement (renforce comparatif)", "ru_pron": "garázda", "example_fr": "Москва гораздо больше Лиона.", "example_ru": "Moscou est bien plus grand que Lyon.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "максимум", "fr_pron": "máksimum", "ru": "maximum", "ru_pron": "maximum", "note": "«Максимум» est identique en russe et en français — même origine latine «maximus» (le plus grand). «Минимум» aussi. Ces superlatifs latins absolus sont universels dans les langues européennes." },
+        { "fr": "оптимальный", "fr_pron": "aptimál'ny", "ru": "optimal(e)", "ru_pron": "optimal", "note": "«Оптимальный» vient du latin «optimus» (le meilleur). Même famille que «optimiste» (оптимист) et «optimum» (оптимум). Le comparatif «лучший» (meilleur) exprime la même idée en mot purement russe." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Catherine la Grande (1729–1796)", "subtitle": "«La plus grande des tsarines»", "content": "Catherine II, dite «la Grande» (Екатерина Великая), fut impératrice de Russie de 1762 à 1796 — le règne le plus long d'une femme souveraine de l'histoire russe. Née princesse allemande, elle apprit le russe à la perfection, adopta la culture russe et en fit rayonner l'empire. Elle correspondit avec Voltaire et Diderot, fonda l'Ermitage, étendit le territoire russe. Son coup d'état contre son propre mari Pierre III reste une des grandes coups de force de l'histoire. «La Grande» — суперлатив absolu." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La Russie — le plus grand pays du monde", "content": "La Russie (Россия) est le plus grand pays du monde par la superficie : 17,1 millions de km² — soit environ 30 fois la France. Elle s'étend sur 11 fuseaux horaires. Le point le plus à l'ouest est Kaliningrad (enclave en Europe), le plus à l'est est l'île Ratmanova dans le détroit de Béring, à quelques kilomètres de l'Alaska. Cette immensité explique les superlatifs russes : le lac le plus profond (Baïkal), la plus longue voie ferrée (Transsibérien, 9 288 km)." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Лучший» vs «лучше» — le meilleur et mieux", "content": "En russe, «лучший» (le meilleur — adjectif) et «лучше» (mieux — comparatif court) sont des mots différents mais proches. La blague russe classique : «Что лучше — лучшее или лучше?» (Qu'est-ce qui est mieux — le meilleur ou mieux ?) joue sur cette ambiguïté. En russe quotidien, «лучше» est omniprésent : «лучше бы ты молчал» (tu ferais mieux de te taire), «всё лучше и лучше» (de mieux en mieux)." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Лучше поздно, чем никогда.", "pronunciation": "Lóutchi pózdna, tchem nikagdá", "translation": "Mieux vaut tard que jamais.", "usage": "Proverbe universel avec le comparatif «лучше» (mieux)! Identique au français «mieux vaut tard que jamais». En russe, «чем» (que) est utilisé pour la comparaison. «Никогда» = jamais. Ce proverbe illustre parfaitement l'emploi des comparatifs dans les expressions idiomatiques.", "example": "— Прости, я опоздал на час... — Ничего! Лучше поздно, чем никогда! (Excuse-moi, j'ai une heure de retard... — Ce n'est rien ! Mieux vaut tard que jamais !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le Transsibérien — La plus longue voie ferrée du monde", "subtitle": "Транссибирская магистраль — 9 288 км", "content": "Le Transsibérien (Транссибирская магистраль) est la plus longue voie ferrée du monde : 9 288 km de Moscou à Vladivostok, traversant 8 fuseaux horaires en environ 7 jours de voyage. Construit entre 1891 et 1916, il relia l'Europe à l'Asie et transforma la Russie. Le voyage en train «Россия» est une expérience unique : forêts de taïga, steppes, lac Baïkal, montagnes de l'Oural. Des wagons de différentes classes permettent de voyager de l'économique (плацкарт) au luxe (СВ). Une aventure à faire une fois dans sa vie !" }
+      },
+      "quiz": [
+        { "q": "Quel est le comparatif de «хороший» (bon) en russe ?", "opts": ["хорошее", "более хороший", "лучше", "наилучший"], "ans": 2, "exp": "«Лучше» est le comparatif irrégulier de «хороший» (bon) — il signifie «mieux / meilleur». C'est l'un des trois comparatifs irréguliers à mémoriser absolument avec «хуже» (pire) et «меньше» (plus petit)." },
+        { "q": "Comment dit-on «Moscou est plus grande que Paris» ?", "opts": ["Москва больше чем Париж.", "Москва больше Парижа.", "Москва самая большая чем Париж.", "Москва больше у Парижа."], "ans": 1, "exp": "«Москва больше Парижа» = Moscou est plus grande que Paris. En russe, on peut utiliser le génitif de comparaison (Парижа) sans «чем». Les deux formes sont correctes : «больше Парижа» ou «больше, чем Париж»." },
+        { "q": "Comment dit-on «le plus beau / la plus belle» ?", "opts": ["красивее", "более красивый", "самый красивый / самая красивая", "красивейший"], "ans": 2, "exp": "«Самый красивый» (masc.) / «самая красивая» (fém.) = le plus beau / la plus belle. «Самый / самая / самое / самые» + adjectif forme le superlatif en russe courant." },
+        { "q": "Que signifie «гораздо лучше» ?", "opts": ["Un peu mieux.", "Beaucoup mieux / nettement meilleur.", "Peut-être mieux.", "Pareil ou mieux."], "ans": 1, "exp": "«Гораздо лучше» = beaucoup mieux / nettement meilleur. «Гораздо» est un intensificateur du comparatif, comme «намного» (beaucoup plus) et «немного» (un peu plus)." },
+        { "q": "Comment dit-on «mieux vaut tard que jamais» en russe ?", "opts": ["Поздно, но хорошо.", "Никогда не поздно.", "Лучше поздно, чем никогда.", "Поздно лучше, чем никогда."], "ans": 2, "exp": "«Лучше поздно, чем никогда» = mieux vaut tard que jamais. «Лучше» = mieux (comparatif), «чем» = que, «никогда» = jamais. Ce proverbe universel illustre parfaitement la structure comparative «лучше... чем»." }
+      ]
+    },
+    {
+      "id": 7,
+      "titleFr": "Les Verbes de Mouvement",
+      "titleRu": "Глаголы движения",
+      "level": "A2",
+      "grammar": {
+        "title": "Aller, venir, partir — les verbes de mouvement russes",
+        "titleRu": "Идти, ходить, ехать, ездить",
+        "intro": "Les verbes de mouvement sont parmi les plus complexes — et les plus utiles — du russe. Contrairement au français, le russe distingue le mouvement «en cours» (idti — je vais en ce moment) du mouvement «habituel ou multidirectionnel» (khodit' — je vais souvent). Plus il y a de précision, mieux c'est !",
+        "sections": [
+          {
+            "title": "Idti vs Khodit' — à pied",
+            "content": "ИДТИ (mouvement unidirectionnel, maintenant) :\nЯ иду в школу. — Je vais à l'école (maintenant).\nКуда ты идёшь? — Où vas-tu (là, maintenant) ?\n\nХОДИТЬ (mouvement multidirectionnel, habituel) :\nЯ хожу в школу каждый день. — Je vais à l'école chaque jour.\nОн часто ходит в кино. — Il va souvent au cinéma.\nМы вчера ходили в театр. — Hier nous sommes allés au théâtre."
+          },
+          {
+            "title": "Exkhat' vs Ezdit' — en véhicule",
+            "content": "ЕХАТЬ (en véhicule — maintenant, une direction) :\nМы едем в Москву. — Nous allons à Moscou (maintenant).\nПоезд едет быстро. — Le train va vite.\n\nЕЗДИТЬ (en véhicule — habituel, aller-retour) :\nОн часто ездит в командировки. — Il part souvent en déplacement.\nЛетом мы ездили во Францию. — En été nous sommes allés en France.\nОна умеет ездить на велосипеде. — Elle sait faire du vélo."
+          },
+          {
+            "title": "Préfixes qui transforment le sens",
+            "content": "При- (arrivée) : прийти / приехать — arriver\nУ- (départ) : уйти / уехать — partir\nВы- (sortir) : выйти / выехать — sortir\nВо- (entrer) : войти / въехать — entrer\nЗа- (passer par) : зайти / заехать — passer (chez qqn)\nПере- (traverser) : перейти / переехать — traverser\nДо- (atteindre) : дойти / доехать — arriver jusqu'à\nПо- (commencer à aller) : пойти / поехать — se mettre à aller"
+          },
+          {
+            "title": "Prépositions de direction avec les verbes de mouvement",
+            "content": "в + accusatif (vers) : идти в магазин — aller au magasin\nна + accusatif (vers surface) : идти на работу — aller au travail\nк + datif (vers qqn) : идти к врачу — aller chez le médecin\nиз + génitif (depuis) : ехать из Москвы — venir de Moscou\nс + génitif (depuis) : с работы — du travail\nот + génitif (depuis qqn) : от врача — de chez le médecin"
+          }
+        ],
+        "rule": "💡 Règle mémo des verbes de mouvement : УНИДIRECTIONNEL (maintenant, une direction) = идти / ехать. HABITUEL / ALLER-RETOUR = ходить / ездить. Au passé, «ходить / ездить» = on y est allé et on est revenu (aller-retour accompli). «Идти / ехать» au passé = on était en route à ce moment-là."
+      },
+      "pronunciation": {
+        "intro": "Les verbes de mouvement — les plus courants de la vie quotidienne russe !",
+        "note": "⚠️ «Идти» est irrégulier au présent : иду, идёшь, идёт, идём, идёте, идут. «Пойти» (perfectif) : пойду, пойдёшь, пойдёт... Le «й» est semi-voyelle.",
+        "words": [
+          { "fr": "Я иду домой.", "ru_pron": "Ya idou damóï", "meaning": "Je rentre chez moi. (maintenant)" },
+          { "fr": "Куда ты идёшь?", "ru_pron": "Koudá ty idy'och", "meaning": "Où vas-tu ? (en ce moment)" },
+          { "fr": "Мы едем в Париж.", "ru_pron": "My yédim v Parij", "meaning": "Nous allons à Paris. (en voiture/train)" },
+          { "fr": "Он часто ходит в кино.", "ru_pron": "On tchásta khodit f kinó", "meaning": "Il va souvent au cinéma." },
+          { "fr": "Войдите!", "ru_pron": "Vaïdítié", "meaning": "Entrez ! (impératif de войти)" },
+          { "fr": "Мы приехали.", "ru_pron": "My priyékhali", "meaning": "Nous sommes arrivés. (en véhicule)" },
+          { "fr": "Он ушёл.", "ru_pron": "On ouchiól", "meaning": "Il est parti. (à pied)" },
+          { "fr": "Зайди ко мне!", "ru_pron": "Zaïdí ka mnyé", "meaning": "Passe chez moi ! (à pied)" },
+          { "fr": "Как доехать до...", "ru_pron": "Kak dayékhad' do", "meaning": "Comment aller jusqu'à... (en véhicule)" },
+          { "fr": "Пошли!", "ru_pron": "Pachli", "meaning": "Allons-y ! (à pied, impératif informel)" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "идти", "gender": null, "ru": "aller à pied (maintenant, une direction)", "ru_pron": "ittí", "example_fr": "Я иду в магазин.", "example_ru": "Je vais au magasin.", "level": "A2" },
+        { "fr": "ходить", "gender": null, "ru": "aller à pied (habitude / aller-retour)", "ru_pron": "khódit'", "example_fr": "Она ходит в спортзал каждый день.", "example_ru": "Elle va à la salle de sport chaque jour.", "level": "A2" },
+        { "fr": "ехать", "gender": null, "ru": "aller en véhicule (maintenant)", "ru_pron": "yékhat'", "example_fr": "Мы едем на машине.", "example_ru": "Nous allons en voiture.", "level": "A2" },
+        { "fr": "ездить", "gender": null, "ru": "aller en véhicule (habitude / aller-retour)", "ru_pron": "yézdit'", "example_fr": "Он ездит на работу на метро.", "example_ru": "Il va au travail en métro.", "level": "A2" },
+        { "fr": "прийти", "gender": null, "ru": "arriver (à pied — perfectif)", "ru_pron": "priïtí", "example_fr": "Она пришла поздно.", "example_ru": "Elle est arrivée en retard.", "level": "A2" },
+        { "fr": "уйти", "gender": null, "ru": "partir / s'en aller (à pied — perfectif)", "ru_pron": "ouïtí", "example_fr": "Он ушёл рано.", "example_ru": "Il est parti tôt.", "level": "A2" },
+        { "fr": "войти", "gender": null, "ru": "entrer (à pied — perfectif)", "ru_pron": "vaïtí", "example_fr": "Войдите, пожалуйста!", "example_ru": "Entrez, s'il vous plaît !", "level": "A2" },
+        { "fr": "выйти", "gender": null, "ru": "sortir (à pied — perfectif)", "ru_pron": "výïti", "example_fr": "Выйди на улицу!", "example_ru": "Sors dans la rue !", "level": "A2" },
+        { "fr": "зайти", "gender": null, "ru": "passer (chez qqn / dans un endroit)", "ru_pron": "zaïtí", "example_fr": "Зайди ко мне вечером!", "example_ru": "Passe chez moi ce soir !", "level": "A2" },
+        { "fr": "поехали", "gender": null, "ru": "allons-y ! / on y va ! (en véhicule)", "ru_pron": "payékhali", "example_fr": "Все готовы? Поехали!", "example_ru": "Tout le monde est prêt ? Allons-y !", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "маршрут", "fr_pron": "marchroút", "ru": "itinéraire / route", "ru_pron": "itinéraire", "note": "«Маршрут» vient du français «marche» + «route» — l'itinéraire, le trajet. Très utilisé dans les transports en commun russes : «маршрут автобуса» = ligne de bus. Un emprunt direct au français militaire du XVIIIe siècle." },
+        { "fr": "транспорт", "fr_pron": "tránspart", "ru": "transport", "ru_pron": "transport", "note": "«Транспорт» est identique à «transport», même origine latine «transportare» (porter de l'autre côté). Le vocabulaire des transports modernes (автобус, трамвай, метро, такси) est largement emprunté aux langues occidentales." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Fyodor Chaliapin (1873–1938)", "subtitle": "La plus grande voix de basse du monde", "content": "Fédor Ivanovitch Chaliapine (Шаляпин) est considéré comme le plus grand chanteur de basse de l'histoire de l'opéra. Né dans une famille pauvre à Kazan, il fut autodidacte. Sa voix, son physique imposant et son génie scénique révolutionnèrent l'art lyrique. Il interpréta Boris Godounov de Moussorgski à un niveau insurpassé. Émigré après la Révolution, il chanta dans les plus grandes maisons d'opéra du monde. Le verbe «ходить» à l'opéra — il y alla souvent, et y triompha toujours." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le métro de Moscou — le plus beau du monde", "content": "Le métro de Moscou (Московское метро), inauguré en 1935, est réputé comme le plus beau du monde — ses stations sont de véritables musées d'art soviétique, ornées de mosaïques, lustres, colonnes de marbre et sculptures. La station Komsomolskaïa, Maïakovskaïa ou Kievskaya sont des chef-d'œuvres d'architecture. Le métro transporte 6 à 9 millions de passagers par jour — l'un des plus fréquentés au monde. Les Moscovites disent qu'ils «едут на метро» (vont en métro) avec la fierté de posséder quelque chose d'unique." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Куда ты идёшь?» — une question jamais banale en Russie", "content": "En Russie, demander «куда ты идёшь ?» (où vas-tu ?) n'est jamais anodin — c'est une vraie invitation à raconter ce qu'on fait. Les Russes aiment suivre le mouvement des gens autour d'eux. Les verbes de mouvement russes sont si précis qu'un Russe sait immédiatement si vous allez «maintenant» ou «habituellement», en marchant ou en voiture. Cette précision du mouvement reflète une culture qui valorise l'action concrète et observable." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Язык до Киева доведёт.", "pronunciation": "Yazýk da Kíyiva davidy'ot", "translation": "En demandant son chemin on arrive partout. (La langue mène jusqu'à Kiev.)", "usage": "Proverbe russe sur l'importance de poser des questions. «Язык» = la langue (organe de la parole). «Довести» (perfectif de «доводить») = mener jusqu'à. «Доведёт» = futur perfectif. Beau mélange de verbe de mouvement préfixé + futur !", "example": "— Как мы найдём этот ресторан? — Не беспокойся — язык до Киева доведёт! (Comment allons-nous trouver ce restaurant ? — Ne t'inquiète pas — en demandant son chemin on arrive partout !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Le métro de Moscou — Station Komsomolskaïa", "subtitle": "Комсомольская — Дворец под землёй", "content": "La station Komsomolskaïa (Комсомольская) du métro de Moscou est souvent citée comme la plus belle station de métro du monde. Inaugurée en 1952, c'est un palais souterrain baroque avec des plafonds en mosaïque d'or, des lustres monumentaux et des bas-reliefs historiques. Elle dessert trois gares ferroviaires — Léningradski, Yaroslavski et Kazansky. L'architecte Alexeï Chtchoussev (auteur du Mausolée de Lénine) en dessina le plan. Une promenade dans le métro moscovite (entrer: войти, sortir: выйти) vaut à elle seule le voyage." }
+      },
+      "quiz": [
+        { "q": "Quelle est la différence entre «идти» et «ходить» ?", "opts": ["Aucune différence.", "«Идти» = maintenant / une direction. «Ходить» = habituel / aller-retour.", "«Идти» = à pied, «ходить» = en voiture.", "«Идти» = formel, «ходить» = informel."], "ans": 1, "exp": "«Идти» = mouvement en cours, une direction (je vais là maintenant). «Ходить» = mouvement habituel ou aller-retour (je vais souvent, je suis allé et revenu). C'est la distinction fondamentale des verbes de mouvement russes." },
+        { "q": "Comment dit-on «entre !» (impératif) en russe ?", "opts": ["Идите!", "Выйдите!", "Войдите!", "Уходите!"], "ans": 2, "exp": "«Войдите !» = entrez ! (impératif formel de «войти» = entrer). «Выйдите» = sortez ! «Уходите» = partez ! «Войти» = le préfixe «во-» signifie entrer dans un espace fermé." },
+        { "q": "«Мы вчера ходили в театр» — que signifie cette phrase ?", "opts": ["Nous irons au théâtre demain.", "Hier nous sommes allés au théâtre (et sommes revenus).", "Nous allons au théâtre maintenant.", "Nous aimons aller au théâtre."], "ans": 1, "exp": "«Ходили» (passé de «ходить») = aller-retour accompli : nous sommes allés au théâtre et nous sommes rentrés. Si on avait dit «мы шли в театр», ça signifierait «nous étions en route vers le théâtre» (en cours à ce moment-là)." },
+        { "q": "«Поехали !» est associé à quelle figure historique ?", "opts": ["Tolstoï", "Lénine", "Gagarine", "Pierre le Grand"], "ans": 2, "exp": "«Поехали !» (On y va !) fut dit par Youri Gagarine le 12 avril 1961 avant le décollage de Vostok 1. C'est devenu l'une des phrases les plus célèbres de l'histoire mondiale — et un exemple parfait du perfectif de mouvement «поехать»." },
+        { "q": "Quelle préposition utilise-t-on pour dire «aller CHEZ le médecin» ?", "opts": ["в врача", "на врача", "к врачу", "у врача"], "ans": 2, "exp": "«К врачу» = chez le médecin (mouvement vers une personne). «К» + datif est utilisé pour le mouvement vers une personne. «У врача» = chez le médecin (lieu, sans mouvement). «В» + accusatif = vers un lieu." }
+      ]
+    },
+    {
+      "id": 8,
+      "titleFr": "Exprimer le Temps et la Durée",
+      "titleRu": "Выражение времени и длительности",
+      "level": "A2",
+      "grammar": {
+        "title": "Quand et combien de temps — expressions temporelles avancées",
+        "titleRu": "Временные выражения",
+        "intro": "Maîtriser les expressions de temps en russe vous permettra de raconter des événements, planifier des activités et décrire des durées. Le russe distingue finement «depuis quand», «pendant combien de temps», «dans combien de temps» — des nuances essentielles pour une communication précise.",
+        "sections": [
+          {
+            "title": "Les adverbes de temps essentiels",
+            "content": "сейчас — maintenant\nпотом / затем — ensuite / après\nраньше — avant / autrefois\nнедавно — récemment\nскоро — bientôt\nуже — déjà\nещё — encore / toujours\nнаконец — enfin\nвдруг — soudain\nиногда — parfois\nвсегда — toujours\nникогда — jamais"
+          },
+          {
+            "title": "Depuis quand ? Pendant combien de temps ?",
+            "content": "«С» + génitif (depuis un moment précis) :\nС утра — depuis ce matin\nС понедельника — depuis lundi\nС прошлого года — depuis l'année dernière\n\n«В течение» + génitif (pendant / au cours de) :\nВ течение часа — pendant une heure\nВ течение недели — au cours de la semaine\n\nАккузатив (durée) :\nЯ жил там год. — J'y ai vécu un an.\nОн ждал час. — Il a attendu une heure."
+          },
+          {
+            "title": "Dans combien de temps ? D'ici... / Il y a...",
+            "content": "«Через» + accusatif (dans / d'ici) :\nЧерез час — dans une heure\nЧерез неделю — dans une semaine\nЧерез год — dans un an\n\n«Назад» + accusatif précédent (il y a) :\nЧас назад — il y a une heure\nГод назад — il y a un an\nДавно — il y a longtemps\n\n«До» + génitif (avant / d'ici à) :\nДо отъезда — avant le départ\nДо завтра — jusqu'à demain"
+          },
+          {
+            "title": "Expressions de fréquence",
+            "content": "каждый день — chaque jour\nкаждую неделю — chaque semaine\nкаждый год — chaque année\nраз в неделю — une fois par semaine\nдва раза в день — deux fois par jour\nредко — rarement\nчасто — souvent\nиногда — parfois\nобычно — habituellement\nвсегда / никогда — toujours / jamais"
+          }
+        ],
+        "rule": "💡 «Через» + accusatif = dans (futur) : «через час» (dans une heure). «Назад» après l'accusatif = il y a (passé) : «час назад» (il y a une heure). «С» + génitif = depuis : «с утра» (depuis ce matin). Trois prépositions / constructions à retenir impérativement pour situer les événements dans le temps !"
+      },
+      "pronunciation": {
+        "intro": "Les expressions temporelles — ultra-fréquentes dans toutes les conversations russes !",
+        "note": "⚠️ «Уже» (déjà) se prononce [oujé] et «ещё» (encore) [yichtcho]. Ne les confondez pas ! «Ты уже знаешь?» = tu sais déjà ? «Ты ещё здесь?» = tu es encore là ?",
+        "words": [
+          { "fr": "уже", "ru_pron": "oujé", "meaning": "déjà" },
+          { "fr": "ещё", "ru_pron": "yichtchó", "meaning": "encore / toujours" },
+          { "fr": "скоро", "ru_pron": "skóra", "meaning": "bientôt" },
+          { "fr": "вдруг", "ru_pron": "vdroug", "meaning": "soudain / tout à coup" },
+          { "fr": "наконец", "ru_pron": "nakanyéts", "meaning": "enfin / finalement" },
+          { "fr": "через час", "ru_pron": "tchériz tchas", "meaning": "dans une heure" },
+          { "fr": "час назад", "ru_pron": "tchas nazát", "meaning": "il y a une heure" },
+          { "fr": "с утра", "ru_pron": "s outrá", "meaning": "depuis ce matin" },
+          { "fr": "раньше", "ru_pron": "rán'chi", "meaning": "avant / autrefois / plus tôt" },
+          { "fr": "давно", "ru_pron": "davnó", "meaning": "il y a longtemps / depuis longtemps" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "сейчас", "gender": null, "ru": "maintenant / tout de suite", "ru_pron": "siïtchás", "example_fr": "Я сейчас приду.", "example_ru": "Je viens tout de suite.", "level": "A2" },
+        { "fr": "уже", "gender": null, "ru": "déjà", "ru_pron": "oujé", "example_fr": "Ты уже ел?", "example_ru": "Tu as déjà mangé ?", "level": "A2" },
+        { "fr": "ещё", "gender": null, "ru": "encore / toujours (pas encore)", "ru_pron": "yichtchó", "example_fr": "Он ещё спит.", "example_ru": "Il dort encore.", "level": "A2" },
+        { "fr": "через", "gender": null, "ru": "dans (futur proche — + accusatif)", "ru_pron": "tchériz", "example_fr": "Через час я буду дома.", "example_ru": "Dans une heure je serai à la maison.", "level": "A2" },
+        { "fr": "назад", "gender": null, "ru": "il y a (temps passé — après acc.)", "ru_pron": "nazát", "example_fr": "Это было год назад.", "example_ru": "C'était il y a un an.", "level": "A2" },
+        { "fr": "давно", "gender": null, "ru": "il y a longtemps / depuis longtemps", "ru_pron": "davnó", "example_fr": "Я давно не видел тебя.", "example_ru": "Je ne t'ai pas vu depuis longtemps.", "level": "A2" },
+        { "fr": "скоро", "gender": null, "ru": "bientôt", "ru_pron": "skóra", "example_fr": "Скоро лето!", "example_ru": "L'été arrive bientôt !", "level": "A2" },
+        { "fr": "вдруг", "gender": null, "ru": "soudain / tout à coup", "ru_pron": "vdroug", "example_fr": "Вдруг зазвонил телефон.", "example_ru": "Soudain le téléphone sonna.", "level": "A2" },
+        { "fr": "наконец", "gender": null, "ru": "enfin / finalement", "ru_pron": "nakanyéts", "example_fr": "Наконец-то ты пришёл!", "example_ru": "Tu es enfin arrivé !", "level": "A2" },
+        { "fr": "раньше", "gender": null, "ru": "avant / autrefois / plus tôt", "ru_pron": "rán'chi", "example_fr": "Раньше я жил в Лионе.", "example_ru": "Avant j'habitais à Lyon.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "момент", "fr_pron": "mamyént", "ru": "moment", "ru_pron": "moment", "note": "«Момент» est identique au français «moment», même origine latine «momentum» (mouvement, impulsion). «Один момент !» = un instant ! en russe. Le vocabulaire temporel abstrait vient souvent du latin via le français ou l'allemand." },
+        { "fr": "период", "fr_pron": "piríad", "ru": "période", "ru_pron": "période", "note": "«Период» (période) vient du grec «periodos» (chemin circulaire). Identique au français. «В этот период» = pendant cette période. Les termes scientifiques et abstraits du temps sont souvent gréco-latins en russe comme en français." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Dmitri Mendeleïev (1834–1907)", "subtitle": "Créateur du tableau périodique des éléments", "content": "Dmitri Ivanovitch Mendeleïev est l'un des plus grands scientifiques russes de tous les temps. Son tableau périodique des éléments (1869) est l'une des découvertes les plus importantes de l'histoire des sciences. Il prédit l'existence d'éléments encore inconnus à son époque — qui furent découverts plus tard. Né à Tobolsk en Sibérie (17e enfant d'une famille !), il mourut deux semaines avant de recevoir le prix Nobel. L'élément 101 porte son nom : mendélévium." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le calendrier julien vs grégorien — 13 jours d'écart", "content": "La Russie utilisa le calendrier julien jusqu'en 1918. L'écart avec le calendrier grégorien (occidental) était de 13 jours au XXe siècle. C'est pourquoi la «Révolution d'Octobre» 1917 est célébrée le 7 novembre selon le calendrier grégorien ! Les fêtes orthodoxes ont conservé les dates juliennes : Noël le 7 janvier, Nouvel An orthodoxe le 14 janvier. Aujourd'hui la Russie utilise le calendrier grégorien pour la vie civile, mais l'Église orthodoxe garde le julien." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Сейчас» — le mot le plus élastique du russe", "content": "«Сейчас» signifie officiellement «maintenant», mais dans la réalité russe quotidienne, il peut vouloir dire «dans un moment», «tout à l'heure», «bientôt»... ou même «éventuellement». «Сейчас приду !» (j'arrive tout de suite !) peut cacher 5 minutes ou 30 minutes selon le contexte. Ce glissement de sens est universel dans de nombreuses cultures — et reflète une conception du temps plus relative que strictement chronométrique. «Русское «сейчас» — c'est pas «maintenant», c'est «bientôt»... peut-être.»" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Время — деньги.", "pronunciation": "Vrémya — dyén'gi", "translation": "Le temps, c'est de l'argent.", "usage": "Traduction directe de l'expression de Benjamin Franklin, universellement connue en russe. «Время» = le temps (nécessite génitif «времени» dans d'autres contextes). «Деньги» = l'argent (pluriel). Simple, efficace — et un rappel que même en russe, le temps a une valeur économique !", "example": "— Зачем торопиться? — Время — деньги! Нам нужно успеть! (Pourquoi se dépêcher ? — Le temps c'est de l'argent ! Nous devons y arriver à temps !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Tobolsk — Ville sibérienne de Mendeleïev", "subtitle": "Тобольск — жемчужина Сибири", "content": "Tobolsk (Тобольск) est l'ancienne capitale de la Sibérie, ville natale de Mendeleïev. Fondée en 1587, c'est l'une des plus belles villes historiques de Sibérie, avec un magnifique kremlin blanc perché sur une colline et une ville basse aux maisons en bois. C'est aussi là que Nicolas II et sa famille furent envoyés en résidence surveillée en 1917. Le musée Mendeleïev retrace la vie du grand chimiste. Idéale comme étape sur le Transsibérien, à mi-chemin entre Iekaterinbourg et Omsk." }
+      },
+      "quiz": [
+        { "q": "Comment dit-on «dans une heure» (futur) en russe ?", "opts": ["час назад", "за час", "через час", "до часа"], "ans": 2, "exp": "«Через час» = dans une heure (futur). «Через» + accusatif = dans (une durée à venir). «Час назад» = il y a une heure (passé). «За час» = en une heure (durée pour accomplir qqch)." },
+        { "q": "Quelle est la différence entre «уже» et «ещё» ?", "opts": ["Aucune différence.", "«Уже» = déjà, «ещё» = encore / pas encore.", "«Уже» = bientôt, «ещё» = maintenant.", "«Уже» = toujours, «ещё» = jamais."], "ans": 1, "exp": "«Уже» = déjà (une action accomplie / un état atteint). «Ещё» = encore / toujours (continuité). «Ты уже ел ?» = tu as déjà mangé ? «Ты ещё здесь ?» = tu es encore là ? Aussi : «ещё не» = pas encore." },
+        { "q": "Comment dit-on «il y a un an» en russe ?", "opts": ["за год", "через год", "год назад", "с года"], "ans": 2, "exp": "«Год назад» = il y a un an. Structure : accusatif de la durée + «назад» (littéralement «en arrière»). «Месяц назад» = il y a un mois. «Давно» = il y a longtemps (durée indéfinie)." },
+        { "q": "«Раньше я жил в Москве» — que signifie «раньше» ici ?", "opts": ["bientôt", "maintenant", "avant / autrefois", "depuis longtemps"], "ans": 2, "exp": "«Раньше» = avant / autrefois / jadis. «Раньше я жил в Москве» = avant j'habitais à Moscou (maintenant ce n'est plus le cas). «Раньше» est l'opposé temporel de «теперь / сейчас» (maintenant)." },
+        { "q": "Comment dit-on «souvent» en russe ?", "opts": ["редко", "иногда", "часто", "всегда"], "ans": 2, "exp": "«Часто» = souvent. «Редко» = rarement. «Иногда» = parfois. «Всегда» = toujours. Fréquences du moins au plus : никогда → редко → иногда → часто → всегда (jamais → rarement → parfois → souvent → toujours)." }
+      ]
+    },
+    {
+      "id": 9,
+      "titleFr": "Communication et Stratégies Conversationnelles",
+      "titleRu": "Коммуникативные стратегии",
+      "level": "A2",
+      "grammar": {
+        "title": "Survivre et briller en conversation russe",
+        "titleRu": "Как общаться по-русски",
+        "intro": "Au niveau A2, vous pouvez maintenant tenir une conversation simple. Ce module vous donne les outils pour vous sortir de situations difficiles : demander une répétition, reformuler, exprimer l'accord ou le désaccord, donner des exemples et conduire une conversation naturellement.",
+        "sections": [
+          {
+            "title": "Demander des clarifications",
+            "content": "Повторите, пожалуйста. — Répétez, s'il vous plaît.\nГоворите медленнее, пожалуйста. — Parlez plus lentement, SVP.\nЯ не понял(а). — Je n'ai pas compris.\nЧто значит «...»? — Que signifie «...» ?\nКак это по-русски? — Comment dit-on ça en russe ?\nМожно ещё раз? — Encore une fois ?\nЯ не расслышал(а). — Je n'ai pas entendu."
+          },
+          {
+            "title": "Exprimer l'accord et le désaccord",
+            "content": "Согласен(согласна). — Je suis d'accord.\nНе согласен(не согласна). — Je ne suis pas d'accord.\nЯ думаю, что... — Je pense que...\nПо-моему... — À mon avis...\nС одной стороны... с другой стороны... — D'un côté... de l'autre...\nДа, но... — Oui, mais...\nВозможно. — C'est possible.\nЯ сомневаюсь. — J'en doute."
+          },
+          {
+            "title": "Meubler la conversation — expressions de liaison",
+            "content": "Значит... — Donc... / Alors...\nТо есть... — C'est-à-dire...\nНапример... — Par exemple...\nВообще-то... — En fait / à vrai dire...\nКстати... — À propos / soit dit en passant...\nKonechno... — Bien sûr...\nВ общем... — En général / bref...\nТочно! — Exactement ! C'est ça !\nЯсно. — Je vois. / Compris."
+          },
+          {
+            "title": "Structurer son discours",
+            "content": "Во-первых... во-вторых... — Premièrement... deuxièmement...\nС одной стороны... — D'un côté...\nКроме того... — De plus / en outre...\nОднако... — Cependant / toutefois...\nТем не менее... — Néanmoins...\nВ заключение... — Pour conclure...\nКак я уже сказал(а)... — Comme je l'ai déjà dit...\nПодводя итог... — En résumé..."
+          }
+        ],
+        "rule": "💡 Mots de liaison à mémoriser en priorité : «Значит» (donc/alors), «То есть» (c'est-à-dire), «Кстати» (à propos), «Вообще-то» (en fait), «Точно!» (exactement). Ces petits mots donnent une impression de fluidité native. «Кстати» est particulièrement utile pour changer de sujet élégamment sans paraître abrupt."
+      },
+      "pronunciation": {
+        "intro": "Les expressions de conversation naturelle — celles que les Russes utilisent des dizaines de fois par jour !",
+        "note": "⚠️ «Конечно» (bien sûr) se prononce [kanyéchna] — le «ч» se prononce «ch» dans cette position ! C'est l'une des prononciations les plus surprenantes pour les débutants.",
+        "words": [
+          { "fr": "Конечно!", "ru_pron": "kanyéchna", "meaning": "Bien sûr ! (prononciation surprise !)" },
+          { "fr": "Значит...", "ru_pron": "znátchit", "meaning": "Donc... / Alors..." },
+          { "fr": "То есть...", "ru_pron": "to yest'", "meaning": "C'est-à-dire..." },
+          { "fr": "Кстати...", "ru_pron": "kstáti", "meaning": "À propos..." },
+          { "fr": "Точно!", "ru_pron": "tótchna", "meaning": "Exactement ! C'est ça !" },
+          { "fr": "Вообще-то...", "ru_pron": "vaabtché-to", "meaning": "En fait / à vrai dire..." },
+          { "fr": "Ясно.", "ru_pron": "yásna", "meaning": "Je vois. / Compris." },
+          { "fr": "Возможно.", "ru_pron": "vazmójno", "meaning": "C'est possible." },
+          { "fr": "Не совсем.", "ru_pron": "ni savsyém", "meaning": "Pas tout à fait." },
+          { "fr": "Само собой!", "ru_pron": "samó sabóï", "meaning": "Cela va de soi ! / Évidemment !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "понять", "gender": null, "ru": "comprendre (perfectif)", "ru_pron": "panyát'", "example_fr": "Я вас не понял.", "example_ru": "Je ne vous ai pas compris.", "level": "A2" },
+        { "fr": "повторить", "gender": null, "ru": "répéter (perfectif)", "ru_pron": "pavtarít'", "example_fr": "Повторите, пожалуйста!", "example_ru": "Répétez, s'il vous plaît !", "level": "A2" },
+        { "fr": "объяснить", "gender": null, "ru": "expliquer (perfectif)", "ru_pron": "abyasnít'", "example_fr": "Объясните мне, пожалуйста.", "example_ru": "Expliquez-moi, s'il vous plaît.", "level": "A2" },
+        { "fr": "значит", "gender": null, "ru": "donc / alors / ça signifie", "ru_pron": "znátchit", "example_fr": "Значит, вы согласны?", "example_ru": "Donc, vous êtes d'accord ?", "level": "A2" },
+        { "fr": "кстати", "gender": null, "ru": "à propos / au fait", "ru_pron": "kstáti", "example_fr": "Кстати, ты видел Ивана?", "example_ru": "À propos, tu as vu Ivan ?", "level": "A2" },
+        { "fr": "конечно", "gender": null, "ru": "bien sûr / évidemment", "ru_pron": "kanyéchna", "example_fr": "Конечно, я помогу!", "example_ru": "Bien sûr, je vais aider !", "level": "A2" },
+        { "fr": "точно", "gender": null, "ru": "exactement / précisément / juste", "ru_pron": "tótchna", "example_fr": "Точно! Ты прав!", "example_ru": "Exactement ! Tu as raison !", "level": "A2" },
+        { "fr": "вообще-то", "gender": null, "ru": "en fait / à vrai dire", "ru_pron": "vaabtché-to", "example_fr": "Вообще-то я не согласен.", "example_ru": "En fait je ne suis pas d'accord.", "level": "A2" },
+        { "fr": "однако", "gender": null, "ru": "cependant / toutefois", "ru_pron": "adnáka", "example_fr": "Это интересно, однако сложно.", "example_ru": "C'est intéressant, cependant difficile.", "level": "A2" },
+        { "fr": "например", "gender": null, "ru": "par exemple", "ru_pron": "naprimyér", "example_fr": "Например, Москва или Париж.", "example_ru": "Par exemple, Moscou ou Paris.", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "коммуникация", "fr_pron": "kamounikátsiya", "ru": "communication", "ru_pron": "communication", "note": "«Коммуникация» = communication, même origine latine «communicare» (mettre en commun). Le verbe «общаться» (communiquer, fréquenter) est le terme slave natif correspondant — plus courant dans la conversation." },
+        { "fr": "диалог", "fr_pron": "dialóg", "ru": "dialogue", "ru_pron": "dialogue", "note": "«Диалог» est identique au français «dialogue», même origine grecque «dialogos» (conversation entre deux). «Монолог» (monologue) aussi. Ces termes de rhétorique grecque sont universels en Europe." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Mikhail Gorbatchev (1931–2022)", "subtitle": "Dernier dirigeant de l'URSS — «Glasnost» et «Perestroïka»", "content": "Mikhaïl Sergueïevitch Gorbatchev fut le dernier secrétaire général de l'URSS (1985–1991). Ses réformes historiques — «glasnost» (transparence / ouverture de la parole) et «perestroïka» (restructuration) — visaient à moderniser l'URSS. Elles conduisirent à la fin de la Guerre Froide et à la dissolution de l'Union soviétique en 1991. Prix Nobel de la Paix 1990. «Glasnost» est directement lié à la communication : «glasnost» vient de «гласность» (le fait de parler ouvertement, publicité). Il mourut à 91 ans en 2022." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "La perestroïka et la chute de l'URSS — 1991", "content": "Le 25 décembre 1991, Mikhail Gorbatchev démissionna et l'URSS cessa officiellement d'exister. Quinze républiques devinrent indépendantes. La Russie hérita du siège de l'URSS au Conseil de sécurité de l'ONU et de son arsenal nucléaire. La fin de l'URSS fut pacifique — contrairement à ce que beaucoup craignaient. Boris Eltsine devint le premier président de la Fédération de Russie. La communication politique, la liberté de la presse et le dialogue Est-Ouest furent au cœur de cette transformation." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Нет» et le style de communication russe", "content": "Les Russes ont la réputation d'être directs — voire brusques — dans leur façon de communiquer. «Нет» (non) sans explication est courant là où un Français ajouterait des formules de politesse. Mais cette directness est perçue comme de l'honnêteté dans la culture russe. En revanche, les Russes investissent beaucoup dans les longues conversations conviviales autour d'un thé ou d'un repas. Dire «позвони мне» (appelle-moi) sans intention réelle est considéré comme malhonnête — contrairement à certaines cultures occidentales où c'est une politesse vide." },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Слово — серебро, молчание — золото.", "pronunciation": "Slóva — siribró, moltchánie — zólata", "translation": "La parole est d'argent, le silence est d'or.", "usage": "Proverbe universel existant en russe, français, anglais et dans toutes les langues européennes. «Серебро» = l'argent (métal), «золото» = l'or. En russe, «слово» (le mot/la parole) est masculin, «молчание» (le silence) est neutre. Un beau résumé de la philosophie de la communication !", "example": "— Ему нужно было молчать на собрании. — Да, слово — серебро, молчание — золото. (Il aurait dû se taire à la réunion. — Oui, la parole est d'argent, le silence est d'or.)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "Stavropol — Région natale de Gorbatchev", "subtitle": "Ставрополь — Северный Кавказ", "content": "Stavropol (Ставрополь) dans le Caucase du Nord est le chef-lieu de la région natale de Gorbatchev, né dans le village de Privolnoïe. La région est connue pour ses stations thermales (Kislovodsk, Piatigorsk — «Eaux minérales du Caucase»), ses paysages entre steppes et montagnes. Piatigorsk est aussi célèbre pour être le lieu de mort du poète Lermontov, tué en duel. Le Caucase russe est une région fascinante, carrefour de cultures et de langues, encore peu explorée par les touristes occidentaux." }
+      },
+      "quiz": [
+        { "q": "Comment demande-t-on «que signifie ce mot ?» en russe ?", "opts": ["Как это по-русски?", "Что значит это слово?", "Повторите слово.", "Я не слышу."], "ans": 1, "exp": "«Что значит это слово?» = que signifie ce mot ? «Значить» = signifier. «Как это по-русски?» = comment dit-on ça en russe ? Les deux phrases sont essentielles pour tout apprenant !" },
+        { "q": "Comment se prononce «конечно» ?", "opts": ["[konetchno]", "[konyetchno]", "[kanyéchna]", "[konychno]"], "ans": 2, "exp": "«Конечно» se prononce [kanyéchna] ! Le «ч» dans cette combinaison se prononce «ch» — une des principales surprises phonétiques du russe. C'est une règle : dans «конечно», «нечто», «что», le groupe se prononce différemment de l'orthographe." },
+        { "q": "Quel mot russe signifie «à propos / au fait» ?", "opts": ["значит", "однако", "кстати", "например"], "ans": 2, "exp": "«Кстати» = à propos / au fait. Très utile pour introduire un aparté ou changer de sujet élégamment. «Значит» = donc. «Однако» = cependant. «Например» = par exemple." },
+        { "q": "Que signifie «Не совсем» ?", "opts": ["Pas du tout.", "Pas tout à fait.", "Certainement pas.", "Absolument."], "ans": 1, "exp": "«Не совсем» = pas tout à fait. «Совсем» seul = tout à fait / complètement. «Не совсем» est une nuance polie pour exprimer un désaccord partiel sans être trop direct." },
+        { "q": "«Glasnost» (гласность) est associé à quelle réforme soviétique ?", "opts": ["La collectivisation sous Staline", "Les réformes de Gorbatchev — ouverture et transparence", "La NEP de Lénine", "Le plan quinquennal de Khrouchtchev"], "ans": 1, "exp": "«Гласность» (transparence / liberté de parole) fut l'une des deux réformes majeures de Gorbatchev avec la «perestroïka». Le mot vient de «глас» (voix) — l'idée d'une parole publique libre. Ces réformes contribuèrent à la fin de l'URSS en 1991." }
+      ]
+    },
+    {
+      "id": 10,
+      "titleFr": "Bilan A2 — Félicitations !",
+      "titleRu": "Итоги A2 — Поздравляем!",
+      "level": "A2",
+      "grammar": {
+        "title": "Bilan complet — Vous avez atteint le niveau A2 !",
+        "titleRu": "Поздравляем с уровнем A2!",
+        "intro": "Félicitations ! En complétant les 9 modules de RusseFR, vous avez acquis toutes les bases du niveau A2. Vous êtes capable de comprendre et d'utiliser des expressions familières et quotidiennes, de vous présenter, de poser des questions et de répondre à des questions simples sur des sujets familiers. C'est une victoire extraordinaire !",
+        "sections": [
+          {
+            "title": "✅ Ce que vous avez appris — Les 6 cas russes",
+            "content": "1. Nominatif (Именительный) — le sujet\n   Это книга. C'est un livre.\n2. Génitif (Родительный) — possession, absence, quantité\n   нет книги, много книг, для друга\n3. Datif (Дательный) — destinataire, sensations\n   дать маме, мне холодно, нравится\n4. Accusatif (Винительный) — objet direct, direction\n   читать книгу, идти в школу\n5. Instrumental (Творительный) — moyen, compagnie, profession\n   с другом, работать врачом\n6. Prépositionnel (Предложный) — lieu, sujet\n   в школе, о России"
+          },
+          {
+            "title": "✅ Les grandes structures grammaticales maîtrisées",
+            "content": "✅ Aspect verbal (perfectif / imperfectif)\n✅ Futur imperfectif (буду + inf.) et perfectif\n✅ Conditionnel (бы + passé)\n✅ Comparatifs (лучше, больше, самый)\n✅ Verbes de mouvement (идти/ходить, ехать/ездить)\n✅ Expressions temporelles (через, назад, уже, ещё)\n✅ Stratégies de communication (значит, кстати, конечно)\n✅ Verbes à régime spécial (datif, instrumental...)\n✅ Passé accordé en genre (-л/-ла/-ло/-ли)"
+          },
+          {
+            "title": "✅ Le vocabulaire essentiel acquis",
+            "content": "Modules 1-9 : plus de 400 mots et expressions\nDomaines couverts :\n— Les fondamentaux (alphabet, salutations, chiffres)\n— La vie quotidienne (nourriture, maison, famille)\n— Sorties, restaurants, voyages\n— Travail, école, santé, nature\n— Culture, médias, arts, gastronomie\n— Grammaire avancée A2\n\nVous êtes capable de vous débrouiller dans la vie quotidienne en Russie !"
+          },
+          {
+            "title": "La suite — Vers le niveau B1",
+            "content": "Pour progresser vers B1, travaillez sur :\n→ Les cas au pluriel (génitif, datif, instrumental pl.)\n→ Les subordonnées relatives (который — qui/que)\n→ Les participes et gérondifs (читающий, читая)\n→ Le mode subjonctif étendu\n→ Le vocabulaire thématique élargi\n→ La lecture de textes authentiques\n→ La compréhension orale de russophones natifs\n\nОставайтесь любопытными и продолжайте! (Restez curieux et continuez !)"
+          }
+        ],
+        "rule": "🏆 Vous avez terminé tous les modules de RusseFR ! С уровнем A2 вы можете : vous présenter et présenter d'autres personnes, poser des questions et y répondre, comprendre des textes simples, survivre dans les situations quotidiennes en Russie. Молодцы ! Вы это заслужили ! (Bravo ! Vous l'avez mérité !)"
+      },
+      "pronunciation": {
+        "intro": "Les phrases les plus importantes de toute votre progression — celles qui résument votre voyage dans la langue russe !",
+        "note": "",
+        "words": [
+          { "fr": "Я говорю по-русски.", "ru_pron": "Ya gavaroú pa-roussky", "meaning": "Je parle russe." },
+          { "fr": "Я достиг(ла) уровня A2!", "ru_pron": "Ya dastík (dastígla) ouróvnya A2", "meaning": "J'ai atteint le niveau A2 !" },
+          { "fr": "Нет худа без добра.", "ru_pron": "Nyét khóuda byez dabrá", "meaning": "À quelque chose malheur est bon." },
+          { "fr": "Всё будет хорошо!", "ru_pron": "Vsyo boúdit kharachó", "meaning": "Tout ira bien !" },
+          { "fr": "Лучше поздно, чем никогда.", "ru_pron": "Lóutchi pózdna tchem nikagdá", "meaning": "Mieux vaut tard que jamais." },
+          { "fr": "Москва не сразу строилась.", "ru_pron": "Maskvá ni srazou stróilas'", "meaning": "Rome ne s'est pas faite en un jour." },
+          { "fr": "Язык до Киева доведёт.", "ru_pron": "Yazýk da Kíyiva davidy'ot", "meaning": "En demandant son chemin on arrive partout." },
+          { "fr": "Красота спасёт мир.", "ru_pron": "Krasatá spasiót mir", "meaning": "La beauté sauvera le monde." },
+          { "fr": "Продолжайте учить русский!", "ru_pron": "Pradaljaïtié outchít' roússky", "meaning": "Continuez à apprendre le russe !" },
+          { "fr": "Спасибо за всё!", "ru_pron": "Spasíba za vsyo", "meaning": "Merci pour tout !" }
+        ]
+      },
+      "vocabulary": [
+        { "fr": "достижение", "gender": "n", "ru": "la réussite / l'accomplissement", "ru_pron": "dastijéniye", "example_fr": "Это большое достижение!", "example_ru": "C'est une grande réussite !", "level": "A2" },
+        { "fr": "прогресс", "gender": "m", "ru": "le progrès", "ru_pron": "pragryés", "example_fr": "Ваш прогресс впечатляет!", "example_ru": "Vos progrès sont impressionnants !", "level": "A2" },
+        { "fr": "уверенность", "gender": "f", "ru": "la confiance / l'assurance", "ru_pron": "ouvyérinnast'", "example_fr": "Говорите с уверенностью!", "example_ru": "Parlez avec confiance !", "level": "A2" },
+        { "fr": "упорство", "gender": "n", "ru": "la persévérance / la ténacité", "ru_pron": "oupórstvo", "example_fr": "Упорство — ключ к успеху.", "example_ru": "La persévérance est la clé du succès.", "level": "A2" },
+        { "fr": "гордость", "gender": "f", "ru": "la fierté", "ru_pron": "górdast'", "example_fr": "Гордитесь своим прогрессом!", "example_ru": "Soyez fier(ère) de vos progrès !", "level": "A2" },
+        { "fr": "знание", "gender": "n", "ru": "la connaissance / le savoir", "ru_pron": "znániye", "example_fr": "Знание — это сила.", "example_ru": "Le savoir, c'est le pouvoir.", "level": "A2" },
+        { "fr": "продолжать", "gender": null, "ru": "continuer", "ru_pron": "pradalját'", "example_fr": "Продолжайте учить русский!", "example_ru": "Continuez à apprendre le russe !", "level": "A2" },
+        { "fr": "совершенствоваться", "gender": null, "ru": "se perfectionner / progresser", "ru_pron": "savierchénstvavátsa", "example_fr": "Я хочу совершенствоваться в русском.", "example_ru": "Je veux me perfectionner en russe.", "level": "A2" },
+        { "fr": "беглость", "gender": "f", "ru": "la fluidité / l'aisance (langagière)", "ru_pron": "byéglast'", "example_fr": "Беглость приходит с практикой.", "example_ru": "L'aisance vient avec la pratique.", "level": "A2" },
+        { "fr": "поздравления", "gender": "pl", "ru": "les félicitations", "ru_pron": "pazdravlyéniya", "example_fr": "Поздравления с уровнем A2!", "example_ru": "Félicitations pour le niveau A2 !", "level": "A2" }
+      ],
+      "cognates": [
+        { "fr": "поздравляем", "fr_pron": "pazdravlyáim", "ru": "félicitations (nous félicitons)", "ru_pron": "félicitations", "note": "«Поздравляем» vient de «здоровье» (la santé) — féliciter = souhaiter la santé à quelqu'un. Le mot latin «félicitations» vient de «felix» (heureux). Deux cultures, deux façons de se réjouir du succès des autres." },
+        { "fr": "сертификат", "fr_pron": "siртifikát", "ru": "certificat / diplôme", "ru_pron": "certificat", "note": "«Сертификат» est identique au français «certificat», même origine latine «certificare» (certifier). Les examens officiels de russe s'appellent ТРКИ (Test de Russe Comme Langue Étrangère) — équivalent du DELF pour le français." }
+      ],
+      "cultural": {
+        "bio": { "icon": "👤", "label": "Personnalité", "name": "Vous — l'apprenant(e) courageux(se)", "subtitle": "Celui/celle qui a traversé 9 modules de russe", "content": "C'est vous ! En complétant les 9 modules de RusseFR, vous avez accompli quelque chose que très peu de personnes font : apprendre les bases d'une des langues les plus riches et les plus complexes du monde. Vous avez appris l'alphabet cyrillique, 6 cas grammaticaux, l'aspect verbal, les verbes de mouvement, et vous avez voyagé culturellement à travers toute la Russie. Вы молодцы ! C'est un voyage qui vient de commencer — et les plus belles découvertes vous attendent." },
+        "history": { "icon": "📜", "label": "Fait historique", "title": "Le russe dans le monde — pourquoi continuer ?", "content": "Parler russe ouvre des portes uniques : la Russie est le plus grand pays du monde, avec des ressources naturelles considérables. Le russe est compris dans 15 pays (ex-URSS). La littérature russe (Tolstoï, Dostoïevski, Tchekhov) est incomparablement plus riche lue dans le texte original. Le marché du travail valorise le russe dans la diplomatie, l'énergie, le droit et la cybersécurité. Et surtout : les Russes apprécient profondément tout étranger qui parle leur langue — une clé vers des amitiés authentiques." },
+        "anecdote": { "icon": "🎭", "label": "Anecdote culturelle", "title": "«Молодец !» — le compliment que vous méritez", "content": "«Молодец !» (bravo ! bien joué !) est le compliment le plus chaleureux en russe. Vous l'avez rencontré dès la leçon 10 du Module 1. Maintenant, à la fin du Module 9, vous pouvez l'appliquer à vous-même : МОЛОДЦЫ ! Vous avez traversé 90 leçons, appris plus de 400 mots, maîtrisé 6 cas, l'aspect verbal et des dizaines d'expressions. La prochaine étape ? Parler avec de vrais Russes — dans les cafés, en ligne, ou en Russie. Дорогу осилит идущий ! (C'est en marchant qu'on fait son chemin !)" },
+        "expression": { "icon": "💬", "label": "Expression du jour", "phrase": "Конец — делу венец.", "pronunciation": "Kanyéts — dyélu vyenyéts", "translation": "La fin couronne l'œuvre. / Tout est bien qui finit bien.", "usage": "Proverbe russe sur l'accomplissement d'une tâche. «Конец» = la fin, «венец» = la couronne. La fin d'un travail bien fait est sa couronne — sa récompense ultime. Idéal pour célébrer la fin d'un apprentissage ou d'un projet. Et pour vous, apprenant(e) de russe : Конец — делу венец ! Vous avez terminé !", "example": "— Я наконец закончил все модули! — Конец — делу венец! Поздравляю! (J'ai enfin terminé tous les modules ! — La fin couronne l'œuvre ! Félicitations !)" },
+        "destination": { "icon": "✈️", "label": "Destination", "place": "La Russie — Votre prochaine aventure", "subtitle": "Россия ждёт вас! — La Russie vous attend !", "content": "Vous avez maintenant les outils pour voyager en Russie ! Voici vos destinations de rêve : Moscou (Красная площадь, Кремль, метро) — Saint-Pétersbourg (Эрмитаж, Мариинский, Белые ночи) — le Lac Baïkal (самое глубокое озеро мира) — le Transsibérien (самый длинный поезд в мире) — l'Anneau d'Or (Золотое кольцо) — la Sibérie et l'Altaï. Avec votre niveau A2, vous pouvez vous débrouiller seul(e). Удачи и счастливого пути ! (Bonne chance et bon voyage !)" }
+      },
+      "quiz": [
+        { "q": "Lequel de ces cas exprime le destinataire (à qui) ?", "opts": ["Génitif (родительный)", "Datif (дательный)", "Accusatif (винительный)", "Instrumental (творительный)"], "ans": 1, "exp": "Le datif (дательный падеж) exprime le destinataire — à qui on donne, parle, téléphone. «Я дал книгу Ивану» = j'ai donné le livre à Ivan (Ивану = datif). «Мне нравится» = ça me plaît (мне = datif de я)." },
+        { "q": "Comment dit-on «tout ira bien» en russe ?", "opts": ["Всё хорошо.", "Всё было хорошо.", "Всё будет хорошо.", "Всё станет лучше."], "ans": 2, "exp": "«Всё будет хорошо» = tout ira bien. «Будет» est le futur de «быть» (être) — il réapparaît au futur après avoir disparu au présent. L'expression la plus optimiste et la plus répandue du russe quotidien." },
+        { "q": "Quelle est la différence entre perfectif et imperfectif ?", "opts": ["Le perfectif est au passé, l'imperfectif au présent.", "Le perfectif exprime une action achevée/résultat, l'imperfectif une action en cours/habitude.", "Il n'y a pas de différence pratique.", "L'imperfectif est plus formel."], "ans": 1, "exp": "L'aspect perfectif = action accomplie, résultat obtenu (прочитал = j'ai fini de lire). L'aspect imperfectif = processus, habitude, action en cours (читал = je lisais / je lisais souvent). C'est LA distinction grammaticale la plus importante du russe." },
+        { "q": "Comment dit-on «félicitations» en russe ?", "opts": ["Молодец!", "Спасибо!", "Поздравляем!", "Отлично!"], "ans": 2, "exp": "«Поздравляем !» = félicitations ! (nous vous félicitons). Pour une personne : «Поздравляю !». «Молодец» = bravo / bien joué (plus informel et chaleureux). «Отлично» = excellent." },
+        { "q": "«Дорогу осилит идущий» — que signifie ce proverbe ?", "opts": ["La route est dangereuse.", "C'est en marchant qu'on fait son chemin.", "Il faut de l'argent pour voyager.", "Le chemin le plus long est le meilleur."], "ans": 1, "exp": "«Дорогу осилит идущий» = c'est en marchant qu'on fait son chemin (la route est surmontée par celui qui marche). Proverbe rencontré au Module 1 — vous avez fait ce chemin ! C'est votre victoire, apprenant(e) de russe !" }
+      ]
+    }
+  ]
+}
